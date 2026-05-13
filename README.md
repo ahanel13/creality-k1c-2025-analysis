@@ -2,7 +2,7 @@
 
 Reverse-engineering project to restore root access to the **Creality K1C 2025** 3D printer. Creality removed the root-unlock capability present on earlier K1/K1 Max models. This is research on a personally-owned device.
 
-**Current status: root SSH access confirmed working on firmware V1.0.0.26.20251024S.**
+> **DISCLAIMER: Everything in this repository is theoretical and untested. All techniques, exploits, patches, and procedures described here are based on static analysis and reverse engineering only. None of this has been verified to work on real hardware. Attempting any of this on your own device is entirely at your own risk. The authors take no responsibility for bricked printers, voided warranties, or any other damage.**
 
 ---
 
