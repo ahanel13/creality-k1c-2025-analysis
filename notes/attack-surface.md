@@ -126,21 +126,35 @@ pip install pyelftools  # already installed
 python3 tools/patch_soc_security.py
 ```
 
-**New blocker found 2026-05-13 — MODULE_FLAG_PERMANENT:**
-`soc_security.ko` sets `MODULE_FLAG_PERMANENT` in its init code. `rmmod` returns
-`EBUSY` even with refcount=0. `rmmod -f` also blocked (permanent check is prior to
-force-unload path in kernel). Options to work around:
-1. Build a helper `.ko` that calls `find_module("soc_security")` and clears the flag
-2. Investigate Option B (self-sign using original module — eFuse passes on production)
+**MODULE_FLAG_PERMANENT blocker (2026-05-13):**
+`soc_security.ko` loads with `[permanent]` flag. `rmmod` and `rmmod -f` both return
+EBUSY. BSS is in vmalloc space — not reachable via `/dev/mem`. `/dev/kmem` absent.
+Options: (a) build a helper `.ko` that clears the flag via `find_module()`, or
+(b) use Option B (self-sign on original module). Neither attempted yet.
 
-**New findings on SC_CMD_VERIFY input format (2026-05-13):**
-- Input buffer is 2048 bytes (not 15KB as previously believed)
-- RSA modulus is at input[0x300], NOT input[0x3900] (those were MMIO offsets)
-- RSA signature is at input[0x500], NOT input[0x3b00]
-- input[0x200] is a physical RAM address for AES DMA — must be valid or AES hangs
-- mmcblk0p1 is the SCBT signature partition (starts with `SCBThsqs`)
-- `/dev/sc` enforces exclusive single-opener via BSS flag; stuck ioctl requires reboot
-- eFuse bits ARE burned on this production unit (confirmed — eFuse check passes)
+**SC_CMD_VERIFY deep dive findings (2026-05-13):**
+- Input buffer: 2048 bytes (not 15KB). Kernel copies 0x800 bytes via copy_from_user.
+- RSA modulus at input[0x300] → MMIO+0x3900. RSA signature at input[0x500] → MMIO+0x3b00.
+- RSA return value is **discarded** at text+0x1614 (confirmed by disassembly).
+  Post-RSA check at text+0x1624 is a userspace pointer validity check, not RSA result check.
+- eFuse bits 21/22/23 ARE burned on this unit (eFuse check passes in original module).
+- input[0x200] = physical RAM address of the AES input data. This is a **transient**
+  boot-time address — cmd_sc allocates, fills, and frees this buffer per-run.
+  The address in on-disk mmcblk0p1 (0x05ce1000) is NOT valid after boot completes
+  (confirmed: `/dev/mem` read shows garbage, not squashfs data).
+- AES transfer size is read from WITHIN the data at input[0x200] (from the squashfs
+  header's `bytes_used` field ≈ 97MB), NOT from input[0x208]=0x800. Providing a small
+  page causes the PDMA to read adjacent physical pages for minutes.
+- `/dev/sc` exclusive single-opener via BSS+0x1028. Stuck AES PDMA (tight R-state spin
+  loop) survives kill -9. Reboot required to recover. Process shows R not D state.
+
+**Option B current status:** RSA bypass confirmed in principle (return discarded,
+modulus caller-supplied). Blocked on providing a valid live physical address + data
+for the AES DMA. Two unblocking paths:
+1. LD_PRELOAD intercept on cmd_sc at boot to capture live ioctl args
+2. Build helper .ko to clear MODULE_FLAG_PERMANENT → load sc_patched.ko → skip AES issue entirely
+
+See `notes/soc-security-analysis.md` for full details.
 
 **Note on permission file (from binary analysis):** vectorp's root UI is a stub — it sets a flag in JSON config but the cloud API endpoint for receiving the signed permission file was removed by Creality for the 2025 revision. The `check_login_permission()` logic in `seed.sh` still works but requires a forged permission file (needs soc_security.ko bypass). SSH key auth via S999persistence already bypasses this entirely.
 

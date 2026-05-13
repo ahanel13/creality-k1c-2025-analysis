@@ -116,15 +116,30 @@ After `jalr $v0` (RSA call), the return value in `$v0` is immediately overwritte
 check** on the output buffer `$s0`, NOT a check on the RSA result.
 
 **Implication for Option B (self-signing without module patch):**
-On a production printer with burned eFuse, the original unpatched module can be used
-to verify self-signed packages:
-1. Generate your own RSA-2048 keypair
-2. Load firmware image into a physical RAM buffer (physical address needed)
-3. Fill SCBT input buffer: modulus at input[0x300], signature at input[0x500], physical address at input[0x200]
-4. Call SC_CMD_VERIFY ioctl directly — RSA result is discarded, eFuse passes naturally
+On a production printer with burned eFuse, the RSA bypass is theoretically viable:
+- eFuse check passes naturally (bits are burned)
+- RSA return value is discarded (confirmed by disassembly at text+0x1614)
+- RSA modulus at input[0x300] is caller-supplied
 
-The main open question is how to obtain/provide the physical RAM address for
-the DMA step. cmd_sc handles this internally via some pre-loading mechanism.
+However, Option B is **currently blocked** on the AES DMA step:
+
+The AES engine reads the actual firmware data from a **physical RAM address** supplied
+at input[0x200]. This address points to cmd_sc's working buffer (the loaded squashfs).
+cmd_sc fills this buffer at boot and frees it after the ioctl completes. The address
+in on-disk mmcblk0p1 is not reusable after boot.
+
+Providing our own physical page with test data causes the AES PDMA to read the
+squashfs header's `bytes_used` field (~97MB) as the transfer size and spin for
+minutes reading adjacent physical memory.
+
+**To fully confirm Option B, need one of:**
+1. Intercept cmd_sc's live ioctl args (LD_PRELOAD on cmd_sc at boot) to see the
+   exact data at input[0x200] and test RSA key substitution there
+2. Build helper .ko to clear MODULE_FLAG_PERMANENT → load sc_patched.ko → test with
+   cmd_sc normally (bypasses the AES physical address problem entirely)
+
+Option 2 (helper .ko + sc_patched.ko) is probably the faster path since it avoids
+the AES physical address complexity altogether.
 
 ---
 

@@ -132,25 +132,70 @@ the signature from mmcblk0p1 and the physical address of the loaded image, then 
 SC_CMD_VERIFY. The SCBT block on mmcblk0p1 starts with `SCBThsqs` (SCBT magic
 followed immediately by the squashfs header bytes).
 
-**AES DMA caveat:** `input[0x200]` must be a valid physical RAM address where the
-firmware image has been DMA-loaded. Providing zero or an invalid address causes the
-AES PDMA busy-wait loop to spin forever (uninterruptible D-state hang). Power cycle
-required to recover.
+**AES DMA physical address lifecycle (CRITICAL — 2026-05-13):**
+
+`input[0x200]` is a **physical RAM address** pointing to the encrypted firmware image
+that the AES PDMA engine will process. This address is NOT static — it is the address
+of a temporary buffer that cmd_sc allocates, fills, and frees within a single run.
+
+Confirmed by direct `/dev/mem` read: after a fresh boot, physical `0x05ce1000` (the
+address stored in mmcblk0p1) no longer contains squashfs data. It contained `nhd\xff`
+garbage — the memory was freed and repurposed after cmd_sc completed at boot.
+
+**What cmd_sc does at boot:**
+1. Allocates a working buffer in kernel or userspace memory (physically contiguous)
+2. Reads mmcblk0p7 (encrypted squashfs) into that buffer
+3. Reads the SCBT header from mmcblk0p1
+4. Fills `input[0x200]` with the current physical address of the buffer
+5. Calls SC_CMD_VERIFY ioctl
+6. After ioctl returns, frees the buffer
+
+The physical address in the on-disk mmcblk0p1 is only valid at the moment cmd_sc
+populated it at that boot. It is **not reusable** from a later shell session.
+
+**AES DMA hang conditions:**
+- Providing zero or an invalid address → PDMA spins forever → D-state hang → reboot required
+- Providing a page-aligned address with wrong data (e.g. zeros or wrong-sized data) →
+  PDMA reads a size field from WITHIN the data at that address (from the squashfs header),
+  determines it needs to process ~90MB, and DMA-reads across dozens of physical pages
+  for minutes. Not a clean hang but effectively a timeout (eventually completes or hangs).
+- Providing a page-aligned address with real squashfs header data (4096 bytes) but the
+  squashfs header encodes `bytes_used` ≈ 97MB → PDMA attempts to read 97MB sequentially
+  from that physical address onward → reads through adjacent pages for minutes.
+
+**Conclusion:** `input[0x208] = 0x800` is NOT the AES transfer size. The AES engine
+reads the transfer size from within the data at `input[0x200]`. To call SC_CMD_VERIFY
+without hanging, you need either:
+1. The actual live buffer address that cmd_sc just set up (intercept mid-execution), OR
+2. Provide exactly the data that cmd_sc would provide (requires understanding the full
+   encryption chain including the hardware AES key)
 
 **Observed real values from mmcblk0p1:**
 ```
 input[0x000] = 0x54424353 ("SCBT")
-input[0x200] = 0x05ce1000  ← physical RAM address of loaded squashfs
-input[0x208] = 0x00000800  ← size
-input[0x300..0x3ff] = RSA-2048 modulus (Creality's public key)
-input[0x4fc] = 0x00010001  ← e = 65537
-input[0x500..0x5ff] = RSA signature
+input[0x004..0x1ff] = first 0x1fc bytes of squashfs (starts with "hsqs")
+input[0x200] = 0x05ce1000  ← physical RAM addr of loaded squashfs (BOOT-TIME ONLY)
+input[0x204] = 0x00000000
+input[0x208] = 0x00000800  ← NOT the AES transfer size (see above)
+input[0x20c] = 0x00000800
+input[0x210] = 0x00000000  ← AES DMA output dest (0 = internal MMIO buffer)
+input[0x300..0x3ff] = RSA-2048 modulus (Creality's public key) ← CALLER SUPPLIED
+input[0x4fc] = 0x00010001  ← RSA public exponent e = 65537
+input[0x500..0x5ff] = RSA signature ← CALLER SUPPLIED
 ```
 
-**sc_open exclusive lock:** `/dev/sc` enforces single-opener via BSS+0x1028 flag.
-sc_open returns -EPERM if already open. sc_release clears the flag. If a process
-hangs inside an ioctl (e.g. stuck AES DMA), the fd cannot be recovered without
-a reboot.
+**sc_open exclusive lock:**
+`/dev/sc` enforces single-opener via BSS+0x1028 flag (sc_open returns -EPERM if set).
+sc_release clears it. If a process hangs inside an ioctl (AES PDMA spin), it shows as
+R state (tight poll loop in kernel), NOT D state. kill -9 may not work. Reboot required.
+fuser/proc/fd listing may miss the open fd during the kernel spin (timing issue).
+
+**Two paths to unblock Option B:**
+1. **LD_PRELOAD intercept on cmd_sc** — wrap ioctl() to log the live input buffer
+   at the moment cmd_sc calls SC_CMD_VERIFY at boot. Captures the real physical address
+   and data in use. Requires cmd_sc to be dynamically linked (needs investigation).
+2. **Build helper .ko** — clear MODULE_FLAG_PERMANENT, load sc_patched.ko, test with
+   cmd_sc normally. See MODULE_FLAG_PERMANENT section below.
 
 ---
 
