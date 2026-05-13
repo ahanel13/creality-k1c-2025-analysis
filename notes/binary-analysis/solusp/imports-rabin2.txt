@@ -1,0 +1,308 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x004087f8 GLOBAL FUNC       lws_client_connect_via_info
+2   0x00408808 GLOBAL FUNC       sym.imp.std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char&)
+3   0x00408818 GLOBAL FUNC       sym.imp.std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
+5   0x00408828 GLOBAL FUNC       sym.imp.std::basic_ifstream<char, std::char_traits<char> >::~basic_ifstream()
+7   0x00408838 GLOBAL FUNC       sym.imp.std::__throw_out_of_range_fmt(char const*, ...)
+9   0x00408848 GLOBAL FUNC       sym.imp.std::__throw_logic_error(char const*)
+10  0x0046f600 GLOBAL FUNC       __libc_start_main
+11  0x00408868 GLOBAL FUNC       __cxa_begin_catch
+12  0x00408878 GLOBAL FUNC       sym.imp.cv::cvtColor(cv::_InputArray const&, cv::_OutputArray const&, int, int)
+15  0x00408888 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned int, unsigned int, char const*, unsigned int)
+16  0x00408898 GLOBAL FUNC       __udivdi3
+17  0x004088a8 GLOBAL FUNC       sym.imp.Json::Value::toStyledString[abi:cxx11]() const
+18  0x004088b8 GLOBAL FUNC       sym.imp.std::__throw_bad_alloc()
+19  0x004088c8 GLOBAL FUNC       sym.imp.operator new[](unsigned int)
+21  0x004088d8 GLOBAL FUNC       __isoc99_sscanf
+26  0x004088e8 GLOBAL FUNC       lws_callback_on_writable
+28  0x004088f8 GLOBAL FUNC       v4l2_h264_decoder_close
+30  0x00000000 WEAK   NOTYPE     _ITM_deregisterTMCloneTable
+36  0x00408908 GLOBAL FUNC       tcsetattr
+37  0x00408918 GLOBAL FUNC       udev_device_get_parent_with_subsystem_devtype
+38  0x00408928 GLOBAL FUNC       udev_enumerate_add_match_subsystem
+39  0x00408938 GLOBAL FUNC       pthread_mutex_lock
+40  0x00408948 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char const*, unsigned int, unsigned int) const
+41  0x00408958 GLOBAL FUNC       sym.imp.std::__throw_invalid_argument(char const*)
+43  0x00408968 GLOBAL FUNC       cfsetospeed
+46  0x00408978 GLOBAL FUNC       sym.imp.std::_Sp_locker::_Sp_locker(void const*)
+48  0x00408988 GLOBAL FUNC       sym.imp.cv::CommandLineParser::CommandLineParser(int, char const* const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+51  0x00408998 GLOBAL FUNC       sym.imp.JsonValue::operator=(JsonValue&&)
+54  0x004089a8 GLOBAL FUNC       exit
+55  0x004089b8 GLOBAL FUNC       lws_write
+57  0x004089c8 GLOBAL FUNC       sym.imp.std::basic_filebuf<char, std::char_traits<char> >::close()
+59  0x004089d8 GLOBAL FUNC       sym.imp.Json::CharReaderBuilder::newCharReader() const
+60  0x004089e8 GLOBAL FUNC       close
+62  0x004089f8 GLOBAL FUNC       sym.imp.Json::Value::~Value()
+63  0x00408a08 GLOBAL FUNC       memcpy
+65  0x00408a18 GLOBAL FUNC       memmove
+67  0x00408a28 GLOBAL FUNC       strncpy
+68  0x00408a38 GLOBAL FUNC       udev_new
+69  0x00408a48 GLOBAL FUNC       sym.imp.Log::Error(char const*, int, char const*, ...)
+72  0x00408a58 GLOBAL FUNC       sym.imp.cv::Mat::Mat()
+73  0x00408a68 GLOBAL FUNC       lws_create_context
+74  0x00408a78 GLOBAL FUNC       lws_ring_get_element
+75  0x00408a88 GLOBAL FUNC       fgets
+77  0x00408a98 GLOBAL FUNC       sym.imp.std::runtime_error::runtime_error(char const*)
+78  0x00408aa8 GLOBAL FUNC       sym.imp.cv::Mat::Mat(int, int, int, void*, unsigned int)
+83  0x0046f860 GLOBAL FUNC       isspace
+84  0x00408ac8 GLOBAL FUNC       open
+86  0x00408ad8 GLOBAL FUNC       sym.imp.cv::Mat::operator=(cv::Mat&&)
+87  0x00408ae8 GLOBAL FUNC       sym.imp.Json::Value::begin() const
+88  0x00408af8 GLOBAL FUNC       usleep
+89  0x00408b08 GLOBAL FUNC       sym.imp.std::__throw_regex_error(std::regex_constants::error_type)
+90  0x00408b18 GLOBAL FUNC       sym.imp.std::__cxx11::collate<char> const& std::use_facet<std::__cxx11::collate<char> >(std::locale const&)
+91  0x00408b28 GLOBAL FUNC       sym.imp.Json::Value::isString() const
+92  0x00408b38 GLOBAL FUNC       sym.imp.std::thread::join()
+93  0x00408b48 GLOBAL FUNC       sym.imp.cv::Mat::~Mat()
+94  0x00408b58 GLOBAL FUNC       pthread_mutex_init
+96  0x00408b68 GLOBAL FUNC       sym.imp.cv2d::deleteFilesbyDirs(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+98  0x00408b78 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::replace(unsigned int, unsigned int, char const*, unsigned int)
+99  0x00408b88 GLOBAL FUNC       sym.imp.Json::operator<<(std::ostream&, Json::Value const&)
+102 0x00408b98 GLOBAL FUNC       sym.imp.std::ostream::operator<<(int)
+104 0x00408ba8 GLOBAL FUNC       lws_ring_update_oldest_tail
+105 0x00408bb8 GLOBAL FUNC       sym.imp.std::__throw_bad_cast()
+109 0x00408bc8 GLOBAL FUNC       __cxa_bad_cast
+110 0x00408bd8 GLOBAL FUNC       gettimeofday
+111 0x00408be8 GLOBAL FUNC       lws_ring_insert
+112 0x00408bf8 GLOBAL FUNC       lws_service
+113 0x00408c08 GLOBAL FUNC       __cxa_guard_acquire
+115 0x00408c18 GLOBAL FUNC       __fxstat
+116 0x00408c28 GLOBAL FUNC       sym.imp.AI_Engine::getVersion[abi:cxx11]()
+117 0x00408c38 GLOBAL FUNC       sym.imp.Log::Warn(char const*, int, char const*, ...)
+120 0x00408c48 GLOBAL FUNC       sym.imp.std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
+121 0x00408c58 GLOBAL FUNC       sym.imp.operator delete[](void*)
+123 0x00408c68 GLOBAL FUNC       udev_unref
+124 0x00408c78 GLOBAL FUNC       shm_unlink
+125 0x00408c88 GLOBAL FUNC       sym.imp.JsonValue::JsonValue(JsonValue&&)
+126 0x00408c98 GLOBAL FUNC       fclose
+130 0x00408ca8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()
+132 0x00408cb8 GLOBAL FUNC       sym.imp.Json::StreamWriterBuilder::StreamWriterBuilder()
+134 0x00408cc8 GLOBAL FUNC       __cxa_allocate_exception
+135 0x00408cd8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::reserve(unsigned int)
+136 0x00408ce8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const
+138 0x00408cf8 GLOBAL FUNC       SHA256_Final
+139 0x00408d08 GLOBAL FUNC       sym.imp.std::thread::_State::~_State()
+141 0x00408d18 GLOBAL FUNC       sym.imp.Json::Value::Value(Json::Value const&)
+142 0x00408d28 GLOBAL FUNC       sym.imp.std::__throw_system_error(int)
+143 0x00408d38 GLOBAL FUNC       __cxa_guard_abort
+145 0x00408d48 GLOBAL FUNC       sym.imp.Json::ValueIteratorBase::increment()
+147 0x00408d58 GLOBAL FUNC       sym.imp.std::ctype<char> const& std::use_facet<std::ctype<char> >(std::locale const&)
+148 0x00408d68 GLOBAL FUNC       mmap
+149 0x00408d78 GLOBAL FUNC       sym.imp.cv::Mat::Mat(int, int, int)
+151 0x00408d88 GLOBAL FUNC       sym.imp.Json::Value::operator=(Json::Value const&)
+152 0x00408d98 GLOBAL FUNC       sym.imp.std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::basic_stringstream(std::_Ios_Openmode)
+154 0x0046fb50 GLOBAL FUNC       strtod
+157 0x00408db8 GLOBAL FUNC       sym.imp.Json::Value::operator[](char const*) const
+158 0x00408dc8 GLOBAL FUNC       udev_device_new_from_syspath
+160 0x00408dd8 GLOBAL FUNC       strlen
+162 0x00408de8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::basic_istringstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode)
+164 0x00408df8 GLOBAL FUNC       getrusage
+165 0x00408e08 GLOBAL FUNC       sym.imp.std::ctype<char>::_M_widen_init() const
+166 0x00408e18 GLOBAL FUNC       sym.imp.AI_Engine::updateFlowPAFile(FlowParameters&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+167 0x00408e28 GLOBAL FUNC       sym.imp.std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+168 0x00408e38 GLOBAL FUNC       __divdi3
+169 0x00408e48 GLOBAL FUNC       sym.imp.Json::writeString[abi:cxx11](Json::StreamWriter::Factory const&, Json::Value const&)
+170 0x00408e58 GLOBAL FUNC       udev_enumerate_unref
+173 0x00408e68 GLOBAL FUNC       v4l2_h264_decoder_work
+175 0x00408e78 GLOBAL FUNC       sym.imp.std::ostream::flush()
+176 0x00408e88 GLOBAL FUNC       lws_cancel_service
+178 0x00408e98 GLOBAL FUNC       sym.imp.cv2d::createDirectories(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+179 0x00408ea8 GLOBAL FUNC       sym.imp.std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long)
+184 0x00408eb8 GLOBAL FUNC       sym.imp.std::__basic_file<char>::~__basic_file()
+186 0x00408ec8 GLOBAL FUNC       sym.imp.Json::Value::isMember(char const*) const
+187 0x00408ed8 GLOBAL FUNC       sym.imp.std::locale::operator=(std::locale const&)
+188 0x00408ee8 GLOBAL FUNC       sym.imp.Log::Info(char const*, int, char const*, ...)
+189 0x00408ef8 GLOBAL FUNC       printf
+191 0x00408f08 GLOBAL FUNC       sym.imp.Json::Value::Value(Json::ValueType)
+192 0x00408f18 GLOBAL FUNC       sym.imp.operator delete(void*)
+194 0x00408f28 GLOBAL FUNC       sym.imp.std::ostream::put(char)
+196 0x00408f38 GLOBAL FUNC       sym.imp.Json::Value::asInt() const
+197 0x00408f48 GLOBAL FUNC       sym.imp.std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()
+198 0x0046fd00 WEAK   FUNC       __pthread_key_create
+201 0x00408f68 GLOBAL FUNC       nalu_buf_read_tail
+202 0x00408f78 GLOBAL FUNC       udev_device_unref
+203 0x00408f88 GLOBAL FUNC       __cxa_guard_release
+205 0x00408f98 GLOBAL FUNC       sym.imp.Json::ValueIteratorBase::deref() const
+206 0x00408fa8 GLOBAL FUNC       sym.imp.Json::CharReaderBuilder::CharReaderBuilder()
+207 0x0046fd60 GLOBAL FUNC       strtof
+209 0x00408fc8 GLOBAL FUNC       lws_sul_cancel
+212 0x00408fd8 GLOBAL FUNC       sym.imp.Json::Value::end() const
+213 0x00408fe8 GLOBAL FUNC       sym.imp.JsonValue::update(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+214 0x00408ff8 GLOBAL FUNC       sym.imp.operator new(unsigned int)
+215 0x00409008 GLOBAL FUNC       sym.imp.cv::Mat::empty() const
+217 0x00409018 GLOBAL FUNC       munmap
+218 0x00409028 GLOBAL FUNC       snprintf
+219 0x00409038 GLOBAL FUNC       sym.imp.cv::imwrite(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&, std::vector<int, std::allocator<int> > const&)
+220 0x00409048 GLOBAL FUNC       sym.imp.std::istream& std::istream::_M_extract<double>(double&)
+222 0x00409058 GLOBAL FUNC       sym.imp.std::__throw_length_error(char const*)
+225 0x00409068 GLOBAL FUNC       sym.imp.std::__throw_out_of_range(char const*)
+226 0x00409078 GLOBAL FUNC       sym.imp.AI_Engine::updateFlowEmFile(FlowEmParameters&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+227 0x00409088 GLOBAL FUNC       lws_set_timeout
+229 0x00409098 GLOBAL FUNC       __cxa_throw
+232 0x004090a8 GLOBAL FUNC       lws_ring_get_count_free_elements
+233 0x004090b8 GLOBAL FUNC       isalnum
+235 0x004090c8 GLOBAL FUNC       clock_gettime
+237 0x004090d8 GLOBAL FUNC       sym.imp.cv::CommandLineParser::printMessage() const
+240 0x004090e8 GLOBAL FUNC       sym.imp.Log::Pop[abi:cxx11]()
+244 0x004090f8 GLOBAL FUNC       _Unwind_Resume
+246 0x00409108 GLOBAL FUNC       strcmp
+247 0x0046fec0 GLOBAL FUNC       sym.imp.std::ios_base::Init::~Init()
+248 0x00409128 GLOBAL FUNC       udev_list_entry_get_next
+251 0x00409138 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(char const*)
+252 0x00409148 GLOBAL FUNC       lws_set_log_level
+254 0x00409158 GLOBAL FUNC       sym.imp.cv::CommandLineParser::~CommandLineParser()
+255 0x00409168 GLOBAL FUNC       memcmp
+258 0x00409178 GLOBAL FUNC       lws_ring_consume
+261 0x00409188 GLOBAL FUNC       sem_post
+263 0x00409198 GLOBAL FUNC       memset
+264 0x004091a8 GLOBAL FUNC       sym.imp.std::istream& std::istream::_M_extract<long>(long&)
+270 0x004091b8 GLOBAL FUNC       sem_trywait
+271 0x004091c8 GLOBAL FUNC       sym.imp.Log::Debug(char const*, int, char const*, ...)
+272 0x004091d8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_aux(unsigned int, unsigned int, unsigned int, char)
+274 0x004091e8 GLOBAL FUNC       sym.imp.std::condition_variable::~condition_variable()
+278 0x004091f8 GLOBAL FUNC       sym.imp.Json::Value::asDouble() const
+279 0x00409208 GLOBAL FUNC       sym.imp.std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned int, unsigned int, unsigned int) const
+281 0x00409218 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned int&, unsigned int)
+284 0x00409228 GLOBAL FUNC       sym.imp.std::ios_base::~ios_base()
+286 0x00409238 GLOBAL FUNC       strchr
+287 0x00409248 GLOBAL FUNC       sym.imp.std::chrono::_V2::system_clock::now()
+288 0x00409258 GLOBAL FUNC       __errno_location
+289 0x00409268 GLOBAL FUNC       sym.imp.AI_Engine::~AI_Engine()
+292 0x00409278 GLOBAL FUNC       v4l2_h264_decoder_open
+293 0x00409288 GLOBAL FUNC       udev_device_get_sysattr_value
+295 0x00409298 GLOBAL FUNC       sym.imp.std::locale::locale(std::locale const&)
+296 0x004092a8 GLOBAL FUNC       fcntl
+298 0x004092b8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find_last_not_of(char const*, unsigned int, unsigned int) const
+299 0x004092c8 GLOBAL FUNC       MD5
+300 0x004092d8 GLOBAL FUNC       tcflush
+304 0x00470090 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+306 0x004092f8 GLOBAL FUNC       sym.imp.std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)())
+307 0x004700b0 GLOBAL FUNC       vsnprintf
+308 0x00409318 GLOBAL FUNC       sym.imp.std::ostream& std::ostream::_M_insert<double>(double)
+309 0x00409328 GLOBAL FUNC       nalu_buf_write
+313 0x00409338 GLOBAL FUNC       __cxa_end_catch
+314 0x00409348 GLOBAL FUNC       sym.imp.Json::Value::Value(int)
+316 0x00470100 GLOBAL FUNC       strtol
+317 0x00409368 GLOBAL FUNC       sym.imp.std::locale::locale()
+319 0x00409378 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, int)
+321 0x00409388 GLOBAL FUNC       sym.imp.cv::CommandLineParser::getByName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, cv::Param, void*) const
+323 0x00409398 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find_first_not_of(char const*, unsigned int, unsigned int) const
+324 0x004093a8 GLOBAL FUNC       sym.imp.Json::ValueIteratorBase::isEqual(Json::ValueIteratorBase const&) const
+328 0x004093b8 GLOBAL FUNC       sym.imp.std::_Sp_locker::~_Sp_locker()
+330 0x004093c8 GLOBAL FUNC       __cxa_rethrow
+331 0x004093d8 GLOBAL FUNC       sym.imp.cv::imdecode(cv::_InputArray const&, int)
+332 0x004093e8 WEAK   FUNC       pthread_cond_timedwait
+333 0x004093f8 GLOBAL FUNC       free
+337 0x00409408 GLOBAL FUNC       sem_timedwait
+341 0x00409418 GLOBAL FUNC       popen
+343 0x00409428 GLOBAL FUNC       shm_open
+348 0x00409438 GLOBAL FUNC       sym.imp.Json::CharReaderBuilder::~CharReaderBuilder()
+349 0x00409448 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned int, char)
+353 0x00470200 GLOBAL FUNC       sym.imp.std::runtime_error::~runtime_error()
+354 0x00409468 GLOBAL FUNC       sym.imp.std::basic_filebuf<char, std::char_traits<char> >::basic_filebuf()
+356 0x00409478 GLOBAL FUNC       pthread_detach
+359 0x00409488 GLOBAL FUNC       sym.imp.std::condition_variable::condition_variable()
+360 0x00409498 GLOBAL FUNC       sym.imp.AI_Engine::run(AIParams&, AIResults&)
+362 0x004094a8 GLOBAL FUNC       setitimer
+363 0x004094b8 GLOBAL FUNC       nalu_buf_init
+364 0x004094c8 GLOBAL FUNC       sym.imp.cv2d::mergePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+365 0x004094d8 GLOBAL FUNC       __cxa_free_exception
+366 0x004094e8 GLOBAL FUNC       read
+367 0x004094f8 GLOBAL FUNC       sym.imp.Json::Value::operator=(Json::Value&&)
+369 0x00409508 GLOBAL FUNC       sym.imp.JsonValue::read(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, JsonValue&)
+370 0x00409518 GLOBAL FUNC       pthread_mutex_unlock
+371 0x00409528 GLOBAL FUNC       sym.imp.cv::Mat::Mat(cv::Mat&&)
+374 0x00409538 GLOBAL FUNC       __cxa_atexit
+375 0x00409548 GLOBAL FUNC       sym.imp.Json::Value::operator[](int) const
+376 0x00470300 GLOBAL FUNC       pthread_create
+377 0x00409568 GLOBAL FUNC       sym.imp.std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
+378 0x00409578 GLOBAL FUNC       sym.imp.Log::Push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+379 0x00409588 GLOBAL FUNC       __moddi3
+383 0x00409598 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned int, unsigned int, char const*, unsigned int)
+384 0x004095a8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const
+385 0x004095b8 GLOBAL FUNC       sym.imp.AI_Engine::init(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+387 0x004095c8 GLOBAL FUNC       sym.imp.std::basic_filebuf<char, std::char_traits<char> >::~basic_filebuf()
+388 0x004095d8 GLOBAL FUNC       strcpy
+389 0x004095e8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned int)
+390 0x004095f8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+393 0x00409608 GLOBAL FUNC       sym.imp.Json::Value::isObject() const
+395 0x00409618 GLOBAL FUNC       pthread_self
+400 0x00409628 GLOBAL FUNC       nanosleep
+402 0x00409638 GLOBAL FUNC       v4l2_h264_decoder_work_release
+406 0x00409648 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char, unsigned int) const
+407 0x00409658 GLOBAL FUNC       sym.imp.cv::Mat::clone() const
+411 0x00409668 GLOBAL FUNC       sym.imp.std::condition_variable::notify_all()
+416 0x00409678 GLOBAL FUNC       signal
+419 0x00409688 GLOBAL FUNC       __dynamic_cast
+420 0x00409698 GLOBAL FUNC       sym.imp.std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode)
+421 0x004096a8 GLOBAL FUNC       sym.imp.Json::StreamWriterBuilder::~StreamWriterBuilder()
+424 0x004096b8 GLOBAL FUNC       sym.imp.std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+428 0x004096c8 GLOBAL FUNC       sym.imp.cv::Mat::operator=(cv::Mat const&)
+430 0x004096d8 GLOBAL FUNC       malloc
+432 0x004096e8 GLOBAL FUNC       sym.imp.std::ios_base::ios_base()
+433 0x004096f8 GLOBAL FUNC       sym.imp.std::locale::~locale()
+434 0x00409708 GLOBAL FUNC       tcgetattr
+437 0x00409718 GLOBAL FUNC       sym.imp.Json::Value::asString[abi:cxx11]() const
+438 0x00409728 GLOBAL FUNC       sym.imp.std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+439 0x00409738 GLOBAL FUNC       sym.imp.std::ios_base::Init::Init()
+441 0x00000000 WEAK   NOTYPE     _ITM_registerTMCloneTable
+446 0x00409748 GLOBAL FUNC       sym.imp.std::__basic_file<char>::is_open() const
+447 0x00409758 GLOBAL FUNC       sym.imp.Json::parseFromStream(Json::CharReader::Factory const&, std::istream&, Json::Value*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+448 0x00409768 GLOBAL FUNC       SHA256_Update
+449 0x00409778 GLOBAL FUNC       fopen
+451 0x00409788 GLOBAL FUNC       sym.imp.std::runtime_error::runtime_error(char const*)
+452 0x00409798 GLOBAL FUNC       isatty
+454 0x004097a8 GLOBAL FUNC       sym.imp.JsonValue::operator[](char const*)
+455 0x004097b8 GLOBAL FUNC       sym.imp.AI_Engine::AI_Engine()
+456 0x004097c8 GLOBAL FUNC       lws_sul_schedule
+457 0x004097d8 GLOBAL FUNC       udev_enumerate_get_list_entry
+459 0x004097e8 GLOBAL FUNC       sym.imp.JsonValue::JsonValue(JsonValue const&)
+460 0x004097f8 GLOBAL FUNC       sem_open
+464 0x00409808 GLOBAL FUNC       sym.imp.Json::Value::isArray() const
+465 0x00409818 GLOBAL FUNC       sem_close
+466 0x00409828 GLOBAL FUNC       closedir
+468 0x00409838 GLOBAL FUNC       sym.imp.std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned int, unsigned int)
+470 0x00409848 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::insert(unsigned int, char const*)
+471 0x00409858 GLOBAL FUNC       sym.imp.cv::CommandLineParser::has(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+473 0x00409868 GLOBAL FUNC       write
+474 0x00409878 GLOBAL FUNC       select
+475 0x00409888 GLOBAL FUNC       sym.imp.std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+479 0x00409898 GLOBAL FUNC       sym.imp.cv::flip(cv::_InputArray const&, cv::_OutputArray const&, int)
+481 0x004098a8 GLOBAL FUNC       opendir
+483 0x004098b8 GLOBAL FUNC       sym.imp.AI_Engine::sensorDetect(std::vector<int, std::allocator<int> > const&, SensorDetMode, SensorDetResult&)
+484 0x004098c8 GLOBAL FUNC       readdir
+485 0x004098d8 GLOBAL FUNC       pclose
+490 0x00470690 GLOBAL FUNC       sym.imp.std::regex_error::~regex_error()
+493 0x004098f8 GLOBAL FUNC       sym.imp.std::__throw_bad_function_call()
+494 0x00409908 GLOBAL FUNC       sym.imp.std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
+495 0x00409918 GLOBAL FUNC       sym.imp.std::terminate()
+496 0x00409928 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+497 0x00409938 GLOBAL FUNC       sym.imp.cv::Mat::Mat(cv::Mat const&)
+499 0x00409948 GLOBAL FUNC       nalu_buf_read_unit
+502 0x00409958 GLOBAL FUNC       udev_list_entry_get_name
+504 0x00409968 GLOBAL FUNC       cfsetispeed
+506 0x00409978 GLOBAL FUNC       udev_enumerate_new
+507 0x00409988 GLOBAL FUNC       sym.imp.AI_Engine::sensorDetInit()
+510 0x00409998 GLOBAL FUNC       sym.imp.JsonValue::setValueInternal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, JsonValue const&)
+512 0x004099a8 GLOBAL FUNC       sym.imp.std::locale::id::_M_id() const
+516 0x004099b8 GLOBAL FUNC       v4l2_h264_decoder_get_frame_info
+518 0x004099c8 GLOBAL FUNC       udev_enumerate_scan_devices
+520 0x004099d8 GLOBAL FUNC       lws_ring_create
+521 0x004099e8 GLOBAL FUNC       udev_device_get_devnode
+523 0x004099f8 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::push_back(char)
+524 0x00409a08 GLOBAL FUNC       sym.imp.Json::Value::operator[](char const*)
+525 0x00409a18 GLOBAL FUNC       perror
+527 0x00409a28 GLOBAL FUNC       sym.imp.std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_erase(unsigned int, unsigned int)
+528 0x00409a38 GLOBAL FUNC       pthread_setname_np
+529 0x00409a48 GLOBAL FUNC       sym.imp.Json::Value::Value(char const*)
+534 0x00409a58 GLOBAL FUNC       SHA256_Init
+535 0x00409a68 GLOBAL FUNC       sym.imp.std::istream::operator>>(int&)
+536 0x00409a78 GLOBAL FUNC       sym.imp.std::_Hash_bytes(void const*, unsigned int, unsigned int)
+538 0x00409a88 GLOBAL FUNC       strerror
+539 0x00409a98 GLOBAL FUNC       sym.imp.Json::Value::Value(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+540 0x00000000 WEAK   FUNC       __gmon_start__
+541 0x0040a618 GLOBAL OBJ        sym.imp.typeinfo for std::exception
+542 0x00409b18 GLOBAL FUNC       __gxx_personality_v0
+

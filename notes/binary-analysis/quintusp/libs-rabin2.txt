@@ -1,0 +1,7 @@
+[Linked libraries]
+libcjson.so.1
+librt.so.1
+libpthread.so.0
+libc.so.6
+
+4 libraries

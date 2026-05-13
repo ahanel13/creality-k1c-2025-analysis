@@ -1,0 +1,2347 @@
+[Strings]
+nth  paddr      vaddr      len size section type    string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0    0x0008f4c0 0x0048f4c0 18  19   .rodata ascii   Invalid connection
+1    0x0008f4d4 0x0048f4d4 126 127  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/src/application.c
+2    0x0008f554 0x0048f554 42  43   .rodata ascii   Connection %lu exceeded max send/recv size
+3    0x0008f580 0x0048f580 36  37   .rodata ascii   Listening connection %lu established
+4    0x0008f5a8 0x0048f5a8 31  32   .rodata ascii   Websocket connection %lu closed
+5    0x0008f5c8 0x0048f5c8 22  23   .rodata ascii   Server:Websocket_close
+6    0x0008f5e0 0x0048f5e0 40  41   .rodata ascii   Server is not running, ignoring event %d
+7    0x0008f60c 0x0048f60c 20  21   .rodata ascii   HTTP message is NULL
+8    0x0008f624 0x0048f624 10  11   .rodata ascii   /websocket
+9    0x0008f630 0x0048f630 36  37   .rodata ascii   Websocket connection %lu established
+10   0x0008f658 0x0048f658 7   8    .rodata ascii   OPTIONS
+11   0x0008f660 0x0048f660 195 196  .rodata ascii   Connection: keep-alive\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nAccess-Control-Allow-Credentials: true\r\nAccess-Control-Max-Age: 1728000\r\n
+12   0x0008f728 0x0048f728 57  58   .rodata ascii   content-type: text/json\r\nAccess-Control-Allow-Origin: *\r\n
+13   0x0008f764 0x0048f764 25  26   .rodata ascii   WebSocket message is NULL
+14   0x0008f780 0x0048f780 42  43   .rodata ascii   Received WebSocket client %ld message '%s'
+15   0x0008f7ac 0x0048f7ac 43  44   .rodata ascii   Received HTTP client %ld request '%s' -> %s
+16   0x0008f7d8 0x0048f7d8 25  26   .rodata ascii   Unknown transport type %d
+17   0x0008f7f4 0x0048f7f4 7   8    .rodata ascii   printer
+18   0x0008f7fc 0x0048f7fc 6   7    .rodata ascii   server
+19   0x0008f804 0x0048f804 7   8    .rodata ascii   machine
+20   0x0008f80c 0x0048f80c 6   7    .rodata ascii   access
+21   0x0008f818 0x0048f818 5   6    .rodata ascii   debug
+22   0x0008f820 0x0048f820 17  18   .rodata ascii   Invalid arguments
+23   0x0008f838 0x0048f838 43  44   .rodata ascii   Failed to allocate memory for endpoint main
+24   0x0008f864 0x0048f864 9   10   .rodata ascii   %s.get_%s
+25   0x0008f870 0x0048f870 10  11   .rodata ascii   %s.post_%s
+26   0x0008f87c 0x0048f87c 12  13   .rodata ascii   %s.delete_%s
+27   0x0008f88c 0x0048f88c 19  20   .rodata ascii   Invalid endpoint %s
+28   0x0008f8a0 0x0048f8a0 28  29   .rodata ascii   Failed to create method list
+29   0x0008f8c0 0x0048f8c0 28  29   .rodata ascii   Method %s already registered
+30   0x0008f8e0 0x0048f8e0 32  33   .rodata ascii   Failed to create request handler
+31   0x0008f904 0x0048f904 21  22   .rodata ascii   Registering method %s
+32   0x0008f91c 0x0048f91c 18  19   .rodata ascii   Clearing endpoints
+33   0x0008f930 0x0048f930 16  17   .rodata ascii   Method not found
+34   0x0008f944 0x0048f944 23  24   .rodata ascii   Invalid request handler
+35   0x0008f95c 0x0048f95c 20  21   .rodata ascii   Invalid request type
+36   0x0008f974 0x0048f974 22  23   .rodata ascii   Invalid transport type
+37   0x0008f98c 0x0048f98c 11  12   .rodata ascii   server.info
+38   0x0008f998 0x0048f998 12  13   .rodata ascii   server.test2
+39   0x0008f9a8 0x0048f9a8 12  13   .rodata ascii   server.test3
+40   0x0008f9b8 0x0048f9b8 12  13   .rodata ascii   server.test4
+41   0x0008f9c8 0x0048f9c8 12  13   .rodata ascii   printer.test
+42   0x0008f9e0 0x0048f9e0 29  30   .rodata ascii   section, key or value is null
+43   0x0008fa00 0x0048fa00 127 128  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/src/confighelper.c
+44   0x0008fa80 0x0048fa80 41  42   .rodata ascii   Memory allocation for section_dict failed
+45   0x0008faac 0x0048faac 4   5    .rodata ascii   %.*s
+46   0x0008fab4 0x0048fab4 40  41   .rodata ascii   config, section or section_value is null
+47   0x0008fae0 0x0048fae0 32  33   .rodata ascii   Memory allocation for tmp failed
+48   0x0008fb10 0x0048fb10 19  20   .rodata ascii   current_key is null
+49   0x0008fb24 0x0048fb24 4   20   .rodata utf32le []",
+50   0x0008fb38 0x0048fb38 22  23   .rodata ascii   ig or filename is null
+51   0x0008fb50 0x0048fb50 24  25   .rodata ascii   config file %s not exist
+52   0x0008fb70 0x0048fb70 28  29   .rodata ascii   Error opening config file %s
+53   0x0008fb90 0x0048fb90 5   6    .rodata ascii   #[#]#
+54   0x0008fb98 0x0048fb98 40  41   .rodata ascii   Error allocating memory for section name
+55   0x0008fbc4 0x0048fbc4 34  35   .rodata ascii   Error allocating memory for source
+56   0x0008fbe8 0x0048fbe8 34  35   .rodata ascii   config, server or app_args is null
+57   0x0008fc0c 0x0048fc0c 16  17   .rodata ascii   is_backup_config
+58   0x0008fc20 0x0048fc20 4   5    .rodata ascii   true
+59   0x0008fc28 0x0048fc28 18  19   .rodata ascii   backup_config_path
+60   0x0008fc3c 0x0048fc3c 11  12   .rodata ascii   config_path
+61   0x0008fc48 0x0048fc48 14  15   .rodata ascii   config is null
+62   0x0008fc58 0x0048fc58 25  26   .rodata ascii   config or section is null
+63   0x0008fc74 0x0048fc74 33  34   .rodata ascii   config, section or option is null
+64   0x0008fc98 0x0048fc98 33  34   .rodata ascii   Invalid config, section or option
+65   0x0008fcbc 0x0048fcbc 4   5    .rodata ascii   null
+66   0x0008fcc8 0x0048fcc8 5   6    .rodata ascii   false
+67   0x0008fcd0 0x0048fcd0 25  26   .rodata ascii   Invalid boolean value: %s
+68   0x0008fcf0 0x0048fcf0 36  37   .rodata ascii   Memory allocation for i_value failed
+69   0x0008fd18 0x0048fd18 25  26   .rodata ascii   Invalid integer value: %s
+70   0x0008fd38 0x0048fd38 36  37   .rodata ascii   Memory allocation for d_value failed
+71   0x0008fd60 0x0048fd60 24  25   .rodata ascii   Invalid double value: %s
+72   0x0008fd7c 0x0048fd7c 6   7    .rodata ascii   "%s":{
+73   0x0008fd84 0x0048fd84 8   9    .rodata ascii   "%s":%s,
+74   0x0008fd90 0x0048fd90 10  11   .rodata ascii   "%s":true,
+75   0x0008fd9c 0x0048fd9c 11  12   .rodata ascii   "%s":false,
+76   0x0008fda8 0x0048fda8 4   5    .rodata ascii   none
+77   0x0008fdb0 0x0048fdb0 10  11   .rodata ascii   "%s":null,
+78   0x0008fdbc 0x0048fdbc 8   9    .rodata ascii   "%s":"",
+79   0x0008fdc8 0x0048fdc8 10  11   .rodata ascii   "%s":"%s",
+80   0x0008fdd8 0x0048fdd8 8   9    .rodata ascii   "%s":{},
+81   0x0008fde4 0x0048fde4 35  36   .rodata ascii   Memory allocation for result failed
+82   0x0008fe08 0x0048fe08 32  33   .rodata ascii   Config is null or source is null
+83   0x0008fe2c 0x0048fe2c 35  36   .rodata ascii   Memory allocation for source failed
+84   0x0008fe50 0x0048fe50 8   9    .rodata ascii   "%.*s":{
+85   0x0008fe5c 0x0048fe5c 7   8    .rodata ascii   "%.*s":
+86   0x0008fe64 0x0048fe64 7   8    .rodata ascii   "%.*s",
+87   0x0008fe78 0x0048fe78 29  30   .rodata ascii   "filename":"%s","sections": [
+88   0x0008fe98 0x0048fe98 6   7    .rodata ascii   {%.*s}
+89   0x0008fea0 0x0048fea0 21  22   .rodata ascii   Mutex pointer is NULL
+90   0x0008feb8 0x0048feb8 122 123  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/src/logging.c
+91   0x0008ff34 0x0048ff34 21  22   .rodata ascii   Invalid log level: %d
+92   0x0008ff4c 0x0048ff4c 50  51   .rodata ascii   Log file path not provided; skipping file logging.
+93   0x0008ff84 0x0048ff84 30  31   .rodata ascii   %s Failed to open log file: %s
+94   0x0008ffa8 0x0048ffa8 5   6    .rodata ascii   %s/%s
+95   0x0008ffb0 0x0048ffb0 10  11   .rodata ascii   gzip -f %s
+96   0x0008ffbc 0x0048ffbc 15  16   .rodata ascii   %Y-%m-%d_%H%M%S
+97   0x0008ffcc 0x0048ffcc 5   6    .rodata ascii   %s_%s
+98   0x0008ffe0 0x0048ffe0 30  31   .rodata ascii   Received signal %d, exiting...
+99   0x00090000 0x00490000 119 120  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/src/main.c
+100  0x00090078 0x00490078 38  39   .rodata ascii   Failed to parse command line arguments
+101  0x000900a0 0x004900a0 8   9    .rodata ascii   log_path
+102  0x000900ac 0x004900ac 9   10   .rodata ascii   log_level
+103  0x000900b8 0x004900b8 28  29   .rodata ascii   Failed to initialize logging
+104  0x000900d8 0x004900d8 11  12   .rodata ascii   nexusp-main
+105  0x000900e4 0x004900e4 7   18   .rodata utf8    线程名称：%s blocks=CJK Unified Ideographs,Halfwidth and Fullwidth Forms,Basic Latin
+106  0x000900f8 0x004900f8 28  29   .rodata ascii   Server initialization failed
+107  0x00090118 0x00490118 17  18   .rodata ascii   Server run failed
+108  0x0009012c 0x0049012c 488 489  .rodata ascii   %s v.%s\nUsage: %s [OPTIONS] [ARGS...]\n  -d, --datapath PATH       Set the data path\n  -c, --configfile PATH     Set the configuration file path\n  -l, --logfile PATH        Set the log file path\n  -u, --unixsocket PATH     Set the unix domain socket path\n  -n, --nolog               Disable logging\n  -g, --debug LEVEL         Set debug level (0-5)\n  -h, --help                Show this help message and exit\n\nExamples:\n  ./%s -d /data/path -c /config/path -l /log/path -g 3\n  ./%s --help\n
+109  0x00090318 0x00490318 6   7    .rodata ascii   nexusp
+110  0x00090320 0x00490320 5   6    .rodata ascii   0.1.1
+111  0x00090328 0x00490328 11  12   .rodata ascii   %s/.%s.uuid
+112  0x00090334 0x00490334 39  40   .rodata ascii   Failed to allocate memory for uuid_path
+113  0x00090360 0x00490360 24  25   .rodata ascii   Failed to open UUID file
+114  0x0009037c 0x0049037c 16  17   .rodata ascii   fgets failed: %s
+115  0x00090390 0x00490390 4   5    .rodata ascii   %02x
+116  0x0009039c 0x0049039c 36  37   .rodata ascii   Failed to open UUID file for writing
+117  0x000903c8 0x004903c8 32  33   .rodata ascii   Invalid arguments for parse_argv
+118  0x000903ec 0x004903ec 39  40   .rodata ascii   Failed to allocate memory for data_path
+119  0x00090414 0x00490414 46  47   .rodata ascii   Matched option: --datapath (-d) with value: %s
+120  0x00090444 0x00490444 41  42   .rodata ascii   Failed to allocate memory for config_path
+121  0x00090470 0x00490470 48  49   .rodata ascii   Matched option: --configfile (-c) with value: %s
+122  0x000904a4 0x004904a4 38  39   .rodata ascii   Failed to allocate memory for log_path
+123  0x000904cc 0x004904cc 45  46   .rodata ascii   Matched option: --logfile (-l) with value: %s
+124  0x000904fc 0x004904fc 46  47   .rodata ascii   Failed to allocate memory for unix_socket_path
+125  0x0009052c 0x0049052c 48  49   .rodata ascii   Matched option: --unixsocket (-u) with value: %s
+126  0x00090560 0x00490560 44  45   .rodata ascii   Matched option: --nolog (-n), disabling logs
+127  0x00090590 0x00490590 45  46   .rodata ascii   Invalid debug level. Must be between 0 and 5.
+128  0x000905c0 0x004905c0 43  44   .rodata ascii   Matched option: --debug (-g) with value: %d
+129  0x000905ec 0x004905ec 26  27   .rodata ascii   Unknown option encountered
+130  0x00090608 0x00490608 12  13   .rodata ascii   d:c:l:u:ng:h
+131  0x00090618 0x00490618 23  24   .rodata ascii   Non-option argument: %s
+132  0x00090630 0x00490630 19  20   .rodata ascii   WEBSERVER_DATA_PATH
+133  0x00090644 0x00490644 15  16   .rodata ascii   %s/printer_data
+134  0x00090654 0x00490654 30  31   .rodata ascii   Failed to get user information
+135  0x00090674 0x00490674 21  22   .rodata ascii   WEBSERVER_CONFIG_PATH
+136  0x0009068c 0x0049068c 17  18   .rodata ascii   %s/config/%s.conf
+137  0x000906a0 0x004906a0 18  19   .rodata ascii   WEBSERVER_UDS_PATH
+138  0x000906b4 0x004906b4 16  17   .rodata ascii   %s/comms/%s.sock
+139  0x000906c8 0x004906c8 18  19   .rodata ascii   WEBSERVER_LOG_PATH
+140  0x000906dc 0x004906dc 14  15   .rodata ascii   %s/logs/%s.log
+141  0x000906ec 0x004906ec 8   17   .rodata utf8    数据目录: %s blocks=CJK Unified Ideographs,Basic Latin
+142  0x00090700 0x00490700 42  43   .rodata ascii   Unable to create data path folder at '%s'.
+143  0x0009072c 0x0049072c 9   10   .rodata ascii   data_path
+144  0x00090738 0x00490738 4   5    .rodata ascii   true
+145  0x00090740 0x00490740 5   6    .rodata ascii   false
+146  0x00090748 0x00490748 20  21   .rodata ascii   is_default_data_path
+147  0x00090760 0x00490760 11  12   .rodata ascii   config_path
+148  0x0009076c 0x0049076c 16  17   .rodata ascii   startup_warnings
+149  0x00090784 0x00490784 23  24   .rodata ascii   Invalid UUID length: %d
+150  0x0009079c 0x0049079c 13  14   .rodata ascii   instance_uuid
+151  0x000907ac 0x004907ac 16  17   .rodata ascii   unix_socket_path
+152  0x000907c0 0x004907c0 11  12   .rodata ascii   launch_args
+153  0x000908a8 0x004908a8 8   9    .rodata ascii   datapath
+154  0x000908b4 0x004908b4 10  11   .rodata ascii   configfile
+155  0x000908c0 0x004908c0 7   8    .rodata ascii   logfile
+156  0x000908c8 0x004908c8 10  11   .rodata ascii   unixsocket
+157  0x000908d4 0x004908d4 5   6    .rodata ascii   nolog
+158  0x000908dc 0x004908dc 5   6    .rodata ascii   debug
+159  0x000908e4 0x004908e4 4   5    .rodata ascii   help
+160  0x000908f0 0x004908f0 7   8    .rodata ascii   0.0.0.0
+161  0x000908f8 0x004908f8 4   5    .rodata ascii   7125
+162  0x00090900 0x00490900 26  27   .rodata ascii   Server or app_args is NULL
+163  0x0009091c 0x0049091c 121 122  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/src/server.c
+164  0x00090998 0x00490998 6   7    .rodata ascii   server
+165  0x000909a0 0x004909a0 34  35   .rodata ascii   No section [server] in config file
+166  0x000909c4 0x004909c4 4   5    .rodata ascii   host
+167  0x000909cc 0x004909cc 4   5    .rodata ascii   port
+168  0x000909d4 0x004909d4 9   10   .rodata ascii   data_path
+169  0x000909e0 0x004909e0 13  14   .rodata ascii   max_send_size
+170  0x000909f0 0x004909f0 13  14   .rodata ascii   max_recv_size
+171  0x00090a00 0x00490a00 13  14   .rodata ascii   mem_threshold
+172  0x00090a10 0x00490a10 50  51   .rodata ascii   Memory monitoring is enabled with threshold %lu MB
+173  0x00090a44 0x00490a44 58  59   .rodata ascii   Memory monitor was already working or threshold is too low
+174  0x00090a80 0x00490a80 44  45   .rodata ascii   Failed to allocate memory for server manager
+175  0x00090ab0 0x00490ab0 18  19   .rodata ascii   Server initialized
+176  0x00090ac4 0x00490ac4 11  12   .rodata ascii   server.info
+177  0x00090ad0 0x00490ad0 13  14   .rodata ascii   server.config
+178  0x00090ae0 0x00490ae0 14  15   .rodata ascii   server.restart
+179  0x00090af0 0x00490af0 13  14   .rodata ascii   server.umount
+180  0x00090b00 0x00490b00 26  27   .rodata ascii   server.connection.identify
+181  0x00090b1c 0x00490b1c 12  13   .rodata ascii   server.debug
+182  0x00090b2c 0x00490b2c 19  20   .rodata ascii   server.debug.status
+183  0x00090b40 0x00490b40 19  20   .rodata ascii   server:klippy_ready
+184  0x00090b54 0x00490b54 22  23   .rodata ascii   server:klippy_shutdown
+185  0x00090b6c 0x00490b6c 26  27   .rodata ascii   server:klippy_disconnected
+186  0x00090b88 0x00490b88 21  22   .rodata ascii   server:gcode_response
+187  0x00090ba0 0x00490ba0 14  15   .rodata ascii   Server is NULL
+188  0x00090bb0 0x00490bb0 36  37   .rodata ascii   Failed to allocate memory for Klippy
+189  0x00090bd8 0x00490bd8 6   7    .rodata ascii   klippy
+190  0x00090be0 0x00490be0 23  24   .rodata ascii   Klippy component loaded
+191  0x00090bf8 0x00490bf8 21  22   .rodata ascii   Klippy thread started
+192  0x00090c10 0x00490c10 27  28   .rodata ascii   Failed to initialize Klippy
+193  0x00090c2c 0x00490c2c 23  24   .rodata ascii   server:component_loaded
+194  0x00090c44 0x00490c44 24  25   .rodata ascii   Server components loaded
+195  0x00090c60 0x00490c60 12  13   .rodata ascii   http://%s:%s
+196  0x00090c70 0x00490c70 20  21   .rodata ascii   Failed to create URL
+197  0x00090c88 0x00490c88 20  21   .rodata ascii   Cannot listen on %s.
+198  0x00090ca0 0x00490ca0 16  17   .rodata ascii   %s version : v%s
+199  0x00090cb4 0x00490cb4 5   6    .rodata ascii   0.1.1
+200  0x00090cbc 0x00490cbc 6   7    .rodata ascii   nexusp
+201  0x00090cc4 0x00490cc4 22  23   .rodata ascii   HTTP listener     : %s
+202  0x00090cdc 0x00490cdc 21  22   .rodata ascii   Server cannot be NULL
+203  0x00090cf4 0x00490cf4 23  24   .rodata ascii   Server Shutting down...
+204  0x00090d0c 0x00490d0c 15  16   .rodata ascii   server:shutdown
+205  0x00090d1c 0x00490d1c 26  27   .rodata ascii   Server components unloaded
+206  0x00090d38 0x00490d38 19  20   .rodata ascii   Server config freed
+207  0x00090d4c 0x00490d4c 20  21   .rodata ascii   Server manager freed
+208  0x00090d64 0x00490d64 24  25   .rodata ascii   Server shutdown complete
+209  0x00090d80 0x00490d80 8   9    .rodata ascii   database
+210  0x00090d8c 0x00490d8c 25  26   .rodata ascii   Database component loaded
+211  0x00090da8 0x00490da8 39  40   .rodata ascii   Failed to initialize Database component
+212  0x00090dd0 0x00490dd0 12  13   .rodata ascii   file_manager
+213  0x00090de0 0x00490de0 29  30   .rodata ascii   File Manager component loaded
+214  0x00090e00 0x00490e00 43  44   .rodata ascii   Failed to initialize File Manager component
+215  0x00090e2c 0x00490e2c 13  14   .rodata ascii   authorization
+216  0x00090e3c 0x00490e3c 30  31   .rodata ascii   Authorization component loaded
+217  0x00090e5c 0x00490e5c 44  45   .rodata ascii   Failed to initialize Authorization component
+218  0x00090e8c 0x00490e8c 10  11   .rodata ascii   klippy_api
+219  0x00090e98 0x00490e98 27  28   .rodata ascii   Klippy API component loaded
+220  0x00090eb4 0x00490eb4 41  42   .rodata ascii   Failed to initialize Klippy API component
+221  0x00090ee0 0x00490ee0 7   8    .rodata ascii   machine
+222  0x00090ee8 0x00490ee8 24  25   .rodata ascii   Machine component loaded
+223  0x00090f04 0x00490f04 38  39   .rodata ascii   Failed to initialize Machine component
+224  0x00090f2c 0x00490f2c 10  11   .rodata ascii   data_store
+225  0x00090f38 0x00490f38 27  28   .rodata ascii   Data Store component loaded
+226  0x00090f54 0x00490f54 41  42   .rodata ascii   Failed to initialize Data Store component
+227  0x00090f80 0x00490f80 10  11   .rodata ascii   proc_stats
+228  0x00090f8c 0x00490f8c 27  28   .rodata ascii   Proc Stats component loaded
+229  0x00090fa8 0x00490fa8 41  42   .rodata ascii   Failed to initialize Proc Stats component
+230  0x00090fd4 0x00490fd4 9   10   .rodata ascii   job_state
+231  0x00090fe0 0x00490fe0 26  27   .rodata ascii   Job State component loaded
+232  0x00090ffc 0x00490ffc 40  41   .rodata ascii   Failed to initialize Job State component
+233  0x00091028 0x00491028 9   10   .rodata ascii   job_queue
+234  0x00091034 0x00491034 26  27   .rodata ascii   Job Queue component loaded
+235  0x00091050 0x00491050 40  41   .rodata ascii   Failed to initialize Job Queue component
+236  0x0009107c 0x0049107c 7   8    .rodata ascii   history
+237  0x00091084 0x00491084 24  25   .rodata ascii   History component loaded
+238  0x000910a0 0x004910a0 38  39   .rodata ascii   Failed to initialize History component
+239  0x000910c8 0x004910c8 24  25   .rodata ascii   Database component freed
+240  0x000910e4 0x004910e4 28  29   .rodata ascii   File Manager component freed
+241  0x00091104 0x00491104 29  30   .rodata ascii   Authorization component freed
+242  0x00091124 0x00491124 26  27   .rodata ascii   Klippy API component freed
+243  0x00091140 0x00491140 23  24   .rodata ascii   Machine component freed
+244  0x00091158 0x00491158 26  27   .rodata ascii   Data Store component freed
+245  0x00091174 0x00491174 26  27   .rodata ascii   Proc Stats component freed
+246  0x00091190 0x00491190 25  26   .rodata ascii   Job State component freed
+247  0x000911ac 0x004911ac 25  26   .rodata ascii   Job Queue component freed
+248  0x000911c8 0x004911c8 23  24   .rodata ascii   History component freed
+249  0x000911e0 0x004911e0 22  23   .rodata ascii   Klippy component freed
+250  0x000911f8 0x004911f8 22  23   .rodata ascii   Component %s not found
+251  0x00091210 0x00491210 39  40   .rodata ascii   Server or timer function cannot be NULL
+252  0x00091238 0x00491238 20  21   .rodata ascii   Registering timer %p
+253  0x00091250 0x00491250 30  31   .rodata ascii   Server or timer cannot be NULL
+254  0x00091270 0x00491270 22  23   .rodata ascii   Unregistering timer %p
+255  0x00091288 0x00491288 16  17   .rodata ascii   proc_stat_update
+256  0x0009129c 0x0049129c 14  15   .rodata ascii   gcode_response
+257  0x000912ac 0x004912ac 31  32   .rodata ascii   Sending event %s to all clients
+258  0x000912cc 0x004912cc 55  56   .rodata ascii   {"jsonrpc": "2.0","method": "notify_%s","params": [%s]}
+259  0x00091304 0x00491304 40  41   .rodata ascii   {"jsonrpc": "2.0","method": "notify_%s"}
+260  0x00091330 0x00491330 33  34   .rodata ascii   Failed to send event %s to client
+261  0x00091354 0x00491354 32  33   .rodata ascii   Registering event handler for %s
+262  0x00091378 0x00491378 18  19   .rodata ascii   Event %s not found
+263  0x00091390 0x00491390 40  41   .rodata ascii   Failed to allocate memory for warning ID
+264  0x000913bc 0x004913bc 45  46   .rodata ascii   Failed to allocate memory for warning message
+265  0x000913f0 0x004913f0 36  37   .rodata ascii   Failed to allocate memory for config
+266  0x00091418 0x00491418 25  26   .rodata ascii   Server or request is NULL
+267  0x00091434 0x00491434 5   6    .rodata ascii   "%s",
+268  0x0009143c 0x0049143c 7   8    .rodata ascii   unknown
+269  0x00091444 0x00491444 12  13   .rodata ascii   disconnected
+270  0x00091454 0x00491454 7   8    .rodata ascii   startup
+271  0x0009145c 0x0049145c 5   6    .rodata ascii   ready
+272  0x00091464 0x00491464 5   6    .rodata ascii   error
+273  0x0009146c 0x0049146c 8   9    .rodata ascii   shutdown
+274  0x00091478 0x00491478 4   5    .rodata ascii   true
+275  0x00091480 0x00491480 5   6    .rodata ascii   false
+276  0x00091488 0x00491488 23  24   .rodata ascii   "klippy_connected": %s,
+277  0x000914a0 0x004914a0 21  22   .rodata ascii   "klippy_state": "%s",
+278  0x000914b8 0x004914b8 21  22   .rodata ascii   "components": [%.*s],
+279  0x000914d0 0x004914d0 28  29   .rodata ascii   "failed_components": [%.*s],
+280  0x000914f0 0x004914f0 82  83   .rodata ascii   "registered_directories": ["config", "logs", "gcodes", "config_examples", "docs"],
+281  0x00091544 0x00491544 19  20   .rodata ascii   "warnings": [%.*s],
+282  0x00091558 0x00491558 22  23   .rodata ascii   "websocket_count": %d,
+283  0x00091570 0x00491570 20  21   .rodata ascii   "%s_version": "v%s",
+284  0x00091588 0x00491588 34  35   .rodata ascii   "missing_klippy_requirements": [],
+285  0x000915ac 0x004915ac 25  26   .rodata ascii   "api_version": [1, 4, 0],
+286  0x000915c8 0x004915c8 29  30   .rodata ascii   "api_version_string": "1.4.0"
+287  0x000915e8 0x004915e8 6   7    .rodata ascii   {%.*s}
+288  0x00091604 0x00491604 60  61   .rodata ascii   {"config": {%s}, "orig": {"DEFAULT": {}, %s}, "files": [%s]}
+289  0x00091644 0x00491644 4   5    .rodata ascii   "ok"
+290  0x0009164c 0x0049164c 11  12   .rodata ascii   client_name
+291  0x00091658 0x00491658 24  25   .rodata ascii   No data for argument: %s
+292  0x00091674 0x00491674 4   5    .rodata ascii   type
+293  0x0009167c 0x0049167c 7   8    .rodata ascii   version
+294  0x0009168c 0x0049168c 6   7    .rodata ascii   mobile
+295  0x00091694 0x00491694 7   8    .rodata ascii   desktop
+296  0x0009169c 0x0049169c 7   8    .rodata ascii   display
+297  0x000916a8 0x004916a8 5   6    .rodata ascii   agent
+298  0x000916b0 0x004916b0 5   6    .rodata ascii   other
+299  0x000916b8 0x004916b8 23  24   .rodata ascii   Invalid Client Type: %s
+300  0x000916d0 0x004916d0 65  66   .rodata ascii   Websocket %lu Client Identified - Name: %s, Version: %s, Type: %s
+301  0x00091714 0x00491714 22  23   .rodata ascii   {"connection_id": %lu}
+302  0x0009172c 0x0049172c 10  11   .rodata ascii   mount_path
+303  0x00091738 0x00491738 22  23   .rodata ascii   Unsupported mount_path
+304  0x00091750 0x00491750 14  15   .rodata ascii   umount -l "%s"
+305  0x00091760 0x00491760 37  38   .rodata ascii   Failed to allocate memory for command
+306  0x00091788 0x00491788 19  20   .rodata ascii   Unmounted device %s
+307  0x0009179c 0x0049179c 26  27   .rodata ascii   Failed to remove directory
+308  0x000917b8 0x004917b8 31  32   .rodata ascii   Failed to unmount device %d: %s
+309  0x000917d8 0x004917d8 18  19   .rodata ascii   Waiting for result
+310  0x000917f0 0x004917f0 123 124  .rodata ascii   "Connection %lu": {"is_websocket": %s, "c->recv.size": %lu, "c->send.size": %lu, "c->prof.size": %lu, "c->rtls.size": %lu},
+311  0x00091870 0x00491870 11  12   .rodata ascii   access.info
+312  0x0009187c 0x0049187c 11  12   .rodata ascii   access.user
+313  0x00091888 0x00491888 14  15   .rodata ascii   access.api_key
+314  0x00091898 0x00491898 17  18   .rodata ascii   access.users.list
+315  0x000918ac 0x004918ac 20  21   .rodata ascii   access.oneshot_token
+316  0x000918c4 0x004918c4 15  16   .rodata ascii   Invalid request
+317  0x000918d4 0x004918d4 111 112  .rodata ascii   {"default_source" : "moonraker","available_sources" : ["moonraker"],"login_required" : false,"trusted" : true}}
+318  0x00091944 0x00491944 89  90   .rodata ascii   {"username" : "_TRUSTED_USER_","source" : "moonraker","created_on" : 1728954538.0271263}}
+319  0x000919a0 0x004919a0 34  35   .rodata ascii   "3fadf317c8d9459780a909de4e56e286"
+320  0x000919c4 0x004919c4 14  15   .rodata ascii   {"users" : []}
+321  0x000919d4 0x004919d4 34  35   .rodata ascii   "HZW44TEQVJFJWNFCDIIOUJMG4DA7P4CA"
+322  0x00091a00 0x00491a00 22  23   .rodata ascii   temperature_store_size
+323  0x00091a18 0x00491a18 10  11   .rodata ascii   data_store
+324  0x00091a24 0x00491a24 60  61   .rodata ascii   Invalid temperature_store_size: %ld, use default value: 1000
+325  0x00091a64 0x00491a64 132 133  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/data_store.c
+326  0x00091aec 0x00491aec 34  35   .rodata ascii   Failed to create temperature_store
+327  0x00091b10 0x00491b10 16  17   .rodata ascii   gcode_store_size
+328  0x00091b24 0x00491b24 54  55   .rodata ascii   Invalid gcode_store_size: %ld, use default value: 1000
+329  0x00091b5c 0x00491b5c 28  29   .rodata ascii   Failed to create gcode_queue
+330  0x00091b7c 0x00491b7c 19  20   .rodata ascii   server:klippy_ready
+331  0x00091b90 0x00491b90 21  22   .rodata ascii   server:gcode_response
+332  0x00091ba8 0x00491ba8 32  33   .rodata ascii   klippy_connection:gcode_received
+333  0x00091bcc 0x00491bcc 24  25   .rodata ascii   server.temperature_store
+334  0x00091be8 0x00491be8 18  19   .rodata ascii   server.gcode_store
+335  0x00091bfc 0x00491bfc 28  29   .rodata ascii   DataStore or request is NULL
+336  0x00091c1c 0x00491c1c 16  17   .rodata ascii   include_monitors
+337  0x00091c34 0x00491c34 6   7    .rodata ascii   "%s":{
+338  0x00091c3c 0x00491c3c 7   8    .rodata ascii   "%ss":[
+339  0x00091c44 0x00491c44 5   6    .rodata ascii   null,
+340  0x00091c5c 0x00491c5c 14  33   .rodata utf8    获取温度数据用时: %f 秒 blocks=CJK Unified Ideographs,Basic Latin
+341  0x00091c80 0x00491c80 5   6    .rodata ascii   count
+342  0x00091c88 0x00491c88 24  25   .rodata ascii   No data for argument: %s
+343  0x00091ca4 0x00491ca4 16  17   .rodata ascii   {"gcode_store":[
+344  0x00091cc4 0x00491cc4 20  41   .rodata utf8    获取gcode存储区数据用时: %f 秒 blocks=CJK Unified Ideographs,Basic Latin
+345  0x00091cf0 0x00491cf0 47  48   .rodata ascii   Invalid argument for updating temperature store
+346  0x00091d20 0x00491d20 4   5    .rodata ascii   $.%s
+347  0x00091d28 0x00491d28 51  52   .rodata ascii   Failed to allocate memory for new temperature value
+348  0x00091d5c 0x00491d5c 42  43   .rodata ascii   Invalid argument for storing gcode command
+349  0x00091d88 0x00491d88 28  29   .rodata ascii   Failed to copy script string
+350  0x00091dac 0x00491dac 48  49   .rodata ascii   {"message":%s,"time":%ld.%09ld,"type":"command"}
+351  0x00091de0 0x00491de0 38  39   .rodata ascii   Failed to construct gcode command data
+352  0x00091e08 0x00491e08 43  44   .rodata ascii   Invalid argument for storing gcode response
+353  0x00091e34 0x00491e34 49  50   .rodata ascii   {"message":%s,"time":%ld.%09ld,"type":"response"}
+354  0x00091e68 0x00491e68 39  40   .rodata ascii   Failed to construct gcode response data
+355  0x00091e90 0x00491e90 41  42   .rodata ascii   Invalid argument for initializing sensors
+356  0x00091ebc 0x00491ebc 39  40   .rodata ascii   Invalid server for initializing sensors
+357  0x00091ee4 0x00491ee4 10  11   .rodata ascii   klippy_api
+358  0x00091ef0 0x00491ef0 43  44   .rodata ascii   Invalid klippy_api for initializing sensors
+359  0x00091f1c 0x00491f1c 16  17   .rodata ascii   {"heaters":null}
+360  0x00091f30 0x00491f30 29  30   .rodata ascii   Error Configuring Sensors: %s
+361  0x00091f50 0x00491f50 9   10   .rodata ascii   $.heaters
+362  0x00091f5c 0x00491f5c 28  29   .rodata ascii   Failed to get heaters object
+363  0x00091f7c 0x00491f7c 20  21   .rodata ascii   $.available_monitors
+364  0x00091f94 0x00491f94 4   5    .rodata ascii   %.*s
+365  0x00091f9c 0x00491f9c 32  33   .rodata ascii   Failed to get available_monitors
+366  0x00091fc0 0x00491fc0 19  20   .rodata ascii   $.available_sensors
+367  0x00091fd4 0x00491fd4 9   10   .rodata ascii   %.*s,%.*s
+368  0x00091fe0 0x00491fe0 10  11   .rodata ascii   %.*s:null,
+369  0x00091fec 0x00491fec 39  40   .rodata ascii   Failed to construct subscription object
+370  0x00092014 0x00492014 6   7    .rodata ascii   {%.*s}
+371  0x0009201c 0x0049201c 40  41   .rodata ascii   Failed to construct subscription objects
+372  0x00092048 0x00492048 27  28   .rodata ascii   Failed to subscribe objects
+373  0x00092064 0x00492064 31  32   .rodata ascii   Configured avaiable sensors: %s
+374  0x00092084 0x00492084 38  39   .rodata ascii   Failed to create new temperature store
+375  0x000920ac 0x004920ac 11  12   .rodata ascii   temperature
+376  0x000920b8 0x004920b8 6   7    .rodata ascii   target
+377  0x000920c0 0x004920c0 5   6    .rodata ascii   power
+378  0x000920c8 0x004920c8 5   6    .rodata ascii   speed
+379  0x000920d0 0x004920d0 25  26   .rodata ascii   Failed to get sensor name
+380  0x000920ec 0x004920ec 6   7    .rodata ascii   $.%.*s
+381  0x000920f4 0x004920f4 25  26   .rodata ascii   Failed to get sensor path
+382  0x00092110 0x00492110 5   6    .rodata ascii   %.*s,
+383  0x00092118 0x00492118 6   7    .rodata ascii   [%.*s]
+384  0x00092120 0x00492120 38  39   .rodata ascii   No valid fields reported for sensor %s
+385  0x00092148 0x00492148 24  25   .rodata ascii   Failed to get field path
+386  0x00092164 0x00492164 24  25   .rodata ascii   Failed to get field name
+387  0x00092180 0x00492180 44  45   .rodata ascii   Failed to create circular queue for field %s
+388  0x000921b0 0x004921b0 43  44   .rodata ascii   Failed to allocate memory for initial value
+389  0x000921dc 0x004921dc 26  27   .rodata ascii   No available sensors found
+390  0x000921f8 0x004921f8 14  33   .rodata utf8    初始化传感器耗时: %f 秒 blocks=CJK Unified Ideographs,Basic Latin
+391  0x00092230 0x00492230 47  48   .rodata ascii   Invalid parameters: database or server is NULL.
+392  0x00092260 0x00492260 130 131  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/database.c
+393  0x000922e4 0x004922e4 44  45   .rodata ascii   Invalid parameter: server->data_dir is NULL.
+394  0x00092314 0x00492314 13  14   .rodata ascii   nexusp-sql.db
+395  0x00092324 0x00492324 8   9    .rodata ascii   database
+396  0x00092330 0x00492330 8   9    .rodata ascii   %s/%s/%s
+397  0x0009233c 0x0049233c 41  42   .rodata ascii   Failed to create database directory path.
+398  0x00092368 0x00492368 23  24   .rodata ascii   Can't open database: %s
+399  0x00092380 0x00492380 15  16   .rodata ascii   namespace_store
+400  0x00092390 0x00492390 11  12   .rodata ascii   instance_id
+401  0x0009239c 0x0049239c 6   7    .rodata ascii   nexusp
+402  0x000923a4 0x004923a4 32  33   .rodata ascii   0e50b15c55c74fa9a5936eed9700cb8a
+403  0x000923c8 0x004923c8 20  21   .rodata ascii   server.database.list
+404  0x000923e0 0x004923e0 20  21   .rodata ascii   server.database.item
+405  0x000923f8 0x004923f8 22  23   .rodata ascii   server.database.backup
+406  0x00092410 0x00492410 23  24   .rodata ascii   server.database.restore
+407  0x00092428 0x00492428 23  24   .rodata ascii   server.database.compact
+408  0x00092440 0x00492440 19  20   .rodata ascii   debug.database.list
+409  0x00092454 0x00492454 19  20   .rodata ascii   debug.database.item
+410  0x00092468 0x00492468 20  21   .rodata ascii   debug.database.table
+411  0x00092480 0x00492480 37  38   .rodata ascii   Invalid parameters: database is NULL.
+412  0x000924a8 0x004924a8 18  19   .rodata ascii   Invalid parameters
+413  0x000924c0 0x004924c0 113 114  .rodata ascii   SELECT json_group_object(%s, CASE WHEN json_valid(%s) THEN json(%s) ELSE json_quote(%s) END) FROM %s WHERE %s = ?
+414  0x00092534 0x00492534 9   10   .rodata ascii   namespace
+415  0x00092540 0x00492540 5   6    .rodata ascii   value
+416  0x00092548 0x00492548 22  23   .rodata ascii   Invalid Key Format: ''
+417  0x00092560 0x00492560 101 102  .rodata ascii   SELECT CASE WHEN json_valid(%s) THEN json(%s) ELSE json_quote(%s) END FROM %s WHERE %s = ? AND %s = ?
+418  0x000925c8 0x004925c8 17  18   .rodata ascii   Prepare error: %s
+419  0x000925dc 0x004925dc 21  22   .rodata ascii   Failed to get result.
+420  0x000925f4 0x004925f4 36  37   .rodata ascii   Key '%s' in namespace '%s' not found
+421  0x00092620 0x00492620 62  63   .rodata ascii   Invalid parameters: database, namespace, key or value is NULL.
+422  0x00092660 0x00492660 55  56   .rodata ascii   INSERT OR REPLACE INTO %s (%s, %s, %s) VALUES (?, ?, ?)
+423  0x00092698 0x00492698 20  21   .rodata ascii   Execution failed: %s
+424  0x000926b0 0x004926b0 55  56   .rodata ascii   Invalid parameters: database, namespace or key is NULL.
+425  0x000926e8 0x004926e8 38  39   .rodata ascii   DELETE FROM %s WHERE %s = ? AND %s = ?
+426  0x00092710 0x00492710 26  27   .rodata ascii   Failed to allocate memory.
+427  0x0009272c 0x0049272c 30  31   .rodata ascii   Failed to create directory: %s
+428  0x0009274c 0x0049274c 45  46   .rodata ascii   Invalid parameters: db or table_name is NULL.
+429  0x0009277c 0x0049277c 105 106  .rodata ascii   CREATE TABLE IF NOT EXISTS %s (%s TEXT NOT NULL,%s TEXT NOT NULL,%s record NOT NULL,PRIMARY KEY (%s, %s))
+430  0x000927e8 0x004927e8 26  27   .rodata ascii   Failed to create table: %s
+431  0x00092804 0x00492804 86  87   .rodata ascii   Invalid parameters: parent is not an object or path is null or empty or value is null.
+432  0x0009285c 0x0049285c 69  70   .rodata ascii   Invalid parameters: parent is not an object or path is null or empty.
+433  0x000928a4 0x004928a4 4   5    .rodata ascii   NULL
+434  0x000928ac 0x004928ac 4   5    .rodata ascii   null
+435  0x000928b4 0x004928b4 7   8    .rodata ascii   boolean
+436  0x000928bc 0x004928bc 6   7    .rodata ascii   number
+437  0x000928c4 0x004928c4 6   7    .rodata ascii   string
+438  0x000928cc 0x004928cc 5   6    .rodata ascii   array
+439  0x000928d4 0x004928d4 6   7    .rodata ascii   object
+440  0x000928dc 0x004928dc 9   10   .rodata ascii   reference
+441  0x000928e8 0x004928e8 12  13   .rodata ascii   const_string
+442  0x000928f8 0x004928f8 7   8    .rodata ascii   unknown
+443  0x00092900 0x00492900 27  28   .rodata ascii   Database or request is NULL
+444  0x0009291c 0x0049291c 6   7    .rodata ascii   params
+445  0x00092924 0x00492924 24  25   .rodata ascii   No data for argument: %s
+446  0x00092940 0x00492940 24  25   .rodata ascii   Failed to parse JSON: %s
+447  0x0009295c 0x0049295c 32  33   .rodata ascii   Memory allocation failed for key
+448  0x00092980 0x00492980 47  48   .rodata ascii   Value for argument 'key' is an invalid type: %s
+449  0x000929b0 0x004929b0 6   7    .rodata ascii   (null)
+450  0x000929b8 0x004929b8 28  29   .rodata ascii   namespace: '%s' , key: '%s' 
+451  0x000929d8 0x004929d8 39  40   .rodata ascii   Memory allocation failed for value_str.
+452  0x00092a00 0x00492a00 45  46   .rodata ascii   {"namespace": "%s", "key": null, "value": %s}
+453  0x00092a30 0x00492a30 45  46   .rodata ascii   {"namespace": "%s", "key": "%s", "value": %s}
+454  0x00092a60 0x00492a60 34  35   .rodata ascii   Memory allocation failed for root.
+455  0x00092a84 0x00492a84 39  40   .rodata ascii   Memory allocation failed for new_value.
+456  0x00092aac 0x00492aac 34  35   .rodata ascii   Memory allocation failed for json.
+457  0x00092ad0 0x00492ad0 18  19   .rodata ascii   Method not allowed
+458  0x00092ae4 0x00492ae4 20  21   .rodata ascii   Method unimplemented
+459  0x00092b00 0x00492b00 14  15   .rodata ascii   point is null.
+460  0x00092b10 0x00492b10 134 135  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/file_manager.c
+461  0x00092b98 0x00492b98 31  32   .rodata ascii   malloc memory allocation failed
+462  0x00092bb8 0x00492bb8 32  33   .rodata ascii   Invalid Unicode escape sequence\n
+463  0x00092bdc 0x00492bdc 35  36   .rodata ascii   Unsupported Unicode code point: %X\n
+464  0x00092c00 0x00492c00 23  24   .rodata ascii   Output buffer overflow\n
+465  0x00092c18 0x00492c18 11  12   .rodata ascii   opendir err
+466  0x00092c2c 0x00492c2c 12  13   .rodata ascii   dir_list_max
+467  0x00092c3c 0x00492c3c 12  13   .rodata ascii   file_manager
+468  0x00092c4c 0x00492c4c 29  30   .rodata ascii   Error: Invalid input pointers
+469  0x00092c70 0x00492c70 19  20   .rodata ascii   Failed to open file
+470  0x00092c84 0x00492c84 36  37   .rodata ascii   Failed to allocate memory for buffer
+471  0x00092cac 0x00492cac 43  44   .rodata ascii   Error: Failed to initialize SHA-256 context
+472  0x00092cd8 0x00492cd8 36  37   .rodata ascii   Error: Failed to update SHA-256 hash
+473  0x00092d00 0x00492d00 38  39   .rodata ascii   Error: Failed to finalize SHA-256 hash
+474  0x00092d28 0x00492d28 4   5    .rodata ascii   %02x
+475  0x00092d30 0x00492d30 10  11   .rodata ascii   opendir %s
+476  0x00092d3c 0x00492d3c 5   6    .rodata ascii   %s/%s
+477  0x00092d44 0x00492d44 38  39   .rodata ascii   Failed to get file info. %s, error: %s
+478  0x00092d6c 0x00492d6c 31  32   .rodata ascii   directory_recursive_deal failed
+479  0x00092d8c 0x00492d8c 16  17   .rodata ascii   opendir fail. %s
+480  0x00092da4 0x00492da4 6   7    .rodata ascii   FOUND.
+481  0x00092dac 0x00492dac 19  20   .rodata ascii   realloc dirs failed
+482  0x00092dc0 0x00492dc0 20  21   .rodata ascii   realloc files failed
+483  0x00092dd8 0x00492dd8 6   7    .rodata ascii   .gcode
+484  0x00092de0 0x00492de0 6   7    .rodata ascii   config
+485  0x00092de8 0x00492de8 4   5    .rodata ascii   logs
+486  0x00092df0 0x00492df0 6   7    .rodata ascii   gcodes
+487  0x00092df8 0x00492df8 15  16   .rodata ascii   config_examples
+488  0x00092e08 0x00492e08 4   5    .rodata ascii   docs
+489  0x00092e10 0x00492e10 5   6    .rodata ascii   udisk
+490  0x00092e18 0x00492e18 21  22   .rodata ascii   %s is not a directory
+491  0x00092e30 0x00492e30 4   5    .rodata ascii   .log
+492  0x00092e38 0x00492e38 12  13   .rodata ascii   %s/logs/%.*s
+493  0x00092e48 0x00492e48 5   6    .rodata ascii   .conf
+494  0x00092e50 0x00492e50 14  15   .rodata ascii   %s/config/%.*s
+495  0x00092e60 0x00492e60 14  15   .rodata ascii   %s/gcodes/%.*s
+496  0x00092e70 0x00492e70 9   10   .rodata ascii   %.*s/%.*s
+497  0x00092e7c 0x00492e7c 25  26   .rodata ascii   /usr/share/klipper/config
+498  0x00092e98 0x00492e98 23  24   .rodata ascii   /usr/share/klipper/docs
+499  0x00092eb0 0x00492eb0 15  16   .rodata ascii   /media/creality
+500  0x00092ec0 0x00492ec0 4   5    .rodata ascii   %.*s
+501  0x00092ec8 0x00492ec8 8   9    .rodata ascii   %.*s%.*s
+502  0x00092ed4 0x00492ed4 4   5    .rodata ascii   %s%s
+503  0x00092edc 0x00492edc 13  14   .rodata ascii   point is null
+504  0x00092eec 0x00492eec 6   7    .rodata ascii   klippy
+505  0x00092ef4 0x00492ef4 9   10   .rodata ascii   job_state
+506  0x00092f00 0x00492f00 8   9    .rodata ascii   filename
+507  0x00092f0c 0x00492f0c 12  13   .rodata ascii   unicode:%.*s
+508  0x00092f1c 0x00492f1c 9   10   .rodata ascii   decode:%s
+509  0x00092f28 0x00492f28 5   6    .rodata ascii   state
+510  0x00092f30 0x00492f30 7   8    .rodata ascii   stat:%s
+511  0x00092f38 0x00492f38 10  11   .rodata ascii   "printing"
+512  0x00092f44 0x00492f44 8   9    .rodata ascii   "paused"
+513  0x00092f50 0x00492f50 17  18   .rodata ascii   open source error
+514  0x00092f64 0x00492f64 13  14   .rodata ascii   File no exist
+515  0x00092f74 0x00492f74 17  18   .rodata ascii   File %s job using
+516  0x00092f88 0x00492f88 11  12   .rodata ascii   remove fail
+517  0x00092f94 0x00492f94 22  23   .rodata ascii   open destination error
+518  0x00092fac 0x00492fac 11  12   .rodata ascii   write error
+519  0x00092fb8 0x00492fb8 22  23   .rodata ascii   copy file fsync failed
+520  0x00092fd0 0x00492fd0 10  11   .rodata ascii   read error
+521  0x00092fdc 0x00492fdc 32  33   .rodata ascii   realloc Memory allocation failed
+522  0x00093000 0x00493000 35  36   .rodata ascii   get directory info recursive failed
+523  0x00093024 0x00493024 18  19   .rodata ascii   count is too large
+524  0x00093038 0x00493038 25  26   .rodata ascii   Error delete directory %s
+525  0x00093054 0x00493054 10  11   .rodata ascii   stat error
+526  0x00093060 0x00493060 33  34   .rodata ascii   delete directory recursive failed
+527  0x00093084 0x00493084 12  13   .rodata ascii   unlink error
+528  0x00093094 0x00493094 17  18   .rodata ascii   del metadata fail
+529  0x000930a8 0x004930a8 11  12   .rodata ascii   rmdir error
+530  0x000930b4 0x004930b4 34  35   .rodata ascii   Directory deleted successfully: %s
+531  0x000930d8 0x004930d8 10  11   .rodata ascii   mkdir fail
+532  0x000930e4 0x004930e4 23  24   .rodata ascii   create directory failed
+533  0x000930fc 0x004930fc 13  14   .rodata ascii   opendir error
+534  0x0009310c 0x0049310c 17  18   .rodata ascii   add metadata fail
+535  0x00093120 0x00493120 34  35   .rodata ascii   Error creating source for file: %s
+536  0x00093144 0x00493144 24  25   .rodata ascii   construction path failed
+537  0x00093160 0x00493160 29  30   .rodata ascii   Error adding file to zip: %s\n
+538  0x00093180 0x00493180 29  30   .rodata ascii   Error setting compression: %s
+539  0x000931a0 0x004931a0 14  15   .rodata ascii   stat error: %s
+540  0x000931b0 0x004931b0 38  39   .rodata ascii   add directory contents to zip fail: %s
+541  0x000931d8 0x004931d8 24  25   .rodata ascii   add file to zip fail: %s
+542  0x000931f4 0x004931f4 16  17   .rodata ascii   zip dir add fail
+543  0x00093208 0x00493208 30  31   .rodata ascii   Error creating ZIP archive: %s
+544  0x00093228 0x00493228 33  34   .rodata ascii   add_directory_contents_to_zip: %s
+545  0x0009324c 0x0049324c 19  20   .rodata ascii   add_file_to_zip: %s
+546  0x00093260 0x00493260 29  30   .rodata ascii   Error closing zip archive: %s
+547  0x00093280 0x00493280 6   7    .rodata ascii   $.size
+548  0x00093288 0x00493288 10  11   .rodata ascii   $.modified
+549  0x00093298 0x00493298 11  12   .rodata ascii   "size": %ld
+550  0x000932a4 0x004932a4 22  23   .rodata ascii   ,"modified": %lu.%06lu
+551  0x000932bc 0x004932bc 25  26   .rodata ascii   ,"print_start_time": null
+552  0x000932d8 0x004932d8 15  16   .rodata ascii   ,"job_id": null
+553  0x000932ec 0x004932ec 21  22   .rodata ascii   extract metadata fail
+554  0x00093304 0x00493304 16  17   .rodata ascii   json is invalid.
+555  0x00093318 0x00493318 34  35   .rodata ascii   udisk metadata. path:%s,fname:%s.\n
+556  0x0009333c 0x0049333c 34  35   .rodata ascii   gcode metadata. path:%s,fname:%s.\n
+557  0x00093360 0x00493360 14  15   .rodata ascii   not gcode file
+558  0x00093370 0x00493370 28  29   .rodata ascii   process metadata update fail
+559  0x00093390 0x00493390 15  16   .rodata ascii   file no exit %s
+560  0x000933a0 0x004933a0 15  16   .rodata ascii   file name error
+561  0x000933b0 0x004933b0 4   5    .rodata ascii   .ufp
+562  0x000933b8 0x004933b8 5   6    .rodata ascii   gcode
+563  0x000933c0 0x004933c0 7   8    .rodata ascii   %.*s.%s
+564  0x000933c8 0x004933c8 15  16   .rodata ascii   mutex lock fail
+565  0x000933d8 0x004933d8 28  29   .rodata ascii   Relative path point is null.
+566  0x000933f8 0x004933f8 27  28   .rodata ascii   parse metadata fail. ret:%d
+567  0x00093414 0x00493414 17  18   .rodata ascii   mutex unlock fail
+568  0x00093428 0x00493428 19  20   .rodata ascii   udisk relative fail
+569  0x0009343c 0x0049343c 23  24   .rodata ascii   udisk get metadata fail
+570  0x00093454 0x00493454 26  27   .rodata ascii   local gcodes relative fail
+571  0x00093470 0x00493470 30  31   .rodata ascii   local gcodes get metadata fail
+572  0x00093490 0x00493490 23  24   .rodata ascii   del gcode metadata fail
+573  0x000934a8 0x004934a8 7   8    .rodata ascii   .thumbs
+574  0x000934b4 0x004934b4 13  14   .rodata ascii   file name: %s
+575  0x000934c4 0x004934c4 22  23   .rodata ascii   d_name %s, fileName %s
+576  0x000934dc 0x004934dc 12  13   .rodata ascii   del file: %s
+577  0x000934ec 0x004934ec 37  38   .rodata ascii   Error add parse_metadata directory %s
+578  0x00093514 0x00493514 29  30   .rodata ascii   add metadata recursive failed
+579  0x00093534 0x00493534 32  33   .rodata ascii   delete metadata recursive failed
+580  0x00093558 0x00493558 5   6    .rodata ascii   .html
+581  0x00093560 0x00493560 9   10   .rodata ascii   text/html
+582  0x0009356c 0x0049356c 4   5    .rodata ascii   .css
+583  0x00093574 0x00493574 8   9    .rodata ascii   text/css
+584  0x00093584 0x00493584 22  23   .rodata ascii   application/javascript
+585  0x0009359c 0x0049359c 4   5    .rodata ascii   .jpg
+586  0x000935a4 0x004935a4 5   6    .rodata ascii   .jpeg
+587  0x000935ac 0x004935ac 10  11   .rodata ascii   image/jpeg
+588  0x000935b8 0x004935b8 4   5    .rodata ascii   .png
+589  0x000935c0 0x004935c0 9   10   .rodata ascii   image/png
+590  0x000935cc 0x004935cc 4   5    .rodata ascii   .gif
+591  0x000935d4 0x004935d4 9   10   .rodata ascii   image/gif
+592  0x000935e0 0x004935e0 4   5    .rodata ascii   .pdf
+593  0x000935e8 0x004935e8 15  16   .rodata ascii   application/pdf
+594  0x000935f8 0x004935f8 24  25   .rodata ascii   application/octet-stream
+595  0x00093614 0x00493614 4   5    .rodata ascii   .zip
+596  0x0009361c 0x0049361c 15  16   .rodata ascii   application/zip
+597  0x0009362c 0x0049362c 4   5    .rodata ascii   .exe
+598  0x00093634 0x00493634 5   6    .rodata ascii   %08ld
+599  0x0009363c 0x0049363c 6   7    .rodata ascii   .gcode
+600  0x00093644 0x00493644 4   5    .rodata ascii   .ufp
+601  0x0009364c 0x0049364c 34  35   .rodata ascii   ploadStat->dstPath, rename err. %s
+602  0x00093670 0x00493670 35  36   .rodata ascii   get file info fail: %s, code ret:%d
+603  0x00093694 0x00493694 45  46   .rodata ascii   "print_started": false, "print_queued": false
+604  0x000936c4 0x004936c4 9   10   .rodata ascii   job_queue
+605  0x000936d0 0x004936d0 10  11   .rodata ascii   klippy_api
+606  0x000936dc 0x004936dc 44  45   .rodata ascii   "print_started": true, "print_queued": false
+607  0x0009370c 0x0049370c 44  45   .rodata ascii   "print_started": false, "print_queued": true
+608  0x0009373c 0x0049373c 37  38   .rodata ascii   File is loaded, upload not permitted.
+609  0x00093764 0x00493764 25  26   .rodata ascii   process_uploaded_file err
+610  0x00093780 0x00493780 20  21   .rodata ascii   Unable to save file.
+611  0x00093798 0x00493798 25  26   .rodata ascii   Memory allocation failed.
+612  0x000937b4 0x004937b4 20  21   .rodata ascii   parse metadata fail.
+613  0x000937cc 0x004937cc 242 243  .rodata ascii   Connection: keep-alive\r\ncontent-type: application/json; charset=UTF-8\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nAccess-Control-Allow-Credentials: true\r\nAccess-Control-Max-Age: 1728000\r\n
+614  0x000938c0 0x004938c0 8   9    .rodata ascii   checksum
+615  0x000938cc 0x004938cc 18  19   .rodata ascii   sha256_hex_hash %s
+616  0x000938e0 0x004938e0 106 107  .rodata ascii   {"heads":"%s", "error":{"code":%ld, "message":"File checksum mismatch: expected {%.*s}, calculated {%s}"}}
+617  0x0009394c 0x0049394c 4   5    .rodata ascii   root
+618  0x00093954 0x00493954 76  77   .rodata ascii   {"heads":"%s", "error":{"code":%ld, "message":"Invalid root request: %.*s"}}
+619  0x000939a4 0x004939a4 79  80   .rodata ascii   {"heads":"%s", "error":{"code":%ld, "message":"Operation Not Supported: %.*s"}}
+620  0x000939f4 0x004939f4 42  43   .rodata ascii   Failed to get root path from configuration
+621  0x00093a20 0x00493a20 8   9    .rodata ascii   root: %s
+622  0x00093a2c 0x00493a2c 4   5    .rodata ascii   path
+623  0x00093a34 0x00493a34 11  12   .rodata ascii   relPath: %s
+624  0x00093a40 0x00493a40 5   6    .rodata ascii   print
+625  0x00093a48 0x00493a48 4   5    .rodata ascii   true
+626  0x00093a50 0x00493a50 4   5    .rodata ascii   file
+627  0x00093a58 0x00493a58 12  13   .rodata ascii   tmp path: %s
+628  0x00093a68 0x00493a68 12  13   .rodata ascii   dst path: %s
+629  0x00093a78 0x00493a78 44  45   .rodata ascii   Write file size is not equal to receive size
+630  0x00093aa8 0x00493aa8 21  22   .rodata ascii   Unsafe path requested
+631  0x00093ac0 0x00493ac0 26  27   .rodata ascii   Failed to create directory
+632  0x00093adc 0x00493adc 13  14   .rodata ascii   upload err %s
+633  0x00093aec 0x00493aec 52  53   .rodata ascii   {"heads":"%s", "error":{"code":%ld, "message":"%s"}}
+634  0x00093b24 0x00493b24 14  15   .rodata ascii   rename err: %s
+635  0x00093b34 0x00493b34 66  67   .rodata ascii   {"heads":"%s", "error":{"code":%ld, "message":"upload file fail"}}
+636  0x00093b78 0x00493b78 34  35   .rodata ascii   upload file fail, file rename fail
+637  0x00093b9c 0x00493b9c 84  85   .rodata ascii   {"heads":"%s", "error":{"code":%ld, "message":"upload file fail, file rename fail"}}
+638  0x00093bf4 0x00493bf4 31  32   .rodata ascii   upload file fail, other because
+639  0x00093c14 0x00493c14 81  82   .rodata ascii   {"heads":"%s", "error":{"code":%ld, "message":"upload file fail, other because"}}
+640  0x00093c68 0x00493c68 120 121  .rodata ascii   {"action": "create_file","item": {"modified": %lu.%06lu,"size": %ld,"permissions": "%s","path": "%s","root": "%s"}, %s }
+641  0x00093ce4 0x00493ce4 116 117  .rodata ascii   {"action": "create_file","item": {"modified": %lu.%06lu,"size": %ld,"permissions": "%s","path": "%s","root": "%s"} }
+642  0x00093d5c 0x00493d5c 39  40   .rodata ascii   {"heads":"%s", "code":%ld, "result":%s}
+643  0x00093d84 0x00493d84 83  84   .rodata ascii   {"heads":"%s", "error":{"code":%ld, "message":"Forbidden: Unsafe path requested."}}
+644  0x00093dd8 0x00493dd8 32  33   .rodata ascii   Failed to wake up connection %lu
+645  0x00093dfc 0x00493dfc 14  15   .rodata ascii   Mutex is busy!
+646  0x00093e0c 0x00493e0c 12  13   .rodata ascii   %s: start!!!
+647  0x00093e1c 0x00493e1c 14  15   .rodata ascii   %s: finish!!!\n
+648  0x00093e2c 0x00493e2c 11  12   .rodata ascii   point==NULL
+649  0x00093e38 0x00493e38 18  19   .rodata ascii   upload_deal_thread
+650  0x00093e4c 0x00493e4c 23  24   .rodata ascii   Failed to detach thread
+651  0x00093e64 0x00493e64 32  33   .rodata ascii   allocate memory failed. s.len:%d
+652  0x00093e88 0x00493e88 25  26   .rodata ascii   id: %ld, expected len:%ld
+653  0x00093ea4 0x00493ea4 38  39   .rodata ascii   id: %ld, %ld = received:%ld + recv:%ld
+654  0x00093ecc 0x00493ecc 15  16   .rodata ascii   org lastlen:%ld
+655  0x00093edc 0x00493edc 24  25   .rodata ascii   id: %ld, add lastlen:%ld
+656  0x00093ef8 0x00493ef8 24  25   .rodata ascii   #--#Content-Disposition#
+657  0x00093f14 0x00493f14 38  39   .rodata ascii   Failed to allocate memory for boundary
+658  0x00093f3c 0x00493f3c 79  80   .rodata ascii   id: %ld, Chunk name: [%.*s],filename: [%.*s],body<length: %lu bytes, data:%.*s>
+659  0x00093f8c 0x00493f8c 10  11   .rodata ascii   \r\n%.*s--\r\n
+660  0x00093f98 0x00493f98 42  43   .rodata ascii   Error writing to file real:%ld, except:%ld
+661  0x00093fc4 0x00493fc4 25  26   .rodata ascii   upload file fflush failed
+662  0x00093fe0 0x00493fe0 10  11   .rodata ascii   mmap error
+663  0x00093fec 0x00493fec 195 196  .rodata ascii   Connection: keep-alive\r\nAccess-Control-Allow-Origin: *\r\nAccess-Control-Allow-Methods: *\r\nAccess-Control-Allow-Headers: *\r\nAccess-Control-Allow-Credentials: true\r\nAccess-Control-Max-Age: 1728000\r\n
+664  0x000940b0 0x004940b0 28  29   .rodata ascii   upload is error, not allowed
+665  0x000940d0 0x004940d0 28  29   .rodata ascii   upload is error, malloc fail
+666  0x000940f0 0x004940f0 47  48   .rodata ascii   The printer is printing and cannot upload files
+667  0x00094120 0x00494120 13  14   .rodata ascii   upload failed
+668  0x00094130 0x00494130 12  13   .rodata ascii   rx data fail
+669  0x00094140 0x00494140 28  29   .rodata ascii   uploads_pack_rx err, ret:%ld
+670  0x00094160 0x00494160 4   5    .rodata ascii   POST
+671  0x00094168 0x00494168 20  21   .rodata ascii   /server/files/upload
+672  0x00094180 0x00494180 20  21   .rodata ascii   upload request id:%d
+673  0x00094198 0x00494198 40  41   .rodata ascii   upload err, dict is exsist of connection
+674  0x000941c4 0x004941c4 35  36   .rodata ascii   .uploadtmp/upload-tmp-%Y%m%d-%H%M%S
+675  0x000941e8 0x004941e8 40  41   .rodata ascii   Failed to tmp file path failed to upload
+676  0x00094218 0x00494218 10  11   .rodata ascii   creat fail
+677  0x00094224 0x00494224 20  21   .rodata ascii   mg_path_is_sane fail
+678  0x0009423c 0x0049423c 29  30   .rodata ascii   %s: uploads rx free, id:%ld \n
+679  0x0009425c 0x0049425c 10  11   .rodata ascii   .uploadtmp
+680  0x00094268 0x00494268 15  16   .rodata ascii   /server/files/#
+681  0x00094280 0x00494280 33  34   .rodata ascii   Forbidden: Unsafe path requested.
+682  0x000942a4 0x004942a4 26  27   .rodata ascii   Content-Type: text/plain\r\n
+683  0x000942c0 0x004942c0 14  15   .rodata ascii   rootName: %.*s
+684  0x000942d0 0x004942d0 14  15   .rodata ascii   relaPath: %.*s
+685  0x000942e0 0x004942e0 12  13   .rodata ascii   octet-stream
+686  0x000942f0 0x004942f0 10  11   .rodata ascii   attachment
+687  0x000942fc 0x004942fc 6   7    .rodata ascii   inline
+688  0x00094304 0x00494304 18  19   .rodata ascii   content-type: %s\r\n
+689  0x00094318 0x00494318 61  62   .rodata ascii   Content-Disposition: %s; filename="%s"; filename*=UTF-8''%s\r\n
+690  0x0009435c 0x0049435c 4   5    .rodata ascii   %.*s
+691  0x00094364 0x00494364 19  20   .rodata ascii   decode fullPath: %s
+692  0x00094378 0x00494378 14  15   .rodata ascii   File not found
+693  0x00094388 0x00494388 8   9    .rodata ascii   head :%s
+694  0x00094394 0x00494394 15  16   .rodata ascii   thumbs_list_max
+695  0x000943a4 0x004943a4 25  26   .rodata ascii   get sort path item failed
+696  0x000943c0 0x004943c0 19  20   .rodata ascii   udisk_node count %d
+697  0x000943d4 0x004943d4 4   5    .rodata ascii   %.6f
+698  0x000943dc 0x004943dc 107 108  .rodata ascii   {"action": "create_dir", "item": {"path":"%s", "root":"%s", "modified":%s, "size":%ld, "permissions":"%s"}}
+699  0x0009444c 0x0049444c 13  14   .rodata ascii   udisk_changed
+700  0x0009445c 0x0049445c 30  31   .rodata ascii   Failed to get stat info for %s
+701  0x0009447c 0x0049447c 28  29   .rodata ascii   FileOpAPI or request is NULL
+702  0x0009449c 0x0049449c 14  15   .rodata ascii   Server is NULL
+703  0x000944ac 0x004944ac 6   7    .rodata ascii   $.root
+704  0x000944b4 0x004944b4 17  18   .rodata ascii   Invalid root path
+705  0x000944c8 0x004944c8 14  15   .rodata ascii   Invalid memory
+706  0x000944d8 0x004944d8 17  18   .rodata ascii   Invalid file list
+707  0x000944f8 0x004944f8 68  69   .rodata ascii   th": "%s", "modified": %lu.%06lu, "size": %ld, "permissions": "%s"}\n
+708  0x00094544 0x00494544 41  42   .rodata ascii   {"name":"%s","path":"","permissions":""}\n
+709  0x00094570 0x00494570 45  46   .rodata ascii   {"name":"%s","path":"%s","permissions":"%s"}\n
+710  0x000945a0 0x004945a0 8   9    .rodata ascii   $.params
+711  0x000945ac 0x004945ac 24  25   .rodata ascii   No data for argument: %s
+712  0x000945c8 0x004945c8 10  11   .rodata ascii   $.filename
+713  0x000945d4 0x004945d4 30  31   .rodata ascii   Invalid path: gcodes root name
+714  0x000945f4 0x004945f4 29  30   .rodata ascii   Metadata not available for <>
+715  0x00094614 0x00494614 12  13   .rodata ascii   fullPath: %s
+716  0x00094624 0x00494624 34  35   .rodata ascii   File path not available for <%.*s>
+717  0x00094648 0x00494648 12  13   .rodata ascii   relaPath: %s
+718  0x00094658 0x00494658 18  19   .rodata ascii   "filename": "%.*s"
+719  0x0009466c 0x0049466c 5   6    .rodata ascii   ,%.*s
+720  0x00094674 0x00494674 33  34   .rodata ascii   Metadata not available for <%.*s>
+721  0x00094698 0x00494698 32  33   .rodata ascii   get directory ex process waiting
+722  0x000946bc 0x004946bc 26  27   .rodata ascii   File '%.*s' does not exist
+723  0x000946d8 0x004946d8 37  38   .rodata ascii   File '%.*s' is not a valid gcode file
+724  0x00094700 0x00494700 40  41   .rodata ascii   Failed to parse metadata for file '%.*s'
+725  0x0009472c 0x0049472c 10  11   .rodata ascii   thumbnails
+726  0x00094738 0x00494738 13  14   .rodata ascii   relative_path
+727  0x00094748 0x00494748 14  15   .rodata ascii   thumbnail_path
+728  0x0009475c 0x0049475c 17  18   .rodata ascii   Error before: %s\n
+729  0x00094770 0x00494770 6   7    .rodata ascii   $.path
+730  0x00094778 0x00494778 24  25   .rodata ascii   Invalid root path (%.*s)
+731  0x00094794 0x00494794 22  23   .rodata ascii   Invalid root path (%s)
+732  0x000947ac 0x004947ac 21  22   .rodata ascii   Invalid root path (.)
+733  0x000947c4 0x004947c4 14  15   .rodata ascii   input Path: %s
+734  0x000947d4 0x004947d4 29  30   .rodata ascii   Directory does not exist (%s)
+735  0x000947f4 0x004947f4 10  11   .rodata ascii   $.extended
+736  0x00094800 0x00494800 17  18   .rodata ascii   request fail (%s)
+737  0x00094814 0x00494814 5   6    .rodata ascii   false
+738  0x0009481c 0x0049481c 75  76   .rodata ascii   Unable to convert argument [extended] to <class 'bool'>: value recieved: %s
+739  0x00094868 0x00494868 8   9    .rodata ascii   "dirs":[
+740  0x00094874 0x00494874 23  24   .rodata ascii   Failed to get file info
+741  0x0009488c 0x0049488c 67  68   .rodata ascii   {"modified":%lu.%06lu,"size":%ld,"permissions":"%s","dirname":"%s"}
+742  0x000948d4 0x004948d4 9   10   .rodata ascii   "files":[
+743  0x000948e0 0x004948e0 35  36   .rodata ascii   "permissions":"%s","filename":"%s",
+744  0x00094904 0x00494904 5   6    .rodata ascii   %.*s}
+745  0x0009490c 0x0049490c 67  68   .rodata ascii   "modified":%lu.%06lu,"size":%ld,"permissions":"%s","filename":"%s"}
+746  0x00094950 0x00494950 52  53   .rodata ascii   "disk_usage":{"total":%llu,"used":%llu,"free":%llu},
+747  0x00094988 0x00494988 46  47   .rodata ascii   "root_info":{"name":"%.*s","permissions":"%s"}
+748  0x000949b8 0x004949b8 35  36   .rodata ascii   [Errno 17] File exists: '%s/gcodes'
+749  0x000949dc 0x004949dc 23  24   .rodata ascii   Operation Not Supported
+750  0x000949f4 0x004949f4 12  13   .rodata ascii   Invalid dest
+751  0x00094a04 0x00494a04 13  14   .rodata ascii   full path: %s
+752  0x00094a14 0x00494a14 28  29   .rodata ascii   [Errno 17] File exists: '%s'
+753  0x00094a34 0x00494a34 116 117  .rodata ascii   {"action": "create_dir", "item": {"path":"%s", "root":"%.*s", "modified":%lu.%06lu, "size":%ld, "permissions":"%s"}}
+754  0x00094aac 0x00494aac 29  30   .rodata ascii   Cannot delete root directory.
+755  0x00094acc 0x00494acc 28  29   .rodata ascii   Cannot delete root directory
+756  0x00094aec 0x00494aec 7   8    .rodata ascii   $.force
+757  0x00094af4 0x00494af4 72  73   .rodata ascii   Unable to convert argument [force] to <class 'bool'>: value recieved: %s
+758  0x00094b40 0x00494b40 30  31   .rodata ascii   Directory file job working: %s
+759  0x00094b60 0x00494b60 36  37   .rodata ascii   [Errno 93] Directory not empty: '%s'
+760  0x00094b88 0x00494b88 28  29   .rodata ascii   Error deleting directory: %s
+761  0x00094ba8 0x00494ba8 108 109  .rodata ascii   {"action": "delete_dir", "item": {"path":"%s", "root":"%.*s", "modified":0, "size":%ld, "permissions":"%s"}}
+762  0x00094c18 0x00494c18 26  27   .rodata ascii   files copy process waiting
+763  0x00094c34 0x00494c34 6   7    .rodata ascii   source
+764  0x00094c3c 0x00494c3c 8   9    .rodata ascii   $.source
+765  0x00094c48 0x00494c48 28  29   .rodata ascii   No data for argument: source
+766  0x00094c68 0x00494c68 43  44   .rodata ascii   Source path is read-only, cannot move: {%s}
+767  0x00094c94 0x00494c94 15  16   .rodata ascii   source path: %s
+768  0x00094ca4 0x00494ca4 6   7    .rodata ascii   $.dest
+769  0x00094cac 0x00494cac 26  27   .rodata ascii   No data for argument: dest
+770  0x00094cc8 0x00494cc8 4   5    .rodata ascii   dest
+771  0x00094cd0 0x00494cd0 13  14   .rodata ascii   dest path: %s
+772  0x00094ce0 0x00494ce0 41  42   .rodata ascii   [Errno 2] No such file or directory: '%s'
+773  0x00094d0c 0x00494d0c 22  23   .rodata ascii   File %s does not exist
+774  0x00094d24 0x00494d24 35  36   .rodata ascii   Destination path'%s' already exists
+775  0x00094d48 0x00494d48 21  22   .rodata ascii   "action": "move_dir",
+776  0x00094d60 0x00494d60 22  23   .rodata ascii   "action": "move_file",
+777  0x00094d78 0x00494d78 90  91   .rodata ascii   "item":{"modified":%lu.%06lu, "size":%ld, "permissions":"%s", "path":"%s", "root":"%.*s"},
+778  0x00094dd4 0x00494dd4 42  43   .rodata ascii   "source_item":{"path":"%s", "root":"%.*s"}
+779  0x00094e00 0x00494e00 17  18   .rodata ascii   File exists: '%s'
+780  0x00094e14 0x00494e14 34  35   .rodata ascii   Failed to create a directory: '%s'
+781  0x00094e38 0x00494e38 37  38   .rodata ascii   Error copying directory from %s to %s
+782  0x00094e60 0x00494e60 12  13   .rodata ascii   %s copy fail
+783  0x00094e70 0x00494e70 32  33   .rodata ascii   Error copying file from %s to %s
+784  0x00094e94 0x00494e94 23  24   .rodata ascii   "action": "create_dir",
+785  0x00094eac 0x00494eac 24  25   .rodata ascii   "action": "modify_file",
+786  0x00094ec8 0x00494ec8 24  25   .rodata ascii   "action": "create_file",
+787  0x00094ee4 0x00494ee4 90  91   .rodata ascii   "item":{"modified":%lu.%06lu, "size":%ld, "permissions":"%s", "path":"%s", "root":"%.*s" }
+788  0x00094f40 0x00494f40 30  31   .rodata ascii   Cannot compress while printing
+789  0x00094f60 0x00494f60 5   6    .rodata ascii   items
+790  0x00094f68 0x00494f68 6   7    .rodata ascii   params
+791  0x00094f70 0x00494f70 28  29   .rodata ascii   No data for argument: params
+792  0x00094f90 0x00494f90 27  28   .rodata ascii   No data for argument: items
+793  0x00094fac 0x00494fac 10  11   .rodata ascii   store_only
+794  0x00094fb8 0x00494fb8 77  78   .rodata ascii   Unable to convert argument [store_only] to <class 'bool'>: value recieved: %s
+795  0x00095008 0x00495008 80  81   .rodata ascii   Unable to convert argument [store_only] to <class 'bool'>: value recieved: %0.7f
+796  0x0009505c 0x0049505c 78  79   .rodata ascii   Unable to convert argument [store_only] to <class 'bool'>: value recieved: %ld
+797  0x000950ac 0x004950ac 35  36   .rodata ascii   config/collection-%Y%m%d-%H%M%S.zip
+798  0x000950d0 0x004950d0 25  26   .rodata ascii   Invalid root path (%0.7f)
+799  0x000950ec 0x004950ec 23  24   .rodata ascii   Invalid root path (%ld)
+800  0x00095104 0x00495104 22  23   .rodata ascii   Invalid root path(% s)
+801  0x0009511c 0x0049511c 10  11   .rodata ascii   system err
+802  0x00095128 0x00495128 59  60   .rodata ascii   Cannot create archive at '%s'.  Path exists as a directory.
+803  0x00095164 0x00495164 64  65   .rodata ascii   Cannot create archive at '%s'.  Parent directory does not exist.
+804  0x000951a8 0x004951a8 48  49   .rodata ascii   At least one file or directory must be specified
+805  0x000951dc 0x004951dc 80  81   .rodata ascii   Invalid value received for argument 'items'.  Expected List type, received float
+806  0x00095230 0x00495230 78  79   .rodata ascii   Invalid value received for argument 'items'.  Expected List type, received int
+807  0x00095280 0x00495280 4   5    .rodata ascii   item
+808  0x00095288 0x00495288 26  27   .rodata ascii   No data for argument: item
+809  0x000952a4 0x004952a4 31  32   .rodata ascii   No file/directory exits at '%s'
+810  0x000952c4 0x004952c4 14  15   .rodata ascii   files path: %s
+811  0x000952d4 0x004952d4 25  26   .rodata ascii   alloc memory fail at '%s'
+812  0x000952f0 0x004952f0 50  51   .rodata ascii   zip failure directory may not have files at '%.*s'
+813  0x00095324 0x00495324 22  23   .rodata ascii   "action": "zip_files",
+814  0x0009533c 0x0049533c 99  100  .rodata ascii   "destination":{"modified":%lu.%06lu, "size":%ld, "permissions":"%s", "path":"%.*s", "root":"%.*s" }
+815  0x000953a0 0x004953a0 19  20   .rodata ascii   zip process waiting
+816  0x000953b4 0x004953b4 26  27   .rodata ascii   No data for argument: path
+817  0x000953d0 0x004953d0 18  19   .rodata ascii   File %s job using"
+818  0x000953e4 0x004953e4 23  24   .rodata ascii   Invalid file path: %.*s
+819  0x000953fc 0x004953fc 23  24   .rodata ascii   Invalid file path: {%s}
+820  0x00095414 0x00495414 19  20   .rodata ascii   File %s delete fail
+821  0x00095428 0x00495428 24  25   .rodata ascii   "action": "delete_file",
+822  0x00095444 0x00495444 82  83   .rodata ascii   "item": {"modified":0, "size":%ld, "permissions":"%s", "path":"%s", "root":"%.*s"}
+823  0x00095498 0x00495498 17  18   .rodata ascii   Invalid parameter
+824  0x000954ac 0x004954ac 24  25   .rodata ascii   get_directory_ex req: %s
+825  0x000954c8 0x004954c8 7   8    .rodata ascii   $.limit
+826  0x000954d0 0x004954d0 7   8    .rodata ascii   $.start
+827  0x000954d8 0x004954d8 18  19   .rodata ascii   Invalid parameter.
+828  0x000954ec 0x004954ec 7   8    .rodata ascii   $.order
+829  0x000954f4 0x004954f4 4   5    .rodata ascii   size
+830  0x000954fc 0x004954fc 8   9    .rodata ascii   datetime
+831  0x00095508 0x00495508 4   5    .rodata ascii   desc
+832  0x00095510 0x00495510 5   6    .rodata ascii   files
+833  0x00095518 0x00495518 7   8    .rodata ascii   $.since
+834  0x00095520 0x00495520 8   9    .rodata ascii   $.before
+835  0x0009552c 0x0049552c 9   10   .rodata ascii   $.keyword
+836  0x00095538 0x00495538 9   10   .rodata ascii   "items":[
+837  0x00095544 0x00495544 25  26   .rodata ascii   get_sort_path_item failed
+838  0x00095560 0x00495560 8   9    .rodata ascii   name: %s
+839  0x0009556c 0x0049556c 72  73   .rodata ascii   {"type": "d","modified":%s,"size":%ld,"permissions":"%s","dirname":"%s"}
+840  0x000955b8 0x004955b8 48  49   .rodata ascii   {"type": "f","permissions":"%s","filename":"%s",
+841  0x000955ec 0x004955ec 73  74   .rodata ascii   {"type": "f","modified":%s,"size":%ld,"permissions":"%s","filename":"%s"}
+842  0x00095638 0x00495638 9   10   .rodata ascii   count: %d
+843  0x00095644 0x00495644 29  30   .rodata ascii   index: %d, start:%d, size:%d 
+844  0x00095664 0x00495664 12  13   .rodata ascii   "count": %d,
+845  0x00095674 0x00495674 59  60   .rodata ascii   "root_info":{"name":"%.*s", "path":"%s","permissions":"%s"}
+846  0x000956b0 0x004956b0 15  16   .rodata ascii   Invalid server.
+847  0x000956c0 0x004956c0 5   6    .rodata ascii   {%m:[
+848  0x000956c8 0x004956c8 6   7    .rodata ascii   result
+849  0x000956d4 0x004956d4 20  21   .rodata ascii   Invalid request type
+850  0x000956ec 0x004956ec 31  32   .rodata ascii   Invalid root name or file name.
+851  0x0009570c 0x0049570c 31  32   .rodata ascii   construction path error. ret:%d
+852  0x0009572c 0x0049572c 17  18   .rodata ascii   Invalid file path
+853  0x00095740 0x00495740 21  22   .rodata ascii   file no exits at '%s'
+854  0x00095758 0x00495758 121 122  .rodata ascii   {"result":{"action": "delete_file","item": {"modified":0, "size":%ld, "permissions":"%s", "path":"%.*s", "root":"%.*s"}}}
+855  0x000957d4 0x004957d4 6   7    .rodata ascii   DELETE
+856  0x000957dc 0x004957dc 19  20   .rodata ascii   /server/files/roots
+857  0x000957f0 0x004957f0 8   9    .rodata ascii   database
+858  0x000957fc 0x004957fc 6   7    .rodata ascii   nexusp
+859  0x00095804 0x00495804 18  19   .rodata ascii   $.metadata_version
+860  0x00095818 0x00495818 24  25   .rodata ascii   {"metadata_version": %d}
+861  0x00095834 0x00495834 29  30   .rodata ascii   database_post_item failed: %s
+862  0x00095854 0x00495854 12  13   .rodata ascii   inotify_init
+863  0x00095864 0x00495864 25  26   .rodata ascii   pthread_mutex_init failed
+864  0x00095880 0x00495880 14  15   .rodata ascii   ponit is null.
+865  0x00095890 0x00495890 26  27   .rodata ascii   path: %s, add watch wd: %d
+866  0x000958ac 0x004958ac 13  14   .rodata ascii   malloc failed
+867  0x000958bc 0x004958bc 13  14   .rodata ascii   strdup failed
+868  0x000958cc 0x004958cc 43  44   .rodata ascii   point is null. path:0x%08x, pInotify:0x%08x
+869  0x000958f8 0x004958f8 29  30   .rodata ascii   path: %s, remove watch wd: %d
+870  0x0009591c 0x0049591c 17  18   .rodata ascii   /proc/self/mounts
+871  0x00095930 0x00495930 5   6    .rodata ascii   fopen
+872  0x00095938 0x00495938 16  17   .rodata ascii   pInotify is null
+873  0x0009594c 0x0049594c 21  22   .rodata ascii   UDisk is not mounted.
+874  0x00095964 0x00495964 13  14   .rodata ascii   pointis null.
+875  0x00095974 0x00495974 6   7    .rodata ascii   .cache
+876  0x0009597c 0x0049597c 4   5    .rodata ascii   .tmp
+877  0x00095984 0x00495984 4   5    .rodata ascii   .swp
+878  0x0009598c 0x0049598c 4   5    .rodata ascii   .swx
+879  0x00095994 0x00495994 4   5    .rodata ascii   .swo
+880  0x0009599c 0x0049599c 25  26   .rodata ascii   {"action": "delete_dir", 
+881  0x000959b8 0x004959b8 25  26   .rodata ascii   {"action": "create_dir", 
+882  0x000959d4 0x004959d4 82  83   .rodata ascii   "item": {"path":"%s", "root":"%s", "modified":%s, "size":%ld, "permissions":"%s"}}
+883  0x00095a28 0x00495a28 16  17   .rodata ascii   filelist_changed
+884  0x00095a3c 0x00495a3c 19  20   .rodata ascii   handle_mounts_task!
+885  0x00095a50 0x00495a50 23  24   .rodata ascii   add watching succeeded.
+886  0x00095a68 0x00495a68 26  27   .rodata ascii   remove watching succeeded.
+887  0x00095a84 0x00495a84 26  27   .rodata ascii   handle_mounts_task! finish
+888  0x00095aa0 0x00495aa0 43  44   .rodata ascii   Timer is running and cannot be reactivated!
+889  0x00095acc 0x00495acc 15  16   .rodata ascii   Timer activated
+890  0x00095adc 0x00495adc 25  26   .rodata ascii   dire add watch failed: %s
+891  0x00095af8 0x00495af8 16  17   .rodata ascii   dire created: %s
+892  0x00095b0c 0x00495b0c 16  17   .rodata ascii   dire deleted: %s
+893  0x00095b20 0x00495b20 102 103  .rodata ascii   {"action": "delete_dir", "item": {"path":"%s", "root":"%s", "modified":0, "size":0, "permissions":""}}
+894  0x00095b88 0x00495b88 19  20   .rodata ascii   dire moved from: %s
+895  0x00095b9c 0x00495b9c 40  41   .rodata ascii   "source_item":{"root":"%s", "path":"%s"}
+896  0x00095bc8 0x00495bc8 17  18   .rodata ascii   dire moved to: %s
+897  0x00095bdc 0x00495bdc 109 110  .rodata ascii   {"action": "move_dir", "item": {"path":"%s", "root":"%s", "modified":%s, "size":%ld, "permissions":"%s"}, %s}
+898  0x00095c4c 0x00495c4c 17  18   .rodata ascii   file_path is null
+899  0x00095c60 0x00495c60 16  17   .rodata ascii   File created: %s
+900  0x00095c74 0x00495c74 108 109  .rodata ascii   {"action": "create_file", "item": {"path":"%s", "root":"%s", "modified":%s, "size":%ld, "permissions":"%s"}}
+901  0x00095ce4 0x00495ce4 16  17   .rodata ascii   File deleted: %s
+902  0x00095cf8 0x00495cf8 105 106  .rodata ascii   {"action": "delete_file", "item": {"path":"%s", "root":"%s", "modified":0, "size":0, "permissions":"%s"}}
+903  0x00095d64 0x00495d64 23  24   .rodata ascii   File attrib changed: %s
+904  0x00095d7c 0x00495d7c 108 109  .rodata ascii   {"action": "modify_file", "item": {"path":"%s", "root":"%s", "modified":%s, "size":%ld, "permissions":"%s"}}
+905  0x00095dec 0x00495dec 19  20   .rodata ascii   File moved from: %s
+906  0x00095e00 0x00495e00 17  18   .rodata ascii   File moved to: %s
+907  0x00095e14 0x00495e14 110 111  .rodata ascii   {"action": "move_file", "item": {"path":"%s", "root":"%s", "modified":%s, "size":%ld, "permissions":"%s"}, %s}
+908  0x00095e84 0x00495e84 24  25   .rodata ascii   allocating memory failed
+909  0x00095ea0 0x00495ea0 12  13   .rodata ascii   nexfile-main
+910  0x00095eb0 0x00495eb0 7   18   .rodata utf8    线程名称：%s blocks=CJK Unified Ideographs,Halfwidth and Fullwidth Forms,Basic Latin
+911  0x00095ec4 0x00495ec4 38  39   .rodata ascii   Failed to set up initial watches, %ld.
+912  0x00095eec 0x00495eec 9   10   .rodata ascii   /block/sd
+913  0x00095ef8 0x00495ef8 18  19   .rodata ascii   usb block path: %s
+914  0x00095f0c 0x00495f0c 27  28   .rodata ascii   FileOp_api or pfdat is NULL
+915  0x00095f28 0x00495f28 13  14   .rodata ascii   root_path: %s
+916  0x00095f38 0x00495f38 19  20   .rodata ascii   pthread create fail
+917  0x00095f4c 0x00495f4c 33  34   .rodata ascii   Failed to cancel file list thread
+918  0x00095f70 0x00495f70 12  13   .rodata ascii   pthread_join
+919  0x00095f80 0x00495f80 12  13   .rodata ascii   nexfile-node
+920  0x00095f90 0x00495f90 15  16   .rodata ascii   pointer is null
+921  0x00095fa0 0x00495fa0 10  11   .rodata ascii   mutex fail
+922  0x00095fac 0x00495fac 18  19   .rodata ascii   server.files.roots
+923  0x00095fc0 0x00495fc0 17  18   .rodata ascii   server.files.list
+924  0x00095fd4 0x00495fd4 21  22   .rodata ascii   server.files.metadata
+925  0x00095fec 0x00495fec 21  22   .rodata ascii   server.files.metascan
+926  0x00096004 0x00496004 23  24   .rodata ascii   server.files.thumbnails
+927  0x0009601c 0x0049601c 22  23   .rodata ascii   server.files.directory
+928  0x00096034 0x00496034 17  18   .rodata ascii   server.files.move
+929  0x00096048 0x00496048 17  18   .rodata ascii   server.files.copy
+930  0x0009605c 0x0049605c 16  17   .rodata ascii   server.files.zip
+931  0x00096070 0x00496070 24  25   .rodata ascii   server.files.delete_file
+932  0x0009608c 0x0049608c 29  30   .rodata ascii   server.files.get_directory_ex
+933  0x000960ac 0x004960ac 29  30   .rodata ascii   Error: Invalid directory path
+934  0x000960cc 0x004960cc 24  25   .rodata ascii   Error creating directory
+935  0x000960e8 0x004960e8 17  38   .rodata utf8    目录 '%s' 不存在，已创建。\n blocks=CJK Unified Ideographs,Basic Latin,Halfwidth and Fullwidth Forms,CJK Symbols and Punctuation
+936  0x00096110 0x00496110 37  38   .rodata ascii   info: Directory '%s' already exists.\n
+937  0x00096138 0x00496138 23  24   .rodata ascii   upload_deal_thread_task
+938  0x00096150 0x00496150 20  21   .rodata ascii   uploads_rx_free_task
+939  0x0009617f 0x0049617f 26  27   .rodata ascii   ?history or server is null
+940  0x0009619c 0x0049619c 129 130  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/history.c
+941  0x00096220 0x00496220 7   8    .rodata ascii   No User
+942  0x00096228 0x00496228 15  16   .rodata ascii   max_stored_jobs
+943  0x00096238 0x00496238 7   8    .rodata ascii   history
+944  0x00096240 0x00496240 15  16   .rodata ascii   max_stored_days
+945  0x00096250 0x00496250 32  33   .rodata ascii   Failed to create history tables.
+946  0x00096274 0x00496274 29  30   .rodata ascii   Failed to load total history.
+947  0x00096294 0x00496294 33  34   .rodata ascii   Failed to check interrupted jobs.
+948  0x000962b8 0x004962b8 26  27   .rodata ascii   server:klippy_disconnected
+949  0x000962d4 0x004962d4 22  23   .rodata ascii   server:klippy_shutdown
+950  0x000962ec 0x004962ec 23  24   .rodata ascii   job_state:state_changed
+951  0x00096304 0x00496304 30  31   .rodata ascii   klippy_apis:job_start_complete
+952  0x00096324 0x00496324 23  24   .rodata ascii   history:history_changed
+953  0x0009633c 0x0049633c 15  16   .rodata ascii   server:shutdown
+954  0x0009634c 0x0049634c 18  19   .rodata ascii   server.history.job
+955  0x00096360 0x00496360 20  21   .rodata ascii   server.history.count
+956  0x00096378 0x00496378 19  20   .rodata ascii   server.history.list
+957  0x0009638c 0x0049638c 21  22   .rodata ascii   server.history.totals
+958  0x000963a4 0x004963a4 27  28   .rodata ascii   server.history.reset_totals
+959  0x000963c0 0x004963c0 24  25   .rodata ascii   server.history.debug.job
+960  0x000963dc 0x004963dc 15  16   .rodata ascii   history is null
+961  0x000963ec 0x004963ec 22  23   .rodata ascii   history or job is null
+962  0x00096404 0x00496404 31  32   .rodata ascii   Error saving job, filename '%s'
+963  0x00096424 0x00496424 38  39   .rodata ascii   History Job Added - Id: %06X, File: %s
+964  0x0009644c 0x0049644c 5   6    .rodata ascii   added
+965  0x00096454 0x00496454 32  33   .rodata ascii   history or server or job is null
+966  0x00096478 0x00496478 8   9    .rodata ascii   database
+967  0x00096484 0x00496484 30  31   .rodata ascii   database is null or db is null
+968  0x000964a4 0x004964a4 11  12   .rodata ascii   job_history
+969  0x000964b0 0x004964b0 59  60   .rodata ascii   REPLACE INTO %s VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);
+970  0x000964ec 0x004964ec 33  34   .rodata ascii   Error preparing SQL statement: %s
+971  0x00096510 0x00496510 16  17   .rodata ascii   Job user is null
+972  0x00096524 0x00496524 20  21   .rodata ascii   Job filename is null
+973  0x0009653c 0x0049653c 18  19   .rodata ascii   Job status is null
+974  0x00096550 0x00496550 7   8    .rodata ascii   default
+975  0x00096558 0x00496558 33  34   .rodata ascii   Error executing SQL statement: %s
+976  0x0009657c 0x0049657c 46  47   .rodata ascii   history or server is null or job_id is invalid
+977  0x000965ac 0x004965ac 32  33   .rodata ascii   DELETE FROM %s WHERE job_id = ?;
+978  0x000965d0 0x004965d0 61  62   .rodata ascii   No rows were deleted, job_id: %d does not exist in the table.
+979  0x00096610 0x00496610 35  36   .rodata ascii   history or status or pstats is null
+980  0x00096634 0x00496634 19  20   .rodata ascii   Error parsing JSON.
+981  0x00096648 0x00496648 8   9    .rodata ascii   filename
+982  0x00096654 0x00496654 14  15   .rodata ascii   total_duration
+983  0x00096664 0x00496664 21  22   .rodata ascii   Job filename is null.
+984  0x00096680 0x00496680 53  54   .rodata ascii   History Job Finished - Id: %06X, File: %s, Status: %s
+985  0x000966b8 0x004966b8 8   9    .rodata ascii   finished
+986  0x000966c4 0x004966c4 30  31   .rodata ascii   history or current_job is null
+987  0x000966e4 0x004966e4 28  29   .rodata ascii   Current job filename is null
+988  0x00096704 0x00496704 27  28   .rodata ascii   Job metadata grabbed failed
+989  0x00096720 0x00496720 18  19   .rodata ascii   Error parsing JSON
+990  0x00096734 0x00496734 16  17   .rodata ascii   print_start_time
+991  0x00096748 0x00496748 6   7    .rodata ascii   job_id
+992  0x00096750 0x00496750 4   5    .rodata ascii   %06X
+993  0x00096758 0x00496758 31  32   .rodata ascii   Failed to create job_id string.
+994  0x00096778 0x00496778 29  30   .rodata ascii   Failed to create JSON string.
+995  0x00096798 0x00496798 37  38   .rodata ascii   current_job or current_job_id is null
+996  0x000967c0 0x004967c0 10  11   .rodata ascii   total_jobs
+997  0x000967cc 0x004967cc 10  11   .rodata ascii   total_time
+998  0x000967d8 0x004967d8 16  17   .rodata ascii   total_print_time
+999  0x000967ec 0x004967ec 19  20   .rodata ascii   total_filament_used
+1000 0x00096800 0x00496800 11  12   .rodata ascii   longest_job
+1001 0x0009680c 0x0049680c 13  14   .rodata ascii   longest_print
+1002 0x0009681c 0x0049681c 29  30   .rodata ascii   Failed to save total history.
+1003 0x0009683c 0x0049683c 34  35   .rodata ascii   history or server or event is null
+1004 0x00096860 0x00496860 26  27   .rodata ascii   Failed to create job data.
+1005 0x0009687c 0x0049687c 24  25   .rodata ascii   {"action":"%s","job":%s}
+1006 0x00096898 0x00496898 22  23   .rodata ascii   History event sent: %s
+1007 0x000968b0 0x004968b0 8   9    .rodata ascii   metadata
+1008 0x000968bc 0x004968bc 8   9    .rodata ascii   modified
+1009 0x000968c8 0x004968c8 6   7    .rodata ascii   gcodes
+1010 0x000968d0 0x004968d0 6   7    .rodata ascii   exists
+1011 0x000968d8 0x004968d8 17  18   .rodata ascii   Job id is invalid
+1012 0x000968ec 0x004968ec 11  12   .rodata ascii   instance_id
+1013 0x000968f8 0x004968f8 34  35   .rodata ascii   Failed to allocate memory for job.
+1014 0x0009691c 0x0049691c 10  11   .rodata ascii   start_time
+1015 0x00096928 0x00496928 8   9    .rodata ascii   end_time
+1016 0x00096934 0x00496934 14  15   .rodata ascii   print_duration
+1017 0x00096944 0x00496944 13  14   .rodata ascii   filament_used
+1018 0x00096958 0x00496958 4   5    .rodata ascii   user
+1019 0x00096960 0x00496960 11  12   .rodata ascii   in_progress
+1020 0x0009696c 0x0049696c 6   7    .rodata ascii   status
+1021 0x00096974 0x00496974 14  15   .rodata ascii   auxiliary_data
+1022 0x00096984 0x00496984 31  32   .rodata ascii   job or printer_job_data is null
+1023 0x000969a4 0x004969a4 5   6    .rodata ascii   error
+1024 0x000969ac 0x004969ac 28  29   .rodata ascii   Job finished with status: %s
+1025 0x000969cc 0x004969cc 27  28   .rodata ascii   job or key or value is null
+1026 0x000969e8 0x004969e8 24  25   .rodata ascii   Unused job attribute: %s
+1027 0x00096a04 0x00496a04 310 311  .rodata ascii   CREATE TABLE IF NOT EXISTS %s(job_id INTEGER PRIMARY KEY ASC,user TEXT NOT NULL,filename TEXT,status TEXT NOT NULL,start_time REAL NOT NULL,end_time REAL,print_duration REAL NOT NULL,total_duration REAL NOT NULL,filament_used REAL NOT NULL,metadata TEXT,auxiliary_data TEXT NOT NULL,instance_id TEXT NOT NULL);
+1028 0x00096b3c 0x00496b3c 10  11   .rodata ascii   job_totals
+1029 0x00096b48 0x00496b48 172 173  .rodata ascii   CREATE TABLE IF NOT EXISTS %s(provider TEXT NOT NULL, field TEXT NOT NULL, maximum REAL, total REAL, instance_id TEXT NOT NULL, PRIMARY KEY (provider, field, instance_id));
+1030 0x00096bf8 0x00496bf8 32  33   .rodata ascii   Error creating history table: %s
+1031 0x00096c1c 0x00496c1c 31  32   .rodata ascii   Error creating totals table: %s
+1032 0x00096c3c 0x00496c3c 6   7    .rodata ascii   totals
+1033 0x00096c44 0x00496c44 5   6    .rodata ascii   %s/%s
+1034 0x00096c50 0x00496c50 16  17   .rodata ascii   SELECT * FROM %s
+1035 0x00096c64 0x00496c64 23  24   .rodata ascii   Unknown total field: %s
+1036 0x00096c80 0x00496c80 38  39   .rodata ascii   REPLACE INTO %s VALUES(?, ?, ?, ?, ?);
+1037 0x00096ca8 0x00496ca8 29  30   .rodata ascii   Invalid total field index: %d
+1038 0x00096cc8 0x00496cc8 33  34   .rodata ascii   Auxiliary totals not implemented.
+1039 0x00096d04 0x00496d04 17  18   .rodata ascii   BEGIN TRANSACTION
+1040 0x00096d18 0x00496d18 31  32   .rodata ascii   Failed to begin transaction: %s
+1041 0x00096d38 0x00496d38 50  51   .rodata ascii   SELECT job_id FROM %s WHERE status = 'in_progress'
+1042 0x00096d6c 0x00496d6c 38  39   .rodata ascii   Failed to prepare SELECT statement: %s
+1043 0x00096d94 0x00496d94 8   9    .rodata ascii   ROLLBACK
+1044 0x00096da0 0x00496da0 35  36   .rodata ascii   Job to check for interruption: %06X
+1045 0x00096dc4 0x00496dc4 65  66   .rodata ascii   UPDATE %s SET status = 'interrupted' WHERE status = 'in_progress'
+1046 0x00096e08 0x00496e08 38  39   .rodata ascii   Failed to prepare UPDATE statement: %s
+1047 0x00096e30 0x00496e30 28  29   .rodata ascii   Failed to execute UPDATE: %s
+1048 0x00096e50 0x00496e50 6   7    .rodata ascii   COMMIT
+1049 0x00096e58 0x00496e58 32  33   .rodata ascii   Failed to commit transaction: %s
+1050 0x00096e7c 0x00496e7c 45  46   .rodata ascii   SELECT COUNT(*) FROM %s WHERE instance_id = ?
+1051 0x00096eac 0x00496eac 37  38   .rodata ascii   Failed to prepare COUNT statement: %s
+1052 0x00096ed4 0x00496ed4 25  26   .rodata ascii   History or server is null
+1053 0x00096ef0 0x00496ef0 38  39   .rodata ascii   SELECT * FROM %s WHERE instance_id = ?
+1054 0x00096f18 0x00496f18 17  18   .rodata ascii    AND end_time < ?
+1055 0x00096f2c 0x00496f2c 19  20   .rodata ascii    AND start_time > ?
+1056 0x00096f40 0x00496f40 4   5    .rodata ascii   DESC
+1057 0x00096f4c 0x00496f4c 20  21   .rodata ascii    ORDER BY job_id %s 
+1058 0x00096f64 0x00496f64 17  18   .rodata ascii    LIMIT ? OFFSET ?
+1059 0x00096f78 0x00496f78 25  26   .rodata ascii   sqlite3_prepare_v2 failed
+1060 0x00096f94 0x00496f94 20  21   .rodata ascii   json_jobs:parse fail
+1061 0x00096fac 0x00496fac 19  20   .rodata ascii   json_row:parse fail
+1062 0x00096fc0 0x00496fc0 23  24   .rodata ascii   unknown column type: %d
+1063 0x00096fd8 0x00496fd8 19  20   .rodata ascii   json_str:parse fail
+1064 0x00096fec 0x00496fec 25  26   .rodata ascii   {"count": %d, "jobs": %s}
+1065 0x00097008 0x00497008 64  65   .rodata ascii   DELETE FROM %s WHERE instance_id = ? ORDER BY job_id ASC LIMIT ?
+1066 0x0009704c 0x0049704c 38  39   .rodata ascii   Failed to prepare DELETE statement: %s
+1067 0x00097074 0x00497074 34  35   .rodata ascii   Failed to delete earliest jobs: %s
+1068 0x00097098 0x00497098 24  25   .rodata ascii   Deleted %d earliest jobs
+1069 0x000970b4 0x004970b4 55  56   .rodata ascii   DELETE FROM %s WHERE instance_id = ? AND start_time < ?
+1070 0x000970ec 0x004970ec 29  30   .rodata ascii   Failed to delete old jobs: %s
+1071 0x0009710c 0x0049710c 19  20   .rodata ascii   Deleted %d old jobs
+1072 0x00097120 0x00497120 33  34   .rodata ascii   SELECT * FROM %s WHERE job_id = ?
+1073 0x00097144 0x00497144 19  20   .rodata ascii   Invalid job uid: %d
+1074 0x00097158 0x00497158 20  21   .rodata ascii   malloc json_row fail
+1075 0x00097170 0x00497170 25  26   .rodata ascii   Failed to create json_row
+1076 0x0009718c 0x0049718c 11  12   .rodata ascii   {"job": %s}
+1077 0x00097198 0x00497198 20  21   .rodata ascii   Failed to delete job
+1078 0x000971b0 0x004971b0 13  14   .rodata ascii   Job not found
+1079 0x000971c0 0x004971c0 43  44   .rodata ascii   SELECT job_id FROM %s WHERE instance_id = ?
+1080 0x000971f0 0x004971f0 7   8    .rodata ascii   "%06X",
+1081 0x000971fc 0x004971fc 36  37   .rodata ascii   DELETE FROM %s WHERE instance_id = ?
+1082 0x00097224 0x00497224 25  26   .rodata ascii   Failed to delete all jobs
+1083 0x00097240 0x00497240 4   5    .rodata ascii   null
+1084 0x00097248 0x00497248 22  23   .rodata ascii   {"deleted_jobs": %.*s}
+1085 0x00097260 0x00497260 27  28   .rodata ascii   Failed to delete totals: %s
+1086 0x0009727c 0x0049727c 23  24   .rodata ascii   Failed to delete totals
+1087 0x00097298 0x00497298 48  49   .rodata ascii   {"last_totals": %s, "last_auxiliary_totals": %s}
+1088 0x000972cc 0x004972cc 24  25   .rodata ascii   history or field is null
+1089 0x000972e8 0x004972e8 23  24   .rodata ascii   Invalid total field: %s
+1090 0x00097300 0x00497300 22  23   .rodata ascii   json_totals:parse fail
+1091 0x00097318 0x00497318 59  60   .rodata ascii   Invalid argument: args or event_name or event_data is NULL.
+1092 0x00097354 0x00497354 11  12   .rodata ascii   Job started
+1093 0x00097360 0x00497360 26  27   .rodata ascii   prev_stats_json:creat fail
+1094 0x0009737c 0x0049737c 9   10   .rodata ascii   cancelled
+1095 0x00097388 0x00497388 25  26   .rodata ascii   new_stats_json:creat fail
+1096 0x000973a4 0x004973a4 18  19   .rodata ascii   new_job:creat fail
+1097 0x000973b8 0x004973b8 13  14   .rodata ascii   Job completed
+1098 0x000973c8 0x004973c8 9   10   .rodata ascii   completed
+1099 0x000973d4 0x004973d4 9   10   .rodata ascii   Job error
+1100 0x000973e0 0x004973e0 24  25   .rodata ascii   Job cancelled or standby
+1101 0x000973fc 0x004973fc 37  38   .rodata ascii   job_state_data->job_event unknown: %d
+1102 0x00097444 0x00497444 45  46   .rodata ascii   Invalid argument: args or event_name is NULL.
+1103 0x00097474 0x00497474 14  15   .rodata ascii   server is null
+1104 0x00097484 0x00497484 9   10   .rodata ascii   job_state
+1105 0x00097490 0x00497490 17  18   .rodata ascii   job_state is null
+1106 0x000974a4 0x004974a4 26  27   .rodata ascii   last_stats_json:creat fail
+1107 0x000974c0 0x004974c0 15  16   .rodata ascii   klippy_shutdown
+1108 0x000974d0 0x004974d0 17  18   .rodata ascii   klippy_disconnect
+1109 0x000974e4 0x004974e4 11  12   .rodata ascii   server_exit
+1110 0x000974f0 0x004974f0 26  27   .rodata ascii   History or request is NULL
+1111 0x00097510 0x00497510 24  25   .rodata ascii   No data for argument: %s
+1112 0x0009752c 0x0049752c 44  45   .rodata ascii   invalid literal for int() with base 16: '%s'
+1113 0x0009755c 0x0049755c 19  20   .rodata ascii   Invalid job uid: %s
+1114 0x00097574 0x00497574 24  25   .rodata ascii   {"deleted_jobs": ["%s"]}
+1115 0x00097590 0x00497590 18  19   .rodata ascii   Method not allowed
+1116 0x000975a4 0x004975a4 20  21   .rodata ascii   Failed to jobs count
+1117 0x000975bc 0x004975bc 13  14   .rodata ascii   {"count": %d}
+1118 0x000975cc 0x004975cc 5   6    .rodata ascii   order
+1119 0x000975d4 0x004975d4 25  26   .rodata ascii   Invalid `order` value: %s
+1120 0x000975f0 0x004975f0 6   7    .rodata ascii   before
+1121 0x000975f8 0x004975f8 65  66   .rodata ascii   Unable to convert argument [before] to Number: value recieved: %s
+1122 0x0009763c 0x0049763c 5   6    .rodata ascii   since
+1123 0x00097644 0x00497644 64  65   .rodata ascii   Unable to convert argument [since] to Number: value recieved: %s
+1124 0x00097688 0x00497688 5   6    .rodata ascii   limit
+1125 0x00097690 0x00497690 64  65   .rodata ascii   Unable to convert argument [limit] to Number: value recieved: %s
+1126 0x000976d4 0x004976d4 5   6    .rodata ascii   start
+1127 0x000976dc 0x004976dc 64  65   .rodata ascii   Unable to convert argument [start] to Number: value recieved: %s
+1128 0x00097720 0x00497720 16  39   .rodata utf8    获取历史任务列表用时: %f 秒 blocks=CJK Unified Ideographs,Basic Latin
+1129 0x00097748 0x00497748 42  43   .rodata ascii   {"job_totals": %s, "auxiliary_totals": %s}
+1130 0x00097774 0x00497774 36  37   .rodata ascii   History or request or server is NULL
+1131 0x0009779c 0x0049779c 36  37   .rodata ascii   Job in progress, cannot reset totals
+1132 0x000977c8 0x004977c8 62  63   .rodata ascii   Unable to convert argument [num] to Number: value recieved: %s
+1133 0x00097808 0x00497808 29  30   .rodata ascii   Error preparing SQL statement
+1134 0x00097828 0x00497828 29  30   .rodata ascii   Error executing SQL statement
+1135 0x00097848 0x00497848 19  20   .rodata ascii   {"last_row_id": %d}
+1136 0x0009787e 0x0049787e 17  18   .rodata ascii   .Aload_on_startup
+1137 0x00097890 0x00497890 9   10   .rodata ascii   job_queue
+1138 0x0009789c 0x0049789c 20  21   .rodata ascii   automatic_transition
+1139 0x000978b4 0x004978b4 20  21   .rodata ascii   job_transition_delay
+1140 0x000978cc 0x004978cc 89  90   .rodata ascii   Value for option 'job_transition_delay' in section [job_queue] must be a positive number.
+1141 0x00097928 0x00497928 131 132  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/job_queue.c
+1142 0x000979b0 0x004979b0 20  21   .rodata ascii   job_transition_gcode
+1143 0x000979c8 0x004979c8 19  20   .rodata ascii   server:klippy_ready
+1144 0x000979dc 0x004979dc 22  23   .rodata ascii   server:klippy_shutdown
+1145 0x000979f4 0x004979f4 23  24   .rodata ascii   job_state:state_changed
+1146 0x00097a0c 0x00497a0c 27  28   .rodata ascii   job_queue:job_queue_changed
+1147 0x00097a28 0x00497a28 15  16   .rodata ascii   start_job_queue
+1148 0x00097a38 0x00497a38 15  16   .rodata ascii   pause_job_queue
+1149 0x00097a48 0x00497a48 20  21   .rodata ascii   server.job_queue.job
+1150 0x00097a60 0x00497a60 22  23   .rodata ascii   server.job_queue.start
+1151 0x00097a78 0x00497a78 22  23   .rodata ascii   server.job_queue.pause
+1152 0x00097a90 0x00497a90 23  24   .rodata ascii   server.job_queue.status
+1153 0x00097aa8 0x00497aa8 21  22   .rodata ascii   server.job_queue.jump
+1154 0x00097ac0 0x00497ac0 5   6    .rodata ascii   ready
+1155 0x00097ac8 0x00497ac8 6   7    .rodata ascii   paused
+1156 0x00097ad0 0x00497ad0 7   8    .rodata ascii   loading
+1157 0x00097ad8 0x00497ad8 8   9    .rodata ascii   starting
+1158 0x00097ae4 0x00497ae4 18  19   .rodata ascii   Invalid arguments.
+1159 0x00097af8 0x00497af8 47  48   .rodata ascii   Failed to acquire lock. Queue is probably busy.
+1160 0x00097b28 0x00497b28 23  24   .rodata ascii   Queue is probably busy.
+1161 0x00097b40 0x00497b40 6   7    .rodata ascii   [%.*s]
+1162 0x00097b48 0x00497b48 8   9    .rodata ascii   ["%.*s"]
+1163 0x00097b54 0x00497b54 25  26   .rodata ascii   Memory allocation failed.
+1164 0x00097b70 0x00497b70 18  19   .rodata ascii   Error parsing JSON
+1165 0x00097b84 0x00497b84 4   5    .rodata ascii   %.*s
+1166 0x00097b8c 0x00497b8c 18  19   .rodata ascii   File not found: %s
+1167 0x00097ba0 0x00497ba0 29  30   .rodata ascii   G-Code File %s does not exist
+1168 0x00097bc0 0x00497bc0 10  11   .rodata ascii   jobs_added
+1169 0x00097bcc 0x00497bcc 9   10   .rodata ascii   job_state
+1170 0x00097bd8 0x00497bd8 38  39   .rodata ascii   Job queue is empty. Nothing to delete.
+1171 0x00097c00 0x00497c00 25  26   .rodata ascii   Error creating job queue.
+1172 0x00097c1c 0x00497c1c 12  13   .rodata ascii   jobs_removed
+1173 0x00097c38 0x00497c38 33  34   .rodata ascii   Error converting job map to list.
+1174 0x00097c5c 0x00497c5c 13  14   .rodata ascii   state_changed
+1175 0x00097c6c 0x00497c6c 26  27   .rodata ascii   Error getting queue state.
+1176 0x00097c88 0x00497c88 4   5    .rodata ascii   null
+1177 0x00097c90 0x00497c90 58  59   .rodata ascii   {"action": "%s", "updated_queue": %s, "queue_state": "%s"}
+1178 0x00097ccc 0x00497ccc 36  37   .rodata ascii   Error creating job queue event data.
+1179 0x00097cf4 0x00497cf4 10  11   .rodata ascii   klippy_api
+1180 0x00097d00 0x00497d00 21  22   .rodata ascii   Klippy API not found.
+1181 0x00097d18 0x00497d18 21  22   .rodata ascii   {"print_stats": null}
+1182 0x00097d30 0x00497d30 31  32   .rodata ascii   Error querying print stats : %s
+1183 0x00097d50 0x00497d50 19  20   .rodata ascii   $.print_stats.state
+1184 0x00097d64 0x00497d64 10  11   .rodata ascii   "printing"
+1185 0x00097d70 0x00497d70 8   9    .rodata ascii   "paused"
+1186 0x00097d7c 0x00497d7c 6   7    .rodata ascii   gcodes
+1187 0x00097d84 0x00497d84 44  45   .rodata ascii   Queue State Changed during Transition Gcode.
+1188 0x00097db4 0x00497db4 23  24   .rodata ascii   Error Loading print: %s
+1189 0x00097dcc 0x00497dcc 10  11   .rodata ascii   job_loaded
+1190 0x00097dd8 0x00497dd8 37  38   .rodata ascii   {"queued_jobs":%s,"queue_state":"%s"}
+1191 0x00097e00 0x00497e00 27  28   .rodata ascii   JobQueue or request is NULL
+1192 0x00097e1c 0x00497e1c 14  15   .rodata ascii   $.params.reset
+1193 0x00097e2c 0x00497e2c 4   5    .rodata ascii   true
+1194 0x00097e34 0x00497e34 6   7    .rodata ascii   "true"
+1195 0x00097e3c 0x00497e3c 5   6    .rodata ascii   false
+1196 0x00097e44 0x00497e44 7   8    .rodata ascii   "false"
+1197 0x00097e4c 0x00497e4c 5   6    .rodata ascii   reset
+1198 0x00097e54 0x00497e54 24  25   .rodata ascii   No data for argument: %s
+1199 0x00097e70 0x00497e70 9   10   .rodata ascii   filenames
+1200 0x00097e7c 0x00497e7c 12  13   .rodata ascii   $.params.all
+1201 0x00097e94 0x00497e94 7   8    .rodata ascii   job_ids
+1202 0x00097e9c 0x00497e9c 18  19   .rodata ascii   Method not allowed
+1203 0x00097eb0 0x00497eb0 6   7    .rodata ascii   job_id
+1204 0x00097eb8 0x00497eb8 18  19   .rodata ascii   Invalid job id: %s
+1205 0x00097ed0 0x00497ed0 5   6    .rodata ascii   %016X
+1206 0x00097ed8 0x00497ed8 77  78   .rodata ascii   {"job_id": "%s","filename": "%s","time_added": %ld.%09ld,"time_in_queue": %f}
+1207 0x00097f28 0x00497f28 32  33   .rodata ascii   Failed to format job to JSON: %s
+1208 0x00097f5e 0x00497f5e 35  36   .rodata ascii   .AFailed to create last_print_stats
+1209 0x00097f84 0x00497f84 131 132  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/job_state.c
+1210 0x00098008 0x00498008 21  22   .rodata ascii   server:klippy_started
+1211 0x00098020 0x00498020 26  27   .rodata ascii   server:klippy_disconnected
+1212 0x0009803c 0x0049803c 7   8    .rodata ascii   standby
+1213 0x00098044 0x00498044 7   8    .rodata ascii   started
+1214 0x0009804c 0x0049804c 6   7    .rodata ascii   paused
+1215 0x00098054 0x00498054 7   8    .rodata ascii   resumed
+1216 0x0009805c 0x0049805c 8   9    .rodata ascii   complete
+1217 0x00098068 0x00498068 9   10   .rodata ascii   cancelled
+1218 0x00098074 0x00498074 5   6    .rodata ascii   state
+1219 0x0009807c 0x0049807c 8   9    .rodata ascii   filename
+1220 0x00098088 0x00498088 14  15   .rodata ascii   total_duration
+1221 0x00098098 0x00498098 8   9    .rodata ascii   "paused"
+1222 0x000980a4 0x004980a4 10  11   .rodata ascii   klippy_api
+1223 0x000980b0 0x004980b0 27  28   .rodata ascii   Failed to lookup klippy_api
+1224 0x000980cc 0x004980cc 20  21   .rodata ascii   {"print_stats":null}
+1225 0x000980e4 0x004980e4 35  36   .rodata ascii   Failed to subscribe print_stats: %s
+1226 0x00098108 0x00498108 13  14   .rodata ascii   $.print_stats
+1227 0x00098118 0x00498118 27  28   .rodata ascii   Failed to parse print_stats
+1228 0x00098134 0x00498134 4   5    .rodata ascii   %.*s
+1229 0x0009813c 0x0049813c 35  36   .rodata ascii   Failed to malloc memory for key_str
+1230 0x00098160 0x00498160 35  36   .rodata ascii   Failed to malloc memory for val_str
+1231 0x00098184 0x00498184 25  26   .rodata ascii   Job state initialized: %s
+1232 0x000981a0 0x004981a0 8   9    .rodata ascii   printing
+1233 0x000981ac 0x004981ac 5   6    .rodata ascii   error
+1234 0x000981b4 0x004981b4 7   8    .rodata ascii   $.state
+1235 0x000981bc 0x004981bc 37  38   .rodata ascii   Failed to malloc memory for new_state
+1236 0x000981e4 0x004981e4 23  24   .rodata ascii   Failed to create new_ps
+1237 0x000981fc 0x004981fc 10  11   .rodata ascii   "printing"
+1238 0x00098208 0x00498208 9   10   .rodata ascii   "resumed"
+1239 0x00098214 0x00498214 10  11   .rodata ascii   $.filename
+1240 0x00098220 0x00498220 17  18   .rodata ascii   Job Started: %.*s
+1241 0x00098234 0x00498234 9   10   .rodata ascii   "started"
+1242 0x00098240 0x00498240 27  28   .rodata ascii   Job state changed: %s -> %s
+1243 0x0009825c 0x0049825c 14  15   .rodata ascii   job_state:%.*s
+1244 0x0009826c 0x0049826c 33  34   .rodata ascii   Failed to malloc memory for event
+1245 0x00098290 0x00498290 23  24   .rodata ascii   job_state:state_changed
+1246 0x000982a8 0x004982a8 6   7    .rodata ascii   $.info
+1247 0x000982b0 0x004982b0 15  16   .rodata ascii   $.current_layer
+1248 0x000982c0 0x004982c0 13  14   .rodata ascii   $.total_layer
+1249 0x000982d0 0x004982d0 23  24   .rodata ascii   job_state:layer_changed
+1250 0x000982f0 0x004982f0 38  39   .rodata ascii   {"configfile": ["config", "settings"]}
+1251 0x00098318 0x00498318 16  17   .rodata ascii   "list_endpoints"
+1252 0x0009832c 0x0049832c 24  25   .rodata ascii   "gcode/subscribe_output"
+1253 0x00098348 0x00498348 24  25   .rodata ascii   "register_remote_method"
+1254 0x00098364 0x00498364 15  16   .rodata ascii   /tmp/klippy_uds
+1255 0x00098374 0x00498374 18  19   .rodata ascii   klippy_uds_address
+1256 0x00098388 0x00498388 6   7    .rodata ascii   server
+1257 0x00098390 0x00498390 4   5    .rodata ascii   %s%s
+1258 0x00098398 0x00498398 29  30   .rodata ascii   Failed to expand uds_address.
+1259 0x000983b8 0x004983b8 128 129  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/klippy.c
+1260 0x0009843c 0x0049843c 31  32   .rodata ascii   Failed to get user information.
+1261 0x0009845c 0x0049845c 37  38   .rodata ascii   Failed to create remote methods list.
+1262 0x00098484 0x00498484 43  44   .rodata ascii   Failed to create remote methods dictionary.
+1263 0x000984b0 0x004984b0 45  46   .rodata ascii   Failed to create pending requests dictionary.
+1264 0x000984e0 0x004984e0 42  43   .rodata ascii   Failed to create subscriptions dictionary.
+1265 0x0009850c 0x0049850c 22  23   .rodata ascii   Server:Websocket_close
+1266 0x00098524 0x00498524 48  49   .rodata ascii   Failed to create subscriptions cache dictionary.
+1267 0x00098558 0x00498558 21  22   .rodata ascii   Socket not connected.
+1268 0x00098570 0x00498570 24  25   .rodata ascii   Klippy is not connected.
+1269 0x0009858c 0x0049858c 28  29   .rodata ascii   Klippy is already connected.
+1270 0x000985ac 0x004985ac 29  30   .rodata ascii   Klippy socket creation failed
+1271 0x000985cc 0x004985cc 34  35   .rodata ascii   Connection to klippy socket failed
+1272 0x000985f0 0x004985f0 40  41   .rodata ascii   Successfully connected to klippy socket.
+1273 0x0009861c 0x0049861c 18  19   .rodata ascii   Invalid parameter.
+1274 0x00098630 0x00498630 23  24   .rodata ascii   Server not initialized.
+1275 0x00098648 0x00498648 11  12   .rodata ascii   nex-klipper
+1276 0x00098654 0x00498654 7   18   .rodata utf8    线程名称：%s blocks=CJK Unified Ideographs,Halfwidth and Fullwidth Forms,Basic Latin
+1277 0x00098668 0x00498668 22  23   .rodata ascii   process_gcode_response
+1278 0x00098680 0x00498680 21  22   .rodata ascii   process_status_update
+1279 0x00098698 0x00498698 12  13   .rodata ascii   Select error
+1280 0x000986a8 0x004986a8 35  36   .rodata ascii   Timeout occurred, no data received.
+1281 0x000986cc 0x004986cc 38  39   .rodata ascii   No response received or error occurred
+1282 0x000986f4 0x004986f4 58  59   .rodata ascii   Server is not running, remote method registration ignored.
+1283 0x00098730 0x00498730 29  30   .rodata ascii   Method already registered: %s
+1284 0x00098750 0x00498750 49  50   .rodata ascii   Failed to allocate memory for remote method node.
+1285 0x00098784 0x00498784 57  58   .rodata ascii   Failed to allocate memory for remote method registration.
+1286 0x000987c0 0x004987c0 28  29   .rodata ascii   Registered remote method: %s
+1287 0x000987e0 0x004987e0 20  21   .rodata ascii   Method not found: %s
+1288 0x000987f8 0x004987f8 31  32   .rodata ascii   Unregistered remote method: %s\n
+1289 0x00098818 0x00498818 39  40   .rodata ascii   Server is not running, request ignored.
+1290 0x00098840 0x00498840 21  22   .rodata ascii   Server is not running
+1291 0x00098858 0x00498858 41  42   .rodata ascii   Klippy is not connected, request ignored.
+1292 0x00098884 0x00498884 23  24   .rodata ascii   Klippy is not connected
+1293 0x0009889c 0x0049889c 29  30   .rodata ascii   Failed to create new request.
+1294 0x000988bc 0x004988bc 8   9    .rodata ascii   database
+1295 0x000988c8 0x004988c8 14  15   .rodata ascii   $.klipper_path
+1296 0x000988d8 0x004988d8 13  14   .rodata ascii   $.python_path
+1297 0x000988e8 0x004988e8 11  12   .rodata ascii   "path":"%s"
+1298 0x000988f8 0x004988f8 17  18   .rodata ascii   "executable":"%s"
+1299 0x0009890c 0x0049890c 6   7    .rodata ascii   {%.*s}
+1300 0x00098914 0x00498914 40  41   .rodata ascii   Failed to allocate memory for path info.
+1301 0x00098940 0x00498940 17  18   .rodata ascii   klippy_connection
+1302 0x00098954 0x00498954 6   7    .rodata ascii   nexusp
+1303 0x0009895c 0x0049895c 23  24   .rodata ascii   Failed to save path: %s
+1304 0x00098974 0x00498974 10  11   .rodata ascii   klippy_api
+1305 0x00098980 0x00498980 27  28   .rodata ascii   Failed to get endpoints: %s
+1306 0x0009899c 0x0049899c 11  12   .rodata ascii   $.endpoints
+1307 0x000989a8 0x004989a8 24  25   .rodata ascii   Failed to get endpoints.
+1308 0x000989c4 0x004989c4 12  13   .rodata ascii   printer.%.*s
+1309 0x000989d4 0x004989d4 39  40   .rodata ascii   Failed to allocate memory for endpoint.
+1310 0x000989fc 0x004989fc 11  12   .rodata ascii   Objects: %s
+1311 0x00098a08 0x00498a08 29  30   .rodata ascii   Failed to get object list: %s
+1312 0x00098a28 0x00498a28 17  18   .rodata ascii   {"webhooks":null}
+1313 0x00098a3c 0x00498a3c 20  21   .rodata ascii   Webhooks Subscribed.
+1314 0x00098a54 0x00498a54 32  33   .rodata ascii   Failed to subscribe webhooks: %s
+1315 0x00098a78 0x00498a78 24  25   .rodata ascii   Gcode Output Subscribed.
+1316 0x00098a94 0x00498a94 36  37   .rodata ascii   Failed to subscribe gcode output: %s
+1317 0x00098abc 0x00498abc 25  26   .rodata ascii   Klippy OR server is NULL.
+1318 0x00098ad8 0x00498ad8 32  33   .rodata ascii   Klippy API component not loaded.
+1319 0x00098afc 0x00498afc 29  30   .rodata ascii   Failed to get klippy info: %s
+1320 0x00098b1c 0x00498b1c 18  19   .rodata ascii   $.software_version
+1321 0x00098b30 0x00498b30 4   5    .rodata ascii   %.*s
+1322 0x00098b38 0x00498b38 46  47   .rodata ascii   Failed to allocate memory for klipper version.
+1323 0x00098b68 0x00498b68 12  13   .rodata ascii   $.process_id
+1324 0x00098b78 0x00498b78 10  11   .rodata ascii   $.group_id
+1325 0x00098b84 0x00498b84 9   10   .rodata ascii   $.user_id
+1326 0x00098b90 0x00498b90 4   5    .rodata ascii   null
+1327 0x00098b98 0x00498b98 53  54   .rodata ascii   {"process_id": %.*s,"group_id": %.*s,"user_id": %.*s}
+1328 0x00098bd0 0x00498bd0 47  48   .rodata ascii   Failed to allocate memory for peer credentials.
+1329 0x00098c00 0x00498c00 42  43   .rodata ascii   Failed to allocate memory for klippy info.
+1330 0x00098c2c 0x00498c2c 15  16   .rodata ascii   $.state_message
+1331 0x00098c3c 0x00498c3c 44  45   .rodata ascii   Failed to allocate memory for state message.
+1332 0x00098c6c 0x00498c6c 7   8    .rodata ascii   $.state
+1333 0x00098c74 0x00498c74 24  25   .rodata ascii   server:klippy_identified
+1334 0x00098c90 0x00498c90 36  37   .rodata ascii   Failed to allocate memory for state.
+1335 0x00098cb8 0x00498cb8 21  22   .rodata ascii   server:klippy_started
+1336 0x00098cd0 0x00498cd0 15  16   .rodata ascii   KlippyState: %s
+1337 0x00098ce0 0x00498ce0 22  23   .rodata ascii   server:klippy_shutdown
+1338 0x00098cf8 0x00498cf8 36  37   .rodata ascii   Unable to register remote method: %s
+1339 0x00098d20 0x00498d20 16  17   .rodata ascii   Klippy is ready.
+1340 0x00098d34 0x00498d34 19  20   .rodata ascii   server:klippy_ready
+1341 0x00098d48 0x00498d48 63  64   .rodata ascii   Klippy state transition from ready during init, new state: {%d}
+1342 0x00098d88 0x00498d88 29  30   .rodata ascii   Klippy Connection Initialized
+1343 0x00098da8 0x00498da8 32  33   .rodata ascii   Klippy Connection Failed to Init
+1344 0x00098dcc 0x00498dcc 8   9    .rodata ascii   $.params
+1345 0x00098dd8 0x00498dd8 10  11   .rodata ascii   $.response
+1346 0x00098de4 0x00498de4 45  46   .rodata ascii   Failed to allocate memory for gcode response.
+1347 0x00098e14 0x00498e14 21  22   .rodata ascii   server:gcode_response
+1348 0x00098e2c 0x00498e2c 8   9    .rodata ascii   $.status
+1349 0x00098e38 0x00498e38 31  32   .rodata ascii   Failed to parse status JSON: %s
+1350 0x00098e58 0x00498e58 37  38   .rodata ascii   Failed to allocate memory for status.
+1351 0x00098e80 0x00498e80 10  11   .rodata ascii   $.webhooks
+1352 0x00098e8c 0x00498e8c 37  38   .rodata ascii   Klippy state transition: {%s} -> {%s}
+1353 0x00098eb4 0x00498eb4 11  12   .rodata ascii   $.eventtime
+1354 0x00098ec0 0x00498ec0 27  28   .rodata ascii   Invalid status update: %.*s
+1355 0x00098edc 0x00498edc 48  49   .rodata ascii   Failed to allocate memory for connection status.
+1356 0x00098f10 0x00498f10 6   7    .rodata ascii   $.%.*s
+1357 0x00098f18 0x00498f18 42  43   .rodata ascii   Failed to allocate memory for fields list.
+1358 0x00098f44 0x00498f44 36  37   .rodata ascii   Failed to allocate memory for field.
+1359 0x00098f6c 0x00498f6c 11  12   .rodata ascii   %.*s: %.*s,
+1360 0x00098f78 0x00498f78 53  54   .rodata ascii   Failed to allocate memory for connection status JSON.
+1361 0x00098fb0 0x00498fb0 8   9    .rodata ascii   Internal
+1362 0x00098fbc 0x00498fbc 20  21   .rodata ascii   klippy:status_update
+1363 0x00098fd4 0x00498fd4 68  69   .rodata ascii   {"jsonrpc":"2.0","method":"notify_status_update","params":[%s,%.*s]}
+1364 0x0009901c 0x0049901c 25  26   .rodata ascii   Invalid connection ID: %s
+1365 0x00099038 0x00499038 32  33   .rodata ascii   Failed to wake up connection %lu
+1366 0x0009905c 0x0049905c 39  40   .rodata ascii   Invalid subscription for connection: %s
+1367 0x00099084 0x00499084 8   9    .rodata ascii   $.method
+1368 0x00099090 0x00499090 35  36   .rodata ascii   No callback function for method: %s
+1369 0x000990b4 0x004990b4 36  37   .rodata ascii   Unknown registered remote method: %s
+1370 0x000990dc 0x004990dc 4   5    .rodata ascii   $.id
+1371 0x000990e4 0x004990e4 30  31   .rodata ascii   Invalid Klippy response : %.*s
+1372 0x00099104 0x00499104 41  42   .rodata ascii   Failed to allocate memory for request ID.
+1373 0x00099130 0x00499130 43  44   .rodata ascii   No request matching request ID: %.*s : %.*s
+1374 0x0009915c 0x0049915c 8   9    .rodata ascii   $.result
+1375 0x0009916c 0x0049916c 4   5    .rodata ascii   "ok"
+1376 0x00099174 0x00499174 7   8    .rodata ascii   $.error
+1377 0x0009917c 0x0049917c 9   10   .rodata ascii   $.message
+1378 0x00099188 0x00499188 25  26   .rodata ascii   Malformed Klippy Response
+1379 0x000991a4 0x004991a4 25  26   .rodata ascii   Klippy connected callback
+1380 0x000991c0 0x004991c0 28  29   .rodata ascii   Klippy disconnected callback
+1381 0x000991e0 0x004991e0 19  20   .rodata ascii   Klippy disconnected
+1382 0x000991f4 0x004991f4 50  51   .rodata ascii   Failed to allocate memory for Klippy disconnected.
+1383 0x00099228 0x00499228 19  20   .rodata ascii   Klippy Disconnected
+1384 0x0009923c 0x0049923c 26  27   .rodata ascii   server:klippy_disconnected
+1385 0x00099258 0x00499258 28  29   .rodata ascii   Invalid Klippy or WebRequest
+1386 0x00099278 0x00499278 34  35   .rodata ascii   Failed to get method from request.
+1387 0x0009929c 0x0049929c 17  18   .rodata ascii   objects/subscribe
+1388 0x000992b0 0x004992b0 48  49   .rodata ascii   Failed to get associated websocket from request.
+1389 0x000992e4 0x004992e4 50  51   .rodata ascii   No connection associated with subscription request
+1390 0x0009931c 0x0049931c 44  45   .rodata ascii   Failed to allocate memory for connection ID.
+1391 0x0009934c 0x0049934c 46  47   .rodata ascii   Klippy subscription removed for connection %s.
+1392 0x0009937c 0x0049937c 46  47   .rodata ascii   Invalid parameters for KlippyRequest creation.
+1393 0x000993ac 0x004993ac 44  45   .rodata ascii   Failed to allocate memory for KlippyRequest.
+1394 0x000993e0 0x004993e0 47  48   .rodata ascii   Failed to allocate memory for KlippyRequest ID.
+1395 0x00099410 0x00499410 30  31   .rodata ascii   Creating subscription request.
+1396 0x00099430 0x00499430 47  48   .rodata ascii   Failed to parse subscription request params: %s
+1397 0x00099460 0x00499460 7   8    .rodata ascii   objects
+1398 0x00099468 0x00499468 51  52   .rodata ascii   Failed to duplicate subscription request params: %s
+1399 0x0009949c 0x0049949c 27  28   .rodata ascii   Invalid subscription entry.
+1400 0x000994b8 0x004994b8 38  39   .rodata ascii   Failed to parse subscription: %s -> %s
+1401 0x000994e0 0x004994e0 26  27   .rodata ascii   Invalid subscription item.
+1402 0x000994fc 0x004994fc 44  45   .rodata ascii   item or prev_items is not array and not null
+1403 0x0009952c 0x0049952c 30  31   .rodata ascii   Subscription objects count: %d
+1404 0x0009954c 0x0049954c 106 107  .rodata ascii   {"id": %s,"method": "%s","params": {"objects": %s,"response_template":{"method":"process_status_update"}}}
+1405 0x000995b8 0x004995b8 38  39   .rodata ascii   No objects specified for subscription.
+1406 0x000995e0 0x004995e0 101 102  .rodata ascii   Failed to get associated websocket for subscription request or allocate memory for subscription JSON.
+1407 0x00099648 0x00499648 11  12   .rodata ascii   {%.*s,%.*s}
+1408 0x00099654 0x00499654 45  46   .rodata ascii   Failed to add subscription to internal cache.
+1409 0x00099684 0x00499684 12  13   .rodata ascii   gcode/script
+1410 0x00099694 0x00499694 8   9    .rodata ascii   $.script
+1411 0x000996a0 0x004996a0 24  25   .rodata ascii   Sending gcode script: %s
+1412 0x000996bc 0x004996bc 32  33   .rodata ascii   klippy_connection:gcode_received
+1413 0x000996e0 0x004996e0 40  41   .rodata ascii   {"id": %s, "method": "%s", "params": %s}
+1414 0x0009970c 0x0049970c 54  55   .rodata ascii   Failed to allocate memory for KlippyRequest JSON data.
+1415 0x00099744 0x00499744 41  42   .rodata ascii   Failed to initialize KlippyRequest mutex.
+1416 0x00099770 0x00499770 54  55   .rodata ascii   Failed to initialize KlippyRequest condition variable.
+1417 0x000997a8 0x004997a8 34  35   .rodata ascii   Klippy request result already set.
+1418 0x000997cc 0x004997cc 43  44   .rodata ascii   Failed to parse Klippy subscription result.
+1419 0x000997f8 0x004997f8 9   10   .rodata ascii   eventtime
+1420 0x00099804 0x00499804 35  36   .rodata ascii   Invalid Klippy subscription result.
+1421 0x00099828 0x00499828 6   7    .rodata ascii   status
+1422 0x00099830 0x00499830 44  45   .rodata ascii   Failed to allocate memory for pruned status.
+1423 0x00099860 0x00499860 42  43   .rodata ascii   Failed to allocate memory for status diff.
+1424 0x0009988c 0x0049988c 11  12   .rodata ascii   print_stats
+1425 0x00099898 0x00499898 5   6    .rodata ascii   state
+1426 0x000998a0 0x004998a0 30  31   .rodata ascii   Received print_stats state: %s
+1427 0x000998c0 0x004998c0 46  47   .rodata ascii   subscription result missing print_stats field.
+1428 0x000998f0 0x004998f0 47  48   .rodata ascii   Failed to get status diff object for object %s.
+1429 0x00099920 0x00499920 46  47   .rodata ascii   Failed to allocate memory for fields to cache.
+1430 0x00099950 0x00499950 50  51   .rodata ascii   Failed to allocate memory for removed field array.
+1431 0x00099984 0x00499984 56  57   .rodata ascii   Removed excluded fields from subscription cache: %s : %s
+1432 0x000999c0 0x004999c0 51  52   .rodata ascii   Failed to parse Klippy subscription request params.
+1433 0x000999f4 0x004999f4 35  36   .rodata ascii   Failed to allocate memory for item.
+1434 0x00099a18 0x00499a18 44  45   .rodata ascii   Failed to allocate memory for pruned object.
+1435 0x00099a48 0x00499a48 52  53   .rodata ascii   Invalid subscription fields for object '%s' -> '%s'.
+1436 0x00099a80 0x00499a80 47  48   .rodata ascii   Failed to allocate memory for status diff JSON.
+1437 0x00099ab0 0x00499ab0 50  51   .rodata ascii   Detected status difference during subscription: %s
+1438 0x00099ae4 0x00499ae4 47  48   .rodata ascii   Failed to allocate memory for eventtime string.
+1439 0x00099b14 0x00499b14 43  44   .rodata ascii   {"params": {"eventtime": %s, "status": %s}}
+1440 0x00099b40 0x00499b40 44  45   .rodata ascii   Failed to allocate memory for event message.
+1441 0x00099b70 0x00499b70 38  39   .rodata ascii   Sent status update to all subscribers.
+1442 0x00099b98 0x00499b98 52  53   .rodata ascii   Failed to allocate memory for removed objects array.
+1443 0x00099bd0 0x00499bd0 39  40   .rodata ascii   Failed to allocate memory for new item.
+1444 0x00099bf8 0x00499bf8 46  47   .rodata ascii   Failed to allocate memory for new result JSON.
+1445 0x00099c28 0x00499c28 22  23   .rodata ascii   Invalid KlippyRequest.
+1446 0x00099c40 0x00499c40 18  19   .rodata ascii   Waiting for result
+1447 0x00099c54 0x00499c54 23  24   .rodata ascii   Failed to send request.
+1448 0x00099c6c 0x00499c6c 22  23   .rodata ascii   Failed to send request
+1449 0x00099c84 0x00499c84 34  35   .rodata ascii   Method: %s request timedout: %lus.
+1450 0x00099ca8 0x00499ca8 24  25   .rodata ascii   Klippy request timed out
+1451 0x00099cd0 0x00499cd0 19  20   .rodata ascii   printer.print.start
+1452 0x00099ce4 0x00499ce4 19  20   .rodata ascii   printer.print.pause
+1453 0x00099cf8 0x00499cf8 20  21   .rodata ascii   printer.print.resume
+1454 0x00099d10 0x00499d10 20  21   .rodata ascii   printer.print.cancel
+1455 0x00099d28 0x00499d28 15  16   .rodata ascii   printer.restart
+1456 0x00099d38 0x00499d38 24  25   .rodata ascii   printer.firmware_restart
+1457 0x00099d54 0x00499d54 17  18   .rodata ascii   Invalid argument.
+1458 0x00099d6c 0x00499d6c 14  15   .rodata ascii   list_endpoints
+1459 0x00099d7c 0x00499d7c 14  15   .rodata ascii   emergency_stop
+1460 0x00099d8c 0x00499d8c 5   6    .rodata ascii   0.1.1
+1461 0x00099d94 0x00499d94 6   7    .rodata ascii   nexusp
+1462 0x00099d9c 0x00499d9c 51  52   .rodata ascii   {"client_info": {"program": "%s", "version": "%s"}}
+1463 0x00099dd0 0x00499dd0 4   5    .rodata ascii   info
+1464 0x00099dd8 0x00499dd8 12  13   .rodata ascii   objects/list
+1465 0x00099de8 0x00499de8 15  16   .rodata ascii   {"objects": %s}
+1466 0x00099df8 0x00499df8 37  38   .rodata ascii   Failed to allocate memory for params.
+1467 0x00099e20 0x00499e20 132 133  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/klippy_api.c
+1468 0x00099ea8 0x00499ea8 26  27   .rodata ascii   Failed to allocate memory.
+1469 0x00099ec4 0x00499ec4 13  14   .rodata ascii   objects/query
+1470 0x00099ed4 0x00499ed4 8   9    .rodata ascii   $.status
+1471 0x00099ee0 0x00499ee0 35  36   .rodata ascii   Failed to get status from response.
+1472 0x00099f04 0x00499f04 37  38   .rodata ascii   Invalid response received from Klippy
+1473 0x00099f2c 0x00499f2c 4   5    .rodata ascii   %.*s
+1474 0x00099f34 0x00499f34 25  26   .rodata ascii   Invalid object name: %.*s
+1475 0x00099f50 0x00499f50 6   7    .rodata ascii   $.%.*s
+1476 0x00099f58 0x00499f58 4   5    .rodata ascii   null
+1477 0x00099f60 0x00499f60 10  11   .rodata ascii   %.*s:null,
+1478 0x00099f6c 0x00499f6c 17  18   .rodata ascii   %.*s:[%.*s,%.*s],
+1479 0x00099f80 0x00499f80 10  11   .rodata ascii   %.*s:%.*s,
+1480 0x00099f8c 0x00499f8c 6   7    .rodata ascii   {%.*s}
+1481 0x00099f94 0x00499f94 17  18   .rodata ascii   objects/subscribe
+1482 0x00099fa8 0x00499fa8 20  21   .rodata ascii   klippy:status_update
+1483 0x00099fc0 0x00499fc0 57  58   .rodata ascii   {"response_template":{"method":"process_gcode_response"}}
+1484 0x00099ffc 0x00499ffc 22  23   .rodata ascii   gcode/subscribe_output
+1485 0x0009a014 0x0049a014 58  59   .rodata ascii   {"response_template":{"method":"%s"},"remote_method":"%s"}
+1486 0x0009a050 0x0049a050 22  23   .rodata ascii   register_remote_method
+1487 0x0009a068 0x0049a068 16  17   .rodata ascii   {"script": "%s"}
+1488 0x0009a07c 0x0049a07c 12  13   .rodata ascii   gcode/script
+1489 0x0009a08c 0x0049a08c 33  34   .rodata ascii   SDCARD_PRINT_FILE FILENAME=\"%s\"
+1490 0x0009a0b0 0x0049a0b0 37  38   .rodata ascii   Failed to allocate memory for script.
+1491 0x0009a0d8 0x0049a0d8 35  36   .rodata ascii   Requesting Job Start, filename = %s
+1492 0x0009a0fc 0x0049a0fc 30  31   .rodata ascii   klippy_apis:job_start_complete
+1493 0x0009a11c 0x0049a11c 28  29   .rodata ascii   KlippyAPI or request is NULL
+1494 0x0009a13c 0x0049a13c 8   9    .rodata ascii   filename
+1495 0x0009a148 0x0049a148 24  25   .rodata ascii   No data for argument: %s
+1496 0x0009a164 0x0049a164 27  28   .rodata ascii   klippy_apis:pause_requested
+1497 0x0009a180 0x0049a180 23  24   .rodata ascii   Requesting job pause...
+1498 0x0009a198 0x0049a198 18  19   .rodata ascii   pause_resume/pause
+1499 0x0009a1ac 0x0049a1ac 28  29   .rodata ascii   klippy_apis:resume_requested
+1500 0x0009a1cc 0x0049a1cc 24  25   .rodata ascii   Requesting job resume...
+1501 0x0009a1e8 0x0049a1e8 19  20   .rodata ascii   pause_resume/resume
+1502 0x0009a1fc 0x0049a1fc 28  29   .rodata ascii   klippy_apis:cancel_requested
+1503 0x0009a21c 0x0049a21c 24  25   .rodata ascii   Requesting job cancel...
+1504 0x0009a238 0x0049a238 19  20   .rodata ascii   pause_resume/cancel
+1505 0x0009a24c 0x0049a24c 7   8    .rodata ascii   RESTART
+1506 0x0009a254 0x0049a254 16  17   .rodata ascii   FIRMWARE_RESTART
+1507 0x0009a270 0x0049a270 4   5    .rodata ascii   none
+1508 0x0009a278 0x0049a278 11  12   .rodata ascii   systemd_cli
+1509 0x0009a284 0x0049a284 12  13   .rodata ascii   systemd_dbus
+1510 0x0009a294 0x0049a294 15  16   .rodata ascii   supervisord_cli
+1511 0x0009a2a4 0x0049a2a4 8   9    .rodata ascii   provider
+1512 0x0009a2b0 0x0049a2b0 7   8    .rodata ascii   machine
+1513 0x0009a2b8 0x0049a2b8 25  26   .rodata ascii   Invalid provider type: %s
+1514 0x0009a2d4 0x0049a2d4 129 130  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/machine.c
+1515 0x0009a358 0x0049a358 33  34   .rodata ascii   Failed to initialize provider: %s
+1516 0x0009a37c 0x0049a37c 4   5    .rodata ascii   "%s"
+1517 0x0009a384 0x0049a384 43  44   .rodata ascii   Failed to allocate memory for provider type
+1518 0x0009a3b0 0x0049a3b0 25  26   .rodata ascii   Using System Provider: %s
+1519 0x0009a3cc 0x0049a3cc 14  15   .rodata ascii   machine.reboot
+1520 0x0009a3dc 0x0049a3dc 16  17   .rodata ascii   machine.shutdown
+1521 0x0009a3f0 0x0049a3f0 24  25   .rodata ascii   machine.services.restart
+1522 0x0009a40c 0x0049a40c 21  22   .rodata ascii   machine.services.stop
+1523 0x0009a424 0x0049a424 22  23   .rodata ascii   machine.services.start
+1524 0x0009a43c 0x0049a43c 19  20   .rodata ascii   machine.system_info
+1525 0x0009a450 0x0049a450 29  30   .rodata ascii   machine:service_state_changed
+1526 0x0009a470 0x0049a470 18  19   .rodata ascii   machine:sudo_alert
+1527 0x0009a484 0x0049a484 23  24   .rodata ascii   server:component_loaded
+1528 0x0009a49c 0x0049a49c 10  11   .rodata ascii   sudo -S %s
+1529 0x0009a4a8 0x0049a4a8 43  44   .rodata ascii   Failed to allocate memory for sudo command.
+1530 0x0009a4d4 0x0049a4d4 7   8    .rodata ascii   sudo %s
+1531 0x0009a4dc 0x0049a4dc 14  15   .rodata ascii   virtualization
+1532 0x0009a4ec 0x0049a4ec 10  11   .rodata ascii   proc_stats
+1533 0x0009a4f8 0x0049a4f8 18  19   .rodata ascii   available_services
+1534 0x0009a50c 0x0049a50c 13  14   .rodata ascii   service_state
+1535 0x0009a51c 0x0049a51c 6   7    .rodata ascii   nexusp
+1536 0x0009a524 0x0049a524 9   10   .rodata ascii   unit_name
+1537 0x0009a530 0x0049a530 10  11   .rodata ascii   %s/%s.asvc
+1538 0x0009a53c 0x0049a53c 57  58   .rodata ascii   Failed to allocate memory for allowed services file path.
+1539 0x0009a578 0x0049a578 132 133  .rodata ascii   klipper_mcu\nwebcamd\nMoonCord\nKlipperScreen\nmoonraker-telegram-bot\nmoonraker-obico\nsonar\ncrowsnest\noctoeverywhere\nratos-configurator\n
+1540 0x0009a604 0x0049a604 53  54   .rodata ascii   Failed to allocate memory for allowed services array.
+1541 0x0009a640 0x0049a640 8   9    .rodata ascii   .service
+1542 0x0009a64c 0x0049a64c 21  22   .rodata ascii   ip -json -det address
+1543 0x0009a664 0x0049a664 11  12   .rodata ascii   $.operstate
+1544 0x0009a670 0x0049a670 4   5    .rodata ascii   "UP"
+1545 0x0009a678 0x0049a678 11  12   .rodata ascii   $.link_type
+1546 0x0009a684 0x0049a684 8   9    .rodata ascii   $.ifname
+1547 0x0009a690 0x0049a690 9   10   .rodata ascii   $.address
+1548 0x0009a69c 0x0049a69c 5   6    .rodata ascii   "can"
+1549 0x0009a6a4 0x0049a6a4 8   9    .rodata ascii   $.txqlen
+1550 0x0009a6b0 0x0049a6b0 20  21   .rodata ascii   $.linkinfo.info_data
+1551 0x0009a6c8 0x0049a6c8 19  20   .rodata ascii   $.bittiming.bitrate
+1552 0x0009a6dc 0x0049a6dc 22  23   .rodata ascii   $.bittiming_const.name
+1553 0x0009a6f4 0x0049a6f4 7   8    .rodata ascii   unknown
+1554 0x0009a6fc 0x0049a6fc 60  61   .rodata ascii   %.*s: {"tx_queue_len": %.*s, "bitrate": %d, "driver": %.*s},
+1555 0x0009a73c 0x0049a73c 7   8    .rodata ascii   "ether"
+1556 0x0009a744 0x0049a744 11  12   .rodata ascii   $.addr_info
+1557 0x0009a750 0x0049a750 8   9    .rodata ascii   $.family
+1558 0x0009a75c 0x0049a75c 7   8    .rodata ascii   $.local
+1559 0x0009a764 0x0049a764 7   8    .rodata ascii   $.scope
+1560 0x0009a76c 0x0049a76c 6   7    .rodata ascii   "inet"
+1561 0x0009a774 0x0049a774 4   5    .rodata ascii   ipv6
+1562 0x0009a77c 0x0049a77c 4   5    .rodata ascii   ipv4
+1563 0x0009a784 0x0049a784 6   7    .rodata ascii   "link"
+1564 0x0009a78c 0x0049a78c 5   6    .rodata ascii   false
+1565 0x0009a794 0x0049a794 4   5    .rodata ascii   true
+1566 0x0009a79c 0x0049a79c 55  56   .rodata ascii   {"family": "%s", "address": %.*s, "is_link_local": %s},
+1567 0x0009a7d4 0x0049a7d4 51  52   .rodata ascii   %.*s: {"mac_address": %.*s, "ip_addresses":[%.*s]},
+1568 0x0009a808 0x0049a808 6   7    .rodata ascii   {%.*s}
+1569 0x0009a810 0x0049a810 6   7    .rodata ascii   canbus
+1570 0x0009a818 0x0049a818 7   8    .rodata ascii   network
+1571 0x0009a820 0x0049a820 25  26   .rodata ascii   machine:net_state_changed
+1572 0x0009a83c 0x0049a83c 7   8    .rodata ascii   Unknown
+1573 0x0009a848 0x0049a848 7   8    .rodata ascii   Samsung
+1574 0x0009a854 0x0049a854 7   8    .rodata ascii   Sandisk
+1575 0x0009a864 0x0049a864 5   6    .rodata ascii   32bit
+1576 0x0009a86c 0x0049a86c 13  14   .rodata ascii   /proc/cpuinfo
+1577 0x0009a880 0x0049a880 5   6    .rodata ascii   64bit
+1578 0x0009a888 0x0049a888 10  11   .rodata ascii   model name
+1579 0x0009a894 0x0049a894 18  19   .rodata ascii   model name : %[^\n]
+1580 0x0009a8a8 0x0049a8a8 6   7    .rodata ascii   Serial
+1581 0x0009a8b0 0x0049a8b0 14  15   .rodata ascii   Serial : %[^\n]
+1582 0x0009a8c0 0x0049a8c0 8   9    .rodata ascii   Hardware
+1583 0x0009a8cc 0x0049a8cc 16  17   .rodata ascii   Hardware : %[^\n]
+1584 0x0009a8e0 0x0049a8e0 5   6    .rodata ascii   Model
+1585 0x0009a8e8 0x0049a8e8 13  14   .rodata ascii   Model : %[^\n]
+1586 0x0009a8f8 0x0049a8f8 13  14   .rodata ascii   /proc/meminfo
+1587 0x0009a908 0x0049a908 9   10   .rodata ascii   MemTotal:
+1588 0x0009a914 0x0049a914 16  17   .rodata ascii   MemTotal: %ld %s
+1589 0x0009a928 0x0049a928 280 281  .rodata ascii   {            "cpu_count": %d,            "bits": "%s",            "processor": "%s",            "cpu_desc": "%s",            "serial_number": "%s",            "hardware_desc": "%s",            "model": "%s",            "total_memory": %ld,            "memory_units": "%s"        }
+1590 0x0009aa44 0x0049aa44 38  39   .rodata ascii   Failed to allocate memory for CPU info
+1591 0x0009aa6c 0x0049aa6c 29  30   .rodata ascii   /sys/block/mmcblk0/device/cid
+1592 0x0009aa8c 0x0049aa8c 20  21   .rodata ascii   End of file reached.
+1593 0x0009aaa4 0x0049aaa4 16  17   .rodata ascii   fgets failed: %s
+1594 0x0009aab8 0x0049aab8 5   6    .rodata ascii   %d.%d
+1595 0x0009aac0 0x0049aac0 5   6    .rodata ascii   %d/%d
+1596 0x0009aac8 0x0049aac8 43  44   .rodata ascii   Failed to read CID information from SD card
+1597 0x0009aaf4 0x0049aaf4 29  30   .rodata ascii   /sys/block/mmcblk0/device/csd
+1598 0x0009ab14 0x0049ab14 8   9    .rodata ascii   %.1f MiB
+1599 0x0009ab20 0x0049ab20 8   9    .rodata ascii   %.1f GiB
+1600 0x0009ab2c 0x0049ab2c 8   9    .rodata ascii   %.1f TiB
+1601 0x0009ab38 0x0049ab38 20  21   .rodata ascii   Unknown CSD type: %d
+1602 0x0009ab50 0x0049ab50 307 308  .rodata ascii   {            "manufacturer_id": "%s",            "manufacturer": "%s",            "oem_id": "%s",            "product_name": "%s",            "product_revision": "%s",            "serial_number": "%s",            "manufacturer_date": "%s",            "capacity": "%s",            "total_bytes": %lu        }
+1603 0x0009ac84 0x0049ac84 42  43   .rodata ascii   Failed to allocate memory for SD card info
+1604 0x0009acb0 0x0049acb0 15  16   .rodata ascii   /etc/os-release
+1605 0x0009acc0 0x0049acc0 12  13   .rodata ascii   PRETTY_NAME=
+1606 0x0009acd0 0x0049acd0 19  20   .rodata ascii   PRETTY_NAME="%[^"\n]
+1607 0x0009ace8 0x0049ace8 8   9    .rodata ascii   ID=%[^\n]
+1608 0x0009acf4 0x0049acf4 11  12   .rodata ascii   VERSION_ID=
+1609 0x0009ad00 0x0049ad00 16  17   .rodata ascii   VERSION_ID=%[^\n]
+1610 0x0009ad14 0x0049ad14 8   9    .rodata ascii   ID_LIKE=
+1611 0x0009ad20 0x0049ad20 13  14   .rodata ascii   ID_LIKE=%[^\n]
+1612 0x0009ad30 0x0049ad30 17  18   .rodata ascii   VERSION_CODENAME=
+1613 0x0009ad44 0x0049ad44 22  23   .rodata ascii   VERSION_CODENAME=%[^\n]
+1614 0x0009ad5c 0x0049ad5c 14  15   .rodata ascii   %[^.].%[^.].%s
+1615 0x0009ad6c 0x0049ad6c 345 346  .rodata ascii   {            "name": "%s",            "id": "%s",            "version": "%s",            "version_parts": {                "major": "%s",                "minor": "%s",                "build_number": "%s"            },            "like": "%s",            "codename": "%s",            "release_info": {},            "kernel_version": "%s"        }
+1616 0x0009aec8 0x0049aec8 41  42   .rodata ascii   Failed to allocate memory for dist_info.\n
+1617 0x0009aef4 0x0049aef4 14  15   .rodata ascii   /proc/1/cgroup
+1618 0x0009af04 0x0049af04 18  19   .rodata ascii   getline failed: %s
+1619 0x0009af18 0x0049af18 6   7    .rodata ascii   docker
+1620 0x0009af24 0x0049af24 9   10   .rodata ascii   container
+1621 0x0009af30 0x0049af30 34  35   .rodata ascii   Container detected via cgroup: %s\n
+1622 0x0009af54 0x0049af54 13  14   .rodata ascii   /proc/1/sched
+1623 0x0009af68 0x0049af68 4   5    .rodata ascii   init
+1624 0x0009af70 0x0049af70 7   8    .rodata ascii   systemd
+1625 0x0009af78 0x0049af78 11  12   .rodata ascii   /.dockerenv
+1626 0x0009af84 0x0049af84 12  13   .rodata ascii   /.dockerinit
+1627 0x0009af94 0x0049af94 32  33   .rodata ascii   Container detected via sched: %s
+1628 0x0009afb8 0x0049afb8 44  45   .rodata ascii   {"virt_type": "%s", "virt_identifier": "%s"}
+1629 0x0009afe8 0x0049afe8 43  44   .rodata ascii   Failed to allocate memory for virtual info.
+1630 0x0009b014 0x0049b014 8   9    .rodata ascii   cpu_info
+1631 0x0009b020 0x0049b020 7   8    .rodata ascii   sd_info
+1632 0x0009b028 0x0049b028 12  13   .rodata ascii   distribution
+1633 0x0009b03c 0x0049b03c 26  27   .rodata ascii   Machine or request is NULL
+1634 0x0009b058 0x0049b058 53  54   .rodata ascii   Cannot perform this operation from within a container
+1635 0x0009b090 0x0049b090 8   9    .rodata ascii   shutdown
+1636 0x0009b09c 0x0049b09c 6   7    .rodata ascii   reboot
+1637 0x0009b0a4 0x0049b0a4 27  28   .rodata ascii   Unsupported machine request
+1638 0x0009b0c0 0x0049b0c0 4   5    .rodata ascii   "ok"
+1639 0x0009b0c8 0x0049b0c8 7   8    .rodata ascii   service
+1640 0x0009b0d0 0x0049b0d0 42  43   .rodata ascii   Failed to allocate memory for service name
+1641 0x0009b0fc 0x0049b0fc 7   8    .rodata ascii   restart
+1642 0x0009b104 0x0049b104 5   6    .rodata ascii   start
+1643 0x0009b10c 0x0049b10c 4   5    .rodata ascii   stop
+1644 0x0009b114 0x0049b114 49  50   .rodata ascii   Only restart action is supported for this service
+1645 0x0009b14c 0x0049b14c 24  25   .rodata ascii   Service %s not installed
+1646 0x0009b168 0x0049b168 20  21   .rodata ascii   Service %s not found
+1647 0x0009b180 0x0049b180 6   7    .rodata ascii   klippy
+1648 0x0009b188 0x0049b188 26  27   .rodata ascii   Klippy component not found
+1649 0x0009b1a4 0x0049b1a4 41  42   .rodata ascii   Failed to allocate memory for system info
+1650 0x0009b1d0 0x0049b1d0 7   8    .rodata ascii   klipper
+1651 0x0009b1d8 0x0049b1d8 28  29   .rodata ascii   {"%s": "%s","klipper": "%s"}
+1652 0x0009b1f8 0x0049b1f8 42  43   .rodata ascii   Failed to allocate memory for instance ids
+1653 0x0009b224 0x0049b224 12  13   .rodata ascii   instance_ids
+1654 0x0009b234 0x0049b234 19  20   .rodata ascii   {"system_info": %s}
+1655 0x0009b25e 0x0049b25e 16  17   .rodata ascii   pBpoint is null.
+1656 0x0009b270 0x0049b270 130 131  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/metadata.c
+1657 0x0009b2f4 0x0049b2f4 8   9    .rodata ascii   database
+1658 0x0009b300 0x0049b300 15  16   .rodata ascii   mutex lock fail
+1659 0x0009b310 0x0049b310 14  15   .rodata ascii   gcode_metadata
+1660 0x0009b320 0x0049b320 17  18   .rodata ascii   mutex unlock fail
+1661 0x0009b338 0x0049b338 15  16   .rodata ascii   /media/creality
+1662 0x0009b348 0x0049b348 24  25   .rodata ascii   udisk dict. file name:%s
+1663 0x0009b364 0x0049b364 24  25   .rodata ascii   gcode dict. file name:%s
+1664 0x0009b380 0x0049b380 26  27   .rodata ascii   write gcode file name : %s
+1665 0x0009b39c 0x0049b39c 70  71   .rodata ascii   Database or database provider or database provider->sync_conn is NULL.
+1666 0x0009b3e4 0x0049b3e4 13  14   .rodata ascii   read db fail.
+1667 0x0009b3f4 0x0049b3f4 5   6    .rodata ascii   %s/%s
+1668 0x0009b3fc 0x0049b3fc 6   7    .rodata ascii   gcodes
+1669 0x0009b404 0x0049b404 17  18   .rodata ascii   Error before: %s\n
+1670 0x0009b418 0x0049b418 9   10   .rodata ascii   %.*s/%.*s
+1671 0x0009b424 0x0049b424 12  13   .rodata ascii   filePath: %s
+1672 0x0009b434 0x0049b434 18  19   .rodata ascii   key: %s, value: %s
+1673 0x0009b448 0x0049b448 4   5    .rodata ascii   null
+1674 0x0009b450 0x0049b450 4   5    .rodata ascii   %02x
+1675 0x0009b458 0x0049b458 23  24   .rodata ascii   Could not compile regex
+1676 0x0009b470 0x0049b470 18  19   .rodata ascii   Regex match failed
+1677 0x0009b484 0x0049b484 21  22   .rodata ascii   Placeholder is empty.
+1678 0x0009b49c 0x0049b49c 42  43   .rodata ascii   Replacement truncated due to buffer limit.
+1679 0x0009b4c8 0x0049b4c8 16  17   .rodata ascii   merger_len is 0.
+1680 0x0009b4dc 0x0049b4dc 4   5    .rodata ascii   (%F)
+1681 0x0009b4e4 0x0049b4e4 17  18   .rodata ascii   ([0-9]*\.?[0-9]+)
+1682 0x0009b4f8 0x0049b4f8 12  13   .rodata ascii   realloc fail
+1683 0x0009b508 0x0049b508 4   5    .rodata ascii   (%D)
+1684 0x0009b510 0x0049b510 8   9    .rodata ascii   ([0-9]+)
+1685 0x0009b51c 0x0049b51c 4   5    .rodata ascii   (%S)
+1686 0x0009b524 0x0049b524 4   5    .rodata ascii   (.*)
+1687 0x0009b52c 0x0049b52c 13  14   .rodata ascii   point is null
+1688 0x0009b53c 0x0049b53c 15  16   .rodata ascii   ^[MG][0-9]+\s.*
+1689 0x0009b54c 0x0049b54c 9   10   .rodata ascii   ,"%s":%ld
+1690 0x0009b558 0x0049b558 31  32   .rodata ascii   malloc memory allocation failed
+1691 0x0009b578 0x0049b578 16  17   .rodata ascii   \n.*\s[0-9]+[MG]\n
+1692 0x0009b58c 0x0049b58c 10  11   .rodata ascii   ,"%s": %ld
+1693 0x0009b598 0x0049b598 32  33   .rodata ascii   realloc memory allocation failed
+1694 0x0009b5c0 0x0049b5c0 29  30   .rodata ascii   Failed to open input file: %s
+1695 0x0009b5e0 0x0049b5e0 6   7    .rodata ascii   1.6.37
+1696 0x0009b5ec 0x0049b5ec 12  13   .rodata ascii    %lu %lu %lu
+1697 0x0009b5fc 0x0049b5fc 11  12   .rodata ascii   %lux%lu %lu
+1698 0x0009b608 0x0049b608 11  12   .rodata ascii   %lu*%lu %lu
+1699 0x0009b614 0x0049b614 23  24   .rodata ascii   Invalid thumbnail block
+1700 0x0009b62c 0x0049b62c 17  18   .rodata ascii   ; thumbnail begin
+1701 0x0009b640 0x0049b640 15  16   .rodata ascii   ; thumbnail end
+1702 0x0009b650 0x0049b650 11  12   .rodata ascii   ; png begin
+1703 0x0009b65c 0x0049b65c 9   10   .rodata ascii   ; png end
+1704 0x0009b668 0x0049b668 21  22   .rodata ascii   server point is null.
+1705 0x0009b680 0x0049b680 17  18   .rodata ascii   No matches found\n
+1706 0x0009b694 0x0049b694 16  17   .rodata ascii   No matches found
+1707 0x0009b6a8 0x0049b6a8 45  46   .rodata ascii   Failed to allocate memory for directory name\n
+1708 0x0009b6d8 0x0049b6d8 24  25   .rodata ascii   Failed to get base name\n
+1709 0x0009b6f4 0x0049b6f4 10  11   .rodata ascii   %s/.thumbs
+1710 0x0009b700 0x0049b700 55  56   .rodata ascii   Failed to allocate memory for thumbnail directory path\n
+1711 0x0009b738 0x0049b738 4   5    .rodata ascii   %.*s
+1712 0x0009b740 0x0049b740 50  51   .rodata ascii   Failed to allocate memory for thumbnail base name\n
+1713 0x0009b774 0x0049b774 12  13   .rodata ascii   .udiskthumbs
+1714 0x0009b784 0x0049b784 6   7    .rodata ascii   %s%s%s
+1715 0x0009b78c 0x0049b78c 7   8    .rodata ascii   %s/%s%s
+1716 0x0009b794 0x0049b794 14  15   .rodata ascii   thumb_dir : %s
+1717 0x0009b7a4 0x0049b7a4 41  42   .rodata ascii   Failed to create thumbnail directory: %s\n
+1718 0x0009b7d0 0x0049b7d0 42  43   .rodata ascii   Failed to allocate memory for decoded data
+1719 0x0009b7fc 0x0049b7fc 31  32   .rodata ascii   Failed to decode thumbnail data
+1720 0x0009b81c 0x0049b81c 11  12   .rodata ascii   %lu %lu %lu
+1721 0x0009b828 0x0049b828 23  24   .rodata ascii   Thumbnails %d, %ld, %ld
+1722 0x0009b840 0x0049b840 12  13   .rodata ascii   %s-%dx%d.png
+1723 0x0009b850 0x0049b850 44  45   .rodata ascii   Failed to allocate memory for thumbnail name
+1724 0x0009b880 0x0049b880 44  45   .rodata ascii   Failed to allocate memory for thumbnail path
+1725 0x0009b8b0 0x0049b8b0 7   8    .rodata ascii   .thumbs
+1726 0x0009b8b8 0x0049b8b8 43  44   .rodata ascii   Failed to allocate memory for relative path
+1727 0x0009b8e4 0x0049b8e4 35  36   .rodata ascii   Failed to open file for writing: %s
+1728 0x0009b908 0x0049b908 12  13   .rodata ascii   write failed
+1729 0x0009b918 0x0049b918 43  44   .rodata ascii   Partial write: %zd bytes written out of %zu
+1730 0x0009b944 0x0049b944 31  32   .rodata ascii   Image saved successfully to: %s
+1731 0x0009b964 0x0049b964 56  57   .rodata ascii   {"width":%d,"height":%d,"size":%d,"relative_path":"%s"},
+1732 0x0009b9a0 0x0049b9a0 15  16   .rodata ascii   %s/%s-%dx%d.png
+1733 0x0009b9b0 0x0049b9b0 40  41   .rodata ascii   Failed to allocate memory for input path
+1734 0x0009b9dc 0x0049b9dc 17  18   .rodata ascii   %s/%s-%lux%lu.png
+1735 0x0009b9f0 0x0049b9f0 58  59   .rodata ascii   {"width":%lu,"height":%lu,"size":%d,"relative_path":"%s"},
+1736 0x0009ba2c 0x0049ba2c 12  13   .rodata ascii   ,"%s":[%.*s]
+1737 0x0009ba70 0x0049ba70 11  12   .rodata ascii   malloc fail
+1738 0x0009ba7c 0x0049ba7c 13  14   .rodata ascii   strdup failed
+1739 0x0009ba8c 0x0049ba8c 28  29   .rodata ascii   ;\s+Ext #\d+\s+=\s+(%F)\s*mm
+1740 0x0009baac 0x0049baac 4   5    .rodata ascii   Cura
+1741 0x0009bab4 0x0049bab4 40  41   .rodata ascii   ;Generated\swith\sCura_SteamEngine\s(%S)
+1742 0x0009bae0 0x0049bae0 23  24   .rodata ascii   slicer: %s, Pattern: %s
+1743 0x0009baf8 0x0049baf8 31  32   .rodata ascii   cura check identity %s, len: %d
+1744 0x0009bb18 0x0049bb18 45  46   .rodata ascii   Failed to allocate memory for version string.
+1745 0x0009bb48 0x0049bb48 42  43   .rodata ascii   Failed to allocate memory for slicer info.
+1746 0x0009bb74 0x0049bb74 18  19   .rodata ascii   ;LAYER_COUNT\:(%D)
+1747 0x0009bb88 0x0049bb88 10  11   .rodata ascii   ;MAXZ:(%F)
+1748 0x0009bb94 0x0049bb94 8   9    .rodata ascii   ,"%s":%f
+1749 0x0009bba0 0x0049bba0 10  11   .rodata ascii   ;TIME:(%F)
+1750 0x0009bbac 0x0049bbac 26  27   .rodata ascii   ;Nozzle\sdiameter\s=\s(%F)
+1751 0x0009bbc8 0x0049bbc8 21  22   .rodata ascii   ;Layer\sheight:\s(%F)
+1752 0x0009bbe0 0x0049bbe0 10  11   .rodata ascii   ;MINZ:(%F)
+1753 0x0009bbec 0x0049bbec 10  11   .rodata ascii   M109 S(%F)
+1754 0x0009bbf8 0x0049bbf8 10  11   .rodata ascii   M190 S(%F)
+1755 0x0009bc04 0x0049bc04 10  11   .rodata ascii   M191 S(%F)
+1756 0x0009bc10 0x0049bc10 24  25   .rodata ascii   ;Filament\sname\s=\s(%S)
+1757 0x0009bc2c 0x0049bc2c 10  11   .rodata ascii   ,"%s":"%s"
+1758 0x0009bc38 0x0049bc38 24  25   .rodata ascii   ;Filament\stype\s=\s(%S)
+1759 0x0009bc54 0x0049bc54 23  24   .rodata ascii   ;Filament\sused:\s(%F)m
+1760 0x0009bc6c 0x0049bc6c 28  29   .rodata ascii   ;Filament\sweight\s=\s.(%F).
+1761 0x0009bc8c 0x0049bc8c 16  17   .rodata ascii   gcode_start_byte
+1762 0x0009bca0 0x0049bca0 14  15   .rodata ascii   gcode_end_byte
+1763 0x0009bcb0 0x0049bcb0 11  12   .rodata ascii   layer_count
+1764 0x0009bcbc 0x0049bcbc 13  14   .rodata ascii   object_height
+1765 0x0009bccc 0x0049bccc 14  15   .rodata ascii   estimated_time
+1766 0x0009bcdc 0x0049bcdc 15  16   .rodata ascii   nozzle_diameter
+1767 0x0009bcec 0x0049bcec 12  13   .rodata ascii   layer_height
+1768 0x0009bcfc 0x0049bcfc 18  19   .rodata ascii   first_layer_height
+1769 0x0009bd10 0x0049bd10 21  22   .rodata ascii   first_layer_extr_temp
+1770 0x0009bd28 0x0049bd28 20  21   .rodata ascii   first_layer_bed_temp
+1771 0x0009bd40 0x0049bd40 12  13   .rodata ascii   chamber_temp
+1772 0x0009bd50 0x0049bd50 13  14   .rodata ascii   filament_name
+1773 0x0009bd60 0x0049bd60 13  14   .rodata ascii   filament_type
+1774 0x0009bd70 0x0049bd70 14  15   .rodata ascii   filament_total
+1775 0x0009bd80 0x0049bd80 21  22   .rodata ascii   filament_weight_total
+1776 0x0009bd98 0x0049bd98 10  11   .rodata ascii   thumbnails
+1777 0x0009be2c 0x0049be2c 7   8    .rodata ascii   Unknown
+1778 0x0009be34 0x0049be34 11  12   .rodata ascii   G1\sZ(%F)\s
+1779 0x0009be88 0x0049be88 31  32   .rodata ascii   slicer: %s, version: %s, len %d
+1780 0x0009bea8 0x0049bea8 11  12   .rodata ascii   PrusaSlicer
+1781 0x0009beb4 0x0049beb4 21  22   .rodata ascii   PrusaSlicer\s(%S)\son
+1782 0x0009becc 0x0049becc 11  12   .rodata ascii   SuperSlicer
+1783 0x0009bed8 0x0049bed8 21  22   .rodata ascii   SuperSlicer\s(%S)\son
+1784 0x0009bef0 0x0049bef0 10  11   .rodata ascii   OrcaSlicer
+1785 0x0009befc 0x0049befc 20  21   .rodata ascii   OrcaSlicer\s(%S)\son
+1786 0x0009bf14 0x0049bf14 12  13   .rodata ascii   MomentSlicer
+1787 0x0009bf24 0x0049bf24 22  23   .rodata ascii   MomentSlicer\s(%S)\son
+1788 0x0009bf3c 0x0049bf3c 8   9    .rodata ascii   SliCR-3D
+1789 0x0009bf48 0x0049bf48 18  19   .rodata ascii   SliCR-3D\s(%S)\son
+1790 0x0009bf5c 0x0049bf5c 11  12   .rodata ascii   BambuStudio
+1791 0x0009bf68 0x0049bf68 24  25   .rodata ascii   BambuStudio[^ ]*\s(%S)\n
+1792 0x0009bf84 0x0049bf84 11  12   .rodata ascii   A3dp-Slicer
+1793 0x0009bf90 0x0049bf90 21  22   .rodata ascii   A3dp-Slicer\s(%S)\son
+1794 0x0009bfa8 0x0049bfa8 10  11   .rodata ascii   QIDISlicer
+1795 0x0009bfb4 0x0049bfb4 20  21   .rodata ascii   QIDISlicer\s(%S)\son
+1796 0x0009c00c 0x0049c00c 31  32   .rodata ascii   ;\stotal\slayers count\s=\s(%D)
+1797 0x0009c02c 0x0049c02c 41  42   .rodata ascii   ;BEFORE_LAYER_CHANGE\n(?:.*\n)?;(\d+\.?\d*)
+1798 0x0009c058 0x0049c058 12  13   .rodata ascii   G1\sZ(%F)\sF
+1799 0x0009c068 0x0049c068 55  56   .rodata ascii   ;\sestimated\sprinting\stime\s\(normal\smode\)\s=\s(%S)
+1800 0x0009c0a0 0x0049c0a0 15  16   .rodata ascii   %dd %dh %dm %ds
+1801 0x0009c0b0 0x0049c0b0 11  12   .rodata ascii   %dh %dm %ds
+1802 0x0009c0bc 0x0049c0bc 7   8    .rodata ascii   %dm %ds
+1803 0x0009c0c8 0x0049c0c8 8   9    .rodata ascii   ,"%s":%d
+1804 0x0009c0d4 0x0049c0d4 30  31   .rodata ascii   ;\s*nozzle_diameter\s*=\s*(%F)
+1805 0x0009c0f4 0x0049c0f4 29  30   .rodata ascii   ;\s*layer_height\s*=\s*(%F)\s
+1806 0x0009c114 0x0049c114 35  36   .rodata ascii   ;\s*first_layer_height\s*=\s*(%F)\s
+1807 0x0009c138 0x0049c138 35  36   .rodata ascii   ;\sfirst_layer_temperature\s=\s(%F)
+1808 0x0009c15c 0x0049c15c 39  40   .rodata ascii   ;\sfirst_layer_bed_temperature\s=\s(%F)
+1809 0x0009c184 0x0049c184 31  32   .rodata ascii   ;\schamber_temperature\s=\s(%F)
+1810 0x0009c1a4 0x0049c1a4 35  36   .rodata ascii   ;\s*filament_settings_id\s*=\s*(%S)
+1811 0x0009c1c8 0x0049c1c8 28  29   .rodata ascii   ;\s*filament_type\s*=\s*(%S)
+1812 0x0009c1e8 0x0049c1e8 21  22   .rodata ascii   ; filament_ids = (%S)
+1813 0x0009c200 0x0049c200 34  35   .rodata ascii   ;\sfilament\sused\s\[mm\]\s=\s(%S)
+1814 0x0009c224 0x0049c224 24  25   .rodata ascii   ; filament_colour = (%S)
+1815 0x0009c248 0x0049c248 4   5    .rodata ascii   %s%s
+1816 0x0009c250 0x0049c250 6   7    .rodata ascii   %s: %s
+1817 0x0009c25c 0x0049c25c 6   7    .rodata ascii   %s%.2f
+1818 0x0009c264 0x0049c264 39  40   .rodata ascii   ;\s*filament\s*used\s*\[mm\]\s*=\s*(%S)
+1819 0x0009c28c 0x0049c28c 37  38   .rodata ascii   total\sfilament\sused\s\[g\]\s=\s(%S)
+1820 0x0009c2b4 0x0049c2b4 12  13   .rodata ascii   filament_ids
+1821 0x0009c2c4 0x0049c2c4 14  15   .rodata ascii   filament_color
+1822 0x0009c2d4 0x0049c2d4 19  20   .rodata ascii   filament_color_used
+1823 0x0009c388 0x0049c388 8   9    .rodata ascii   Creality
+1824 0x0009c394 0x0049c394 42  43   .rodata ascii   ;\sgenerated\sby\sCreality_Print\s(%S)\son
+1825 0x0009c3c0 0x0049c3c0 34  35   .rodata ascii   ;Creality\sPrint\sVersion\s:\s(%S)
+1826 0x0009c3e4 0x0049c3e4 31  32   .rodata ascii   total\slayers\scount\s*=\s*(%D)
+1827 0x0009c404 0x0049c404 17  18   .rodata ascii   ;LAYER_COUNT:(%D)
+1828 0x0009c418 0x0049c418 16  17   .rodata ascii   ;\sMAXZ\s=\s(%F)
+1829 0x0009c42c 0x0049c42c 27  28   .rodata ascii   ;\snozzle_diameter\s=\s(%F)
+1830 0x0009c448 0x0049c448 24  25   .rodata ascii   ;\slayer_height\s=\s(%F)
+1831 0x0009c464 0x0049c464 19  20   .rodata ascii   ;Layer\sheight:(%F)
+1832 0x0009c478 0x0049c478 30  31   .rodata ascii   ;\sfirst_layer_height\s=\s(%F)
+1833 0x0009c498 0x0049c498 38  39   .rodata ascii   ;\s*first_layer_temperature\s*=\s*(%F)
+1834 0x0009c4c0 0x0049c4c0 24  25   .rodata ascii   ;Print\sTemperature:(%F)
+1835 0x0009c4dc 0x0049c4dc 42  43   .rodata ascii   ;\s*first_layer_bed_temperature\s*=\s*(%F)
+1836 0x0009c508 0x0049c508 22  23   .rodata ascii   ;Bed\sTemperature:(%F)
+1837 0x0009c520 0x0049c520 34  35   .rodata ascii   ;\s*chamber_temperature\s*=\s*(%F)
+1838 0x0009c544 0x0049c544 41  42   .rodata ascii   ;\s*default_filament_profile\s*=\s*"(%S)"
+1839 0x0009c570 0x0049c570 20  21   .rodata ascii   ;Material\sName:(%S)
+1840 0x0009c588 0x0049c588 22  23   .rodata ascii   ;Filament\sLength:(%S)
+1841 0x0009c5a0 0x0049c5a0 20  21   .rodata ascii   ;Filament\sused:(%S)
+1842 0x0009c5b8 0x0049c5b8 22  23   .rodata ascii   ; filament_type = (%S)
+1843 0x0009c5d0 0x0049c5d0 20  21   .rodata ascii   ;Material\sType:(%S)
+1844 0x0009c5e8 0x0049c5e8 33  34   .rodata ascii   ;\sfilament\sused\s\[g\]\s=\s(%S)
+1845 0x0009c60c 0x0049c60c 22  23   .rodata ascii   ;Filament\sWeight:(%S)
+1846 0x0009c6c4 0x0049c6c4 13  14   .rodata ascii   UnknownSlicer
+1847 0x0009c718 0x0049c718 23  24   .rodata ascii   file get stat info fail
+1848 0x0009c734 0x0049c734 18  19   .rodata ascii   Error opening file
+1849 0x0009c748 0x0049c748 10  11   .rodata ascii   fread fail
+1850 0x0009c754 0x0049c754 23  24   .rodata ascii   className:%s, slicer:%s
+1851 0x0009c76c 0x0049c76c 12  29   .rodata utf8    暂不支持.ufp文件上传 blocks=CJK Unified Ideographs,Basic Latin
+1852 0x0009c78c 0x0049c78c 10  11   .rodata ascii   get_slicer
+1853 0x0009c798 0x0049c798 12  13   .rodata ascii   "uuid": "%s"
+1854 0x0009c7a8 0x0049c7a8 12  13   .rodata ascii   ,"size": %ld
+1855 0x0009c7b8 0x0049c7b8 22  23   .rodata ascii   ,"modified": %lu.%06lu
+1856 0x0009c7d0 0x0049c7d0 14  15   .rodata ascii   ,"slicer":"%s"
+1857 0x0009c7e0 0x0049c7e0 22  23   .rodata ascii   ,"slicer_version":"%s"
+1858 0x0009c7f8 0x0049c7f8 15  16   .rodata ascii   init mutex fail
+1859 0x0009c808 0x0049c808 18  19   .rodata ascii   destroy mutex fail
+1860 0x0009c840 0x0049c840 26  27   .rodata ascii   Machine or request is NULL
+1861 0x0009c85c 0x0049c85c 25  26   .rodata ascii   Failed to get proc stats.
+1862 0x0009c878 0x0049c878 33  34   .rodata ascii   Failed to create proc_stat_queue.
+1863 0x0009c89c 0x0049c89c 132 133  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/proc_stats.c
+1864 0x0009c924 0x0049c924 17  18   .rodata ascii   /usr/bin/vcgencmd
+1865 0x0009c938 0x0049c938 9   10   .rodata ascii   /dev/vcio
+1866 0x0009c944 0x0049c944 46  47   .rodata ascii   Detected 'vcgencmd', throttle checking enabled
+1867 0x0009c974 0x0049c974 53  54   .rodata ascii   Unable to find 'vcgencmd', throttle checking disabled
+1868 0x0009c9ac 0x0049c9ac 44  45   .rodata ascii   Failed to create stat_callbacks linked list.
+1869 0x0009c9dc 0x0049c9dc 18  19   .rodata ascii   machine.proc_stats
+1870 0x0009c9f0 0x0049c9f0 27  28   .rodata ascii   proc_stats:proc_stat_update
+1871 0x0009ca0c 0x0049ca0c 17  18   .rodata ascii   Invalid argument.
+1872 0x0009ca20 0x0049ca20 33  34   .rodata ascii   Failed to initialize stats_iobuf.
+1873 0x0009ca48 0x0049ca48 6   7    .rodata ascii   [%.*s]
+1874 0x0009ca50 0x0049ca50 33  34   .rodata ascii   Failed to create moonraker_stats.
+1875 0x0009ca78 0x0049ca78 29  30   .rodata ascii   {"bits": %d, "flags": [%.*s]}
+1876 0x0009ca98 0x0049ca98 33  34   .rodata ascii   Failed to create throttled_state.
+1877 0x0009cac0 0x0049cac0 37  38   .rodata ascii   /sys/class/thermal/thermal_zone0/temp
+1878 0x0009caec 0x0049caec 26  27   .rodata ascii   Failed to create cpu_temp.
+1879 0x0009cb08 0x0049cb08 31  32   .rodata ascii   Failed to get system boot time.
+1880 0x0009cb28 0x0049cb28 9   10   .rodata ascii   %ld.%09ld
+1881 0x0009cb34 0x0049cb34 31  32   .rodata ascii   Failed to create system_uptime.
+1882 0x0009cb58 0x0049cb58 4   5    .rodata ascii   null
+1883 0x0009cb60 0x0049cb60 22  23   .rodata ascii   "moonraker_stats": %s,
+1884 0x0009cb78 0x0049cb78 22  23   .rodata ascii   "throttled_state": %s,
+1885 0x0009cb90 0x0049cb90 15  16   .rodata ascii   "cpu_temp": %s,
+1886 0x0009cba0 0x0049cba0 14  15   .rodata ascii   "network": %s,
+1887 0x0009cbb0 0x0049cbb0 23  24   .rodata ascii   "system_cpu_usage": %s,
+1888 0x0009cbc8 0x0049cbc8 20  21   .rodata ascii   "system_memory": %s,
+1889 0x0009cbe0 0x0049cbe0 20  21   .rodata ascii   "system_uptime": %s,
+1890 0x0009cbf8 0x0049cbf8 27  28   .rodata ascii   "websocket_connections": %d
+1891 0x0009cc18 0x0049cc18 24  25   .rodata ascii   Failed to create status.
+1892 0x0009cc34 0x0049cc34 73  74   .rodata ascii   Failed to update cpu_usage. Reason: Failed to initialize cpu_usage_iobuf.
+1893 0x0009cc80 0x0049cc80 73  74   .rodata ascii   Failed to update cpu_usage. Reason: Failed to initialize cpu_stats_iobuf.
+1894 0x0009cccc 0x0049cccc 10  11   .rodata ascii   /proc/stat
+1895 0x0009ccdc 0x0049ccdc 52  53   .rodata ascii   %s %llu %llu %llu %llu %llu %llu %llu %llu %llu %llu
+1896 0x0009cd14 0x0049cd14 4   5    .rodata ascii   $.%s
+1897 0x0009cd1c 0x0049cd1c 22  23   .rodata ascii   Failed to create path.
+1898 0x0009cd34 0x0049cd34 9   10   .rodata ascii   "%s": %f,
+1899 0x0009cd40 0x0049cd40 17  18   .rodata ascii   "%s":[%llu,%llu],
+1900 0x0009cd54 0x0049cd54 6   7    .rodata ascii   {%.*s}
+1901 0x0009cd5c 0x0049cd5c 27  28   .rodata ascii   Failed to create cpu_usage.
+1902 0x0009cd78 0x0049cd78 32  33   .rodata ascii   Failed to create last_cpu_stats.
+1903 0x0009cd9c 0x0049cd9c 13  14   .rodata ascii   /proc/meminfo
+1904 0x0009cdac 0x0049cdac 9   10   .rodata ascii   MemTotal:
+1905 0x0009cdb8 0x0049cdb8 13  14   .rodata ascii   MemTotal:%lld
+1906 0x0009cdc8 0x0049cdc8 13  14   .rodata ascii   MemAvailable:
+1907 0x0009cdd8 0x0049cdd8 17  18   .rodata ascii   MemAvailable:%lld
+1908 0x0009cdec 0x0049cdec 48  49   .rodata ascii   {"total": %lld, "available": %lld, "used": %lld}
+1909 0x0009ce20 0x0049ce20 31  32   .rodata ascii   Failed to initialize net_iobuf.
+1910 0x0009ce40 0x0049ce40 13  14   .rodata ascii   /proc/net/dev
+1911 0x0009ce54 0x0049ce54 59  60   .rodata ascii   %llu %llu %llu %llu %llu %llu %llu %llu %llu %llu %llu %llu
+1912 0x0009ce90 0x0049ce90 239 240  .rodata ascii   "%s":{                        "rx_bytes": %llu,"tx_bytes": %llu,                        "rx_packets": %llu,"tx_packets": %llu,                        "rx_errs": %llu,"tx_errs": %llu,                        "rx_drop": %llu,"tx_drop": %llu},
+1913 0x0009cf80 0x0049cf80 6   7    .rodata ascii   $.%.*s
+1914 0x0009cf88 0x0049cf88 10  11   .rodata ascii   $.rx_bytes
+1915 0x0009cf94 0x0049cf94 10  11   .rodata ascii   $.tx_bytes
+1916 0x0009cfa0 0x0049cfa0 31  32   .rodata ascii   %.*s: {%.*s, "bandwidth": %lf},
+1917 0x0009cfc0 0x0049cfc0 27  28   .rodata ascii   Failed to create net_stats.
+1918 0x0009cfdc 0x0049cfdc 23  24   .rodata ascii   /proc/self/smaps_rollup
+1919 0x0009cff4 0x0049cff4 4   5    .rodata ascii   Rss:
+1920 0x0009cffc 0x0049cffc 11  12   .rodata ascii   Rss: %lu %s
+1921 0x0009d008 0x0049d008 123 124  .rodata ascii   {            "time": %ld.%09ld,            "cpu_usage": %f,            "memory": %lu,            "mem_units": "%s"        }
+1922 0x0009d084 0x0049d084 203 204  .rodata ascii   {            "moonraker_stats": %s,            "cpu_temp": %s,            "network": %s,            "system_cpu_usage": %s,            "system_memory": %s,            "websocket_connections": %d        }
+1923 0x0009d16e 0x0049d16e 9   10   .rodata ascii   .Amachine
+1924 0x0009d178 0x0049d178 31  32   .rodata ascii   "Service Actions Not Available"
+1925 0x0009d198 0x0049d198 12  13   .rodata ascii   systemctl %s
+1926 0x0009d1a8 0x0049d1a8 14  15   .rodata ascii   "Failed to %s"
+1927 0x0009d1b8 0x0049d1b8 16  17   .rodata ascii   systemctl reboot
+1928 0x0009d1cc 0x0049d1cc 18  19   .rodata ascii   "Failed to reboot"
+1929 0x0009d1e0 0x0049d1e0 52  53   .rodata ascii   {"virt_type":"unknown", "virt_identifier":"unknown"}
+1930 0x0009d218 0x0049d218 5   6    .rodata ascii   "%s",
+1931 0x0009d220 0x0049d220 6   7    .rodata ascii   [%.*s]
+1932 0x0009d228 0x0049d228 8   9    .rodata ascii   poweroff
+1933 0x0009d234 0x0049d234 15  16   .rodata ascii   shutdown_action
+1934 0x0009d244 0x0049d244 4   5    .rodata ascii   halt
+1935 0x0009d24c 0x0049d24c 93  94   .rodata ascii   Section [machine], Option 'shutdown_action': Invalid value : %s ,must be 'halt' or 'poweroff'
+1936 0x0009d2ac 0x0049d2ac 130 131  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/components/provider.c
+1937 0x0009d330 0x0049d330 7   8    .rodata ascii   startup
+1938 0x0009d338 0x0049d338 5   6    .rodata ascii   ready
+1939 0x0009d340 0x0049d340 5   6    .rodata ascii   error
+1940 0x0009d348 0x0049d348 8   9    .rodata ascii   shutdown
+1941 0x0009d354 0x0049d354 7   8    .rodata ascii   unknown
+1942 0x0009d35c 0x0049d35c 21  22   .rodata ascii   Invalid format string
+1943 0x0009d374 0x0049d374 30  31   .rodata ascii   Failed to format error message
+1944 0x0009d394 0x0049d394 42  43   .rodata ascii   Memory allocation failed for error message
+1945 0x0009d3c0 0x0049d3c0 13  14   .rodata ascii   Unknown error
+1946 0x0009d3d4 0x0049d3d4 17  18   .rodata ascii   /proc/self/status
+1947 0x0009d3e8 0x0049d3e8 12  13   .rodata ascii   VmRSS: %u kB
+1948 0x0009d3f8 0x0049d3f8 24  25   .rodata ascii   Memory threshold is NULL
+1949 0x0009d414 0x0049d414 131 132  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/utils/memory_monitor.c
+1950 0x0009d498 0x0049d498 14  15   .rodata ascii   nexmem-monitor
+1951 0x0009d4a8 0x0049d4a8 7   18   .rodata utf8    线程名称：%s blocks=CJK Unified Ideographs,Halfwidth and Fullwidth Forms,Basic Latin
+1952 0x0009d4bc 0x0049d4bc 43  44   .rodata ascii   memory consumption:%lu KB--threshold:%lu KB
+1953 0x0009d4e8 0x0049d4e8 33  34   .rodata ascii   Memory overflow: %lu KB > %lu KB\n
+1954 0x0009d50c 0x0049d50c 24  25   .rodata ascii   Memory allocation failed
+1955 0x0009d528 0x0049d528 29  30   .rodata ascii   Input memory threshold:%lu MB
+1956 0x0009d554 0x0049d554 16  17   .rodata ascii   Key: %s, Value: 
+1957 0x0009d56c 0x0049d56c 4   5    .rodata ascii   null
+1958 0x0009d574 0x0049d574 8   9    .rodata ascii   "%s": %s
+1959 0x0009d590 0x0049d590 25  26   .rodata ascii   Memory allocation failed.
+1960 0x0009d5ac 0x0049d5ac 120 121  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/utils/set.c
+1961 0x0009d628 0x0049d628 34  35   .rodata ascii   Memory allocation for data failed.
+1962 0x0009d64c 0x0049d64c 14  15   .rodata ascii   Invalid input.
+1963 0x0009d65c 0x0049d65c 39  40   .rodata ascii   Element '%s' already exists in the set.
+1964 0x0009d684 0x0049d684 27  28   .rodata ascii   Memory reallocation failed.
+1965 0x0009d6a0 0x0049d6a0 38  39   .rodata ascii   Memory allocation for new item failed.
+1966 0x0009d6c8 0x0049d6c8 23  24   .rodata ascii   Element '%s' not found.
+1967 0x0009d6e0 0x0049d6e0 20  21   .rodata ascii   The set %s is empty.
+1968 0x0009d6f8 0x0049d6f8 17  18   .rodata ascii   %s Set contains: 
+1969 0x0009d70c 0x0049d70c 5   6    .rodata ascii   '%s' 
+1970 0x0009d714 0x0049d714 34  35   .rodata ascii   Element '%s' not found in the set.
+1971 0x0009d748 0x0049d748 7   8    .rodata ascii   /bin/sh
+1972 0x0009d750 0x0049d750 12  13   .rodata ascii   write failed
+1973 0x0009d760 0x0049d760 122 123  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/utils/utils.c
+1974 0x0009d7dc 0x0049d7dc 25  26   .rodata ascii   exec command fsync failed
+1975 0x0009d7f8 0x0049d7f8 5   6    .rodata ascii   %02x 
+1976 0x0009d800 0x0049d800 34  35   .rodata ascii   Invalid connection or HTTP message
+1977 0x0009d824 0x0049d824 128 129  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/integrated_platform/creality/output/build/nexusprime/utils/web_request.c
+1978 0x0009d8a8 0x0049d8a8 37  38   .rodata ascii   Failed to allocate memory for request
+1979 0x0009d8d4 0x0049d8d4 4   5    .rodata ascii   POST
+1980 0x0009d8dc 0x0049d8dc 6   7    .rodata ascii   DELETE
+1981 0x0009d8e4 0x0049d8e4 38  39   .rodata ascii   Invalid HTTP message: missing URI %.*s
+1982 0x0009d90c 0x0049d90c 4   5    .rodata ascii   %.*s
+1983 0x0009d914 0x0049d914 52  53   .rodata ascii   Failed to get endpoint string from HTTP message %.*s
+1984 0x0009d94c 0x0049d94c 31  32   .rodata ascii   Failed to parse HTTP parameters
+1985 0x0009d96c 0x0049d96c 39  40   .rodata ascii   Invalid connection or websocket message
+1986 0x0009d994 0x0049d994 4   5    .rodata ascii   $.id
+1987 0x0009d99c 0x0049d99c 42  43   .rodata ascii   Invalid websocket message: missing id %.*s
+1988 0x0009d9c8 0x0049d9c8 15  16   .rodata ascii   Invalid Request
+1989 0x0009d9d8 0x0049d9d8 9   10   .rodata ascii   $.jsonrpc
+1990 0x0009d9e4 0x0049d9e4 47  48   .rodata ascii   Invalid websocket message: missing jsonrpc %.*s
+1991 0x0009da18 0x0049da18 49  50   .rodata ascii   Invalid websocket message: unsupported jsonrpc %s
+1992 0x0009da4c 0x0049da4c 8   9    .rodata ascii   $.method
+1993 0x0009da58 0x0049da58 46  47   .rodata ascii   Invalid websocket message: missing method %.*s
+1994 0x0009da88 0x0049da88 8   9    .rodata ascii   $.params
+1995 0x0009da94 0x0049da94 46  47   .rodata ascii   Invalid websocket message: invalid params %.*s
+1996 0x0009dac4 0x0049dac4 15  16   .rodata ascii   Invalid params:
+1997 0x0009dad8 0x0049dad8 4   5    .rodata ascii   post
+1998 0x0009dae0 0x0049dae0 6   7    .rodata ascii   delete
+1999 0x0009dae8 0x0049dae8 55  56   .rodata ascii   Failed to get method string from websocket message %.*s
+2000 0x0009db20 0x0049db20 41  42   .rodata ascii   Failed to allocate memory for args string
+2001 0x0009db4c 0x0049db4c 15  16   .rodata ascii   Invalid request
+2002 0x0009db5c 0x0049db5c 29  30   .rodata ascii   Failed to build response JSON
+2003 0x0009db7c 0x0049db7c 32  33   .rodata ascii   Failed to wake up connection %lu
+2004 0x0009dba0 0x0049dba0 32  33   .rodata ascii   Client %lu request '%s' complete
+2005 0x0009dbc4 0x0049dbc4 17  18   .rodata ascii   Invalid arguments
+2006 0x0009dbd8 0x0049dbd8 14  15   .rodata ascii   Invalid buffer
+2007 0x0009dbe8 0x0049dbe8 8   9    .rodata ascii   $.result
+2008 0x0009dbf4 0x0049dbf4 7   8    .rodata ascii   $.error
+2009 0x0009dbfc 0x0049dbfc 35  36   .rodata ascii   Sending client %lu response -> %.*s
+2010 0x0009dc20 0x0049dc20 30  31   .rodata ascii   Invalid response message: %.*s
+2011 0x0009dc40 0x0049dc40 79  80   .rodata ascii   content-type: application/json; charset=utf-8\r\nAccess-Control-Allow-Origin: *\r\n
+2012 0x0009dc90 0x0049dc90 7   8    .rodata ascii   $.heads
+2013 0x0009dc98 0x0049dc98 6   7    .rodata ascii   $.code
+2014 0x0009dca0 0x0049dca0 17  18   .rodata ascii   {"result": %.*s }
+2015 0x0009dcb4 0x0049dcb4 30  31   .rodata ascii   id:%ld, uploads c->is_draining
+2016 0x0009dcd4 0x0049dcd4 9   10   .rodata ascii   $.message
+2017 0x0009dce0 0x0049dce0 27  28   .rodata ascii   Invalid error message: %.*s
+2018 0x0009dcfc 0x0049dcfc 42  43   .rodata ascii   {"error": {"code": %ld, "message": %.*s }}
+2019 0x0009dd28 0x0049dd28 28  29   .rodata ascii   Invalid connection or buffer
+2020 0x0009dd4c 0x0049dd4c 13  14   .rodata ascii   connection_id
+2021 0x0009dd5c 0x0049dd5c 7   8    .rodata ascii   printer
+2022 0x0009dd64 0x0049dd64 27  28   .rodata ascii   Invalid Klippy endpoint: %s
+2023 0x0009dd80 0x0049dd80 11  12   .rodata ascii   $.params.%s
+2024 0x0009dd8c 0x0049dd8c 41  42   .rodata ascii   Failed to allocate memory for path string
+2025 0x0009ddbc 0x0049ddbc 36  37   .rodata ascii   Failed to allocate memory for string
+2026 0x0009dde8 0x0049dde8 5   6    .rodata ascii   "%s",
+2027 0x0009ddf0 0x0049ddf0 6   7    .rodata ascii   [%.*s]
+2028 0x0009ddf8 0x0049ddf8 4   5    .rodata ascii   null
+2029 0x0009de00 0x0049de00 4   5    .rodata ascii   true
+2030 0x0009de08 0x0049de08 8   9    .rodata ascii   objects/
+2031 0x0009de14 0x0049de14 24  25   .rodata ascii   "connection_id": "%.*s",
+2032 0x0009de30 0x0049de30 12  13   .rodata ascii   "objects": {
+2033 0x0009de40 0x0049de40 42  43   .rodata ascii   Failed to allocate memory for query string
+2034 0x0009de6c 0x0049de6c 18  19   .rodata ascii   Query string: %.*s
+2035 0x0009de80 0x0049de80 17  18   .rodata ascii   Connection ID: %s
+2036 0x0009de94 0x0049de94 21  22   .rodata ascii   Key: %s, Value (null)
+2037 0x0009deac 0x0049deac 11  12   .rodata ascii   "%s": null,
+2038 0x0009deb8 0x0049deb8 19  20   .rodata ascii   Key: %s, Value ("")
+2039 0x0009decc 0x0049decc 9   10   .rodata ascii   "%s": "",
+2040 0x0009dedc 0x0049dedc 24  25   .rodata ascii   Key: %s, Value (int): %d
+2041 0x0009def8 0x0049def8 9   10   .rodata ascii   "%s": %d,
+2042 0x0009df04 0x0049df04 4   5    .rodata ascii   bool
+2043 0x0009df0c 0x0049df0c 5   6    .rodata ascii   false
+2044 0x0009df14 0x0049df14 25  26   .rodata ascii   Key: %s, Value (bool): %s
+2045 0x0009df30 0x0049df30 9   10   .rodata ascii   "%s": %s,
+2046 0x0009df3c 0x0049df3c 5   6    .rodata ascii   float
+2047 0x0009df44 0x0049df44 28  29   .rodata ascii   Key: %s, Value (float): %.2f
+2048 0x0009df64 0x0049df64 9   10   .rodata ascii   "%s": %f,
+2049 0x0009df70 0x0049df70 4   5    .rodata ascii   json
+2050 0x0009df7c 0x0049df7c 25  26   .rodata ascii   Key: %s, Value (json): %s
+2051 0x0009df98 0x0049df98 11  12   .rodata ascii   "%s": %.*s,
+2052 0x0009dfa4 0x0049dfa4 28  29   .rodata ascii   Key: %s, Value (Unknown): %s
+2053 0x0009dfc4 0x0049dfc4 27  28   .rodata ascii   Key: %s, Value (string): %s
+2054 0x0009dfe0 0x0049dfe0 7   8    .rodata ascii   "%s": [
+2055 0x0009dfe8 0x0049dfe8 4   5    .rodata ascii   "%s"
+2056 0x0009dff4 0x0049dff4 11  12   .rodata ascii   "%s": "%s",
+2057 0x0009e004 0x0049e004 12  13   .rodata ascii   Content-Type
+2058 0x0009e014 0x0049e014 16  17   .rodata ascii   application/json
+2059 0x0009e028 0x0049e028 9   10   .rodata ascii   $.objects
+2060 0x0009e034 0x0049e034 15  16   .rodata ascii   "objects": %.*s
+2061 0x0009e044 0x0049e044 18  19   .rodata ascii   {"params": {%.*s}}
+2062 0x0009e058 0x0049e058 70  71   .rodata ascii   {"id": %.*s, "error": {"code": %d, "message": "%s"}, "jsonrpc": "2.0"}
+2063 0x0009e0a0 0x0049e0a0 38  39   .rodata ascii   BUILD_RESPONSE_JSON: Invalid arguments
+2064 0x0009e0c8 0x0049e0c8 45  46   .rodata ascii   Failed to allocate memory for response buffer
+2065 0x0009e0fc 0x0049e0fc 28  29   .rodata ascii   "id": %.*s,"jsonrpc": "2.0",
+2066 0x0009e11c 0x0049e11c 12  13   .rodata ascii   "result": %s
+2067 0x0009e12c 0x0049e12c 40  41   .rodata ascii   Request %s failed. Code: %d, Message: %s
+2068 0x0009e158 0x0049e158 38  39   .rodata ascii   "error": {"code": %d, "message": "%s"}
+2069 0x0009e190 0x0049e190 5   6    .rodata ascii   FATAL
+2070 0x0009e198 0x0049e198 5   6    .rodata ascii   ERROR
+2071 0x0009e1a0 0x0049e1a0 4   5    .rodata ascii   WARN
+2072 0x0009e1a8 0x0049e1a8 4   5    .rodata ascii   INFO
+2073 0x0009e1b0 0x0049e1b0 5   6    .rodata ascii   DEBUG
+2074 0x0009e1b8 0x0049e1b8 5   6    .rodata ascii   TRACE
+2075 0x0009e1c0 0x0049e1c0 5   6    .rodata ascii   \e[35m
+2076 0x0009e1c8 0x0049e1c8 5   6    .rodata ascii   \e[31m
+2077 0x0009e1d0 0x0049e1d0 5   6    .rodata ascii   \e[33m
+2078 0x0009e1d8 0x0049e1d8 5   6    .rodata ascii   \e[32m
+2079 0x0009e1e0 0x0049e1e0 5   6    .rodata ascii   \e[36m
+2080 0x0009e1e8 0x0049e1e8 5   6    .rodata ascii   \e[94m
+2081 0x0009e1f0 0x0049e1f0 8   9    .rodata ascii   %H:%M:%S
+2082 0x0009e200 0x0049e200 11  12   .rodata ascii   %s%-5s\e[0m 
+2083 0x0009e20c 0x0049e20c 16  17   .rodata ascii   \e[90m%s:%d:\e[0m 
+2084 0x0009e220 0x0049e220 17  18   .rodata ascii   %Y-%m-%d %H:%M:%S
+2085 0x0009e234 0x0049e234 12  13   .rodata ascii   %-5s %s:%d: 
+2086 0x0009e250 0x0049e250 11  12   .rodata ascii   DNS timeout
+2087 0x0009e25c 0x0049e25c 20  21   .rodata ascii   %s DNS lookup failed
+2088 0x0009e274 0x0049e274 9   10   .rodata ascii   DNS error
+2089 0x0009e288 0x0049e288 42  43   .rodata ascii   DNS server URL is NULL. Call mg_mgr_init()
+2090 0x0009e2b4 0x0049e2b4 8   9    .rodata ascii   resolver
+2091 0x0009e2c0 0x0049e2c0 11  12   .rodata ascii   resolve OOM
+2092 0x0009e2cc 0x0049e2cc 8   9    .rodata ascii   DNS send
+2093 0x0009e2e4 0x0049e2e4 4   5    .rodata ascii   -inf
+2094 0x0009e2f0 0x0049e2f0 4   5    .rodata ascii   %.*s
+2095 0x0009e2f8 0x0049e2f8 16  17   .rodata ascii   0123456789abcdef
+2096 0x0009e310 0x0049e310 6   7    .rodata ascii   %s..%d
+2097 0x0009e324 0x0049e324 4   5    .rodata ascii   a+be
+2098 0x0009e32c 0x0049e32c 19  20   .rodata ascii   Content-Disposition
+2099 0x0009e340 0x0049e340 4   5    .rodata ascii   name
+2100 0x0009e348 0x0049e348 8   9    .rodata ascii   filename
+2101 0x0009e354 0x0049e354 21  22   .rodata ascii   Authorization: Basic 
+2102 0x0009e370 0x0049e370 14  15   .rodata ascii   Content-Length
+2103 0x0009e380 0x0049e380 5   6    .rodata ascii   HTTP/
+2104 0x0009e38c 0x0049e38c 4   5    .rodata ascii   POST
+2105 0x0009e398 0x0049e398 10  11   .rodata ascii           \r\n
+2106 0x0009e3a4 0x0049e3a4 5   6    .rodata ascii   %08lx
+2107 0x0009e3ac 0x0049e3ac 5   6    .rodata ascii   %lx\r\n
+2108 0x0009e3b4 0x0049e3b4 8   9    .rodata ascii   Continue
+2109 0x0009e3c0 0x0049e3c0 19  20   .rodata ascii   Switching Protocols
+2110 0x0009e3d4 0x0049e3d4 10  11   .rodata ascii   Processing
+2111 0x0009e3e4 0x0049e3e4 7   8    .rodata ascii   Created
+2112 0x0009e3ec 0x0049e3ec 8   9    .rodata ascii   Accepted
+2113 0x0009e3f8 0x0049e3f8 29  30   .rodata ascii   Non-authoritative Information
+2114 0x0009e418 0x0049e418 10  11   .rodata ascii   No Content
+2115 0x0009e424 0x0049e424 13  14   .rodata ascii   Reset Content
+2116 0x0009e434 0x0049e434 15  16   .rodata ascii   Partial Content
+2117 0x0009e444 0x0049e444 12  13   .rodata ascii   Multi-Status
+2118 0x0009e454 0x0049e454 16  17   .rodata ascii   Already Reported
+2119 0x0009e468 0x0049e468 7   8    .rodata ascii   IM Used
+2120 0x0009e470 0x0049e470 16  17   .rodata ascii   Multiple Choices
+2121 0x0009e484 0x0049e484 17  18   .rodata ascii   Moved Permanently
+2122 0x0009e498 0x0049e498 5   6    .rodata ascii   Found
+2123 0x0009e4a0 0x0049e4a0 9   10   .rodata ascii   See Other
+2124 0x0009e4ac 0x0049e4ac 12  13   .rodata ascii   Not Modified
+2125 0x0009e4bc 0x0049e4bc 9   10   .rodata ascii   Use Proxy
+2126 0x0009e4c8 0x0049e4c8 18  19   .rodata ascii   Temporary Redirect
+2127 0x0009e4dc 0x0049e4dc 18  19   .rodata ascii   Permanent Redirect
+2128 0x0009e4f0 0x0049e4f0 11  12   .rodata ascii   Bad Request
+2129 0x0009e4fc 0x0049e4fc 12  13   .rodata ascii   Unauthorized
+2130 0x0009e50c 0x0049e50c 16  17   .rodata ascii   Payment Required
+2131 0x0009e520 0x0049e520 9   10   .rodata ascii   Forbidden
+2132 0x0009e52c 0x0049e52c 9   10   .rodata ascii   Not Found
+2133 0x0009e538 0x0049e538 18  19   .rodata ascii   Method Not Allowed
+2134 0x0009e54c 0x0049e54c 14  15   .rodata ascii   Not Acceptable
+2135 0x0009e55c 0x0049e55c 29  30   .rodata ascii   Proxy Authentication Required
+2136 0x0009e57c 0x0049e57c 15  16   .rodata ascii   Request Timeout
+2137 0x0009e58c 0x0049e58c 8   9    .rodata ascii   Conflict
+2138 0x0009e598 0x0049e598 4   5    .rodata ascii   Gone
+2139 0x0009e5a0 0x0049e5a0 15  16   .rodata ascii   Length Required
+2140 0x0009e5b0 0x0049e5b0 19  20   .rodata ascii   Precondition Failed
+2141 0x0009e5c4 0x0049e5c4 17  18   .rodata ascii   Payload Too Large
+2142 0x0009e5d8 0x0049e5d8 20  21   .rodata ascii   Request-URI Too Long
+2143 0x0009e5f0 0x0049e5f0 22  23   .rodata ascii   Unsupported Media Type
+2144 0x0009e608 0x0049e608 31  32   .rodata ascii   Requested Range Not Satisfiable
+2145 0x0009e628 0x0049e628 18  19   .rodata ascii   Expectation Failed
+2146 0x0009e63c 0x0049e63c 12  13   .rodata ascii   I'm a teapot
+2147 0x0009e64c 0x0049e64c 19  20   .rodata ascii   Misdirected Request
+2148 0x0009e660 0x0049e660 20  21   .rodata ascii   Unprocessable Entity
+2149 0x0009e678 0x0049e678 6   7    .rodata ascii   Locked
+2150 0x0009e680 0x0049e680 17  18   .rodata ascii   Failed Dependency
+2151 0x0009e694 0x0049e694 16  17   .rodata ascii   Upgrade Required
+2152 0x0009e6a8 0x0049e6a8 21  22   .rodata ascii   Precondition Required
+2153 0x0009e6c0 0x0049e6c0 17  18   .rodata ascii   Too Many Requests
+2154 0x0009e6d4 0x0049e6d4 31  32   .rodata ascii   Request Header Fields Too Large
+2155 0x0009e6f4 0x0049e6f4 34  35   .rodata ascii   Connection Closed Without Response
+2156 0x0009e718 0x0049e718 29  30   .rodata ascii   Unavailable For Legal Reasons
+2157 0x0009e738 0x0049e738 21  22   .rodata ascii   Client Closed Request
+2158 0x0009e750 0x0049e750 21  22   .rodata ascii   Internal Server Error
+2159 0x0009e768 0x0049e768 15  16   .rodata ascii   Not Implemented
+2160 0x0009e778 0x0049e778 11  12   .rodata ascii   Bad Gateway
+2161 0x0009e784 0x0049e784 19  20   .rodata ascii   Service Unavailable
+2162 0x0009e798 0x0049e798 15  16   .rodata ascii   Gateway Timeout
+2163 0x0009e7a8 0x0049e7a8 26  27   .rodata ascii   HTTP Version Not Supported
+2164 0x0009e7c4 0x0049e7c4 23  24   .rodata ascii   Variant Also Negotiates
+2165 0x0009e7dc 0x0049e7dc 20  21   .rodata ascii   Insufficient Storage
+2166 0x0009e7f4 0x0049e7f4 13  14   .rodata ascii   Loop Detected
+2167 0x0009e804 0x0049e804 12  13   .rodata ascii   Not Extended
+2168 0x0009e814 0x0049e814 31  32   .rodata ascii   Network Authentication Required
+2169 0x0009e834 0x0049e834 29  30   .rodata ascii   Network Connect Timeout Error
+2170 0x0009f028 0x0049f028 49  50   .rodata ascii   HTTP/1.1 %d %s\r\n%sContent-Length:            \r\n\r\n
+2171 0x0009f05c 0x0049f05c 6   7    .rodata ascii   %-10lu
+2172 0x0009f064 0x0049f064 11  12   .rodata ascii   "%lld.%lld"
+2173 0x0009f070 0x0049f070 4   5    .rodata ascii   html
+2174 0x0009f078 0x0049f078 24  25   .rodata ascii   text/html; charset=utf-8
+2175 0x0009f09c 0x0049f09c 23  24   .rodata ascii   text/css; charset=utf-8
+2176 0x0009f0b8 0x0049f0b8 30  31   .rodata ascii   text/javascript; charset=utf-8
+2177 0x0009f0dc 0x0049f0dc 9   10   .rodata ascii   image/gif
+2178 0x0009f0ec 0x0049f0ec 9   10   .rodata ascii   image/png
+2179 0x0009f0fc 0x0049f0fc 10  11   .rodata ascii   image/jpeg
+2180 0x0009f108 0x0049f108 4   5    .rodata ascii   jpeg
+2181 0x0009f110 0x0049f110 4   5    .rodata ascii   woff
+2182 0x0009f118 0x0049f118 9   10   .rodata ascii   font/woff
+2183 0x0009f128 0x0049f128 8   9    .rodata ascii   font/ttf
+2184 0x0009f138 0x0049f138 13  14   .rodata ascii   image/svg+xml
+2185 0x0009f14c 0x0049f14c 25  26   .rodata ascii   text/plain; charset=utf-8
+2186 0x0009f16c 0x0049f16c 15  16   .rodata ascii   video/x-msvideo
+2187 0x0009f180 0x0049f180 8   9    .rodata ascii   text/csv
+2188 0x0009f190 0x0049f190 18  19   .rodata ascii   application/msword
+2189 0x0009f1a8 0x0049f1a8 24  25   .rodata ascii   application/octet-stream
+2190 0x0009f1c8 0x0049f1c8 16  17   .rodata ascii   application/gzip
+2191 0x0009f1e0 0x0049f1e0 12  13   .rodata ascii   image/x-icon
+2192 0x0009f1f0 0x0049f1f0 4   5    .rodata ascii   json
+2193 0x0009f1f8 0x0049f1f8 16  17   .rodata ascii   application/json
+2194 0x0009f210 0x0049f210 15  16   .rodata ascii   video/quicktime
+2195 0x0009f224 0x0049f224 10  11   .rodata ascii   audio/mpeg
+2196 0x0009f234 0x0049f234 9   10   .rodata ascii   video/mp4
+2197 0x0009f240 0x0049f240 4   5    .rodata ascii   mpeg
+2198 0x0009f248 0x0049f248 10  11   .rodata ascii   video/mpeg
+2199 0x0009f258 0x0049f258 15  16   .rodata ascii   application/pdf
+2200 0x0009f268 0x0049f268 5   6    .rodata ascii   shtml
+2201 0x0009f274 0x0049f274 18  19   .rodata ascii   application/tar-gz
+2202 0x0009f28c 0x0049f28c 9   10   .rodata ascii   audio/wav
+2203 0x0009f298 0x0049f298 4   5    .rodata ascii   webp
+2204 0x0009f2a0 0x0049f2a0 10  11   .rodata ascii   image/webp
+2205 0x0009f2b0 0x0049f2b0 15  16   .rodata ascii   application/zip
+2206 0x0009f2c4 0x0049f2c4 10  11   .rodata ascii   video/3gpp
+2207 0x0009f2d4 0x0049f2d4 6   7    .rodata ascii   bytes=
+2208 0x0009f2dc 0x0049f2dc 15  16   .rodata ascii   Accept-Encoding
+2209 0x0009f2ec 0x0049f2ec 4   5    .rodata ascii   gzip
+2210 0x0009f2f4 0x0049f2f4 5   6    .rodata ascii   %s.gz
+2211 0x0009f2fc 0x0049f2fc 10  11   .rodata ascii   Not found\n
+2212 0x0009f308 0x0049f308 13  14   .rodata ascii   If-None-Match
+2213 0x0009f318 0x0049f318 5   6    .rodata ascii   Range
+2214 0x0009f320 0x0049f320 29  30   .rodata ascii   Content-Range: bytes */%lld\r\n
+2215 0x0009f340 0x0049f340 37  38   .rodata ascii   Content-Range: bytes %llu-%llu/%llu\r\n
+2216 0x0009f368 0x0049f368 24  25   .rodata ascii   Content-Encoding: gzip\r\n
+2217 0x0009f384 0x0049f384 76  77   .rodata ascii   HTTP/1.1 %d %s\r\nContent-Type: %.*s\r\nEtag: %s\r\nContent-Length: %llu\r\n%s%s%s\r\n
+2218 0x0009f3d4 0x0049f3d4 4   5    .rodata ascii   HEAD
+2219 0x0009f3dc 0x0049f3dc 6   7    .rodata ascii   %s%c%s
+2220 0x0009f3e8 0x0049f3e8 5   6    .rodata ascii   [DIR]
+2221 0x0009f3f0 0x0049f3f0 4   5    .rodata ascii   %lld
+2222 0x0009f3fc 0x0049f3fc 87  88   .rodata ascii     <tr><td><a href="%.*s%s">%s%s</a></td><td name=%lu>%s</td><td name=%lld>%s</td></tr>\n
+2223 0x0009f454 0x0049f454 452 453  .rodata ascii   <script>function srt(tb, sc, so, d) {var tr = Array.prototype.slice.call(tb.rows, 0),tr = tr.sort(function (a, b) { var c1 = a.cells[sc], c2 = b.cells[sc],n1 = c1.getAttribute('name'), n2 = c2.getAttribute('name'), t1 = a.cells[2].getAttribute('name'), t2 = b.cells[2].getAttribute('name'); return so * (t1 < 0 && t2 >= 0 ? -1 : t2 < 0 && t1 >= 0 ? 1 : n1 ? parseInt(n2) - parseInt(n1) : c1.textContent.trim().localeCompare(c2.textContent.trim())); });
+2224 0x0009f61c 0x0049f61c 451 452  .rodata ascii   for (var i = 0; i < tr.length; i++) tb.appendChild(tr[i]); if (!d) window.location.hash = ('sc=' + sc + '&so=' + so); };window.onload = function() {var tb = document.getElementById('tb');var m = /sc=([012]).so=(1|-1)/.exec(window.location.hash) || [0, 2, 1];var sc = m[1], so = m[2]; document.onclick = function(ev) { var c = ev.target.rel; if (c) {if (c == sc) so *= -1; srt(tb, c, so); sc = c; ev.preventDefault();}};srt(tb, sc, so, true);}</script>
+2225 0x0009f7e0 0x0049f7e0 87  88   .rodata ascii   HTTP/1.1 200 OK\r\nContent-Type: text/html; charset=utf-8\r\n%sContent-Length:         \r\n\r\n
+2226 0x0009f838 0x0049f838 391 392  .rodata ascii   <!DOCTYPE html><html><head><title>Index of %.*s</title>%s%s<style>th,td {text-align: left; padding-right: 1em; font-family: monospace; }</style></head><body><h1>Index of %.*s</h1><table cellpadding="0"><thead><tr><th><a href="#" rel="0">Name</a></th><th><a href="#" rel="1">Modified</a></th><th><a href="#" rel="2">Size</a></th></tr><tr><td colspan="3"><hr></td></tr></thead><tbody id="tb">\n
+2227 0x0009f9c0 0x0049f9c0 79  80   .rodata ascii     <tr><td><a href="..">..</a></td><td name=-1></td><td name=-1>[DIR]</td></tr>\n
+2228 0x0009fa10 0x0049fa10 4   5    .rodata ascii   7.15
+2229 0x0009fa18 0x0049fa18 112 113  .rodata ascii   </tbody><tfoot><tr><td colspan="3"><hr></td></tr></tfoot></table><address>Mongoose v.%s</address></body></html>\n
+2230 0x0009fa8c 0x0049fa8c 18  19   .rodata ascii   Exceeded path size
+2231 0x0009faa0 0x0049faa0 12  13   .rodata ascii   Invalid path
+2232 0x0009fab0 0x0049fab0 58  59   .rodata ascii   HTTP/1.1 301 Moved\r\nLocation: %.*s/\r\nContent-Length: 0\r\n\r\n
+2233 0x0009faec 0x0049faec 11  12   .rodata ascii   /index.html
+2234 0x0009faf8 0x0049faf8 12  13   .rodata ascii   /index.shtml
+2235 0x0009fb08 0x0049fb08 14  15   .rodata ascii   /index.html.gz
+2236 0x0009fb18 0x0049fb18 4   5    .rodata ascii   %%%M
+2237 0x0009fb20 0x0049fb20 13  14   .rodata ascii   Authorization
+2238 0x0009fb30 0x0049fb30 6   7    .rodata ascii   Basic 
+2239 0x0009fb38 0x0049fb38 7   8    .rodata ascii   Bearer 
+2240 0x0009fb40 0x0049fb40 6   7    .rodata ascii   Cookie
+2241 0x0009fb48 0x0049fb48 12  13   .rodata ascii   access_token
+2242 0x0009fb58 0x0049fb58 6   7    .rodata ascii   offset
+2243 0x0009fb60 0x0049fb60 4   5    .rodata ascii   file
+2244 0x0009fb6c 0x0049fb6c 13  14   .rodata ascii   file required
+2245 0x0009fb7c 0x0049fb7c 16  17   .rodata ascii   %s: invalid file
+2246 0x0009fb90 0x0049fb90 15  16   .rodata ascii   offset required
+2247 0x0009fba0 0x0049fba0 24  25   .rodata ascii   %s: over max size of %lu
+2248 0x0009fbbc 0x0049fbbc 19  20   .rodata ascii   %s: offset mismatch
+2249 0x0009fbd0 0x0049fbd0 12  13   .rodata ascii   open(%s): %d
+2250 0x0009fbe0 0x0049fbe0 17  18   .rodata ascii   Transfer-Encoding
+2251 0x0009fbf4 0x0049fbf4 7   8    .rodata ascii   chunked
+2252 0x0009fbfc 0x0049fbfc 25  26   .rodata ascii   Invalid Transfer-Encoding
+2253 0x0009fc18 0x0049fc18 14  15   .rodata ascii   Content-length
+2254 0x0009fc28 0x0049fc28 13  14   .rodata ascii   Invalid chunk
+2255 0x0009fc38 0x0049fc38 10  11   .rodata ascii   Connection
+2256 0x0009fc44 0x0049fc44 5   6    .rodata ascii   close
+2257 0x0009fc4c 0x0049fc4c 5   6    .rodata ascii   /quit
+2258 0x0009fc58 0x0049fc58 6   7    .rodata ascii   /debug
+2259 0x0009fc60 0x0049fc60 7   8    .rodata ascii   $.level
+2260 0x0009fc68 0x0049fc68 22  23   .rodata ascii   Debug level set to %d\n
+2261 0x0009fc84 0x0049fc84 7   8    .rodata ascii   \b\f\n\r\t\"
+2262 0x0009fc8c 0x0049fc8c 7   8    .rodata ascii   bfnrt\"
+2263 0x0009fc98 0x0049fc98 4   5    .rodata ascii   true
+2264 0x0009fca0 0x0049fca0 4   5    .rodata ascii   null
+2265 0x0009fca8 0x0049fca8 5   6    .rodata ascii   false
+2266 0x0009fcb0 0x0049fcb0 18  19   .rodata ascii   %-6llx %d %s:%d:%s
+2267 0x0009fd5c 0x0049fd5c 9   10   .rodata ascii   localhost
+2268 0x0009fd68 0x0049fd68 4   5    .rodata ascii   udp:
+2269 0x0009fd70 0x0049fd70 16  17   .rodata ascii   udp://8.8.8.8:53
+2270 0x0009fd84 0x0049fd84 31  32   .rodata ascii   udp://[2001:4860:4860::8888]:53
+2271 0x0009fda4 0x0049fda4 11  12   .rodata ascii   %d.%d.%d.%d
+2272 0x0009fdb0 0x0049fdb0 25  26   .rodata ascii   [%x:%x:%x:%x:%x:%x:%x:%x]
+2273 0x0009fdcc 0x0049fdcc 6   7    .rodata ascii   %M:%hu
+2274 0x0009fdd4 0x0049fdd4 29  30   .rodata ascii   %02x:%02x:%02x:%02x:%02x:%02x
+2275 0x0009fdf4 0x0049fdf4 64  65   .rodata ascii   ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+2276 0x0009fe38 0x0049fe38 16  17   .rodata ascii   "%.*s not found"
+2277 0x0009fe4c 0x0049fe4c 8   9    .rodata ascii   $.method
+2278 0x0009fe58 0x0049fe58 8   9    .rodata ascii   $.result
+2279 0x0009fe64 0x0049fe64 7   8    .rodata ascii   $.error
+2280 0x0009fe70 0x0049fe70 4   5    .rodata ascii   $.id
+2281 0x0009fe78 0x0049fe78 12  13   .rodata ascii   {%m:%.*s,%m:
+2282 0x0009fe88 0x0049fe88 6   7    .rodata ascii   result
+2283 0x0009fea0 0x0049fea0 4   5    .rodata ascii   .*s,
+2284 0x0009fea8 0x0049fea8 13  14   .rodata ascii   %m:{%m:%d,%m:
+2285 0x0009feb8 0x0049feb8 7   8    .rodata ascii   message
+2286 0x0009fec0 0x0049fec0 4   5    .rodata ascii   code
+2287 0x0009fec8 0x0049fec8 5   6    .rodata ascii   error
+2288 0x0009fed8 0x0049fed8 4   5    .rodata ascii   %s%m
+2289 0x0009fee0 0x0049fee0 4   5    .rodata ascii   [%M]
+2290 0x0009ff15 0x0049ff15 5   6    .rodata ascii   }\fUt]
+2291 0x0009ff34 0x0049ff34 5   7    .rodata utf8    ̡\f$o, blocks=Combining Diacritical Marks,Basic Latin
+2292 0x0009ff47 0x0049ff47 4   5    .rodata ascii   vRQ>
+2293 0x0009ff6b 0x0049ff6b 5   6    .rodata ascii   '8!\e.
+2294 0x0009ff75 0x0049ff75 7   8    .rodata ascii   \r8STs\ne
+2295 0x0009ff7d 0x0049ff7d 4   5    .rodata ascii   \njv.
+2296 0x0009ff92 0x0049ff92 4   6    .rodata utf8    K£Ql blocks=Basic Latin,Latin-1 Supplement
+2297 0x0009ffb0 0x0049ffb0 4   5    .rodata ascii   LwH'
+2298 0x0009ffbf 0x0049ffbf 4   6    .rodata utf8    NOʜ[ blocks=Basic Latin,IPA Extensions
+2299 0x0009ffc5 0x0049ffc5 7   10   .rodata utf8    o.htoc blocks=Basic Latin,Private Use Area
+2300 0x0009ffe8 0x0049ffe8 25  26   .rodata ascii   udp://time.google.com:123
+2301 0x000a0004 0x004a0004 16  17   .rodata ascii   MG_MAX_RECV_SIZE
+2302 0x000a001c 0x004a001c 12  13   .rodata ascii   socket error
+2303 0x000a002c 0x004a002c 12  13   .rodata ascii   socket(): %d
+2304 0x000a003c 0x004a003c 11  12   .rodata ascii   connect: %d
+2305 0x000a0048 0x004a0048 15  16   .rodata ascii   SSI not enabled
+2306 0x000a0058 0x004a0058 18  19   .rodata ascii   TLS is not enabled
+2307 0x000a0090 0x004a0090 4   5    .rodata ascii   wss:
+2308 0x000a0098 0x004a0098 6   7    .rodata ascii   https:
+2309 0x000a00a0 0x004a00a0 6   7    .rodata ascii   mqtts:
+2310 0x000a00a8 0x004a00a8 4   5    .rodata ascii   ssl:
+2311 0x000a00b0 0x004a00b0 4   5    .rodata ascii   tls:
+2312 0x000a00b8 0x004a00b8 5   6    .rodata ascii   tcps:
+2313 0x000a00c0 0x004a00c0 5   6    .rodata ascii   http:
+2314 0x000a00cc 0x004a00cc 5   6    .rodata ascii   mqtt:
+2315 0x000a00d8 0x004a00d8 12  13   .rodata ascii   /dev/urandom
+2316 0x000a00e8 0x004a00e8 16  17   .rodata ascii   %d.%d.%d.%d/%d%n
+2317 0x000a00fc 0x004a00fc 13  14   .rodata ascii   %d.%d.%d.%d%n
+2318 0x000a010c 0x004a010c 36  37   .rodata ascii   258EAFA5-E914-47DA-95CA-C5AB0DC85B11
+2319 0x000a0134 0x004a0134 101 102  .rodata ascii   HTTP/1.1 101 Switching Protocols\r\nUpgrade: websocket\r\nConnection: Upgrade\r\nSec-WebSocket-Accept: %s\r\n
+2320 0x000a019c 0x004a019c 30  31   .rodata ascii   Sec-WebSocket-Protocol: %.*s\r\n
+2321 0x000a01bc 0x004a01bc 8   9    .rodata ascii   not http
+2322 0x000a01cc 0x004a01cc 18  19   .rodata ascii   ws handshake error
+2323 0x000a01e0 0x004a01e0 16  17   .rodata ascii   unknown WS op %d
+2324 0x000a0220 0x004a0220 120 121  .rodata ascii   GET %s HTTP/1.1\r\nUpgrade: websocket\r\nHost: %.*s\r\nConnection: Upgrade\r\nSec-WebSocket-Version: 13\r\nSec-WebSocket-Key: %s\r\n
+2325 0x000a029c 0x004a029c 17  18   .rodata ascii   Sec-WebSocket-Key
+2326 0x000a02b0 0x004a02b0 20  21   .rodata ascii   WS upgrade expected\n
+2327 0x000a02c8 0x004a02c8 22  23   .rodata ascii   Sec-WebSocket-Protocol
+2328 0x000a02e0 0x004a02e0 7   8    .rodata ascii   DP83867
+2329 0x000a02e8 0x004a02e8 7   8    .rodata ascii   DP83848
+2330 0x000a02f0 0x004a02f0 7   8    .rodata ascii   DP83825
+2331 0x000a02f8 0x004a02f8 5   6    .rodata ascii   DP83x
+2332 0x000a0300 0x004a0300 5   6    .rodata ascii   KSZ8x
+2333 0x000a0308 0x004a0308 6   7    .rodata ascii   LAN87x
+2334 0x000a0310 0x004a0310 7   8    .rodata ascii   RTL8201
+2335 0x000a0318 0x004a0318 7   8    .rodata ascii   unknown
+2336 0x000a035d 0x004a035d 5   6    .rodata ascii   QkkXa
+2337 0x000a03bf 0x004a03bf 9   10   .rodata ascii   A%i.%i.%i
+2338 0x000a04bc 0x004a04bc 6   7    .rodata ascii   %1.15g
+2339 0x000a04c8 0x004a04c8 6   7    .rodata ascii   %1.17g
+2340 0x000a0620 0x004a0620 5   6    .rodata ascii   u%04x
+2341 0x000a062c 0x004a062c 4   5    .rodata ascii   null
+2342 0x000a0634 0x004a0634 5   6    .rodata ascii   false
+2343 0x000a063c 0x004a063c 4   5    .rodata ascii   true

@@ -1,0 +1,1114 @@
+/lib/ld-linux-mipsn8.so.1
+__gmon_start__
+libpthread.so.0
+_DYNAMIC_LINKING
+__RLD_MAP
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+libssl.so.1.1
+libcrypto.so.1.1
+libnice.so.10
+libglib-2.0.so.0
+librt.so.1
+libjson-c.so.5
+libCrLog.so
+libgobject-2.0.so.0
+libsrtp2.so.1
+libwebsockets.so.19
+libcjson.so.1
+librtp.so
+X509_STORE_CTX_get_error
+EVP_PKEY_new
+BN_set_word
+RSA_generate_key_ex
+EVP_PKEY_assign
+X509_new
+X509_set_version
+X509_getm_notBefore
+X509_gmtime_adj
+X509_getm_notAfter
+X509_set_pubkey
+X509_get_subject_name
+X509_NAME_add_entry_by_txt
+X509_set_issuer_name
+EVP_sha1
+X509_sign
+DTLS_method
+SSL_CTX_new
+SSL_CTX_set_verify
+SSL_CTX_set_tlsext_use_srtp
+SSL_CTX_use_certificate
+SSL_CTX_use_PrivateKey
+SSL_CTX_check_private_key
+SSL_CTX_ctrl
+EVP_sha256
+X509_digest
+g_snprintf
+BIO_s_mem
+BIO_ctrl
+SSL_set_bio
+EC_KEY_new_by_curve_name
+SSL_set_options
+SSL_ctrl
+EC_KEY_free
+srtp_init
+SSL_CTX_free
+SSL_free
+X509_free
+EVP_PKEY_free
+srtp_dealloc
+SSL_set_accept_state
+SSL_do_handshake
+BIO_write
+SSL_read
+SSL_is_init_finished
+SSL_get_peer_certificate
+SSL_export_keying_material
+srtp_crypto_policy_set_rtp_default
+srtp_crypto_policy_set_rtcp_default
+srtp_create
+SSL_get_error
+ERR_get_error
+ERR_error_string_n
+ERR_reason_error_string
+srtp_unprotect
+srtp_unprotect_rtcp
+srtp_protect
+srtp_protect_rtcp
+BIO_set_init
+BIO_set_data
+BIO_set_shutdown
+BIO_get_data
+nice_agent_send
+BIO_meth_new
+BIO_meth_set_write
+BIO_meth_set_ctrl
+BIO_meth_set_create
+BIO_meth_set_destroy
+nice_agent_get_local_credentials
+nice_agent_get_local_candidates
+nice_address_get_port
+nice_candidate_free
+g_slist_length
+g_slist_nth
+nice_address_to_string
+g_slist_free
+pthread_detach
+GetLogLevel
+g_cond_signal
+CrLogLock
+CrLogWrite
+CrLogUnLock
+g_main_loop_get_context
+nice_agent_new
+g_object_set
+g_signal_connect_data
+nice_agent_add_stream
+nice_agent_set_relay_info
+nice_agent_set_stream_name
+nice_agent_attach_recv
+g_object_unref
+g_mutex_lock
+g_mutex_unlock
+nice_agent_gather_candidates
+g_strsplit
+nice_agent_parse_remote_stream_sdp
+nice_agent_set_remote_credentials
+g_slist_free_full
+nice_candidate_new
+nice_address_set_from_string
+nice_address_set_port
+g_strfreev
+g_slist_prepend
+nice_agent_set_remote_candidates
+pthread_setname_np
+pthread_create
+lws_client_connect_via_info
+cJSON_IsString
+cJSON_Parse
+cJSON_GetObjectItem
+cJSON_IsNumber
+cJSON_IsObject
+cJSON_IsArray
+lws_get_context
+lws_cancel_service
+lws_callback_http_dummy
+_lws_log
+lws_http_is_redirected_to_get
+lws_write
+lws_client_http_body_pending
+lws_add_http_header_by_token
+lws_http_client_http_response
+lws_http_client_read
+lwsl_hexdump_level
+lws_add_http_header_content_length
+lws_callback_on_writable
+lws_create_context
+lws_service
+lws_context_destroy
+cJSON_Delete
+lws_set_log_level
+pthread_mutex_lock
+pthread_cond_wait
+pthread_mutex_unlock
+pthread_mutex_init
+pthread_cond_init
+cJSON_ParseWithOpts
+cJSON_GetArraySize
+cJSON_GetArrayItem
+cJSON_CreateObject
+cJSON_AddStringToObject
+cJSON_AddItemToObject
+cJSON_Print
+cJSON_AddNumberToObject
+lws_set_timer_usecs
+lws_is_first_fragment
+lws_is_final_fragment
+lws_remaining_packet_payload
+cJSON_AddArrayToObject
+cJSON_AddItemToArray
+pthread_exit
+sigaction
+g_main_loop_new
+g_main_loop_run
+pthread_join
+pthread_cond_signal
+cJSON_PrintUnformatted
+cJSON_free
+shm_open
+__errno_location
+sem_post
+sem_wait
+sem_trywait
+clock_gettime
+sem_timedwait
+sem_open
+sem_close
+rtp_payload_encode_create
+rtp_payload_encode_destroy
+rtp_payload_encode_input
+CrLogOpen
+CrLogClose
+SetLogLevel
+libc.so.6
+pthread_self
+gettimeofday
+getrusage
+epoll_wait
+__isoc99_sscanf
+inet_pton
+__libc_start_main
+sigemptyset
+epoll_ctl
+epoll_create1
+vsnprintf
+strsignal
+inet_ntop
+getaddrinfo
+gai_strerror
+_IO_stdin_used
+__bss_start
+GLIBC_2.2
+GLIBC_2.12
+GLIBC_2.3.2
+GLIBC_2.0
+GLIBC_2.9
+GLIBC_2.7
+OPENSSL_1_1_0
+<t%'&% @
+<45c$T5B$% 
+src/dtls_transport.c
+[%s %s:%d] 
+SRTP_AES128_CM_SHA1_80
+[%s %s:%d] use certificate failed
+[%s %s:%d] use private key failed
+[%s %s:%d] check preverify key failed
+[%s %s:%d] generate fingerprint failed
+[%s %s:%d] New ecdh curve by name failed
+[%s %s:%d] %s
+[%s %s:%d] Remote fingerprint %s
+[%s %s:%d] Local fingerprint %s
+EXTRACTOR-dtls_srtp
+[%s %s:%d] Couldn't extract SRTP keying material(%s)
+[%s %s:%d] Error creating inbound SRTP session for component
+[%s %s:%d] Created inbound SRTP session
+[%s %s:%d] Error creating outbound SRTP session
+[%s %s:%d] Created outbound SRTP session
+nice agent bio
+src/peer_connection.c
+[%s %s:%d] get local credentials failed
+o=- 1495799811084970 1495799811084970 IN IP4 0.0.0.0
+a=msid-semantic:WMS *
+a=group:BUNDLE 0 1
+a=group:BUNDLE 0
+a=candidate:%s 1 UDP %u %s %d typ %s
+a=candidate:%s 1 UDP %u %s %d typ %s raddr %s rport %d
+a=candidate:%s 1 TCP %u %s %d typ %s tcptype %s
+a=candidate:%s 1 TCP %u %s %d typ %s raddr %s rport %d tcptype %s
+[%s]-[%s](%d) ###gather may wrong,exit pc:%p
+[%s]-[%s](%d) ###done pc:%p
+[%s %s:%d] Failed to create agent
+stun-server
+stun-server-port
+controlling-mode
+keepalive-conncheck
+candidate-gathering-done
+component-state-changed
+new-selected-pair-full
+[%s %s:%d] Failed to add stream
+[%s %s:%d] Failed to start candidate gathering
+remote sdp:%s 
+candidate
+failed to set remote credentials
+failed to set remote candidates
+[%s %s:%d] only sent %d bytes? (was %d)
+sig_management
+[cpf] !!!!! no define TOTEST 
+m=video 9 UDP/TLS/RTP/SAVPF 96 %d
+a=rtcp-fb:%d nack
+a=rtcp-fb:%d nack pli
+a=fmtp:96 profile-level-id=42e01f;level-asymmetry-allowed=1
+a=fmtp:%d profile-level-id=42e01f;packetization-mode=1;level-asymmetry-allowed=1
+a=fmtp:%d x-google-max-bitrate=6000;x-google-min-bitrate=2000;x-google-start-bitrate=4000
+a=rtpmap:96 H264/90000
+a=rtpmap:%d H264/90000
+a=ssrc:1 cname:pear
+m=audio 9 UDP/TLS/RTP/SAVP 111
+a=rtcp-fb:111 nack
+a=rtpmap:111 opus/48000/2
+a=ssrc:2 cname:pear
+m=audio 9 UDP/TLS/RTP/SAVP 8
+a=rtpmap:8 PCMA/8000
+c=IN IP4 0.0.0.0
+a=sendrecv
+a=recvonly
+a=sendonly
+a=mid:%d
+a=rtcp-mux
+a=ice-ufrag:%s
+a=ice-pwd:%s
+a=ice-options:trickle
+a=fingerprint:sha-256 %s
+a=setup:passive
+[%s]-[%s](%d) [cpf]: signaling->option.protocol = SIGNALING_PROTOCOL_WEBSOCKETS
+src/signaling.c
+[%s]-[%s](%d) update_icesig:%d for %d
+src/signaling_websockets.c
+lws-minimal
+[%s]-[%s](%d) %s: connection %s:%d -> %s
+[%s]-[%s](%d) lws_client_connect_via_info 0 
+[%s]-[%s](%d) lws_client_connect_via_info 1 
+[%s]-[%s](%d) use default device_name:%s
+api-dev.crealitycloud.cn
+[%s]-[%s](%d) ###username %s
+[%s]-[%s](%d) ice_tm_tv %u, now:%u
+ left:%d
+[%s]-[%s](%d) ###credential %s
+[%s]-[%s](%d) ###iceServer %s portNum:%d
+iceServers
+username
+credential
+CLIENT_CONNECTION_ERROR: %s
+[%s]-[%s](%d) LWS_CALLBACK_CLIENT_CONNECTION_ERROR
+[%s]-[%s](%d) LWS_CALLBACK_CLOSED_CLIENT_HTTP
+Connected with server response: %d
+RECEIVE_CLIENT_HTTP_READ: read %d
+RECEIVE_CLIENT_HTTP_READ: read %s
+LWS_CALLBACK_COMPLETED_CLIENT_HTTP
+[%s]-[%s](%d) LWS_CALLBACK_COMPLETED_CLIENT_HTTP
+0 LWS_CALLBACK_CLIENT_APPEND_HANDSHAKE_HEADER
+application/json;charset=UTF-8
+[%s]-[%s](%d) add content_type failed
+{"deviceName":"%s"}
+[%s]-[%s](%d) add content_length failed
+LWS_CALLBACK_CLIENT_APPEND_HANDSHAKE_HEADER
+LWS_CALLBACK_CLIENT_HTTP_WRITEABLE 0
+LWS_CALLBACK_CLIENT_HTTP_WRITEABLE
+LWS minimal http client - POST [-d<verbosity>] [-l] [--h1]
+lws init failed
+/api/cxy/v2/webrtc/iceServers
+[%s]-[%s](%d) %s: connecting to %s:%d
+[%s]-[%s](%d) %s
+[%s]-[%s](%d) Completed: %s
+[%s]-[%s](%d) 
+[%s]-[%s](%d) file name: %s
+[%s]-[%s](%d) file len:%d
+/usr/data/creality/gui/config/system_config.json
+[%s]-[%s](%d) getfile error!
+[%s]-[%s](%d) cJSON_Parse error!
+device_info
+device_sn
+device_mac
+model_str
+[%s]-[%s](%d) device sn = %s
+[%s]-[%s](%d) device mac = %s
+[%s]-[%s](%d) device model = %s
+[%s]-[%s](%d) GetRegisterInfoFromFile error!
+[%s]-[%s](%d) getsessioncount %d
+[%s]-[%s](%d) lws init failed
+[%s]-[%s](%d) signaling_ws_thd start
+[%s]-[%s](%d) interrupted jwtToken %s
+[%s]-[%s](%d) interrupted wait jwtToken
+[%s]-[%s](%d) interrupted get jwtToken
+[%s]-[%s](%d) ##lws lost 
+[%s]-[%s](%d) ##try to reconnect %lu inactive[%d sec]
+[%s]-[%s](%d) ##OOOO -- exiting service loop. n = %d, interrupted = %d
+sys_version
+[%s]-[%s](%d) get_ver_info :%s
+ws_serv malloc failed
+[%s]-[%s](%d) too big no space cur[%u] for cur_len: %d flush all
+[%s]-[%s](%d) join ack
+push_online
+[%s]-[%s](%d) join success
+[%s]-[%s](%d) ObjArr Len: %d
+[%s]-[%s](%d) urls:%s username:%s credential:%s
+sdpMessage
+[%s]-[%s](%d) 2 too big no space cur[%u] for cur_len: %d flush all
+[%s]-[%s](%d) signaling_wsocket_create %s:%d
+/api/cxy/ws/webrtc/signal/push/%s
+[%s]-[%s](%d) signaling_wsocket_destroy
+[%s]-[%s](%d) Allocate memory for ice send buffer failed!
+[%s]-[%s](%d) Allocate memory %d for p_send->buf failed!
+[%s]-[%s](%d) generate answer,and candidate:
+sdpMLineIndex
+[%s]-[%s](%d) CLIENT_CONNECTION_ERROR: %s
+[%s]-[%s](%d) established connection, wsi = %p
+[%s]-[%s](%d) %s: CLOSED
+[%s]-[%s](%d) lws_write %s 
+[%s]-[%s](%d) lws_write %d/%d done
+[%s]-[%s](%d) ###no msg 
+[%s]-[%s](%d) [pc:%p %s] try to send :%s
+[%s]-[%s](%d) lws connection may be lost 
+[%s]-[%s](%d) [pc:%p %s] fail to send %d
+push_state
+[%s]-[%s](%d) tv_state: %s, now:%s,ndel: 0x%02x
+[%s]-[%s](%d) ndel: 0x%02x
+[%s]-[%s](%d) bad pc recycle[pc:%p]:from:[%s] nice_agent_err:%d
+iceState
+clientId
+connectedTime
+pushState
+[%s]-[%s](%d) push_state:%s
+[%s]-[%s](%d)  ok send
+LWS_CALLBACK_RECEIVE: len = %lu, first = %d, final = %d, remains = %lu
+[%s]-[%s](%d) len:%ld RX: %s
+[%s]-[%s](%d) server initiated connection close: len = %lu, in = %s
+spam-rx-tx
+                {"action":"join","to":"server","clientCtx":{"device_brand":"creality","os_version":"linux","platform_type":10,"app_version":"%s","sn":"%s","model":"%s"},"token":{"jwtToken":"%s"}}
+connect_client
+callback
+get_cxy_ice
+ERROR: getaddrinfo error: %s
+[%s]-[%s](%d) enter send_h264_thread
+webrtc_main.c
+[%s]-[%s](%d) pc->sending_data = %d,ptr->exit_flag = %d
+[%s]-[%s](%d) ptr->shm_sem is NULL  
+[%s]-[%s](%d) ptr->header_start or ptr->video_start is NULL 
+[%s]-[%s](%d) frame_index = %d,frame_index_old =%d
+[%s]-[%s](%d) error h264_frame is NULL  
+[%s]-[%s](%d) fps: %d
+[%s]-[%s](%d) [cpf]:%s,%d sleep_time is non-positive (%lld), skipping sleep
+[%s]-[%s](%d) get sem fail 
+[%s]-[%s](%d) [pc:%p for %s]End of send video thread
+[%s]-[%s](%d) End of send video thread
+[%s]-[%s](%d) [pc:%p for %s]
+[%s]-[%s](%d) -------tv_state: %s
+[%s]-[%s](%d) Disconnect with browser... Stop streaming
+[%s]-[%s](%d) CONNECTING!!!!!!!!!!!!!!!!!!!!
+[%s]-[%s](%d) CONNECTED!!!!!!!!!!!!!!!!!!!!!
+[%s]-[%s](%d) READY!!!!!!!!!!!!!!!!!!!!!!!!!
+[%s]-[%s](%d) DISCONNECTED!!!!!!!!!!!!!!!!!!
+[%s]-[%s](%d) GATHERING!!!!!!!!!!!!!!!!!!!!!
+sig_websockets
+[%s]-[%s](%d) Create signaling service failed
+[%s]-[%s](%d) Get signal: %s
+[%s]-[%s](%d) ######no pc for %s
+[%s]-[%s](%d) ####22##no pc for %s
+Failed to allocate memory for global_context_t
+/usr/data/creality/onyxp/test.h264
+Cannot open %s
+[%s]-[%s](%d) fps: %.1f
+End of send video thread
+WebRTC Context Information:
+cfg_path: %s
+version: %s
+device_sn: %s
+device_mac: %s
+model_str: %s
+env_num: %s
+shm_tid: %lu
+shm_control: %p
+shm_addr: %p
+shm_fd: %d
+fifo cmd: %d
+fifo token: %s
+shm_flag: %d
+fifo_fd: %d
+epoll_fd: %d
+exit_flag: %d
+webrtc_tid: %lu
+Failed to get WebRTC context.
+[%s]-[%s](%d) Received SIGUSR1: Showing basic debug info...
+[%s]-[%s](%d) Received SIGUSR2: log level...
+[%s]-[%s](%d) log level : %d
+[%s]-[%s](%d) Error: Path or ptr is NULL
+[%s]-[%s](%d) Error: Configuration file %s does not exist
+[%s]-[%s](%d) Failed to open configuration file: %s
+[%s]-[%s](%d) Memory allocation failed
+[%s]-[%s](%d) Failed to parse JSON configuration from file: %s
+get_sn_mac.sh sn
+[%s]-[%s](%d) Failed to get system certified SN.
+[%s]-[%s](%d) System certified SN: %s
+get_sn_mac.sh mac
+[%s]-[%s](%d) Failed to get system certified MAC.
+[%s]-[%s](%d) System certified MAC: %s
+[%s]-[%s](%d) Failed to get model_str from configuration
+[%s]-[%s](%d) Failed to get env_num from configuration
+[%s]-[%s](%d) Failed to get version from configuration
+/usr/data/printer_data/logs/
+[%s,%d]: Usage: %s -c <config_file>
+Option -c with argument: %s
+Error: option -c argument exceeds maximum allowed length (%d).
+%s: Error input opt
+[%s]-[%s](%d) Failed alloc_global_context exiting...
+[%s]-[%s](%d) destory pc[%p] from:%s
+[%s]-[%s](%d) destory pc [%p] thread:%d
+[%s]-[%s](%d) pc[%p] from:%s
+[%s]-[%s](%d) peer_connection_destroy :%d
+[%s]-[%s](%d) peer_connection_destroy end:%d
+[%s]-[%s](%d) ------------------------exit webrtc g_webrtc_data.signaling is NULL----------------
+livestream
+[%s]-[%s](%d) got jwtToken:%s
+[%s]-[%s](%d) set jwtToken:%s
+pullclient
+[%s]-[%s](%d) close session:%s
+[%s]-[%s](%d) close_wrtc_session = %d
+[%s]-[%s](%d) set jwtToken null
+[%s]-[%s](%d) set jwtToken null end
+api.crealitycloud.cn
+api.crealitycloud.com
+admin-pre.crealitycloud.cn
+172.29.99.188
+disconnected
+gathering
+checking
+connected
+completed
+send_h264_thread
+ <!DOCTYPE html> 
+ <html> 
+   <head> 
+     <title>Video On Demand</title> 
+   </head> 
+   <body> 
+     <video style='display:block; margin: 0 auto;' id='remoteVideos'></video> 
+     <script> 
+       var pc = new RTCPeerConnection({ 
+         iceServers: [{urls: 'stun:stun.l.google.com:19302'}] 
+       }); 
+       var log = msg => { console.log(msg); }; 
+       function sendOfferToCall(sdp) { 
+         var xhttp = new XMLHttpRequest(); 
+         xhttp.onreadystatechange = function() { 
+           if (this.readyState == 4 && this.status == 200) { 
+             let res = JSON.parse(atob(this.responseText)); 
+             console.log(res); 
+             if(res.type == 'answer') { 
+               pc.setRemoteDescription(new RTCSessionDescription(res)); 
+             } 
+           } 
+         }; 
+         xhttp.open('POST', '/call/demo'); 
+         xhttp.setRequestHeader('Content-Type', 'plain/text'); 
+         xhttp.send(btoa(JSON.stringify({'type': 'offer', 'sdp': sdp}))); 
+       } 
+       pc.ontrack = function (event) { 
+         var el = document.getElementById('remoteVideos'); 
+         el.srcObject = event.streams[0]; 
+         el.autoplay = true; 
+         el.controls = true; 
+         el.muted = true; 
+       }; 
+       pc.oniceconnectionstatechange = e => log(pc.iceConnectionState); 
+       pc.onicecandidate = event => { 
+         if(event.candidate === null) sendOfferToCall(pc.localDescription.sdp) 
+       }; 
+       pc.addTransceiver('video', {'direction': 'sendrecv'}) 
+       pc.createOffer().then(d => pc.setLocalDescription(d)).catch(log); 
+     </script> 
+   </body> 
+ </html>
+.A[%s]-[%s](%d) Output buffer is not large enough ,json_len = %d,prefix_len =%d,output_size = %d
+webrtc_shm.c
+webRtc=%s
+[%s]-[%s](%d) Invalid pointer passed to webrtc_shm_deinit
+[%s]-[%s](%d) waiting for semaphore...
+/webrtc_sem
+[%s]-[%s](%d) wait shm created!
+/webrtc_shm
+[%s]-[%s](%d) Failed to map shared memory: %s
+[%s]-[%s](%d) Shared memory successfully remapped.
+[%s]-[%s](%d) Failed to unmap shared memory: %s
+[%s]-[%s](%d) Shared memory unmapped successfully.
+[%s]-[%s](%d) Failed to close shared memory file descriptor: %s
+[%s]-[%s](%d) Shared memory file descriptor closed successfully.
+/tmp/uvc_fifo
+[%s]-[%s](%d) Error creating FIFO
+[%s]-[%s](%d) Error opening FIFO
+[%s]-[%s](%d) FIFO opened successfully for reading and writing
+[%s]-[%s](%d) FIFO closed successfully
+[%s]-[%s](%d) Error deleting FIFO
+[%s]-[%s](%d) FIFO deleted successfully
+[%s]-[%s](%d) enter  process_fifo_cmd
+[%s]-[%s](%d) Error creating epoll instance: %s
+[%s]-[%s](%d) Error adding FIFO to epoll: %s
+[%s]-[%s](%d) Error in epoll_wait: %s
+[%s]-[%s](%d) read fifo len = %d
+[%s]-[%s](%d) cmd = 0x%02x
+[%s]-[%s](%d) start cmd = 0x%02x ,sizeof(token)= %d
+[%s]-[%s](%d) start_json: %s
+[%s]-[%s](%d) Failed to initialize shared memory
+[%s]-[%s](%d) stop cmd = 0x%02x
+[%s]-[%s](%d) stop_json: %s
+[%s]-[%s](%d) get stop cmd and break
+[%s]-[%s](%d) error cmd = 0x%02x
+[%s]-[%s](%d) Error reading from FIFO: %s
+[%s]-[%s](%d) exit process_fifo_cmd
+webrtc_shm_mon
+?/proc/self/status
+[%s]-[%s](%d) Failed to open /proc/self/status
+webrtc_memory_monitor.c
+VmRSS: %u kB
+[%s]-[%s](%d) Memory threshold is NULL
+webrtc_memory_monitor
+[%s]-[%s](%d) Memory usage: %lu KB, Threshold: %lu KB
+[%s]-[%s](%d) Memory overflow detected: %lu KB > %lu KB
+[%s]-[%s](%d) Memory allocation failed
+[%s]-[%s](%d) Memory threshold set to: %lu MB
+[%s]-[%s](%d) Failed to create memory monitor thread
+[%s]-[%s](%d) Failed to get CPU usage: %s
+webrtc_cpu_monitor.c
+[%s]-[%s](%d) CPU threshold is NULL
+[%s]-[%s](%d) CPU monitor started, threshold: %.2f%%
+webrtc_cpu_monitor
+[%s]-[%s](%d) CPU usage: %.2f%%, threshold: %.2f%%
+[%s]-[%s](%d) CPU overload detected: %.2f%% > %.2f%%
+[%s]-[%s](%d) Memory allocation failed for CPU threshold
+[%s]-[%s](%d) CPU threshold set to: %.2f%%
+[%s]-[%s](%d) Failed to create CPU monitor thread
+[%s]-[%s](%d) [pc:%p] realloc %d
+h264_packetizer.c
+120.27.143.31
+GCC: (Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58) 7.2.0
+/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/glibc-2017.11-32-mips-linux-gnu-i686-pc-linux-gnu/default/csu/start.o
+webrtc_main.c
+g_CrLogBuff
+__func__.46662
+timestamp.46645
+frame_count1.46657
+time_start1.46658
+on_iceconnectionstatechange
+state_name
+on_icecandidate
+g_webrtc_data
+signaling_option
+hosts_list
+release_pc_session.part.2
+close_wrtc_session.part.3
+timestamp.46626
+frame_count1.46633
+time_start1.46634
+usr_signal_handler
+__func__.46734
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.6546
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+dtls_transport.c
+media_stream.c
+nice_agent_bio.c
+nice_agent_bio_ctrl
+CSWTCH.8
+nice_agent_bio_create
+nice_agent_bio_free
+nice_agent_bio_write
+nice_agent_bio_methods
+peer_connection.c
+peer_connection_component_state_chanaged_cb
+peer_connection_new_selected_pair_full_cb
+peer_connection_candidate_gathering_done_cb
+CANDIDATE_TYPE_NAME
+TRANSPORT_TYPE_NAME
+STUN_ADDR
+TURN_USERNAME
+TURN_PASSWORD
+STUN_PORT
+peer_connection_ice_recv_cb
+rtcp_packet.c
+rtp_packet.c
+session_description.c
+signaling.c
+signaling_http.c
+signaling_observer.c
+signaling_websockets.c
+update_icesig
+connect_client
+m_ws_serv
+__func__.52124
+HAL_GetDeviceName.part.0
+_device_name
+callback_http
+completed
+count_clients
+client_wsi
+http_protocols
+__func__.52107
+GetRegisterInfoFromFile.part.1
+globalsn
+globalmodel
+interrupted
+m_fir_ver
+nclients
+g_tmp_buf
+g_tmp_buf_idx
+m_signaling_wsocket
+callback
+__func__.52176
+last_tv.52357
+webrtc_shm.c
+webrtc_sem.c
+webrtc_cmd.c
+webrtc_memory_monitor.c
+webrtc_cpu_monitor.c
+get_cpu_usage.part.1
+log_counter.4696
+h264_packetizer.c
+h264_packetizer_free
+h264_packetizer_packet
+h264_packetizer_alloc
+h264_parser.c
+elf-init.c
+__FRAME_END__
+__init_array_end
+__init_array_start
+_DYNAMIC
+_PROCEDURE_LINKAGE_TABLE_
+g_mutex_lock
+lws_client_connect_via_info
+webrtc_ipcsem_get
+g_slist_free_full
+wsocket_init
+SSL_CTX_free@@OPENSSL_1_1_0
+media_stream_add_track
+cJSON_free
+peer_connection_nice_agent_setup
+ERR_reason_error_string@@OPENSSL_1_1_0
+show_webrtc_context
+BN_new@@OPENSSL_1_1_0
+__libc_start_main@@GLIBC_2.0
+epoll_ctl@@GLIBC_2.3.2
+mkfifo@@GLIBC_2.0
+cJSON_IsObject
+RSA_new@@OPENSSL_1_1_0
+peer_connection_send_rtcp_pil
+BIO_new@@OPENSSL_1_1_0
+peer_connection_create_answer
+__isoc99_sscanf@@GLIBC_2.7
+nice_agent_gather_candidates
+EVP_PKEY_free@@OPENSSL_1_1_0
+cJSON_CreateObject
+X509_getm_notAfter@@OPENSSL_1_1_0
+get_cpu_time_v1
+dtls_transport_encrypt_rctp_packet
+lws_callback_on_writable
+signaling_send_answer_to_call
+__TMC_END__
+BIO_meth_set_destroy@@OPENSSL_1_1_0
+nice_agent_get_local_credentials
+_ITM_deregisterTMCloneTable
+sigemptyset@@GLIBC_2.0
+srtp_unprotect_rtcp
+cJSON_Parse
+free_webrtc_context
+dtls_transport_destroy
+g_slist_nth
+abort@@GLIBC_2.0
+send_h264_file
+getsessioncount
+cJSON_GetObjectItem
+__libc_csu_fini
+signaling_ws_thd
+m_join_s_pad
+pthread_mutex_lock@@GLIBC_2.0
+dtls_transport_create
+EVP_sha1@@OPENSSL_1_1_0
+SSL_set_options@@OPENSSL_1_1_0
+webrtc_ipcsem_nowait
+do_lock_timer_safety
+g_slist_length
+SSL_new@@OPENSSL_1_1_0
+g_mutex_unlock
+nice_agent_set_remote_candidates
+cJSON_GetArrayItem
+SSL_CTX_use_certificate@@OPENSSL_1_1_0
+ERR_error_string_n@@OPENSSL_1_1_0
+close_wrtc_session
+get_memory_usage
+lws_write
+webrtc_ipcsem_init
+_DYNAMIC_LINKING
+g_snprintf
+g_main_loop_new
+close@@GLIBC_2.0
+g_signal_connect_data
+BIO_set_shutdown@@OPENSSL_1_1_0
+nice_address_to_string
+memcpy@@GLIBC_2.0
+memmove@@GLIBC_2.0
+cJSON_AddArrayToObject
+strncpy@@GLIBC_2.0
+dtls_transport_get_fingerprint
+signaling_create
+cJSON_ParseWithOpts
+SSL_read@@OPENSSL_1_1_0
+signaling_observer_notify_event
+realloc@@GLIBC_2.0
+h264_frame_new
+g_main_loop_get_context
+peer_connection_add_stream
+app_webrtc_notify
+HAL_GetDeviceName
+destroy_ice_send_buf
+lws_create_context
+peer_connection_get_rtpmap
+X509_gmtime_adj@@OPENSSL_1_1_0
+nice_agent_bio_init
+fgets@@GLIBC_2.0
+__data_start
+nice_agent_send
+access@@GLIBC_2.0
+open@@GLIBC_2.0
+__bss_start
+get_cpu_usage
+usleep@@GLIBC_2.0
+create_ice_send_buf
+CrLogClose
+pthread_mutex_init@@GLIBC_2.0
+unlink@@GLIBC_2.0
+SetLogLevel
+session_description_append_newline
+session_description_append
+srtp_create
+peer_connection_on_connected
+get_cxy_ice
+gettimeofday@@GLIBC_2.0
+X509_STORE_CTX_get_error@@OPENSSL_1_1_0
+start_memory_monitor
+SSL_export_keying_material@@OPENSSL_1_1_0
+peer_connection_create
+lws_service
+cJSON_Delete
+strsignal@@GLIBC_2.0
+BIO_ctrl@@OPENSSL_1_1_0
+peer_connection_on_receiver_packet_loss
+X509_get_subject_name@@OPENSSL_1_1_0
+signaling_dispatch
+ftell@@GLIBC_2.0
+getopt@@GLIBC_2.0
+signaling_on_call_event
+EC_KEY_new_by_curve_name@@OPENSSL_1_1_0
+start_cpu_monitor
+BIO_meth_set_write@@OPENSSL_1_1_0
+fclose@@GLIBC_2.2
+nice_address_set_port
+BIO_set_data@@OPENSSL_1_1_0
+pthread_join@@GLIBC_2.0
+fwrite@@GLIBC_2.0
+signaling_wsocket_dispatch
+__gmon_start__
+log_exit
+inet_ntop@@GLIBC_2.0
+media_stream_free
+SSL_do_handshake@@OPENSSL_1_1_0
+webrtc_shm_deinit
+pthread_cond_init@@GLIBC_2.3.2
+peer_connection_set_remote_description
+mmap@@GLIBC_2.0
+dtls_transport_do_handshake
+GetLogLevel
+utils_get_ipv4addr
+get_cxy_iceserver_infor
+log_set_level
+fprintf@@GLIBC_2.0
+webrtc_ipcsem_timewait
+BIO_meth_set_create@@OPENSSL_1_1_0
+lws_http_is_redirected_to_get
+SSL_CTX_set_verify@@OPENSSL_1_1_0
+get_ready_pc
+SSL_set_bio@@OPENSSL_1_1_0
+strlen@@GLIBC_2.0
+strstr@@GLIBC_2.0
+sigaction@@GLIBC_2.0
+getrusage@@GLIBC_2.0
+RSA_generate_key_ex@@OPENSSL_1_1_0
+peer_connection_get_ssrc
+getaddrinfo@@GLIBC_2.0
+nice_agent_attach_recv
+SSL_CTX_new@@OPENSSL_1_1_0
+lws_cancel_service
+epoll_create1@@GLIBC_2.9
+srtp_init
+webrtc_ipcsem_del
+EVP_PKEY_assign@@OPENSSL_1_1_0
+lws_http_client_http_response
+pthread_cond_wait@@GLIBC_2.3.2
+X509_sign@@OPENSSL_1_1_0
+sem_wait@@GLIBC_2.2
+srtp_unprotect
+SSL_free@@OPENSSL_1_1_0
+srtp_crypto_policy_set_rtp_default
+lws_get_context
+peer_connection_add_transceiver
+cJSON_PrintUnformatted
+signaling_shutdown
+g_strsplit
+BN_free@@OPENSSL_1_1_0
+peer_connection_enable_mdns
+EVP_sha256@@OPENSSL_1_1_0
+h264_packetizer_create
+nice_agent_set_relay_info
+SSL_get_peer_certificate@@OPENSSL_1_1_0
+epoll_wait@@GLIBC_2.3.2
+munmap@@GLIBC_2.0
+HAL_getHost
+stpcpy@@GLIBC_2.0
+srtp_protect_rtcp
+SSL_get_error@@OPENSSL_1_1_0
+_GLOBAL_OFFSET_TABLE_
+HAL_get_envid
+GetRegisterInfoFromFile
+dtls_transport_get_srtp_initialized
+webrtc_fifo_deinit
+signaling_wsocket_set_answer
+BN_set_word@@OPENSSL_1_1_0
+clock_gettime@@GLIBC_2.2
+strtoul@@GLIBC_2.0
+SSL_CTX_ctrl@@OPENSSL_1_1_0
+cxy_signal_start
+cJSON_AddNumberToObject
+strcmp@@GLIBC_2.0
+X509_NAME_add_entry_by_txt@@OPENSSL_1_1_0
+lws_set_log_level
+srtp_crypto_policy_set_rtcp_default
+release_pc_session
+SSL_set_accept_state@@OPENSSL_1_1_0
+sem_post@@GLIBC_2.2
+umask@@GLIBC_2.0
+EC_KEY_free@@OPENSSL_1_1_0
+memset@@GLIBC_2.0
+sem_trywait@@GLIBC_2.2
+g_slist_free
+nice_agent_set_remote_credentials
+CrLogOpen
+pc_management
+BIO_get_data@@OPENSSL_1_1_0
+peer_connection_oniceconnectionstatechange
+puts@@GLIBC_2.0
+dtls_transport_init
+session_description_add_codec
+pthread_cond_signal@@GLIBC_2.3.2
+strchr@@GLIBC_2.0
+peer_connection_ontrack
+cJSON_Print
+peer_connection_set_remote_candidate
+iceserver_rcv
+lws_add_http_header_content_length
+__errno_location@@GLIBC_2.0
+nice_agent_add_stream
+dtls_transport_decrypt_rtp_packet
+alloc_webrtc_context
+stderr@@GLIBC_2.0
+SSL_CTX_use_PrivateKey@@OPENSSL_1_1_0
+fread@@GLIBC_2.0
+__libc_csu_init
+webrtc_shm_cmd_process
+webrtc_cmd
+webrtc_generate_stop_json
+vsnprintf@@GLIBC_2.0
+webrtc_context_ptr
+process_fifo_cmd
+ERR_get_error@@OPENSSL_1_1_0
+BIO_meth_set_ctrl@@OPENSSL_1_1_0
+get_ver_info
+BIO_meth_new@@OPENSSL_1_1_0
+cJSON_IsNumber
+strtol@@GLIBC_2.0
+nice_agent_set_stream_name
+optarg@@GLIBC_2.0
+BIO_s_mem@@OPENSSL_1_1_0
+nice_agent_new
+cb_dtls_verify
+free@@GLIBC_2.0
+inet_pton@@GLIBC_2.0
+sem_timedwait@@GLIBC_2.2
+peer_connection_onicecandidate
+popen@@GLIBC_2.2
+shm_open@@GLIBC_2.2
+signaling_websockets
+session_description_get_content
+webrtc_ipcsem_post
+SSL_ctrl@@OPENSSL_1_1_0
+lws_set_timer_usecs
+dtls_transport_decrypt_rtcp_packet
+dtls_transport_incomming_msg
+calloc@@GLIBC_2.0
+nice_agent_bio_new
+destory_wrtc_pc_session
+webrtc_conf_init
+rtp_packet_validate
+pthread_detach@@GLIBC_2.0
+g_main_loop_run
+log_get_level
+session_description_update_mdns_of_candidate
+peer_connection_send_rtp_packet
+X509_getm_notBefore@@OPENSSL_1_1_0
+signaling_destroy
+set_stun_server
+ctime@@GLIBC_2.0
+webrtc_shm_sem_init
+pthread_mutex_unlock@@GLIBC_2.0
+session_description_parse_rtpmap
+rtcp_packet_get_fir
+pthread_create@@GLIBC_2.2
+srtp_dealloc
+lws_add_http_header_by_token
+nice_candidate_new
+BIO_write@@OPENSSL_1_1_0
+webrtc_log_init
+lwsl_hexdump_level
+session_description_find_ssrc
+gai_strerror@@GLIBC_2.2
+X509_set_issuer_name@@OPENSSL_1_1_0
+webrtc_shm_sem_deinit
+lws_callback_http_dummy
+strcpy@@GLIBC_2.0
+webrtc_log_deinit
+cJSON_AddItemToObject
+X509_set_version@@OPENSSL_1_1_0
+peer_connection_destroy
+rtcp_packet_validate
+h264_packetizer_send
+pthread_self@@GLIBC_2.0
+h264_frame_free
+srtp_protect
+nice_address_set_from_string
+signaling_wsocket_create
+pthread_exit@@GLIBC_2.0
+session_description_destroy
+X509_new@@OPENSSL_1_1_0
+CrLogLock
+srandom@@GLIBC_2.0
+g_ice_close_state_
+h264_packetizer_destroy
+m_ice_sig
+CrLogUnLock
+dtls_transport_encrypt_rtp_packet
+cJSON_IsString
+malloc@@GLIBC_2.0
+pear_wrtc_start
+signaling_wsocket_call_request
+lws_client_http_body_pending
+_lws_log
+X509_digest@@OPENSSL_1_1_0
+signaling_wsocket_destroy
+nice_agent_get_local_candidates
+rtp_payload_encode_input
+send_h264_thread
+DTLS_method@@OPENSSL_1_1_0
+g_object_unref
+_ITM_registerTMCloneTable
+add_ice_send_buf
+__dso_handle
+strdup@@GLIBC_2.0
+stdout@@GLIBC_2.0
+get_webrtc_context
+fopen@@GLIBC_2.2
+EVP_PKEY_new@@OPENSSL_1_1_0
+lws_is_final_fragment
+get_now_us
+rtcp_packet_parse_rr
+sem_open@@GLIBC_2.2
+utils_is_valid_ip_address
+sem_close@@GLIBC_2.2
+cJSON_GetArraySize
+lws_http_client_read
+webrtc_signal_init
+X509_free@@OPENSSL_1_1_0
+rtp_payload_encode_create
+nice_agent_parse_remote_stream_sdp
+h264_parser_get_next_frame
+cJSON_IsArray
+peer_connection_incomming_rtcp
+SSL_CTX_check_private_key@@OPENSSL_1_1_0
+pclose@@GLIBC_2.2
+get_total_time
+webrtc_generate_start_json
+cJSON_AddItemToArray
+signaling_wsocket_shutdown
+g_slist_prepend
+generate_self_certificate
+SSL_is_init_finished@@OPENSSL_1_1_0
+media_stream_new
+X509_set_pubkey@@OPENSSL_1_1_0
+get_cxy_ice_thd
+CrLogWrite
+get_webrtc_data
+g_object_set
+_IO_stdin_used
+lws_is_first_fragment
+index_html
+BIO_set_init@@OPENSSL_1_1_0
+g_cond_signal
+session_description_create
+webrtc_shm_init
+nice_address_get_port
+pthread_setname_np@@GLIBC_2.12
+webrtc_shm_monitor
+webrtc_fifo_init
+rtp_payload_encode_destroy
+lws_remaining_packet_payload
+update_ice_server
+HAL_getPort
+__RLD_MAP
+cJSON_AddStringToObject
+fseek@@GLIBC_2.0
+cx_hosts_port
+g_strfreev
+lws_context_destroy
+rtcp_packet_get_pli
+webrtc_ipcsem_wait
+strerror@@GLIBC_2.0
+nice_candidate_free
+SSL_CTX_set_tlsext_use_srtp@@OPENSSL_1_1_0
+dtls_transport_validate
+.shstrtab
+.note.ABI-tag
+.MIPS.abiflags
+.reginfo
+.dynamic
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.eh_frame
+.init_array
+.fini_array
+.got.plt
+.rld_map
+.comment
+.debug_frame
+.gnu.attributes
+.mdebug.abi32

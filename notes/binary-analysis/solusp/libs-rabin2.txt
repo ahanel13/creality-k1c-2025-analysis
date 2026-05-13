@@ -1,0 +1,26 @@
+[Linked libraries]
+libhardware2.so
+libutils2.so
+librt.so.1
+libavformat.so.58
+libavcodec.so.58
+libavutil.so.56
+libswscale.so.5
+libjsoncpp.so.23
+libwebsockets.so.19
+libpthread.so.0
+libcrypto.so.1.1
+libudev.so.1
+libopencv_videoio.so.408
+libopencv_imgcodecs.so.408
+libopencv_imgproc.so.408
+libopencv_core.so.408
+libAIInfer.so
+libzbar.so.0
+libiconv.so.2
+libstdc++.so.6
+libm.so.6
+libgcc_s.so.1
+libc.so.6
+
+23 libraries

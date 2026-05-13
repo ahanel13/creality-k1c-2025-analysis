@@ -1,0 +1,1492 @@
+[Symbols]
+
+nth  paddr      vaddr      bind   type   size lib name
+――――――――――――――――――――――――――――――――――――――――――――――――――――――
+4    0x00028f7c 0x00428f7c WEAK   FUNC   68       __gnu_cxx::__enable_if<std::__is_char<char>::__value, bool>::__type std::operator==<char>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+6    0x0005a024 0x0045a024 GLOBAL FUNC   164      DetileRow_C
+8    0x00045380 0x00445380 GLOBAL FUNC   136      ScaleCols_C
+13   0x0005c06c 0x0045c06c GLOBAL FUNC   116      ByteToFloatRow_C
+14   0x000457a4 0x004457a4 GLOBAL FUNC   272      ScaleFilterCols_16_C
+20   ---------- 0x00481310 GLOBAL NOTYPE 0        _fbss
+22   0x00045dd8 0x00445dd8 GLOBAL FUNC   200      ScaleRowDown38_2_Box_C
+23   0x00047a40 0x00447a40 GLOBAL FUNC   380      ScalePlaneVertical_16
+24   0x000544b8 0x004544b8 GLOBAL FUNC   100      ARGBGrayRow_C
+25   0x00045bf8 0x00445bf8 GLOBAL FUNC   480      ScaleRowDown38_3_Box_16_C
+27   0x0005cf8c 0x0045cf8c GLOBAL FUNC   200      ScaleUVRowUp2_Linear_Any_C
+29   0x000446d0 0x004446d0 GLOBAL FUNC   96       ScaleRowDown4_C
+31   0x0001f6d4 0x0041f6d4 WEAK   FUNC   356      void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&)
+32   0x00043fa4 0x00443fa4 GLOBAL FUNC   144      ScaleRowDown2Linear_16_C
+33   0x00044d24 0x00444d24 GLOBAL FUNC   228      ScaleRowDown34_0_Box_C
+34   0x00044ce8 0x00444ce8 GLOBAL FUNC   60       ScaleRowDown34_16_C
+35   0x000443a8 0x004443a8 GLOBAL FUNC   212      ScaleRowDown2Box_16_C
+42   0x0005c2b8 0x0045c2b8 GLOBAL FUNC   96       ARGBExtractAlphaRow_C
+44   0x00047364 0x00447364 GLOBAL FUNC   288      ScaleUVCols64_C
+45   0x00049ec8 0x00449ec8 GLOBAL FUNC   40       CopyPlane_16
+47   0x00045550 0x00445550 GLOBAL FUNC   220      ScaleFilterCols_C
+49   0x000267a0 0x004267a0 WEAK   FUNC   124      std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+50   0x0005ce00 0x0045ce00 GLOBAL FUNC   396      ScaleRowUp2_Bilinear_16_Any_C
+52   0x0001e9a0 0x0041e9a0 WEAK   FUNC   324      bool JsonAccessor::getValue<int>(int&) const
+53   0x00045fe0 0x00445fe0 GLOBAL FUNC   120      ScaleAddRow_C
+56   ---------- 0x00000001 GLOBAL SECT   0        _DYNAMIC_LINKING
+58   0x00028990 0x00428990 WEAK   FUNC   328      void std::vector<unsigned int, std::allocator<unsigned int> >::_M_realloc_insert<unsigned int const&>(__gnu_cxx::__normal_iterator<unsigned int*, std::vector<unsigned int, std::allocator<unsigned int> > >, unsigned int const&)
+61   0x00046c4c 0x00446c4c GLOBAL FUNC   80       ScaleUVRowDown2Linear_C
+64   0x00046c1c 0x00446c1c GLOBAL FUNC   48       ScaleUVRowDown2_C
+66   0x00045aa4 0x00445aa4 GLOBAL FUNC   60       ScaleRowDown38_16_C
+70   0x0005c5dc 0x0045c5dc GLOBAL FUNC   188      GaussRow_F32_C
+71   ---------- 0x00481310 WEAK   OBJ    12       typeinfo for Json::Exception
+76   0x00047484 0x00447484 GLOBAL FUNC   92       ScaleUVColsUp2_C
+79   0x00044104 0x00444104 GLOBAL FUNC   236      ScaleRowDown2Linear_16To8_Odd_C
+80   0x00047e20 0x00447e20 GLOBAL FUNC   72       FixedDiv_C
+81   0x00059f90 0x00459f90 GLOBAL FUNC   148      MergeUVRow_C
+82   ---------- 0x0048131c WEAK   OBJ    64       vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
+85   ---------- 0x00481310 GLOBAL NOTYPE 0        __bss_start
+95   0x0005a730 0x0045a730 GLOBAL FUNC   72       MergeRGBRow_C
+97   0x00051d00 0x00451d00 GLOBAL FUNC   156      AR64ShuffleRow_C
+100  0x00044e08 0x00444e08 GLOBAL FUNC   252      ScaleRowDown34_0_Box_16_C
+101  0x0001e844 0x0041e844 WEAK   FUNC   88       std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+103  0x00030aec 0x00430aec WEAK   FUNC   864      void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+106  0x0005bfcc 0x0045bfcc GLOBAL FUNC   160      HalfFloatRow_C
+107  0x0005a6e8 0x0045a6e8 GLOBAL FUNC   72       SplitRGBRow_C
+108  0x0005a0c8 0x0045a0c8 GLOBAL FUNC   236      DetileRow_16_C
+114  0x0000b494 0x0040b494 WEAK   FUNC   216      std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+118  ---------- 0x0048135c WEAK   OBJ    44       vtable for __cxxabiv1::__class_type_info
+119  ---------- 0x00481388 WEAK   OBJ    40       vtable for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+122  0x0005af00 0x0045af00 GLOBAL FUNC   108      YUY2ToYRow_C
+127  0x00047100 0x00447100 GLOBAL FUNC   464      ScaleUVRowUp2_Bilinear_16_C
+128  0x00054824 0x00454824 GLOBAL FUNC   88       RGBColorTableRow_C
+129  0x00047ec8 0x00447ec8 GLOBAL FUNC   804      ScaleSlope
+131  0x00047678 0x00447678 GLOBAL FUNC   604      ScaleUVFilterCols64_C
+133  ---------- 0x00481880 GLOBAL NOTYPE 0        _end
+137  0x0005ab38 0x0045ab38 GLOBAL FUNC   64       SplitXRGBRow_C
+140  0x00054cc8 0x00454cc8 GLOBAL FUNC   76       SobelXYRow_C
+144  0x00061038 0x00461038 WEAK   OBJ    12       typeinfo for Json::LogicError
+146  0x00046e08 0x00446e08 GLOBAL FUNC   152      ScaleUVRowUp2_Linear_C
+150  ---------- 0x004813b0 GLOBAL OBJ    140      std::cout
+153  0x00045ea0 0x00445ea0 GLOBAL FUNC   320      ScaleRowDown38_2_Box_16_C
+155  0x0004cd50 0x0044cd50 GLOBAL FUNC   392      BlendPlane
+156  0x000442c0 0x004442c0 GLOBAL FUNC   232      ScaleRowDown2Box_Odd_C
+159  0x0004ed04 0x0044ed04 GLOBAL FUNC   332      InterpolatePlane
+161  0x00043e50 0x00443e50 GLOBAL FUNC   196      ScaleRowDown2_16To8_Odd_C
+163  0x0005adb8 0x0045adb8 GLOBAL FUNC   52       ARGBSetRow_C
+171  0x00045a64 0x00445a64 GLOBAL FUNC   64       ScaleRowDown38_C
+172  0x0005fec0 0x0045fec0 WEAK   OBJ    8        typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
+174  0x0005a818 0x0045a818 GLOBAL FUNC   164      MergeXR30Row_C
+177  0x000548ec 0x004548ec GLOBAL FUNC   188      ARGBShadeRow_C
+180  0x00044730 0x00444730 GLOBAL FUNC   96       ScaleRowDown4_16_C
+181  0x00025710 0x00425710 WEAK   FUNC   8        std::ctype<char>::do_narrow(char, char) const
+182  0x0004447c 0x0044447c GLOBAL FUNC   276      ScaleRowDown2Box_16To8_C
+183  ---------- 0x0048143c WEAK   OBJ    40       vtable for std::basic_ifstream<char, std::char_traits<char> >
+185  0x0005a2e4 0x0045a2e4 GLOBAL FUNC   316      DetileToYUY2_C
+190  0x000511dc 0x004511dc GLOBAL FUNC   60       RAWToRGB24Row_C
+193  0x0001eae4 0x0041eae4 WEAK   FUNC   112      std::vector<cv::Mat, std::allocator<cv::Mat> >::~vector()
+195  0x0005c698 0x0045c698 GLOBAL FUNC   200      GaussCol_F32_C
+199  0x00046058 0x00446058 GLOBAL FUNC   120      ScaleAddRow_16_C
+200  0x0005cbd0 0x0045cbd0 GLOBAL FUNC   208      ScaleRowUp2_Linear_16_Any_C
+204  0x00026f7c 0x00426f7c WEAK   FUNC   408      void std::vector<std::pair<unsigned int, unsigned int>, std::allocator<std::pair<unsigned int, unsigned int> > >::_M_realloc_insert<std::pair<unsigned int, unsigned int> >(__gnu_cxx::__normal_iterator<std::pair<unsigned int, unsigned int>*, std::vector<std::pair<unsigned int, unsigned int>, std::allocator<std::pair<unsigned int, unsigned int> > > >, std::pair<unsigned int, unsigned int>&&)
+208  0x0005a7c8 0x0045a7c8 GLOBAL FUNC   80       MergeARGBRow_C
+210  0x0005ac80 0x0045ac80 GLOBAL FUNC   48       DivideRow_16_C
+211  0x00044ca8 0x00444ca8 GLOBAL FUNC   64       ScaleRowDown34_C
+216  0x0001e29c 0x0041e29c WEAK   FUNC   228      std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, JsonValue>::~pair()
+221  0x000549a8 0x004549a8 GLOBAL FUNC   132      ARGBMultiplyRow_C
+223  ---------- 0x00481310 GLOBAL NOTYPE 0        _edata
+224  0x00047068 0x00447068 GLOBAL FUNC   152      ScaleUVRowUp2_Linear_16_C
+228  0x0005afd4 0x0045afd4 GLOBAL FUNC   60       UYVYToUV422Row_C
+230  0x00046ea0 0x00446ea0 GLOBAL FUNC   456      ScaleUVRowUp2_Bilinear_C
+231  0x0001eed4 0x0041eed4 WEAK   FUNC   804      void std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_realloc_insert<std::vector<int, std::allocator<int> > const&>(__gnu_cxx::__normal_iterator<std::vector<int, std::allocator<int> >*, std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > > >, std::vector<int, std::allocator<int> > const&)
+234  0x0001eb54 0x0041eb54 WEAK   FUNC   688      std::vector<cv::Mat, std::allocator<cv::Mat> >::operator=(std::vector<cv::Mat, std::allocator<cv::Mat> > const&)
+236  0x000449a4 0x004449a4 GLOBAL FUNC   772      ScaleRowDown4Box_16_C
+238  0x0005d12c 0x0045d12c GLOBAL FUNC   496      ScaleUVRowUp2_Bilinear_Any_C
+239  0x000454f4 0x004454f4 GLOBAL FUNC   92       ScaleColsUp2_16_C
+241  0x000441f0 0x004441f0 GLOBAL FUNC   208      ScaleRowDown2Box_C
+242  ---------- 0x00481464 WEAK   OBJ    40       vtable for std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+243  0x000545f8 0x004545f8 GLOBAL FUNC   448      ARGBColorMatrixRow_C
+245  0x0005a1b4 0x0045a1b4 GLOBAL FUNC   304      DetileSplitUVRow_C
+249  0x0001f1f8 0x0041f1f8 WEAK   FUNC   668      void std::vector<cv::Mat, std::allocator<cv::Mat> >::_M_realloc_insert<cv::Mat const&>(__gnu_cxx::__normal_iterator<cv::Mat*, std::vector<cv::Mat, std::allocator<cv::Mat> > >, cv::Mat const&)
+250  0x0000a90c 0x0040a90c WEAK   FUNC   2364     JsonValue::~JsonValue()
+253  0x00059e48 0x00459e48 GLOBAL FUNC   104      ARGBMirrorRow_C
+256  ---------- 0x0048148c WEAK   OBJ    60       vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+257  0x00045408 0x00445408 GLOBAL FUNC   148      ScaleCols_16_C
+259  0x0005abc0 0x0045abc0 GLOBAL FUNC   72       MergeUVRow_16_C
+260  0x00059cb4 0x00459cb4 GLOBAL FUNC   100      MirrorRow_C
+262  0x0005ac08 0x0045ac08 GLOBAL FUNC   72       SplitUVRow_16_C
+265  ---------- 0x004814c8 WEAK   OBJ    16       VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+266  0x0004e030 0x0044e030 GLOBAL FUNC   328      ARGBColorMatrix
+267  0x0005acb0 0x0045acb0 GLOBAL FUNC   60       Convert16To8Row_C
+268  0x0005aab4 0x0045aab4 GLOBAL FUNC   132      MergeXRGB16To8Row_C
+269  0x0005c318 0x0045c318 GLOBAL FUNC   96       ARGBCopyYToAlphaRow_C
+273  0x000481f0 0x004481f0 GLOBAL FUNC   3256     UVScale
+275  0x0001e29c 0x0041e29c WEAK   FUNC   228      std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, JsonValue>::~pair()
+276  0x0005b078 0x0045b078 GLOBAL FUNC   496      ARGBBlendRow_C
+277  0x0005c24c 0x0045c24c GLOBAL FUNC   108      ARGBCopyAlphaRow_C
+280  0x00054b54 0x00454b54 GLOBAL FUNC   120      SobelXRow_C
+282  0x0005487c 0x0045487c GLOBAL FUNC   112      ARGBQuantizeRow_C
+283  0x000458b4 0x004458b4 GLOBAL FUNC   432      ScaleFilterCols64_16_C
+285  0x0001e644 0x0041e644 WEAK   FUNC   140      std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > __gnu_cxx::__to_xstring<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char>(int (*)(char*, unsigned int, char const*, void*), unsigned int, char const*, ...)
+290  0x0005ab78 0x0045ab78 GLOBAL FUNC   72       MergeXRGBRow_C
+291  0x0005d054 0x0045d054 GLOBAL FUNC   216      ScaleUVRowUp2_Linear_16_Any_C
+294  0x00011d10 0x00411d10 WEAK   FUNC   8        std::ctype<char>::do_widen(char) const
+297  0x00046d88 0x00446d88 GLOBAL FUNC   128      ScaleUVRowDownEvenBox_C
+301  0x0005aec4 0x0045aec4 GLOBAL FUNC   60       YUY2ToUV422Row_C
+302  0x000450b8 0x004450b8 GLOBAL FUNC   92       ScaleRowUp2_Linear_C
+303  0x00043d50 0x00443d50 GLOBAL FUNC   96       ScaleRowDown2_16_C
+305  0x0005ad24 0x0045ad24 GLOBAL FUNC   56       Convert8To8Row_C
+310  0x0005c9f4 0x0045c9f4 GLOBAL FUNC   272      HalfMergeUVRow_C
+311  0x00040178 0x00440178 GLOBAL FUNC   4032     ScalePlane
+312  0x000478d4 0x004478d4 GLOBAL FUNC   364      ScalePlaneVertical
+315  0x0003cb2c 0x0043cb2c WEAK   FUNC   84       std::unique_lock<std::mutex>::unlock()
+318  0x00070d30 0x00480d30 GLOBAL NOTYPE 0        _fdata
+320  0x0005b4fc 0x0045b4fc GLOBAL FUNC   132      ComputeCumulativeSumRow_C
+322  0x0005c9c4 0x0045c9c4 GLOBAL FUNC   48       SwapUVRow_C
+325  0x0004562c 0x0044562c GLOBAL FUNC   376      ScaleFilterCols64_C
+326  0x0004c674 0x0044c674 GLOBAL FUNC   196      MirrorUVPlane
+327  0x00059d80 0x00459d80 GLOBAL FUNC   64       MirrorUVRow_C
+329  0x0005ae58 0x0045ae58 GLOBAL FUNC   108      YUY2ToNVUVRow_C
+334  0x0005b464 0x0045b464 GLOBAL FUNC   152      ARGBUnattenuateRow_C
+335  0x00054bcc 0x00454bcc GLOBAL FUNC   112      SobelYRow_C
+336  0x0005a8bc 0x0045a8bc GLOBAL FUNC   188      MergeAR64Row_C
+338  0x00045114 0x00445114 GLOBAL FUNC   256      ScaleRowUp2_Bilinear_C
+339  0x000547b8 0x004547b8 GLOBAL FUNC   108      ARGBColorTableRow_C
+340  0x00008810 0x00408810 GLOBAL NOTYPE 0        _ftext
+342  0x0004d704 0x0044d704 GLOBAL FUNC   236      SetPlane
+344  0x0001e7f4 0x0041e7f4 WEAK   FUNC   80       std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+345  0x0000a90c 0x0040a90c WEAK   FUNC   2364     JsonValue::~JsonValue()
+346  0x0005cca0 0x0045cca0 GLOBAL FUNC   352      ScaleRowUp2_Bilinear_Any_C
+347  0x0001ff48 0x0041ff48 WEAK   FUNC   984      JsonAccessor::operator[](std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+350  0x0001f494 0x0041f494 WEAK   FUNC   80       std::vector<cv::Mat, std::allocator<cv::Mat> >::push_back(cv::Mat const&)
+351  ---------- 0x004814d8 WEAK   OBJ    44       vtable for __cxxabiv1::__si_class_type_info
+352  ---------- 0x00481504 WEAK   OBJ    32       typeinfo for std::ctype<char>
+355  ---------- 0x00481524 WEAK   OBJ    8        typeinfo for std::thread::_State
+357  0x0005ff20 0x0045ff20 WEAK   OBJ    8        typeinfo for std::_Sp_make_shared_tag
+358  0x000421d0 0x004421d0 GLOBAL FUNC   728      ScalePlane_12
+361  0x00054a2c 0x00454a2c GLOBAL FUNC   148      ARGBAddRow_C
+368  0x0005451c 0x0045451c GLOBAL FUNC   220      ARGBSepiaRow_C
+372  0x000424a8 0x004424a8 GLOBAL FUNC   636      I420Scale
+373  0x0005ff08 0x0045ff08 WEAK   OBJ    24       typeinfo name for std::_Sp_make_shared_tag
+380  ---------- 0x0048152c WEAK   OBJ    64       vtable for std::basic_streambuf<char, std::char_traits<char> >
+381  0x0005baac 0x0045baac GLOBAL FUNC   204      InterpolateRow_16_C
+382  0x0005b344 0x0045b344 GLOBAL FUNC   288      ARGBAttenuateRow_C
+386  0x00044034 0x00444034 GLOBAL FUNC   208      ScaleRowDown2Linear_16To8_C
+391  0x0005fe90 0x0045fe90 WEAK   OBJ    47       typeinfo name for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
+392  0x00049da8 0x00449da8 GLOBAL FUNC   288      CopyPlane
+394  0x00046c9c 0x00446c9c GLOBAL FUNC   120      ScaleUVRowDown2Box_C
+396  0x0005b9f0 0x0045b9f0 GLOBAL FUNC   188      InterpolateRow_C
+397  0x0005ada0 0x0045ada0 GLOBAL FUNC   24       SetRow_C
+398  0x0004c5b0 0x0044c5b0 GLOBAL FUNC   196      MirrorPlane
+399  ---------- 0x0048156c WEAK   OBJ    12       typeinfo for std::regex_error
+401  0x00044f04 0x00444f04 GLOBAL FUNC   216      ScaleRowDown34_1_Box_C
+403  0x0005be20 0x0045be20 GLOBAL FUNC   428      ARGBPolynomialRow_C
+404  ---------- 0x00481578 WEAK   OBJ    40       VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+405  0x00045ae0 0x00445ae0 GLOBAL FUNC   280      ScaleRowDown38_3_Box_C
+408  0x0005a978 0x0045a978 GLOBAL FUNC   156      MergeARGB16To8Row_C
+409  0x000619f0 0x004619f0 GLOBAL OBJ    1024     fixed_invtbl8
+410  0x0005aa14 0x0045aa14 GLOBAL FUNC   160      MergeXR64Row_C
+412  0x00054c8c 0x00454c8c GLOBAL FUNC   60       SobelToPlaneRow_C
+413  0x0005b010 0x0045b010 GLOBAL FUNC   104      UYVYToYRow_C
+414  0x0005bc74 0x0045bc74 GLOBAL FUNC   108      ARGBShuffleRow_C
+415  0x00059efc 0x00459efc GLOBAL FUNC   148      SplitUVRow_C
+417  ---------- 0x004815a0 WEAK   OBJ    16       VTT for std::basic_ifstream<char, std::char_traits<char> >
+418  0x00045214 0x00445214 GLOBAL FUNC   96       ScaleRowUp2_Linear_16_C
+422  0x00061000 0x00461000 WEAK   OBJ    22       typeinfo name for Json::RuntimeError
+423  0x0004e6c0 0x0044e6c0 GLOBAL FUNC   244      ARGBComputeCumulativeSum
+425  ---------- 0x004815b0 WEAK   OBJ    16       vtable for std::basic_ios<char, std::char_traits<char> >
+426  0x0005cb10 0x0045cb10 GLOBAL FUNC   192      ScaleRowUp2_Linear_Any_C
+427  ---------- 0x004815c0 WEAK   OBJ    8        typeinfo for std::locale::facet
+429  ---------- 0x004815c8 WEAK   OBJ    12       typeinfo for std::runtime_error
+431  0x000474e0 0x004474e0 GLOBAL FUNC   408      ScaleUVFilterCols_C
+435  0x00059eb0 0x00459eb0 GLOBAL FUNC   76       RGB24MirrorRow_C
+436  0x0005ac50 0x0045ac50 GLOBAL FUNC   48       MultiplyRow_16_C
+440  0x0004b1dc 0x0044b1dc GLOBAL FUNC   264      SwapUVPlane
+442  ---------- 0x004815d4 WEAK   OBJ    16       VTT for std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+443  0x0005fefc 0x0045fefc WEAK   OBJ    12       typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
+444  0x000272cc 0x004272cc WEAK   FUNC   124      void std::vector<double, std::allocator<double> >::emplace_back<double>(double&&)
+445  ---------- 0x004815e4 GLOBAL OBJ    140      std::cerr
+450  0x0005d31c 0x0045d31c GLOBAL FUNC   520      ScaleUVRowUp2_Bilinear_16_Any_C
+453  0x00044790 0x00444790 GLOBAL FUNC   532      ScaleRowDown4Box_C
+458  0x00044590 0x00444590 GLOBAL FUNC   320      ScaleRowDown2Box_16To8_Odd_C
+461  0x000472d0 0x004472d0 GLOBAL FUNC   148      ScaleUVCols_C
+462  ---------- 0x00481670 WEAK   OBJ    64       vtable for std::basic_filebuf<char, std::char_traits<char> >
+463  0x00052bf4 0x00452bf4 GLOBAL FUNC   80       ARGBToYJRow_C
+467  0x00043f14 0x00443f14 GLOBAL FUNC   144      ScaleRowDown2Linear_C
+469  0x00047d44 0x00447d44 GLOBAL FUNC   220      ScaleFilterReduce
+472  0x0001e6d0 0x0041e6d0 WEAK   FUNC   172      std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::operator+<char, std::char_traits<char>, std::allocator<char> >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, char const*)
+476  0x00045274 0x00445274 GLOBAL FUNC   268      ScaleRowUp2_Bilinear_16_C
+477  0x00054c3c 0x00454c3c GLOBAL FUNC   80       SobelRow_C
+478  0x0001e89c 0x0041e89c WEAK   FUNC   260      bool JsonAccessor::getValue<bool>(bool&) const
+480  0x00054ac0 0x00454ac0 GLOBAL FUNC   148      ARGBSubtractRow_C
+482  0x0005b580 0x0045b580 GLOBAL FUNC   952      CumulativeSumToAverageRow_C
+486  0x0005bb78 0x0045bb78 GLOBAL FUNC   252      InterpolateRow_16To8_C
+487  0x00061018 0x00461018 WEAK   OBJ    12       typeinfo for Json::RuntimeError
+488  0x00047e68 0x00447e68 GLOBAL FUNC   96       FixedDiv1_C
+489  0x0005b268 0x0045b268 GLOBAL FUNC   220      BlendPlaneRow_C
+491  0x00043db0 0x00443db0 GLOBAL FUNC   160      ScaleRowDown2_16To8_C
+492  ---------- 0x004816b0 GLOBAL OBJ    4        std::ctype<char>::id
+498  0x0005c0e0 0x0045c0e0 GLOBAL FUNC   364      ARGBLumaColorTableRow_C
+500  0x00027154 0x00427154 WEAK   FUNC   376      void std::vector<double, std::allocator<double> >::_M_realloc_insert<double>(__gnu_cxx::__normal_iterator<double*, std::vector<double, std::allocator<double> > >, double&&)
+501  0x00041138 0x00441138 GLOBAL FUNC   4248     ScalePlane_16
+503  0x0001eae4 0x0041eae4 WEAK   FUNC   112      std::vector<cv::Mat, std::allocator<cv::Mat> >::~vector()
+505  0x00046d14 0x00446d14 GLOBAL FUNC   116      ScaleUVRowDownEven_C
+508  0x00061024 0x00461024 WEAK   OBJ    20       typeinfo name for Json::LogicError
+509  0x0004549c 0x0044549c GLOBAL FUNC   88       ScaleColsUp2_C
+511  0x0005acec 0x0045acec GLOBAL FUNC   56       Convert8To16Row_C
+513  ---------- 0x004816b4 WEAK   OBJ    20       vtable for std::regex_error
+514  0x0001fb24 0x0041fb24 WEAK   FUNC   1060     void std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, JsonValue>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, JsonValue> > >::_M_realloc_insert<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, JsonValue> >(__gnu_cxx::__normal_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, JsonValue>*, std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, JsonValue>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, JsonValue> > > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, JsonValue>&&)
+515  0x0005d610 0x0045d610 GLOBAL OBJ    4        _IO_stdin_used
+517  0x0005a778 0x0045a778 GLOBAL FUNC   80       SplitARGBRow_C
+519  0x0004a90c 0x0044a90c GLOBAL FUNC   284      NV12Copy
+522  0x00044fdc 0x00444fdc GLOBAL FUNC   220      ScaleRowDown34_1_Box_16_C
+526  0x00043ce0 0x00443ce0 GLOBAL FUNC   112      ScaleRowDown2_C
+530  0x0005fec8 0x0045fec8 WEAK   OBJ    52       typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
+531  0x0001e7f4 0x0041e7f4 WEAK   FUNC   80       std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::~basic_stringbuf()
+532  0x000267a0 0x004267a0 WEAK   FUNC   124      std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::~vector()
+533  0x0005ad5c 0x0045ad5c GLOBAL FUNC   32       CopyRow_C
+537  0x00071020 0x00481020 GLOBAL OBJ    0        __RLD_MAP
+1    0x00000174 0x00400174 LOCAL  SECT   0        .interp
+2    0x00000190 0x00400190 LOCAL  SECT   0        .note.ABI-tag
+3    0x000001b0 0x004001b0 LOCAL  SECT   0        .MIPS.abiflags
+4    0x000001c8 0x004001c8 LOCAL  SECT   0        .reginfo
+5    0x000001e0 0x004001e0 LOCAL  SECT   0        .dynamic
+6    0x000003d0 0x004003d0 LOCAL  SECT   0        .hash
+7    0x00001478 0x00401478 LOCAL  SECT   0        .dynsym
+8    0x00003668 0x00403668 LOCAL  SECT   0        .dynstr
+9    0x00007752 0x00407752 LOCAL  SECT   0        .gnu.version
+10   0x00007b90 0x00407b90 LOCAL  SECT   0        .gnu.version_r
+11   0x00007d90 0x00407d90 LOCAL  SECT   0        .rel.dyn
+12   0x00007e78 0x00407e78 LOCAL  SECT   0        .rel.plt
+13   0x000087d0 0x004087d0 LOCAL  SECT   0        .init
+14   0x00008810 0x00408810 LOCAL  SECT   0        .text
+15   0x0005d5e0 0x0045d5e0 LOCAL  SECT   0        .fini
+16   0x0005d610 0x0045d610 LOCAL  SECT   0        .rodata
+17   0x00062584 0x00462584 LOCAL  SECT   0        .eh_frame_hdr
+18   0x00063f80 0x00463f80 LOCAL  SECT   0        .eh_frame
+19   0x0006cfe8 0x0046cfe8 LOCAL  SECT   0        .gcc_except_table
+20   0x0006f580 0x0046f580 LOCAL  SECT   0        .plt
+21   0x00070850 0x00480850 LOCAL  SECT   0        .init_array
+22   0x0007086c 0x0048086c LOCAL  SECT   0        .fini_array
+23   0x00070870 0x00480870 LOCAL  SECT   0        .got.plt
+24   0x00070d30 0x00480d30 LOCAL  SECT   0        .data
+25   0x00071020 0x00481020 LOCAL  SECT   0        .rld_map
+26   0x00071030 0x00481030 LOCAL  SECT   0        .got
+27   0x0007130c 0x0048130c LOCAL  SECT   0        .sdata
+28   ---------- 0x00481310 LOCAL  SECT   0        .bss
+29   ---------- 0x00000000 LOCAL  SECT   0        .comment
+30   ---------- 0x00000000 LOCAL  SECT   0        .pdr
+31   ---------- 0x00000000 LOCAL  SECT   0        .debug_frame
+32   ---------- 0x00000000 LOCAL  SECT   0        .gnu.attributes
+33   ---------- 0x00000000 LOCAL  SECT   0        .mdebug.abi32
+34   ---------- 0x00000000 LOCAL  FILE   0        /project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/glibc-2017.11-32-mips-linux-gnu-i686-pc-linux-gnu/default/csu/start.o
+35   0x00009984 0x00409984 LOCAL  NOTYPE 0        hlt
+36   ---------- 0x00000000 LOCAL  FILE   0        init.c
+37   ---------- 0x00000000 LOCAL  FILE   0        ai_engine_app.cpp
+38   0x00012450 0x00412450 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .isra.202]
+39   0x00012450 0x00412450 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [clone .isra.206]
+40   0x0001256c 0x0041256c LOCAL  FUNC   64       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) [clone .isra.208]
+41   0x000125ac 0x004125ac LOCAL  FUNC   448      int ai_engine_app::klipperMoveMonitor<ai_engine_app::nozzleCamDirtRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#2}, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(ai_engine_app::nozzleCamDirtRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#2}&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [clone .isra.182]
+42   0x000125ac 0x004125ac LOCAL  FUNC   448      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowEMRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#3}, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(ai_engine_app::flowEMRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#3}&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [clone .isra.189]
+43   0x000125ac 0x004125ac LOCAL  FUNC   448      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowEMRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#2}, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(ai_engine_app::flowEMRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#2}&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [clone .isra.188]
+44   0x000125ac 0x004125ac LOCAL  FUNC   448      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#6}, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#6}&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [clone .isra.185]
+45   0x000125ac 0x004125ac LOCAL  FUNC   448      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#5}, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#5}&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [clone .isra.184]
+46   0x000125ac 0x004125ac LOCAL  FUNC   448      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#2}, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#2}&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) [clone .isra.183]
+47   0x0001276c 0x0041276c LOCAL  FUNC   540      int ai_engine_app::klipperMoveMonitor<ai_engine_app::cavityCamDirtRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}, char const (&) [8]>(ai_engine_app::cavityCamDirtRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}&&, char const (&) [8]) [clone .isra.209]
+48   0x0001276c 0x0041276c LOCAL  FUNC   540      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowEMRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}, char const (&) [4]>(ai_engine_app::flowEMRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}&&, char const (&) [4]) [clone .isra.215]
+49   0x0001276c 0x0041276c LOCAL  FUNC   540      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#4}, char const (&) [4]>(ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#4}&&, char const (&) [4]) [clone .isra.214]
+50   0x0001276c 0x0041276c LOCAL  FUNC   540      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#3}, char const (&) [13]>(ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#3}&&, char const (&) [13]) [clone .isra.213]
+51   0x0001276c 0x0041276c LOCAL  FUNC   540      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}, char const (&) [4]>(ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}&&, char const (&) [4]) [clone .isra.212]
+52   0x0001276c 0x0041276c LOCAL  FUNC   540      int ai_engine_app::klipperMoveMonitor<ai_engine_app::platformForeignRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}, char const (&) [8]>(ai_engine_app::platformForeignRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}&&, char const (&) [8]) [clone .isra.211]
+53   0x0001276c 0x0041276c LOCAL  FUNC   540      int ai_engine_app::klipperMoveMonitor<ai_engine_app::nozzleCamDirtRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}, char const (&) [4]>(ai_engine_app::nozzleCamDirtRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#1}&&, char const (&) [4]) [clone .isra.210]
+54   0x00012988 0x00412988 LOCAL  FUNC   836      JsonAccessor& JsonAccessor::setValue<JsonValue>(JsonValue const&) [clone .part.167]
+55   0x00008820 0x00408820 LOCAL  FUNC   360      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#7}, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(ai_engine_app::flowPARun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#7}&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [clone .isra.186]
+56   0x00008820 0x00408820 LOCAL  FUNC   360      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowEMRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#4}, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>(ai_engine_app::flowEMRun()::{lambda(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)#4}&&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) [clone .isra.190]
+57   0x00008988 0x00408988 LOCAL  FUNC   444      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowPARun()::{lambda(float const&, float const&, float const&)#8}, float&, ai_engine_app::flowPARun()::{lambda(float const&, float const&, float const&)#8}, ai_engine_app::flowPARun()::{lambda(float const&, float const&, float const&)#8}>(ai_engine_app::flowPARun()::{lambda(float const&, float const&, float const&)#8}&&, float&, ai_engine_app::flowPARun()::{lambda(float const&, float const&, float const&)#8}&&, ai_engine_app::flowPARun()::{lambda(float const&, float const&, float const&)#8}&&) [clone .isra.187]
+58   0x00008988 0x00408988 LOCAL  FUNC   444      int ai_engine_app::klipperMoveMonitor<ai_engine_app::flowEMRun()::{lambda(float const&, float const&, float const&)#5}, float&, ai_engine_app::flowEMRun()::{lambda(float const&, float const&, float const&)#5}, ai_engine_app::flowEMRun()::{lambda(float const&, float const&, float const&)#5}>(ai_engine_app::flowEMRun()::{lambda(float const&, float const&, float const&)#5}&&, float&, ai_engine_app::flowEMRun()::{lambda(float const&, float const&, float const&)#5}&&, ai_engine_app::flowEMRun()::{lambda(float const&, float const&, float const&)#5}&&) [clone .isra.191]
+59   0x0005ece4 0x0045ece4 LOCAL  OBJ    14       ai_engine_app::stopAppThread()::__FUNCTION__
+60   0x0005ecf4 0x0045ecf4 LOCAL  OBJ    22       ai_engine_app::platformForeignThread(std::atomic<bool>&)::__FUNCTION__
+61   0x0005ecc0 0x0045ecc0 LOCAL  OBJ    10       ai_engine_app::flowEMRun()::__FUNCTION__
+62   0x0005eccc 0x0045eccc LOCAL  OBJ    22       ai_engine_app::AI_DetectStateManager()::__FUNCTION__
+63   0x0005ed0c 0x0045ed0c LOCAL  OBJ    12       ._357
+64   0x00009334 0x00409334 LOCAL  FUNC   60       _GLOBAL__sub_I__ZN13ai_engine_app8popenCmdERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS5_
+65   ---------- 0x00481760 LOCAL  OBJ    1        std::__ioinit
+66   ---------- 0x00000000 LOCAL  FILE   0        main.cpp
+67   0x00009a50 0x00409a50 LOCAL  FUNC   16       std::default_delete<ai_engine_app>::operator()(ai_engine_app*) const [clone .isra.26] [clone .part.27]
+68   0x00009a60 0x00409a60 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .isra.95]
+69   0x00009a60 0x00409a60 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [clone .isra.99]
+70   0x00009b7c 0x00409b7c LOCAL  FUNC   64       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) [clone .isra.101]
+71   0x00009e58 0x00409e58 LOCAL  FUNC   632      std::default_delete<wsKlipper>::operator()(wsKlipper*) const [clone .isra.166] [clone .part.167]
+72   0x0005d8b0 0x0045d8b0 LOCAL  OBJ    64       ._351
+73   0x0005d850 0x0045d850 LOCAL  OBJ    96       ._352
+74   0x0000926c 0x0040926c LOCAL  FUNC   140      _GLOBAL__sub_I_ai_app
+75   ---------- 0x004816ec LOCAL  OBJ    1        std::__ioinit
+76   ---------- 0x00000000 LOCAL  FILE   0        hs_ai_get_video.cpp
+77   0x0000cff0 0x0040cff0 LOCAL  FUNC   656      check_nalu_buf(unsigned char*, int, int, int, unsigned char**, int*) [clone .constprop.129]
+78   ---------- 0x00481728 LOCAL  OBJ    4        nalu_buf
+79   ---------- 0x00481724 LOCAL  OBJ    4        decoder_
+80   0x0005ddec 0x0045ddec LOCAL  OBJ    14       hs_ai_get_video::report_status(HS_AI_STAGE_TYPE, HS_AI_STATUS_TYPE)::__FUNCTION__
+81   0x0005dddc 0x0045dddc LOCAL  OBJ    14       hs_ai_get_video::exitStreaming()::__FUNCTION__
+82   0x0005ddcc 0x0045ddcc LOCAL  OBJ    15       hs_ai_get_video::exitAllThreads(bool, bool)::__FUNCTION__
+83   0x00070d50 0x00480d50 LOCAL  OBJ    4        hs_ai_get_video::captureImg()::index
+84   ---------- 0x00481720 LOCAL  OBJ    4        hs_ai_get_video::captureImg()::empty_count
+85   0x000092f8 0x004092f8 LOCAL  FUNC   60       _GLOBAL__sub_I__ZN15hs_ai_get_video19decoder_NV12_to_BGREPhiii
+86   ---------- 0x0048172c LOCAL  OBJ    1        std::__ioinit
+87   ---------- 0x00000000 LOCAL  FILE   0        gcodeParam.cpp
+88   0x00020e40 0x00420e40 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [clone .isra.113]
+89   0x00020e40 0x00420e40 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .isra.150]
+90   0x00020f5c 0x00420f5c LOCAL  FUNC   60       std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>, true> > >::_M_deallocate_node(std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>, true>*) [clone .isra.172]
+91   0x00020f98 0x00420f98 LOCAL  FUNC   60       std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(FlowEmParameters&, std::bitset<3u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>, true> > >::_M_deallocate_node(std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(FlowEmParameters&, std::bitset<3u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>, true>*) [clone .isra.193]
+92   0x00020fd4 0x00420fd4 LOCAL  FUNC   60       std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(GCodePos&, std::bitset<4u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>, true> > >::_M_deallocate_node(std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(GCodePos&, std::bitset<4u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>, true>*) [clone .isra.203]
+93   0x00021010 0x00421010 LOCAL  FUNC   76       std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>, true> > >::_M_allocate_buckets(unsigned int) [clone .isra.345]
+94   0x00021010 0x00421010 LOCAL  FUNC   76       std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(GCodePos&, std::bitset<4u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>, true> > >::_M_allocate_buckets(unsigned int) [clone .isra.347]
+95   0x00021010 0x00421010 LOCAL  FUNC   76       std::__detail::_Hashtable_alloc<std::allocator<std::__detail::_Hash_node<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(FlowEmParameters&, std::bitset<3u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)>, true> > >::_M_allocate_buckets(unsigned int) [clone .isra.346]
+96   0x0002105c 0x0042105c LOCAL  FUNC   196      std::__cxx11::regex_traits<char>::isctype(char, std::__cxx11::regex_traits<char>::_RegexMask) const [clone .isra.339]
+97   0x00022f18 0x00422f18 LOCAL  FUNC   68       std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_M_main_dispatch(std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_Match_mode, std::integral_constant<bool, true>) [clone .isra.363] [clone .constprop.735]
+98   0x0002f9f0 0x0042f9f0 LOCAL  FUNC   532      std::_Rb_tree_iterator<std::pair<long const, long> > std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_emplace_hint_unique<std::piecewise_construct_t const&, std::tuple<long const&>, std::tuple<> >(std::_Rb_tree_const_iterator<std::pair<long const, long> >, std::piecewise_construct_t const&, std::tuple<long const&>&&, std::tuple<>&&) [clone .isra.637]
+99   0x00022f5c 0x00422f5c LOCAL  FUNC   172      void std::__final_insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.640]
+100  0x00023008 0x00423008 LOCAL  FUNC   496      void std::__introsort_loop<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, int, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, int, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.656]
+101  0x00009370 0x00409370 LOCAL  FUNC   60       _GLOBAL__sub_I_g_paParamNameArr
+102  ---------- 0x00481790 LOCAL  OBJ    1        std::__ioinit
+103  ---------- 0x00000000 LOCAL  FILE   0        wsKlipper.cpp
+104  0x000380c0 0x004380c0 LOCAL  FUNC   60       destroy_message(void*)
+105  ---------- 0x00481808 LOCAL  OBJ    1        receiveRunning_
+106  ---------- 0x00481834 LOCAL  OBJ    4        context
+107  0x00038144 0x00438144 LOCAL  FUNC   220      connect_cb(lws_sorted_usec_list*)
+108  ---------- 0x00481830 LOCAL  OBJ    4        client_wsi
+109  0x00060fd4 0x00460fd4 LOCAL  OBJ    16       retry
+110  0x00038220 0x00438220 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [clone .isra.64]
+111  0x00038220 0x00438220 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .isra.75]
+112  0x0003833c 0x0043833c LOCAL  FUNC   320      task_queue_push(task_queue*, char const*, int) [clone .constprop.105]
+113  ---------- 0x004817e0 LOCAL  OBJ    36       task_queue
+114  0x00060f9c 0x00460f9c LOCAL  OBJ    56       protocols
+115  ---------- 0x00481810 LOCAL  OBJ    32       sul
+116  ---------- 0x00481804 LOCAL  OBJ    4        receiveStatusThread_
+117  0x00060f90 0x00460f90 LOCAL  OBJ    11       wsKlipper::disconnect()::__FUNCTION__
+118  ---------- 0x0048180c LOCAL  OBJ    4        established
+119  ---------- 0x00481838 LOCAL  OBJ    24       SENSOR_PRESS_DATA_HEADER
+120  0x000093ac 0x004093ac LOCAL  FUNC   156      _GLOBAL__sub_I__ZN9wsKlipper12init_connectEv
+121  ---------- 0x00481850 LOCAL  OBJ    1        std::__ioinit
+122  0x0003c1f8 0x0043c1f8 LOCAL  FUNC   1304     callback_minimal(lws*, lws_callback_reasons, void*, void*, unsigned int)
+123  0x00060fe4 0x00460fe4 LOCAL  OBJ    20       backoff_ms
+124  ---------- 0x00000000 LOCAL  FILE   0        obbrecLidar.cpp
+125  0x0003cd80 0x0043cd80 LOCAL  FUNC   96       ObbrecLidar::validateChecksum(unsigned char const*, unsigned int) [clone .part.18]
+126  0x0003cde0 0x0043cde0 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) [clone .isra.73]
+127  0x0003cde0 0x0043cde0 LOCAL  FUNC   284      void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag) [clone .isra.77]
+128  0x00009448 0x00409448 LOCAL  FUNC   76       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) [clone .isra.80]
+129  ---------- 0x00481860 LOCAL  OBJ    24       command_map
+130  0x000619cc 0x004619cc LOCAL  OBJ    2        ._212
+131  0x00009494 0x00409494 LOCAL  FUNC   1164     __static_initialization_and_destruction_0(int, int) [clone .constprop.122]
+132  ---------- 0x00481878 LOCAL  OBJ    1        std::__ioinit
+133  0x00009920 0x00409920 LOCAL  FUNC   8        _GLOBAL__sub_I__ZN11ObbrecLidarC2Ev
+134  ---------- 0x00000000 LOCAL  FILE   0        crtstuff.c
+135  0x00009990 0x00409990 LOCAL  FUNC   0        deregister_tm_clones
+136  0x000099c4 0x004099c4 LOCAL  FUNC   0        register_tm_clones
+137  0x00009a10 0x00409a10 LOCAL  FUNC   0        __do_global_dtors_aux
+138  ---------- 0x004816d0 LOCAL  OBJ    1        completed.6546
+139  0x0007086c 0x0048086c LOCAL  OBJ    0        __do_global_dtors_aux_fini_array_entry
+140  0x00009a48 0x00409a48 LOCAL  FUNC   0        frame_dummy
+141  0x00070850 0x00480850 LOCAL  OBJ    0        __frame_dummy_init_array_entry
+142  ---------- 0x00000000 LOCAL  FILE   0        hs_ipc.cpp
+143  ---------- 0x00000000 LOCAL  FILE   0        cpu_monitor.cpp
+144  0x000204f0 0x004204f0 LOCAL  FUNC   148      start_cpu_monitor(double) [clone .part.2]
+145  0x00020600 0x00420600 LOCAL  FUNC   396      get_cpu_usage(long*, long*) [clone .part.0]
+146  ---------- 0x00000000 LOCAL  FILE   0        memory_monitor.cpp
+147  ---------- 0x00481780 LOCAL  OBJ    1        memoryRunning_
+148  ---------- 0x00000000 LOCAL  FILE   0        scale.cc
+149  0x0003fc70 0x0043fc70 LOCAL  FUNC   216      ScaleAddCols2_C
+150  0x0003fd48 0x0043fd48 LOCAL  FUNC   220      ScaleAddCols2_16_C
+151  0x0003fe24 0x0043fe24 LOCAL  FUNC   80       ScaleAddCols0_C
+152  0x0003fe74 0x0043fe74 LOCAL  FUNC   120      ScaleAddCols1_C
+153  0x0003feec 0x0043feec LOCAL  FUNC   120      ScaleAddCols1_16_C
+154  ---------- 0x00000000 LOCAL  FILE   0        scale_common.cc
+155  ---------- 0x00000000 LOCAL  FILE   0        scale_uv.cc
+156  ---------- 0x00000000 LOCAL  FILE   0        planar_functions.cc
+157  0x000492a0 0x004492a0 LOCAL  FUNC   320      SplitARGBPlaneOpaque
+158  0x000493e0 0x004493e0 LOCAL  FUNC   372      SplitARGBPlaneAlpha
+159  0x00049554 0x00449554 LOCAL  FUNC   324      MergeARGBPlaneOpaque
+160  0x00049698 0x00449698 LOCAL  FUNC   384      MergeARGBPlaneAlpha
+161  0x00049818 0x00449818 LOCAL  FUNC   324      MergeAR64PlaneOpaque
+162  0x0004995c 0x0044995c LOCAL  FUNC   392      MergeAR64PlaneAlpha
+163  0x00049ae4 0x00449ae4 LOCAL  FUNC   320      MergeARGB16To8PlaneOpaque
+164  0x00049c24 0x00449c24 LOCAL  FUNC   388      MergeARGB16To8PlaneAlpha
+165  ---------- 0x00000000 LOCAL  FILE   0        row_common.cc
+166  ---------- 0x00000000 LOCAL  FILE   0        scale_any.cc
+167  ---------- 0x00000000 LOCAL  FILE   0        elf-init.c
+168  ---------- 0x00000000 LOCAL  FILE   0        crtstuff.c
+169  0x0006cfe4 0x0046cfe4 LOCAL  OBJ    0        __FRAME_END__
+170  ---------- 0x00000000 LOCAL  FILE   0        
+171  0x0007086c 0x0048086c LOCAL  NOTYPE 0        __init_array_end
+172  0x00070850 0x00480850 LOCAL  NOTYPE 0        __init_array_start
+173  ---------- 0x00489020 LOCAL  NOTYPE 0        _gp
+174  0x00008810 0x00408810 LOCAL  FUNC   16       .pic.NV12Scale
+175  0x000001e0 0x004001e0 LOCAL  OBJ    0        _DYNAMIC
+176  0x000087d0 0x004087d0 LOCAL  FUNC   0        _init
+177  0x0006f580 0x0046f580 LOCAL  FUNC   0        _PROCEDURE_LINKAGE_TABLE_
+178  0x00062584 0x00462584 LOCAL  NOTYPE 0        __GNU_EH_FRAME_HDR
+179  0x0002ae3c 0x0042ae3c WEAK   FUNC   188      std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_M_rep_once_more(std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_Match_mode, long)
+180  0x0004630c 0x0044630c GLOBAL FUNC   208      ScaleARGBRowDownEvenBox_C
+181  0x0004afc4 0x0044afc4 GLOBAL FUNC   272      ConvertToMSBPlane_16
+183  0x000259f0 0x004259f0 WEAK   FUNC   20       std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+184  0x0003b66c 0x0043b66c GLOBAL FUNC   140      wsKlipper::cancelG28Code()
+186  0x00027d88 0x00427d88 WEAK   FUNC   128      std::_Deque_base<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::~_Deque_base()
+187  0x00013318 0x00413318 GLOBAL FUNC   8        ai_engine_app::setAIShareFlag(bool)
+188  0x00020af4 0x00420af4 GLOBAL FUNC   48       stop_service_cpu_mem_monitor_launch(bool, bool)
+190  0x0003b380 0x0043b380 GLOBAL FUNC   748      wsKlipper::setHome(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+191  0x0002f7a0 0x0042f7a0 WEAK   FUNC   172      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<true, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>&)::{lambda(char)#1}::operator()(char) const
+192  0x00025d54 0x00425d54 WEAK   FUNC   168      std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+193  0x0004b0d4 0x0044b0d4 GLOBAL FUNC   264      ConvertToLSBPlane_16
+194  0x00025cbc 0x00425cbc WEAK   FUNC   152      std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+195  0x0002189c 0x0042189c GLOBAL FUNC   256      parsePos_YMax(GCodePos&, std::bitset<4u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+196  0x00029480 0x00429480 WEAK   FUNC   252      std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::~_BracketMatcher()
+197  0x0005adec 0x0045adec GLOBAL FUNC   108      YUY2ToUVRow_C
+199  0x00008b44 0x00408b44 GLOBAL FUNC   1832     main
+200  0x0002c304 0x0042c304 WEAK   FUNC   360      std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>)
+201  0x0001e77c 0x0041e77c WEAK   FUNC   120      std::map<AIDetectState, bool, std::less<AIDetectState>, std::allocator<std::pair<AIDetectState const, bool> > >::at(AIDetectState const&)
+202  0x0002c110 0x0042c110 WEAK   FUNC   352      std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>)
+203  0x0003cf24 0x0043cf24 GLOBAL FUNC   100      ObbrecLidar::~ObbrecLidar()
+204  0x00036b40 0x00436b40 WEAK   FUNC   1056     std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_atom()
+205  0x0003ebd8 0x0043ebd8 GLOBAL FUNC   156      ObbrecLidar::sendCommand(unsigned char, std::vector<unsigned char, std::allocator<unsigned char> > const&)
+206  0x00009bbc 0x00409bbc GLOBAL FUNC   668      cleanup(int)
+211  0x00026a1c 0x00426a1c WEAK   FUNC   456      std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > >::operator=(std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > const&)
+213  0x0003ca08 0x0043ca08 WEAK   FUNC   48       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (wsKlipper::*)(), wsKlipper*> > >::_M_run()
+216  0x0002a71c 0x0042a71c WEAK   FUNC   656      std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_M_handle_backref(std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_Match_mode, long)
+219  0x000208c4 0x004208c4 GLOBAL FUNC   120      get_cpu_usage(long*, long*)
+220  0x000269e0 0x004269e0 WEAK   FUNC   60       _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR14FlowParametersRSt6bitsetILj8EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehas
+221  0x0002d084 0x0042d084 WEAK   FUNC   172      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_any_matcher_posix<true, false>()
+222  0x0002e744 0x0042e744 WEAK   FUNC   1056     std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+227  0x0005ffa8 0x0045ffa8 WEAK   OBJ    70       typeinfo name for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, false>
+228  0x00052ea4 0x00452ea4 GLOBAL FUNC   528      ABGRToUVJRow_C
+232  0x0004d7f0 0x0044d7f0 GLOBAL FUNC   432      I420Rect
+234  0x00020584 0x00420584 GLOBAL FUNC   124      get_cpu_time_v1()
+235  0x0003ca38 0x0043ca38 WEAK   FUNC   8        std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+238  0x0004b61c 0x0044b61c GLOBAL FUNC   288      DetileSplitUVPlane
+239  0x000214c8 0x004214c8 GLOBAL FUNC   212      parseEM_BedTargetTemp(FlowEmParameters&, std::bitset<3u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+240  0x0000d5c0 0x0040d5c0 GLOBAL FUNC   660      hs_ai_get_video::decode_frame(unsigned char*, int)
+241  0x0004a6a0 0x0044a6a0 GLOBAL FUNC   364      I410Copy
+242  0x000601d0 0x004601d0 WEAK   OBJ    8        typeinfo for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, true, false>
+244  0x000174e8 0x004174e8 GLOBAL FUNC   468      ai_engine_app::faultRun()
+249  0x00071024 0x00481024 GLOBAL OBJ    0        __TMC_END__
+250  0x0003220c 0x0043220c WEAK   FUNC   1280     void std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_realloc_insert<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(__gnu_cxx::__normal_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*, std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&&)
+251  0x00029630 0x00429630 WEAK   FUNC   252      std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::~_BracketMatcher()
+253  0x0004be84 0x0044be84 GLOBAL FUNC   168      MergeAR64Plane
+255  0x00070d60 0x00480d60 GLOBAL OBJ    32       g_posNameArr
+256  0x000258f0 0x004258f0 WEAK   FUNC   76       std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+258  0x00025ea4 0x00425ea4 WEAK   FUNC   84       std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+260  0x0002199c 0x0042199c GLOBAL FUNC   256      parsePA_OutWallSpeed(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+261  0x00060180 0x00460180 WEAK   OBJ    8        typeinfo for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, false, true>
+262  0x0002c270 0x0042c270 WEAK   FUNC   148      std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::~vector()
+264  0x00056fd0 0x00456fd0 GLOBAL FUNC   320      P410ToAR30Row_C
+266  0x0000e838 0x0040e838 GLOBAL FUNC   636      hs_ai_get_video::exitStreaming()
+268  0x0002a034 0x0042a034 WEAK   FUNC   596      std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_M_main_dispatch(std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_Match_mode, std::integral_constant<bool, false>)
+269  0x0001dcfc 0x0041dcfc WEAK   FUNC   16       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(), ai_engine_app*> > >::~_State_impl()
+271  0x0001dcc8 0x0041dcc8 WEAK   FUNC   52       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(std::atomic<bool>&), ai_engine_app*, std::atomic<bool>&> > >::~_State_impl()
+272  0x000516e8 0x004516e8 GLOBAL FUNC   440      ARGBToRGB565DitherRow_C
+273  0x0004bc98 0x0044bc98 GLOBAL FUNC   152      MergeARGBPlane
+274  0x0004b4f8 0x0044b4f8 GLOBAL FUNC   292      DetilePlane_16
+275  0x00030a18 0x00430a18 WEAK   FUNC   212      void std::__insertion_sort<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_less_iter)
+276  0x000122e8 0x004122e8 GLOBAL FUNC   112      hs_ipcsem_wait(sem_t*)
+277  0x0004d218 0x0044d218 GLOBAL FUNC   320      ARGBMultiply
+278  0x000595b4 0x004595b4 GLOBAL FUNC   708      UYVYToARGBRow_C
+279  0x000584ac 0x004584ac GLOBAL FUNC   748      NV12ToARGBRow_C
+280  0x0000d58c 0x0040d58c GLOBAL FUNC   52       hs_ai_get_video::close_decoder()
+281  0x0003eee8 0x0043eee8 GLOBAL FUNC   356      ObbrecLidar::openCapture()
+282  0x0004e338 0x0044e338 GLOBAL FUNC   280      ARGBColorTable
+285  0x0005d5e0 0x0045d5e0 GLOBAL FUNC   0        _fini
+286  0x0001f4e4 0x0041f4e4 WEAK   FUNC   496      void std::vector<cv::Point3_<float>, std::allocator<cv::Point3_<float> > >::_M_realloc_insert<cv::Point3_<float> const&>(__gnu_cxx::__normal_iterator<cv::Point3_<float>*, std::vector<cv::Point3_<float>, std::allocator<cv::Point3_<float> > > >, cv::Point3_<float> const&)
+287  0x0000a110 0x0040a110 WEAK   FUNC   692      std::unique_ptr<wsKlipper, std::default_delete<wsKlipper> >::~unique_ptr()
+288  0x0005d5d4 0x0045d5d4 GLOBAL FUNC   8        __libc_csu_fini
+293  0x0004f2d4 0x0044f2d4 GLOBAL FUNC   292      AR64Shuffle
+298  0x0002c820 0x0042c820 WEAK   FUNC   128      std::function<bool (char)>::function(std::function<bool (char)> const&)
+301  0x0004ced8 0x0044ced8 GLOBAL FUNC   832      I420Blend
+302  0x0003e7e0 0x0043e7e0 GLOBAL FUNC   1016     ObbrecLidar::sendCmd(std::vector<unsigned char, std::allocator<unsigned char> > const&)
+303  0x00071000 0x00481000 WEAK   OBJ    4        DW.ref._ZTISt9exception
+304  0x000600e0 0x004600e0 WEAK   OBJ    8        typeinfo for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, true>
+305  0x00027114 0x00427114 WEAK   FUNC   64       void std::vector<std::pair<unsigned int, unsigned int>, std::allocator<std::pair<unsigned int, unsigned int> > >::emplace_back<std::pair<unsigned int, unsigned int> >(std::pair<unsigned int, unsigned int>&&)
+307  0x00026be4 0x00426be4 WEAK   FUNC   524      std::__cxx11::regex_iterator<char const*, char, std::__cxx11::regex_traits<char> >::operator==(std::__cxx11::regex_iterator<char const*, char, std::__cxx11::regex_traits<char> > const&) const
+308  0x00026020 0x00426020 WEAK   FUNC   212      std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+309  0x0003f5f4 0x0043f5f4 GLOBAL FUNC   200      ObbrecLidar::captureImg(bool)
+312  0x000506e8 0x004506e8 GLOBAL FUNC   296      ARGBCopyAlpha
+313  0x000343bc 0x004343bc WEAK   FUNC   720      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, false>(bool)
+314  0x0005c378 0x0045c378 GLOBAL FUNC   128      ScaleSumSamples_C
+315  0x0001ee04 0x0041ee04 WEAK   FUNC   208      std::thread::thread<void (ai_engine_app::*)(std::atomic<bool>&), ai_engine_app*, std::reference_wrapper<std::atomic<bool> > >(void (ai_engine_app::*&&)(std::atomic<bool>&), ai_engine_app*&&, std::reference_wrapper<std::atomic<bool> >&&)
+316  0x00011d4c 0x00411d4c WEAK   FUNC   128      std::_Deque_base<AI_STATE, std::allocator<AI_STATE> >::~_Deque_base()
+317  0x0002f540 0x0042f540 WEAK   FUNC   376      void std::vector<char, std::allocator<char> >::emplace_back<char>(char&&)
+318  0x0002999c 0x0042999c WEAK   FUNC   576      std::__cxx11::regex_traits<char>::_RegexMask std::__cxx11::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const
+319  0x00060040 0x00460040 WEAK   OBJ    8        typeinfo for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, true>
+320  0x00013458 0x00413458 GLOBAL FUNC   132      ai_engine_app::setSensitivity(unsigned char)
+321  0x0000eb8c 0x0040eb8c GLOBAL FUNC   360      hs_ai_get_video::processStates()
+326  0x0004b73c 0x0044b73c GLOBAL FUNC   400      DetileToYUY2
+327  0x0003bcdc 0x0043bcdc GLOBAL FUNC   824      wsKlipper::parseJson(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, Json::Value&)
+328  0x0002c8a0 0x0042c8a0 WEAK   FUNC   792      void std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > >::_M_realloc_insert<std::__detail::_State<char> >(__gnu_cxx::__normal_iterator<std::__detail::_State<char>*, std::vector<std::__detail::_State<char>, std::allocator<std::__detail::_State<char> > > >, std::__detail::_State<char>&&)
+329  0x0003ca40 0x0043ca40 WEAK   FUNC   8        std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+330  0x0001dc80 0x0041dc80 WEAK   FUNC   56       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(std::atomic<bool>&), ai_engine_app*, std::atomic<bool>&> > >::_M_run()
+333  0x00035a70 0x00435a70 WEAK   FUNC   1252     std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::_M_ready()
+335  0x00025aac 0x00425aac WEAK   FUNC   84       std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+336  0x00059dc0 0x00459dc0 GLOBAL FUNC   136      MirrorSplitUVRow_C
+337  0x0003d7dc 0x0043d7dc GLOBAL FUNC   808      ObbrecLidar::openSerial()
+338  0x0002d32c 0x0042d32c WEAK   FUNC   172      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_any_matcher_ecma<true, false>()
+339  0x0002cfd8 0x0042cfd8 WEAK   FUNC   172      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_any_matcher_posix<false, true>()
+340  0x0002a9ac 0x0042a9ac WEAK   FUNC   1168     std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_M_dfs(std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_Match_mode, long)
+342  0x00026ea0 0x00426ea0 WEAK   FUNC   68       std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::~_Executor()
+344  0x00071014 0x00481014 WEAK   OBJ    4        DW.ref._ZTIN4Json12RuntimeErrorE
+345  0x0002681c 0x0042681c WEAK   FUNC   236      std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::~basic_regex()
+348  0x0001b988 0x0041b988 GLOBAL FUNC   524      ai_engine_app::sensorDetImpl()
+349  0x00062250 0x00462250 GLOBAL OBJ    160      kYuvH709Constants
+350  0x000151a4 0x004151a4 GLOBAL FUNC   828      ai_engine_app::isNozzleCamNormal()
+355  0x00013ec8 0x00413ec8 GLOBAL FUNC   632      ai_engine_app::platformForeignRun()
+358  0x00050a60 0x00450a60 GLOBAL FUNC   512      YUY2ToNV12
+361  0x000465c0 0x004465c0 GLOBAL FUNC   92       ScaleARGBColsUp2_C
+362  0x00027348 0x00427348 WEAK   FUNC   120      std::vector<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > >, std::allocator<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > > > >::~vector()
+363  0x0002c73c 0x0042c73c WEAK   FUNC   128      std::_Deque_base<long, std::allocator<long> >::~_Deque_base()
+364  0x00022da0 0x00422da0 GLOBAL FUNC   376      GCodeParam::initEMMapAndPattern(std::bitset<3u> const&, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int (*)(FlowEmParameters&, std::bitset<3u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&), std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(FlowEmParameters&, std::bitset<3u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> > >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+365  0x000386b4 0x004386b4 GLOBAL FUNC   392      wsKlipper::disconnect()
+366  0x0004a264 0x0044a264 GLOBAL FUNC   360      I422Copy
+367  0x0002ce10 0x0042ce10 WEAK   FUNC   292      std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_matcher(std::function<bool (char)>)
+369  0x0000e678 0x0040e678 GLOBAL FUNC   176      hs_ai_get_video::is_on_ai_ctrl()
+370  0x00027d88 0x00427d88 WEAK   FUNC   128      std::_Deque_base<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::~_Deque_base()
+372  0x00054d14 0x00454d14 GLOBAL FUNC   52       J400ToARGBRow_C
+373  0x0005ed50 0x0045ed50 WEAK   OBJ    93       typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(std::atomic<bool>&), ai_engine_app*, std::atomic<bool>&> > >
+374  0x0002cc54 0x0042cc54 WEAK   FUNC   212      std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_dummy()
+375  0x0004c7b4 0x0044c7b4 GLOBAL FUNC   388      I420Mirror
+378  0x00025748 0x00425748 WEAK   FUNC   76       std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+380  0x0005ed34 0x0045ed34 WEAK   OBJ    16       typeinfo name for ai_engine_app
+383  0x00070d30 0x00480d30 GLOBAL OBJ    0        __data_start
+385  0x000578b8 0x004578b8 GLOBAL FUNC   748      I422ToRGB24Row_C
+386  0x00011e4c 0x00411e4c WEAK   FUNC   276      std::deque<cv::Mat, std::allocator<cv::Mat> >::_M_destroy_data_aux(std::_Deque_iterator<cv::Mat, cv::Mat&, cv::Mat*>, std::_Deque_iterator<cv::Mat, cv::Mat&, cv::Mat*>)
+388  0x0005271c 0x0045271c GLOBAL FUNC   88       RGB24ToYRow_C
+390  0x0003cb80 0x0043cb80 WEAK   FUNC   500      void std::deque<Json::Value, std::allocator<Json::Value> >::_M_push_back_aux<Json::Value const&>(Json::Value const&)
+391  0x00017890 0x00417890 GLOBAL FUNC   3416     ai_engine_app::nozzleCamDirtRun()
+392  0x00037540 0x00437540 WEAK   FUNC   2168     std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type)
+393  0x00021120 0x00421120 GLOBAL FUNC   32       GCodeParam::GCodeParam()
+394  0x00039f48 0x00439f48 GLOBAL FUNC   3244     wsKlipper::sendCode(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, int)
+396  ---------- 0x0048131c WEAK   OBJ    64       vtable for std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >
+397  0x00015e08 0x00415e08 GLOBAL FUNC   480      ai_engine_app::flowRatioDet(std::vector<cv::Mat, std::allocator<cv::Mat> > const&, float&, AIMaterial, float, int, bool)
+399  0x0003d18c 0x0043d18c GLOBAL FUNC   68       ObbrecLidar::closeSerial()
+401  0x00071010 0x00481010 WEAK   OBJ    4        DW.ref._ZTIN4Json10LogicErrorE
+402  0x0000f518 0x0040f518 GLOBAL FUNC   540      hs_ai_get_video::exitAllThreads(bool, bool)
+403  0x00057110 0x00457110 GLOBAL FUNC   880      I422ToAR30Row_C
+404  0x0003caac 0x0043caac WEAK   FUNC   36       std::thread::~thread()
+406  0x00060228 0x00460228 WEAK   OBJ    67       typeinfo name for std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, false>
+408  0x000603a8 0x004603a8 WEAK   OBJ    70       typeinfo name for std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>
+409  0x0004d498 0x0044d498 GLOBAL FUNC   320      ARGBSubtract
+410  0x0000bc6c 0x0040bc6c WEAK   FUNC   128      std::_Deque_base<AIDetectState, std::allocator<AIDetectState> >::~_Deque_base()
+411  0x00043c7c 0x00443c7c GLOBAL FUNC   92       Scale
+413  0x00034b34 0x00434b34 WEAK   FUNC   688      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_character_class_matcher<false, true>()
+416  0x000592f0 0x004592f0 GLOBAL FUNC   708      YUY2ToARGBRow_C
+419  0x0001bcd8 0x0041bcd8 GLOBAL FUNC   2768     ai_engine_app::AI_DetectStateManager()
+420  0x000350c0 0x004350c0 WEAK   FUNC   1024     std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>::_M_ready()
+423  0x0005225c 0x0045225c GLOBAL FUNC   80       ABGRToYRow_C
+424  0x00036f60 0x00436f60 WEAK   FUNC   668      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_alternative()
+425  0x0002c000 0x0042c000 WEAK   FUNC   272      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_try_char()
+426  0x0002f2e8 0x0042f2e8 WEAK   FUNC   600      std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__cxx11::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const
+427  0x0002bc60 0x0042bc60 WEAK   FUNC   792      std::__cxx11::regex_traits<char>::value(char, int) const
+430  0x00021d9c 0x00421d9c GLOBAL FUNC   256      parsePA_OuterWallLineWidth(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+431  0x00027c24 0x00427c24 WEAK   FUNC   164      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_pop()
+432  0x00027e08 0x00427e08 WEAK   FUNC   52       std::__detail::_State<char>::~_State()
+433  0x000170f8 0x004170f8 GLOBAL FUNC   1008     ai_engine_app::AICommonRun(AIMode, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+434  0x00061df0 0x00461df0 GLOBAL OBJ    160      kYvuV2020Constants
+438  0x0005c568 0x0045c568 GLOBAL FUNC   116      GaussCol_C
+444  0x0002d7b4 0x0042d7b4 WEAK   FUNC   248      std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_subexpr_end()
+447  0x0004f6ac 0x0044f6ac GLOBAL FUNC   988      ARGBSobel
+448  0x0005130c 0x0045130c GLOBAL FUNC   108      ARGB4444ToARGBRow_C
+449  0x00062070 0x00462070 GLOBAL OBJ    160      kYvuF709Constants
+451  0x0002c270 0x0042c270 WEAK   FUNC   148      std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::~vector()
+453  0x0002d8ac 0x0042d8ac WEAK   FUNC   300      std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_subexpr_begin()
+454  ---------- 0x004816e0 GLOBAL OBJ    4        ai_klipper
+455  0x0000c100 0x0040c100 WEAK   FUNC   600      std::unique_ptr<ai_engine_app, std::default_delete<ai_engine_app> >::~unique_ptr()
+456  0x0003f04c 0x0043f04c GLOBAL FUNC   172      ObbrecLidar::closeCapture()
+457  0x00060098 0x00460098 WEAK   OBJ    70       typeinfo name for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, true>
+458  0x00025a58 0x00425a58 WEAK   FUNC   84       std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+460  0x00048ea8 0x00448ea8 GLOBAL FUNC   1008     UVScale_16
+462  0x0004c198 0x0044c198 GLOBAL FUNC   456      UYVYToI422
+465  0x0005c8d0 0x0045c8d0 GLOBAL FUNC   208      AYUVToVURow_C
+468  0x0000f734 0x0040f734 GLOBAL FUNC   284      hs_ai_get_video::~hs_ai_get_video()
+469  0x00025a04 0x00425a04 WEAK   FUNC   84       std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+472  0x00032834 0x00432834 WEAK   FUNC   1064     std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::_M_make_range(char, char)
+473  0x0002c46c 0x0042c46c WEAK   FUNC   360      std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>)
+474  0x00052e54 0x00452e54 GLOBAL FUNC   80       ABGRToYJRow_C
+475  0x00025988 0x00425988 WEAK   FUNC   20       std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+476  ---------- 0x004816e8 GLOBAL OBJ    4        ai_app
+477  0x0002c5d4 0x0042c5d4 WEAK   FUNC   360      std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>)
+478  0x0000a110 0x0040a110 WEAK   FUNC   692      std::unique_ptr<wsKlipper, std::default_delete<wsKlipper> >::~unique_ptr()
+480  0x00012200 0x00412200 GLOBAL FUNC   36       hs_ipcsem_post(sem_t*)
+482  0x0003caac 0x0043caac WEAK   FUNC   36       std::thread::~thread()
+483  0x00061e90 0x00461e90 GLOBAL OBJ    160      kYuvV2020Constants
+485  ---------- 0x0048135c WEAK   OBJ    44       vtable for __cxxabiv1::__class_type_info
+486  ---------- 0x00481388 WEAK   OBJ    40       vtable for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+487  0x00053580 0x00453580 GLOBAL FUNC   88       RAWToYJRow_C
+489  0x0003cf88 0x0043cf88 GLOBAL FUNC   516      ObbrecLidar::setOpt(int, int, int, int, int)
+495  0x00021e9c 0x00421e9c GLOBAL FUNC   536      GCodeParam::splitFile()
+496  0x000258a4 0x004258a4 WEAK   FUNC   76       std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, false, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+499  0x0001424c 0x0041424c GLOBAL FUNC   1024     ai_engine_app::printingSubStateSleep(int)
+500  0x00027ec4 0x00427ec4 WEAK   FUNC   132      std::__detail::_State<char>::_State(std::__detail::_State<char>&&)
+504  0x0004accc 0x0044accc GLOBAL FUNC   392      SplitUVPlane_16
+508  0x0003cefc 0x0043cefc GLOBAL FUNC   40       ObbrecLidar::ObbrecLidar()
+512  ---------- 0x004817b0 WEAK   OBJ    8        guard variable for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, false>::operator()(char) const::__nul
+513  0x00014ebc 0x00414ebc GLOBAL FUNC   744      ai_engine_app::pausedPrintingRun()
+514  0x0002dd10 0x0042dd10 WEAK   FUNC   408      void std::vector<std::__cxx11::regex_traits<char>::_RegexMask, std::allocator<std::__cxx11::regex_traits<char>::_RegexMask> >::_M_realloc_insert<std::__cxx11::regex_traits<char>::_RegexMask const&>(__gnu_cxx::__normal_iterator<std::__cxx11::regex_traits<char>::_RegexMask*, std::vector<std::__cxx11::regex_traits<char>::_RegexMask, std::allocator<std::__cxx11::regex_traits<char>::_RegexMask> > >, std::__cxx11::regex_traits<char>::_RegexMask const&)
+516  0x0002db48 0x0042db48 WEAK   FUNC   456      void std::deque<long, std::allocator<long> >::_M_push_back_aux<long const&>(long const&)
+517  0x0000de90 0x0040de90 GLOBAL FUNC   224      hs_ai_get_video::init_decoder(int, int)
+520  0x00051a90 0x00451a90 GLOBAL FUNC   116      ABGRToAR30Row_C
+521  0x0005397c 0x0045397c GLOBAL FUNC   912      RGB565ToUVRow_C
+522  0x000514e0 0x004514e0 GLOBAL FUNC   64       ARGBToBGRARow_C
+523  0x0002eb64 0x0042eb64 WEAK   FUNC   868      std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+524  0x00025b84 0x00425b84 WEAK   FUNC   44       std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+528  0x000514a0 0x004514a0 GLOBAL FUNC   64       ARGBToABGRRow_C
+529  0x00060220 0x00460220 WEAK   OBJ    8        typeinfo for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, true, true>
+530  0x00058798 0x00458798 GLOBAL FUNC   748      NV21ToARGBRow_C
+531  0x0005c3f8 0x0045c3f8 GLOBAL FUNC   168      ScaleMaxSamples_C
+532  0x00028738 0x00428738 WEAK   FUNC   600      std::__detail::_Scanner<char>::_M_scan_in_brace()
+534  0x000221ac 0x004221ac GLOBAL FUNC   776      parseStrNum(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<double, std::allocator<double> >&)
+535  0x000134dc 0x004134dc GLOBAL FUNC   224      ai_engine_app::setAIDetectType(bool)
+536  0x00051110 0x00451110 GLOBAL FUNC   68       RGB24ToARGBRow_C
+537  0x00012358 0x00412358 GLOBAL FUNC   68       hs_ipcsem_nowait(sem_t*)
+539  0x0002093c 0x0042093c GLOBAL FUNC   104      start_cpu_monitor(double)
+541  0x00022998 0x00422998 GLOBAL FUNC   1032     GCodeParam::initPosMapAndPattern(std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int (*)(GCodePos&, std::bitset<4u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&), std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(GCodePos&, std::bitset<4u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> > >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+543  0x0005c4a0 0x0045c4a0 GLOBAL FUNC   108      ScaleSamples_C
+546  0x00012e00 0x00412e00 GLOBAL FUNC   1120     ai_engine_app::updateAIConfigata(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+548  0x0004d358 0x0044d358 GLOBAL FUNC   320      ARGBAdd
+550  ---------- 0x004813b0 GLOBAL OBJ    140      std::cout
+552  0x000603a0 0x004603a0 WEAK   OBJ    8        typeinfo for std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>
+553  0x00028ad8 0x00428ad8 WEAK   FUNC   836      void std::vector<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > >, std::allocator<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > > > >::_M_realloc_insert<long&, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > const&>(__gnu_cxx::__normal_iterator<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > >*, std::vector<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > >, std::allocator<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > > > > >, long&, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > const&)
+557  0x0002087c 0x0042087c GLOBAL FUNC   72       get_total_time()
+558  0x000164e0 0x004164e0 GLOBAL FUNC   916      ai_engine_app::QrCodeRun()
+559  0x000312ec 0x004312ec WEAK   FUNC   1840     bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&)
+560  0x0002cd28 0x0042cd28 WEAK   FUNC   232      std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_repeat(long, long, bool)
+561  0x0003468c 0x0043468c WEAK   FUNC   1192     std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::_M_ready()
+562  0x00034060 0x00434060 WEAK   FUNC   860      std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::_M_ready()
+563  0x0003b6f8 0x0043b6f8 GLOBAL FUNC   1508     wsKlipper::sendGcodeFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+565  0x0001dd40 0x0041dd40 WEAK   FUNC   64       std::mutex::lock()
+566  0x00050810 0x00450810 GLOBAL FUNC   296      ARGBExtractAlpha
+568  0x000460d0 0x004460d0 GLOBAL FUNC   112      ScaleARGBRowDown2_C
+569  0x00060448 0x00460448 WEAK   OBJ    70       typeinfo name for std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>
+571  0x000566cc 0x004566cc GLOBAL FUNC   348      I410ToAR30Row_C
+573  0x00037db8 0x00437db8 WEAK   FUNC   768      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_assertion()
+578  0x000354c0 0x004354c0 WEAK   FUNC   692      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_character_class_matcher<true, false>()
+579  ---------- 0x00481700 WEAK   OBJ    8        guard variable for wsKlipper::getInstance()::instance
+582  0x00055be4 0x00455be4 GLOBAL FUNC   888      I212ToARGBRow_C
+586  0x0002123c 0x0042123c GLOBAL FUNC   220      parsePA_NozzleTargetTemp(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+587  0x0003d458 0x0043d458 GLOBAL FUNC   56       ObbrecLidar::getChecksum(unsigned char const*, unsigned int)
+591  0x0001bb94 0x0041bb94 GLOBAL FUNC   324      ai_engine_app::sensorDetRun()
+592  0x0001dcb8 0x0041dcb8 WEAK   FUNC   16       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(std::atomic<bool>&), ai_engine_app*, std::atomic<bool>&> > >::~_State_impl()
+594  0x0002c73c 0x0042c73c WEAK   FUNC   128      std::_Deque_base<long, std::allocator<long> >::~_Deque_base()
+596  0x0004b2e4 0x0044b2e4 GLOBAL FUNC   248      NV21ToNV12
+601  0x0000bef8 0x0040bef8 WEAK   FUNC   520      ai_engine_app::~ai_engine_app()
+605  0x00060130 0x00460130 WEAK   OBJ    8        typeinfo for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, false, false>
+606  0x0002eec8 0x0042eec8 WEAK   FUNC   1056     std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+607  0x0002669c 0x0042669c WEAK   FUNC   260      double __gnu_cxx::__stoa<double, double, char>(double (*)(char const*, char**), char const*, char const*, unsigned int*)
+610  0x00047bbc 0x00447bbc GLOBAL FUNC   392      ScalePlaneVertical_16To8
+611  0x0003f0f8 0x0043f0f8 GLOBAL FUNC   1276     ObbrecLidar::captureImgImp(bool)
+612  0x0001f838 0x0041f838 WEAK   FUNC   748      bool JsonAccessor::getValue<std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >&) const
+613  0x00021140 0x00421140 GLOBAL FUNC   96       GCodeParam::~GCodeParam()
+615  0x00060440 0x00460440 WEAK   OBJ    8        typeinfo for std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>
+616  ---------- 0x0048143c WEAK   OBJ    40       vtable for std::basic_ifstream<char, std::char_traits<char> >
+618  0x00043014 0x00443014 GLOBAL FUNC   508      I444Scale_12
+619  0x00050240 0x00450240 GLOBAL FUNC   328      ARGBPolynomial
+620  0x00026f40 0x00426f40 WEAK   FUNC   60       _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_reh
+621  0x00025ef8 0x00425ef8 WEAK   FUNC   84       std::_Function_handler<bool (char), std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, true, true> >::_M_invoke(std::_Any_data const&, char&&)
+622  0x0004ebbc 0x0044ebbc GLOBAL FUNC   328      ARGBShade
+623  0x00035f54 0x00435f54 WEAK   FUNC   692      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_character_class_matcher<true, true>()
+625  0x00027e3c 0x00427e3c WEAK   FUNC   136      std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+626  0x00057ea8 0x00457ea8 GLOBAL FUNC   784      I422ToARGB1555Row_C
+627  0x00060304 0x00460304 WEAK   OBJ    8        typeinfo for std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, true, false>
+630  0x00060358 0x00460358 WEAK   OBJ    70       typeinfo name for std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>
+631  ---------- 0x004816f0 WEAK   OBJ    8        guard variable for ai_engine_app::getInstance()::instance
+632  0x00013630 0x00413630 GLOBAL FUNC   116      ai_engine_app::setAIFlowRatioFlag(bool)
+636  0x0002b188 0x0042b188 WEAK   FUNC   744      std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_M_lookahead(long)
+638  0x00042724 0x00442724 GLOBAL FUNC   636      I420Scale_16
+639  0x00026160 0x00426160 WEAK   FUNC   864      std::__detail::_Scanner<char>::_M_eat_escape_ecma()
+641  0x00027ec4 0x00427ec4 WEAK   FUNC   132      std::__detail::_State<char>::_State(std::__detail::_State<char>&&)
+643  0x00046140 0x00446140 GLOBAL FUNC   128      ScaleARGBRowDown2Linear_C
+645  0x00051290 0x00451290 GLOBAL FUNC   124      ARGB1555ToARGBRow_C
+647  0x00011d18 0x00411d18 WEAK   FUNC   52       StackLogger::~StackLogger()
+648  0x0000d854 0x0040d854 GLOBAL FUNC   1596     hs_ai_get_video::getDecoderDevName(char*, int)
+649  0x0000c100 0x0040c100 WEAK   FUNC   600      std::unique_ptr<ai_engine_app, std::default_delete<ai_engine_app> >::~unique_ptr()
+653  0x0005c760 0x0045c760 GLOBAL FUNC   160      NV21ToYUV24Row_C
+654  0x0003ca00 0x0043ca00 WEAK   FUNC   8        std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+655  0x0003ee04 0x0043ee04 GLOBAL FUNC   228      ObbrecLidar::setExposure(int)
+656  0x0001e5f8 0x0041e5f8 WEAK   FUNC   76       AIResults::~AIResults()
+657  0x000529e0 0x004529e0 GLOBAL FUNC   532      RAWToUVRow_C
+658  0x00026984 0x00426984 WEAK   FUNC   92       _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR14FlowParametersRSt6bitsetILj8EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehas
+668  0x0004344c 0x0044344c GLOBAL FUNC   572      I422Scale_16
+669  0x00015778 0x00415778 GLOBAL FUNC   676      ai_engine_app::platformForeignDet(std::vector<cv::Mat, std::allocator<cv::Mat> > const&)
+670  0x000522ac 0x004522ac GLOBAL FUNC   528      ABGRToUVRow_C
+671  0x00046480 0x00446480 GLOBAL FUNC   320      ScaleARGBCols64_C
+672  0x0003fad4 0x0043fad4 WEAK   FUNC   400      std::map<unsigned char, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned char>, std::allocator<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned char> const&, std::allocator<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+673  0x00054d48 0x00454d48 GLOBAL FUNC   264      I444ToARGBRow_C
+674  0x000556e4 0x004556e4 GLOBAL FUNC   964      I210AlphaToARGBRow_C
+675  0x0002972c 0x0042972c WEAK   FUNC   472      void std::deque<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::_M_push_back_aux<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > const&>(std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > const&)
+676  0x00056314 0x00456314 GLOBAL FUNC   952      I212ToAR30Row_C
+677  0x0003cad0 0x0043cad0 WEAK   FUNC   92       std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+678  0x0005199c 0x0045199c GLOBAL FUNC   244      ARGBToARGB4444Row_C
+679  0x00028374 0x00428374 WEAK   FUNC   964      std::__detail::_Scanner<char>::_M_scan_normal()
+681  0x0003d490 0x0043d490 GLOBAL FUNC   72       ObbrecLidar::isFrameComplete(std::vector<unsigned char, std::allocator<unsigned char> > const&)
+684  0x0002c820 0x0042c820 WEAK   FUNC   128      std::function<bool (char)>::function(std::function<bool (char)> const&)
+685  0x0001dcfc 0x0041dcfc WEAK   FUNC   16       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(), ai_engine_app*> > >::~_State_impl()
+686  ---------- 0x004817d0 WEAK   OBJ    8        guard variable for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, false>::operator()(char) const::__nul
+687  0x0004b3dc 0x0044b3dc GLOBAL FUNC   284      DetilePlane
+688  0x0000bba4 0x0040bba4 WEAK   FUNC   100      std::_Rb_tree<AIMode, std::pair<AIMode const, HS_AI_RESULT_TYPE>, std::_Select1st<std::pair<AIMode const, HS_AI_RESULT_TYPE> >, std::less<AIMode>, std::allocator<std::pair<AIMode const, HS_AI_RESULT_TYPE> > >::_M_erase(std::_Rb_tree_node<std::pair<AIMode const, HS_AI_RESULT_TYPE> >*)
+690  0x00029480 0x00429480 WEAK   FUNC   252      std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>::~_BracketMatcher()
+691  0x0003d544 0x0043d544 GLOBAL FUNC   664      ObbrecLidar::findSerialPortById(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+693  0x00039150 0x00439150 GLOBAL FUNC   784      wsKlipper::parseSensorPressData(Json::Value const&)
+694  0x0004ba58 0x0044ba58 GLOBAL FUNC   388      MergeRGBPlane
+697  0x0000b248 0x0040b248 WEAK   FUNC   104      SubState::~SubState()
+698  0x0005ad7c 0x0045ad7c GLOBAL FUNC   36       CopyRow_16_C
+701  0x0004a3cc 0x0044a3cc GLOBAL FUNC   352      I444Copy
+703  0x00060048 0x00460048 WEAK   OBJ    70       typeinfo name for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, false>
+705  0x0003e4fc 0x0043e4fc GLOBAL FUNC   740      ObbrecLidar::receiveFrame(std::vector<unsigned char, std::allocator<unsigned char> >&, int)
+706  0x00051cc0 0x00451cc0 GLOBAL FUNC   64       AR64ToAB64Row_C
+709  ---------- 0x00481730 WEAK   OBJ    8        guard variable for ObbrecLidar::getInstance()::instance
+710  0x00049ef0 0x00449ef0 GLOBAL FUNC   284      Convert16To8Plane
+711  0x0002b9fc 0x0042b9fc WEAK   FUNC   256      std::__cxx11::regex_iterator<char const*, char, std::__cxx11::regex_traits<char> >::regex_iterator(char const*, char const*, std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> > const&, std::regex_constants::match_flag_type)
+712  0x0002159c 0x0042159c GLOBAL FUNC   256      parsePos_XMin(GCodePos&, std::bitset<4u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+713  0x000213ec 0x004213ec GLOBAL FUNC   220      parseEM_NozzleTargetTemp(FlowEmParameters&, std::bitset<3u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+714  0x00060498 0x00460498 WEAK   OBJ    28       vtable for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
+715  0x0000eab4 0x0040eab4 GLOBAL FUNC   216      hs_ai_get_video::getNozzleImage(bool)
+718  0x0004a12c 0x0044a12c GLOBAL FUNC   312      Convert8To8Plane
+722  0x000601d8 0x004601d8 WEAK   OBJ    70       typeinfo name for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, true, true>
+723  0x00055aa8 0x00455aa8 GLOBAL FUNC   316      I410AlphaToARGBRow_C
+724  0x0004e178 0x0044e178 GLOBAL FUNC   448      RGBColorMatrix
+725  0x00050528 0x00450528 GLOBAL FUNC   84       ByteToFloat
+728  0x00071030 0x00481030 GLOBAL OBJ    0        _GLOBAL_OFFSET_TABLE_
+729  0x00059b7c 0x00459b7c GLOBAL FUNC   312      I400ToARGBRow_C
+730  0x0000b2b0 0x0040b2b0 WEAK   FUNC   372      std::deque<Json::Value, std::allocator<Json::Value> >::~deque()
+733  0x0001e024 0x0041e024 WEAK   FUNC   632      hs_ai_get_video::setResultType(HS_AI_RESULT_TYPE)
+734  0x00033f24 0x00433f24 WEAK   FUNC   316      void std::__adjust_heap<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, int, char, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, int, int, char, __gnu_cxx::__ops::_Iter_less_iter)
+736  0x00038ab4 0x00438ab4 GLOBAL FUNC   1224     wsKlipper::updateCurrentSubState(Json::Value const&)
+737  0x000515d8 0x004515d8 GLOBAL FUNC   64       RGBAToARGBRow_C
+739  0x00055f5c 0x00455f5c GLOBAL FUNC   952      I210ToAR30Row_C
+740  0x000247dc 0x004247dc GLOBAL FUNC   3884     GCodeParam::getFlowEmParam(FlowEmParameters&)
+743  0x00011f60 0x00411f60 WEAK   FUNC   84       std::deque<cv::Mat, std::allocator<cv::Mat> >::_M_pop_front_aux()
+746  0x00061134 0x00461134 WEAK   OBJ    28       vtable for std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, (__gnu_cxx::_Lock_policy)2>
+748  0x00014140 0x00414140 GLOBAL FUNC   16       ai_engine_app::isContinueDet()
+749  0x0002078c 0x0042078c GLOBAL FUNC   240      catch_sig(int)
+750  0x0001ee04 0x0041ee04 WEAK   FUNC   208      std::thread::thread<void (ai_engine_app::*)(std::atomic<bool>&), ai_engine_app*, std::reference_wrapper<std::atomic<bool> > >(void (ai_engine_app::*&&)(std::atomic<bool>&), ai_engine_app*&&, std::reference_wrapper<std::atomic<bool> >&&)
+751  0x00037540 0x00437540 WEAK   FUNC   2168     std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_Compiler(char const*, char const*, std::locale const&, std::regex_constants::syntax_option_type)
+755  ---------- 0x004817a0 WEAK   OBJ    8        guard variable for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, true>::operator()(char) const::__nul
+756  0x00025718 0x00425718 WEAK   FUNC   48       std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+757  0x0002179c 0x0042179c GLOBAL FUNC   256      parsePos_XMax(GCodePos&, std::bitset<4u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+758  0x0002cbb8 0x0042cbb8 WEAK   FUNC   156      std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_state(std::__detail::_State<char>)
+760  0x0003334c 0x0043334c WEAK   FUNC   1064     std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::_M_make_range(char, char)
+763  ---------- 0x00481464 WEAK   OBJ    40       vtable for std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+767  0x00056c60 0x00456c60 GLOBAL FUNC   880      P210ToAR30Row_C
+769  0x000603f8 0x004603f8 WEAK   OBJ    70       typeinfo name for std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>
+773  0x0003ca68 0x0043ca68 WEAK   FUNC   16       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (wsKlipper::*)(), wsKlipper*> > >::~_State_impl()
+774  0x0001d368 0x0041d368 GLOBAL FUNC   1168     ai_engine_app::parserBedSize(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+777  0x0002e14c 0x0042e14c WEAK   FUNC   340      std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > std::__cxx11::regex_traits<char>::transform_primary<char const*>(char const*, char const*) const
+778  0x000240dc 0x004240dc GLOBAL FUNC   1792     GCodeParam::getGcodePos(GCodePos&)
+782  0x0005ff9c 0x0045ff9c WEAK   OBJ    12       typeinfo for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
+783  0x00062110 0x00462110 GLOBAL OBJ    160      kYuvF709Constants
+785  ---------- 0x0048148c WEAK   OBJ    60       vtable for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+786  0x00012ccc 0x00412ccc GLOBAL FUNC   308      ai_engine_app::popenCmd(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+787  0x00061f30 0x00461f30 GLOBAL OBJ    160      kYvu2020Constants
+790  0x00051ffc 0x00451ffc GLOBAL FUNC   80       BGRAToYRow_C
+791  0x0000b248 0x0040b248 WEAK   FUNC   104      SubState::~SubState()
+794  0x000281c8 0x004281c8 WEAK   FUNC   428      std::__detail::_Scanner<char>::_M_eat_escape_posix()
+796  0x000555c0 0x004555c0 GLOBAL FUNC   292      I410ToARGBRow_C
+797  0x0005ee0c 0x0045ee0c WEAK   OBJ    12       typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(), ai_engine_app*> > >
+798  0x0003d1d0 0x0043d1d0 GLOBAL FUNC   648      ObbrecLidar::buildFrameCmd1(unsigned char, std::vector<unsigned char, std::allocator<unsigned char> > const&)
+799  0x0000c930 0x0040c930 WEAK   FUNC   1724     ai_engine_app::getInstance()
+800  0x00027f48 0x00427f48 WEAK   FUNC   640      std::__detail::_Scanner<char>::_M_eat_escape_awk()
+802  0x0004efb0 0x0044efb0 GLOBAL FUNC   32       ARGBInterpolate
+803  0x000524bc 0x004524bc GLOBAL FUNC   80       RGBAToYRow_C
+805  0x0000c644 0x0040c644 WEAK   FUNC   248      std::_Rb_tree<AIDetectState, std::pair<AIDetectState const, bool>, std::_Select1st<std::pair<AIDetectState const, bool> >, std::less<AIDetectState>, std::allocator<std::pair<AIDetectState const, bool> > >::_M_get_insert_unique_pos(AIDetectState const&)
+807  ---------- 0x004814c8 WEAK   OBJ    16       VTT for std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >
+809  0x00025bb8 0x00425bb8 WEAK   FUNC   8        std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+810  0x000231f8 0x004231f8 GLOBAL FUNC   3812     GCodeParam::getFlowPaParam(FlowParameters&)
+815  0x000530b4 0x004530b4 GLOBAL FUNC   80       RGBAToYJRow_C
+817  0x0003f9dc 0x0043f9dc WEAK   FUNC   248      std::_Rb_tree<unsigned char, std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned char>, std::allocator<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_insert_unique_pos(unsigned char const&)
+820  0x0000e090 0x0040e090 GLOBAL FUNC   692      hs_ai_get_video::report_status(HS_AI_STAGE_TYPE, HS_AI_STATUS_TYPE)
+821  0x00020320 0x00420320 WEAK   FUNC   456      __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > std::__find_if<__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_pred<int (*)(int)> >(__gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_pred<int (*)(int)>, std::random_access_iterator_tag)
+822  0x0003d528 0x0043d528 GLOBAL FUNC   28       ObbrecLidar::validateChecksum(unsigned char const*, unsigned int)
+823  0x000176bc 0x004176bc GLOBAL FUNC   468      ai_engine_app::warpRun()
+824  0x00021c9c 0x00421c9c GLOBAL FUNC   256      parsePA_LayerHeight(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+825  0x00039460 0x00439460 GLOBAL FUNC   1868     wsKlipper::demandSensorPressData(int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+826  0x0004ae54 0x0044ae54 GLOBAL FUNC   368      MergeUVPlane_16
+827  0x000211a0 0x004211a0 GLOBAL FUNC   156      GCodeParam::getLineEnd()
+831  0x00043210 0x00443210 GLOBAL FUNC   572      I422Scale
+832  0x0004b8cc 0x0044b8cc GLOBAL FUNC   396      SplitRGBPlane
+835  0x00025f4c 0x00425f4c WEAK   FUNC   212      std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+837  0x00029904 0x00429904 WEAK   FUNC   76       std::deque<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::push_back(std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > const&)
+839  0x000621b0 0x004621b0 GLOBAL OBJ    160      kYvuH709Constants
+840  0x00014150 0x00414150 GLOBAL FUNC   224      ai_engine_app::startAppThread()
+843  0x00021b9c 0x00421b9c GLOBAL FUNC   256      parsePA_Decel(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+844  0x0002c5d4 0x0042c5d4 WEAK   FUNC   360      std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>)
+845  0x0003f738 0x0043f738 WEAK   FUNC   8        std::map<unsigned char, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned char>, std::allocator<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::~map()
+846  0x00009930 0x00409930 GLOBAL FUNC   0        __start
+847  0x000513e0 0x004513e0 GLOBAL FUNC   104      AR30ToABGRRow_C
+848  0x0002d280 0x0042d280 WEAK   FUNC   172      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_any_matcher_ecma<false, true>()
+850  0x0002df24 0x0042df24 WEAK   FUNC   120      std::vector<char, std::allocator<char> >::_M_erase(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >)
+853  0x00051dec 0x00451dec GLOBAL FUNC   528      ARGBToUVRow_C
+854  ---------- 0x00481778 GLOBAL OBJ    8        cpu_threshold
+856  0x00025794 0x00425794 WEAK   FUNC   76       std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+858  0x00051198 0x00451198 GLOBAL FUNC   68       RAWToRGBARow_C
+859  0x0006052c 0x0046052c WEAK   OBJ    2        std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_M_is_word(char) const::__s
+860  0x000185e8 0x004185e8 GLOBAL FUNC   1948     ai_engine_app::cavityCamDirtRun()
+861  0x000121a8 0x004121a8 WEAK   FUNC   84       void std::deque<cv::Mat, std::allocator<cv::Mat> >::emplace_back<cv::Mat>(cv::Mat&&)
+862  0x0002b9fc 0x0042b9fc WEAK   FUNC   256      std::__cxx11::regex_iterator<char const*, char, std::__cxx11::regex_traits<char> >::regex_iterator(char const*, char const*, std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> > const&, std::regex_constants::match_flag_type)
+863  0x00051b04 0x00451b04 GLOBAL FUNC   116      ARGBToAR30Row_C
+864  0x00050938 0x00450938 GLOBAL FUNC   296      ARGBCopyYToAlpha
+865  0x00036208 0x00436208 WEAK   FUNC   764      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<true, true>(bool)
+866  0x00050c60 0x00450c60 GLOBAL FUNC   704      UYVYToNV12
+868  0x00058a84 0x00458a84 GLOBAL FUNC   716      NV12ToRGB24Row_C
+869  0x000274c0 0x004274c0 WEAK   FUNC   256      _ZNKSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_re
+870  0x0000ecf4 0x0040ecf4 GLOBAL FUNC   764      hs_ai_get_video::captureSleeptime(int)
+871  0x00061120 0x00461120 WEAK   OBJ    20       vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (wsKlipper::*)(), wsKlipper*> > >
+873  0x0005bce0 0x0045bce0 GLOBAL FUNC   160      I422ToYUY2Row_C
+875  0x00051218 0x00451218 GLOBAL FUNC   120      RGB565ToARGBRow_C
+879  0x0004aa40 0x0044aa40 GLOBAL FUNC   328      SplitUVPlane
+880  0x00028fc0 0x00428fc0 WEAK   FUNC   356      std::__detail::_Scanner<char>::_M_eat_class(char)
+882  0x00060090 0x00460090 WEAK   OBJ    8        typeinfo for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, false>
+884  0x000602c0 0x004602c0 WEAK   OBJ    67       typeinfo name for std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, true, false>
+885  0x0004df3c 0x0044df3c GLOBAL FUNC   244      ARGBSepia
+886  0x0004c738 0x0044c738 GLOBAL FUNC   124      I400Mirror
+887  0x0001aa90 0x0041aa90 GLOBAL FUNC   3372     ai_engine_app::flowEMRun()
+888  0x00046288 0x00446288 GLOBAL FUNC   132      ScaleARGBRowDownEven_C
+889  ---------- 0x004817b8 WEAK   OBJ    1        std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, false>::operator()(char) const::__nul
+890  0x00016204 0x00416204 GLOBAL FUNC   732      ai_engine_app::stopAppThread()
+892  ---------- 0x004816e4 GLOBAL OBJ    4        hs_ai_video
+895  0x00061fd0 0x00461fd0 GLOBAL OBJ    160      kYuv2020Constants
+896  0x00029324 0x00429324 WEAK   FUNC   168      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier()::{lambda()#1}::operator()() const
+897  0x000136a4 0x004136a4 GLOBAL FUNC   432      ai_engine_app::createFlowPAFile(FlowParameters&)
+898  0x000518a0 0x004518a0 GLOBAL FUNC   252      ARGBToARGB1555Row_C
+899  0x00051c70 0x00451c70 GLOBAL FUNC   80       AB64ToARGBRow_C
+900  0x0000a3c4 0x0040a3c4 WEAK   FUNC   1352     hs_ai_get_video::getInstance()
+901  0x0004ab88 0x0044ab88 GLOBAL FUNC   324      MergeUVPlane
+903  0x0005ed20 0x0045ed20 WEAK   OBJ    10       typeinfo name for Observer
+904  0x00062430 0x00462430 GLOBAL OBJ    160      kYvuI601Constants
+905  0x0005d530 0x0045d530 GLOBAL FUNC   164      __libc_csu_init
+906  0x0000b56c 0x0040b56c WEAK   FUNC   1264     wsKlipper::getInstance()
+909  0x0004cc10 0x0044cc10 GLOBAL FUNC   320      ARGBBlend
+912  0x0004a52c 0x0044a52c GLOBAL FUNC   372      I210Copy
+915  0x00011fb4 0x00411fb4 WEAK   FUNC   500      void std::deque<cv::Mat, std::allocator<cv::Mat> >::_M_push_back_aux<cv::Mat>(cv::Mat&&)
+916  ---------- 0x004817c0 WEAK   OBJ    8        guard variable for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, true>::operator()(char) const::__nul
+919  0x0001c7a8 0x0041c7a8 GLOBAL FUNC   3008     ai_engine_app::appParserConfig()
+923  0x0006026c 0x0046026c WEAK   OBJ    8        typeinfo for std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, false>
+925  ---------- 0x004817d8 WEAK   OBJ    1        std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, false>::operator()(char) const::__nul
+926  0x0000f734 0x0040f734 GLOBAL FUNC   284      hs_ai_get_video::~hs_ai_get_video()
+928  0x0000e344 0x0040e344 GLOBAL FUNC   168      hs_ai_get_video::remap_shared_memory()
+929  0x0002dea8 0x0042dea8 WEAK   FUNC   124      __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > > std::__unique<__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter>(__gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__normal_iterator<char*, std::vector<char, std::allocator<char> > >, __gnu_cxx::__ops::_Iter_equal_to_iter)
+933  0x00021318 0x00421318 GLOBAL FUNC   212      parsePA_BedTargetTemp(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+934  0x00070e00 0x00480e00 WEAK   OBJ    512      std::__cxx11::regex_traits<char>::lookup_collatename<char const*>(char const*, char const*) const::__collatenames
+936  0x000312ac 0x004312ac WEAK   FUNC   64       void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::emplace_back<std::pair<char, char> >(std::pair<char, char>&&)
+938  0x000603f0 0x004603f0 WEAK   OBJ    8        typeinfo for std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>
+939  0x0002d130 0x0042d130 WEAK   FUNC   172      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_any_matcher_posix<true, true>()
+942  0x0005ee18 0x0045ee18 WEAK   OBJ    20       vtable for ai_engine_app
+945  0x00012224 0x00412224 GLOBAL FUNC   196      hs_ipcsem_wait(sem_t*, int)
+947  0x00029124 0x00429124 WEAK   FUNC   428      std::__detail::_Scanner<char>::_M_scan_in_bracket()
+948  0x0005bd80 0x0045bd80 GLOBAL FUNC   160      I422ToUYVYRow_C
+949  0x0002957c 0x0042957c WEAK   FUNC   180      std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>::~_BracketMatcher()
+950  0x0005c50c 0x0045c50c GLOBAL FUNC   92       GaussRow_C
+952  0x0001e380 0x0041e380 WEAK   FUNC   632      ai_engine_app::setAIDetectState(AIDetectState)
+957  0x0003cf24 0x0043cf24 GLOBAL FUNC   100      ObbrecLidar::~ObbrecLidar()
+958  0x0005fff0 0x0045fff0 WEAK   OBJ    8        typeinfo for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, false>
+959  0x00042e18 0x00442e18 GLOBAL FUNC   508      I444Scale_16
+960  0x00051520 0x00451520 GLOBAL FUNC   64       ARGBToRGBARow_C
+962  0x00051618 0x00451618 GLOBAL FUNC   208      ARGBToRGB565Row_C
+964  0x0002fc04 0x0042fc04 WEAK   FUNC   1896     std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >::_M_clone()
+965  0x00028e1c 0x00428e1c WEAK   FUNC   352      void std::vector<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > >, std::allocator<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > > > >::emplace_back<long&, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > const&>(long&, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > const&)
+968  0x00020b30 0x00420b30 GLOBAL FUNC   196      get_memory_usage()
+969  0x0005af6c 0x0045af6c GLOBAL FUNC   104      UYVYToUVRow_C
+971  0x0002cf34 0x0042cf34 WEAK   FUNC   164      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_any_matcher_posix<false, false>()
+975  0x00051b78 0x00451b78 GLOBAL FUNC   84       ARGBToAR64Row_C
+978  0x00020bf4 0x00420bf4 GLOBAL FUNC   360      memory_monitor(void*)
+979  0x0005ee40 0x0045ee40 WEAK   OBJ    20       vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(), ai_engine_app*> > >
+980  0x000429a0 0x004429a0 GLOBAL FUNC   636      I420Scale_12
+984  0x00015c34 0x00415c34 GLOBAL FUNC   468      ai_engine_app::flowCalibDet(std::vector<cv::Mat, std::allocator<cv::Mat> > const&, float&, bool)
+988  0x0000bcec 0x0040bcec WEAK   FUNC   524      ai_engine_app::~ai_engine_app()
+989  0x0005fff8 0x0045fff8 WEAK   OBJ    70       typeinfo name for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, true>
+993  0x00061044 0x00461044 WEAK   OBJ    73       typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (wsKlipper::*)(), wsKlipper*> > >
+995  0x0002d5ec 0x0042d5ec WEAK   FUNC   228      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<true, false>()
+996  0x00056828 0x00456828 GLOBAL FUNC   808      P210ToARGBRow_C
+999  0x0002593c 0x0042593c WEAK   FUNC   76       std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+1001 0x0000e548 0x0040e548 GLOBAL FUNC   304      hs_ai_get_video::open_remap_shm()
+1002 0x0002582c 0x0042582c WEAK   FUNC   36       std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+1003 0x0006109c 0x0046109c WEAK   OBJ    118      typeinfo name for std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, (__gnu_cxx::_Lock_policy)2>
+1004 0x00038f7c 0x00438f7c GLOBAL FUNC   468      wsKlipper::extractStatus(Json::Value const&)
+1005 0x00055248 0x00455248 GLOBAL FUNC   888      I210ToARGBRow_C
+1006 ---------- 0x004814d8 WEAK   OBJ    44       vtable for __cxxabiv1::__si_class_type_info
+1007 0x00043688 0x00443688 GLOBAL FUNC   572      I422Scale_12
+1008 ---------- 0x00481504 WEAK   OBJ    32       typeinfo for std::ctype<char>
+1009 0x00051154 0x00451154 GLOBAL FUNC   68       RAWToARGBRow_C
+1010 0x00051448 0x00451448 GLOBAL FUNC   88       AR30ToAB30Row_C
+1011 0x00043ae0 0x00443ae0 GLOBAL FUNC   412      NV24Scale
+1012 0x00036504 0x00436504 WEAK   FUNC   240      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_bracket_expression()
+1013 0x000123a4 0x004123a4 GLOBAL FUNC   164      hs_ipcshm_get(char*, unsigned int, void**)
+1014 0x000220b4 0x004220b4 GLOBAL FUNC   248      GCodeParam::init(char const*)
+1017 ---------- 0x00481524 WEAK   OBJ    8        typeinfo for std::thread::_State
+1018 0x000276c0 0x004276c0 WEAK   FUNC   496      std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > >::_M_default_append(unsigned int)
+1019 0x0000b424 0x0040b424 WEAK   FUNC   112      std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > cv::CommandLineParser::get<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool) const
+1020 0x0005ed2c 0x0045ed2c WEAK   OBJ    8        typeinfo for Observer
+1021 0x00018d84 0x00418d84 GLOBAL FUNC   3416     ai_engine_app::getPhotoPos(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<cv::Point3_<float>, std::allocator<cv::Point3_<float> > >&)
+1023 0x00059d18 0x00459d18 GLOBAL FUNC   104      MirrorRow_16_C
+1024 0x00051d9c 0x00451d9c GLOBAL FUNC   80       ARGBToYRow_C
+1027 0x0002df9c 0x0042df9c WEAK   FUNC   80       std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~pair()
+1028 0x0004661c 0x0044661c GLOBAL FUNC   672      ScaleARGBFilterCols_C
+1029 0x000273c0 0x004273c0 WEAK   FUNC   256      _ZNKSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR14FlowParametersRSt6bitsetILj8EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_reha
+1030 0x00057590 0x00457590 GLOBAL FUNC   808      I422AlphaToARGBRow_C
+1031 0x0004aa28 0x0044aa28 GLOBAL FUNC   24       NV21Copy
+1032 0x0000bcec 0x0040bcec WEAK   FUNC   524      ai_engine_app::~ai_engine_app()
+1033 0x00053314 0x00453314 GLOBAL FUNC   88       RGB24ToYJRow_C
+1035 0x0005057c 0x0045057c GLOBAL FUNC   364      ARGBLumaColorTable
+1037 ---------- 0x00481738 WEAK   OBJ    40       ObbrecLidar::getInstance()::instance
+1038 0x0002a288 0x0042a288 WEAK   FUNC   984      std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_M_lookahead(long)
+1040 0x00035774 0x00435774 WEAK   FUNC   764      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<true, false>(bool)
+1041 0x000543ac 0x004543ac GLOBAL FUNC   140      ARGBToUV444Row_C
+1043 0x0003f740 0x0043f740 WEAK   FUNC   668      void std::vector<unsigned char, std::allocator<unsigned char> >::_M_range_insert<__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > > >(__gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, __gnu_cxx::__normal_iterator<unsigned char*, std::vector<unsigned char, std::allocator<unsigned char> > >, std::forward_iterator_tag)
+1044 0x00052988 0x00452988 GLOBAL FUNC   88       RAWToYRow_C
+1045 0x000293cc 0x004293cc WEAK   FUNC   180      std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::~_BracketMatcher()
+1048 0x00061090 0x00461090 WEAK   OBJ    12       typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (wsKlipper::*)(), wsKlipper*> > >
+1049 0x00026908 0x00426908 WEAK   FUNC   124      _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR8GCodePosRSt6bitsetILj4EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_polic
+1050 0x00056b50 0x00456b50 GLOBAL FUNC   272      P410ToARGBRow_C
+1051 0x00059878 0x00459878 GLOBAL FUNC   772      I422ToRGBARow_C
+1056 0x00020e14 0x00420e14 GLOBAL FUNC   40       stop_memory_monitor()
+1058 0x00032c5c 0x00432c5c WEAK   FUNC   1776     bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>&)
+1061 0x0001dc50 0x0041dc50 WEAK   FUNC   48       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(), ai_engine_app*> > >::_M_run()
+1063 0x0000fd5c 0x0040fd5c GLOBAL FUNC   8116     hs_ai_get_video::stateMachine()
+1064 0x00011dcc 0x00411dcc WEAK   FUNC   128      std::_Deque_base<HS_AI_RESULT_TYPE, std::allocator<HS_AI_RESULT_TYPE> >::~_Deque_base()
+1069 0x00052774 0x00452774 GLOBAL FUNC   532      RGB24ToUVRow_C
+1072 0x0005250c 0x0045250c GLOBAL FUNC   528      RGBAToUVRow_C
+1074 ---------- 0x0048152c WEAK   OBJ    64       vtable for std::basic_streambuf<char, std::char_traits<char> >
+1077 0x00015fe8 0x00415fe8 GLOBAL FUNC   540      ai_engine_app::CV_CommonDetPort(std::vector<cv::Mat, std::allocator<cv::Mat> > const&, AIMode, int)
+1078 0x00060274 0x00460274 WEAK   OBJ    67       typeinfo name for std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, true>
+1079 0x0000c358 0x0040c358 WEAK   FUNC   248      std::_Rb_tree<AIMode, std::pair<AIMode const, HS_AI_RESULT_TYPE>, std::_Select1st<std::pair<AIMode const, HS_AI_RESULT_TYPE> >, std::less<AIMode>, std::allocator<std::pair<AIMode const, HS_AI_RESULT_TYPE> > >::_M_get_insert_unique_pos(AIMode const&)
+1080 ---------- 0x00481770 GLOBAL OBJ    4        prev_total_time
+1085 0x00014230 0x00414230 GLOBAL FUNC   28       ai_engine_app::onStateChanged(AI_STATE)
+1086 0x0000e728 0x0040e728 GLOBAL FUNC   272      hs_ai_get_video::openStreaming()
+1087 0x0000eff0 0x0040eff0 GLOBAL FUNC   1320     hs_ai_get_video::clearData()
+1088 0x0002bafc 0x0042bafc WEAK   FUNC   356      std::__cxx11::regex_iterator<char const*, char, std::__cxx11::regex_traits<char> >::operator++()
+1090 0x0000b2b0 0x0040b2b0 WEAK   FUNC   372      std::deque<Json::Value, std::allocator<Json::Value> >::~deque()
+1091 0x000257e0 0x004257e0 WEAK   FUNC   76       std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, true> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+1093 0x00053878 0x00453878 GLOBAL FUNC   140      ARGB1555ToYRow_C
+1095 0x0001dd0c 0x0041dd0c WEAK   FUNC   52       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(), ai_engine_app*> > >::~_State_impl()
+1097 0x00021120 0x00421120 GLOBAL FUNC   32       GCodeParam::GCodeParam()
+1106 0x0003c710 0x0043c710 GLOBAL FUNC   744      wsKlipper::extractId(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1107 ---------- 0x0048156c WEAK   OBJ    12       typeinfo for std::regex_error
+1111 0x00061114 0x00461114 WEAK   OBJ    12       typeinfo for std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, (__gnu_cxx::_Lock_policy)2>
+1113 0x000535d8 0x004535d8 GLOBAL FUNC   532      RAWToUVJRow_C
+1114 0x0000ba5c 0x0040ba5c WEAK   FUNC   328      void std::vector<Observer*, std::allocator<Observer*> >::_M_realloc_insert<Observer* const&>(__gnu_cxx::__normal_iterator<Observer**, std::vector<Observer*, std::allocator<Observer*> > >, Observer* const&)
+1115 ---------- 0x00481578 WEAK   OBJ    40       VTT for std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >
+1116 0x0001e5f8 0x0041e5f8 WEAK   FUNC   76       AIResults::~AIResults()
+1118 0x0002f72c 0x0042f72c WEAK   FUNC   116      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>&)::{lambda(char)#1}::operator()(char) const
+1119 0x0002f84c 0x0042f84c WEAK   FUNC   172      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<true, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>&)::{lambda(char)#1}::operator()(char) const
+1121 0x0002a660 0x0042a660 WEAK   FUNC   188      std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_M_rep_once_more(std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_Match_mode, long)
+1122 0x0003f6c0 0x0043f6c0 WEAK   FUNC   120      std::_Rb_tree<unsigned char, std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned char>, std::allocator<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_erase(std::_Rb_tree_node<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >*)
+1124 0x000468bc 0x004468bc GLOBAL FUNC   864      ScaleARGBFilterCols64_C
+1126 0x00014a58 0x00414a58 GLOBAL FUNC   1124     ai_engine_app::waitePrintingRun()
+1127 0x0002dfec 0x0042dfec WEAK   FUNC   352      std::_Deque_base<long, std::allocator<long> >::_M_initialize_map(unsigned int)
+1129 0x0004cb34 0x0044cb34 GLOBAL FUNC   220      RGB24Mirror
+1130 0x00025bc0 0x00425bc0 WEAK   FUNC   8        std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+1131 0x0004e568 0x0044e568 GLOBAL FUNC   344      ARGBQuantize
+1132 0x0000f96c 0x0040f96c GLOBAL FUNC   1008     hs_ai_get_video::captureImg()
+1134 0x00039bac 0x00439bac GLOBAL FUNC   924      wsKlipper::demandCurTemperature()
+1135 0x00022544 0x00422544 GLOBAL FUNC   1108     GCodeParam::initPAMapAndPattern(std::bitset<8u> const&, std::unordered_map<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, int (*)(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&), std::hash<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::equal_to<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, int (*)(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)> > >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&)
+1139 0x0003ca68 0x0043ca68 WEAK   FUNC   16       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (wsKlipper::*)(), wsKlipper*> > >::~_State_impl()
+1142 0x0000f850 0x0040f850 GLOBAL FUNC   284      hs_ai_get_video::getImageFromQueue()
+1143 0x00051bcc 0x00451bcc GLOBAL FUNC   84       ARGBToAB64Row_C
+1144 0x0005ff28 0x0045ff28 WEAK   OBJ    115      typeinfo name for std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>
+1145 0x00016874 0x00416874 GLOBAL FUNC   2180     ai_engine_app::platformForeignThread(std::atomic<bool>&)
+1146 0x0000a0d0 0x0040a0d0 WEAK   FUNC   64       std::unique_ptr<hs_ai_get_video, std::default_delete<hs_ai_get_video> >::~unique_ptr()
+1147 0x00025880 0x00425880 WEAK   FUNC   36       std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+1149 0x000293cc 0x004293cc WEAK   FUNC   180      std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>::~_BracketMatcher()
+1150 0x00011d4c 0x00411d4c WEAK   FUNC   128      std::_Deque_base<AI_STATE, std::allocator<AI_STATE> >::~_Deque_base()
+1151 ---------- 0x004815a0 WEAK   OBJ    16       VTT for std::basic_ifstream<char, std::char_traits<char> >
+1153 ---------- 0x004816f8 WEAK   OBJ    4        ai_engine_app::getInstance()::instance
+1155 0x00052c44 0x00452c44 GLOBAL FUNC   528      ARGBToUVJRow_C
+1157 0x0005a420 0x0045a420 GLOBAL FUNC   712      UnpackMT2T_C
+1159 0x0002df9c 0x0042df9c WEAK   FUNC   80       std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::~pair()
+1161 0x0001b7bc 0x0041b7bc GLOBAL FUNC   460      ai_engine_app::parseSensorData(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<int, std::allocator<int> >&)
+1162 0x000275c0 0x004275c0 WEAK   FUNC   256      _ZNKSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR8GCodePosRSt6bitsetILj4EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_poli
+1163 0x0000e3ec 0x0040e3ec GLOBAL FUNC   348      hs_ai_get_video::get_ai_ctrl()
+1164 0x0003883c 0x0043883c GLOBAL FUNC   632      wsKlipper::extractId(Json::Value&)
+1166 0x000604b4 0x004604b4 WEAK   OBJ    120      std::__cxx11::regex_traits<char>::lookup_classname<char const*>(char const*, char const*, bool) const::__classnames
+1167 0x0002d534 0x0042d534 WEAK   FUNC   184      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<false, true>()
+1169 ---------- 0x004815b0 WEAK   OBJ    16       vtable for std::basic_ios<char, std::char_traits<char> >
+1170 0x0004dbf0 0x0044dbf0 GLOBAL FUNC   296      ARGBUnattenuate
+1171 0x00026df0 0x00426df0 WEAK   FUNC   176      std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::~_Executor()
+1173 0x00015a1c 0x00415a1c GLOBAL FUNC   536      ai_engine_app::AI_CommonDetPort(std::vector<cv::Mat, std::allocator<cv::Mat> > const&, AIMode, bool)
+1174 ---------- 0x004815c0 WEAK   OBJ    8        typeinfo for std::locale::facet
+1176 0x00057480 0x00457480 GLOBAL FUNC   272      I444AlphaToARGBRow_C
+1177 ---------- 0x004815c8 WEAK   OBJ    12       typeinfo for std::runtime_error
+1178 0x0002bf78 0x0042bf78 WEAK   FUNC   136      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_cur_int_value(int)
+1180 0x0004bfd0 0x0044bfd0 GLOBAL FUNC   456      YUY2ToI422
+1181 0x00058d50 0x00458d50 GLOBAL FUNC   716      NV21ToRGB24Row_C
+1182 0x0004a80c 0x0044a80c GLOBAL FUNC   124      I400ToI400
+1187 0x00070d30 0x00480d30 WEAK   OBJ    0        data_start
+1188 0x00051378 0x00451378 GLOBAL FUNC   104      AR30ToARGBRow_C
+1189 0x000624d0 0x004624d0 GLOBAL OBJ    160      kYuvI601Constants
+1191 0x00011dcc 0x00411dcc WEAK   FUNC   128      std::_Deque_base<HS_AI_RESULT_TYPE, std::allocator<HS_AI_RESULT_TYPE> >::~_Deque_base()
+1192 0x0002f6b8 0x0042f6b8 WEAK   FUNC   116      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<false, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>&)::{lambda(char)#1}::operator()(char) const
+1193 0x0002681c 0x0042681c WEAK   FUNC   236      std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> >::~basic_regex()
+1194 0x0005b938 0x0045b938 GLOBAL FUNC   184      ARGBAffineRow_C
+1197 0x0002c7bc 0x0042c7bc WEAK   FUNC   100      std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_erase(std::_Rb_tree_node<std::pair<long const, long> >*)
+1200 0x0002f8f8 0x0042f8f8 WEAK   FUNC   248      std::_Rb_tree<long, std::pair<long const, long>, std::_Select1st<std::pair<long const, long> >, std::less<long>, std::allocator<std::pair<long const, long> > >::_M_get_insert_unique_pos(long const&)
+1203 0x0004d9a0 0x0044d9a0 GLOBAL FUNC   296      ARGBRect
+1204 ---------- 0x004815d4 WEAK   OBJ    16       VTT for std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >
+1205 0x00050388 0x00450388 GLOBAL FUNC   416      HalfFloatPlane
+1206 0x0007130c 0x0048130c GLOBAL OBJ    0        __dso_handle
+1207 0x00060490 0x00460490 WEAK   OBJ    8        typeinfo for std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>
+1208 0x0005c9a0 0x0045c9a0 GLOBAL FUNC   36       AYUVToYRow_C
+1209 0x00025c24 0x00425c24 WEAK   FUNC   152      std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+1212 0x00060350 0x00460350 WEAK   OBJ    8        typeinfo for std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, true, true>
+1213 ---------- 0x004815e4 GLOBAL OBJ    140      std::cerr
+1214 0x00038540 0x00438540 GLOBAL FUNC   372      wsKlipper::reconnect()
+1215 0x0000df70 0x0040df70 GLOBAL FUNC   288      hs_ai_get_video::report_result(HS_AI_RESULT_TYPE)
+1217 0x000278b0 0x004278b0 WEAK   FUNC   292      _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_reh
+1218 0x0000c450 0x0040c450 WEAK   FUNC   500      void std::_Rb_tree<AIMode, std::pair<AIMode const, HS_AI_RESULT_TYPE>, std::_Select1st<std::pair<AIMode const, HS_AI_RESULT_TYPE> >, std::less<AIMode>, std::allocator<std::pair<AIMode const, HS_AI_RESULT_TYPE> > >::_M_assign_unique<std::pair<AIMode const, HS_AI_RESULT_TYPE> const*>(std::pair<AIMode const, HS_AI_RESULT_TYPE> const*, std::pair<AIMode const, HS_AI_RESULT_TYPE> const*)
+1221 0x000148b0 0x004148b0 GLOBAL FUNC   424      ai_engine_app::emGcodeParamParse(FlowEmParameters&)
+1224 0x00030e4c 0x00430e4c WEAK   FUNC   720      __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > std::__find_if<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const> >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__ops::_Iter_equals_val<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const>, std::random_access_iterator_tag)
+1225 0x000224fc 0x004224fc GLOBAL FUNC   72       parseEM_FilamentFlowRatio(FlowEmParameters&, std::bitset<3u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1232 0x0003111c 0x0043111c WEAK   FUNC   400      void std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > >::_M_realloc_insert<std::pair<char, char> >(__gnu_cxx::__normal_iterator<std::pair<char, char>*, std::vector<std::pair<char, char>, std::allocator<std::pair<char, char> > > >, std::pair<char, char>&&)
+1233 0x00060138 0x00460138 WEAK   OBJ    70       typeinfo name for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, false, true>
+1235 0x00053d0c 0x00453d0c GLOBAL FUNC   916      ARGB1555ToUVRow_C
+1240 ---------- 0x00481710 WEAK   OBJ    8        guard variable for hs_ai_get_video::getInstance()::instance
+1241 0x0002e2a0 0x0042e2a0 WEAK   FUNC   328      std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+1242 0x0002e3e8 0x0042e3e8 WEAK   FUNC   860      std::_Function_base::_Base_manager<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+1243 ---------- 0x00481670 WEAK   OBJ    64       vtable for std::basic_filebuf<char, std::char_traits<char> >
+1244 0x0000bc6c 0x0040bc6c WEAK   FUNC   128      std::_Deque_base<AIDetectState, std::allocator<AIDetectState> >::~_Deque_base()
+1245 0x0004a00c 0x0044a00c GLOBAL FUNC   288      Convert8To16Plane
+1249 0x000264c0 0x004264c0 WEAK   FUNC   216      int __gnu_cxx::__stoa<long, int, char, int>(long (*)(char const*, char**, int), char const*, char const*, unsigned int*, int)
+1252 0x000622f0 0x004622f0 GLOBAL OBJ    160      kYvuJPEGConstants
+1253 0x00051560 0x00451560 GLOBAL FUNC   60       ARGBToRGB24Row_C
+1254 0x0004fa88 0x0044fa88 GLOBAL FUNC   988      ARGBSobelToPlane
+1255 0x00025dfc 0x00425dfc WEAK   FUNC   168      std::_Function_handler<bool (char), std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+1256 0x000537ec 0x004537ec GLOBAL FUNC   140      RGB565ToYRow_C
+1260 0x0000bc08 0x0040bc08 WEAK   FUNC   100      std::_Rb_tree<AIDetectState, std::pair<AIDetectState const, bool>, std::_Select1st<std::pair<AIDetectState const, bool> >, std::less<AIDetectState>, std::allocator<std::pair<AIDetectState const, bool> > >::_M_erase(std::_Rb_tree_node<std::pair<AIDetectState const, bool> >*)
+1261 0x0003847c 0x0043847c GLOBAL FUNC   196      wsKlipper::init_connect()
+1262 0x00054f44 0x00454f44 GLOBAL FUNC   772      I422ToARGBRow_C
+1263 0x000438c4 0x004438c4 GLOBAL FUNC   540      NV12Scale
+1264 0x00057ba4 0x00457ba4 GLOBAL FUNC   772      I422ToARGB4444Row_C
+1265 0x000600e8 0x004600e8 WEAK   OBJ    70       typeinfo name for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, false, false>
+1266 0x00027e08 0x00427e08 WEAK   FUNC   52       std::__detail::_State<char>::~_State()
+1267 0x0006030c 0x0046030c WEAK   OBJ    67       typeinfo name for std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, true, true>
+1268 ---------- 0x004817a8 WEAK   OBJ    1        std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, true, true>::operator()(char) const::__nul
+1270 0x00025850 0x00425850 WEAK   FUNC   48       std::_Function_base::_Base_manager<std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+1271 0x0004f194 0x0044f194 GLOBAL FUNC   320      ARGBShuffle
+1274 0x0003ca00 0x0043ca00 WEAK   FUNC   8        std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+1275 0x0004c360 0x0044c360 GLOBAL FUNC   296      YUY2ToY
+1276 0x000365f4 0x004365f4 WEAK   FUNC   1356     void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_character_class_matcher<false, false>()
+1277 0x0003036c 0x0043036c WEAK   FUNC   1708     std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_quantifier()
+1278 0x0004c488 0x0044c488 GLOBAL FUNC   296      UYVYToY
+1285 0x00020d5c 0x00420d5c GLOBAL FUNC   184      start_memory_monitor(unsigned int)
+1286 0x0002c304 0x0042c304 WEAK   FUNC   360      std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true>)
+1289 0x0003270c 0x0043270c WEAK   FUNC   296      void std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::emplace_back<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >(std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&&)
+1290 0x0005336c 0x0045336c GLOBAL FUNC   532      RGB24ToUVJRow_C
+1292 0x0003f738 0x0043f738 WEAK   FUNC   8        std::map<unsigned char, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned char>, std::allocator<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::~map()
+1295 0x00029bdc 0x00429bdc WEAK   FUNC   1112     std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_M_dfs(std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_Match_mode, long)
+1296 0x000602b8 0x004602b8 WEAK   OBJ    8        typeinfo for std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, true>
+1297 0x0002169c 0x0042169c GLOBAL FUNC   256      parsePos_YMin(GCodePos&, std::bitset<4u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1300 0x00013854 0x00413854 GLOBAL FUNC   432      ai_engine_app::createFlowEmFile(FlowEmParameters&)
+1301 0x000269e0 0x004269e0 WEAK   FUNC   60       _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR14FlowParametersRSt6bitsetILj8EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehas
+1302 0x000371fc 0x004371fc WEAK   FUNC   836      std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_disjunction()
+1305 0x00050f20 0x00450f20 GLOBAL FUNC   484      HalfMergeUVPlane
+1306 0x00025b2c 0x00425b2c WEAK   FUNC   44       std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, true> >::_M_invoke(std::_Any_data const&, char&&)
+1307 0x0004c938 0x0044c938 GLOBAL FUNC   288      NV12Mirror
+1309 0x0002d9d8 0x0042d9d8 WEAK   FUNC   368      std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_insert_backref(unsigned int)
+1312 0x0003d4d8 0x0043d4d8 GLOBAL FUNC   80       get_current_time_ms()
+1313 ---------- 0x004816b0 GLOBAL OBJ    4        std::ctype<char>::id
+1315 0x00021a9c 0x00421a9c GLOBAL FUNC   256      parsePA_Accel(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1316 0x0001d7f8 0x0041d7f8 GLOBAL FUNC   1112     ai_engine_app::init(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1317 0x00053104 0x00453104 GLOBAL FUNC   528      RGBAToUVJRow_C
+1318 0x00034de4 0x00434de4 WEAK   FUNC   732      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_bracket_matcher<false, true>(bool)
+1319 0x00019adc 0x00419adc GLOBAL FUNC   4020     ai_engine_app::flowPARun()
+1320 0x00025bc8 0x00425bc8 WEAK   FUNC   92       std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+1321 0x0002aef8 0x0042aef8 WEAK   FUNC   656      std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_M_handle_backref(std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::_Match_mode, long)
+1323 0x00053904 0x00453904 GLOBAL FUNC   120      ARGB4444ToYRow_C
+1324 0x00062390 0x00462390 GLOBAL OBJ    160      kYuvJPEGConstants
+1325 0x0000c73c 0x0040c73c WEAK   FUNC   500      void std::_Rb_tree<AIDetectState, std::pair<AIDetectState const, bool>, std::_Select1st<std::pair<AIDetectState const, bool> >, std::less<AIDetectState>, std::allocator<std::pair<AIDetectState const, bool> > >::_M_assign_unique<std::pair<AIDetectState const, bool> const*>(std::pair<AIDetectState const, bool> const*, std::pair<AIDetectState const, bool> const*)
+1326 0x0003abf4 0x0043abf4 GLOBAL FUNC   1932     wsKlipper::moveCode(float, float, float)
+1329 0x0002d6d0 0x0042d6d0 WEAK   FUNC   228      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<true, true>()
+1331 0x0002d3d8 0x0042d3d8 WEAK   FUNC   172      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_any_matcher_ecma<true, true>()
+1335 0x0003ca78 0x0043ca78 WEAK   FUNC   52       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (wsKlipper::*)(), wsKlipper*> > >::~_State_impl()
+1336 0x00020adc 0x00420adc GLOBAL FUNC   24       stop_cpu_monitor()
+1337 0x00031a1c 0x00431a1c WEAK   FUNC   2032     bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<true, false>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>&)
+1338 0x0004de40 0x0044de40 GLOBAL FUNC   252      ARGBGray
+1339 0x00026ee4 0x00426ee4 WEAK   FUNC   92       _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_reh
+1343 0x000292d0 0x004292d0 WEAK   FUNC   84       std::__detail::_Scanner<char>::_M_advance()
+1345 0x00070d98 0x00480d98 GLOBAL OBJ    96       g_paParamNameArr
+1346 0x000260f4 0x004260f4 WEAK   FUNC   108      std::__throw_regex_error(std::regex_constants::error_type, char const*)
+1347 0x00025bb0 0x00425bb0 WEAK   FUNC   8        std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+1348 0x0004e450 0x0044e450 GLOBAL FUNC   280      RGBColorTable
+1349 0x0002d1dc 0x0042d1dc WEAK   FUNC   164      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_any_matcher_ecma<false, false>()
+1352 0x0002d484 0x0042d484 WEAK   FUNC   176      void std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_insert_char_matcher<false, false>()
+1353 0x0000a0d0 0x0040a0d0 WEAK   FUNC   64       std::unique_ptr<hs_ai_get_video, std::default_delete<hs_ai_get_video> >::~unique_ptr()
+1354 0x00025b58 0x00425b58 WEAK   FUNC   44       std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false> >::_M_invoke(std::_Any_data const&, char&&)
+1355 0x00011d18 0x00411d18 WEAK   FUNC   52       StackLogger::~StackLogger()
+1356 0x0003ca48 0x0043ca48 WEAK   FUNC   32       std::_Sp_counted_ptr_inplace<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+1360 0x0001dd80 0x0041dd80 WEAK   FUNC   676      hs_ai_get_video::setCurrentState(AI_STATE)
+1362 0x00051c20 0x00451c20 GLOBAL FUNC   80       AR64ToARGBRow_C
+1363 0x0000d280 0x0040d280 GLOBAL FUNC   780      hs_ai_get_video::decoder_NV12_to_BGR(unsigned char*, int, int, int)
+1364 0x0002c46c 0x0042c46c WEAK   FUNC   360      std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>)
+1367 0x000135bc 0x004135bc GLOBAL FUNC   116      ai_engine_app::setAIFlowPAFlag(bool)
+1368 ---------- 0x004816b4 WEAK   OBJ    20       vtable for std::regex_error
+1369 0x00060530 0x00460530 WEAK   OBJ    2        std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::_M_is_word(char) const::__s
+1370 0x0004bd30 0x0044bd30 GLOBAL FUNC   340      MergeXR30Plane
+1371 0x0005159c 0x0045159c GLOBAL FUNC   60       ARGBToRAWRow_C
+1373 0x0004fe64 0x0044fe64 GLOBAL FUNC   988      ARGBSobelXY
+1376 0x0004efd0 0x0044efd0 GLOBAL FUNC   452      I420Interpolate
+1377 0x0005edb0 0x0045edb0 WEAK   OBJ    12       typeinfo for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(std::atomic<bool>&), ai_engine_app*, std::atomic<bool>&> > >
+1378 0x0001239c 0x0041239c GLOBAL FUNC   8        hs_ipcsem_get(char const*)
+1380 0x00013320 0x00413320 GLOBAL FUNC   312      ai_engine_app::setPrintGcodeFile(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1382 0x0002b470 0x0042b470 WEAK   FUNC   1420     bool std::__detail::__regex_algo_impl<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, char, std::__cxx11::regex_traits<char>, (std::__detail::_RegexExecutorPolicy)0, false>(char const*, char const*, std::__cxx11::match_results<char const*, std::allocator<std::__cxx11::sub_match<char const*> > >&, std::__cxx11::basic_regex<char, std::__cxx11::regex_traits<char> > const&, std::regex_constants::match_flag_type)
+1385 0x000380fc 0x004380fc GLOBAL FUNC   72       wsKlipper::lwsServiceRun()
+1386 0x00027348 0x00427348 WEAK   FUNC   120      std::vector<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > >, std::allocator<std::pair<long, std::vector<std::__cxx11::sub_match<char const*>, std::allocator<std::__cxx11::sub_match<char const*> > > > > >::~vector()
+1388 0x000279d4 0x004279d4 WEAK   FUNC   592      _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_reh
+1389 0x0004a888 0x0044a888 GLOBAL FUNC   132      I420ToI400
+1390 0x0003fad4 0x0043fad4 WEAK   FUNC   400      std::map<unsigned char, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned char>, std::allocator<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned char> const&, std::allocator<std::pair<unsigned char const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+1391 0x0005204c 0x0045204c GLOBAL FUNC   528      BGRAToUVRow_C
+1393 0x0003cefc 0x0043cefc GLOBAL FUNC   40       ObbrecLidar::ObbrecLidar()
+1394 ---------- 0x00481718 WEAK   OBJ    4        hs_ai_get_video::getInstance()::instance
+1395 0x00025b00 0x00425b00 WEAK   FUNC   44       std::_Function_handler<bool (char), std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_invoke(std::_Any_data const&, char&&)
+1397 ---------- 0x00481708 WEAK   OBJ    4        wsKlipper::getInstance()::instance
+1402 0x00021140 0x00421140 GLOBAL FUNC   96       GCodeParam::~GCodeParam()
+1404 0x0004d5d8 0x0044d5d8 GLOBAL FUNC   300      RAWToRGB24
+1405 0x000463dc 0x004463dc GLOBAL FUNC   164      ScaleARGBCols_C
+1406 0x00025bb0 0x00425bb0 WEAK   FUNC   8        std::_Sp_counted_ptr_inplace<std::__detail::_NFA<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_NFA<std::__cxx11::regex_traits<char> > >, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+1410 0x0002957c 0x0042957c WEAK   FUNC   180      std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, false>::~_BracketMatcher()
+1411 0x0004bbdc 0x0044bbdc GLOBAL FUNC   188      SplitARGBPlane
+1412 0x00033774 0x00433774 WEAK   FUNC   1968     bool std::__detail::_Compiler<std::__cxx11::regex_traits<char> >::_M_expression_term<true, true>(std::pair<bool, char>&, std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>&)
+1413 0x000224b4 0x004224b4 GLOBAL FUNC   72       parsePA_VolumeSpeed(FlowParameters&, std::bitset<8u>&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1414 0x00026df0 0x00426df0 WEAK   FUNC   176      std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, false>::~_Executor()
+1415 0x00013260 0x00413260 GLOBAL FUNC   184      ai_engine_app::deleteImgFiles()
+1416 0x000209a4 0x004209a4 GLOBAL FUNC   312      service_cpu_mem_monitor_launch(double, double, bool, bool)
+1418 0x0002e2a0 0x0042e2a0 WEAK   FUNC   328      std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::vector(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&)
+1419 0x0003ec74 0x0043ec74 GLOBAL FUNC   400      ObbrecLidar::declassify()
+1420 0x0004e7b4 0x0044e7b4 GLOBAL FUNC   1032     ARGBBlur
+1421 0x00054438 0x00454438 GLOBAL FUNC   128      ARGBToUVJ444Row_C
+1422 0x00026f40 0x00426f40 WEAK   FUNC   60       _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_reh
+1424 0x00026598 0x00426598 WEAK   FUNC   260      float __gnu_cxx::__stoa<float, float, char>(float (*)(char const*, char**), char const*, char const*, unsigned int*)
+1425 0x00027cc8 0x00427cc8 WEAK   FUNC   192      std::__detail::_NFA<std::__cxx11::regex_traits<char> >::_M_eliminate_dummy()
+1428 0x00070d80 0x00480d80 GLOBAL OBJ    24       g_emParamNameArr
+1429 ---------- 0x004817c8 WEAK   OBJ    1        std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, false, false, true>::operator()(char) const::__nul
+1430 0x0005901c 0x0045901c GLOBAL FUNC   724      NV12ToRGB565Row_C
+1431 ---------- 0x00481774 GLOBAL OBJ    4        prev_cpu_time
+1432 0x00029630 0x00429630 WEAK   FUNC   252      std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, true, true>::~_BracketMatcher()
+1434 0x00070d40 0x00480d40 WEAK   OBJ    4        DW.ref.__gxx_personality_v0
+1436 0x0005ed44 0x0045ed44 WEAK   OBJ    12       typeinfo for ai_engine_app
+1437 0x000461c0 0x004461c0 GLOBAL FUNC   200      ScaleARGBRowDown2Box_C
+1438 0x00060188 0x00460188 WEAK   OBJ    70       typeinfo name for std::__detail::_AnyMatcher<std::__cxx11::regex_traits<char>, true, true, false>
+1439 0x0005c800 0x0045c800 GLOBAL FUNC   208      AYUVToUVRow_C
+1440 0x000154e0 0x004154e0 GLOBAL FUNC   664      ai_engine_app::isAppRunningThread(std::atomic<bool>&)
+1441 0x0004ca58 0x0044ca58 GLOBAL FUNC   220      ARGBMirror
+1442 0x0001464c 0x0041464c GLOBAL FUNC   612      ai_engine_app::paGcodeParamParse(FlowParameters&, int&, int&)
+1443 0x0003db04 0x0043db04 GLOBAL FUNC   2552     ObbrecLidar::get_authorize_key(std::vector<unsigned char, std::allocator<unsigned char> >&)
+1444 0x00026908 0x00426908 WEAK   FUNC   124      _ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR8GCodePosRSt6bitsetILj4EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_polic
+1445 0x0005edbc 0x0045edbc WEAK   OBJ    78       typeinfo name for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(), ai_engine_app*> > >
+1446 0x00026ea0 0x00426ea0 WEAK   FUNC   68       std::__detail::_Executor<char const*, std::allocator<std::__cxx11::sub_match<char const*> >, std::__cxx11::regex_traits<char>, true>::~_Executor()
+1447 0x0002599c 0x0042599c WEAK   FUNC   84       std::_Function_base::_Base_manager<std::__detail::_CharMatcher<std::__cxx11::regex_traits<char>, false, false> >::_M_manager(std::_Any_data&, std::_Any_data const&, std::_Manager_operation)
+1448 0x000540a0 0x004540a0 GLOBAL FUNC   780      ARGB4444ToUVRow_C
+1449 0x00013a04 0x00413a04 GLOBAL FUNC   1220     ai_engine_app::prePrintSubscribState()
+1450 0x0003ff64 0x0043ff64 GLOBAL FUNC   532      ScalePlaneDown2_16To8
+1451 0x00042c1c 0x00442c1c GLOBAL FUNC   508      I444Scale
+1452 0x00029950 0x00429950 WEAK   FUNC   76       void std::deque<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >, std::allocator<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > > >::emplace_back<std::__detail::_StateSeq<std::__cxx11::regex_traits<char> > >(std::__detail::_StateSeq<std::__cxx11::regex_traits<char> >&&)
+1454 0x0004dd18 0x0044dd18 GLOBAL FUNC   296      ARGBGrayTo
+1455 0x000581b8 0x004581b8 GLOBAL FUNC   756      I422ToRGB565Row_C
+1456 0x0004dac8 0x0044dac8 GLOBAL FUNC   296      ARGBAttenuate
+1457 0x0004f3f8 0x0044f3f8 GLOBAL FUNC   692      GaussPlane_F32
+1458 0x0004bf2c 0x0044bf2c GLOBAL FUNC   164      MergeARGB16To8Plane
+1459 0x0004ee50 0x0044ee50 GLOBAL FUNC   352      InterpolatePlane_16
+1460 0x0003c014 0x0043c014 GLOBAL FUNC   484      wsKlipper::receiveMessage(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+1461 0x0001dcb8 0x0041dcb8 WEAK   FUNC   16       std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(std::atomic<bool>&), ai_engine_app*, std::atomic<bool>&> > >::~_State_impl()
+1462 0x0005ee2c 0x0045ee2c WEAK   OBJ    20       vtable for std::thread::_State_impl<std::thread::_Invoker<std::tuple<void (ai_engine_app::*)(std::atomic<bool>&), ai_engine_app*, std::atomic<bool>&> > >
+1463 0x00054e50 0x00454e50 GLOBAL FUNC   244      I444ToRGB24Row_C
+1464 0x0002c110 0x0042c110 WEAK   FUNC   352      std::function<bool (char)>::function<std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>, void, void>(std::__detail::_BracketMatcher<std::__cxx11::regex_traits<char>, false, false>)
+1    0x000087f8 0x004087f8 GLOBAL FUNC   16       imp.lws_client_connect_via_info
+2    0x00008808 0x00408808 GLOBAL FUNC   16       std::basic_istream<char, std::char_traits<char> >& std::operator>><char, std::char_traits<char> >(std::basic_istream<char, std::char_traits<char> >&, char&)
+3    0x00008818 0x00408818 GLOBAL FUNC   16       std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char)
+5    0x00008828 0x00408828 GLOBAL FUNC   16       std::basic_ifstream<char, std::char_traits<char> >::~basic_ifstream()
+7    0x00008838 0x00408838 GLOBAL FUNC   16       std::__throw_out_of_range_fmt(char const*, ...)
+9    0x00008848 0x00408848 GLOBAL FUNC   16       std::__throw_logic_error(char const*)
+10   0x0006f600 0x0046f600 GLOBAL FUNC   16       imp.__libc_start_main
+11   0x00008868 0x00408868 GLOBAL FUNC   16       imp.__cxa_begin_catch
+12   0x00008878 0x00408878 GLOBAL FUNC   16       cv::cvtColor(cv::_InputArray const&, cv::_OutputArray const&, int, int)
+15   0x00008888 0x00408888 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned int, unsigned int, char const*, unsigned int)
+16   0x00008898 0x00408898 GLOBAL FUNC   16       imp.__udivdi3
+17   0x000088a8 0x004088a8 GLOBAL FUNC   16       Json::Value::toStyledString[abi:cxx11]() const
+18   0x000088b8 0x004088b8 GLOBAL FUNC   16       std::__throw_bad_alloc()
+19   0x000088c8 0x004088c8 GLOBAL FUNC   16       operator new[](unsigned int)
+21   0x000088d8 0x004088d8 GLOBAL FUNC   16       imp.__isoc99_sscanf
+26   0x000088e8 0x004088e8 GLOBAL FUNC   16       imp.lws_callback_on_writable
+28   0x000088f8 0x004088f8 GLOBAL FUNC   16       imp.v4l2_h264_decoder_close
+30   ---------- 0x00000000 WEAK   NOTYPE 16       imp._ITM_deregisterTMCloneTable
+36   0x00008908 0x00408908 GLOBAL FUNC   16       imp.tcsetattr
+37   0x00008918 0x00408918 GLOBAL FUNC   16       imp.udev_device_get_parent_with_subsystem_devtype
+38   0x00008928 0x00408928 GLOBAL FUNC   16       imp.udev_enumerate_add_match_subsystem
+39   0x00008938 0x00408938 GLOBAL FUNC   16       imp.pthread_mutex_lock
+40   0x00008948 0x00408948 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char const*, unsigned int, unsigned int) const
+41   0x00008958 0x00408958 GLOBAL FUNC   16       std::__throw_invalid_argument(char const*)
+43   0x00008968 0x00408968 GLOBAL FUNC   16       imp.cfsetospeed
+46   0x00008978 0x00408978 GLOBAL FUNC   16       std::_Sp_locker::_Sp_locker(void const*)
+48   0x00008988 0x00408988 GLOBAL FUNC   16       cv::CommandLineParser::CommandLineParser(int, char const* const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+51   0x00008998 0x00408998 GLOBAL FUNC   16       JsonValue::operator=(JsonValue&&)
+54   0x000089a8 0x004089a8 GLOBAL FUNC   16       imp.exit
+55   0x000089b8 0x004089b8 GLOBAL FUNC   16       imp.lws_write
+57   0x000089c8 0x004089c8 GLOBAL FUNC   16       std::basic_filebuf<char, std::char_traits<char> >::close()
+59   0x000089d8 0x004089d8 GLOBAL FUNC   16       Json::CharReaderBuilder::newCharReader() const
+60   0x000089e8 0x004089e8 GLOBAL FUNC   16       imp.close
+62   0x000089f8 0x004089f8 GLOBAL FUNC   16       Json::Value::~Value()
+63   0x00008a08 0x00408a08 GLOBAL FUNC   16       imp.memcpy
+65   0x00008a18 0x00408a18 GLOBAL FUNC   16       imp.memmove
+67   0x00008a28 0x00408a28 GLOBAL FUNC   16       imp.strncpy
+68   0x00008a38 0x00408a38 GLOBAL FUNC   16       imp.udev_new
+69   0x00008a48 0x00408a48 GLOBAL FUNC   16       Log::Error(char const*, int, char const*, ...)
+72   0x00008a58 0x00408a58 GLOBAL FUNC   16       cv::Mat::Mat()
+73   0x00008a68 0x00408a68 GLOBAL FUNC   16       imp.lws_create_context
+74   0x00008a78 0x00408a78 GLOBAL FUNC   16       imp.lws_ring_get_element
+75   0x00008a88 0x00408a88 GLOBAL FUNC   16       imp.fgets
+77   0x00008a98 0x00408a98 GLOBAL FUNC   16       std::runtime_error::runtime_error(char const*)
+78   0x00008aa8 0x00408aa8 GLOBAL FUNC   16       cv::Mat::Mat(int, int, int, void*, unsigned int)
+83   0x0006f860 0x0046f860 GLOBAL FUNC   16       imp.isspace
+84   0x00008ac8 0x00408ac8 GLOBAL FUNC   16       imp.open
+86   0x00008ad8 0x00408ad8 GLOBAL FUNC   16       cv::Mat::operator=(cv::Mat&&)
+87   0x00008ae8 0x00408ae8 GLOBAL FUNC   16       Json::Value::begin() const
+88   0x00008af8 0x00408af8 GLOBAL FUNC   16       imp.usleep
+89   0x00008b08 0x00408b08 GLOBAL FUNC   16       std::__throw_regex_error(std::regex_constants::error_type)
+90   0x00008b18 0x00408b18 GLOBAL FUNC   16       std::__cxx11::collate<char> const& std::use_facet<std::__cxx11::collate<char> >(std::locale const&)
+91   0x00008b28 0x00408b28 GLOBAL FUNC   16       Json::Value::isString() const
+92   0x00008b38 0x00408b38 GLOBAL FUNC   16       std::thread::join()
+93   0x00008b48 0x00408b48 GLOBAL FUNC   16       cv::Mat::~Mat()
+94   0x00008b58 0x00408b58 GLOBAL FUNC   16       imp.pthread_mutex_init
+96   0x00008b68 0x00408b68 GLOBAL FUNC   16       cv2d::deleteFilesbyDirs(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+98   0x00008b78 0x00408b78 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::replace(unsigned int, unsigned int, char const*, unsigned int)
+99   0x00008b88 0x00408b88 GLOBAL FUNC   16       Json::operator<<(std::ostream&, Json::Value const&)
+102  0x00008b98 0x00408b98 GLOBAL FUNC   16       std::ostream::operator<<(int)
+104  0x00008ba8 0x00408ba8 GLOBAL FUNC   16       imp.lws_ring_update_oldest_tail
+105  0x00008bb8 0x00408bb8 GLOBAL FUNC   16       std::__throw_bad_cast()
+109  0x00008bc8 0x00408bc8 GLOBAL FUNC   16       imp.__cxa_bad_cast
+110  0x00008bd8 0x00408bd8 GLOBAL FUNC   16       imp.gettimeofday
+111  0x00008be8 0x00408be8 GLOBAL FUNC   16       imp.lws_ring_insert
+112  0x00008bf8 0x00408bf8 GLOBAL FUNC   16       imp.lws_service
+113  0x00008c08 0x00408c08 GLOBAL FUNC   16       imp.__cxa_guard_acquire
+115  0x00008c18 0x00408c18 GLOBAL FUNC   16       imp.__fxstat
+116  0x00008c28 0x00408c28 GLOBAL FUNC   16       AI_Engine::getVersion[abi:cxx11]()
+117  0x00008c38 0x00408c38 GLOBAL FUNC   16       Log::Warn(char const*, int, char const*, ...)
+120  0x00008c48 0x00408c48 GLOBAL FUNC   16       std::basic_ios<char, std::char_traits<char> >::init(std::basic_streambuf<char, std::char_traits<char> >*)
+121  0x00008c58 0x00408c58 GLOBAL FUNC   16       operator delete[](void*)
+123  0x00008c68 0x00408c68 GLOBAL FUNC   16       imp.udev_unref
+124  0x00008c78 0x00408c78 GLOBAL FUNC   16       imp.shm_unlink
+125  0x00008c88 0x00408c88 GLOBAL FUNC   16       JsonValue::JsonValue(JsonValue&&)
+126  0x00008c98 0x00408c98 GLOBAL FUNC   16       imp.fclose
+130  0x00008ca8 0x00408ca8 GLOBAL FUNC   16       std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_stringstream()
+132  0x00008cb8 0x00408cb8 GLOBAL FUNC   16       Json::StreamWriterBuilder::StreamWriterBuilder()
+134  0x00008cc8 0x00408cc8 GLOBAL FUNC   16       imp.__cxa_allocate_exception
+135  0x00008cd8 0x00408cd8 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::reserve(unsigned int)
+136  0x00008ce8 0x00408ce8 GLOBAL FUNC   16       std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::str() const
+138  0x00008cf8 0x00408cf8 GLOBAL FUNC   16       imp.SHA256_Final
+139  0x00008d08 0x00408d08 GLOBAL FUNC   16       std::thread::_State::~_State()
+141  0x00008d18 0x00408d18 GLOBAL FUNC   16       Json::Value::Value(Json::Value const&)
+142  0x00008d28 0x00408d28 GLOBAL FUNC   16       std::__throw_system_error(int)
+143  0x00008d38 0x00408d38 GLOBAL FUNC   16       imp.__cxa_guard_abort
+145  0x00008d48 0x00408d48 GLOBAL FUNC   16       Json::ValueIteratorBase::increment()
+147  0x00008d58 0x00408d58 GLOBAL FUNC   16       std::ctype<char> const& std::use_facet<std::ctype<char> >(std::locale const&)
+148  0x00008d68 0x00408d68 GLOBAL FUNC   16       imp.mmap
+149  0x00008d78 0x00408d78 GLOBAL FUNC   16       cv::Mat::Mat(int, int, int)
+151  0x00008d88 0x00408d88 GLOBAL FUNC   16       Json::Value::operator=(Json::Value const&)
+152  0x00008d98 0x00408d98 GLOBAL FUNC   16       std::__cxx11::basic_stringstream<char, std::char_traits<char>, std::allocator<char> >::basic_stringstream(std::_Ios_Openmode)
+154  0x0006fb50 0x0046fb50 GLOBAL FUNC   16       imp.strtod
+157  0x00008db8 0x00408db8 GLOBAL FUNC   16       Json::Value::operator[](char const*) const
+158  0x00008dc8 0x00408dc8 GLOBAL FUNC   16       imp.udev_device_new_from_syspath
+160  0x00008dd8 0x00408dd8 GLOBAL FUNC   16       imp.strlen
+162  0x00008de8 0x00408de8 GLOBAL FUNC   16       std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::basic_istringstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode)
+164  0x00008df8 0x00408df8 GLOBAL FUNC   16       imp.getrusage
+165  0x00008e08 0x00408e08 GLOBAL FUNC   16       std::ctype<char>::_M_widen_init() const
+166  0x00008e18 0x00408e18 GLOBAL FUNC   16       AI_Engine::updateFlowPAFile(FlowParameters&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+167  0x00008e28 0x00408e28 GLOBAL FUNC   16       std::_Rb_tree_decrement(std::_Rb_tree_node_base*)
+168  0x00008e38 0x00408e38 GLOBAL FUNC   16       imp.__divdi3
+169  0x00008e48 0x00408e48 GLOBAL FUNC   16       Json::writeString[abi:cxx11](Json::StreamWriter::Factory const&, Json::Value const&)
+170  0x00008e58 0x00408e58 GLOBAL FUNC   16       imp.udev_enumerate_unref
+173  0x00008e68 0x00408e68 GLOBAL FUNC   16       imp.v4l2_h264_decoder_work
+175  0x00008e78 0x00408e78 GLOBAL FUNC   16       std::ostream::flush()
+176  0x00008e88 0x00408e88 GLOBAL FUNC   16       imp.lws_cancel_service
+178  0x00008e98 0x00408e98 GLOBAL FUNC   16       cv2d::createDirectories(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+179  0x00008ea8 0x00408ea8 GLOBAL FUNC   16       std::ostream& std::ostream::_M_insert<unsigned long>(unsigned long)
+184  0x00008eb8 0x00408eb8 GLOBAL FUNC   16       std::__basic_file<char>::~__basic_file()
+186  0x00008ec8 0x00408ec8 GLOBAL FUNC   16       Json::Value::isMember(char const*) const
+187  0x00008ed8 0x00408ed8 GLOBAL FUNC   16       std::locale::operator=(std::locale const&)
+188  0x00008ee8 0x00408ee8 GLOBAL FUNC   16       Log::Info(char const*, int, char const*, ...)
+189  0x00008ef8 0x00408ef8 GLOBAL FUNC   16       imp.printf
+191  0x00008f08 0x00408f08 GLOBAL FUNC   16       Json::Value::Value(Json::ValueType)
+192  0x00008f18 0x00408f18 GLOBAL FUNC   16       operator delete(void*)
+194  0x00008f28 0x00408f28 GLOBAL FUNC   16       std::ostream::put(char)
+196  0x00008f38 0x00408f38 GLOBAL FUNC   16       Json::Value::asInt() const
+197  0x00008f48 0x00408f48 GLOBAL FUNC   16       std::__cxx11::basic_istringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_istringstream()
+198  0x0006fd00 0x0046fd00 WEAK   FUNC   16       imp.__pthread_key_create
+201  0x00008f68 0x00408f68 GLOBAL FUNC   16       imp.nalu_buf_read_tail
+202  0x00008f78 0x00408f78 GLOBAL FUNC   16       imp.udev_device_unref
+203  0x00008f88 0x00408f88 GLOBAL FUNC   16       imp.__cxa_guard_release
+205  0x00008f98 0x00408f98 GLOBAL FUNC   16       Json::ValueIteratorBase::deref() const
+206  0x00008fa8 0x00408fa8 GLOBAL FUNC   16       Json::CharReaderBuilder::CharReaderBuilder()
+207  0x0006fd60 0x0046fd60 GLOBAL FUNC   16       imp.strtof
+209  0x00008fc8 0x00408fc8 GLOBAL FUNC   16       imp.lws_sul_cancel
+212  0x00008fd8 0x00408fd8 GLOBAL FUNC   16       Json::Value::end() const
+213  0x00008fe8 0x00408fe8 GLOBAL FUNC   16       JsonValue::update(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+214  0x00008ff8 0x00408ff8 GLOBAL FUNC   16       operator new(unsigned int)
+215  0x00009008 0x00409008 GLOBAL FUNC   16       cv::Mat::empty() const
+217  0x00009018 0x00409018 GLOBAL FUNC   16       imp.munmap
+218  0x00009028 0x00409028 GLOBAL FUNC   16       imp.snprintf
+219  0x00009038 0x00409038 GLOBAL FUNC   16       cv::imwrite(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, cv::_InputArray const&, std::vector<int, std::allocator<int> > const&)
+220  0x00009048 0x00409048 GLOBAL FUNC   16       std::istream& std::istream::_M_extract<double>(double&)
+222  0x00009058 0x00409058 GLOBAL FUNC   16       std::__throw_length_error(char const*)
+225  0x00009068 0x00409068 GLOBAL FUNC   16       std::__throw_out_of_range(char const*)
+226  0x00009078 0x00409078 GLOBAL FUNC   16       AI_Engine::updateFlowEmFile(FlowEmParameters&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+227  0x00009088 0x00409088 GLOBAL FUNC   16       imp.lws_set_timeout
+229  0x00009098 0x00409098 GLOBAL FUNC   16       imp.__cxa_throw
+232  0x000090a8 0x004090a8 GLOBAL FUNC   16       imp.lws_ring_get_count_free_elements
+233  0x000090b8 0x004090b8 GLOBAL FUNC   16       imp.isalnum
+235  0x000090c8 0x004090c8 GLOBAL FUNC   16       imp.clock_gettime
+237  0x000090d8 0x004090d8 GLOBAL FUNC   16       cv::CommandLineParser::printMessage() const
+240  0x000090e8 0x004090e8 GLOBAL FUNC   16       Log::Pop[abi:cxx11]()
+244  0x000090f8 0x004090f8 GLOBAL FUNC   16       imp._Unwind_Resume
+246  0x00009108 0x00409108 GLOBAL FUNC   16       imp.strcmp
+247  0x0006fec0 0x0046fec0 GLOBAL FUNC   16       std::ios_base::Init::~Init()
+248  0x00009128 0x00409128 GLOBAL FUNC   16       imp.udev_list_entry_get_next
+251  0x00009138 0x00409138 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::append(char const*)
+252  0x00009148 0x00409148 GLOBAL FUNC   16       imp.lws_set_log_level
+254  0x00009158 0x00409158 GLOBAL FUNC   16       cv::CommandLineParser::~CommandLineParser()
+255  0x00009168 0x00409168 GLOBAL FUNC   16       imp.memcmp
+258  0x00009178 0x00409178 GLOBAL FUNC   16       imp.lws_ring_consume
+261  0x00009188 0x00409188 GLOBAL FUNC   16       imp.sem_post
+263  0x00009198 0x00409198 GLOBAL FUNC   16       imp.memset
+264  0x000091a8 0x004091a8 GLOBAL FUNC   16       std::istream& std::istream::_M_extract<long>(long&)
+270  0x000091b8 0x004091b8 GLOBAL FUNC   16       imp.sem_trywait
+271  0x000091c8 0x004091c8 GLOBAL FUNC   16       Log::Debug(char const*, int, char const*, ...)
+272  0x000091d8 0x004091d8 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace_aux(unsigned int, unsigned int, unsigned int, char)
+274  0x000091e8 0x004091e8 GLOBAL FUNC   16       std::condition_variable::~condition_variable()
+278  0x000091f8 0x004091f8 GLOBAL FUNC   16       Json::Value::asDouble() const
+279  0x00009208 0x00409208 GLOBAL FUNC   16       std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned int, unsigned int, unsigned int) const
+281  0x00009218 0x00409218 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned int&, unsigned int)
+284  0x00009228 0x00409228 GLOBAL FUNC   16       std::ios_base::~ios_base()
+286  0x00009238 0x00409238 GLOBAL FUNC   16       imp.strchr
+287  0x00009248 0x00409248 GLOBAL FUNC   16       std::chrono::_V2::system_clock::now()
+288  0x00009258 0x00409258 GLOBAL FUNC   16       imp.__errno_location
+289  0x00009268 0x00409268 GLOBAL FUNC   16       AI_Engine::~AI_Engine()
+292  0x00009278 0x00409278 GLOBAL FUNC   16       imp.v4l2_h264_decoder_open
+293  0x00009288 0x00409288 GLOBAL FUNC   16       imp.udev_device_get_sysattr_value
+295  0x00009298 0x00409298 GLOBAL FUNC   16       std::locale::locale(std::locale const&)
+296  0x000092a8 0x004092a8 GLOBAL FUNC   16       imp.fcntl
+298  0x000092b8 0x004092b8 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find_last_not_of(char const*, unsigned int, unsigned int) const
+299  0x000092c8 0x004092c8 GLOBAL FUNC   16       imp.MD5
+300  0x000092d8 0x004092d8 GLOBAL FUNC   16       imp.tcflush
+304  0x00070090 0x00470090 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string()
+306  0x000092f8 0x004092f8 GLOBAL FUNC   16       std::thread::_M_start_thread(std::unique_ptr<std::thread::_State, std::default_delete<std::thread::_State> >, void (*)())
+307  0x000700b0 0x004700b0 GLOBAL FUNC   16       imp.vsnprintf
+308  0x00009318 0x00409318 GLOBAL FUNC   16       std::ostream& std::ostream::_M_insert<double>(double)
+309  0x00009328 0x00409328 GLOBAL FUNC   16       imp.nalu_buf_write
+313  0x00009338 0x00409338 GLOBAL FUNC   16       imp.__cxa_end_catch
+314  0x00009348 0x00409348 GLOBAL FUNC   16       Json::Value::Value(int)
+316  0x00070100 0x00470100 GLOBAL FUNC   16       imp.strtol
+317  0x00009368 0x00409368 GLOBAL FUNC   16       std::locale::locale()
+319  0x00009378 0x00409378 GLOBAL FUNC   16       std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, int)
+321  0x00009388 0x00409388 GLOBAL FUNC   16       cv::CommandLineParser::getByName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, bool, cv::Param, void*) const
+323  0x00009398 0x00409398 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find_first_not_of(char const*, unsigned int, unsigned int) const
+324  0x000093a8 0x004093a8 GLOBAL FUNC   16       Json::ValueIteratorBase::isEqual(Json::ValueIteratorBase const&) const
+328  0x000093b8 0x004093b8 GLOBAL FUNC   16       std::_Sp_locker::~_Sp_locker()
+330  0x000093c8 0x004093c8 GLOBAL FUNC   16       imp.__cxa_rethrow
+331  0x000093d8 0x004093d8 GLOBAL FUNC   16       cv::imdecode(cv::_InputArray const&, int)
+332  0x000093e8 0x004093e8 WEAK   FUNC   16       imp.pthread_cond_timedwait
+333  0x000093f8 0x004093f8 GLOBAL FUNC   16       imp.free
+337  0x00009408 0x00409408 GLOBAL FUNC   16       imp.sem_timedwait
+341  0x00009418 0x00409418 GLOBAL FUNC   16       imp.popen
+343  0x00009428 0x00409428 GLOBAL FUNC   16       imp.shm_open
+348  0x00009438 0x00409438 GLOBAL FUNC   16       Json::CharReaderBuilder::~CharReaderBuilder()
+349  0x00009448 0x00409448 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned int, char)
+353  0x00070200 0x00470200 GLOBAL FUNC   16       std::runtime_error::~runtime_error()
+354  0x00009468 0x00409468 GLOBAL FUNC   16       std::basic_filebuf<char, std::char_traits<char> >::basic_filebuf()
+356  0x00009478 0x00409478 GLOBAL FUNC   16       imp.pthread_detach
+359  0x00009488 0x00409488 GLOBAL FUNC   16       std::condition_variable::condition_variable()
+360  0x00009498 0x00409498 GLOBAL FUNC   16       AI_Engine::run(AIParams&, AIResults&)
+362  0x000094a8 0x004094a8 GLOBAL FUNC   16       imp.setitimer
+363  0x000094b8 0x004094b8 GLOBAL FUNC   16       imp.nalu_buf_init
+364  0x000094c8 0x004094c8 GLOBAL FUNC   16       cv2d::mergePath(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+365  0x000094d8 0x004094d8 GLOBAL FUNC   16       imp.__cxa_free_exception
+366  0x000094e8 0x004094e8 GLOBAL FUNC   16       imp.read
+367  0x000094f8 0x004094f8 GLOBAL FUNC   16       Json::Value::operator=(Json::Value&&)
+369  0x00009508 0x00409508 GLOBAL FUNC   16       JsonValue::read(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, JsonValue&)
+370  0x00009518 0x00409518 GLOBAL FUNC   16       imp.pthread_mutex_unlock
+371  0x00009528 0x00409528 GLOBAL FUNC   16       cv::Mat::Mat(cv::Mat&&)
+374  0x00009538 0x00409538 GLOBAL FUNC   16       imp.__cxa_atexit
+375  0x00009548 0x00409548 GLOBAL FUNC   16       Json::Value::operator[](int) const
+376  0x00070300 0x00470300 GLOBAL FUNC   16       imp.pthread_create
+377  0x00009568 0x00409568 GLOBAL FUNC   16       std::__cxx11::basic_ostringstream<char, std::char_traits<char>, std::allocator<char> >::~basic_ostringstream()
+378  0x00009578 0x00409578 GLOBAL FUNC   16       Log::Push(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+379  0x00009588 0x00409588 GLOBAL FUNC   16       imp.__moddi3
+383  0x00009598 0x00409598 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned int, unsigned int, char const*, unsigned int)
+384  0x000095a8 0x004095a8 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::compare(char const*) const
+385  0x000095b8 0x004095b8 GLOBAL FUNC   16       AI_Engine::init(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+387  0x000095c8 0x004095c8 GLOBAL FUNC   16       std::basic_filebuf<char, std::char_traits<char> >::~basic_filebuf()
+388  0x000095d8 0x004095d8 GLOBAL FUNC   16       imp.strcpy
+389  0x000095e8 0x004095e8 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned int)
+390  0x000095f8 0x004095f8 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+393  0x00009608 0x00409608 GLOBAL FUNC   16       Json::Value::isObject() const
+395  0x00009618 0x00409618 GLOBAL FUNC   16       imp.pthread_self
+400  0x00009628 0x00409628 GLOBAL FUNC   16       imp.nanosleep
+402  0x00009638 0x00409638 GLOBAL FUNC   16       imp.v4l2_h264_decoder_work_release
+406  0x00009648 0x00409648 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::find(char, unsigned int) const
+407  0x00009658 0x00409658 GLOBAL FUNC   16       cv::Mat::clone() const
+411  0x00009668 0x00409668 GLOBAL FUNC   16       std::condition_variable::notify_all()
+416  0x00009678 0x00409678 GLOBAL FUNC   16       imp.signal
+419  0x00009688 0x00409688 GLOBAL FUNC   16       imp.__dynamic_cast
+420  0x00009698 0x00409698 GLOBAL FUNC   16       std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode)
+421  0x000096a8 0x004096a8 GLOBAL FUNC   16       Json::StreamWriterBuilder::~StreamWriterBuilder()
+424  0x000096b8 0x004096b8 GLOBAL FUNC   16       std::_Rb_tree_increment(std::_Rb_tree_node_base*)
+428  0x000096c8 0x004096c8 GLOBAL FUNC   16       cv::Mat::operator=(cv::Mat const&)
+430  0x000096d8 0x004096d8 GLOBAL FUNC   16       imp.malloc
+432  0x000096e8 0x004096e8 GLOBAL FUNC   16       std::ios_base::ios_base()
+433  0x000096f8 0x004096f8 GLOBAL FUNC   16       std::locale::~locale()
+434  0x00009708 0x00409708 GLOBAL FUNC   16       imp.tcgetattr
+437  0x00009718 0x00409718 GLOBAL FUNC   16       Json::Value::asString[abi:cxx11]() const
+438  0x00009728 0x00409728 GLOBAL FUNC   16       std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)
+439  0x00009738 0x00409738 GLOBAL FUNC   16       std::ios_base::Init::Init()
+441  ---------- 0x00000000 WEAK   NOTYPE 16       imp._ITM_registerTMCloneTable
+446  0x00009748 0x00409748 GLOBAL FUNC   16       std::__basic_file<char>::is_open() const
+447  0x00009758 0x00409758 GLOBAL FUNC   16       Json::parseFromStream(Json::CharReader::Factory const&, std::istream&, Json::Value*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*)
+448  0x00009768 0x00409768 GLOBAL FUNC   16       imp.SHA256_Update
+449  0x00009778 0x00409778 GLOBAL FUNC   16       imp.fopen
+451  0x00009788 0x00409788 GLOBAL FUNC   16       std::runtime_error::runtime_error(char const*)
+452  0x00009798 0x00409798 GLOBAL FUNC   16       imp.isatty
+454  0x000097a8 0x004097a8 GLOBAL FUNC   16       JsonValue::operator[](char const*)
+455  0x000097b8 0x004097b8 GLOBAL FUNC   16       AI_Engine::AI_Engine()
+456  0x000097c8 0x004097c8 GLOBAL FUNC   16       imp.lws_sul_schedule
+457  0x000097d8 0x004097d8 GLOBAL FUNC   16       imp.udev_enumerate_get_list_entry
+459  0x000097e8 0x004097e8 GLOBAL FUNC   16       JsonValue::JsonValue(JsonValue const&)
+460  0x000097f8 0x004097f8 GLOBAL FUNC   16       imp.sem_open
+464  0x00009808 0x00409808 GLOBAL FUNC   16       Json::Value::isArray() const
+465  0x00009818 0x00409818 GLOBAL FUNC   16       imp.sem_close
+466  0x00009828 0x00409828 GLOBAL FUNC   16       imp.closedir
+468  0x00009838 0x00409838 GLOBAL FUNC   16       std::__cxx11::basic_stringbuf<char, std::char_traits<char>, std::allocator<char> >::_M_sync(char*, unsigned int, unsigned int)
+470  0x00009848 0x00409848 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::insert(unsigned int, char const*)
+471  0x00009858 0x00409858 GLOBAL FUNC   16       cv::CommandLineParser::has(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) const
+473  0x00009868 0x00409868 GLOBAL FUNC   16       imp.write
+474  0x00009878 0x00409878 GLOBAL FUNC   16       imp.select
+475  0x00009888 0x00409888 GLOBAL FUNC   16       std::_Rb_tree_insert_and_rebalance(bool, std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::_Rb_tree_node_base&)
+479  0x00009898 0x00409898 GLOBAL FUNC   16       cv::flip(cv::_InputArray const&, cv::_OutputArray const&, int)
+481  0x000098a8 0x004098a8 GLOBAL FUNC   16       imp.opendir
+483  0x000098b8 0x004098b8 GLOBAL FUNC   16       AI_Engine::sensorDetect(std::vector<int, std::allocator<int> > const&, SensorDetMode, SensorDetResult&)
+484  0x000098c8 0x004098c8 GLOBAL FUNC   16       imp.readdir
+485  0x000098d8 0x004098d8 GLOBAL FUNC   16       imp.pclose
+490  0x00070690 0x00470690 GLOBAL FUNC   16       std::regex_error::~regex_error()
+493  0x000098f8 0x004098f8 GLOBAL FUNC   16       std::__throw_bad_function_call()
+494  0x00009908 0x00409908 GLOBAL FUNC   16       std::basic_ios<char, std::char_traits<char> >::clear(std::_Ios_Iostate)
+495  0x00009918 0x00409918 GLOBAL FUNC   16       std::terminate()
+496  0x00009928 0x00409928 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+497  0x00009938 0x00409938 GLOBAL FUNC   16       cv::Mat::Mat(cv::Mat const&)
+499  0x00009948 0x00409948 GLOBAL FUNC   16       imp.nalu_buf_read_unit
+502  0x00009958 0x00409958 GLOBAL FUNC   16       imp.udev_list_entry_get_name
+504  0x00009968 0x00409968 GLOBAL FUNC   16       imp.cfsetispeed
+506  0x00009978 0x00409978 GLOBAL FUNC   16       imp.udev_enumerate_new
+507  0x00009988 0x00409988 GLOBAL FUNC   16       AI_Engine::sensorDetInit()
+510  0x00009998 0x00409998 GLOBAL FUNC   16       JsonValue::setValueInternal(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, JsonValue const&)
+512  0x000099a8 0x004099a8 GLOBAL FUNC   16       std::locale::id::_M_id() const
+516  0x000099b8 0x004099b8 GLOBAL FUNC   16       imp.v4l2_h264_decoder_get_frame_info
+518  0x000099c8 0x004099c8 GLOBAL FUNC   16       imp.udev_enumerate_scan_devices
+520  0x000099d8 0x004099d8 GLOBAL FUNC   16       imp.lws_ring_create
+521  0x000099e8 0x004099e8 GLOBAL FUNC   16       imp.udev_device_get_devnode
+523  0x000099f8 0x004099f8 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::push_back(char)
+524  0x00009a08 0x00409a08 GLOBAL FUNC   16       Json::Value::operator[](char const*)
+525  0x00009a18 0x00409a18 GLOBAL FUNC   16       imp.perror
+527  0x00009a28 0x00409a28 GLOBAL FUNC   16       std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_erase(unsigned int, unsigned int)
+528  0x00009a38 0x00409a38 GLOBAL FUNC   16       imp.pthread_setname_np
+529  0x00009a48 0x00409a48 GLOBAL FUNC   16       Json::Value::Value(char const*)
+534  0x00009a58 0x00409a58 GLOBAL FUNC   16       imp.SHA256_Init
+535  0x00009a68 0x00409a68 GLOBAL FUNC   16       std::istream::operator>>(int&)
+536  0x00009a78 0x00409a78 GLOBAL FUNC   16       std::_Hash_bytes(void const*, unsigned int, unsigned int)
+538  0x00009a88 0x00409a88 GLOBAL FUNC   16       imp.strerror
+539  0x00009a98 0x00409a98 GLOBAL FUNC   16       Json::Value::Value(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+540  ---------- 0x00000000 WEAK   FUNC   16       imp.__gmon_start__
+541  0x0000a618 0x0040a618 GLOBAL OBJ    16       typeinfo for std::exception
+542  0x00009b18 0x00409b18 GLOBAL FUNC   16       imp.__gxx_personality_v0

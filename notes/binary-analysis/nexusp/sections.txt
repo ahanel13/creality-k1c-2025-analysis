@@ -1,0 +1,55 @@
+There are 46 section headers, starting at offset 0x1a5fcc:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .interp           PROGBITS        00400174 000174 00001a 00   A  0   0  1
+  [ 2] .note.ABI-tag     NOTE            00400190 000190 000020 00   A  0   0  4
+  [ 3] .MIPS.abiflags    MIPS_ABIFLAGS   004001b0 0001b0 000018 18   A  0   0  8
+  [ 4] .reginfo          MIPS_REGINFO    004001c8 0001c8 000018 18   A  0   0  4
+  [ 5] .dynamic          DYNAMIC         004001e0 0001e0 000180 08   A  8   0  4
+  [ 6] .hash             HASH            00400360 000360 0006c4 04   A  7   0  4
+  [ 7] .dynsym           DYNSYM          00400a24 000a24 000ea0 10   A  8   1  4
+  [ 8] .dynstr           STRTAB          004018c4 0018c4 000b47 00   A  0   0  1
+  [ 9] .gnu.version      VERSYM          0040240c 00240c 0001d4 02   A  7   0  2
+  [10] .gnu.version_r    VERNEED         004025e0 0025e0 0001a0 00   A  8   7  4
+  [11] .rel.dyn          REL             00402780 002780 000020 08   A  7   0  4
+  [12] .rel.plt          REL             004027a0 0027a0 0006b8 08  AI  7  21  4
+  [13] .init             PROGBITS        00402e58 002e58 00003c 00  AX  0   0  4
+  [14] .text             PROGBITS        00402ea0 002ea0 08c580 00  AX  0   0 16
+  [15] .MIPS.stubs       PROGBITS        0048f420 08f420 000040 00  AX  0   0  4
+  [16] .iram             PROGBITS        0048f460 08f460 000024 00  AX  0   0  4
+  [17] .fini             PROGBITS        0048f484 08f484 000024 00  AX  0   0  4
+  [18] .rodata           PROGBITS        0048f4b0 08f4b0 011260 00   A  0   0 16
+  [19] .eh_frame_hdr     PROGBITS        004a0710 0a0710 00002c 00   A  0   0  4
+  [20] .eh_frame         PROGBITS        004a073c 0a073c 000068 00   A  0   0  4
+  [21] .plt              PROGBITS        004a07c0 0a07c0 000d90 00  AX  0   0 32
+  [22] .init_array       INIT_ARRAY      004b1550 0a1550 000004 04  WA  0   0  4
+  [23] .fini_array       FINI_ARRAY      004b1554 0a1554 000004 04  WA  0   0  4
+  [24] .got.plt          PROGBITS        004b1558 0a1558 000364 00  WA  0   0  4
+  [25] .data             PROGBITS        004b18c0 0a18c0 0003d0 00  WA  0   0 16
+  [26] .rld_map          PROGBITS        004b1c90 0a1c90 000004 00  WA  0   0  4
+  [27] .got              PROGBITS        004b1ca0 0a1ca0 000024 04 WAp  0   0 16
+  [28] .sdata            PROGBITS        004b1cc4 0a1cc4 000004 00 WAp  0   0  4
+  [29] .bss              NOBITS          004b1cd0 0a1cc8 00221c 00  WA  0   0 16
+  [30] .comment          PROGBITS        00000000 0a1cc8 000071 01  MS  0   0  1
+  [31] .pdr              PROGBITS        00000000 0a1d3c 008800 00      0   0  4
+  [32] .debug_aranges    MIPS_DWARF      00000000 0aa53c 000420 00      0   0  1
+  [33] .debug_info       MIPS_DWARF      00000000 0aa95c 031ee5 00      0   0  1
+  [34] .debug_abbrev     MIPS_DWARF      00000000 0dc841 004df6 00      0   0  1
+  [35] .debug_line       MIPS_DWARF      00000000 0e1637 028c6f 00      0   0  1
+  [36] .debug_frame      MIPS_DWARF      00000000 10a2a8 005f2c 00      0   0  4
+  [37] .debug_str        MIPS_DWARF      00000000 1101d4 061698 01  MS  0   0  1
+  [38] .debug_loc        MIPS_DWARF      00000000 17186c 002824 00      0   0  1
+  [39] .debug_ranges     MIPS_DWARF      00000000 174090 0008f0 00      0   0  1
+  [40] .debug_macro      MIPS_DWARF      00000000 174980 024537 00      0   0  1
+  [41] .gnu.attributes   GNU_ATTRIBUTES  00000000 198eb7 000010 00      0   0  1
+  [42] .mdebug.abi32     PROGBITS        00000000 198ec7 000000 00      0   0  1
+  [43] .shstrtab         STRTAB          00000000 1a5e0f 0001ba 00      0   0  1
+  [44] .symtab           SYMTAB          00000000 198ec8 005d60 10     45 608  4
+  [45] .strtab           STRTAB          00000000 19ec28 0071e7 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), p (processor specific)

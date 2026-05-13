@@ -1,0 +1,77 @@
+[Strings]
+nth paddr      vaddr      len size section type  string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00009e2c 0x00409e2c 18  19   .rodata ascii \t_services\a_dns-sd
+1   0x00009e3f 0x00409e3f 4   5    .rodata ascii _udp
+2   0x00009e44 0x00409e44 5   6    .rodata ascii local
+3   0x00009e50 0x00409e50 5   6    .rodata ascii %s:%s
+4   0x00009e5c 0x00409e5c 7   8    .rodata ascii [%s]:%s
+5   0x00009e64 0x00409e64 9   10   .rodata ascii authority
+6   0x00009e70 0x00409e70 10  11   .rodata ascii additional
+7   0x00009e7c 0x00409e7c 6   7    .rodata ascii answer
+8   0x00009e84 0x00409e84 56  57   .rodata ascii %.*s : %s %.*s PTR %.*s rclass 0x%x ttl %u length %d!!!\n
+9   0x00009ec0 0x00409ec0 54  55   .rodata ascii %.*s : %s %.*s SRV %.*s priority %d weight %d port %d\n
+10  0x00009ef8 0x00409ef8 22  23   .rodata ascii %.*s : %s %.*s A %.*s\n
+11  0x00009f10 0x00409f10 25  26   .rodata ascii %.*s : %s %.*s AAAA %.*s\n
+12  0x00009f2c 0x00409f2c 39  40   .rodata ascii %.*s : %s %.*s TXT [%.*s] = [%.*s] ^_^\n
+13  0x00009f54 0x00409f54 24  25   .rodata ascii %.*s : %s %.*s TXT %.*s\n
+14  0x00009f70 0x00409f70 52  53   .rodata ascii %.*s : %s %.*s type %u rclass 0x%x ttl %u length %d\n
+15  0x00009fb4 0x00409fb4 4   5    .rodata ascii AAAA
+16  0x00009fc4 0x00409fc4 14  15   .rodata ascii Query %s %.*s\n
+17  0x00009fd4 0x00409fd4 7   8    .rodata ascii unicast
+18  0x00009fdc 0x00409fdc 9   10   .rodata ascii multicast
+19  0x00009fe8 0x00409fe8 23  24   .rodata ascii   --> answer %.*s (%s)\n
+20  0x0000a000 0x0040a000 31  32   .rodata ascii   --> answer %.*s port %d (%s)\n
+21  0x0000a020 0x0040a020 33  34   .rodata ascii   --> answer %.*s IPv4 %.*s (%s)\n
+22  0x0000a044 0x0040a044 33  34   .rodata ascii   --> answer %.*s IPv6 %.*s (%s)\n
+23  0x0000a068 0x0040a068 29  30   .rodata ascii _services._dns-sd._udp.local.
+24  0x0000a088 0x0040a088 9   10   .rodata ascii <UNKNOWN>
+25  0x0000a094 0x0040a094 8   9    .rodata ascii Question
+26  0x0000a0a0 0x0040a0a0 6   7    .rodata ascii Answer
+27  0x0000a0a8 0x0040a0a8 9   10   .rodata ascii Authority
+28  0x0000a0b4 0x0040a0b4 10  11   .rodata ascii Additional
+29  0x0000a0c0 0x0040a0c0 36  37   .rodata ascii %.*s: %s %s %.*s rclass 0x%x ttl %u\n
+30  0x0000a0e8 0x0040a0e8 33  34   .rodata ascii Unable to get interface addresses
+31  0x0000a10c 0x0040a10c 25  26   .rodata ascii Local IPv4 address: %.*s\n
+32  0x0000a128 0x0040a128 25  26   .rodata ascii Local IPv6 address: %.*s\n
+33  0x0000a144 0x0040a144 33  34   .rodata ascii Failed to open any client sockets
+34  0x0000a170 0x0040a170 30  31   .rodata ascii Opened %d socket%s for DNS-SD\n
+35  0x0000a190 0x0040a190 24  25   .rodata ascii Sending DNS-SD discovery
+36  0x0000a1ac 0x0040a1ac 36  37   .rodata ascii Failed to send DNS-DS discovery: %s\n
+37  0x0000a1d4 0x0040a1d4 22  23   .rodata ascii Reading DNS-SD replies
+38  0x0000a1ec 0x0040a1ec 14  15   .rodata ascii ###timeout = 5
+39  0x0000a1fc 0x0040a1fc 18  19   .rodata ascii 1.Closed socket%s\n
+40  0x0000a210 0x0040a210 34  35   .rodata ascii Opened %d socket%s for mDNS query\n
+41  0x0000a234 0x0040a234 18  19   .rodata ascii Sending mDNS query
+42  0x0000a248 0x0040a248 8   9    .rodata ascii  : %s %s
+43  0x0000a254 0x0040a254 30  31   .rodata ascii Failed to send mDNS query: %s\n
+44  0x0000a274 0x0040a274 26  27   .rodata ascii Reading mDNS query replies
+45  0x0000a290 0x0040a290 28  29   .rodata ascii timeout=10, Read %d records\n
+46  0x0000a2b0 0x0040a2b0 18  19   .rodata ascii 2.Closed socket%s\n
+47  0x0000a2c4 0x0040a2c4 36  37   .rodata ascii Opened %d socket%s for mDNS service\n
+48  0x0000a2ec 0x0040a2ec 20  21   .rodata ascii Invalid service name
+49  0x0000a304 0x0040a304 20  21   .rodata ascii Service mDNS: %s:%d\n
+50  0x0000a31c 0x0040a31c 13  14   .rodata ascii Hostname: %s\n
+51  0x0000a32c 0x0040a32c 9   10   .rodata ascii %.*s.%.*s
+52  0x0000a338 0x0040a338 11  12   .rodata ascii %.*s.local.
+53  0x0000a348 0x0040a348 6   7    .rodata ascii SN_XXX
+54  0x0000a354 0x0040a354 7   8    .rodata ascii MAC_XXX
+55  0x0000a35c 0x0040a35c 16  17   .rodata ascii Sending announce
+56  0x0000a370 0x0040a370 15  16   .rodata ascii Sending goodbye
+57  0x0000a380 0x0040a380 18  19   .rodata ascii 3.Closed socket%s\n
+58  0x0000a394 0x0040a394 33  34   .rodata ascii Opened %d socket%s for mDNS dump\n
+59  0x0000a3b8 0x0040a3b8 18  19   .rodata ascii 4.Closed socket%s\n
+60  0x0000a3cc 0x0040a3cc 24  25   .rodata ascii ioctl  GET_IPADDR error.
+61  0x0000a3e8 0x0040a3e8 14  15   .rodata ascii inet addr: %s\n
+62  0x0000a3f8 0x0040a3f8 4   5    .rodata ascii eth0
+63  0x0000a400 0x0040a400 5   6    .rodata ascii wlan0
+64  0x0000a408 0x0040a408 22  23   .rodata ascii _test-mdns._tcp.local.
+65  0x0000a420 0x0040a420 10  11   .rodata ascii dummy-host
+66  0x0000a42c 0x0040a42c 11  12   .rodata ascii --discovery
+67  0x0000a438 0x0040a438 7   8    .rodata ascii --query
+68  0x0000a440 0x0040a440 9   10   .rodata ascii --service
+69  0x0000a44c 0x0040a44c 6   7    .rodata ascii --dump
+70  0x0000a454 0x0040a454 10  11   .rodata ascii --hostname
+71  0x0000a460 0x0040a460 6   7    .rodata ascii --port
+72  0x0000a468 0x0040a468 41  42   .rodata ascii hostname=%s, service=%s, service_port=%d\n
+73  0x0000a494 0x0040a494 26  27   .rodata ascii network devices no ip addr

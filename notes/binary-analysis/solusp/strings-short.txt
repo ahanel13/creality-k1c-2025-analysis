@@ -1,0 +1,3336 @@
+/lib/ld-linux-mipsn8.so.1
+oRw@
+__gmon_start__
+libhardware2.so
+_DYNAMIC_LINKING
+__RLD_MAP
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+libutils2.so
+nalu_buf_write
+nalu_buf_read_unit
+nalu_buf_init
+nalu_buf_read_tail
+v4l2_h264_decoder_open
+v4l2_h264_decoder_work
+v4l2_h264_decoder_get_frame_info
+v4l2_h264_decoder_work_release
+v4l2_h264_decoder_close
+librt.so.1
+clock_gettime
+shm_unlink
+shm_open
+ScaleRowDown2_16To8_Odd_C
+ScaleRowDown2Box_16To8_Odd_C
+ScaleRowDown2_16To8_C
+ScaleRowDown2Box_16To8_C
+ScaleRowDown2Linear_16To8_Odd_C
+ScaleRowDown2Linear_16To8_C
+ScaleFilterReduce
+ScaleSlope
+ScaleCols_C
+malloc
+ScaleFilterCols_C
+ScaleFilterCols64_C
+free
+CopyPlane
+FixedDiv1_C
+ScaleRowUp2_Bilinear_Any_C
+ScaleColsUp2_C
+InterpolateRow_C
+FixedDiv_C
+memset
+ScaleAddRow_C
+ScalePlaneVertical
+ScaleRowDown34_1_Box_C
+ScaleRowDown34_C
+ScaleRowDown2Box_C
+ScaleRowDown2Linear_C
+ScaleRowDown38_2_Box_C
+ScaleRowDown38_C
+ScaleRowDown4_C
+ScaleRowUp2_Linear_Any_C
+ScaleRowDown2_C
+ScaleRowDown4Box_C
+ScaleRowDown34_0_Box_C
+ScaleRowDown38_3_Box_C
+ScaleCols_16_C
+ScaleFilterCols_16_C
+ScaleFilterCols64_16_C
+CopyPlane_16
+ScaleRowUp2_Bilinear_16_Any_C
+ScaleColsUp2_16_C
+InterpolateRow_16_C
+ScaleAddRow_16_C
+ScalePlaneVertical_16
+ScaleRowDown34_1_Box_16_C
+ScaleRowDown34_16_C
+ScaleRowDown2Linear_16_C
+ScaleRowDown2Box_16_C
+ScaleRowDown38_2_Box_16_C
+ScaleRowDown38_16_C
+ScaleRowUp2_Linear_16_Any_C
+ScaleRowDown2_16_C
+ScaleRowDown4_16_C
+ScaleRowDown4Box_16_C
+ScaleRowDown34_0_Box_16_C
+ScaleRowDown38_3_Box_16_C
+ScalePlane_16
+ScalePlane
+ScalePlane_12
+UVScale
+I420Scale
+InterpolateRow_16To8_C
+__divdi3
+ScaleUVCols_C
+ScaleUVFilterCols_C
+ScaleUVFilterCols64_C
+ScaleUVCols64_C
+ScaleUVColsUp2_C
+ScaleUVRowUp2_Bilinear_Any_C
+ScaleUVRowDownEven_C
+ScaleUVRowDownEvenBox_C
+ScaleUVRowUp2_Linear_Any_C
+ScaleUVRowDown2Box_C
+ScaleUVRowDown2_C
+ScaleUVRowDown2Linear_C
+ScaleUVRowUp2_Bilinear_16_Any_C
+ScaleUVRowUp2_Linear_16_Any_C
+SplitXRGBRow_C
+SplitARGBRow_C
+MergeXRGBRow_C
+MergeARGBRow_C
+MergeXR64Row_C
+MergeAR64Row_C
+MergeXRGB16To8Row_C
+MergeARGB16To8Row_C
+CopyRow_C
+Convert16To8Row_C
+Convert8To16Row_C
+Convert8To8Row_C
+NV12Copy
+SplitUVRow_16_C
+MergeUVRow_16_C
+MultiplyRow_16_C
+DivideRow_16_C
+SwapUVRow_C
+SwapUVPlane
+DetileRow_C
+DetileRow_16_C
+DetileSplitUVRow_C
+DetileToYUY2_C
+SplitRGBRow_C
+MergeRGBRow_C
+MergeXR30Row_C
+YUY2ToUV422Row_C
+YUY2ToYRow_C
+UYVYToUV422Row_C
+UYVYToYRow_C
+MirrorUVRow_C
+MirrorPlane
+MirrorUVPlane
+ARGBMirrorRow_C
+RGB24MirrorRow_C
+ARGBBlendRow_C
+BlendPlaneRow_C
+BlendPlane
+ScaleRowDown2Box_Odd_C
+ARGBMultiplyRow_C
+ARGBAddRow_C
+ARGBSubtractRow_C
+RAWToRGB24Row_C
+SetPlane
+ARGBSetRow_C
+ARGBAttenuateRow_C
+ARGBUnattenuateRow_C
+ARGBGrayRow_C
+ARGBSepiaRow_C
+ARGBColorMatrixRow_C
+ARGBColorMatrix
+ARGBColorTableRow_C
+ARGBQuantizeRow_C
+ComputeCumulativeSumRow_C
+ARGBComputeCumulativeSum
+CumulativeSumToAverageRow_C
+ARGBShadeRow_C
+InterpolatePlane
+ARGBShuffleRow_C
+AR64ShuffleRow_C
+GaussCol_F32_C
+GaussRow_F32_C
+ARGBToYJRow_C
+SobelXRow_C
+SobelYRow_C
+SobelRow_C
+SobelToPlaneRow_C
+SobelXYRow_C
+ARGBPolynomialRow_C
+HalfFloatRow_C
+ByteToFloatRow_C
+ARGBLumaColorTableRow_C
+ARGBCopyAlphaRow_C
+ARGBExtractAlphaRow_C
+ARGBCopyYToAlphaRow_C
+YUY2ToNVUVRow_C
+memcpy
+HalfMergeUVRow_C
+fixed_invtbl8
+ScaleRowUp2_Linear_C
+ScaleRowUp2_Linear_16_C
+ScaleRowUp2_Bilinear_C
+ScaleRowUp2_Bilinear_16_C
+ScaleUVRowUp2_Linear_C
+ScaleUVRowUp2_Linear_16_C
+ScaleUVRowUp2_Bilinear_C
+ScaleUVRowUp2_Bilinear_16_C
+libavformat.so.58
+libavcodec.so.58
+libavutil.so.56
+libswscale.so.5
+libjsoncpp.so.23
+_ZNK4Json17ValueIteratorBase7isEqualERKS0_
+_ZN4Json17ValueIteratorBase9incrementEv
+_ZNK4Json5ValueixEi
+_ZNK4Json5Value5beginEv
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
+_ZNK4Json5Value14toStyledStringB5cxx11Ev
+_ZNK4Json5Value8isMemberEPKc
+_ZNK4Json5Value3endEv
+_ZNK4Json5Value8isStringEv
+_ZN4JsonlsERSoRKNS_5ValueE
+_ZNK4Json17ValueIteratorBase5derefEv
+_ZNK4Json5Value5asIntEv
+_ZNK4Json5Value8asStringB5cxx11Ev
+_ZN4Json17CharReaderBuilderC1Ev
+_ZNK4Json5ValueixEPKc
+_ZN4Json5ValueC1EPKc
+_ZNK4Json5Value7isArrayEv
+_ZN4Json5ValueC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZN4Json5ValueC1ERKS0_
+_ZN4Json19StreamWriterBuilderC1Ev
+_ZN4Json19StreamWriterBuilderD1Ev
+_ZN4Json5ValueaSERKS0_
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_
+_ZN4Json5ValueaSEOS0_
+_ZN4Json11writeStringB5cxx11ERKNS_12StreamWriter7FactoryERKNS_5ValueE
+_ZNK4Json5Value8isObjectEv
+_ZTIN4Json10LogicErrorE
+_ZN4Json17CharReaderBuilderD1Ev
+_ZNK4Json5Value8asDoubleEv
+_ZN4Json5ValueC1Ei
+_ZN4Json5ValueD1Ev
+_ZN4Json5ValueC1ENS_9ValueTypeE
+_ZN4Json5ValueixEPKc
+_ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZTIN4Json12RuntimeErrorE
+_ZTSN4Json12RuntimeErrorE
+_ZNK4Json17CharReaderBuilder13newCharReaderEv
+_ZTIN4Json9ExceptionE
+_ZTSN4Json10LogicErrorE
+libwebsockets.so.19
+lws_ring_get_element
+lws_ring_consume
+lws_client_connect_via_info
+lws_create_context
+lws_ring_create
+lws_service
+lws_ring_insert
+lws_set_timeout
+lws_callback_on_writable
+lws_ring_get_count_free_elements
+lws_write
+lws_sul_schedule
+lws_set_log_level
+lws_ring_update_oldest_tail
+lws_cancel_service
+lws_sul_cancel
+libpthread.so.0
+pthread_detach
+__pthread_key_create
+pthread_mutex_lock
+sem_post
+sem_open
+pthread_mutex_unlock
+pthread_create
+sem_timedwait
+sem_trywait
+read
+pthread_setname_np
+pthread_cond_timedwait
+pthread_mutex_init
+sem_close
+nanosleep
+__errno_location
+libcrypto.so.1.1
+SHA256_Init
+SHA256_Update
+SHA256_Final
+libudev.so.1
+udev_new
+udev_enumerate_scan_devices
+udev_unref
+udev_device_get_parent_with_subsystem_devtype
+udev_enumerate_new
+udev_enumerate_add_match_subsystem
+udev_enumerate_get_list_entry
+udev_enumerate_unref
+udev_device_get_devnode
+udev_list_entry_get_name
+udev_device_get_sysattr_value
+udev_device_unref
+udev_device_new_from_syspath
+udev_list_entry_get_next
+libopencv_videoio.so.408
+_ZN2cv3MatC1EiiiPvj
+_ZN2cv7imwriteERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_11_InputArrayERKSt6vectorIiSaIiEE
+_ZN2cv3MatC1Ev
+_ZN2cv8cvtColorERKNS_11_InputArrayERKNS_12_OutputArrayEii
+_ZTISt19_Sp_make_shared_tag
+_ZNK2cv3Mat5emptyEv
+_ZTSSt19_Sp_make_shared_tag
+_ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRKjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_
+_ZN2cv8imdecodeERKNS_11_InputArrayEi
+_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
+_ZNK2cv3Mat5cloneEv
+_ZN2cv3MatC1ERKS0_
+_ZN2cv4flipERKNS_11_InputArrayERKNS_12_OutputArrayEi
+_ZN2cv3MataSERKS0_
+_ZN2cv3MataSEOS0_
+_ZN2cv3MatD1Ev
+_ZNSt11unique_lockISt5mutexE6unlockEv
+_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+libopencv_imgcodecs.so.408
+_ZNSt6vectorIN2cv3MatESaIS1_EED2Ev
+_ZN2cv3MatC1EOS0_
+_ZNSt6vectorIN2cv3MatESaIS1_EED1Ev
+_ZNSt6vectorIN2cv3MatESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+_ZNSt6vectorISt4pairIjjESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+_ZNSt6vectorIiSaIiEE12emplace_backIJiEEEvDpOT_
+_ZN2cv3MatC1Eiii
+libopencv_imgproc.so.408
+libopencv_core.so.408
+_ZN2cv17CommandLineParserC1EiPKPKcRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNK2cv17CommandLineParser3hasERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNK2cv17CommandLineParser12printMessageEv
+_ZN2cv17CommandLineParserD1Ev
+_ZNK2cv17CommandLineParser9getByNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbNS_5ParamEPv
+_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_jPKS8_PvEjSB_z
+libAIInfer.so
+_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
+_ZN9AI_Engine10getVersionB5cxx11Ev
+_ZN9AI_Engine16updateFlowPAFileER14FlowParametersRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_
+_ZNK9JsonValue6updateERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9JsonValueED2Ev
+_ZN9AI_Engine16updateFlowEmFileER16FlowEmParametersRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_
+_ZN9JsonValueD2Ev
+_ZN9AI_EngineD1Ev
+_ZN9AI_Engine3runER8AIParamsR9AIResults
+_ZN9AI_Engine4initERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_S7_
+_ZN9AI_EngineC1Ev
+_ZN9AI_Engine12sensorDetectERKSt6vectorIiSaIiEE13SensorDetModeR15SensorDetResult
+_ZN9AI_Engine13sensorDetInitEv
+_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
+_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9JsonValueESaIS8_EE17_M_realloc_insertIJS8_EEEvN9__gnu_cxx17__normal_iteratorIPS8_SA_EEDpOT_
+_ZN9JsonValue16setValueInternalERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS_
+_ZNSt6vectorIdSaIdEE17_M_realloc_insertIJdEEEvN9__gnu_cxx17__normal_iteratorIPdS1_EEDpOT_
+_ZNK12JsonAccessor8getValueIbEEbRT_
+_ZN9JsonValueC1ERKS_
+_ZN9JsonValueixEPKc
+_ZNSt6vectorIdSaIdEE12emplace_backIJdEEEvDpOT_
+_ZN3Log4PushERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiS7_
+_ZN9JsonValue4readERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS_
+_ZN4cv2d9mergePathERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_
+_ZN12JsonAccessorixERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZN9JsonValueD1Ev
+_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
+_ZNKSt5ctypeIcE8do_widenEc
+_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9JsonValueED1Ev
+_ZN3Log5DebugEPKciS1_z
+_ZN3Log3PopB5cxx11Ev
+_ZNSt6vectorIN2cv3MatESaIS1_EEaSERKS3_
+_ZN3Log4InfoEPKciS1_z
+_ZN4cv2d17createDirectoriesERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZN9JsonValueC1EOS_
+_ZN3Log4WarnEPKciS1_z
+_ZN4cv2d17deleteFilesbyDirsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZN3Log5ErrorEPKciS1_z
+_ZNK12JsonAccessor8getValueIiEEbRT_
+_ZN9JsonValueaSEOS_
+libzbar.so.0
+libiconv.so.2
+libstdc++.so.6
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEjjPKcj
+_ZNSt6chrono3_V212system_clock3nowEv
+_ZNSt10_Sp_lockerD1Ev
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EOS4_
+_ZSt19__throw_regex_errorNSt15regex_constants10error_typeE
+_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv
+_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_
+_ZSt20__throw_out_of_rangePKc
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEjPKc
+_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_
+_ZSt9use_facetINSt7__cxx117collateIcEEERKT_RKSt6locale
+_ZTTNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEE
+__cxa_guard_abort
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev
+_ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEjjj
+_ZNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEC1ERKNS_12basic_stringIcS2_S3_EESt13_Ios_Openmode
+_ZSt24__throw_invalid_argumentPKc
+_ZNSt6thread6_StateD2Ev
+_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base
+_ZSt25__throw_bad_function_callv
+_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode
+_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base
+_ZNSt10_Sp_lockerC1EPKv
+_ZNSt6thread15_M_start_threadESt10unique_ptrINS_6_StateESt14default_deleteIS1_EEPFvvE
+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE
+_ZNSolsEi
+_ZNSirsERi
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc
+_ZTVSt11regex_error
+_ZNSo9_M_insertIdEERSoT_
+_ZSt9terminatev
+_ZNSt5ctypeIcE2idE
+_ZTVN10__cxxabiv120__si_class_type_infoE
+_ZSt20__throw_system_errori
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_
+_Znwj
+__cxa_rethrow
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj
+_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate
+_ZNSo9_M_insertImEERSoT_
+_ZNSt13runtime_errorD1Ev
+_ZNSt18condition_variableC1Ev
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEPKcjj
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i
+_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv
+_ZNSt6thread4joinEv
+_ZSt11_Hash_bytesPKvjj
+_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEPKcjj
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9push_backEc
+_ZSt4cout
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj
+_ZNKSt12__basic_fileIcE7is_openEv
+_ZTVSt14basic_ifstreamIcSt11char_traitsIcEE
+_ZSt19__throw_logic_errorPKc
+__dynamic_cast
+_ZTINSt6locale5facetE
+_ZTISt13runtime_error
+_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZNSt13runtime_errorC1EPKc
+_ZNSt8ios_baseD2Ev
+_ZTISt11regex_error
+_ZNSt8ios_base4InitC1Ev
+_ZTVNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEE
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEjjjc
+_ZTVN10__cxxabiv117__class_type_infoE
+_ZNSt6localeD1Ev
+_ZNSt13runtime_errorC2EPKc
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE
+_ZTVSt13basic_filebufIcSt11char_traitsIcEE
+_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj
+__cxa_guard_acquire
+__cxa_end_catch
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj
+_ZNSt6localeaSERKS_
+_ZNKSt5ctypeIcE9do_narrowEcc
+_ZNSo5flushEv
+_ZNSt8ios_base4InitD1Ev
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEjc
+_ZSt17__throw_bad_allocv
+__cxa_throw
+_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev
+_ZNKSt5ctypeIcE13_M_widen_initEv
+_ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE
+_ZTISt5ctypeIcE
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_eraseEjj
+__cxa_allocate_exception
+_ZTTSt14basic_ifstreamIcSt11char_traitsIcEE
+_ZNSt18condition_variable10notify_allEv
+_ZTVSt9basic_iosIcSt11char_traitsIcEE
+__cxa_bad_cast
+_ZNSi10_M_extractIdEERSiRT_
+_ZSt4cerr
+_ZNSi10_M_extractIlEERSiRT_
+_ZNSt6localeC1Ev
+_ZNSt12__basic_fileIcED1Ev
+_ZNKSt6locale2id5_M_idEv
+_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE
+_ZSt16__throw_bad_castv
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj
+_ZdlPv
+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE
+__cxa_guard_release
+_ZNSt8ios_baseC2Ev
+_ZSt20__throw_length_errorPKc
+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE
+_ZNSt11regex_errorD1Ev
+_ZNSt18condition_variableD1Ev
+_ZNSo3putEc
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc
+_ZdaPv
+_ZNSt6localeC1ERKS_
+_ZSt24__throw_out_of_range_fmtPKcz
+_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_
+__cxa_begin_catch
+_Znaj
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj
+__cxa_free_exception
+_ZStrsIcSt11char_traitsIcEERSt13basic_istreamIT_T0_ES6_RS3_
+_ZSt9use_facetISt5ctypeIcEERKT_RKSt6locale
+_ZTISt9exception
+_ZNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev
+_ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev
+__gxx_personality_v0
+_ZTINSt6thread6_StateE
+libm.so.6
+libgcc_s.so.1
+__moddi3
+_Unwind_Resume
+__udivdi3
+libc.so.6
+opendir
+setitimer
+memcmp
+pthread_self
+tcsetattr
+gettimeofday
+signal
+getrusage
+strcmp
+readdir
+fopen
+memmove
+strcpy
+__cxa_atexit
+closedir
+popen
+munmap
+fcntl
+perror
+strchr
+__isoc99_sscanf
+__libc_start_main
+strncpy
+tcgetattr
+fgets
+pclose
+cfsetospeed
+__fxstat
+cfsetispeed
+fclose
+isalnum
+vsnprintf
+tcflush
+isatty
+strerror
+isspace
+strtof
+select
+strtod
+strlen
+strtol
+usleep
+mmap
+_IO_stdin_used
+_ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_
+_ZNSt6vectorIN2cv3MatESaIS1_EE9push_backERKS1_
+_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_PKS5_
+_ZNSt6vectorIS_IiSaIiEESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+_ftext
+_fdata
+_edata
+__bss_start
+_fbss
+_end
+OPENSSL_1_1_0
+GLIBC_2.2
+GLIBC_2.12
+GLIBC_2.3.2
+GLIBC_2.0
+LIBUDEV_183
+GCC_3.0
+GLIBC_2.28
+GLIBC_2.7
+CXXABI_1.3.5
+GLIBCXX_3.4.14
+GLIBCXX_3.4.19
+GLIBCXX_3.4.18
+GLIBCXX_3.4.9
+GLIBCXX_3.4.22
+GLIBCXX_3.4.11
+GLIBCXX_3.4.15
+CXXABI_1.3
+GLIBCXX_3.4.20
+GLIBCXX_3.4.21
+GLIBCXX_3.4
+TB$%
+TB$%
+'%0 
+'%(@
+'% @
+'%(@
+E$#(
+'% @
+$% `
+<% @
+B$% `
+$% `
+<NVB$
+'%0@
+$%(@
+'%0@
+g$%0
+<NVB$X
+<%8@
+<%8@
+<%8@
+<%8@
+2&% @
+<%8@
+<%8@
+<%8@
+<%8@
+<%8@
+<%8@
+<%0`
+r$+(2
+r$+(2
+&&%(
+<%8@
+<%8@
+<%8@
+<%8@
+$% @
+r$+ B
+<@Bc$
+$% `
+$%(@
+'%  
+'%  
+'% @
+'%(@
+'%(@
+'%(@
+'%(@
+'%(@
+$% @
+<thc$
+'%(@
+'%(@
+'%( 
+'%(@
+'%(@
+'%(@
+E&%(
+'%(@
+$%0 
+<%8@
+F<	 F
+<%8@
+'%0 
+<%8@
+r$+(
+'% @
+'%  
+<%8@
+'%(@
+'%(@
+1&!0
+1&!0
+1&!0
+ 4F`
+'% @
+<%8@
+'! D
+$%0@
+$%0@
+$%0@
+$%0@
+&&%(@
+&% @
+D%  
+$% @
+&% @
+$% @
+'%(@
+'%(@
+'%(@
+'%(@
+f&%(
+'%(@
+w&Pw
+'%(@
+Ep!(d
+'%(@
+'%(@
+'%(@
+<%0@
+'%  
+'% `
+$% `
+~$% 
+'% `
+'% `
+'% `
+%&hz
+%&hz
+'% `
+F$%(
+'% `
+'% `
+'% `
+'% `
+'% `
+'% `
+'% `
+'% `
+'% `
+&!0"
+$% @
+$% @
+<%IB$+
+<VUb$+
+UUt$
+mc$#
+<%Ib$+
+$Iw$
+(bp!
+<VUB$+
+<+ d
+B4# p
+$% @
+$% @
+Nc$#
+<c'B$+
+'%(@
+B4%0
+<%8@
+<@Bc$
+<%8 
+<@BB$
+'%( 
+16%  
+<%8 
+$2@ 
+$% @
+$% @
+'% `
+R&% `
+'% `
+1&% `
+'% `
+'% `
+$B$4
+(Dp!
+(Cp! 
+(dp!
+r%0@
+$% `
+(Dp!
+(Dp!
+'%( 
+F$+0f
+(Dp!
+(Cp! 
+(Dp!
+(Dp!
+(Cp! 
+(dp!
+(Dp!
+(Dp!
+Wc$ 
+<VUB$+0
+p!(g
+$+0F
+(bp!
+ Gp!
+ Gp!
+Wc$ 
+WB$ 
+WB$ 
+WB$ 
+<VUc$+
+(dp!
+<VUc$+
+(dp!
+r%  
+r%  
+<VUc$+
+(dp!
+B$% 
+c4# 
+8fp!
+$%(@
+1&%( 
+($r% 
+($r% 
+8fp!
+$%(@
+<VUc$+
+(dp!
+c4#(
+B$% 
+&%  
+0Cp!
+(Cp!
+&%  
+|%  
+&%  
+$%( 
+<,[B$
+$%( 
+<X[B$
+$%( 
+$%( 
+c4# 
+B4# 
+B4# 
+B4# 
+$\B$$
+WB$%
+\B$$
+<HWB$
+'%  
+<L_B$$
+'%  
+< `B$$
+'%  
+,XB$$
+PXB$%
+XB$$
+'%  
+]B$$
+'%  
+<T]B$$
+<<YB$
+'%  
+'%  
+YB$$
+YB$$
+ZB$%  
+^B$$
+<XZB$
+'%  
+^B$$
+'%  
+B4# 
+B4# 
+B4# 
+'% `
+%&% `
+e&% 
+<VUc$+
+&%(@
+%&% `
+e&% 
+<VUc$+
+&%(@
+'% @
+'% @
+'%(`
+'%(`
+'%(`
+'%(`
+'%(`
+(Up!
+0up!
+p! e
+($r@
+8fp!
+(cr@
+8Cp!
+0dp!
+$%(`
+ Drh
+&#0F
+p!8d
+'%(`
+R&%(`
+'%  
+'%  
+'%  
+p!@C
+<VUc$+
+'%  
+'%  
+'%  
+M$!@
+c$!@
+'%0 
+'%  
+'%0 
+'%  
+'%0 
+'%  
+'%0 
+'%  
+'%(`
+C0% 
+&%(`
+(Qp!
+8qp!
+$%(@
+&%(`
+0Ep0
+B4# 
+&%(`
+'%0`
+<""c$\
+<\\c$`
+$t	c$l
+<`aB$
+<%  
+c4# 
+B4# 
+B4# 
+R.%(
+ crH
+$% `
+$% `
+B,%(
+<@BB4%
+<%8@
+$&%(
+<%8@
+$&%(
+<%8@
+$&%(
+'%  
+E&% @
+'%( 
+E&% @
+e&%(@
+%&% 
+B$!0
+$%( 
+U&%(
+^R&!
+<% @
+4% @
+'%(`
+'%0@
+'+0C
+$%(@
+'+0C
+$%  
+$%( 
+'! D
+<%0@
+<%8@
+'%( 
+'!0F
+<@BB4%
+<@BB4%
+<%8@
+'%(@
+<%8@
+<%8@
+<%8@
+'%(@
+<% @
+$% @
+<%8@
+'%0@
+'%0`
+$% @
+$% @
+1&% @
+$%  
+'%  
+$%  
+$%  
+$%  
+W$%0
+'%0@
+b)%@`
+&!(S
+$$H"
+ rp0
+:B|% 
+:B|%  
+Br@ 
+(bp<
+*! D
+0Ep%
+(dp0
+:B|% 
+0epP
+$%8 
+ Cp!
+:B|%8@
+4+PN
+4*PJ
+4+PN
+4*PJ
+4+PN
+4*PJ
+4+H.
+	4*H
+4+H.
+	4*H
+4+H.
+	4*H
+4+PM
+4*PJ
+J%@H
+B$%@H
+B$%@H
+$BH	
+)%@@	
+$BH	
+J%@H
+B$%@H
+B$%@H
+J%@X
+B$%HI
+$BH	
+)%@P	
+B$%@H
+L%!Hc
+`jp!H
+@jq!
+@iq!
+@Cp!
+Xhp!
+@Cp!
+Xhp!
+%@H	
+@2	}!
+@2I|!@
+8Gp@
+@2Y|
+88q!
+@2B|#
+I0!P
+80q!
+J%@H
+B$!8
+8(q!
+J%*XL
+B$!8
+Xiq!
+p!0+
+p!HI
+I%BH	
+p! D
+@Cp!
+@Cp!
+@Cp!
+@Cp!
+@Cp!
+@Cp!
+yq+PH
+B0!H
+xp!XK
+&!(Q
+&!(Q
+s&@(
+'* ^
+:F|%
+s&@(
+	$# 
+B$+(
+Up#@
+<$(d
+&!(b
+:B}% 
+&!PV
+<!(d
+<!(d
+&!PV
+J%%8
+J%%0
+(Erl
+0tr4
+cr@8
+8Tp! $
+ gp#
+vp@ 
+ gp#
+0dp#
+ bp#
+ bp#
+ bp#
+x.q#H	
+xNq#P
+PCq#
+p! $
+8tp! $
+0rr4
+xGp!H
+xSp!
+(tr 
+8ur$
+C&@ 
+0urD
+8urL
+ Ept
+%&%8
+&% `
+ Ept
+%&%8
+&% `
+ Ept
+%&%8
+&% `
+8urt
+D%( 
+D%( 
+ $r<
+ br|
+$!0d
+$!0d
+$!0d
+p!0d
+J0$@l
+B0$@
+8c|%
+B0$@
+=c|%
+	<%8
+Mh|$
+p!0e
+p!0e
+0!@H
+c$%p
+B$%h
+k1!XK
+)!0f
+B$% 
+,'B`
+,'B`
+,'B`
+,'B`
+$!0d
+,'B`
+$!0d
+,'B`
+J%!p
+Tp!h
+B$! 
+4! i
+Pip!
+HEp!
+J%!p
+Tp!h
+B$! 
+4! i
+Pip!
+HEp!
+J%!p
+Tp!h
+B$! 
+4! i
+Pip!
+HEp!
+$!0d
+J%!p
+Tp!h
+bp!8
+B$! 
+4! i
+Pip!
+HEp!
+$!0d
+J%!p
+Tp!h
+bp!8
+B$! 
+4! i
+Pip!
+HEp!
+c0%(
+0%Pj
+Cp! 
+$CI	
+0%Xx
+ B|C
+Cp!(
+q!Hi
+Xnp!
+HLp!
+p!0y
+Yq!P
+Xr!Pj
+q!pS
+B$%XK
+k%%Pj
+ep!@g
+B$%H-
+)%%H9
+9'%H)
+R&%HI
+9'%H)
+p! B
+/'Bx
+|%HI
+r!@C
+J%%HI
+Hqr!
+c$%@h
+|%H)
+J%%PS
+J% T
+r!@#
+1&%H)
+Hjr!P#
+c$%@h
+c$%Pj
+(&q!0
+q'p	
+c$%@h
+/'Bx
+J%%PH
+J% T
+s&%@h
+J%%PH
+J% T
+s&%@h
+(&q!0
+q'p	
+c$%@h
+/'Bx
+|%HI
+r!@C
+J%%HI
+Hqr!
+c$%@h
+|%H)
+J%%PS
+J% T
+r!@#
+1&%H)
+Hjr!P#
+c$%@h
+c$%Pj
+(&q!0
+/'Bx
+<%0f
+p! b
+/'Bx
+<%0f
+p! b
+@"s!
+q'h	
+D) L
+<%8g
+p! b
+	<!@
+)% L	|
+4$ D
+)%%H0
+&%H	
+s&%Hi
+&%H	
+p! B
+1&%@(
+1&%@(
+p! B
+1&$@
+$% D
+p!0#
+|c0%
+p!(#
+|c0%
+c$%@
+c0%@(
+p!0#
+ B|%
+)% L	|
+)% L	|
+l%B`
+$!hF
+)% L	|
+l%B`
+$!hF
+)% L	|
+c$%@
+ c|%
+(B|% 
+q!p"
+q!p"
+)% L	|
+p!0B
+q!p"
+q!p"
+)% L	|
+p!0B
+)%%H9
+9'%H)
+R&%HI
+9'%H)
+p! B
+k%@P
+8bp%
+8bp%
+p!0d
+8bp%
+p! d
+p!0d
+$!PB
+$!PB
+p! d
+p! d
+	$% 
+@bp!
+@bp!
+)%@P
+c$@P
+)%@P
+c$@P
+%@H	
+c$!(
+c$!(
+$BH	
+J%%HI
+J%%HI
+J%*XL
+$p%B
+Hep!
+$!8g
+B$! 
+J%!X
+J%!X
+`i%M
+qFM a
+	D'h
+k%%H
+Dt%@
+k%Bh
+%&C 
+%&C 
+0hp!
+0Hp!
+(dp!
+(Dp!
+0hp@(
+0Hp!
+f&C 
+R&!0
+(dp0
+(Dp$
+$! D
+0Hp!
+p!0b
+0hp!
+E$!@%
+&!HF
+&!0P
+8dp!
+(Dp!
+0Cp@(
+@Cp!
+c$!0#
+$!HB
+0ep(
+basic_string::_M_construct null not valid
+cleanup start.
+cleanup end.
+{help h|| solusp }{systemPath s || systemPath eg. --systemPath=/etc/appetc/solusp/ }{usrPath u || usrPath eg. --usrPath=/usr/data/creality/solusp/ }{logPath l || logPath eg. --logPath=/usr/data/printer_data/logs/solusp.log }{klipper_ip k || klipper_ip eg. --klipper_ip=/tmp/klippy_uds }
+help
+systemPath
+usrPath
+logPath
+klipper_ip
+basic_string::append
+config/cx_ai_engine.json
+System Path: 
+User Path: 
+Log Path: 
+main start
+ai_engine_.init() failed
+/ai_shm
+/ai_sem
+?why have more sps %d
+/var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/captureImg/hs_ai_get_video.cpp
+why have more pps %d
+idr = %d, sps = %d, pps= %d
+invalid input parameters
+check_nalu_buf failed
+/dev/video2
+open decoder failed
+decode work failed
+v4l2_h264_decoder_work_release failed
+scaling failed
+/sys/class/video4linux/
+/name
+felix-vdec
+/dev/%s
+getDecoderDevName failed
+open decoder_ failed
+Hostserver close AI detection! %s
+report_result success. type:%d
+report_result failed! %s
+report_status success. stage:%d sta:%d
+report_status failed! %s
+get_ai_ctrl success. ai_det:%d,isShareData_:%d, sensitivity_:%d, isPrintingFlag_:%d, isFlowPA_:%d, isFlowRatio_:%d, printGcode_:%s
+get_ai_ctrl failed! %s
+Waiting for new shared memory to be created and AI detection switch ...
+AI detection is on.
+remap_shared_memory fail %s.
+openStreaming success. type:%d
+openStreaming failed! %s
+exitStreaming failed! %s
+getNozzleImage
+captureImg: frame is empty!
+captureImg: frame is empty! %s
+openStreaming failed! retry... %s
+HS_AI_CMD_T_PWL...
+mem->cmd = %d , mem->cmd_ste = %d
+Failed to get video streaming! %s
+map::at
+exitAllThreads
+exitStreaming
+report_status
+Y@sem_timedwait
+appRunning_ = false.
+/var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/ai_engine_app/ai_engine_app.cpp
+ai_klipper sendCode failed
+SystemPath
+UserPath
+ai_engine
+FileName
+AILog
+ai_images/
+/usr/data/printer_data/gcodes/
+gcode/Auto_flowPA.gcode
+updateFlowPAFile failed
+gcode/Auto_flowEm.gcode
+updateFlowEmFile failed
+ready
+printing
+paused
+currentSubState_: webhook_state:%s, print_state:%s, current_layer:%d, report error.
+G28 x y
+G28 z
+ai_klipper sendCode G28 z failed
+cancelled
+cancelling
+complete
+standby
+error
+init gcodeParam failed
+get flow pa param failed
+get gcode pos failed
+pa overlap, model area: xMin:%.2f, xMax:%.2f, yMin:%.2f, yMax:%.2f
+get flow em param failed
+em pos exceed print area: xMin=%.2f, yMin=%.2f.
+M104 S140
+M140 S50
+Nozzle camera is abnormal, disable related algorithms.
+appRunning_ = false, send cancel.
+cancel
+M104 S0
+M140 S0
+ no platform and foreign matter, pause.
+ no platform, pause.
+ normal, continue.
+ detect normal.
+ detect error: %d
+AIPrintingDet completed, and the target is detected, score = %0.2f
+print can be paused and reported.
+print can continue without reporting.
+printing normal.
+detect abnormality, please check:%d
+detect completed, and PA=%0.4f
+detect success, continue
+detect abnormality, please check: %d
+detect completed, flowRatio=%0.4f
+completed, print can be paused and reported.
+ai_engine_app::printingDet, state not found
+detect thread end.
+qrCode.jpg
+appRunning_ = false
+platform_foreign_frame_
+.jpg
+platformForeignRun, frame empty
+platformForeignRun, frame empty > 10, report error, %s
+frame empty > %d, report error.
+Fault detect
+fault_frame.jpg
+Warp detect
+warp_frame.jpg
+G1 x
+ F8000
+ai_klipper sendCode %s failed
+nozzleCamDirt
+ F10000
+cavityCamDirt.jpg
+Open file failed: %s.
+; Flow Detection End y
+basic_string::substr
+%s: __pos (which is %zu) > this->size() (which is %zu)
+; Flow Detection interval
+; Flow Detection Photo Start x
+; Flow Detection Photo Start y
+M190 S
+M190 S%d sendCode failed
+NOZZLE_CLEAR
+NOZZLE_CLEAR sendCode failed
+update flow pa file failed
+BED_MESH_CALIBRATE ADAPTIVE=1 MAX_POS=
+ MIN_POS=
+M109 S
+M109 S%d sendCode failed
+%s sendGcodeFile failed
+get photo point failed
+photo point x:
+move to photo point failed
+get frame failed
+flowPA/
+./FlowIrImage_
+flowCalibDet failed
+pa_value:%f
+SET_PRESSURE_ADVANCE ADVANCE=
+klipperMoveMonitor failed
+update flow em file failed
+flowEM/
+./FlowEmImage_
+flowRatioDet failed
+M221 S
+stoi
+sensorDetRun sensorData is empty
+SensorDet airPaint
+SensorDet scrape
+SensorDet tangle
+SensorDetRun
+CavityCamDirt detect
+PlatformForeign detect
+NozzleCamDirt detect
+FlowPA detect
+G1 Z10 F5000
+FlowEM detect
+isAIDeterctOn_ false, set AIDetectState::None
+QrCode detect
+AIDetectState::None
+config/ai_app_config.json
+read json file failed, file path: %s
+CavityCamDirt
+Enable
+movePos
+ForeignPlateform
+NozzleCamDirt
+FlowPA
+FlowEM
+Fault
+Warp
+Waste
+Foreign
+Plateform
+QrCode
+nozzle: %d, %d, %d, %d, %d, %d
+Invalid string format for Point3i: %s
+bedSize: %d, %d, %d
+ai_engine_app.init() already initialized
+get_sn_mac.sh model_str
+GET_SYS_DEVICE_MODEL_STR failed
+device_str: %s
+ai_engine_app.init() success, Library version: %s
+get_sn_mac.sh bedsize
+GET_BED_SIZE failed
+1.0.12.1.20250826
+CX_AI_APPlication Project Version: %s
+Type mismatch: expected Bool
+JsonAccessor::getValue: failed to get value.
+Type mismatch: expected Integer
+Type mismatch: expected Array
+vector::reserve
+flowEMRun
+AI_DetectStateManager
+stopAppThread
+platformForeignThread
+8Observer
+13ai_engine_app
+NSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvRSt6atomicIbEEPS3_S6_EEEEEE
+NSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvvEPS3_EEEEEE
+B33s?setitimer %s
+/var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/cpu_memory/cpu_monitor.cpp
+current_cpu:%ld - current_total:%ld
+cpu_diff:%ld -- total_diff:%ld
+CPU overload: %.2f%% > %.2f%%
+cpu monitor has been stopped
+A/proc/self/status
+VmRSS: %u kB
+Memory threshold is NULL
+/var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/cpu_memory/memory_monitor.cpp
+memory_monitor
+memory consumption:%lu KB--threshold:%lu KB
+Memory overflow: %lu KB > %lu KB
+Memory allocation failed
+Input memory threshold:%lu MB
+Memory monitor has been stopped
+parse fail, get unknown param: %s
+/var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/gcode_param/gcodeParam.cpp
+stof
+stod
+open file %s failed, errno = %d
+mmap failed, errno = %d
+)((\d+\.?\d+)(,\d+\.?\d+)*)
+(BED_TEMP=)(\d+\.?\d+)
+%s can't find.
+)(\d+\.?\d+)
+alert
+backspace
+newline
+vertical-tab
+form-feed
+carriage-return
+exclamation-mark
+quotation-mark
+number-sign
+dollar-sign
+percent-sign
+ampersand
+apostrophe
+left-parenthesis
+right-parenthesis
+asterisk
+plus-sign
+comma
+hyphen
+period
+zero
+three
+four
+five
+seven
+eight
+nine
+semicolon
+less-than-sign
+equals-sign
+greater-than-sign
+question-mark
+commercial-at
+left-square-bracket
+backslash
+right-square-bracket
+circumflex
+underscore
+grave-accent
+left-curly-bracket
+vertical-line
+right-curly-bracket
+tilde
+alnum
+alpha
+blank
+cntrl
+digit
+graph
+lower
+print
+punct
+upper
+xdigit
+MINX = 
+MINX:
+MINY = 
+MINY:
+MAXX = 
+MAXX:
+MAXY = 
+MAXY:
+; filament_flow_ratio = 
+START_PRINT EXTRUDER_TEMP=
+M104 S
+ BED_TEMP=
+M140 S
+;Outer Wall Speed:
+; outer_wall_speed = 
+; external_perimeter_speed = 
+;Outer Wall Acceleration:
+; outer_wall_acceleration = 
+; external_perimeter_acceleration = 
+;Acceleration to decelerate:
+; accel_to_decel_factor = 
+; layer_height = 
+;Layer Height:
+; outer_wall_line_width = 
+;Out Wall Line Width:
+; external_perimeter_extrusion_width = 
+; filament_max_volumetric_speed = 
+;Max volumetric speed:
+; max_volumetric_speed = 
+Unexpected end of regex when escaping.
+Unexpected end of regex when reading control code.
+Unexpected end of regex when ascii character.
+vector::_M_default_append
+Unexpected escape character.
+Unexpected end of regex when in an open parenthesis.
+Invalid special open parenthesis.
+Unexpected end of regex when in brace expression.
+Unexpected character in brace expression.
+Unexpected end of character class.
+Unexpected end of regex when in bracket expression.
+Unexpected character class open bracket.
+Nothing to repeat before a quantifier.
+Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
+Unexpected back-reference in polynomial mode.
+Back-reference index exceeds current sub-expression count.
+Back-reference referred to an opened sub-expression.
+vector::_M_realloc_insert
+Unexpected token in brace expression.
+Unexpected end of brace expression.
+Invalid range in brace expression.
+Invalid collate element.
+Invalid equivalence class.
+Invalid character class.
+Unexpected dash in bracket expression. For POSIX syntax, a dash is not treated literally only when it is at beginning or end.
+Invalid range in bracket expression.
+Character is expected after a dash.
+Unexpected character in bracket expression.
+Parenthesis is not closed.
+^$\.*+?()[]{}|
+.[\*^$
+.[\()*+?{|^$
+.[\*^$
+.[\()*+?{|^$
+St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+St19_Sp_make_shared_tag
+St23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEE
+NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEE
+NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEE
+NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEE
+NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEE
+NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb1EEE
+NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEE
+NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEE
+NSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+NSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+NSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+NSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+NSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+NSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+NSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+NSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+?127.0.0.1
+/websocket
+dumb-increment-protocol
+task queue not initialized
+/var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/wsKlipper/wsKlipper.cpp
+no free element, dropping!
+OOM: dropping
+insert fail, dropping!
+LWS minimal ws client
+lws init failed
+method
+notify_status_update
+notify_gcode_response
+JSON logic error: %s
+logic error: 
+JSON runtime error: %s
+Unexpected error: %s
+print_stats
+state
+virtual_sdcard
+layer
+webhooks
+toolhead
+homed_axes
+heater_bed
+temperature
+extruder
+result
+status
+params
+print_state: %s webhook_state: %s homed_axes: %s current_layer: %d bed_curtemp: %f extruder_curtemp: %f 
+    {
+        "id": 
+        "jsonrpc": "2.0",
+        "method": "printer.gcode.script",
+        "params": {
+            "script":"READ_PRES"
+        }
+    }
+send code failed
+demand sensor press data timeout
+        "jsonrpc": "2.0",
+        "method": "printer.objects.query",
+        "params": {
+            "objects": {
+                "heater_bed": ["temperature"],
+                "extruder": ["temperature"]
+            },
+            "response_template": {}
+        }
+    }
+PRES_DATA_CH0_FTR_WAVE
+jsonrpc
+printer.gcode.script
+script
+M400
+send code: %s
+Timeout %d seconds waiting for response from Klipper.
+responseJson is not an object.%s
+send code success
+message
+error: %s
+G1 X
+ F5000
+G28 y z
+G28 x z
+G28 y
+G28 x
+open file failed: %s
+basic_string::erase
+send gcode file failed
+JSON parse error: %s
+Exception caught: %s
+ %d response: %s
+temp query response: %s
+            {
+                "id": 
+                "jsonrpc": "2.0",
+                "method": "printer.objects.subscribe",
+                "params": {
+                    "objects": {
+                        "virtual_sdcard": ["layer"],
+                        "print_stats": ["state"],
+                        "webhooks": ["state"],
+                        "toolhead": ["homed_axes"]
+                    },
+                    "response_template": {}
+                }
+            }
+ring create error
+ERROR %d writing to ws socket
+WebSocket connection error
+WebSocket connection closed
+WebSocket connection wait cancelled
+JSON parse error: %s
+lws-minimal-client
+disconnect
+N4Json12RuntimeErrorE
+N4Json10LogicErrorE
+NSt6thread11_State_implINS_8_InvokerISt5tupleIJM9wsKlipperFvvEPS3_EEEEEE
+St23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+Setup Serial fail 1!
+/var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/obbrecLidar/obbrecLidar.cpp
+Unsupported data size.
+Unsupported parity.
+Unsupported stop bits.
+Setup Serial fail 2!
+send frame: %s 
+UNKNOWN_COMMAND
+Failed to create udev
+usb_device
+idVendor
+idProduct
+Serial device already opened
+1a86
+55d3
+Serial device not found
+device open fail, name = %s
+fcntl failed! fcntl=%d
+standard input is not a terminal device.
+Set opt Error
+Serial Port %s Init success!
+get_authorize_key failed, receive data size is not 17.
+The device cannot be used, name = %s
+Read timeout on serial port
+Read error on serial port
+Select error on serial port
+The device cannot be used, name = %s
+Failed to send command.
+receiveFrame failed.
+reveive frame: (
+ bytes): 
+Command failed with status: 0x%02X
+Failed to send CMD_GET_MODULE_STATUS.
+Failed to get authorize key.
+Failed to send CMD_SET_AUTHORIZE_CODE.
+Declassification success!
+Exposure set successfully to %d
+Failed to open capture.
+CMD_GET_MODULE_STATUS
+CMD_OPEN_STREAM
+CMD_CLOSE_STREAM
+CMD_GET_SOFTWARE_VERSION
+CMD_GET_CLOUD_FRAME
+CMD_LIGHT_PLANE_CALIBRATION
+CMD_SET_CLOUD_MODE
+CMD_GET_CLOUD_MODE
+CMD_SET_CLOUD_SPARSE_GEAR
+CMD_GET_CLOUD_SPARSE_GEAR
+CMD_SET_ROI_AREA
+CMD_GET_ROI_AREA
+CMD_SET_STREAM_MODE
+CMD_GET_STREAM_MODE
+CMD_SET_CURRENT_COORDINATE_SYSTEM
+CMD_GET_COORDINATE_SYSTEM_CONFIG
+CMD_ENTER_OTA_UPGRADE_MODE
+CMD_RESET_MODULE
+CMD_ONE_KEY_RECOVERY
+CMD_LASER_SWITCH
+CMD_LED_SWITCH
+CMD_SET_EXPOSURE_PARAMS
+CMD_GET_EXPOSURE_PARAMS
+CMD_SET_GAIN_PARAMS
+CMD_GET_GAIN_PARAMS
+CMD_SET_OTA_FILE_INFO
+CMD_TRANSFER_OTA_FILE
+CMD_POINT_CLOUD_SERIAL_CONFIG
+CMD_GET_IR_SENSOR_TEMP
+CMD_GET_MODULE_SN
+CMD_GET_MODULE_CALIBRATION_PARAMS
+CMD_VUQI_SYSTEM_LOG_SWITCH
+CMD_MODULE_SELF_TEST
+CMD_GET_CLOUD_FRAME_SUBPACKAGING
+CMD_SNAP_IR_IMAGE
+CMD_GET_IR_IMAGE
+CMD_GET_AUTHORIZE_CODE
+CMD_SET_AUTHORIZE_CODE
+vector::_M_range_insert
+;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;Jx
+k;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;Jx
+5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
+s5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
+5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
+f5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
+zPLR
+GCC: (Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58) 7.2.0
+/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/glibc-2017.11-32-mips-linux-gnu-i686-pc-linux-gnu/default/csu/start.o
+ai_engine_app.cpp
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.202
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.isra.206
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_.isra.208
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_16nozzleCamDirtRunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE0_JRS6_EEEiOT_DpOT0_.isra.182
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowEMRunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE1_JS6_EEEiOT_DpOT0_.isra.189
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowEMRunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE0_JS6_EEEiOT_DpOT0_.isra.188
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowPARunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE4_JS6_EEEiOT_DpOT0_.isra.185
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowPARunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE3_JRS6_EEEiOT_DpOT0_.isra.184
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowPARunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE0_JS6_EEEiOT_DpOT0_.isra.183
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_16cavityCamDirtRunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_JRA8_KcEEEiOT_DpOT0_.isra.209
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowEMRunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_JRA4_KcEEEiOT_DpOT0_.isra.215
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowPARunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE2_JRA4_KcEEEiOT_DpOT0_.isra.214
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowPARunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE1_JRA13_KcEEEiOT_DpOT0_.isra.213
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowPARunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_JRA4_KcEEEiOT_DpOT0_.isra.212
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_18platformForeignRunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_JRA8_KcEEEiOT_DpOT0_.isra.211
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_16nozzleCamDirtRunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE_JRA4_KcEEEiOT_DpOT0_.isra.210
+_ZN12JsonAccessor8setValueI9JsonValueEERS_RKT_.part.167
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowPARunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE5_JRS6_EEEiOT_DpOT0_.isra.186
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowEMRunEvEUlRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEE2_JRS6_EEEiOT_DpOT0_.isra.190
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowPARunEvEUlRKfS2_S2_E6_JRfS4_S4_EEEiOT_DpOT0_.isra.187
+_ZN13ai_engine_app18klipperMoveMonitorIZNS_9flowEMRunEvEUlRKfS2_S2_E3_JRfS4_S4_EEEiOT_DpOT0_.isra.191
+_ZZN13ai_engine_app13stopAppThreadEvE12__FUNCTION__
+_ZZN13ai_engine_app21platformForeignThreadERSt6atomicIbEE12__FUNCTION__
+_ZZN13ai_engine_app9flowEMRunEvE12__FUNCTION__
+_ZZN13ai_engine_app21AI_DetectStateManagerEvE12__FUNCTION__
+._357
+_GLOBAL__sub_I__ZN13ai_engine_app8popenCmdERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS5_
+_ZStL8__ioinit
+main.cpp
+_ZNKSt14default_deleteI13ai_engine_appEclEPS0_.isra.26.part.27
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.95
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.isra.99
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_.isra.101
+_ZNKSt14default_deleteI9wsKlipperEclEPS0_.isra.166.part.167
+._351
+._352
+_GLOBAL__sub_I_ai_app
+hs_ai_get_video.cpp
+_ZL14check_nalu_bufPhiiiPS_Pi.constprop.129
+_ZL8nalu_buf
+_ZL8decoder_
+_ZZN15hs_ai_get_video13report_statusE16HS_AI_STAGE_TYPE17HS_AI_STATUS_TYPEE12__FUNCTION__
+_ZZN15hs_ai_get_video13exitStreamingEvE12__FUNCTION__
+_ZZN15hs_ai_get_video14exitAllThreadsEbbE12__FUNCTION__
+_ZZN15hs_ai_get_video10captureImgEvE5index
+_ZZN15hs_ai_get_video10captureImgEvE11empty_count
+_GLOBAL__sub_I__ZN15hs_ai_get_video19decoder_NV12_to_BGREPhiii
+gcodeParam.cpp
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.isra.113
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.150
+_ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFiR14FlowParametersRSt6bitsetILj8EERS9_EELb1EEEEE18_M_deallocate_nodeEPSJ_.isra.172
+_ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFiR16FlowEmParametersRSt6bitsetILj3EERS9_EELb1EEEEE18_M_deallocate_nodeEPSJ_.isra.193
+_ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFiR8GCodePosRSt6bitsetILj4EERS9_EELb1EEEEE18_M_deallocate_nodeEPSJ_.isra.203
+_ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFiR14FlowParametersRSt6bitsetILj8EERS9_EELb1EEEEE19_M_allocate_bucketsEj.isra.345
+_ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFiR8GCodePosRSt6bitsetILj4EERS9_EELb1EEEEE19_M_allocate_bucketsEj.isra.347
+_ZNSt8__detail16_Hashtable_allocISaINS_10_Hash_nodeISt4pairIKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFiR16FlowEmParametersRSt6bitsetILj3EERS9_EELb1EEEEE19_M_allocate_bucketsEj.isra.346
+_ZNKSt7__cxx1112regex_traitsIcE7isctypeEcNS1_10_RegexMaskE.isra.339
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb1EE16_M_main_dispatchENS9_11_Match_modeESt17integral_constantIbLb1EE.isra.363.constprop.735
+_ZNSt8_Rb_treeIlSt4pairIKllESt10_Select1stIS2_ESt4lessIlESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_.isra.637
+_ZSt22__final_insertion_sortIN9__gnu_cxx17__normal_iteratorIPcSt6vectorIcSaIcEEEENS0_5__ops15_Iter_less_iterEEvT_S9_T0_.isra.640
+_ZSt16__introsort_loopIN9__gnu_cxx17__normal_iteratorIPcSt6vectorIcSaIcEEEEiNS0_5__ops15_Iter_less_iterEEvT_S9_T0_T1_.isra.656
+_GLOBAL__sub_I_g_paParamNameArr
+wsKlipper.cpp
+_ZL15destroy_messagePv
+_ZL15receiveRunning_
+_ZL7context
+_ZL10connect_cbP20lws_sorted_usec_list
+_ZL10client_wsi
+_ZL5retry
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.isra.64
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.75
+_ZL15task_queue_pushP10task_queuePKci.constprop.105
+_ZL10task_queue
+_ZL9protocols
+_ZL3sul
+_ZL20receiveStatusThread_
+_ZZN9wsKlipper10disconnectEvE12__FUNCTION__
+_ZL11established
+_ZL24SENSOR_PRESS_DATA_HEADER
+_GLOBAL__sub_I__ZN9wsKlipper12init_connectEv
+_ZL16callback_minimalP3lws20lws_callback_reasonsPvS2_j
+_ZL10backoff_ms
+obbrecLidar.cpp
+_ZN11ObbrecLidar16validateChecksumEPKhj.part.18
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPcEEvT_S7_St20forward_iterator_tag.isra.73
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.isra.77
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC2EPKcRKS3_.isra.80
+_ZL11command_map
+._212
+_Z41__static_initialization_and_destruction_0ii.constprop.122
+_GLOBAL__sub_I__ZN11ObbrecLidarC2Ev
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.6546
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+hs_ipc.cpp
+cpu_monitor.cpp
+_Z17start_cpu_monitord.part.2
+_Z13get_cpu_usagePlS_.part.0
+memory_monitor.cpp
+_ZL14memoryRunning_
+scale.cc
+ScaleAddCols2_C
+ScaleAddCols2_16_C
+ScaleAddCols0_C
+ScaleAddCols1_C
+ScaleAddCols1_16_C
+scale_common.cc
+scale_uv.cc
+planar_functions.cc
+SplitARGBPlaneOpaque
+SplitARGBPlaneAlpha
+MergeARGBPlaneOpaque
+MergeARGBPlaneAlpha
+MergeAR64PlaneOpaque
+MergeAR64PlaneAlpha
+MergeARGB16To8PlaneOpaque
+MergeARGB16To8PlaneAlpha
+row_common.cc
+scale_any.cc
+elf-init.c
+__FRAME_END__
+__init_array_end
+__init_array_start
+.pic.NV12Scale
+_DYNAMIC
+_PROCEDURE_LINKAGE_TABLE_
+__GNU_EH_FRAME_HDR
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb1EE16_M_rep_once_moreENS9_11_Match_modeEl
+ScaleARGBRowDownEvenBox_C
+ConvertToMSBPlane_16
+lws_client_connect_via_info
+_ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+_ZN9wsKlipper13cancelG28CodeEv
+_ZStrsIcSt11char_traitsIcEERSt13basic_istreamIT_T0_ES6_RS3_@@GLIBCXX_3.4
+_ZNSt11_Deque_baseINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EED1Ev
+_ZN13ai_engine_app14setAIShareFlagEb
+_Z35stop_service_cpu_mem_monitor_launchbb
+_ZSt7getlineIcSt11char_traitsIcESaIcEERSt13basic_istreamIT_T0_ES7_RNSt7__cxx1112basic_stringIS4_S5_T1_EES4_@@GLIBCXX_3.4.21
+_ZN9wsKlipper7setHomeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb1ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEEENKUlcE_clEc
+_ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+ConvertToLSBPlane_16
+_ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+_Z13parsePos_YMaxR8GCodePosRSt6bitsetILj4EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EED2Ev
+YUY2ToUVRow_C
+_ZSteqIcEN9__gnu_cxx11__enable_ifIXsrSt9__is_charIT_E7__valueEbE6__typeERKNSt7__cxx1112basic_stringIS3_St11char_traitsIS3_ESaIS3_EEESE_
+main
+_ZNSt8functionIFbcEEC1INSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEvvEET_
+_ZNSt3mapI13AIDetectStatebSt4lessIS0_ESaISt4pairIKS0_bEEE2atERS4_
+_ZNSt8functionIFbcEEC1INSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEvvEET_
+_ZN11ObbrecLidarD2Ev
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE7_M_atomEv
+_ZN11ObbrecLidar11sendCommandEhRKSt6vectorIhSaIhEE
+_Z7cleanupi
+_ZNSt14basic_ifstreamIcSt11char_traitsIcEED1Ev@@GLIBCXX_3.4
+DetileRow_C
+_ZSt24__throw_out_of_range_fmtPKcz@@GLIBCXX_3.4.20
+ScaleCols_C
+_ZNSt6vectorINSt7__cxx119sub_matchIPKcEESaIS4_EEaSERKS6_
+_ZSt19__throw_logic_errorPKc@@GLIBCXX_3.4
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM9wsKlipperFvvEPS3_EEEEE6_M_runEv
+__libc_start_main@@GLIBC_2.0
+__cxa_begin_catch@@CXXABI_1.3
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb0EE17_M_handle_backrefENS9_11_Match_modeEl
+_ZN2cv8cvtColorERKNS_11_InputArrayERKNS_12_OutputArrayEii
+ByteToFloatRow_C
+_Z13get_cpu_usagePlS_
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR14FlowParametersRSt6bitsetILj8EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEED1Ev
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE27_M_insert_any_matcher_posixILb1ELb0EEEvv
+_ZNSt14_Function_base13_Base_managerINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+ScaleFilterCols_16_C
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_mutateEjjPKcj@@GLIBCXX_3.4.21
+__udivdi3@@GLIBC_2.0
+_ZNK4Json5Value14toStyledStringB5cxx11Ev
+_ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEE
+ABGRToUVJRow_C
+_ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+_Znaj@@GLIBCXX_3.4
+_fbss
+I420Rect
+__isoc99_sscanf@@GLIBC_2.7
+_Z15get_cpu_time_v1v
+_ZNSt23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
+ScaleRowDown38_2_Box_C
+ScalePlaneVertical_16
+DetileSplitUVPlane
+_Z21parseEM_BedTargetTempR16FlowEmParametersRSt6bitsetILj3EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZN15hs_ai_get_video12decode_frameEPhi
+I410Copy
+_ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEE
+ARGBGrayRow_C
+_ZN13ai_engine_app8faultRunEv
+ScaleRowDown38_3_Box_16_C
+lws_callback_on_writable
+ScaleUVRowUp2_Linear_Any_C
+v4l2_h264_decoder_close
+__TMC_END__
+_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE17_M_realloc_insertIJS7_EEEvN9__gnu_cxx17__normal_iteratorIPS7_S9_EEDpOT_
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EED1Ev
+ScaleRowDown4_C
+MergeAR64Plane
+_ITM_deregisterTMCloneTable
+g_posNameArr
+_ZNSt14_Function_base13_Base_managerINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+_ZNSt6vectorIiSaIiEE12emplace_backIJiEEEvDpOT_
+_ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+ScaleRowDown2Linear_16_C
+_Z20parsePA_OutWallSpeedR14FlowParametersRSt6bitsetILj8EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb1EEE
+_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EED1Ev
+ScaleRowDown34_0_Box_C
+P410ToAR30Row_C
+ScaleRowDown34_16_C
+_ZN15hs_ai_get_video13exitStreamingEv
+ScaleRowDown2Box_16_C
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb0EE16_M_main_dispatchENS9_11_Match_modeESt17integral_constantIbLb0EE
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvvEPS3_EEEEED1Ev
+tcsetattr@@GLIBC_2.0
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvRSt6atomicIbEEPS3_S6_EEEEED0Ev
+ARGBToRGB565DitherRow_C
+MergeARGBPlane
+DetilePlane_16
+_ZSt16__insertion_sortIN9__gnu_cxx17__normal_iteratorIPcSt6vectorIcSaIcEEEENS0_5__ops15_Iter_less_iterEEvT_S9_T0_
+_Z14hs_ipcsem_waitP5sem_t
+ARGBMultiply
+UYVYToARGBRow_C
+NV12ToARGBRow_C
+_ZN15hs_ai_get_video13close_decoderEv
+_ZN11ObbrecLidar11openCaptureEv
+ARGBColorTable
+udev_device_get_parent_with_subsystem_devtype@@LIBUDEV_183
+udev_enumerate_add_match_subsystem@@LIBUDEV_183
+_ZNSt6vectorIN2cv7Point3_IfEESaIS2_EE17_M_realloc_insertIJRKS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_
+_ZNSt10unique_ptrI9wsKlipperSt14default_deleteIS0_EED1Ev
+__libc_csu_fini
+pthread_mutex_lock@@GLIBC_2.0
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEPKcjj@@GLIBCXX_3.4.21
+_ZSt24__throw_invalid_argumentPKc@@GLIBCXX_3.4
+ARGBExtractAlphaRow_C
+AR64Shuffle
+cfsetospeed@@GLIBC_2.0
+ScaleUVCols64_C
+CopyPlane_16
+_ZNSt10_Sp_lockerC1EPKv@@GLIBCXX_3.4.21
+_ZNSt8functionIFbcEEC2ERKS1_
+ScaleFilterCols_C
+_ZN2cv17CommandLineParserC1EiPKPKcRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+I420Blend
+_ZN11ObbrecLidar7sendCmdERKSt6vectorIhSaIhEE
+DW.ref._ZTISt9exception
+_ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEE
+_ZNSt6vectorISt4pairIjjESaIS1_EE12emplace_backIJS1_EEEvDpOT_
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED1Ev
+_ZNKSt7__cxx1114regex_iteratorIPKccNS_12regex_traitsIcEEEeqERKS5_
+_ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+_ZN11ObbrecLidar10captureImgEb
+ScaleRowUp2_Bilinear_16_Any_C
+_ZN9JsonValueaSEOS_
+ARGBCopyAlpha
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb0EEEvb
+ScaleSumSamples_C
+_ZNSt6threadC1IM13ai_engine_appFvRSt6atomicIbEEJPS1_St17reference_wrapperIS3_EEEEOT_DpOT0_
+_ZNSt11_Deque_baseI8AI_STATESaIS0_EED1Ev
+_ZNSt6vectorIcSaIcEE12emplace_backIJcEEEvDpOT_
+_ZNKSt7__cxx1112regex_traitsIcE16lookup_classnameIPKcEENS1_10_RegexMaskET_S6_b
+_ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEE
+_ZN13ai_engine_app14setSensitivityEh
+_ZN15hs_ai_get_video13processStatesEv
+_ZNK12JsonAccessor8getValueIiEEbRT_
+ScaleAddRow_C
+exit@@GLIBC_2.0
+lws_write
+DetileToYUY2
+_ZN9wsKlipper9parseJsonERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERN4Json5ValueE
+_ZNSt6vectorINSt8__detail6_StateIcEESaIS2_EE17_M_realloc_insertIJS2_EEEvN9__gnu_cxx17__normal_iteratorIPS2_S4_EEDpOT_
+_ZNSt23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvRSt6atomicIbEEPS3_S6_EEEEE6_M_runEv
+_DYNAMIC_LINKING
+_ZNSt13basic_filebufIcSt11char_traitsIcEE5closeEv@@GLIBCXX_3.4
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EE8_M_readyEv
+_ZNSt6vectorIjSaIjEE17_M_realloc_insertIJRKjEEEvN9__gnu_cxx17__normal_iteratorIPjS1_EEDpOT_
+_ZNSt14_Function_base13_Base_managerINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+MirrorSplitUVRow_C
+_ZN11ObbrecLidar10openSerialEv
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE26_M_insert_any_matcher_ecmaILb1ELb0EEEvv
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE27_M_insert_any_matcher_posixILb0ELb1EEEvv
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb1EE6_M_dfsENS9_11_Match_modeEl
+_ZNK4Json17CharReaderBuilder13newCharReaderEv
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb1EED1Ev
+close@@GLIBC_2.0
+DW.ref._ZTIN4Json12RuntimeErrorE
+_ZNSt7__cxx1111basic_regexIcNS_12regex_traitsIcEEED1Ev
+ScaleUVRowDown2Linear_C
+_ZN4Json5ValueD1Ev
+_ZN13ai_engine_app13sensorDetImplEv
+kYuvH709Constants
+_ZN13ai_engine_app17isNozzleCamNormalEv
+memcpy@@GLIBC_2.0
+ScaleUVRowDown2_C
+memmove@@GLIBC_2.0
+ScaleRowDown38_16_C
+_ZN13ai_engine_app18platformForeignRunEv
+strncpy@@GLIBC_2.0
+udev_new@@LIBUDEV_183
+YUY2ToNV12
+_ZN3Log5ErrorEPKciS1_z
+GaussRow_F32_C
+ScaleARGBColsUp2_C
+_ZNSt6vectorISt4pairIlS_INSt7__cxx119sub_matchIPKcEESaIS5_EEESaIS8_EED1Ev
+_ZNSt11_Deque_baseIlSaIlEED2Ev
+_ZN10GCodeParam19initEMMapAndPatternERKSt6bitsetILj3EERSt13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFiR16FlowEmParametersRS1_RKSA_ESt4hashISA_ESt8equal_toISA_ESaISt4pairISE_SH_EEERSA_
+_ZN9wsKlipper10disconnectEv
+I422Copy
+_ZNSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEE17_M_insert_matcherESt8functionIFbcEE
+_ZTIN4Json9ExceptionE
+_ZN15hs_ai_get_video13is_on_ai_ctrlEv
+_ZNSt11_Deque_baseINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EED2Ev
+_ZN2cv3MatC1Ev
+J400ToARGBRow_C
+_ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvRSt6atomicIbEEPS3_S6_EEEEEE
+_ZNSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEE15_M_insert_dummyEv
+I420Mirror
+lws_create_context
+lws_ring_get_element
+_ZNSt14_Function_base13_Base_managerINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+fgets@@GLIBC_2.0
+_ZTS13ai_engine_app
+ScaleUVColsUp2_C
+_ZNSt13runtime_errorC1EPKc@@GLIBCXX_3.4.21
+__data_start
+_ZN2cv3MatC1EiiiPvj
+I422ToRGB24Row_C
+_ZNSt5dequeIN2cv3MatESaIS1_EE19_M_destroy_data_auxESt15_Deque_iteratorIS1_RS1_PS1_ES7_
+ScaleRowDown2Linear_16To8_Odd_C
+RGB24ToYRow_C
+FixedDiv_C
+_ZNSt5dequeIN4Json5ValueESaIS1_EE16_M_push_back_auxIJRKS1_EEEvDpOT_
+_ZN13ai_engine_app16nozzleCamDirtRunEv
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC1EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE
+_ZN10GCodeParamC1Ev
+_ZN9wsKlipper8sendCodeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbi
+_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
+_ZN13ai_engine_app12flowRatioDetERKSt6vectorIN2cv3MatESaIS2_EERf10AIMaterialfib
+isspace@@GLIBC_2.0
+_ZN11ObbrecLidar11closeSerialEv
+open@@GLIBC_2.0
+DW.ref._ZTIN4Json10LogicErrorE
+_ZN15hs_ai_get_video14exitAllThreadsEbb
+I422ToAR30Row_C
+_ZNSt6threadD1Ev
+__bss_start
+_ZTSNSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+_ZN2cv3MataSEOS0_
+_ZTSNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+ARGBSubtract
+_ZNSt11_Deque_baseI13AIDetectStateSaIS0_EED1Ev
+_ZNK4Json5Value5beginEv
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE33_M_insert_character_class_matcherILb0ELb1EEEvv
+_ZTISt9exception@@GLIBCXX_3.4
+usleep@@GLIBC_2.0
+YUY2ToARGBRow_C
+_ZSt19__throw_regex_errorNSt15regex_constants10error_typeE@@GLIBCXX_3.4.15
+_ZSt9use_facetINSt7__cxx117collateIcEEERKT_RKSt6locale@@GLIBCXX_3.4.21
+_ZN13ai_engine_app21AI_DetectStateManagerEv
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EE8_M_readyEv
+_ZNK4Json5Value8isStringEv
+_ZNSt6thread4joinEv@@GLIBCXX_3.4.11
+ABGRToYRow_C
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_alternativeEv
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE11_M_try_charEv
+_ZNKSt7__cxx1112regex_traitsIcE18lookup_collatenameIPKcEENS_12basic_stringIcSt11char_traitsIcESaIcEEET_SA_
+_ZNKSt7__cxx1112regex_traitsIcE5valueEci
+_ZN2cv3MatD1Ev
+pthread_mutex_init@@GLIBC_2.0
+_Z26parsePA_OuterWallLineWidthR14FlowParametersRSt6bitsetILj8EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE6_M_popEv
+_ZNSt8__detail6_StateIcED1Ev
+_ZN13ai_engine_app11AICommonRunE6AIModeRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+kYvuV2020Constants
+MergeRGBRow_C
+_ZN4cv2d17deleteFilesbyDirsERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+AR64ShuffleRow_C
+GaussCol_C
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7replaceEjjPKcj@@GLIBCXX_3.4.21
+_ZN4JsonlsERSoRKNS_5ValueE
+ScaleRowDown34_0_Box_16_C
+_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED0Ev
+_ZNSolsEi@@GLIBCXX_3.4
+_ZNSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEE21_M_insert_subexpr_endEv
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EE17_M_realloc_insertIJRKS5_EEEvN9__gnu_cxx17__normal_iteratorIPS5_S7_EEDpOT_
+lws_ring_update_oldest_tail
+ARGBSobel
+ARGB4444ToARGBRow_C
+kYvuF709Constants
+_ZSt16__throw_bad_castv@@GLIBCXX_3.4
+_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EED2Ev
+HalfFloatRow_C
+_ZNSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEE23_M_insert_subexpr_beginEv
+ai_klipper
+_ZNSt10unique_ptrI13ai_engine_appSt14default_deleteIS0_EED2Ev
+_ZN11ObbrecLidar12closeCaptureEv
+_ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEE
+_ZNSt14_Function_base13_Base_managerINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+SplitRGBRow_C
+UVScale_16
+DetileRow_16_C
+UYVYToI422
+__cxa_bad_cast@@CXXABI_1.3
+gettimeofday@@GLIBC_2.0
+AYUVToVURow_C
+lws_ring_insert
+lws_service
+_ZN15hs_ai_get_videoD2Ev
+_ZNSt14_Function_base13_Base_managerINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+__cxa_guard_acquire@@CXXABI_1.3
+_ZNSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE10_M_releaseEv
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EE13_M_make_rangeEcc
+_ZNSt8functionIFbcEEC1INSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEvvEET_
+ABGRToYJRow_C
+_ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+_ZNSt8functionIFbcEEC1INSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEvvEET_
+_ZNSt10unique_ptrI9wsKlipperSt14default_deleteIS0_EED2Ev
+__fxstat@@GLIBC_2.0
+_Z14hs_ipcsem_postP5sem_t
+_ZN9AI_Engine10getVersionB5cxx11Ev
+_ZNSt6threadD2Ev
+kYuvV2020Constants
+_ZN3Log4WarnEPKciS1_z
+_ZTVN10__cxxabiv117__class_type_infoE@@CXXABI_1.3
+_ZTVNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
+RAWToYJRow_C
+_ZNSt9basic_iosIcSt11char_traitsIcEE4initEPSt15basic_streambufIcS1_E@@GLIBCXX_3.4
+_ZN11ObbrecLidar6setOptEiiiii
+_ZdaPv@@GLIBCXX_3.4
+YUY2ToYRow_C
+udev_unref@@LIBUDEV_183
+shm_unlink@@GLIBC_2.2
+_ZN9JsonValueC1EOS_
+_ZN10GCodeParam9splitFileEv
+_ZNSt14_Function_base13_Base_managerINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+fclose@@GLIBC_2.2
+ScaleUVRowUp2_Bilinear_16_C
+_ZN13ai_engine_app21printingSubStateSleepEi
+_ZNSt8__detail6_StateIcEC1EOS1_
+ScaleSlope
+_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4.21
+SplitUVPlane_16
+ScaleUVFilterCols64_C
+_ZN4Json19StreamWriterBuilderC1Ev
+__cxa_allocate_exception@@CXXABI_1.3
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7reserveEj@@GLIBCXX_3.4.21
+_ZNKSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE3strEv@@GLIBCXX_3.4.21
+_ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEclEcE5__nul
+_ZN13ai_engine_app17pausedPrintingRunEv
+_ZNSt6vectorINSt7__cxx1112regex_traitsIcE10_RegexMaskESaIS3_EE17_M_realloc_insertIJRKS3_EEEvN9__gnu_cxx17__normal_iteratorIPS3_S5_EEDpOT_
+SplitXRGBRow_C
+_ZNSt5dequeIlSaIlEE16_M_push_back_auxIJRKlEEEvDpOT_
+_ZN15hs_ai_get_video12init_decoderEii
+SHA256_Final@@OPENSSL_1_1_0
+__gmon_start__
+ABGRToAR30Row_C
+RGB565ToUVRow_C
+ARGBToBGRARow_C
+_ZNSt14_Function_base13_Base_managerINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+_ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+_ZNSt6thread6_StateD2Ev@@GLIBCXX_3.4.22
+SobelXYRow_C
+_ZN4Json5ValueC1ERKS0_
+ARGBToABGRRow_C
+_ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEE
+NV21ToARGBRow_C
+ScaleMaxSamples_C
+_ZNSt8__detail8_ScannerIcE16_M_scan_in_braceEv
+_ZSt20__throw_system_errori@@GLIBCXX_3.4.11
+_Z11parseStrNumRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIdSaIdEE
+_ZN13ai_engine_app15setAIDetectTypeEb
+RGB24ToARGBRow_C
+_Z16hs_ipcsem_nowaitP5sem_t
+__cxa_guard_abort@@CXXABI_1.3
+_Z17start_cpu_monitord
+_ZN10GCodeParam20initPosMapAndPatternERSt13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFiR8GCodePosRSt6bitsetILj4EERKS6_ESt4hashIS6_ESt8equal_toIS6_ESaISt4pairISC_SF_EEERS6_
+_ZN4Json17ValueIteratorBase9incrementEv
+ScaleSamples_C
+ScaleUVRowUp2_Linear_C
+_ZSt9use_facetISt5ctypeIcEERKT_RKSt6locale@@GLIBCXX_3.4
+_ZN13ai_engine_app17updateAIConfigataERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_S7_
+mmap@@GLIBC_2.0
+ARGBAdd
+_ZN2cv3MatC1Eiii
+_ZSt4cout@@GLIBCXX_3.4
+_ZN4Json5ValueaSERKS0_
+_ZTINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+_ZNSt6vectorISt4pairIlS_INSt7__cxx119sub_matchIPKcEESaIS5_EEESaIS8_EE17_M_realloc_insertIJRlRKS7_EEEvN9__gnu_cxx17__normal_iteratorIPS8_SA_EEDpOT_
+_ZNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEC1ESt13_Ios_Openmode@@GLIBCXX_3.4.21
+ScaleRowDown38_2_Box_16_C
+strtod@@GLIBC_2.0
+_Z14get_total_timev
+_ZN13ai_engine_app9QrCodeRunEv
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb0EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE
+_ZNSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEE16_M_insert_repeatEllb
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EE8_M_readyEv
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EE8_M_readyEv
+_ZN9wsKlipper13sendGcodeFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+BlendPlane
+_ZNSt5mutex4lockEv
+ARGBExtractAlpha
+ScaleRowDown2Box_Odd_C
+ScaleARGBRowDown2_C
+_ZTSNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+_ZNK4Json5ValueixEPKc
+I410ToAR30Row_C
+udev_device_new_from_syspath@@LIBUDEV_183
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE12_M_assertionEv
+InterpolatePlane
+strlen@@GLIBC_2.0
+ScaleRowDown2_16To8_Odd_C
+_ZNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEC1ERKNS_12basic_stringIcS2_S3_EESt13_Ios_Openmode@@GLIBCXX_3.4.21
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE33_M_insert_character_class_matcherILb1ELb0EEEvv
+_ZGVZN9wsKlipper11getInstanceEvE8instance
+ARGBSetRow_C
+getrusage@@GLIBC_2.0
+I212ToARGBRow_C
+_ZNKSt5ctypeIcE13_M_widen_initEv@@GLIBCXX_3.4.11
+_ZN9AI_Engine16updateFlowPAFileER14FlowParametersRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_
+_ZSt18_Rb_tree_decrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_Z24parsePA_NozzleTargetTempR14FlowParametersRSt6bitsetILj8EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZN11ObbrecLidar11getChecksumEPKhj
+__divdi3@@GLIBC_2.0
+_ZN4Json11writeStringB5cxx11ERKNS_12StreamWriter7FactoryERKNS_5ValueE
+udev_enumerate_unref@@LIBUDEV_183
+_ZN13ai_engine_app12sensorDetRunEv
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvRSt6atomicIbEEPS3_S6_EEEEED2Ev
+ScaleRowDown38_C
+_ZNSt11_Deque_baseIlSaIlEED1Ev
+_ZTISt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+NV21ToNV12
+v4l2_h264_decoder_work
+MergeXR30Row_C
+_ZNSo5flushEv@@GLIBCXX_3.4
+lws_cancel_service
+_ZN13ai_engine_appD0Ev
+ARGBShadeRow_C
+_ZN4cv2d17createDirectoriesERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSo9_M_insertImEERSoT_@@GLIBCXX_3.4.9
+_ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEE
+_ZNSt14_Function_base13_Base_managerINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+_ZN9__gnu_cxx6__stoaIddcJEEET0_PFT_PKT1_PPS3_DpT2_EPKcS5_PjS9_
+ScaleRowDown4_16_C
+_ZNKSt5ctypeIcE9do_narrowEcc
+ScalePlaneVertical_16To8
+_ZN11ObbrecLidar13captureImgImpEb
+_ZNK12JsonAccessor8getValueISt6vectorIiSaIiEEEEbRT_
+_ZN10GCodeParamD2Ev
+ScaleRowDown2Box_16To8_C
+_ZTINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+_ZTVSt14basic_ifstreamIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZNSt12__basic_fileIcED1Ev@@GLIBCXX_3.4
+I444Scale_12
+ARGBPolynomial
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEED2Ev
+_ZNSt17_Function_handlerIFbcENSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+ARGBShade
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE33_M_insert_character_class_matcherILb1ELb1EEEvv
+DetileToYUY2_C
+_ZNSt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+I422ToARGB1555Row_C
+_ZTINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+_ZNK4Json5Value8isMemberEPKc
+_ZNSt6localeaSERKS_@@GLIBCXX_3.4
+_ZTSNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+_ZGVZN13ai_engine_app11getInstanceEvE8instance
+_ZN13ai_engine_app18setAIFlowRatioFlagEb
+_ZN3Log4InfoEPKciS1_z
+RAWToRGB24Row_C
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb1EE12_M_lookaheadEl
+_ZN4Json5ValueC1ENS_9ValueTypeE
+I420Scale_16
+_ZNSt8__detail8_ScannerIcE18_M_eat_escape_ecmaEv
+_ZdlPv@@GLIBCXX_3.4
+_ZNSt8__detail6_StateIcEC2EOS1_
+_ZNSt6vectorIN2cv3MatESaIS1_EED2Ev
+ScaleARGBRowDown2Linear_C
+_ZNSo3putEc@@GLIBCXX_3.4
+ARGB1555ToARGBRow_C
+GaussCol_F32_C
+_ZN11StackLoggerD1Ev
+_ZN15hs_ai_get_video17getDecoderDevNameEPci
+_ZNSt10unique_ptrI13ai_engine_appSt14default_deleteIS0_EED1Ev
+_ZNK4Json5Value5asIntEv
+_ZNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4.21
+__pthread_key_create@@GLIBC_2.0
+NV21ToYUV24Row_C
+_ZNSt23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+_ZN11ObbrecLidar11setExposureEi
+_ZN9AIResultsD2Ev
+RAWToUVRow_C
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR14FlowParametersRSt6bitsetILj8EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE5clearEv
+ScaleAddRow_16_C
+ScaleRowUp2_Linear_16_Any_C
+nalu_buf_read_tail
+udev_device_unref@@LIBUDEV_183
+__cxa_guard_release@@CXXABI_1.3
+_ZNSt6vectorISt4pairIjjESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+_ZNK4Json17ValueIteratorBase5derefEv
+_ZN4Json17CharReaderBuilderC1Ev
+strtof@@GLIBC_2.0
+I422Scale_16
+_ZN13ai_engine_app18platformForeignDetERKSt6vectorIN2cv3MatESaIS2_EE
+ABGRToUVRow_C
+ScaleARGBCols64_C
+_ZNSt3mapIhNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIhESaISt4pairIKhS5_EEEC1ESt16initializer_listISA_ERKS7_RKSB_
+I444ToARGBRow_C
+I210AlphaToARGBRow_C
+_ZNSt5dequeINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EE16_M_push_back_auxIJRKS5_EEEvDpOT_
+I212ToAR30Row_C
+_ZNSt23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+ARGBToARGB4444Row_C
+_ZNSt8__detail8_ScannerIcE14_M_scan_normalEv
+MergeARGBRow_C
+_ZN11ObbrecLidar15isFrameCompleteERKSt6vectorIhSaIhEE
+lws_sul_cancel
+DivideRow_16_C
+_ZNSt8functionIFbcEEC1ERKS1_
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvvEPS3_EEEEED2Ev
+_ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEclEcE5__nul
+DetilePlane
+_ZNSt8_Rb_treeI6AIModeSt4pairIKS0_17HS_AI_RESULT_TYPEESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE8_M_eraseEPSt13_Rb_tree_nodeIS4_E
+ScaleRowDown34_C
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EED1Ev
+_ZN11ObbrecLidar18findSerialPortByIdERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_
+_ZNK4Json5Value3endEv
+_ZN9wsKlipper20parseSensorPressDataERKN4Json5ValueE
+MergeRGBPlane
+_ZNK9JsonValue6updateERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_Znwj@@GLIBCXX_3.4
+_ZN8SubStateD1Ev
+CopyRow_16_C
+_ZNK2cv3Mat5emptyEv
+_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9JsonValueED2Ev
+I444Copy
+__gxx_personality_v0@@CXXABI_1.3
+_ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEE
+munmap@@GLIBC_2.0
+_ZN11ObbrecLidar12receiveFrameERSt6vectorIhSaIhEEi
+AR64ToAB64Row_C
+_ZN2cv7imwriteERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKNS_11_InputArrayERKSt6vectorIiSaIiEE
+_ZGVZN11ObbrecLidar11getInstanceEvE8instance
+Convert16To8Plane
+_ZNSt7__cxx1114regex_iteratorIPKccNS_12regex_traitsIcEEEC1ES2_S2_RKNS_11basic_regexIcS4_EENSt15regex_constants15match_flag_typeE
+_Z13parsePos_XMinR8GCodePosRSt6bitsetILj4EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_Z24parseEM_NozzleTargetTempR16FlowEmParametersRSt6bitsetILj3EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZTVSt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZN15hs_ai_get_video14getNozzleImageEb
+_ZNSi10_M_extractIdEERSiRT_@@GLIBCXX_3.4.9
+ARGBMultiplyRow_C
+Convert8To8Plane
+_ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
+_edata
+ScaleUVRowUp2_Linear_16_C
+_ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEE
+I410AlphaToARGBRow_C
+ByteToFloat
+_ZSt20__throw_out_of_rangePKc@@GLIBCXX_3.4
+_ZN9AI_Engine16updateFlowEmFileER16FlowEmParametersRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES9_
+_GLOBAL_OFFSET_TABLE_
+I400ToARGBRow_C
+_ZNSt5dequeIN4Json5ValueESaIS1_EED1Ev
+lws_set_timeout
+UYVYToUV422Row_C
+_ZN15hs_ai_get_video13setResultTypeE17HS_AI_RESULT_TYPE
+_ZSt13__adjust_heapIN9__gnu_cxx17__normal_iteratorIPcSt6vectorIcSaIcEEEEicNS0_5__ops15_Iter_less_iterEEvT_T0_SA_T1_T2_
+__cxa_throw@@CXXABI_1.3
+_ZN9wsKlipper21updateCurrentSubStateERKN4Json5ValueE
+RGBAToARGBRow_C
+ScaleUVRowUp2_Bilinear_C
+I210ToAR30Row_C
+_ZN10GCodeParam14getFlowEmParamER16FlowEmParameters
+_ZNSt6vectorIS_IiSaIiEESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+lws_ring_get_count_free_elements
+_ZNSt5dequeIN2cv3MatESaIS1_EE16_M_pop_front_auxEv
+isalnum@@GLIBC_2.0
+_ZNSt6vectorIN2cv3MatESaIS1_EEaSERKS3_
+_ZTVSt23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+clock_gettime@@GLIBC_2.2
+_ZN13ai_engine_app13isContinueDetEv
+_Z9catch_sigi
+_ZNSt6threadC2IM13ai_engine_appFvRSt6atomicIbEEJPS1_St17reference_wrapperIS3_EEEEOT_DpOT0_
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEEC2EPKcS6_RKSt6localeNSt15regex_constants18syntax_option_typeE
+ScaleRowDown4Box_16_C
+_ZNK2cv17CommandLineParser12printMessageEv
+ScaleUVRowUp2_Bilinear_Any_C
+_ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEclEcE5__nul
+_ZNSt14_Function_base13_Base_managerINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+_Z13parsePos_XMaxR8GCodePosRSt6bitsetILj4EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEE15_M_insert_stateENS_6_StateIcEE
+ScaleColsUp2_16_C
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EE13_M_make_rangeEcc
+_ZN3Log3PopB5cxx11Ev
+ScaleRowDown2Box_C
+_ZTVNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
+ARGBColorMatrixRow_C
+_Unwind_Resume@@GCC_3.0
+DetileSplitUVRow_C
+P210ToAR30Row_C
+strcmp@@GLIBC_2.0
+_ZTSNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+_ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
+udev_list_entry_get_next@@LIBUDEV_183
+_ZNSt6vectorIN2cv3MatESaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM9wsKlipperFvvEPS3_EEEEED2Ev
+_ZN13ai_engine_app13parserBedSizeERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZN9JsonValueD2Ev
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6appendEPKc@@GLIBCXX_3.4.21
+_ZNKSt7__cxx1112regex_traitsIcE17transform_primaryIPKcEENS_12basic_stringIcSt11char_traitsIcESaIcEEET_SA_
+_ZN10GCodeParam11getGcodePosER8GCodePos
+lws_set_log_level
+ARGBMirrorRow_C
+_ZN2cv17CommandLineParserD1Ev
+_ZTISt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+kYuvF709Constants
+memcmp@@GLIBC_2.0
+_ZTVNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
+kYvu2020Constants
+ScaleCols_16_C
+lws_ring_consume
+BGRAToYRow_C
+_ZN8SubStateD2Ev
+MergeUVRow_16_C
+_ZNSt8__detail8_ScannerIcE19_M_eat_escape_posixEv
+sem_post@@GLIBC_2.2
+I410ToARGBRow_C
+_ZTINSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvvEPS3_EEEEEE
+_ZN11ObbrecLidar14buildFrameCmd1EhRKSt6vectorIhSaIhEE
+_ZN13ai_engine_app11getInstanceEv
+_ZNSt8__detail8_ScannerIcE17_M_eat_escape_awkEv
+SplitUVRow_16_C
+ARGBInterpolate
+RGBAToYRow_C
+memset@@GLIBC_2.0
+_ZNSt8_Rb_treeI13AIDetectStateSt4pairIKS0_bESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE24_M_get_insert_unique_posERS2_
+_ZNSi10_M_extractIlEERSiRT_@@GLIBCXX_3.4.9
+_ZTTNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
+ARGBColorMatrix
+_ZNSt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EED0Ev
+_ZN10GCodeParam14getFlowPaParamER14FlowParameters
+Convert16To8Row_C
+MergeXRGB16To8Row_C
+ARGBCopyYToAlphaRow_C
+sem_trywait@@GLIBC_2.2
+RGBAToYJRow_C
+_ZN3Log5DebugEPKciS1_z
+_ZNSt8_Rb_treeIhSt4pairIKhNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt10_Select1stIS8_ESt4lessIhESaIS8_EE24_M_get_insert_unique_posERS1_
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE14_M_replace_auxEjjjc@@GLIBCXX_3.4.21
+UVScale
+_ZN15hs_ai_get_video13report_statusE16HS_AI_STAGE_TYPE17HS_AI_STATUS_TYPE
+_ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPcNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEENS0_5__ops10_Iter_predIPFiiEEEET_SF_SF_T0_St26random_access_iterator_tag
+_ZN11ObbrecLidar16validateChecksumEPKhj
+_ZN13ai_engine_app7warpRunEv
+_Z19parsePA_LayerHeightR14FlowParametersRSt6bitsetILj8EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZN9wsKlipper21demandSensorPressDataEiRNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+MergeUVPlane_16
+_ZN10GCodeParam10getLineEndEv
+_ZNSt18condition_variableD1Ev@@GLIBCXX_3.4.11
+_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9JsonValueED1Ev
+ARGBBlendRow_C
+I422Scale
+SplitRGBPlane
+ARGBCopyAlphaRow_C
+_ZNK4Json5Value8asDoubleEv
+_ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+_ZNKSt8__detail20_Prime_rehash_policy14_M_need_rehashEjjj@@GLIBCXX_3.4.18
+_ZNSt5dequeINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EE9push_backERKS5_
+SobelXRow_C
+kYvuH709Constants
+_ZN13ai_engine_app14startAppThreadEv
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_createERjj@@GLIBCXX_3.4.21
+ARGBQuantizeRow_C
+_Z13parsePA_DecelR14FlowParametersRSt6bitsetILj8EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt8functionIFbcEEC2INSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEEvvEET_
+_ZNSt3mapIhNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIhESaISt4pairIKhS5_EEED1Ev
+__start
+AR30ToABGRRow_C
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE26_M_insert_any_matcher_ecmaILb0ELb1EEEvv
+ScaleFilterCols64_16_C
+_ZNSt6vectorIcSaIcEE8_M_eraseEN9__gnu_cxx17__normal_iteratorIPcS1_EES5_
+_ZNSt8ios_baseD2Ev@@GLIBCXX_3.4
+_ZN9__gnu_cxx12__to_xstringINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEcEET_PFiPT0_jPKS8_PvEjSB_z
+ARGBToUVRow_C
+cpu_threshold
+strchr@@GLIBC_2.0
+_ZNSt14_Function_base13_Base_managerINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+_ZNSt6chrono3_V212system_clock3nowEv@@GLIBCXX_3.4.19
+RAWToRGBARow_C
+_ZZNKSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb1EE10_M_is_wordEcE3__s
+_ZN13ai_engine_app16cavityCamDirtRunEv
+_ZNSt5dequeIN2cv3MatESaIS1_EE12emplace_backIJS1_EEEvDpOT_
+_ZNSt7__cxx1114regex_iteratorIPKccNS_12regex_traitsIcEEEC2ES2_S2_RKNS_11basic_regexIcS4_EENSt15regex_constants15match_flag_typeE
+ARGBToAR30Row_C
+ARGBCopyYToAlpha
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb1EEEvb
+UYVYToNV12
+__errno_location@@GLIBC_2.0
+NV12ToRGB24Row_C
+_ZNKSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeEjSD_j
+_ZN15hs_ai_get_video16captureSleeptimeEi
+_ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJM9wsKlipperFvvEPS3_EEEEEE
+_ZN9AI_EngineD1Ev
+I422ToYUY2Row_C
+MergeXRGBRow_C
+RGB565ToARGBRow_C
+ScaleUVRowUp2_Linear_16_Any_C
+v4l2_h264_decoder_open
+udev_device_get_sysattr_value@@LIBUDEV_183
+_ZNSt8__detail8_ScannerIcE12_M_eat_classEc
+_ZNKSt5ctypeIcE8do_widenEc
+_ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEE
+_ZNSt6localeC1ERKS_@@GLIBCXX_3.4
+_ZTSNSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+ARGBSepia
+I400Mirror
+_ZN13ai_engine_app9flowEMRunEv
+ScaleARGBRowDownEven_C
+_ZZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEclEcE5__nul
+_ZN13ai_engine_app13stopAppThreadEv
+fcntl@@GLIBC_2.28
+hs_ai_video
+ScaleUVRowDownEvenBox_C
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE16find_last_not_ofEPKcjj@@GLIBCXX_3.4.21
+kYuv2020Constants
+_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEvENKUlvE_clEv
+_ZN13ai_engine_app16createFlowPAFileER14FlowParameters
+ARGBToARGB1555Row_C
+AB64ToARGBRow_C
+_ZN15hs_ai_get_video11getInstanceEv
+MD5@@OPENSSL_1_1_0
+_ZTS8Observer
+kYvuI601Constants
+__libc_csu_init
+_ZN9wsKlipper11getInstanceEv
+tcflush@@GLIBC_2.0
+YUY2ToUV422Row_C
+ARGBBlend
+ScaleRowUp2_Linear_C
+ScaleRowDown2_16_C
+I210Copy
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4.21
+Convert8To8Row_C
+_ZNSt5dequeIN2cv3MatESaIS1_EE16_M_push_back_auxIJS1_EEEvDpOT_
+_ZGVZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEclEcE5__nul
+_ZNSt6thread15_M_start_threadESt10unique_ptrINS_6_StateESt14default_deleteIS1_EEPFvvE@@GLIBCXX_3.4.22
+vsnprintf@@GLIBC_2.0
+_ZN13ai_engine_app15appParserConfigEv
+_ZNSo9_M_insertIdEERSoT_@@GLIBCXX_3.4.9
+nalu_buf_write
+HalfMergeUVRow_C
+_ZTINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+ScalePlane
+_ZZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEclEcE5__nul
+_ZN15hs_ai_get_videoD1Ev
+ScalePlaneVertical
+_ZN15hs_ai_get_video19remap_shared_memoryEv
+_ZSt8__uniqueIN9__gnu_cxx17__normal_iteratorIPcSt6vectorIcSaIcEEEENS0_5__ops19_Iter_equal_to_iterEET_S9_S9_T0_
+__cxa_end_catch@@CXXABI_1.3
+_ZN4Json5ValueC1Ei
+_ZNSt11unique_lockISt5mutexE6unlockEv
+_Z21parsePA_BedTargetTempR14FlowParametersRSt6bitsetILj8EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZZNKSt7__cxx1112regex_traitsIcE18lookup_collatenameIPKcEENS_12basic_stringIcSt11char_traitsIcESaIcEEET_SA_E14__collatenames
+strtol@@GLIBC_2.0
+_ZNSt6vectorISt4pairIccESaIS1_EE12emplace_backIJS1_EEEvDpOT_
+_ZNSt6localeC1Ev@@GLIBCXX_3.4
+_ZTINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE27_M_insert_any_matcher_posixILb1ELb1EEEvv
+_fdata
+_ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_i@@GLIBCXX_3.4.9
+_ZTV13ai_engine_app
+ComputeCumulativeSumRow_C
+_ZNK2cv17CommandLineParser9getByNameERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEbNS_5ParamEPv
+_Z14hs_ipcsem_waitP5sem_ti
+SwapUVRow_C
+_ZNSt8__detail8_ScannerIcE18_M_scan_in_bracketEv
+I422ToUYVYRow_C
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EED2Ev
+GaussRow_C
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE17find_first_not_ofEPKcjj@@GLIBCXX_3.4.21
+_ZN13ai_engine_app16setAIDetectStateE13AIDetectState
+_ZNK4Json17ValueIteratorBase7isEqualERKS0_
+ScaleFilterCols64_C
+MirrorUVPlane
+MirrorUVRow_C
+_ZN11ObbrecLidarD1Ev
+_ZTINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEE
+I444Scale_16
+ARGBToRGBARow_C
+_ZNSt10_Sp_lockerD1Ev@@GLIBCXX_3.4.21
+ARGBToRGB565Row_C
+YUY2ToNVUVRow_C
+_ZNSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEE8_M_cloneEv
+_ZNSt6vectorISt4pairIlS_INSt7__cxx119sub_matchIPKcEESaIS5_EEESaIS8_EE12emplace_backIJRlRKS7_EEEvDpOT_
+__cxa_rethrow@@CXXABI_1.3
+_ZN2cv8imdecodeERKNS_11_InputArrayEi
+_Z16get_memory_usagev
+UYVYToUVRow_C
+pthread_cond_timedwait@@GLIBC_2.3.2
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE27_M_insert_any_matcher_posixILb0ELb0EEEvv
+free@@GLIBC_2.0
+ARGBUnattenuateRow_C
+SobelYRow_C
+ARGBToAR64Row_C
+MergeAR64Row_C
+sem_timedwait@@GLIBC_2.2
+_Z14memory_monitorPv
+_ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvvEPS3_EEEEEE
+I420Scale_12
+ScaleRowUp2_Bilinear_C
+ARGBColorTableRow_C
+_ftext
+_ZN13ai_engine_app12flowCalibDetERKSt6vectorIN2cv3MatESaIS2_EERfb
+popen@@GLIBC_2.2
+SetPlane
+shm_open@@GLIBC_2.2
+_ZN13ai_engine_appD2Ev
+_ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEE
+_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED1Ev
+_ZN9JsonValueD1Ev
+ScaleRowUp2_Bilinear_Any_C
+_ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJM9wsKlipperFvvEPS3_EEEEEE
+_ZN12JsonAccessorixERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE22_M_insert_char_matcherILb1ELb0EEEvv
+P210ToARGBRow_C
+_ZN4Json17CharReaderBuilderD1Ev
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructEjc@@GLIBCXX_3.4.21
+_ZNSt14_Function_base13_Base_managerINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+_ZNSt6vectorIN2cv3MatESaIS1_EE9push_backERKS1_
+_ZN15hs_ai_get_video14open_remap_shmEv
+_ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+_ZTSSt23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZN9wsKlipper13extractStatusERKN4Json5ValueE
+I210ToARGBRow_C
+_ZTVN10__cxxabiv120__si_class_type_infoE@@CXXABI_1.3
+I422Scale_12
+_ZTISt5ctypeIcE@@GLIBCXX_3.4
+RAWToARGBRow_C
+AR30ToAB30Row_C
+NV24Scale
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE21_M_bracket_expressionEv
+_Z13hs_ipcshm_getPcjPPv
+_ZN10GCodeParam4initEPKc
+_ZNSt13runtime_errorD1Ev@@GLIBCXX_3.4
+_ZNSt13basic_filebufIcSt11char_traitsIcEEC1Ev@@GLIBCXX_3.4
+_ZTINSt6thread6_StateE@@GLIBCXX_3.4.22
+_ZNSt6vectorINSt7__cxx119sub_matchIPKcEESaIS4_EE17_M_default_appendEj
+_ZNK2cv17CommandLineParser3getINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEEET_RKS7_b
+_ZTI8Observer
+_ZN13ai_engine_app11getPhotoPosERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIN2cv7Point3_IfEESaISB_EE
+pthread_detach@@GLIBC_2.0
+MirrorRow_16_C
+ARGBToYRow_C
+_ZTISt19_Sp_make_shared_tag
+ScalePlane_12
+_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ED2Ev
+ScaleARGBFilterCols_C
+_ZNKSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR14FlowParametersRSt6bitsetILj8EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeEjSD_j
+I422AlphaToARGBRow_C
+NV21Copy
+_ZN13ai_engine_appD1Ev
+RGB24ToYJRow_C
+_ZNSt18condition_variableC1Ev@@GLIBCXX_3.4.11
+ARGBLumaColorTable
+_ZN9AI_Engine3runER8AIParamsR9AIResults
+_ZZN11ObbrecLidar11getInstanceEvE8instance
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb0EE12_M_lookaheadEl
+ARGBAddRow_C
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb1ELb0EEEvb
+ARGBToUV444Row_C
+setitimer@@GLIBC_2.0
+_ZNSt6vectorIhSaIhEE15_M_range_insertIN9__gnu_cxx17__normal_iteratorIPhS1_EEEEvS6_T_S7_St20forward_iterator_tag
+RAWToYRow_C
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EED1Ev
+nalu_buf_init
+_ZN4cv2d9mergePathERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_
+_ZTINSt6thread11_State_implINS_8_InvokerISt5tupleIJM9wsKlipperFvvEPS3_EEEEEE
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR8GCodePosRSt6bitsetILj4EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEED2Ev
+P410ToARGBRow_C
+I422ToRGBARow_C
+__cxa_free_exception@@CXXABI_1.3
+read@@GLIBC_2.0
+_ZN4Json5ValueaSEOS0_
+ARGBSepiaRow_C
+_Z19stop_memory_monitorv
+_ZN9JsonValue4readERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERS_
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE
+pthread_mutex_unlock@@GLIBC_2.0
+_ZN2cv3MatC1EOS0_
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvvEPS3_EEEEE6_M_runEv
+I420Scale
+_ZN15hs_ai_get_video12stateMachineEv
+_ZNSt11_Deque_baseI17HS_AI_RESULT_TYPESaIS0_EED2Ev
+_ZTSSt19_Sp_make_shared_tag
+__cxa_atexit@@GLIBC_2.2
+_ZNK4Json5ValueixEi
+pthread_create@@GLIBC_2.2
+RGB24ToUVRow_C
+_ZNSt7__cxx1119basic_ostringstreamIcSt11char_traitsIcESaIcEED1Ev@@GLIBCXX_3.4.21
+_ZN3Log4PushERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiS7_
+RGBAToUVRow_C
+__moddi3@@GLIBC_2.0
+_ZTVSt15basic_streambufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+InterpolateRow_16_C
+ARGBAttenuateRow_C
+_ZN13ai_engine_app16CV_CommonDetPortERKSt6vectorIN2cv3MatESaIS2_EE6AIModei
+_ZTSNSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+_ZNSt8_Rb_treeI6AIModeSt4pairIKS0_17HS_AI_RESULT_TYPEESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE24_M_get_insert_unique_posERS2_
+prev_total_time
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE10_M_replaceEjjPKcj@@GLIBCXX_3.4.21
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE7compareEPKc@@GLIBCXX_3.4.21
+_ZN9AI_Engine4initERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_S7_
+ScaleRowDown2Linear_16To8_C
+_ZN13ai_engine_app14onStateChangedE8AI_STATE
+_ZN15hs_ai_get_video13openStreamingEv
+_ZN15hs_ai_get_video9clearDataEv
+_ZNSt7__cxx1114regex_iteratorIPKccNS_12regex_traitsIcEEEppEv
+_ZNSt13basic_filebufIcSt11char_traitsIcEED1Ev@@GLIBCXX_3.4
+_ZNSt5dequeIN4Json5ValueESaIS1_EED2Ev
+_ZNSt14_Function_base13_Base_managerINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+strcpy@@GLIBC_2.0
+ARGB1555ToYRow_C
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_appendEPKcj@@GLIBCXX_3.4.21
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvvEPS3_EEEEED0Ev
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEC1EOS4_@@GLIBCXX_3.4.21
+_ZN10GCodeParamC2Ev
+_ZTSSt11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+CopyPlane
+_ZNK4Json5Value8isObjectEv
+ScaleUVRowDown2Box_C
+pthread_self@@GLIBC_2.0
+InterpolateRow_C
+MirrorPlane
+_ZN9wsKlipper9extractIdERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZTISt11regex_error@@GLIBCXX_3.4.15
+nanosleep@@GLIBC_2.0
+ScaleRowDown34_1_Box_C
+v4l2_h264_decoder_work_release
+_ZTISt23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+ARGBPolynomialRow_C
+RAWToUVJRow_C
+_ZNSt6vectorIP8ObserverSaIS1_EE17_M_realloc_insertIJRKS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+_ZTTNSt7__cxx1118basic_stringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
+_ZN9AIResultsD1Ev
+ScaleRowDown38_3_Box_C
+_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEEENKUlcE_clEc
+_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb1ELb0EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEEENKUlcE_clEc
+_ZNKSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE4findEcj@@GLIBCXX_3.4.21
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb0EE16_M_rep_once_moreENS9_11_Match_modeEl
+_ZNSt8_Rb_treeIhSt4pairIKhNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEESt10_Select1stIS8_ESt4lessIhESaIS8_EE8_M_eraseEPSt13_Rb_tree_nodeIS8_E
+_ZNK2cv3Mat5cloneEv
+ScaleARGBFilterCols64_C
+MergeARGB16To8Row_C
+_ZN13ai_engine_app16waitePrintingRunEv
+_ZNSt11_Deque_baseIlSaIlEE17_M_initialize_mapEj
+fixed_invtbl8
+RGB24Mirror
+_ZNSt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE10_M_destroyEv
+ARGBQuantize
+_ZN15hs_ai_get_video10captureImgEv
+MergeXR64Row_C
+_ZN9wsKlipper20demandCurTemperatureEv
+_ZN10GCodeParam19initPAMapAndPatternERKSt6bitsetILj8EERSt13unordered_mapINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEPFiR14FlowParametersRS1_RKSA_ESt4hashISA_ESt8equal_toISA_ESaISt4pairISE_SH_EEERSA_
+_ZNSt18condition_variable10notify_allEv@@GLIBCXX_3.4.11
+SobelToPlaneRow_C
+UYVYToYRow_C
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM9wsKlipperFvvEPS3_EEEEED1Ev
+ARGBShuffleRow_C
+_ZN15hs_ai_get_video17getImageFromQueueEv
+ARGBToAB64Row_C
+_ZTSSt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+_ZN13ai_engine_app21platformForeignThreadERSt6atomicIbE
+_ZNSt10unique_ptrI15hs_ai_get_videoSt14default_deleteIS0_EED2Ev
+_ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+signal@@GLIBC_2.0
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EED2Ev
+_ZNSt11_Deque_baseI8AI_STATESaIS0_EED2Ev
+_ZTTSt14basic_ifstreamIcSt11char_traitsIcEE@@GLIBCXX_3.4
+ScaleRowUp2_Linear_16_C
+_ZZN13ai_engine_app11getInstanceEvE8instance
+__dynamic_cast@@CXXABI_1.3
+ARGBToUVJRow_C
+_ZNSt13basic_filebufIcSt11char_traitsIcEE4openEPKcSt13_Ios_Openmode@@GLIBCXX_3.4
+UnpackMT2T_C
+_ZN4Json19StreamWriterBuilderD1Ev
+_ZNSt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ED1Ev
+_ZTSN4Json12RuntimeErrorE
+_ZN13ai_engine_app15parseSensorDataERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERSt6vectorIiSaIiEE
+_ZNKSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR8GCodePosRSt6bitsetILj4EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE19_M_find_before_nodeEjSD_j
+_ZN15hs_ai_get_video11get_ai_ctrlEv
+_ZN9wsKlipper9extractIdERN4Json5ValueE
+ARGBComputeCumulativeSum
+_ZZNKSt7__cxx1112regex_traitsIcE16lookup_classnameIPKcEENS1_10_RegexMaskET_S6_bE12__classnames
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE22_M_insert_char_matcherILb0ELb1EEEvv
+_ZSt18_Rb_tree_incrementPSt18_Rb_tree_node_base@@GLIBCXX_3.4
+_ZTVSt9basic_iosIcSt11char_traitsIcEE@@GLIBCXX_3.4
+ARGBUnattenuate
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb0EED1Ev
+ScaleRowUp2_Linear_Any_C
+_ZN13ai_engine_app16AI_CommonDetPortERKSt6vectorIN2cv3MatESaIS2_EE6AIModeb
+_ZTINSt6locale5facetE@@GLIBCXX_3.4
+_ZN2cv3MataSERKS0_
+I444AlphaToARGBRow_C
+_ZTISt13runtime_error@@GLIBCXX_3.4
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE16_M_cur_int_valueEi
+malloc@@GLIBC_2.0
+YUY2ToI422
+NV21ToRGB24Row_C
+I400ToI400
+ScaleUVFilterCols_C
+_ZNSt8ios_baseC2Ev@@GLIBCXX_3.4
+_ZNSt6localeD1Ev@@GLIBCXX_3.4
+tcgetattr@@GLIBC_2.0
+AR30ToARGBRow_C
+kYuvI601Constants
+RGB24MirrorRow_C
+_ZNSt11_Deque_baseI17HS_AI_RESULT_TYPESaIS0_EED1Ev
+_ZZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb0ELb0EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEEENKUlcE_clEc
+_ZNSt7__cxx1111basic_regexIcNS_12regex_traitsIcEEED2Ev
+ARGBAffineRow_C
+MultiplyRow_16_C
+_ZNK4Json5Value8asStringB5cxx11Ev
+_ZNSt8_Rb_treeIlSt4pairIKllESt10_Select1stIS2_ESt4lessIlESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E
+_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_@@GLIBCXX_3.4
+_ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
+_ZNSt8_Rb_treeIlSt4pairIKllESt10_Select1stIS2_ESt4lessIlESaIS2_EE24_M_get_insert_unique_posERS1_
+SwapUVPlane
+_ITM_registerTMCloneTable
+ARGBRect
+_ZTTNSt7__cxx1119basic_istringstreamIcSt11char_traitsIcESaIcEEE@@GLIBCXX_3.4.21
+HalfFloatPlane
+__dso_handle
+_ZTINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+AYUVToYRow_C
+_ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+_ZTISt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+_ZNSt6vectorIdSaIdEE12emplace_backIJdEEEvDpOT_
+_ZTINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+_ZSt4cerr@@GLIBCXX_3.4
+_ZN9wsKlipper9reconnectEv
+_ZN15hs_ai_get_video13report_resultE17HS_AI_RESULT_TYPE
+_ZNKSt12__basic_fileIcE7is_openEv@@GLIBCXX_3.4
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE9_M_rehashEjRKj
+_ZNSt8_Rb_treeI6AIModeSt4pairIKS0_17HS_AI_RESULT_TYPEESt10_Select1stIS4_ESt4lessIS0_ESaIS4_EE16_M_assign_uniqueIPKS4_EEvT_SE_
+_ZN4Json15parseFromStreamERKNS_10CharReader7FactoryERSiPNS_5ValueEPNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+SHA256_Update@@OPENSSL_1_1_0
+_ZN13ai_engine_app17emGcodeParamParseER16FlowEmParameters
+fopen@@GLIBC_2.2
+ScaleUVRowUp2_Bilinear_16_Any_C
+_ZSt9__find_ifIN9__gnu_cxx17__normal_iteratorIPKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt6vectorIS7_SaIS7_EEEENS0_5__ops16_Iter_equals_valIS8_EEET_SH_SH_T0_St26random_access_iterator_tag
+_Z25parseEM_FilamentFlowRatioR16FlowEmParametersRSt6bitsetILj3EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt13runtime_errorC2EPKc@@GLIBCXX_3.4.21
+isatty@@GLIBC_2.0
+ScaleRowDown4Box_C
+_ZN9JsonValueixEPKc
+_ZN9AI_EngineC1Ev
+lws_sul_schedule
+_ZNSt6vectorISt4pairIccESaIS1_EE17_M_realloc_insertIJS1_EEEvN9__gnu_cxx17__normal_iteratorIPS1_S3_EEDpOT_
+_ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb1EEE
+udev_enumerate_get_list_entry@@LIBUDEV_183
+ARGB1555ToUVRow_C
+ScaleRowDown2Box_16To8_Odd_C
+_ZN9JsonValueC1ERKS_
+sem_open@@GLIBC_2.2
+ScaleUVCols_C
+_ZGVZN15hs_ai_get_video11getInstanceEvE8instance
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC1ERKS7_
+_ZNSt14_Function_base13_Base_managerINSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+_ZTVSt13basic_filebufIcSt11char_traitsIcEE@@GLIBCXX_3.4
+_ZNSt11_Deque_baseI13AIDetectStateSaIS0_EED2Ev
+Convert8To16Plane
+ARGBToYJRow_C
+_ZNK4Json5Value7isArrayEv
+sem_close@@GLIBC_2.2
+_ZN9__gnu_cxx6__stoaIlicJiEEET0_PFT_PKT1_PPS3_DpT2_EPKcS5_PjS9_
+closedir@@GLIBC_2.0
+ScaleRowDown2Linear_C
+kYvuJPEGConstants
+ARGBToRGB24Row_C
+ARGBSobelToPlane
+_ZNSt17_Function_handlerIFbcENSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+RGB565ToYRow_C
+_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEE7_M_syncEPcjj@@GLIBCXX_3.4.21
+ScaleFilterReduce
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE6insertEjPKc@@GLIBCXX_3.4.21
+_ZNSt8_Rb_treeI13AIDetectStateSt4pairIKS0_bESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE8_M_eraseEPSt13_Rb_tree_nodeIS3_E
+I422ToARGBRow_C
+I422ToARGB4444Row_C
+_ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEE
+_ZNSt8__detail6_StateIcED2Ev
+_ZTSNSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+_ZZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb1EEclEcE5__nul
+_ZNK2cv17CommandLineParser3hasERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt14_Function_base13_Base_managerINSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+ARGBShuffle
+_ZStplIcSt11char_traitsIcESaIcEENSt7__cxx1112basic_stringIT_T0_T1_EERKS8_PKS5_
+write@@GLIBC_2.0
+_ZNSt23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EED2Ev
+YUY2ToY
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE33_M_insert_character_class_matcherILb0ELb0EEEvv
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE13_M_quantifierEv
+UYVYToY
+select@@GLIBC_2.0
+_ZSt29_Rb_tree_insert_and_rebalancebPSt18_Rb_tree_node_baseS0_RS_@@GLIBCXX_3.4
+ScaleRowUp2_Bilinear_16_C
+SobelRow_C
+_ZNK12JsonAccessor8getValueIbEEbRT_
+_ZN2cv4flipERKNS_11_InputArrayERKNS_12_OutputArrayEi
+_Z20start_memory_monitorj
+_ZNSt8functionIFbcEEC2INSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEvvEET_
+ARGBSubtractRow_C
+opendir@@GLIBC_2.0
+_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES6_ESaIS7_EE12emplace_backIJS7_EEEvDpOT_
+RGB24ToUVJRow_C
+CumulativeSumToAverageRow_C
+_ZNSt3mapIhNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIhESaISt4pairIKhS5_EEED2Ev
+_ZN9AI_Engine12sensorDetectERKSt6vectorIiSaIiEE13SensorDetModeR15SensorDetResult
+readdir@@GLIBC_2.0
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb0EE6_M_dfsENS9_11_Match_modeEl
+_ZTINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+_Z13parsePos_YMinR8GCodePosRSt6bitsetILj4EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+pclose@@GLIBC_2.2
+InterpolateRow_16To8_C
+_ZN13ai_engine_app16createFlowEmFileER16FlowEmParameters
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR14FlowParametersRSt6bitsetILj8EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEED2Ev
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE14_M_disjunctionEv
+FixedDiv1_C
+HalfMergeUVPlane
+_ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEEE9_M_invokeERKSt9_Any_dataOc
+NV12Mirror
+BlendPlaneRow_C
+_ZNSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEE17_M_insert_backrefEj
+_ZNSt11regex_errorD1Ev@@GLIBCXX_3.4.15
+ScaleRowDown2_16To8_C
+_Z19get_current_time_msv
+_ZNSt5ctypeIcE2idE@@GLIBCXX_3.4
+_ZSt25__throw_bad_function_callv@@GLIBCXX_3.4.14
+_Z13parsePA_AccelR14FlowParametersRSt6bitsetILj8EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZN13ai_engine_app4initERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES7_S7_S7_
+RGBAToUVJRow_C
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE25_M_insert_bracket_matcherILb0ELb1EEEvb
+_ZN13ai_engine_app9flowPARunEv
+_ZNSt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE14_M_get_deleterERKSt9type_info
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb1EE17_M_handle_backrefENS9_11_Match_modeEl
+_ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@@GLIBCXX_3.4
+ARGB4444ToYRow_C
+kYuvJPEGConstants
+_ZNSt8_Rb_treeI13AIDetectStateSt4pairIKS0_bESt10_Select1stIS3_ESt4lessIS0_ESaIS3_EE16_M_assign_uniqueIPKS3_EEvT_SD_
+_ZN9wsKlipper8moveCodeEfff
+_ZSt9terminatev@@GLIBCXX_3.4
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9_M_assignERKS4_@@GLIBCXX_3.4.21
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE22_M_insert_char_matcherILb1ELb1EEEvv
+_ZN2cv3MatC1ERKS0_
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE26_M_insert_any_matcher_ecmaILb1ELb1EEEvv
+ARGBLumaColorTableRow_C
+nalu_buf_read_unit
+_ZNSt6vectorIdSaIdEE17_M_realloc_insertIJdEEEvN9__gnu_cxx17__normal_iteratorIPdS1_EEDpOT_
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM9wsKlipperFvvEPS3_EEEEED0Ev
+_Z16stop_cpu_monitorv
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb1ELb0EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE
+ARGBGray
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE5clearEv
+ScalePlane_16
+udev_list_entry_get_name@@LIBUDEV_183
+_ZNSt6vectorIN2cv3MatESaIS1_EED1Ev
+_ZNSt8__detail8_ScannerIcE10_M_advanceEv
+cfsetispeed@@GLIBC_2.0
+_ZSt19__throw_regex_errorNSt15regex_constants10error_typeEPKc
+_ZNSt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EED1Ev
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE26_M_insert_any_matcher_ecmaILb0ELb0EEEvv
+ScaleUVRowDownEven_C
+udev_enumerate_new@@LIBUDEV_183
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE22_M_insert_char_matcherILb0ELb0EEEvv
+_ZNSt10unique_ptrI15hs_ai_get_videoSt14default_deleteIS0_EED1Ev
+_ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+_ZN11StackLoggerD2Ev
+_ZNSt23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE10_M_disposeEv
+_ZN9AI_Engine13sensorDetInitEv
+_ZTSN4Json10LogicErrorE
+ScaleColsUp2_C
+_ZN15hs_ai_get_video15setCurrentStateE8AI_STATE
+_ZN9JsonValue16setValueInternalERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKS_
+AR64ToARGBRow_C
+_ZNSt8functionIFbcEEC2INSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEEvvEET_
+Convert8To16Row_C
+_ZNKSt6locale2id5_M_idEv@@GLIBCXX_3.4
+_ZN13ai_engine_app15setAIFlowPAFlagEb
+_ZTVSt11regex_error@@GLIBCXX_3.4.15
+_ZZNKSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb0EE10_M_is_wordEcE3__s
+MergeXR30Plane
+ARGBToRAWRow_C
+_ZNSt6vectorISt4pairINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE9JsonValueESaIS8_EE17_M_realloc_insertIJS8_EEEvN9__gnu_cxx17__normal_iteratorIPS8_SA_EEDpOT_
+ARGBSobelXY
+_IO_stdin_used
+v4l2_h264_decoder_get_frame_info
+I420Interpolate
+_ZTINSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvRSt6atomicIbEEPS3_S6_EEEEEE
+_Z13hs_ipcsem_getPKc
+SplitARGBRow_C
+_ZN13ai_engine_app17setPrintGcodeFileERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+udev_enumerate_scan_devices@@LIBUDEV_183
+_ZNSt8__detail17__regex_algo_implIPKcSaINSt7__cxx119sub_matchIS2_EEEcNS3_12regex_traitsIcEELNS_20_RegexExecutorPolicyE0ELb0EEEbT_SA_RNS3_13match_resultsISA_T0_EERKNS3_11basic_regexIT1_T2_EENSt15regex_constants15match_flag_typeE
+NV12Copy
+lws_ring_create
+_ZN9wsKlipper13lwsServiceRunEv
+_ZNSt6vectorISt4pairIlS_INSt7__cxx119sub_matchIPKcEESaIS5_EEESaIS8_EED2Ev
+udev_device_get_devnode@@LIBUDEV_183
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEE10_M_emplaceIJS6_IPKcSF_EEEES6_INSI_14_Node_iteratorISG_Lb0ELb1EEEbESt17integral_constantIbLb1EEDpOT_
+I420ToI400
+_ZNSt3mapIhNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4lessIhESaISt4pairIKhS5_EEEC2ESt16initializer_listISA_ERKS7_RKSB_
+BGRAToUVRow_C
+ScaleRowDown34_1_Box_16_C
+_ZN11ObbrecLidarC1Ev
+_ZZN15hs_ai_get_video11getInstanceEvE8instance
+_ZNSt17_Function_handlerIFbcENSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEE9_M_invokeERKSt9_Any_dataOc
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE9push_backEc@@GLIBCXX_3.4.21
+_ZZN9wsKlipper11getInstanceEvE8instance
+_ZN4Json5ValueixEPKc
+perror@@GLIBC_2.0
+ScaleRowDown2_C
+_ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE8_M_eraseEjj@@GLIBCXX_3.4.21
+_ZN10GCodeParamD1Ev
+pthread_setname_np@@GLIBC_2.12
+RAWToRGB24
+ScaleARGBCols_C
+_ZNSt23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EED2Ev
+_ZN4Json5ValueC1EPKc
+_ZTSSt16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+_ZNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEED2Ev
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EED1Ev
+SplitARGBPlane
+_ZNSt8__detail9_CompilerINSt7__cxx1112regex_traitsIcEEE18_M_expression_termILb1ELb1EEEbRSt4pairIbcERNS_15_BracketMatcherIS3_XT_EXT0_EEE
+_Z19parsePA_VolumeSpeedR14FlowParametersRSt6bitsetILj8EERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb0EED2Ev
+_ZN13ai_engine_app14deleteImgFilesEv
+_Z30service_cpu_mem_monitor_launchddbb
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EED2Ev
+_ZNSt6vectorINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_EEC2ERKS7_
+_ZN11ObbrecLidar10declassifyEv
+ARGBBlur
+ARGBToUVJ444Row_C
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR16FlowEmParametersRSt6bitsetILj3EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEED1Ev
+CopyRow_C
+_ZN9__gnu_cxx6__stoaIffcJEEET0_PFT_PKT1_PPS3_DpT2_EPKcS5_PjS9_
+_ZNSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEE18_M_eliminate_dummyEv
+SHA256_Init@@OPENSSL_1_1_0
+_ZNSirsERi@@GLIBCXX_3.4
+g_emParamNameArr
+_ZZNKSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEclEcE5__nul
+NV12ToRGB565Row_C
+prev_cpu_time
+_ZNSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EED2Ev
+_ZSt11_Hash_bytesPKvjj@@CXXABI_1.3.5
+DW.ref.__gxx_personality_v0
+__RLD_MAP
+_ZTI13ai_engine_app
+ScaleARGBRowDown2Box_C
+_ZTSNSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEE
+AYUVToUVRow_C
+_ZN13ai_engine_app18isAppRunningThreadERSt6atomicIbE
+ARGBMirror
+_ZN13ai_engine_app17paGcodeParamParseER14FlowParametersRiS2_
+_ZN11ObbrecLidar17get_authorize_keyERSt6vectorIhSaIhEE
+_ZNSt10_HashtableINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt4pairIKS5_PFiR8GCodePosRSt6bitsetILj4EERS7_EESaISG_ENSt8__detail10_Select1stESt8equal_toIS5_ESt4hashIS5_ENSI_18_Mod_range_hashingENSI_20_Default_ranged_hashENSI_20_Prime_rehash_policyENSI_17_Hashtable_traitsILb1ELb0ELb1EEEED1Ev
+_ZTSNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvvEPS3_EEEEEE
+_ZNSt8__detail9_ExecutorIPKcSaINSt7__cxx119sub_matchIS2_EEENS3_12regex_traitsIcEELb1EED2Ev
+_ZNSt14_Function_base13_Base_managerINSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEE10_M_managerERSt9_Any_dataRKS8_St18_Manager_operation
+ARGB4444ToUVRow_C
+_ZN13ai_engine_app21prePrintSubscribStateEv
+ScalePlaneDown2_16To8
+I444Scale
+_ZNSt5dequeINSt8__detail9_StateSeqINSt7__cxx1112regex_traitsIcEEEESaIS5_EE12emplace_backIJS5_EEEvDpOT_
+strerror@@GLIBC_2.0
+ARGBGrayTo
+I422ToRGB565Row_C
+ARGBAttenuate
+GaussPlane_F32
+MergeARGB16To8Plane
+InterpolatePlane_16
+_ZN9wsKlipper14receiveMessageERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+_ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvRSt6atomicIbEEPS3_S6_EEEEED1Ev
+_ZTVNSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvRSt6atomicIbEEPS3_S6_EEEEEE
+I444ToRGB24Row_C
+_ZNSt8functionIFbcEEC2INSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEEvvEET_
+_ZN4Json5ValueC1ERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.MIPS.abiflags
+.reginfo
+.dynamic
+.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.gcc_except_table
+.init_array
+.fini_array
+.got.plt
+.data
+.rld_map
+.got
+.sdata
+.bss
+.comment
+.pdr
+.debug_frame
+.gnu.attributes
+.mdebug.abi32

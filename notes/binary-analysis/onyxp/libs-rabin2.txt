@@ -1,0 +1,17 @@
+[Linked libraries]
+libpthread.so.0
+libssl.so.1.1
+libcrypto.so.1.1
+libnice.so.10
+libglib-2.0.so.0
+librt.so.1
+libjson-c.so.5
+libCrLog.so
+libgobject-2.0.so.0
+libsrtp2.so.1
+libwebsockets.so.19
+libcjson.so.1
+librtp.so
+libc.so.6
+
+14 libraries

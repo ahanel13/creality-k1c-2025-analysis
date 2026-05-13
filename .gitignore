@@ -1,0 +1,23 @@
+# Creality proprietary binaries — do not redistribute
+firmware/apps_decrypted/
+firmware/sc_patched.ko
+
+# Full rsync'd firmware filesystem — Creality copyright
+tools/K1C-2025-Firmware/
+
+# eMMC backup — device-specific, large
+k1c_emmc_full.img.gz
+*.img.gz
+*.img
+
+# Ghidra project — contains decompiled representations of Creality binaries
+ghidra-projects/
+
+# Python virtualenv
+.venv/
+
+# Build artifacts
+tools/reccon/build/
+
+# Claude Code local settings
+.claude/settings.local.json

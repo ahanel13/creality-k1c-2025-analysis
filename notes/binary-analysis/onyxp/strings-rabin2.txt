@@ -1,0 +1,394 @@
+[Strings]
+nth paddr      vaddr      len  size section type  string
+――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x00012574 0x00412574 20   21   .rodata ascii src/dtls_transport.c
+1   0x0001258c 0x0041258c 5    6    .rodata ascii ERROR
+2   0x00012594 0x00412594 12   13   .rodata ascii [%s %s:%d] \n
+3   0x000125a4 0x004125a4 4    5    .rodata ascii Test
+4   0x000125b0 0x004125b0 22   23   .rodata ascii SRTP_AES128_CM_SHA1_80
+5   0x000125c8 0x004125c8 34   35   .rodata ascii [%s %s:%d] use certificate failed\n
+6   0x000125ec 0x004125ec 34   35   .rodata ascii [%s %s:%d] use private key failed\n
+7   0x00012610 0x00412610 38   39   .rodata ascii [%s %s:%d] check preverify key failed\n
+8   0x00012638 0x00412638 39   40   .rodata ascii [%s %s:%d] generate fingerprint failed\n
+9   0x00012660 0x00412660 5    6    .rodata ascii %.2X:
+10  0x00012668 0x00412668 41   42   .rodata ascii [%s %s:%d] New ecdh curve by name failed\n
+11  0x00012694 0x00412694 14   15   .rodata ascii [%s %s:%d] %s\n
+12  0x000126a4 0x004126a4 4    5    .rodata ascii INFO
+13  0x000126ac 0x004126ac 33   34   .rodata ascii [%s %s:%d] Remote fingerprint %s\n
+14  0x000126d0 0x004126d0 32   33   .rodata ascii [%s %s:%d] Local fingerprint %s\n
+15  0x000126f4 0x004126f4 19   20   .rodata ascii EXTRACTOR-dtls_srtp
+16  0x00012708 0x00412708 53   54   .rodata ascii [%s %s:%d] Couldn't extract SRTP keying material(%s)\n
+17  0x00012740 0x00412740 61   62   .rodata ascii [%s %s:%d] Error creating inbound SRTP session for component\n
+18  0x00012780 0x00412780 40   41   .rodata ascii [%s %s:%d] Created inbound SRTP session\n
+19  0x000127ac 0x004127ac 48   49   .rodata ascii [%s %s:%d] Error creating outbound SRTP session\n
+20  0x000127e0 0x004127e0 41   42   .rodata ascii [%s %s:%d] Created outbound SRTP session\n
+21  0x0001280c 0x0041280c 14   15   .rodata ascii nice agent bio
+22  0x000128a0 0x004128a0 21   22   .rodata ascii src/peer_connection.c
+23  0x000128b8 0x004128b8 40   41   .rodata ascii [%s %s:%d] get local credentials failed\n
+24  0x000128e8 0x004128e8 52   53   .rodata ascii o=- 1495799811084970 1495799811084970 IN IP4 0.0.0.0
+25  0x00012924 0x00412924 5    6    .rodata ascii t=0 0
+26  0x0001292c 0x0041292c 21   22   .rodata ascii a=msid-semantic:WMS *
+27  0x00012944 0x00412944 18   19   .rodata ascii a=group:BUNDLE 0 1
+28  0x00012958 0x00412958 16   17   .rodata ascii a=group:BUNDLE 0
+29  0x0001296c 0x0041296c 36   37   .rodata ascii a=candidate:%s 1 UDP %u %s %d typ %s
+30  0x00012994 0x00412994 54   55   .rodata ascii a=candidate:%s 1 UDP %u %s %d typ %s raddr %s rport %d
+31  0x000129cc 0x004129cc 47   48   .rodata ascii a=candidate:%s 1 TCP %u %s %d typ %s tcptype %s
+32  0x000129fc 0x004129fc 65   66   .rodata ascii a=candidate:%s 1 TCP %u %s %d typ %s raddr %s rport %d tcptype %s
+33  0x00012a40 0x00412a40 5    6    .rodata ascii DEBUG
+34  0x00012a48 0x00412a48 46   47   .rodata ascii [%s]-[%s](%d) ###gather may wrong,exit pc:%p\r\n
+35  0x00012a78 0x00412a78 29   30   .rodata ascii [%s]-[%s](%d) ###done pc:%p\r\n
+36  0x00012a98 0x00412a98 34   35   .rodata ascii [%s %s:%d] Failed to create agent\n
+37  0x00012abc 0x00412abc 11   12   .rodata ascii stun-server
+38  0x00012ac8 0x00412ac8 16   17   .rodata ascii stun-server-port
+39  0x00012adc 0x00412adc 16   17   .rodata ascii controlling-mode
+40  0x00012af0 0x00412af0 19   20   .rodata ascii keepalive-conncheck
+41  0x00012b04 0x00412b04 24   25   .rodata ascii candidate-gathering-done
+42  0x00012b20 0x00412b20 23   24   .rodata ascii component-state-changed
+43  0x00012b38 0x00412b38 22   23   .rodata ascii new-selected-pair-full
+44  0x00012b50 0x00412b50 32   33   .rodata ascii [%s %s:%d] Failed to add stream\n
+45  0x00012b74 0x00412b74 5    6    .rodata ascii video
+46  0x00012b80 0x00412b80 47   48   .rodata ascii [%s %s:%d] Failed to start candidate gathering\n
+47  0x00012bb0 0x00412bb0 16   17   .rodata ascii remote sdp:%s \r\n
+48  0x00012bc4 0x00412bc4 5    6    .rodata ascii audio
+49  0x00012bcc 0x00412bcc 5    6    .rodata ascii local
+50  0x00012bd4 0x00412bd4 9    10   .rodata ascii candidate
+51  0x00012be0 0x00412be0 32   33   .rodata ascii failed to set remote credentials
+52  0x00012c04 0x00412c04 4    5    .rodata ascii host
+53  0x00012c10 0x00412c10 6    7    .rodata ascii active
+54  0x00012c1c 0x00412c1c 5    6    .rodata ascii raddr
+55  0x00012c24 0x00412c24 5    6    .rodata ascii rport
+56  0x00012c2c 0x00412c2c 31   32   .rodata ascii failed to set remote candidates
+57  0x00012c50 0x00412c50 40   41   .rodata ascii [%s %s:%d] only sent %d bytes? (was %d)\n
+58  0x00012c7c 0x00412c7c 14   15   .rodata ascii sig_management
+59  0x00012c8c 0x00412c8c 29   30   .rodata ascii [cpf] !!!!! no define TOTEST 
+60  0x00012cac 0x00412cac 6    7    .rodata ascii closed
+61  0x00012cb4 0x00412cb4 5    6    .rodata ascii srflx
+62  0x00012cbc 0x00412cbc 5    6    .rodata ascii prflx
+63  0x00012cc4 0x00412cc4 5    6    .rodata ascii relay
+64  0x00012cf3 0x00412cf3 7    8    .rodata ascii ;%s%s%s
+65  0x00012cfc 0x00412cfc 33   34   .rodata ascii m=video 9 UDP/TLS/RTP/SAVPF 96 %d
+66  0x00012d20 0x00412d20 17   18   .rodata ascii a=rtcp-fb:%d nack
+67  0x00012d34 0x00412d34 21   22   .rodata ascii a=rtcp-fb:%d nack pli
+68  0x00012d4c 0x00412d4c 59   60   .rodata ascii a=fmtp:96 profile-level-id=42e01f;level-asymmetry-allowed=1
+69  0x00012d88 0x00412d88 80   81   .rodata ascii a=fmtp:%d profile-level-id=42e01f;packetization-mode=1;level-asymmetry-allowed=1
+70  0x00012ddc 0x00412ddc 89   90   .rodata ascii a=fmtp:%d x-google-max-bitrate=6000;x-google-min-bitrate=2000;x-google-start-bitrate=4000
+71  0x00012e38 0x00412e38 22   23   .rodata ascii a=rtpmap:96 H264/90000
+72  0x00012e50 0x00412e50 22   23   .rodata ascii a=rtpmap:%d H264/90000
+73  0x00012e68 0x00412e68 19   20   .rodata ascii a=ssrc:1 cname:pear
+74  0x00012e7c 0x00412e7c 30   31   .rodata ascii m=audio 9 UDP/TLS/RTP/SAVP 111
+75  0x00012e9c 0x00412e9c 18   19   .rodata ascii a=rtcp-fb:111 nack
+76  0x00012eb0 0x00412eb0 25   26   .rodata ascii a=rtpmap:111 opus/48000/2
+77  0x00012ecc 0x00412ecc 19   20   .rodata ascii a=ssrc:2 cname:pear
+78  0x00012ee0 0x00412ee0 28   29   .rodata ascii m=audio 9 UDP/TLS/RTP/SAVP 8
+79  0x00012f00 0x00412f00 20   21   .rodata ascii a=rtpmap:8 PCMA/8000
+80  0x00012f18 0x00412f18 16   17   .rodata ascii c=IN IP4 0.0.0.0
+81  0x00012f2c 0x00412f2c 10   11   .rodata ascii a=sendrecv
+82  0x00012f38 0x00412f38 10   11   .rodata ascii a=recvonly
+83  0x00012f44 0x00412f44 10   11   .rodata ascii a=sendonly
+84  0x00012f50 0x00412f50 8    9    .rodata ascii a=mid:%d
+85  0x00012f5c 0x00412f5c 10   11   .rodata ascii a=rtcp-mux
+86  0x00012f68 0x00412f68 14   15   .rodata ascii a=ice-ufrag:%s
+87  0x00012f78 0x00412f78 12   13   .rodata ascii a=ice-pwd:%s
+88  0x00012f88 0x00412f88 21   22   .rodata ascii a=ice-options:trickle
+89  0x00012fa0 0x00412fa0 24   25   .rodata ascii a=fingerprint:sha-256 %s
+90  0x00012fbc 0x00412fbc 15   16   .rodata ascii a=setup:passive
+91  0x00012fcc 0x00412fcc 5    6    .rodata ascii ssrc:
+92  0x00012fd4 0x00412fd4 6    7    .rodata ascii rtpmap
+93  0x00012fdc 0x00412fdc 4    5    .rodata ascii H264
+94  0x00012fe4 0x00412fe4 4    5    .rodata ascii PCMA
+95  0x00012fec 0x00412fec 4    5    .rodata ascii opus
+96  0x00012ff4 0x00412ff4 80   81   .rodata ascii [%s]-[%s](%d) [cpf]: signaling->option.protocol = SIGNALING_PROTOCOL_WEBSOCKETS\n
+97  0x00013048 0x00413048 15   16   .rodata ascii src/signaling.c
+98  0x00013058 0x00413058 39   40   .rodata ascii [%s]-[%s](%d) update_icesig:%d for %d\r\n
+99  0x00013080 0x00413080 26   27   .rodata ascii src/signaling_websockets.c
+100 0x0001309c 0x0041309c 11   12   .rodata ascii lws-minimal
+101 0x000130a8 0x004130a8 41   42   .rodata ascii [%s]-[%s](%d) %s: connection %s:%d -> %s\n
+102 0x000130d4 0x004130d4 46   47   .rodata ascii [%s]-[%s](%d) lws_client_connect_via_info 0 \r\n
+103 0x00013104 0x00413104 46   47   .rodata ascii [%s]-[%s](%d) lws_client_connect_via_info 1 \r\n
+104 0x00013134 0x00413134 42   43   .rodata ascii [%s]-[%s](%d) use default device_name:%s\r\n
+105 0x00013160 0x00413160 24   25   .rodata ascii api-dev.crealitycloud.cn
+106 0x0001317c 0x0041317c 29   30   .rodata ascii [%s]-[%s](%d) ###username %s\n
+107 0x0001319c 0x0041319c 43   44   .rodata ascii [%s]-[%s](%d) ice_tm_tv %u, now:%u\n left:%d
+108 0x000131c8 0x004131c8 31   32   .rodata ascii [%s]-[%s](%d) ###credential %s\n
+109 0x000131e8 0x004131e8 5    6    .rodata ascii turn:
+110 0x000131f0 0x004131f0 41   42   .rodata ascii [%s]-[%s](%d) ###iceServer %s portNum:%d\n
+111 0x0001321c 0x0041321c 4    5    .rodata ascii code
+112 0x00013224 0x00413224 6    7    .rodata ascii result
+113 0x0001322c 0x0041322c 10   11   .rodata ascii iceServers
+114 0x00013238 0x00413238 4    5    .rodata ascii urls
+115 0x00013240 0x00413240 8    9    .rodata ascii username
+116 0x0001324c 0x0041324c 10   11   .rodata ascii credential
+117 0x00013258 0x00413258 6    7    .rodata ascii (null)
+118 0x00013260 0x00413260 28   29   .rodata ascii CLIENT_CONNECTION_ERROR: %s\n
+119 0x00013280 0x00413280 52   53   .rodata ascii [%s]-[%s](%d) LWS_CALLBACK_CLIENT_CONNECTION_ERROR\r\n
+120 0x000132b8 0x004132b8 47   48   .rodata ascii [%s]-[%s](%d) LWS_CALLBACK_CLOSED_CLIENT_HTTP\r\n
+121 0x000132e8 0x004132e8 35   36   .rodata ascii Connected with server response: %d\n
+122 0x0001330c 0x0041330c 34   35   .rodata ascii RECEIVE_CLIENT_HTTP_READ: read %d\n
+123 0x00013330 0x00413330 34   35   .rodata ascii RECEIVE_CLIENT_HTTP_READ: read %s\n
+124 0x00013354 0x00413354 35   36   .rodata ascii LWS_CALLBACK_COMPLETED_CLIENT_HTTP\n
+125 0x00013378 0x00413378 50   51   .rodata ascii [%s]-[%s](%d) LWS_CALLBACK_COMPLETED_CLIENT_HTTP\r\n
+126 0x000133ac 0x004133ac 46   47   .rodata ascii 0 LWS_CALLBACK_CLIENT_APPEND_HANDSHAKE_HEADER\n
+127 0x000133dc 0x004133dc 30   31   .rodata ascii application/json;charset=UTF-8
+128 0x000133fc 0x004133fc 38   39   .rodata ascii [%s]-[%s](%d) add content_type failed\n
+129 0x00013424 0x00413424 19   20   .rodata ascii {"deviceName":"%s"}
+130 0x00013438 0x00413438 40   41   .rodata ascii [%s]-[%s](%d) add content_length failed\n
+131 0x00013464 0x00413464 44   45   .rodata ascii LWS_CALLBACK_CLIENT_APPEND_HANDSHAKE_HEADER\n
+132 0x00013494 0x00413494 37   38   .rodata ascii LWS_CALLBACK_CLIENT_HTTP_WRITEABLE 0\n
+133 0x000134bc 0x004134bc 35   36   .rodata ascii LWS_CALLBACK_CLIENT_HTTP_WRITEABLE\n
+134 0x000134e4 0x004134e4 59   60   .rodata ascii LWS minimal http client - POST [-d<verbosity>] [-l] [--h1]\n
+135 0x00013520 0x00413520 16   17   .rodata ascii lws init failed\n
+136 0x00013534 0x00413534 29   30   .rodata ascii /api/cxy/v2/webrtc/iceServers
+137 0x00013554 0x00413554 4    5    .rodata ascii POST
+138 0x0001355c 0x0041355c 4    5    .rodata ascii http
+139 0x00013564 0x00413564 38   39   .rodata ascii [%s]-[%s](%d) %s: connecting to %s:%d\n
+140 0x0001358c 0x0041358c 17   18   .rodata ascii [%s]-[%s](%d) %s\n
+141 0x000135a0 0x004135a0 7    8    .rodata ascii timeout
+142 0x000135a8 0x004135a8 28   29   .rodata ascii [%s]-[%s](%d) Completed: %s\n
+143 0x000135c8 0x004135c8 16   17   .rodata ascii [%s]-[%s](%d) \r\n
+144 0x000135dc 0x004135dc 28   29   .rodata ascii [%s]-[%s](%d) file name: %s\n
+145 0x000135fc 0x004135fc 26   27   .rodata ascii [%s]-[%s](%d) file len:%d\n
+146 0x00013618 0x00413618 48   49   .rodata ascii /usr/data/creality/gui/config/system_config.json
+147 0x0001364c 0x0041364c 28   29   .rodata ascii [%s]-[%s](%d) getfile error!
+148 0x0001366c 0x0041366c 32   33   .rodata ascii [%s]-[%s](%d) cJSON_Parse error!
+149 0x00013690 0x00413690 11   12   .rodata ascii device_info
+150 0x0001369c 0x0041369c 9    10   .rodata ascii device_sn
+151 0x000136a8 0x004136a8 10   11   .rodata ascii device_mac
+152 0x000136b4 0x004136b4 9    10   .rodata ascii model_str
+153 0x000136c0 0x004136c0 28   29   .rodata ascii [%s]-[%s](%d) device sn = %s
+154 0x000136e0 0x004136e0 29   30   .rodata ascii [%s]-[%s](%d) device mac = %s
+155 0x00013700 0x00413700 32   33   .rodata ascii [%s]-[%s](%d) device model = %s\n
+156 0x00013724 0x00413724 44   45   .rodata ascii [%s]-[%s](%d) GetRegisterInfoFromFile error!
+157 0x00013754 0x00413754 34   35   .rodata ascii [%s]-[%s](%d) getsessioncount %d\r\n
+158 0x00013778 0x00413778 30   31   .rodata ascii [%s]-[%s](%d) lws init failed\n
+159 0x00013798 0x00413798 38   39   .rodata ascii [%s]-[%s](%d) signaling_ws_thd start\r\n
+160 0x000137c0 0x004137c0 39   40   .rodata ascii [%s]-[%s](%d) interrupted jwtToken %s\r\n
+161 0x000137e8 0x004137e8 41   42   .rodata ascii [%s]-[%s](%d) interrupted wait jwtToken\r\n
+162 0x00013814 0x00413814 40   41   .rodata ascii [%s]-[%s](%d) interrupted get jwtToken\r\n
+163 0x00013840 0x00413840 26   27   .rodata ascii [%s]-[%s](%d) ##lws lost \n
+164 0x0001385c 0x0041385c 55   56   .rodata ascii [%s]-[%s](%d) ##try to reconnect %lu inactive[%d sec]\r\n
+165 0x00013894 0x00413894 71   72   .rodata ascii [%s]-[%s](%d) ##OOOO -- exiting service loop. n = %d, interrupted = %d\n
+166 0x000138dc 0x004138dc 11   12   .rodata ascii sys_version
+167 0x000138e8 0x004138e8 30   31   .rodata ascii [%s]-[%s](%d) get_ver_info :%s
+168 0x00013908 0x00413908 22   23   .rodata ascii ws_serv malloc failed\n
+169 0x00013920 0x00413920 66   67   .rodata ascii [%s]-[%s](%d) too big no space cur[%u] for cur_len: %d flush all\r\n
+170 0x00013964 0x00413964 6    7    .rodata ascii action
+171 0x0001396c 0x0041396c 4    5    .rodata ascii from
+172 0x00013974 0x00413974 4    5    .rodata ascii join
+173 0x0001397c 0x0041397c 24   25   .rodata ascii [%s]-[%s](%d) join ack\r\n
+174 0x00013998 0x00413998 11   12   .rodata ascii push_online
+175 0x000139a4 0x004139a4 28   29   .rodata ascii [%s]-[%s](%d) join success\r\n
+176 0x000139c4 0x004139c4 29   30   .rodata ascii [%s]-[%s](%d) ObjArr Len: %d\n
+177 0x000139e4 0x004139e4 48   49   .rodata ascii [%s]-[%s](%d) urls:%s username:%s credential:%s\n
+178 0x00013a18 0x00413a18 7    8    .rodata ascii ice_msg
+179 0x00013a20 0x00413a20 10   11   .rodata ascii sdpMessage
+180 0x00013a2c 0x00413a2c 4    5    .rodata ascii type
+181 0x00013a34 0x00413a34 4    5    .rodata ascii data
+182 0x00013a3c 0x00413a3c 5    6    .rodata ascii offer
+183 0x00013a48 0x00413a48 68   69   .rodata ascii [%s]-[%s](%d) 2 too big no space cur[%u] for cur_len: %d flush all\r\n
+184 0x00013a90 0x00413a90 46   47   .rodata ascii [%s]-[%s](%d) signaling_wsocket_create %s:%d\r\n
+185 0x00013ac0 0x00413ac0 33   34   .rodata ascii /api/cxy/ws/webrtc/signal/push/%s
+186 0x00013ae4 0x00413ae4 41   42   .rodata ascii [%s]-[%s](%d) signaling_wsocket_destroy\r\n
+187 0x00013b10 0x00413b10 58   59   .rodata ascii [%s]-[%s](%d) Allocate memory for ice send buffer failed!\n
+188 0x00013b4c 0x00413b4c 57   58   .rodata ascii [%s]-[%s](%d) Allocate memory %d for p_send->buf failed!\n
+189 0x00013b8c 0x00413b8c 6    7    .rodata ascii answer
+190 0x00013b94 0x00413b94 45   46   .rodata ascii [%s]-[%s](%d) generate answer,and candidate:\n
+191 0x00013bc8 0x00413bc8 13   14   .rodata ascii sdpMLineIndex
+192 0x00013bd8 0x00413bd8 6    7    .rodata ascii sdpMid
+193 0x00013be0 0x00413be0 42   43   .rodata ascii [%s]-[%s](%d) CLIENT_CONNECTION_ERROR: %s\n
+194 0x00013c0c 0x00413c0c 47   48   .rodata ascii [%s]-[%s](%d) established connection, wsi = %p\n
+195 0x00013c3c 0x00413c3c 25   26   .rodata ascii [%s]-[%s](%d) %s: CLOSED\n
+196 0x00013c58 0x00413c58 28   29   .rodata ascii [%s]-[%s](%d) lws_write %s \n
+197 0x00013c78 0x00413c78 35   36   .rodata ascii [%s]-[%s](%d) lws_write %d/%d done\n
+198 0x00013c9c 0x00413c9c 26   27   .rodata ascii [%s]-[%s](%d) ###no msg \r\n
+199 0x00013cb8 0x00413cb8 42   43   .rodata ascii [%s]-[%s](%d) [pc:%p %s] try to send :%s\r\n
+200 0x00013ce4 0x00413ce4 43   44   .rodata ascii [%s]-[%s](%d) lws connection may be lost \r\n
+201 0x00013d10 0x00413d10 42   43   .rodata ascii [%s]-[%s](%d) [pc:%p %s] fail to send %d\r\n
+202 0x00013d3c 0x00413d3c 10   11   .rodata ascii push_state
+203 0x00013d48 0x00413d48 6    7    .rodata ascii server
+204 0x00013d50 0x00413d50 6    7    .rodata ascii pcPool
+205 0x00013d58 0x00413d58 47   48   .rodata ascii [%s]-[%s](%d) tv_state: %s, now:%s,ndel: 0x%02x
+206 0x00013d88 0x00413d88 26   27   .rodata ascii [%s]-[%s](%d) ndel: 0x%02x
+207 0x00013da4 0x00413da4 64   65   .rodata ascii [%s]-[%s](%d) bad pc recycle[pc:%p]:from:[%s] nice_agent_err:%d\n
+208 0x00013de8 0x00413de8 8    9    .rodata ascii iceState
+209 0x00013df4 0x00413df4 8    9    .rodata ascii clientId
+210 0x00013e00 0x00413e00 13   14   .rodata ascii connectedTime
+211 0x00013e10 0x00413e10 9    10   .rodata ascii pushState
+212 0x00013e1c 0x00413e1c 28   29   .rodata ascii [%s]-[%s](%d) push_state:%s\n
+213 0x00013e3c 0x00413e3c 24   25   .rodata ascii [%s]-[%s](%d)  ok send\r\n
+214 0x00013e58 0x00413e58 71   72   .rodata ascii LWS_CALLBACK_RECEIVE: len = %lu, first = %d, final = %d, remains = %lu\n
+215 0x00013ea0 0x00413ea0 29   30   .rodata ascii [%s]-[%s](%d) len:%ld RX: %s\n
+216 0x00013ec0 0x00413ec0 5    6    .rodata ascii peers
+217 0x00013ec8 0x00413ec8 68   69   .rodata ascii [%s]-[%s](%d) server initiated connection close: len = %lu, in = %s\n
+218 0x00013f10 0x00413f10 10   11   .rodata ascii spam-rx-tx
+219 0x00013f1c 0x00413f1c 195  196  .rodata ascii                 {"action":"join","to":"server","clientCtx":{"device_brand":"creality","os_version":"linux","platform_type":10,"app_version":"%s","sn":"%s","model":"%s"},"token":{"jwtToken":"%s"}}
+220 0x00014218 0x00414218 14   15   .rodata ascii connect_client
+221 0x00014228 0x00414228 8    9    .rodata ascii callback
+222 0x00014234 0x00414234 11   12   .rodata ascii get_cxy_ice
+223 0x000142c0 0x004142c0 29   30   .rodata ascii ERROR: getaddrinfo error: %s\n
+224 0x000142e0 0x004142e0 4    5    .rodata ascii NULL
+225 0x000142e8 0x004142e8 37   38   .rodata ascii [%s]-[%s](%d) enter send_h264_thread\n
+226 0x00014310 0x00414310 13   14   .rodata ascii webrtc_main.c
+227 0x00014320 0x00414320 56   57   .rodata ascii [%s]-[%s](%d) pc->sending_data = %d,ptr->exit_flag = %d\n
+228 0x0001435c 0x0041435c 37   38   .rodata ascii [%s]-[%s](%d) ptr->shm_sem is NULL  \n
+229 0x00014384 0x00414384 61   62   .rodata ascii [%s]-[%s](%d) ptr->header_start or ptr->video_start is NULL \n
+230 0x000143c4 0x004143c4 51   52   .rodata ascii [%s]-[%s](%d) frame_index = %d,frame_index_old =%d\n
+231 0x000143f8 0x004143f8 41   42   .rodata ascii [%s]-[%s](%d) error h264_frame is NULL  \n
+232 0x00014424 0x00414424 22   23   .rodata ascii [%s]-[%s](%d) fps: %d\n
+233 0x0001443c 0x0041443c 76   77   .rodata ascii [%s]-[%s](%d) [cpf]:%s,%d sleep_time is non-positive (%lld), skipping sleep\n
+234 0x0001448c 0x0041448c 28   29   .rodata ascii [%s]-[%s](%d) get sem fail \n
+235 0x000144ac 0x004144ac 53   54   .rodata ascii [%s]-[%s](%d) [pc:%p for %s]End of send video thread\n
+236 0x000144e4 0x004144e4 39   40   .rodata ascii [%s]-[%s](%d) End of send video thread\n
+237 0x0001450c 0x0041450c 30   31   .rodata ascii [%s]-[%s](%d) [pc:%p for %s]\r\n
+238 0x0001452c 0x0041452c 33   34   .rodata ascii [%s]-[%s](%d) -------tv_state: %s
+239 0x00014550 0x00414550 55   56   .rodata ascii [%s]-[%s](%d) Disconnect with browser... Stop streaming
+240 0x00014588 0x00414588 45   46   .rodata ascii [%s]-[%s](%d) CONNECTING!!!!!!!!!!!!!!!!!!!!\n
+241 0x000145b8 0x004145b8 45   46   .rodata ascii [%s]-[%s](%d) CONNECTED!!!!!!!!!!!!!!!!!!!!!\n
+242 0x000145e8 0x004145e8 45   46   .rodata ascii [%s]-[%s](%d) READY!!!!!!!!!!!!!!!!!!!!!!!!!\n
+243 0x00014618 0x00414618 45   46   .rodata ascii [%s]-[%s](%d) DISCONNECTED!!!!!!!!!!!!!!!!!!\n
+244 0x00014648 0x00414648 45   46   .rodata ascii [%s]-[%s](%d) GATHERING!!!!!!!!!!!!!!!!!!!!!\n
+245 0x00014678 0x00414678 14   15   .rodata ascii sig_websockets
+246 0x00014688 0x00414688 46   47   .rodata ascii [%s]-[%s](%d) Create signaling service failed\n
+247 0x000146b8 0x004146b8 29   30   .rodata ascii [%s]-[%s](%d) Get signal: %s\n
+248 0x000146d8 0x004146d8 4    5    .rodata ascii null
+249 0x000146e0 0x004146e0 34   35   .rodata ascii [%s]-[%s](%d) ######no pc for %s\r\n
+250 0x00014704 0x00414704 36   37   .rodata ascii [%s]-[%s](%d) ####22##no pc for %s\r\n
+251 0x0001472c 0x0041472c 47   48   .rodata ascii Failed to allocate memory for global_context_t\n
+252 0x00014760 0x00414760 34   35   .rodata ascii /usr/data/creality/onyxp/test.h264
+253 0x00014784 0x00414784 15   16   .rodata ascii Cannot open %s\n
+254 0x00014794 0x00414794 24   25   .rodata ascii [%s]-[%s](%d) fps: %.1f\n
+255 0x000147b0 0x004147b0 24   25   .rodata ascii End of send video thread
+256 0x000147cc 0x004147cc 27   28   .rodata ascii WebRTC Context Information:
+257 0x000147e8 0x004147e8 13   14   .rodata ascii cfg_path: %s\n
+258 0x000147f8 0x004147f8 12   13   .rodata ascii version: %s\n
+259 0x00014808 0x00414808 14   15   .rodata ascii device_sn: %s\n
+260 0x00014818 0x00414818 15   16   .rodata ascii device_mac: %s\n
+261 0x00014828 0x00414828 14   15   .rodata ascii model_str: %s\n
+262 0x00014838 0x00414838 12   13   .rodata ascii env_num: %s\n
+263 0x00014848 0x00414848 13   14   .rodata ascii shm_tid: %lu\n
+264 0x00014858 0x00414858 16   17   .rodata ascii shm_control: %p\n
+265 0x0001486c 0x0041486c 13   14   .rodata ascii shm_addr: %p\n
+266 0x0001487c 0x0041487c 11   12   .rodata ascii shm_fd: %d\n
+267 0x00014888 0x00414888 13   14   .rodata ascii fifo cmd: %d\n
+268 0x00014898 0x00414898 15   16   .rodata ascii fifo token: %s\n
+269 0x000148a8 0x004148a8 13   14   .rodata ascii shm_flag: %d\n
+270 0x000148b8 0x004148b8 12   13   .rodata ascii fifo_fd: %d\n
+271 0x000148c8 0x004148c8 13   14   .rodata ascii epoll_fd: %d\n
+272 0x000148d8 0x004148d8 14   15   .rodata ascii exit_flag: %d\n
+273 0x000148e8 0x004148e8 16   17   .rodata ascii webrtc_tid: %lu\n
+274 0x000148fc 0x004148fc 29   30   .rodata ascii Failed to get WebRTC context.
+275 0x0001491c 0x0041491c 60   61   .rodata ascii [%s]-[%s](%d) Received SIGUSR1: Showing basic debug info...\n
+276 0x0001495c 0x0041495c 45   46   .rodata ascii [%s]-[%s](%d) Received SIGUSR2: log level...\n
+277 0x0001498c 0x0041498c 29   30   .rodata ascii [%s]-[%s](%d) log level : %d\n
+278 0x000149ac 0x004149ac 41   42   .rodata ascii [%s]-[%s](%d) Error: Path or ptr is NULL\n
+279 0x000149d8 0x004149d8 58   59   .rodata ascii [%s]-[%s](%d) Error: Configuration file %s does not exist\n
+280 0x00014a14 0x00414a14 52   53   .rodata ascii [%s]-[%s](%d) Failed to open configuration file: %s\n
+281 0x00014a4c 0x00414a4c 39   40   .rodata ascii [%s]-[%s](%d) Memory allocation failed\n
+282 0x00014a74 0x00414a74 63   64   .rodata ascii [%s]-[%s](%d) Failed to parse JSON configuration from file: %s\n
+283 0x00014ab4 0x00414ab4 16   17   .rodata ascii get_sn_mac.sh sn
+284 0x00014ac8 0x00414ac8 49   50   .rodata ascii [%s]-[%s](%d) Failed to get system certified SN.\n
+285 0x00014afc 0x00414afc 38   39   .rodata ascii [%s]-[%s](%d) System certified SN: %s\n
+286 0x00014b24 0x00414b24 17   18   .rodata ascii get_sn_mac.sh mac
+287 0x00014b38 0x00414b38 50   51   .rodata ascii [%s]-[%s](%d) Failed to get system certified MAC.\n
+288 0x00014b6c 0x00414b6c 39   40   .rodata ascii [%s]-[%s](%d) System certified MAC: %s\n
+289 0x00014b94 0x00414b94 57   58   .rodata ascii [%s]-[%s](%d) Failed to get model_str from configuration\n
+290 0x00014bd0 0x00414bd0 7    8    .rodata ascii env_num
+291 0x00014bd8 0x00414bd8 55   56   .rodata ascii [%s]-[%s](%d) Failed to get env_num from configuration\n
+292 0x00014c10 0x00414c10 55   56   .rodata ascii [%s]-[%s](%d) Failed to get version from configuration\n
+293 0x00014c48 0x00414c48 5    6    .rodata ascii onyxp
+294 0x00014c50 0x00414c50 28   29   .rodata ascii /usr/data/printer_data/logs/
+295 0x00014c70 0x00414c70 36   37   .rodata ascii [%s,%d]: Usage: %s -c <config_file>\n
+296 0x00014c98 0x00414c98 28   29   .rodata ascii Option -c with argument: %s\n
+297 0x00014cb8 0x00414cb8 63   64   .rodata ascii Error: option -c argument exceeds maximum allowed length (%d).\n
+298 0x00014cf8 0x00414cf8 20   21   .rodata ascii %s: Error input opt\n
+299 0x00014d14 0x00414d14 52   53   .rodata ascii [%s]-[%s](%d) Failed alloc_global_context exiting...
+300 0x00014d4c 0x00414d4c 38   39   .rodata ascii [%s]-[%s](%d) destory pc[%p] from:%s\r\n
+301 0x00014d74 0x00414d74 41   42   .rodata ascii [%s]-[%s](%d) destory pc [%p] thread:%d\r\n
+302 0x00014da0 0x00414da0 30   31   .rodata ascii [%s]-[%s](%d) pc[%p] from:%s\r\n
+303 0x00014dc0 0x00414dc0 43   44   .rodata ascii [%s]-[%s](%d) peer_connection_destroy :%d\r\n
+304 0x00014dec 0x00414dec 46   47   .rodata ascii [%s]-[%s](%d) peer_connection_destroy end:%d\r\n
+305 0x00014e1c 0x00414e1c 98   99   .rodata ascii [%s]-[%s](%d) ------------------------exit webrtc g_webrtc_data.signaling is NULL----------------\n
+306 0x00014e80 0x00414e80 6    7    .rodata ascii params
+307 0x00014e88 0x00414e88 10   11   .rodata ascii livestream
+308 0x00014e94 0x00414e94 5    6    .rodata ascii token
+309 0x00014e9c 0x00414e9c 31   32   .rodata ascii [%s]-[%s](%d) got jwtToken:%s\r\n
+310 0x00014ebc 0x00414ebc 31   32   .rodata ascii [%s]-[%s](%d) set jwtToken:%s\r\n
+311 0x00014edc 0x00414edc 10   11   .rodata ascii pullclient
+312 0x00014ee8 0x00414ee8 32   33   .rodata ascii [%s]-[%s](%d) close session:%s\r\n
+313 0x00014f0c 0x00414f0c 39   40   .rodata ascii [%s]-[%s](%d) close_wrtc_session = %d\r\n
+314 0x00014f34 0x00414f34 33   34   .rodata ascii [%s]-[%s](%d) set jwtToken null\r\n
+315 0x00014f58 0x00414f58 37   38   .rodata ascii [%s]-[%s](%d) set jwtToken null end\r\n
+316 0x00014f80 0x00414f80 7    8    .rodata ascii webRtc=
+317 0x00014f88 0x00414f88 20   21   .rodata ascii api.crealitycloud.cn
+318 0x00014fa0 0x00414fa0 21   22   .rodata ascii api.crealitycloud.com
+319 0x00014fb8 0x00414fb8 26   27   .rodata ascii admin-pre.crealitycloud.cn
+320 0x00014fd4 0x00414fd4 13   14   .rodata ascii 172.29.99.188
+321 0x00014fe4 0x00414fe4 12   13   .rodata ascii disconnected
+322 0x00014ff4 0x00414ff4 9    10   .rodata ascii gathering
+323 0x00015000 0x00415000 8    9    .rodata ascii checking
+324 0x0001500c 0x0041500c 9    10   .rodata ascii connected
+325 0x00015018 0x00415018 9    10   .rodata ascii completed
+326 0x00015030 0x00415030 4    5    .rodata ascii main
+327 0x00015038 0x00415038 16   17   .rodata ascii send_h264_thread
+328 0x00015088 0x00415088 1611 1612 .rodata ascii  <!DOCTYPE html> \n <html> \n   <head> \n     <title>Video On Demand</title> \n   </head> \n   <body> \n     <video style='display:block; margin: 0 auto;' id='remoteVideos'></video> \n     <script> \n       var pc = new RTCPeerConnection({ \n         iceServers: [{urls: 'stun:stun.l.google.com:19302'}] \n       }); \n       var log = msg => { console.log(msg); }; \n       function sendOfferToCall(sdp) { \n         var xhttp = new XMLHttpRequest(); \n         xhttp.onreadystatechange = function() { \n           if (this.readyState == 4 && this.status == 200) { \n             let res = JSON.parse(atob(this.responseText)); \n             console.log(res); \n             if(res.type == 'answer') { \n               pc.setRemoteDescription(new RTCSessionDescription(res)); \n             } \n           } \n         }; \n         xhttp.open('POST', '/call/demo'); \n         xhttp.setRequestHeader('Content-Type', 'plain/text'); \n         xhttp.send(btoa(JSON.stringify({'type': 'offer', 'sdp': sdp}))); \n       } \n       pc.ontrack = function (event) { \n         var el = document.getElementById('remoteVideos'); \n         el.srcObject = event.streams[0]; \n         el.autoplay = true; \n         el.controls = true; \n         el.muted = true; \n       }; \n       pc.oniceconnectionstatechange = e => log(pc.iceConnectionState); \n       pc.onicecandidate = event => { \n         if(event.candidate === null) sendOfferToCall(pc.localDescription.sdp) \n       }; \n       pc.addTransceiver('video', {'direction': 'sendrecv'}) \n       pc.createOffer().then(d => pc.setLocalDescription(d)).catch(log); \n     </script> \n   </body> \n </html>
+329 0x000156e6 0x004156e6 97   98   .rodata ascii .A[%s]-[%s](%d) Output buffer is not large enough ,json_len = %d,prefix_len =%d,output_size = %d\n
+330 0x00015748 0x00415748 12   13   .rodata ascii webrtc_shm.c
+331 0x00015758 0x00415758 9    10   .rodata ascii webRtc=%s
+332 0x00015764 0x00415764 58   59   .rodata ascii [%s]-[%s](%d) Invalid pointer passed to webrtc_shm_deinit\n
+333 0x000157a0 0x004157a0 39   40   .rodata ascii [%s]-[%s](%d) waiting for semaphore...\n
+334 0x000157c8 0x004157c8 11   12   .rodata ascii /webrtc_sem
+335 0x000157d4 0x004157d4 31   32   .rodata ascii [%s]-[%s](%d) wait shm created!
+336 0x000157f4 0x004157f4 11   12   .rodata ascii /webrtc_shm
+337 0x00015800 0x00415800 46   47   .rodata ascii [%s]-[%s](%d) Failed to map shared memory: %s\n
+338 0x00015830 0x00415830 51   52   .rodata ascii [%s]-[%s](%d) Shared memory successfully remapped.\n
+339 0x00015864 0x00415864 48   49   .rodata ascii [%s]-[%s](%d) Failed to unmap shared memory: %s\n
+340 0x00015898 0x00415898 51   52   .rodata ascii [%s]-[%s](%d) Shared memory unmapped successfully.\n
+341 0x000158cc 0x004158cc 64   65   .rodata ascii [%s]-[%s](%d) Failed to close shared memory file descriptor: %s\n
+342 0x00015910 0x00415910 65   66   .rodata ascii [%s]-[%s](%d) Shared memory file descriptor closed successfully.\n
+343 0x00015954 0x00415954 13   14   .rodata ascii /tmp/uvc_fifo
+344 0x00015964 0x00415964 33   34   .rodata ascii [%s]-[%s](%d) Error creating FIFO
+345 0x00015988 0x00415988 32   33   .rodata ascii [%s]-[%s](%d) Error opening FIFO
+346 0x000159ac 0x004159ac 63   64   .rodata ascii [%s]-[%s](%d) FIFO opened successfully for reading and writing\n
+347 0x000159ec 0x004159ec 39   40   .rodata ascii [%s]-[%s](%d) FIFO closed successfully\n
+348 0x00015a14 0x00415a14 33   34   .rodata ascii [%s]-[%s](%d) Error deleting FIFO
+349 0x00015a38 0x00415a38 40   41   .rodata ascii [%s]-[%s](%d) FIFO deleted successfully\n
+350 0x00015a64 0x00415a64 38   39   .rodata ascii [%s]-[%s](%d) enter  process_fifo_cmd\n
+351 0x00015a8c 0x00415a8c 48   49   .rodata ascii [%s]-[%s](%d) Error creating epoll instance: %s\n
+352 0x00015ac0 0x00415ac0 44   45   .rodata ascii [%s]-[%s](%d) Error adding FIFO to epoll: %s
+353 0x00015af0 0x00415af0 38   39   .rodata ascii [%s]-[%s](%d) Error in epoll_wait: %s\n
+354 0x00015b18 0x00415b18 33   34   .rodata ascii [%s]-[%s](%d) read fifo len = %d\n
+355 0x00015b3c 0x00415b3c 27   28   .rodata ascii [%s]-[%s](%d) cmd = 0x%02x\n
+356 0x00015b58 0x00415b58 52   53   .rodata ascii [%s]-[%s](%d) start cmd = 0x%02x ,sizeof(token)= %d\n
+357 0x00015b90 0x00415b90 29   30   .rodata ascii [%s]-[%s](%d) start_json: %s\n
+358 0x00015bb0 0x00415bb0 49   50   .rodata ascii [%s]-[%s](%d) Failed to initialize shared memory\n
+359 0x00015be4 0x00415be4 32   33   .rodata ascii [%s]-[%s](%d) stop cmd = 0x%02x\n
+360 0x00015c08 0x00415c08 28   29   .rodata ascii [%s]-[%s](%d) stop_json: %s\n
+361 0x00015c28 0x00415c28 37   38   .rodata ascii [%s]-[%s](%d) get stop cmd and break\n
+362 0x00015c50 0x00415c50 33   34   .rodata ascii [%s]-[%s](%d) error cmd = 0x%02x\n
+363 0x00015c74 0x00415c74 41   42   .rodata ascii [%s]-[%s](%d) Error reading from FIFO: %s
+364 0x00015ca0 0x00415ca0 36   37   .rodata ascii [%s]-[%s](%d) exit process_fifo_cmd\n
+365 0x00015cc8 0x00415cc8 14   15   .rodata ascii webrtc_shm_mon
+366 0x00015cdf 0x00415cdf 18   19   .rodata ascii ?/proc/self/status
+367 0x00015cf4 0x00415cf4 46   47   .rodata ascii [%s]-[%s](%d) Failed to open /proc/self/status
+368 0x00015d24 0x00415d24 23   24   .rodata ascii webrtc_memory_monitor.c
+369 0x00015d3c 0x00415d3c 12   13   .rodata ascii VmRSS: %u kB
+370 0x00015d4c 0x00415d4c 38   39   .rodata ascii [%s]-[%s](%d) Memory threshold is NULL
+371 0x00015d74 0x00415d74 21   22   .rodata ascii webrtc_memory_monitor
+372 0x00015d8c 0x00415d8c 53   54   .rodata ascii [%s]-[%s](%d) Memory usage: %lu KB, Threshold: %lu KB
+373 0x00015dc4 0x00415dc4 55   56   .rodata ascii [%s]-[%s](%d) Memory overflow detected: %lu KB > %lu KB
+374 0x00015dfc 0x00415dfc 38   39   .rodata ascii [%s]-[%s](%d) Memory allocation failed
+375 0x00015e24 0x00415e24 45   46   .rodata ascii [%s]-[%s](%d) Memory threshold set to: %lu MB
+376 0x00015e54 0x00415e54 52   53   .rodata ascii [%s]-[%s](%d) Failed to create memory monitor thread
+377 0x00015e8c 0x00415e8c 41   42   .rodata ascii [%s]-[%s](%d) Failed to get CPU usage: %s
+378 0x00015eb8 0x00415eb8 20   21   .rodata ascii webrtc_cpu_monitor.c
+379 0x00015ed0 0x00415ed0 35   36   .rodata ascii [%s]-[%s](%d) CPU threshold is NULL
+380 0x00015ef4 0x00415ef4 52   53   .rodata ascii [%s]-[%s](%d) CPU monitor started, threshold: %.2f%%
+381 0x00015f2c 0x00415f2c 18   19   .rodata ascii webrtc_cpu_monitor
+382 0x00015f40 0x00415f40 50   51   .rodata ascii [%s]-[%s](%d) CPU usage: %.2f%%, threshold: %.2f%%
+383 0x00015f74 0x00415f74 52   53   .rodata ascii [%s]-[%s](%d) CPU overload detected: %.2f%% > %.2f%%
+384 0x00015fac 0x00415fac 56   57   .rodata ascii [%s]-[%s](%d) Memory allocation failed for CPU threshold
+385 0x00015fe8 0x00415fe8 42   43   .rodata ascii [%s]-[%s](%d) CPU threshold set to: %.2f%%
+386 0x00016014 0x00416014 49   50   .rodata ascii [%s]-[%s](%d) Failed to create CPU monitor thread
+387 0x00016058 0x00416058 34   35   .rodata ascii [%s]-[%s](%d) [pc:%p] realloc %d\r\n
+388 0x0001607c 0x0041607c 17   18   .rodata ascii h264_packetizer.c
+0   0x000173f8 0x004273f8 13   14   .data   ascii 120.27.143.31
+1   0x00017428 0x00427428 4    5    .data   ascii 1234

@@ -1,0 +1,656 @@
+
+Symbol table '.dynsym' contains 141 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.0 (2)
+     2: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.0 (2)
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND strstr@GLIBC_2.0 (2)
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.2 (4)
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsNull
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.0 (2)
+     8: 00000001     0 SECTION GLOBAL DEFAULT  ABS _DYNAMIC_LINKING
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.2 (4)
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND read@GLIBC_2.0 (3)
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+    12: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterT[...]
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@GLIBC_2.0 (2)
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.7 (5)
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush@GLIBC_2.0 (2)
+    17: 00000000     0 FUNC    GLOBAL DEFAULT  UND fopen@GLIBC_2.2 (6)
+    18: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsNumber
+    19: 00425b00     4 OBJECT  GLOBAL DEFAULT   26 stderr@GLIBC_2.0 (2)
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND _exit@GLIBC_2.0 (2)
+    21: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.0 (2)
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.0 (2)
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.0 (2)
+    24: 00000000     0 FUNC    GLOBAL DEFAULT  UND sh[...]@GLIBC_2.2 (7)
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND fgets@GLIBC_2.0 (2)
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+    27: 00425afc     0 NOTYPE  GLOBAL DEFAULT   25 _edata
+    28: 00000000     0 FUNC    GLOBAL DEFAULT  UND time@GLIBC_2.0 (2)
+    29: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_Delete
+    30: 00000000     0 FUNC    GLOBAL DEFAULT  UND signal@GLIBC_2.0 (2)
+    31: 00000000     0 FUNC    GLOBAL DEFAULT  UND lseek@GLIBC_2.0 (3)
+    32: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (2)
+    33: 00000000     0 FUNC    GLOBAL DEFAULT  UND sleep@GLIBC_2.0 (2)
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND msgctl@GLIBC_2.2 (6)
+    35: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.2 (4)
+    36: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_Parse
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+    38: 00000000     0 FUNC    GLOBAL DEFAULT  UND unlink@GLIBC_2.0 (2)
+    39: 00000000     0 FUNC    GLOBAL DEFAULT  UND lo[...]@GLIBC_2.0 (2)
+    40: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (2)
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND ioctl@GLIBC_2.0 (2)
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND __xstat@GLIBC_2.0 (2)
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND accept@GLIBC_2.0 (3)
+    44: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_GetArraySize
+    45: 00000000     0 FUNC    GLOBAL DEFAULT  UND fwrite@GLIBC_2.0 (2)
+    46: 00000000     0 FUNC    GLOBAL DEFAULT  UND msgrcv@GLIBC_2.0 (2)
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcat@GLIBC_2.0 (2)
+    48: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@GLIBC_2.0 (2)
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.2 (8)
+    50: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpid@GLIBC_2.0 (2)
+    51: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.2 (4)
+    52: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (2)
+    53: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@GLIBC_2.0 (2)
+    54: 00000000     0 FUNC    GLOBAL DEFAULT  UND puts@GLIBC_2.0 (2)
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND system@GLIBC_2.0 (2)
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (2)
+    57: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.2 (4)
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND ti[...]@GLIBC_2.8 (9)
+    59: 00000000     0 FUNC    GLOBAL DEFAULT  UND exit@GLIBC_2.0 (2)
+    60: 00000000     0 FUNC    GLOBAL DEFAULT  UND r[...]@GLIBC_2.3 (10)
+    61: 00000000     0 FUNC    GLOBAL DEFAULT  UND open@GLIBC_2.0 (3)
+    62: 00411140     4 OBJECT  GLOBAL DEFAULT   16 _IO_stdin_used
+    63: 00425ac0     0 NOTYPE  GLOBAL DEFAULT   22 _fdata
+    64: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.2 (4)
+    65: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (2)
+    66: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (2)
+    67: 00000000     0 FUNC    GLOBAL DEFAULT  UND rename@GLIBC_2.0 (2)
+    68: 00000000     0 FUNC    GLOBAL DEFAULT  UND mmap@GLIBC_2.0 (2)
+    69: 00000000     0 FUNC    GLOBAL DEFAULT  UND strchr@GLIBC_2.0 (2)
+    70: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsTrue
+    71: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.0 (2)
+    72: 004154f0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND __[...]@GLIBC_2.0 (2)
+    73: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.2 (4)
+    74: 00000000     0 FUNC    GLOBAL DEFAULT  UND fprintf@GLIBC_2.0 (2)
+    75: 00000000     0 FUNC    GLOBAL DEFAULT  UND write@GLIBC_2.0 (3)
+    76: 00425ad0     0 OBJECT  GLOBAL DEFAULT   23 __RLD_MAP
+    77: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_GetArrayItem
+    78: 00000000     0 FUNC    GLOBAL DEFAULT  UND bind@GLIBC_2.0 (2)
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.7 (5)
+    80: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.0 (2)
+    81: 00000000     0 FUNC    GLOBAL DEFAULT  UND fcntl@GLIBC_2.28 (11)
+    82: 00000000     0 FUNC    GLOBAL DEFAULT  UND mkdir@GLIBC_2.0 (2)
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND sn[...]@GLIBC_2.0 (2)
+    84: 00000000     0 FUNC    GLOBAL DEFAULT  UND ft[...]@GLIBC_2.0 (2)
+    85: 00425ed0     0 NOTYPE  GLOBAL DEFAULT   26 _end
+    86: 00000000     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.0 (3)
+    87: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncpy@GLIBC_2.0 (2)
+    88: 00000000     0 FUNC    GLOBAL DEFAULT  UND fileno@GLIBC_2.0 (2)
+    89: 00000000     0 FUNC    GLOBAL DEFAULT  UND prctl@GLIBC_2.0 (2)
+    90: 00000000     0 FUNC    GLOBAL DEFAULT  UND access@GLIBC_2.0 (2)
+    91: 00425b04     4 OBJECT  GLOBAL DEFAULT   26 stdout@GLIBC_2.0 (2)
+    92: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.2 (4)
+    93: 00425afc     0 NOTYPE  GLOBAL DEFAULT   26 __bss_start
+    94: 00000000     0 FUNC    GLOBAL DEFAULT  UND vs[...]@GLIBC_2.0 (2)
+    95: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.3 (12)
+    96: 00000000     0 FUNC    GLOBAL DEFAULT  UND sh[...]@GLIBC_2.2 (7)
+    97: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.2 (8)
+    98: 00000000     0 FUNC    GLOBAL DEFAULT  UND munmap@GLIBC_2.0 (2)
+    99: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsBool
+   100: 00000000     0 FUNC    GLOBAL DEFAULT  UND si[...]@GLIBC_2.0 (2)
+   101: 00000000     0 FUNC    GLOBAL DEFAULT  UND popen@GLIBC_2.2 (6)
+   102: 00000000     0 FUNC    GLOBAL DEFAULT  UND readdir@GLIBC_2.0 (2)
+   103: 00000000     0 FUNC    GLOBAL DEFAULT  UND listen@GLIBC_2.0 (2)
+   104: 00401c60     0 NOTYPE  GLOBAL DEFAULT   14 _ftext
+   105: 004156b0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND symlink@GLIBC_2.0 (2)
+   106: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.2 (4)
+   107: 00000000     0 FUNC    GLOBAL DEFAULT  UND fclose@GLIBC_2.2 (6)
+   108: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftok@GLIBC_2.0 (2)
+   109: 00000000     0 FUNC    GLOBAL DEFAULT  UND ti[...]@GLIBC_2.8 (9)
+   110: 00000000     0 FUNC    GLOBAL DEFAULT  UND sprintf@GLIBC_2.0 (2)
+   111: 00000000     0 FUNC    GLOBAL DEFAULT  UND remove@GLIBC_2.0 (2)
+   112: 00000000     0 FUNC    GLOBAL DEFAULT  UND msgget@GLIBC_2.0 (2)
+   113: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsArray
+   114: 00000000     0 FUNC    GLOBAL DEFAULT  UND socket@GLIBC_2.0 (2)
+   115: 00000000     0 FUNC    GLOBAL DEFAULT  UND cl[...]@GLIBC_2.2 (7)
+   116: 00425afc     0 NOTYPE  GLOBAL DEFAULT   26 _fbss
+   117: 00000000     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.0 (2)
+   118: 00000000     0 FUNC    GLOBAL DEFAULT  UND si[...]@GLIBC_2.0 (3)
+   119: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsString
+   120: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMC[...]
+   121: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsObject
+   122: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp@GLIBC_2.0 (2)
+   123: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (2)
+   124: 00000000     0 FUNC    GLOBAL DEFAULT  UND chmod@GLIBC_2.0 (2)
+   125: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+   126: 00000000     0 FUNC    GLOBAL DEFAULT  UND msgsnd@GLIBC_2.0 (2)
+   127: 00000000     0 FUNC    GLOBAL DEFAULT  UND umask@GLIBC_2.0 (2)
+   128: 00425b08     4 OBJECT  GLOBAL DEFAULT   26 optarg@GLIBC_2.0 (2)
+   129: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtol@GLIBC_2.0 (2)
+   130: 00000000     0 FUNC    GLOBAL DEFAULT  UND connect@GLIBC_2.0 (3)
+   131: 00000000     0 FUNC    GLOBAL DEFAULT  UND e[...]@GLIBC_2.9 (13)
+   132: 00000000     0 FUNC    GLOBAL DEFAULT  UND recv@GLIBC_2.0 (3)
+   133: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@GLIBC_2.0 (3)
+   134: 00000000     0 FUNC    GLOBAL DEFAULT  UND cl[...]@GLIBC_2.0 (2)
+   135: 00000000     0 FUNC    GLOBAL DEFAULT  UND opendir@GLIBC_2.0 (2)
+   136: 00000000     0 FUNC    GLOBAL DEFAULT  UND pclose@GLIBC_2.2 (6)
+   137: 00000000     0 FUNC    GLOBAL DEFAULT  UND send@GLIBC_2.0 (3)
+   138: 00000000     0 FUNC    GLOBAL DEFAULT  UND calloc@GLIBC_2.0 (2)
+   139: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncat@GLIBC_2.0 (2)
+   140: 00000000     0 FUNC    WEAK   DEFAULT  UND __gmon_start__
+
+Symbol table '.symtab' contains 509 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00400154     0 SECTION LOCAL  DEFAULT    1 .interp
+     2: 00400170     0 SECTION LOCAL  DEFAULT    2 .note.ABI-tag
+     3: 00400190     0 SECTION LOCAL  DEFAULT    3 .MIPS.abiflags
+     4: 004001a8     0 SECTION LOCAL  DEFAULT    4 .reginfo
+     5: 004001c0     0 SECTION LOCAL  DEFAULT    5 .dynamic
+     6: 00400310     0 SECTION LOCAL  DEFAULT    6 .hash
+     7: 00400758     0 SECTION LOCAL  DEFAULT    7 .dynsym
+     8: 00401028     0 SECTION LOCAL  DEFAULT    8 .dynstr
+     9: 00401604     0 SECTION LOCAL  DEFAULT    9 .gnu.version
+    10: 00401720     0 SECTION LOCAL  DEFAULT   10 .gnu.version_r
+    11: 00401810     0 SECTION LOCAL  DEFAULT   11 .rel.dyn
+    12: 00401830     0 SECTION LOCAL  DEFAULT   12 .rel.plt
+    13: 00401c18     0 SECTION LOCAL  DEFAULT   13 .init
+    14: 00401c60     0 SECTION LOCAL  DEFAULT   14 .text
+    15: 00411110     0 SECTION LOCAL  DEFAULT   15 .fini
+    16: 00411140     0 SECTION LOCAL  DEFAULT   16 .rodata
+    17: 004150b0     0 SECTION LOCAL  DEFAULT   17 .eh_frame
+    18: 004150c0     0 SECTION LOCAL  DEFAULT   18 .plt
+    19: 004258b0     0 SECTION LOCAL  DEFAULT   19 .init_array
+    20: 004258b4     0 SECTION LOCAL  DEFAULT   20 .fini_array
+    21: 004258b8     0 SECTION LOCAL  DEFAULT   21 .got.plt
+    22: 00425ac0     0 SECTION LOCAL  DEFAULT   22 .data
+    23: 00425ad0     0 SECTION LOCAL  DEFAULT   23 .rld_map
+    24: 00425ae0     0 SECTION LOCAL  DEFAULT   24 .got
+    25: 00425af8     0 SECTION LOCAL  DEFAULT   25 .sdata
+    26: 00425b00     0 SECTION LOCAL  DEFAULT   26 .bss
+    27: 00000000     0 SECTION LOCAL  DEFAULT   27 .comment
+    28: 00000000     0 SECTION LOCAL  DEFAULT   28 .pdr
+    29: 00000000     0 SECTION LOCAL  DEFAULT   29 .debug_frame
+    30: 00000000     0 SECTION LOCAL  DEFAULT   30 .gnu.attributes
+    31: 00000000     0 SECTION LOCAL  DEFAULT   31 .mdebug.abi32
+    32: 00000000     0 FILE    LOCAL  DEFAULT  ABS /project/Mips-To[...]
+    33: 004021a4     0 NOTYPE  LOCAL  DEFAULT   14 hlt
+    34: 00000000     0 FILE    LOCAL  DEFAULT  ABS init.c
+    35: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_main.c
+    36: 004044c0    68 FUNC    LOCAL  DEFAULT   14 print_usage
+    37: 00425b20     4 OBJECT  LOCAL  DEFAULT   26 hs
+    38: 00411fcc    96 OBJECT  LOCAL  DEFAULT   16 lopts.6766
+    39: 00411fc0    10 OBJECT  LOCAL  DEFAULT   16 __func__.6786
+    40: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    41: 004021b0     0 FUNC    LOCAL  DEFAULT   14 deregister_tm_clones
+    42: 004021e4     0 FUNC    LOCAL  DEFAULT   14 register_tm_clones
+    43: 00402230     0 FUNC    LOCAL  DEFAULT   14 __do_global_dtors_aux
+    44: 00425b10     1 OBJECT  LOCAL  DEFAULT   26 completed.6546
+    45: 004258b4     0 OBJECT  LOCAL  DEFAULT   20 __do_global_dtor[...]
+    46: 00402268     0 FUNC    LOCAL  DEFAULT   14 frame_dummy
+    47: 004258b0     0 OBJECT  LOCAL  DEFAULT   19 __frame_dummy_in[...]
+    48: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_ui.c
+    49: 00402270    28 FUNC    LOCAL  DEFAULT   14 hs_ui_task_init
+    50: 0040228c    40 FUNC    LOCAL  DEFAULT   14 hs_ui_task_destory
+    51: 004022b4    76 FUNC    LOCAL  DEFAULT   14 hs_ui_msg_handle
+    52: 00411170    11 OBJECT  LOCAL  DEFAULT   16 __func__.5439
+    53: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_ui_vectorp.c
+    54: 00402380   204 FUNC    LOCAL  DEFAULT   14 hs_ui_vectorp_msgpush
+    55: 0040244c   108 FUNC    LOCAL  DEFAULT   14 hs_ui_vectorp_se[...]
+    56: 00402560   308 FUNC    LOCAL  DEFAULT   14 hs_ui_vectorp_init
+    57: 00402694  1092 FUNC    LOCAL  DEFAULT   14 hs_ui_vectorp_ta[...]
+    58: 004112cc    19 OBJECT  LOCAL  DEFAULT   16 __func__.5669
+    59: 004112b0    26 OBJECT  LOCAL  DEFAULT   16 __func__.5654
+    60: 004112e0    18 OBJECT  LOCAL  DEFAULT   16 __func__.5684
+    61: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_ui_vectorp_pr[...]
+    62: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_printer.c
+    63: 00403520    40 FUNC    LOCAL  DEFAULT   14 hs_printer_task_init
+    64: 00403548    40 FUNC    LOCAL  DEFAULT   14 hs_printer_task_[...]
+    65: 00403570    52 FUNC    LOCAL  DEFAULT   14 hs_printer_msg_handle
+    66: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_printer_klipper.c
+    67: 00403630     8 FUNC    LOCAL  DEFAULT   14 hs_printer_klipp[...]
+    68: 00403638   104 FUNC    LOCAL  DEFAULT   14 hs_printer_klipp[...]
+    69: 004036a0    72 FUNC    LOCAL  DEFAULT   14 hs_printer_klipp[...]
+    70: 004036e8   172 FUNC    LOCAL  DEFAULT   14 hs_printer_klipp[...]
+    71: 00403ab8   484 FUNC    LOCAL  DEFAULT   14 hs_printer_klipp[...]
+    72: 00403794   804 FUNC    LOCAL  DEFAULT   14 hs_printer_klipp[...]
+    73: 004118f0    26 OBJECT  LOCAL  DEFAULT   16 __func__.5993
+    74: 00403c9c   284 FUNC    LOCAL  DEFAULT   14 hs_printer_klipp[...]
+    75: 0041190c    24 OBJECT  LOCAL  DEFAULT   16 __func__.6003
+    76: 00411924    23 OBJECT  LOCAL  DEFAULT   16 __func__.6015
+    77: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_printer_klipp[...]
+    78: 00403f00   188 FUNC    LOCAL  DEFAULT   14 hs_printer_klipp[...]
+    79: 00403fbc   572 FUNC    LOCAL  DEFAULT   14 hs_printer_klipp[...]
+    80: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_debug.c
+    81: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_station.c
+    82: 00412100    18 OBJECT  LOCAL  DEFAULT   16 __func__.5670
+    83: 00412114    20 OBJECT  LOCAL  DEFAULT   16 __func__.5660
+    84: 004120f0    16 OBJECT  LOCAL  DEFAULT   16 __func__.5678
+    85: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_activate.c
+    86: 00425b40     4 OBJECT  LOCAL  DEFAULT   26 pactivate
+    87: 00412248    19 OBJECT  LOCAL  DEFAULT   16 __func__.3194
+    88: 00412234    19 OBJECT  LOCAL  DEFAULT   16 __func__.3203
+    89: 00412220    19 OBJECT  LOCAL  DEFAULT   16 __func__.3207
+    90: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_comm.c
+    91: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_conf.c
+    92: 004052a0   196 FUNC    LOCAL  DEFAULT   14 hs_json_search
+    93: 00425b50     4 OBJECT  LOCAL  DEFAULT   26 pconf
+    94: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_ipcmsg.c
+    95: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_ipcsem.c
+    96: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_ipcshm.c
+    97: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_log.c
+    98: 00425b60     4 OBJECT  LOCAL  DEFAULT   26 plog
+    99: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_msg.c
+   100: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_timer.c
+   101: 00406780    68 FUNC    LOCAL  DEFAULT   14 hs_timer_remove
+   102: 004124f4    16 OBJECT  LOCAL  DEFAULT   16 __func__.3823
+   103: 004124e0    17 OBJECT  LOCAL  DEFAULT   16 __func__.3834
+   104: 004124d0    13 OBJECT  LOCAL  DEFAULT   16 __func__.3841
+   105: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal.c
+   106: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal_audio.c
+   107: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal_camera.c
+   108: 00407470   864 FUNC    LOCAL  DEFAULT   14 hs_hal_cam_get_i[...]
+   109: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal_gpio.c
+   110: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal_lcd.c
+   111: 004079b0   392 FUNC    LOCAL  DEFAULT   14 hs_hal_lcd_backlight
+   112: 00407b38   824 FUNC    LOCAL  DEFAULT   14 hs_hal_lcd_get_info
+   113: 00412a10    20 OBJECT  LOCAL  DEFAULT   16 __func__.6098
+   114: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal_led.c
+   115: 00407ed0    72 FUNC    LOCAL  DEFAULT   14 hs_hal_led_ctrl
+   116: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal_powerloss.c
+   117: 00407f90    64 FUNC    LOCAL  DEFAULT   14 hs_hal_powerloss[...]
+   118: 00407fd0   276 FUNC    LOCAL  DEFAULT   14 hs_hal_powerloss[...]
+   119: 004080e4   580 FUNC    LOCAL  DEFAULT   14 hs_hal_powerloss[...]
+   120: 00412c30    22 OBJECT  LOCAL  DEFAULT   16 __func__.5912
+   121: 00412c48    30 OBJECT  LOCAL  DEFAULT   16 __func__.5922
+   122: 00412c68    22 OBJECT  LOCAL  DEFAULT   16 __func__.5939
+   123: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal_uevent.c
+   124: 004086e0    56 FUNC    LOCAL  DEFAULT   14 hs_hal_uvent_close
+   125: 00408718   448 FUNC    LOCAL  DEFAULT   14 hs_hal_uevent_handle
+   126: 00412d10    19 OBJECT  LOCAL  DEFAULT   16 __func__.6140
+   127: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal_uvc.c
+   128: 00408b30   108 FUNC    LOCAL  DEFAULT   14 hs_hal_uvc_update
+   129: 00408b9c  2612 FUNC    LOCAL  DEFAULT   14 hs_hal_uvc_scan
+   130: 00412ea0    24 OBJECT  LOCAL  DEFAULT   16 __func__.6077
+   131: 00412eb8    16 OBJECT  LOCAL  DEFAULT   16 __func__.6127
+   132: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_hal_video.c
+   133: 004096c0   604 FUNC    LOCAL  DEFAULT   14 hs_hal_video_ent[...]
+   134: 00413444    26 OBJECT  LOCAL  DEFAULT   16 __func__.5968
+   135: 0040991c   444 FUNC    LOCAL  DEFAULT   14 hs_hal_video_ent[...]
+   136: 00413460    26 OBJECT  LOCAL  DEFAULT   16 __func__.5954
+   137: 004134a8    20 OBJECT  LOCAL  DEFAULT   16 __func__.5995
+   138: 00413490    21 OBJECT  LOCAL  DEFAULT   16 __func__.5999
+   139: 0041347c    19 OBJECT  LOCAL  DEFAULT   16 __func__.6004
+   140: 00413428    28 OBJECT  LOCAL  DEFAULT   16 __func__.6024
+   141: 00413410    21 OBJECT  LOCAL  DEFAULT   16 __func__.6032
+   142: 004133f4    25 OBJECT  LOCAL  DEFAULT   16 __func__.6050
+   143: 004133e0    18 OBJECT  LOCAL  DEFAULT   16 __func__.6054
+   144: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker.c
+   145: 00425b80   828 OBJECT  LOCAL  DEFAULT   26 hsworker
+   146: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_hal.c
+   147: 00413960    29 OBJECT  LOCAL  DEFAULT   16 __func__.5682
+   148: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_print.c
+   149: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_ui.c
+   150: 00413da8    21 OBJECT  LOCAL  DEFAULT   16 __func__.6503
+   151: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_upgrade.c
+   152: 0040c640  1488 FUNC    LOCAL  DEFAULT   14 hs_worker_upgrad[...]
+   153: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_video_ai.c
+   154: 0040cce0   216 FUNC    LOCAL  DEFAULT   14 hs_worker_ai_close
+   155: 0040cdb8   660 FUNC    LOCAL  DEFAULT   14 hs_worker_open_v[...]
+   156: 00414414    24 OBJECT  LOCAL  DEFAULT   16 __func__.6477
+   157: 0040d1e4   540 FUNC    LOCAL  DEFAULT   14 hs_worker_ai_bugle
+   158: 0040d04c   256 FUNC    LOCAL  DEFAULT   14 hs_worker_ai_res[...]
+   159: 0040d14c   152 FUNC    LOCAL  DEFAULT   14 hs_worker_ai_sta[...]
+   160: 0040d400  1580 FUNC    LOCAL  DEFAULT   14 hs_worker_ai_tim[...]
+   161: 0041442c    24 OBJECT  LOCAL  DEFAULT   16 __func__.6497
+   162: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_video_[...]
+   163: 0040dd50   156 FUNC    LOCAL  DEFAULT   14 hs_worker_timela[...]
+   164: 0040ddec   384 FUNC    LOCAL  DEFAULT   14 hs_worker_timela[...]
+   165: 00414630    26 OBJECT  LOCAL  DEFAULT   16 __func__.6071
+   166: 0041466c    32 OBJECT  LOCAL  DEFAULT   16 __func__.6079
+   167: 0041464c    31 OBJECT  LOCAL  DEFAULT   16 __func__.6086
+   168: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_video_[...]
+   169: 0040e6e0   100 FUNC    LOCAL  DEFAULT   14 hs_worker_video_[...]
+   170: 0040e744   848 FUNC    LOCAL  DEFAULT   14 hs_woker_video_t[...]
+   171: 00414900    27 OBJECT  LOCAL  DEFAULT   16 __func__.6045
+   172: 0041491c    26 OBJECT  LOCAL  DEFAULT   16 __func__.6059
+   173: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_video_[...]
+   174: 0040ef40   488 FUNC    LOCAL  DEFAULT   14 hs_worker_webrtc[...]
+   175: 00414ae0    35 OBJECT  LOCAL  DEFAULT   16 __func__.6190
+   176: 00414b04    28 OBJECT  LOCAL  DEFAULT   16 __func__.6210
+   177: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_video_[...]
+   178: 00000000     0 FILE    LOCAL  DEFAULT  ABS hs_worker_video_[...]
+   179: 0040fb40    88 FUNC    LOCAL  DEFAULT   14 hs_worker_webrtc[...]
+   180: 0040fb98  1200 FUNC    LOCAL  DEFAULT   14 hs_worker_connec[...]
+   181: 00414f50    35 OBJECT  LOCAL  DEFAULT   16 __func__.6229
+   182: 004101a4   332 FUNC    LOCAL  DEFAULT   14 hs_worker_webrtc[...]
+   183: 004102f0   236 FUNC    LOCAL  DEFAULT   14 hs_worker_webrtc[...]
+   184: 00410048   348 FUNC    LOCAL  DEFAULT   14 hs_worker_webrtc[...]
+   185: 00414f74    32 OBJECT  LOCAL  DEFAULT   16 __func__.6264
+   186: 00414f30    29 OBJECT  LOCAL  DEFAULT   16 __func__.6222
+   187: 004103dc   248 FUNC    LOCAL  DEFAULT   14 hs_worker_destor[...]
+   188: 00414f94    34 OBJECT  LOCAL  DEFAULT   16 __func__.6289
+   189: 00000000     0 FILE    LOCAL  DEFAULT  ABS cpu_monitor.c
+   190: 00410acc   288 FUNC    LOCAL  DEFAULT   14 get_cpu_usage.part.0
+   191: 00000000     0 FILE    LOCAL  DEFAULT  ABS memory_monitor.c
+   192: 00000000     0 FILE    LOCAL  DEFAULT  ABS elf-init.c
+   193: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+   194: 004150b0     0 OBJECT  LOCAL  DEFAULT   17 __FRAME_END__
+   195: 00000000     0 FILE    LOCAL  DEFAULT  ABS 
+   196: 004150c0     0 FUNC    LOCAL  DEFAULT   18 _PROCEDURE_LINKA[...]
+   197: 004258b4     0 NOTYPE  LOCAL  DEFAULT   19 __init_array_end
+   198: 004001c0     0 OBJECT  LOCAL  DEFAULT    5 _DYNAMIC
+   199: 004258b0     0 NOTYPE  LOCAL  DEFAULT   19 __init_array_start
+   200: 00401c18     0 FUNC    LOCAL  DEFAULT   13 _init
+   201: 0042dad0     0 NOTYPE  LOCAL  DEFAULT   24 _gp
+   202: 00000000     0 FUNC    GLOBAL DEFAULT  UND setsockopt@@GLIBC_2.0
+   203: 00411104     8 FUNC    GLOBAL DEFAULT   14 __libc_csu_fini
+   204: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_un[...]
+   205: 0040ae64   268 FUNC    GLOBAL DEFAULT   14 hs_worker_assign
+   206: 0040ad28     8 FUNC    GLOBAL DEFAULT   14 hs_worker_assign[...]
+   207: 00000000     0 FUNC    GLOBAL DEFAULT  UND setitimer@@GLIBC_2.0
+   208: 00000000     0 FUNC    GLOBAL DEFAULT  UND strstr@@GLIBC_2.0
+   209: 00403db8   328 FUNC    GLOBAL DEFAULT   14 hs_printer_init_[...]
+   210: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_wait@@GLIBC_2.2
+   211: 00404d78   424 FUNC    GLOBAL DEFAULT   14 hs_activate_insert
+   212: 00408ae8    60 FUNC    GLOBAL DEFAULT   14 hs_hal_uevent_destory
+   213: 0040c3d0    76 FUNC    GLOBAL DEFAULT   14 hs_worker_ui_ai
+   214: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsNull
+   215: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@@GLIBC_2.0
+   216: 0040ac40     8 FUNC    GLOBAL DEFAULT   14 hs_worker_assign[...]
+   217: 00000001     0 SECTION GLOBAL DEFAULT  ABS _DYNAMIC_LINKING
+   218: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_post@@GLIBC_2.2
+   219: 00000000     0 FUNC    GLOBAL DEFAULT  UND read@@GLIBC_2.0
+   220: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_de[...]
+   221: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterT[...]
+   222: 00425ac0     0 OBJECT  WEAK   DEFAULT   22 data_start
+   223: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@@GLIBC_2.0
+   224: 0040482c   336 FUNC    GLOBAL DEFAULT   14 hs_station_msg_push
+   225: 00000000     0 FUNC    GLOBAL DEFAULT  UND __isoc99_fscanf@[...]
+   226: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_attr_des[...]
+   227: 00406650   108 FUNC    GLOBAL DEFAULT   14 hs_msg_init
+   228: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush@@GLIBC_2.0
+   229: 00000000     0 FUNC    GLOBAL DEFAULT  UND fopen@@GLIBC_2.2
+   230: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsNumber
+   231: 00425b00     4 OBJECT  GLOBAL DEFAULT   26 stderr@@GLIBC_2.0
+   232: 00000000     0 FUNC    GLOBAL DEFAULT  UND _exit@@GLIBC_2.0
+   233: 0040da2c   736 FUNC    GLOBAL DEFAULT   14 hs_worker_init_v[...]
+   234: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@@GLIBC_2.0
+   235: 00409dac   324 FUNC    GLOBAL DEFAULT   14 hs_hal_video_suspend
+   236: 0040f7a0   236 FUNC    GLOBAL DEFAULT   14 fifo_write
+   237: 00405e54     8 FUNC    GLOBAL DEFAULT   14 hs_ipcsem_get
+   238: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@@GLIBC_2.0
+   239: 0040f88c   236 FUNC    GLOBAL DEFAULT   14 fifo_read
+   240: 0040dd0c    68 FUNC    GLOBAL DEFAULT   14 hs_worker_close_[...]
+   241: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@@GLIBC_2.0
+   242: 00000000     0 FUNC    GLOBAL DEFAULT  UND shm_open@@GLIBC_2.2
+   243: 00406a88   684 FUNC    GLOBAL DEFAULT   14 hs_timer_add
+   244: 0040b964    76 FUNC    GLOBAL DEFAULT   14 hs_worker_print_[...]
+   245: 0040f128   988 FUNC    GLOBAL DEFAULT   14 hs_worker_init_v[...]
+   246: 0040ba78   104 FUNC    GLOBAL DEFAULT   14 hs_worker_print_[...]
+   247: 004066bc   196 FUNC    GLOBAL DEFAULT   14 hs_msg_destory
+   248: 00000000     0 FUNC    GLOBAL DEFAULT  UND fgets@@GLIBC_2.0
+   249: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_in[...]
+   250: 00425afc     0 NOTYPE  GLOBAL DEFAULT   25 _edata
+   251: 00000000     0 FUNC    GLOBAL DEFAULT  UND time@@GLIBC_2.0
+   252: 0040a474   548 FUNC    GLOBAL DEFAULT   14 hs_hal_video_set_fmt
+   253: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_Delete
+   254: 00404358    92 FUNC    GLOBAL DEFAULT   14 hs_printer_klipp[...]
+   255: 004104d4  1096 FUNC    GLOBAL DEFAULT   14 hs_worker_init_v[...]
+   256: 00410d9c   216 FUNC    GLOBAL DEFAULT   14 start_cpu_monitor
+   257: 00000000     0 FUNC    GLOBAL DEFAULT  UND signal@@GLIBC_2.0
+   258: 00000000     0 FUNC    GLOBAL DEFAULT  UND lseek@@GLIBC_2.0
+   259: 00406320   220 FUNC    GLOBAL DEFAULT   14 hs_log_init
+   260: 00000000     0 FUNC    GLOBAL DEFAULT  UND gettimeofday@@GL[...]
+   261: 00000000     0 FUNC    GLOBAL DEFAULT  UND sleep@@GLIBC_2.0
+   262: 004067c4   372 FUNC    GLOBAL DEFAULT   14 hs_timer_resume
+   263: 00406938   336 FUNC    GLOBAL DEFAULT   14 hs_timer_suspend
+   264: 00411110     0 FUNC    GLOBAL HIDDEN    15 _fini
+   265: 0040af70   688 FUNC    GLOBAL DEFAULT   14 hs_worker_view
+   266: 00409b4c   236 FUNC    GLOBAL DEFAULT   14 hs_hal_video_rem[...]
+   267: 00000000     0 FUNC    GLOBAL DEFAULT  UND msgctl@@GLIBC_2.2
+   268: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_close@@GLIBC_2.2
+   269: 00405e5c    88 FUNC    GLOBAL DEFAULT   14 hs_ipcsem_init
+   270: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_Parse
+   271: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_lo[...]
+   272: 00000000     0 FUNC    GLOBAL DEFAULT  UND unlink@@GLIBC_2.0
+   273: 00406d34   396 FUNC    GLOBAL DEFAULT   14 hs_timer_handle
+   274: 00405b8c    28 FUNC    GLOBAL DEFAULT   14 hs_ipcmsg_push
+   275: 00000000     0 FUNC    GLOBAL DEFAULT  UND localtime_r@@GLI[...]
+   276: 0040ac48     8 FUNC    GLOBAL DEFAULT   14 hs_worker_assign[...]
+   277: 00405d68    68 FUNC    GLOBAL DEFAULT   14 hs_ipcsem_nowait
+   278: 00404720   112 FUNC    GLOBAL DEFAULT   14 signal_manage
+   279: 00000000     0 FUNC    GLOBAL DEFAULT  UND getsockopt@@GLIBC_2.0
+   280: 0040fae8    76 FUNC    GLOBAL DEFAULT   14 webrtc_fifo_stop
+   281: 00405adc   136 FUNC    GLOBAL DEFAULT   14 hs_conf_destory
+   282: 00410cdc    72 FUNC    GLOBAL DEFAULT   14 get_total_time
+   283: 00404af4    64 FUNC    GLOBAL DEFAULT   14 hs_station_destory
+   284: 00405b70     8 FUNC    GLOBAL DEFAULT   14 hs_ipcmsg_get_key
+   285: 0040ad30   308 FUNC    GLOBAL DEFAULT   14 hs_worker_assign[...]
+   286: 00000000     0 FUNC    GLOBAL DEFAULT  UND ioctl@@GLIBC_2.0
+   287: 00407940   100 FUNC    GLOBAL DEFAULT   14 hs_hal_gpio_set
+   288: 004050f8    92 FUNC    GLOBAL DEFAULT   14 hs_activate_init
+   289: 00000000     0 FUNC    GLOBAL DEFAULT  UND __xstat@@GLIBC_2.0
+   290: 00000000     0 FUNC    GLOBAL DEFAULT  UND accept@@GLIBC_2.0
+   291: 0040ac58   208 FUNC    GLOBAL DEFAULT   14 hs_worker_assign[...]
+   292: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_GetArraySize
+   293: 00000000     0 FUNC    GLOBAL DEFAULT  UND fwrite@@GLIBC_2.0
+   294: 00000000     0 FUNC    GLOBAL DEFAULT  UND msgrcv@@GLIBC_2.0
+   295: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcat@@GLIBC_2.0
+   296: 00402c00  1012 FUNC    GLOBAL DEFAULT   14 hs_ui_vectorp_ip[...]
+   297: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@@GLIBC_2.0
+   298: 0041091c    84 FUNC    GLOBAL DEFAULT   14 hs_worker_close_[...]
+   299: 00000000     0 FUNC    GLOBAL DEFAULT  UND epoll_ctl@@GLIBC[...]
+   300: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpid@@GLIBC_2.0
+   301: 0040a360   276 FUNC    GLOBAL DEFAULT   14 hs_hal_video_set[...]
+   302: 0040aaa0    56 FUNC    GLOBAL DEFAULT   14 hs_hal_video_close
+   303: 00404790   156 FUNC    GLOBAL DEFAULT   14 hs_station_handle
+   304: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_create@@[...]
+   305: 00409cbc   240 FUNC    GLOBAL DEFAULT   14 hs_hal_video_resume
+   306: 00425ec4     4 OBJECT  GLOBAL DEFAULT   26 prev_cpu_time
+   307: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtok_r@@GLIBC_2.0
+   308: 00405794   208 FUNC    GLOBAL DEFAULT   14 hs_conf_search_value
+   309: 004035ac   132 FUNC    GLOBAL DEFAULT   14 hs_printer_init
+   310: 00402308   112 FUNC    GLOBAL DEFAULT   14 hs_ui_init
+   311: 004063fc    96 FUNC    GLOBAL DEFAULT   14 hs_log_destory
+   312: 0040a9a4   252 FUNC    GLOBAL DEFAULT   14 hs_hal_video_open
+   313: 00405eb4    64 FUNC    GLOBAL DEFAULT   14 hs_ipcsem_del
+   314: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@@GLIBC_2.0
+   315: 0040e190   780 FUNC    GLOBAL DEFAULT   14 hs_worker_init_t[...]
+   316: 00425ac0     0 OBJECT  GLOBAL DEFAULT   22 __data_start
+   317: 00404504   540 FUNC    GLOBAL DEFAULT   14 signal_handle
+   318: 00407890   176 FUNC    GLOBAL DEFAULT   14 hs_hal_gpio_get
+   319: 00406460   272 FUNC    GLOBAL DEFAULT   14 hs_msg_push
+   320: 00000000     0 FUNC    GLOBAL DEFAULT  UND puts@@GLIBC_2.0
+   321: 00000000     0 FUNC    GLOBAL DEFAULT  UND system@@GLIBC_2.0
+   322: 0040edbc   388 FUNC    GLOBAL DEFAULT   14 hs_woker_video_t[...]
+   323: 00000000     0 FUNC    GLOBAL DEFAULT  UND strerror@@GLIBC_2.0
+   324: 004056a0   244 FUNC    GLOBAL DEFAULT   14 hs_conf_search_value1
+   325: 00405ba8   100 FUNC    GLOBAL DEFAULT   14 hs_ipcmsg_pull
+   326: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_trywait@@GLI[...]
+   327: 00000000     0 FUNC    WEAK   DEFAULT  UND __gmon_start__
+   328: 00405364   828 FUNC    GLOBAL DEFAULT   14 hs_conf_review
+   329: 00000000     0 FUNC    GLOBAL DEFAULT  UND timerfd_create@@[...]
+   330: 00000000     0 FUNC    GLOBAL DEFAULT  UND exit@@GLIBC_2.0
+   331: 00404450   112 FUNC    GLOBAL DEFAULT   14 hs_printer_klipp[...]
+   332: 00425af8     0 OBJECT  GLOBAL HIDDEN    25 __dso_handle
+   333: 00406f38    96 FUNC    GLOBAL DEFAULT   14 hs_timer_init
+   334: 00000000     0 FUNC    GLOBAL DEFAULT  UND realpath@@GLIBC_2.3
+   335: 0040b9b0   100 FUNC    GLOBAL DEFAULT   14 hs_worker_print_[...]
+   336: 00000000     0 FUNC    GLOBAL DEFAULT  UND open@@GLIBC_2.0
+   337: 00425b70     4 OBJECT  GLOBAL DEFAULT   26 ptimer
+   338: 00407204   608 FUNC    GLOBAL DEFAULT   14 hs_hal_veiw
+   339: 00411140     4 OBJECT  GLOBAL DEFAULT   16 _IO_stdin_used
+   340: 0040f64c   188 FUNC    GLOBAL DEFAULT   14 hs_worker_stop_webrtc
+   341: 0040a8ac   248 FUNC    GLOBAL DEFAULT   14 hs_hal_video_che[...]
+   342: 00425ac0     0 NOTYPE  GLOBAL DEFAULT   22 _fdata
+   343: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_timedwait@@G[...]
+   344: 00000000     0 FUNC    GLOBAL DEFAULT  UND strftime@@GLIBC_2.0
+   345: 00000000     0 FUNC    GLOBAL DEFAULT  UND getopt_long@@GLI[...]
+   346: 00000000     0 FUNC    GLOBAL DEFAULT  UND rename@@GLIBC_2.0
+   347: 004071a0   100 FUNC    GLOBAL DEFAULT   14 hs_hal_destory
+   348: 00407848    68 FUNC    GLOBAL DEFAULT   14 hs_hal_camera_destory
+   349: 00000000     0 FUNC    GLOBAL DEFAULT  UND mmap@@GLIBC_2.0
+   350: 00000000     0 FUNC    GLOBAL DEFAULT  UND strchr@@GLIBC_2.0
+   351: 00406ec0   120 FUNC    GLOBAL DEFAULT   14 hs_timer_show
+   352: 0040497c    60 FUNC    GLOBAL DEFAULT   14 hs_station_show
+   353: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsTrue
+   354: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@@GLIBC_2.0
+   355: 0040bae0   116 FUNC    GLOBAL DEFAULT   14 hs_worker_ui_lcd
+   356: 004154f0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND __libc_start_mai[...]
+   357: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_attr_ini[...]
+   358: 00000000     0 FUNC    GLOBAL DEFAULT  UND fprintf@@GLIBC_2.0
+   359: 00000000     0 FUNC    GLOBAL DEFAULT  UND write@@GLIBC_2.0
+   360: 00405c38    44 FUNC    GLOBAL DEFAULT   14 hs_ipcmsg_get_ma[...]
+   361: 00425ad0     0 OBJECT  GLOBAL DEFAULT   23 __RLD_MAP
+   362: 00410f44   148 FUNC    GLOBAL DEFAULT   14 memory_monitor
+   363: 004041f8   352 FUNC    GLOBAL DEFAULT   14 hs_printer_klipp[...]
+   364: 0040f504   164 FUNC    GLOBAL DEFAULT   14 hs_worker_close_[...]
+   365: 00410970   212 FUNC    GLOBAL DEFAULT   14 hs_worker_stop_v[...]
+   366: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_GetArrayItem
+   367: 0040a698   532 FUNC    GLOBAL DEFAULT   14 hs_hal_video_get_fmt
+   368: 00411060   164 FUNC    GLOBAL DEFAULT   14 __libc_csu_init
+   369: 0040bcfc  1272 FUNC    GLOBAL DEFAULT   14 hs_worker_ui_print
+   370: 0040c1f4   276 FUNC    GLOBAL DEFAULT   14 hs_worker_ui_lapse
+   371: 00000000     0 FUNC    GLOBAL DEFAULT  UND bind@@GLIBC_2.0
+   372: 00406f98   148 FUNC    GLOBAL DEFAULT   14 hs_timer_destory
+   373: 0040c308   200 FUNC    GLOBAL DEFAULT   14 hs_worker_ui_liv[...]
+   374: 00000000     0 FUNC    GLOBAL DEFAULT  UND __isoc99_sscanf@[...]
+   375: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@@GLIBC_2.0
+   376: 0040ba14   100 FUNC    GLOBAL DEFAULT   14 hs_worker_print_[...]
+   377: 00000000     0 FUNC    GLOBAL DEFAULT  UND fcntl@@GLIBC_2.28
+   378: 00000000     0 FUNC    GLOBAL DEFAULT  UND mkdir@@GLIBC_2.0
+   379: 00000000     0 FUNC    GLOBAL DEFAULT  UND snprintf@@GLIBC_2.0
+   380: 0040ac50     8 FUNC    GLOBAL DEFAULT   14 hs_worker_assign[...]
+   381: 0040e49c   572 FUNC    GLOBAL DEFAULT   14 hs_worker_close_[...]
+   382: 00404c50   296 FUNC    GLOBAL DEFAULT   14 hs_activate_remove
+   383: 004051f0   172 FUNC    GLOBAL DEFAULT   14 hs_comm_create_t[...]
+   384: 00405864   220 FUNC    GLOBAL DEFAULT   14 hs_conf_search_attr
+   385: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftruncate@@GLIBC_2.0
+   386: 00425ed0     0 NOTYPE  GLOBAL DEFAULT   26 _end
+   387: 004088d8   528 FUNC    GLOBAL DEFAULT   14 hs_hal_uevent_init
+   388: 00000000     0 FUNC    GLOBAL DEFAULT  UND __errno_location[...]
+   389: 0040b8d4   144 FUNC    GLOBAL DEFAULT   14 hs_worker_print_[...]
+   390: 0040bba4   152 FUNC    GLOBAL DEFAULT   14 hs_worker_ui_camera
+   391: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncpy@@GLIBC_2.0
+   392: 00409c38   132 FUNC    GLOBAL DEFAULT   14 hs_hal_video_ins[...]
+   393: 00000000     0 FUNC    GLOBAL DEFAULT  UND fileno@@GLIBC_2.0
+   394: 00405b84     8 FUNC    GLOBAL DEFAULT   14 hs_ipcmsg_init
+   395: 0040aad8   256 FUNC    GLOBAL DEFAULT   14 hs_hal_video_power
+   396: 00000000     0 FUNC    GLOBAL DEFAULT  UND prctl@@GLIBC_2.0
+   397: 0040abe0    96 FUNC    GLOBAL DEFAULT   14 hs_worker_assign[...]
+   398: 00406078   100 FUNC    GLOBAL DEFAULT   14 hs_ipcshm_del
+   399: 00405940   412 FUNC    GLOBAL DEFAULT   14 hs_conf_init
+   400: 00407f18   112 FUNC    GLOBAL DEFAULT   14 hs_hal_led_init
+   401: 00000000     0 FUNC    GLOBAL DEFAULT  UND access@@GLIBC_2.0
+   402: 00425b04     4 OBJECT  GLOBAL DEFAULT   26 stdout@@GLIBC_2.0
+   403: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_open@@GLIBC_2.2
+   404: 00425afc     0 NOTYPE  GLOBAL DEFAULT   26 __bss_start
+   405: 00405f00   164 FUNC    GLOBAL DEFAULT   14 hs_ipcshm_get
+   406: 00000000     0 FUNC    GLOBAL DEFAULT  UND vsprintf@@GLIBC_2.0
+   407: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_attr_set[...]
+   408: 00401c60  1260 FUNC    GLOBAL DEFAULT   14 main
+   409: 0040f710    44 FUNC    GLOBAL DEFAULT   14 webrtc_check_fif[...]
+   410: 0040f73c   100 FUNC    GLOBAL DEFAULT   14 destroy_fifo
+   411: 0040fab8    48 FUNC    GLOBAL DEFAULT   14 webrtc_fifo_start
+   412: 00402150     0 FUNC    GLOBAL DEFAULT   14 __start
+   413: 0040f978   164 FUNC    GLOBAL DEFAULT   14 write_start_cmd
+   414: 00409ad8   116 FUNC    GLOBAL DEFAULT   14 hs_hal_video_fra[...]
+   415: 00000000     0 FUNC    GLOBAL DEFAULT  UND shm_unlink@@GLIBC_2.2
+   416: 00000000     0 FUNC    GLOBAL DEFAULT  UND epoll_wait@@GLIB[...]
+   417: 0040fa1c   156 FUNC    GLOBAL DEFAULT   14 write_stop_cmd
+   418: 0040b220   320 FUNC    GLOBAL DEFAULT   14 hs_worker_exist_[...]
+   419: 0040cc10   200 FUNC    GLOBAL DEFAULT   14 hs_worker_upgrade_do
+   420: 0040df8c   516 FUNC    GLOBAL DEFAULT   14 hs_worker_start_[...]
+   421: 00000000     0 FUNC    GLOBAL DEFAULT  UND munmap@@GLIBC_2.0
+   422: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsBool
+   423: 00000000     0 FUNC    GLOBAL DEFAULT  UND sigemptyset@@GLI[...]
+   424: 0040bc3c   192 FUNC    GLOBAL DEFAULT   14 hs_worker_ui_upgrade
+   425: 00405ca0   128 FUNC    GLOBAL DEFAULT   14 hs_ipcmsg_get_perm
+   426: 00000000     0 FUNC    GLOBAL DEFAULT  UND popen@@GLIBC_2.2
+   427: 00000000     0 FUNC    GLOBAL DEFAULT  UND readdir@@GLIBC_2.0
+   428: 00409ef0  1136 FUNC    GLOBAL DEFAULT   14 hs_hal_video_start
+   429: 00402ad8   292 FUNC    GLOBAL DEFAULT   14 hs_ui_init_entity
+   430: 00407e70    88 FUNC    GLOBAL DEFAULT   14 hs_hal_lcd_init
+   431: 004077d0   120 FUNC    GLOBAL DEFAULT   14 hs_hal_camera_init
+   432: 00000000     0 FUNC    GLOBAL DEFAULT  UND listen@@GLIBC_2.0
+   433: 0040df6c    32 FUNC    GLOBAL DEFAULT   14 hs_worker_stop_t[...]
+   434: 0040f5a8   164 FUNC    GLOBAL DEFAULT   14 hs_worker_start_[...]
+   435: 00402ff4  1316 FUNC    GLOBAL DEFAULT   14 hs_ui_vectorp_ip[...]
+   436: 00404f20   352 FUNC    GLOBAL DEFAULT   14 hs_activate_handle
+   437: 00401c60     0 NOTYPE  GLOBAL DEFAULT   14 _ftext
+   438: 004060e0   576 FUNC    GLOBAL DEFAULT   14 hs_log_push
+   439: 00410d24   120 FUNC    GLOBAL DEFAULT   14 get_cpu_usage
+   440: 00407030   368 FUNC    GLOBAL DEFAULT   14 hs_hal_init
+   441: 004156b0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND symlink@@GLIBC_2.0
+   442: 00000000     0 FUNC    GLOBAL DEFAULT  UND sem_unlink@@GLIBC_2.2
+   443: 00405c0c    44 FUNC    GLOBAL DEFAULT   14 hs_ipcmsg_get_num
+   444: 00405fa4   212 FUNC    GLOBAL DEFAULT   14 hs_ipcshm_init
+   445: 00410a50   124 FUNC    GLOBAL DEFAULT   14 get_cpu_time_v1
+   446: 00000000     0 FUNC    GLOBAL DEFAULT  UND fclose@@GLIBC_2.2
+   447: 0040bb54    80 FUNC    GLOBAL DEFAULT   14 hs_worker_ui_led
+   448: 00405d44    36 FUNC    GLOBAL DEFAULT   14 hs_ipcsem_wait
+   449: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftok@@GLIBC_2.0
+   450: 00404b40   272 FUNC    GLOBAL DEFAULT   14 hs_activate_modify
+   451: 00410bec   240 FUNC    GLOBAL DEFAULT   14 catch_sig
+   452: 00000000     0 FUNC    GLOBAL DEFAULT  UND timerfd_settime@[...]
+   453: 00410fd8   124 FUNC    GLOBAL DEFAULT   14 start_memory_monitor
+   454: 00000000     0 FUNC    GLOBAL DEFAULT  UND sprintf@@GLIBC_2.0
+   455: 00000000     0 FUNC    GLOBAL DEFAULT  UND remove@@GLIBC_2.0
+   456: 00405d20    36 FUNC    GLOBAL DEFAULT   14 hs_ipcsem_post
+   457: 00410e80   196 FUNC    GLOBAL DEFAULT   14 get_memory_usage
+   458: 00000000     0 FUNC    GLOBAL DEFAULT  UND msgget@@GLIBC_2.0
+   459: 004024b8   168 FUNC    GLOBAL DEFAULT   14 hs_ui_vectorp_destory
+   460: 004049b8   316 FUNC    GLOBAL DEFAULT   14 hs_station_init
+   461: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsArray
+   462: 0040b360   764 FUNC    GLOBAL DEFAULT   14 hs_worker_hal_msg_cam
+   463: 00408328   872 FUNC    GLOBAL DEFAULT   14 hs_hal_powerloss_init
+   464: 00000000     0 FUNC    GLOBAL DEFAULT  UND socket@@GLIBC_2.0
+   465: 00405c64    60 FUNC    GLOBAL DEFAULT   14 hs_ipcmsg_get_av[...]
+   466: 00425ad4     0 OBJECT  GLOBAL HIDDEN    23 __TMC_END__
+   467: 00425ae0     0 OBJECT  GLOBAL HIDDEN    24 _GLOBAL_OFFSET_TABLE_
+   468: 00000000     0 FUNC    GLOBAL DEFAULT  UND clock_gettime@@G[...]
+   469: 00425b30     4 OBJECT  GLOBAL DEFAULT   26 pstation
+   470: 00425afc     0 NOTYPE  GLOBAL DEFAULT   26 _fbss
+   471: 00000000     0 FUNC    GLOBAL DEFAULT  UND __lxstat@@GLIBC_2.0
+   472: 004095d0   240 FUNC    GLOBAL DEFAULT   14 hs_hal_uvc_init
+   473: 00000000     0 FUNC    GLOBAL DEFAULT  UND sigaction@@GLIBC_2.0
+   474: 00405080   120 FUNC    GLOBAL DEFAULT   14 hs_activate_show
+   475: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsString
+   476: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMC[...]
+   477: 00000000     0 FUNC    GLOBAL DEFAULT  UND cJSON_IsObject
+   478: 0040b65c   316 FUNC    GLOBAL DEFAULT   14 hs_worker_hal_msg_pwl
+   479: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp@@GLIBC_2.0
+   480: 00000000     0 FUNC    GLOBAL DEFAULT  UND getrusage@@GLIBC_2.0
+   481: 00405b78    12 FUNC    GLOBAL DEFAULT   14 hs_ipcmsg_del
+   482: 0040c41c   548 FUNC    GLOBAL DEFAULT   14 hs_worker_ui_reset
+   483: 00000000     0 FUNC    GLOBAL DEFAULT  UND chmod@@GLIBC_2.0
+   484: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_attr_set[...]
+   485: 00000000     0 FUNC    GLOBAL DEFAULT  UND msgsnd@@GLIBC_2.0
+   486: 00000000     0 FUNC    GLOBAL DEFAULT  UND umask@@GLIBC_2.0
+   487: 00425b08     4 OBJECT  GLOBAL DEFAULT   26 optarg@@GLIBC_2.0
+   488: 00406570   224 FUNC    GLOBAL DEFAULT   14 hs_msg_pull
+   489: 004043b4   156 FUNC    GLOBAL DEFAULT   14 hs_printer_klipp[...]
+   490: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtol@@GLIBC_2.0
+   491: 00000000     0 FUNC    GLOBAL DEFAULT  UND connect@@GLIBC_2.0
+   492: 00000000     0 FUNC    GLOBAL DEFAULT  UND epoll_create1@@G[...]
+   493: 00000000     0 FUNC    GLOBAL DEFAULT  UND recv@@GLIBC_2.0
+   494: 00405154   148 FUNC    GLOBAL DEFAULT   14 hs_activate_destory
+   495: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@@GLIBC_2.0
+   496: 00000000     0 FUNC    GLOBAL DEFAULT  UND closedir@@GLIBC_2.0
+   497: 0040b798   280 FUNC    GLOBAL DEFAULT   14 hs_worker_delay_[...]
+   498: 00000000     0 FUNC    GLOBAL DEFAULT  UND opendir@@GLIBC_2.0
+   499: 0040b8b0    36 FUNC    GLOBAL DEFAULT   14 hs_worker_print_[...]
+   500: 00408690    72 FUNC    GLOBAL DEFAULT   14 hs_hal_powerloss[...]
+   501: 0040ea94   808 FUNC    GLOBAL DEFAULT   14 hs_woker_init_vi[...]
+   502: 00425ec0     4 OBJECT  GLOBAL DEFAULT   26 prev_total_time
+   503: 00425ec8     8 OBJECT  GLOBAL DEFAULT   26 cpu_threshold
+   504: 00000000     0 FUNC    GLOBAL DEFAULT  UND pclose@@GLIBC_2.2
+   505: 00000000     0 FUNC    GLOBAL DEFAULT  UND send@@GLIBC_2.0
+   506: 00000000     0 FUNC    GLOBAL DEFAULT  UND calloc@@GLIBC_2.0
+   507: 00405dac   168 FUNC    GLOBAL DEFAULT   14 hs_ipcsem_timewait
+   508: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncat@@GLIBC_2.0

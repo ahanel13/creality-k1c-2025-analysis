@@ -1,0 +1,264 @@
+
+Symbol table '.dynsym' contains 64 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.0 (2)
+     2: 00409dd4     8 FUNC    GLOBAL DEFAULT   14 __libc_csu_fini
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@GLIBC_2.0 (2)
+     4: 00000001     0 SECTION GLOBAL DEFAULT  ABS _DYNAMIC_LINKING
+     5: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterT[...]
+     6: 0041b0b0     0 OBJECT  WEAK   DEFAULT   22 data_start
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@GLIBC_2.0 (2)
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@GLIBC_2.0 (2)
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.0 (2)
+    10: 0041b0fc     0 NOTYPE  GLOBAL DEFAULT   25 _edata
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND in[...]@GLIBC_2.0 (2)
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND signal@GLIBC_2.0 (2)
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@GLIBC_2.0 (2)
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND sleep@GLIBC_2.0 (2)
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND select@GLIBC_2.0 (2)
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND re[...]@GLIBC_2.0 (2)
+    17: 00000000     0 FUNC    GLOBAL DEFAULT  UND htons@GLIBC_2.0 (2)
+    18: 00000000     0 FUNC    GLOBAL DEFAULT  UND ioctl@GLIBC_2.0 (2)
+    19: 00409530   416 FUNC    GLOBAL DEFAULT   14 checking_network[...]
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@GLIBC_2.0 (2)
+    21: 00409500    48 FUNC    GLOBAL DEFAULT   14 signal_handler
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (2)
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@GLIBC_2.0 (2)
+    24: 0041b0b0     0 OBJECT  GLOBAL DEFAULT   22 __data_start
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND puts@GLIBC_2.0 (2)
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (2)
+    27: 00000000     0 FUNC    GLOBAL DEFAULT  UND ntohl@GLIBC_2.0 (2)
+    28: 00409e10     4 OBJECT  GLOBAL DEFAULT   16 _IO_stdin_used
+    29: 0041b0b0     0 NOTYPE  GLOBAL DEFAULT   22 _fdata
+    30: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.0 (2)
+    31: 0040a640     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND __[...]@GLIBC_2.0 (2)
+    32: 0041b0d0     0 OBJECT  GLOBAL DEFAULT   23 __RLD_MAP
+    33: 00409d30   164 FUNC    GLOBAL DEFAULT   14 __libc_csu_init
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND bind@GLIBC_2.0 (2)
+    35: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.0 (2)
+    36: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.3 (3)
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND fcntl@GLIBC_2.28 (4)
+    38: 00000000     0 FUNC    GLOBAL DEFAULT  UND sn[...]@GLIBC_2.0 (2)
+    39: 00000000     0 FUNC    GLOBAL DEFAULT  UND putchar@GLIBC_2.0 (2)
+    40: 0041bfa0     0 NOTYPE  GLOBAL DEFAULT   26 _end
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.0 (2)
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND memchr@GLIBC_2.0 (2)
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (2)
+    44: 0041b0fc     0 NOTYPE  GLOBAL DEFAULT   26 __bss_start
+    45: 004096d0  1620 FUNC    GLOBAL DEFAULT   14 main
+    46: 004230d0     0 SECTION GLOBAL DEFAULT  ABS _gp_disp
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND fr[...]@GLIBC_2.3 (3)
+    48: 00400d80     0 FUNC    GLOBAL DEFAULT   14 __start
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND sendto@GLIBC_2.0 (2)
+    50: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.2 (5)
+    51: 00000000     0 FUNC    GLOBAL DEFAULT  UND htonl@GLIBC_2.0 (2)
+    52: 00000000     0 FUNC    GLOBAL DEFAULT  UND ntohs@GLIBC_2.0 (2)
+    53: 0041b100    16 OBJECT  WEAK   DEFAULT   26 in[...]@GLIBC_2.2 (5)
+    54: 00400d80     0 NOTYPE  GLOBAL DEFAULT   14 _ftext
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (2)
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND atoi@GLIBC_2.0 (2)
+    57: 0041b0c0     4 OBJECT  GLOBAL DEFAULT   22 running
+    58: 00000000     0 FUNC    GLOBAL DEFAULT  UND socket@GLIBC_2.0 (2)
+    59: 0041b0fc     0 NOTYPE  GLOBAL DEFAULT   26 _fbss
+    60: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMC[...]
+    61: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp@GLIBC_2.0 (2)
+    62: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@GLIBC_2.0 (2)
+    63: 00000000     0 FUNC    WEAK   DEFAULT  UND __gmon_start__
+
+Symbol table '.symtab' contains 194 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00400154     0 SECTION LOCAL  DEFAULT    1 .interp
+     2: 00400170     0 SECTION LOCAL  DEFAULT    2 .note.ABI-tag
+     3: 00400190     0 SECTION LOCAL  DEFAULT    3 .MIPS.abiflags
+     4: 004001a8     0 SECTION LOCAL  DEFAULT    4 .reginfo
+     5: 004001c0     0 SECTION LOCAL  DEFAULT    5 .dynamic
+     6: 004002f8     0 SECTION LOCAL  DEFAULT    6 .hash
+     7: 00400494     0 SECTION LOCAL  DEFAULT    7 .dynsym
+     8: 00400894     0 SECTION LOCAL  DEFAULT    8 .dynstr
+     9: 00400b1e     0 SECTION LOCAL  DEFAULT    9 .gnu.version
+    10: 00400ba0     0 SECTION LOCAL  DEFAULT   10 .gnu.version_r
+    11: 00400bf0     0 SECTION LOCAL  DEFAULT   11 .rel.dyn
+    12: 00400c00     0 SECTION LOCAL  DEFAULT   12 .rel.plt
+    13: 00400d40     0 SECTION LOCAL  DEFAULT   13 .init
+    14: 00400d80     0 SECTION LOCAL  DEFAULT   14 .text
+    15: 00409de0     0 SECTION LOCAL  DEFAULT   15 .fini
+    16: 00409e10     0 SECTION LOCAL  DEFAULT   16 .rodata
+    17: 0040a4d0     0 SECTION LOCAL  DEFAULT   17 .eh_frame
+    18: 0040a4e0     0 SECTION LOCAL  DEFAULT   18 .plt
+    19: 0041b000     0 SECTION LOCAL  DEFAULT   19 .init_array
+    20: 0041b004     0 SECTION LOCAL  DEFAULT   20 .fini_array
+    21: 0041b008     0 SECTION LOCAL  DEFAULT   21 .got.plt
+    22: 0041b0b0     0 SECTION LOCAL  DEFAULT   22 .data
+    23: 0041b0d0     0 SECTION LOCAL  DEFAULT   23 .rld_map
+    24: 0041b0e0     0 SECTION LOCAL  DEFAULT   24 .got
+    25: 0041b0f8     0 SECTION LOCAL  DEFAULT   25 .sdata
+    26: 0041b100     0 SECTION LOCAL  DEFAULT   26 .bss
+    27: 00000000     0 SECTION LOCAL  DEFAULT   27 .comment
+    28: 00000000     0 SECTION LOCAL  DEFAULT   28 .pdr
+    29: 00000000     0 SECTION LOCAL  DEFAULT   29 .debug_aranges
+    30: 00000000     0 SECTION LOCAL  DEFAULT   30 .debug_info
+    31: 00000000     0 SECTION LOCAL  DEFAULT   31 .debug_abbrev
+    32: 00000000     0 SECTION LOCAL  DEFAULT   32 .debug_line
+    33: 00000000     0 SECTION LOCAL  DEFAULT   33 .debug_frame
+    34: 00000000     0 SECTION LOCAL  DEFAULT   34 .debug_str
+    35: 00000000     0 SECTION LOCAL  DEFAULT   35 .debug_ranges
+    36: 00000000     0 SECTION LOCAL  DEFAULT   36 .gnu.attributes
+    37: 00000000     0 SECTION LOCAL  DEFAULT   37 .mdebug.abi32
+    38: 00000000     0 FILE    LOCAL  DEFAULT  ABS /project/Mips-To[...]
+    39: 00400dd4     0 NOTYPE  LOCAL  DEFAULT   14 hlt
+    40: 00000000     0 FILE    LOCAL  DEFAULT  ABS init.c
+    41: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    42: 00400de0     0 FUNC    LOCAL  DEFAULT   14 deregister_tm_clones
+    43: 00400e14     0 FUNC    LOCAL  DEFAULT   14 register_tm_clones
+    44: 00400e60     0 FUNC    LOCAL  DEFAULT   14 __do_global_dtors_aux
+    45: 0041b110     1 OBJECT  LOCAL  DEFAULT   26 completed.6546
+    46: 0041b004     0 OBJECT  LOCAL  DEFAULT   20 __do_global_dtor[...]
+    47: 00400e98     0 FUNC    LOCAL  DEFAULT   14 frame_dummy
+    48: 0041b000     0 OBJECT  LOCAL  DEFAULT   19 __frame_dummy_in[...]
+    49: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+    50: 00400ea0    84 FUNC    LOCAL  DEFAULT   14 mdns_ntohs
+    51: 00400ef4    84 FUNC    LOCAL  DEFAULT   14 mdns_ntohl
+    52: 00400f48   104 FUNC    LOCAL  DEFAULT   14 mdns_htons
+    53: 00400fb0   100 FUNC    LOCAL  DEFAULT   14 mdns_htonl
+    54: 00401014   144 FUNC    LOCAL  DEFAULT   14 mdns_socket_open_ipv4
+    55: 004010a4   564 FUNC    LOCAL  DEFAULT   14 mdns_socket_setu[...]
+    56: 004015e0    60 FUNC    LOCAL  DEFAULT   14 mdns_socket_close
+    57: 004012d8   144 FUNC    LOCAL  DEFAULT   14 mdns_socket_open_ipv6
+    58: 00401368   632 FUNC    LOCAL  DEFAULT   14 mdns_socket_setu[...]
+    59: 0040161c    60 FUNC    LOCAL  DEFAULT   14 mdns_is_string_ref
+    60: 00401658   612 FUNC    LOCAL  DEFAULT   14 mdns_get_next_su[...]
+    61: 004018bc   236 FUNC    LOCAL  DEFAULT   14 mdns_string_skip
+    62: 004019a8   524 FUNC    LOCAL  DEFAULT   14 mdns_string_equal
+    63: 00401bb4   496 FUNC    LOCAL  DEFAULT   14 mdns_string_extract
+    64: 00401da4   652 FUNC    LOCAL  DEFAULT   14 mdns_string_tabl[...]
+    65: 00402100   172 FUNC    LOCAL  DEFAULT   14 mdns_string_find
+    66: 00402030   208 FUNC    LOCAL  DEFAULT   14 mdns_string_table_add
+    67: 004021ac   116 FUNC    LOCAL  DEFAULT   14 mdns_string_make_ref
+    68: 00402220   592 FUNC    LOCAL  DEFAULT   14 mdns_string_make
+    69: 00402470   576 FUNC    LOCAL  DEFAULT   14 mdns_records_parse
+    70: 004026b0   120 FUNC    LOCAL  DEFAULT   14 mdns_unicast_send
+    71: 00402728   376 FUNC    LOCAL  DEFAULT   14 mdns_multicast_send
+    72: 00409e20    46 OBJECT  LOCAL  DEFAULT   16 mdns_services_query
+    73: 004028a0    68 FUNC    LOCAL  DEFAULT   14 mdns_discovery_send
+    74: 004028e4  1556 FUNC    LOCAL  DEFAULT   14 mdns_discovery_recv
+    75: 00402ef8  1256 FUNC    LOCAL  DEFAULT   14 mdns_socket_listen
+    76: 004033e0   708 FUNC    LOCAL  DEFAULT   14 mdns_multiquery_send
+    77: 004036a4   972 FUNC    LOCAL  DEFAULT   14 mdns_query_recv
+    78: 00403a70   232 FUNC    LOCAL  DEFAULT   14 mdns_answer_add_[...]
+    79: 00403b58   284 FUNC    LOCAL  DEFAULT   14 mdns_answer_add_[...]
+    80: 00403c74   756 FUNC    LOCAL  DEFAULT   14 mdns_answer_add_[...]
+    81: 00403f68   192 FUNC    LOCAL  DEFAULT   14 mdns_record_upda[...]
+    82: 00404028   712 FUNC    LOCAL  DEFAULT   14 mdns_answer_add_[...]
+    83: 004042f0   172 FUNC    LOCAL  DEFAULT   14 mdns_answer_get_[...]
+    84: 0040439c  1124 FUNC    LOCAL  DEFAULT   14 mdns_query_answe[...]
+    85: 00404800  1052 FUNC    LOCAL  DEFAULT   14 mdns_answer_mult[...]
+    86: 00404c1c   180 FUNC    LOCAL  DEFAULT   14 mdns_query_answe[...]
+    87: 00404cd0   180 FUNC    LOCAL  DEFAULT   14 mdns_announce_mu[...]
+    88: 00404d84   176 FUNC    LOCAL  DEFAULT   14 mdns_goodbye_mul[...]
+    89: 00404e34   188 FUNC    LOCAL  DEFAULT   14 mdns_record_parse_ptr
+    90: 00404ef0   340 FUNC    LOCAL  DEFAULT   14 mdns_record_parse_srv
+    91: 00405044   172 FUNC    LOCAL  DEFAULT   14 mdns_record_parse_a
+    92: 004050f0   172 FUNC    LOCAL  DEFAULT   14 mdns_record_pars[...]
+    93: 0040519c   584 FUNC    LOCAL  DEFAULT   14 mdns_record_parse_txt
+    94: 0041b120    64 OBJECT  LOCAL  DEFAULT   26 addrbuffer
+    95: 0041b160   256 OBJECT  LOCAL  DEFAULT   26 entrybuffer
+    96: 0041b260   256 OBJECT  LOCAL  DEFAULT   26 namebuffer
+    97: 0041b360  1024 OBJECT  LOCAL  DEFAULT   26 sendbuffer
+    98: 0041b760  2048 OBJECT  LOCAL  DEFAULT   26 txtbuffer
+    99: 0041bf60    16 OBJECT  LOCAL  DEFAULT   26 service_address_ipv4
+   100: 0041bf70    28 OBJECT  LOCAL  DEFAULT   26 service_address_ipv6
+   101: 0041bf8c     4 OBJECT  LOCAL  DEFAULT   26 has_ipv4
+   102: 0041bf90     4 OBJECT  LOCAL  DEFAULT   26 has_ipv6
+   103: 004053e4   364 FUNC    LOCAL  DEFAULT   14 ipv4_address_to_[...]
+   104: 00405550   364 FUNC    LOCAL  DEFAULT   14 ipv6_address_to_[...]
+   105: 004056bc   160 FUNC    LOCAL  DEFAULT   14 ip_address_to_string
+   106: 0040575c  1492 FUNC    LOCAL  DEFAULT   14 query_callback
+   107: 00405d30  4468 FUNC    LOCAL  DEFAULT   14 service_callback
+   108: 00406ea4   588 FUNC    LOCAL  DEFAULT   14 dump_callback
+   109: 004070f0  1200 FUNC    LOCAL  DEFAULT   14 open_client_sockets
+   110: 0040a4b0    16 OBJECT  LOCAL  DEFAULT   16 localhost.5157
+   111: 0040a4c0    16 OBJECT  LOCAL  DEFAULT   16 localhost_mapped.5158
+   112: 004075a0   392 FUNC    LOCAL  DEFAULT   14 open_service_sockets
+   113: 00407728  1140 FUNC    LOCAL  DEFAULT   14 send_dns_sd
+   114: 00407b9c  1688 FUNC    LOCAL  DEFAULT   14 send_mdns_query
+   115: 00408234  3740 FUNC    LOCAL  DEFAULT   14 service_mdns
+   116: 004090d0  1072 FUNC    LOCAL  DEFAULT   14 dump_mdns
+   117: 00000000     0 FILE    LOCAL  DEFAULT  ABS elf-init.c
+   118: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+   119: 0040a4d0     0 OBJECT  LOCAL  DEFAULT   17 __FRAME_END__
+   120: 00000000     0 FILE    LOCAL  DEFAULT  ABS 
+   121: 0040a4e0     0 FUNC    LOCAL  DEFAULT   18 _PROCEDURE_LINKA[...]
+   122: 00409de0     0 FUNC    LOCAL  DEFAULT   15 _fini
+   123: 0041b004     0 NOTYPE  LOCAL  DEFAULT   19 __init_array_end
+   124: 0041b0f8     0 OBJECT  LOCAL  DEFAULT   25 __dso_handle
+   125: 004001c0     0 OBJECT  LOCAL  DEFAULT    5 _DYNAMIC
+   126: 0041b000     0 NOTYPE  LOCAL  DEFAULT   19 __init_array_start
+   127: 0041b0d4     0 OBJECT  LOCAL  DEFAULT   23 __TMC_END__
+   128: 0041b0e0     0 OBJECT  LOCAL  DEFAULT   24 _GLOBAL_OFFSET_TABLE_
+   129: 00400d40     0 FUNC    LOCAL  DEFAULT   13 _init
+   130: 004230d0     0 NOTYPE  LOCAL  DEFAULT   24 _gp
+   131: 00000000     0 FUNC    GLOBAL DEFAULT  UND setsockopt@@GLIBC_2.0
+   132: 00409dd4     8 FUNC    GLOBAL DEFAULT   14 __libc_csu_fini
+   133: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcmp@@GLIBC_2.0
+   134: 00000001     0 SECTION GLOBAL DEFAULT  ABS _DYNAMIC_LINKING
+   135: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterT[...]
+   136: 0041b0b0     0 OBJECT  WEAK   DEFAULT   22 data_start
+   137: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@@GLIBC_2.0
+   138: 00000000     0 FUNC    GLOBAL DEFAULT  UND free@@GLIBC_2.0
+   139: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@@GLIBC_2.0
+   140: 0041b0fc     0 NOTYPE  GLOBAL DEFAULT   25 _edata
+   141: 00000000     0 FUNC    GLOBAL DEFAULT  UND inet_ntoa@@GLIBC_2.0
+   142: 00000000     0 FUNC    GLOBAL DEFAULT  UND signal@@GLIBC_2.0
+   143: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@@GLIBC_2.0
+   144: 00000000     0 FUNC    GLOBAL DEFAULT  UND sleep@@GLIBC_2.0
+   145: 00000000     0 FUNC    GLOBAL DEFAULT  UND select@@GLIBC_2.0
+   146: 00000000     0 FUNC    GLOBAL DEFAULT  UND recvfrom@@GLIBC_2.0
+   147: 00000000     0 FUNC    GLOBAL DEFAULT  UND htons@@GLIBC_2.0
+   148: 00000000     0 FUNC    GLOBAL DEFAULT  UND ioctl@@GLIBC_2.0
+   149: 00409530   416 FUNC    GLOBAL DEFAULT   14 checking_network[...]
+   150: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@@GLIBC_2.0
+   151: 00409500    48 FUNC    GLOBAL DEFAULT   14 signal_handler
+   152: 00000000     0 FUNC    GLOBAL DEFAULT  UND gethostname@@GLI[...]
+   153: 00000000     0 FUNC    GLOBAL DEFAULT  UND malloc@@GLIBC_2.0
+   154: 0041b0b0     0 OBJECT  GLOBAL DEFAULT   22 __data_start
+   155: 00000000     0 FUNC    GLOBAL DEFAULT  UND puts@@GLIBC_2.0
+   156: 00000000     0 FUNC    GLOBAL DEFAULT  UND strerror@@GLIBC_2.0
+   157: 00000000     0 FUNC    GLOBAL DEFAULT  UND ntohl@@GLIBC_2.0
+   158: 00000000     0 FUNC    WEAK   DEFAULT  UND __gmon_start__
+   159: 00409e10     4 OBJECT  GLOBAL DEFAULT   16 _IO_stdin_used
+   160: 0041b0b0     0 NOTYPE  GLOBAL DEFAULT   22 _fdata
+   161: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@@GLIBC_2.0
+   162: 0040a640     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND __libc_start_mai[...]
+   163: 0041b0d0     0 OBJECT  GLOBAL DEFAULT   23 __RLD_MAP
+   164: 00409d30   164 FUNC    GLOBAL DEFAULT   14 __libc_csu_init
+   165: 00000000     0 FUNC    GLOBAL DEFAULT  UND bind@@GLIBC_2.0
+   166: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@@GLIBC_2.0
+   167: 00000000     0 FUNC    GLOBAL DEFAULT  UND getifaddrs@@GLIBC_2.3
+   168: 00000000     0 FUNC    GLOBAL DEFAULT  UND fcntl@@GLIBC_2.28
+   169: 00000000     0 FUNC    GLOBAL DEFAULT  UND snprintf@@GLIBC_2.0
+   170: 00000000     0 FUNC    GLOBAL DEFAULT  UND putchar@@GLIBC_2.0
+   171: 0041bfa0     0 NOTYPE  GLOBAL DEFAULT   26 _end
+   172: 00000000     0 FUNC    GLOBAL DEFAULT  UND __errno_location[...]
+   173: 00000000     0 FUNC    GLOBAL DEFAULT  UND memchr@@GLIBC_2.0
+   174: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncasecmp@@GLI[...]
+   175: 0041b0fc     0 NOTYPE  GLOBAL DEFAULT   26 __bss_start
+   176: 004096d0  1620 FUNC    GLOBAL DEFAULT   14 main
+   177: 004230d0     0 SECTION GLOBAL DEFAULT  ABS _gp_disp
+   178: 00000000     0 FUNC    GLOBAL DEFAULT  UND freeifaddrs@@GLI[...]
+   179: 00400d80     0 FUNC    GLOBAL DEFAULT   14 __start
+   180: 00000000     0 FUNC    GLOBAL DEFAULT  UND sendto@@GLIBC_2.0
+   181: 00000000     0 FUNC    GLOBAL DEFAULT  UND getnameinfo@@GLI[...]
+   182: 00000000     0 FUNC    GLOBAL DEFAULT  UND htonl@@GLIBC_2.0
+   183: 00000000     0 FUNC    GLOBAL DEFAULT  UND ntohs@@GLIBC_2.0
+   184: 0041b100    16 OBJECT  WEAK   DEFAULT   26 in6addr_any@@GLI[...]
+   185: 00400d80     0 NOTYPE  GLOBAL DEFAULT   14 _ftext
+   186: 00000000     0 FUNC    GLOBAL DEFAULT  UND getsockname@@GLI[...]
+   187: 00000000     0 FUNC    GLOBAL DEFAULT  UND atoi@@GLIBC_2.0
+   188: 0041b0c0     4 OBJECT  GLOBAL DEFAULT   22 running
+   189: 00000000     0 FUNC    GLOBAL DEFAULT  UND socket@@GLIBC_2.0
+   190: 0041b0fc     0 NOTYPE  GLOBAL DEFAULT   26 _fbss
+   191: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMC[...]
+   192: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp@@GLIBC_2.0
+   193: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@@GLIBC_2.0

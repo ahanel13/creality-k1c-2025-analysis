@@ -1,0 +1,47 @@
+[Imports]
+nth vaddr      bind   type   lib name
+―――――――――――――――――――――――――――――――――――――
+1   0x00400d68 GLOBAL FUNC       setsockopt
+3   0x00400d78 GLOBAL FUNC       strcmp
+5   0x00000000 WEAK   NOTYPE     _ITM_deregisterTMCloneTable
+7   0x00400d88 GLOBAL FUNC       printf
+8   0x00400d98 GLOBAL FUNC       free
+9   0x00400da8 GLOBAL FUNC       memcpy
+11  0x00400db8 GLOBAL FUNC       inet_ntoa
+12  0x00400dc8 GLOBAL FUNC       signal
+13  0x00400dd8 GLOBAL FUNC       memcmp
+14  0x00400de8 GLOBAL FUNC       sleep
+15  0x00400df8 GLOBAL FUNC       select
+16  0x00400e08 GLOBAL FUNC       recvfrom
+17  0x00400e18 GLOBAL FUNC       htons
+18  0x00400e28 GLOBAL FUNC       ioctl
+20  0x00400e38 GLOBAL FUNC       strcpy
+22  0x00400e48 GLOBAL FUNC       gethostname
+23  0x00400e58 GLOBAL FUNC       malloc
+25  0x00400e68 GLOBAL FUNC       puts
+26  0x00400e78 GLOBAL FUNC       strerror
+27  0x00400e88 GLOBAL FUNC       ntohl
+30  0x00400e98 GLOBAL FUNC       strlen
+31  0x0040a640 GLOBAL FUNC       __libc_start_main
+34  0x00400eb8 GLOBAL FUNC       bind
+35  0x00400ec8 GLOBAL FUNC       memset
+36  0x00400ed8 GLOBAL FUNC       getifaddrs
+37  0x00400ee8 GLOBAL FUNC       fcntl
+38  0x00400ef8 GLOBAL FUNC       snprintf
+39  0x00400f08 GLOBAL FUNC       putchar
+41  0x00400f18 GLOBAL FUNC       __errno_location
+42  0x00400f28 GLOBAL FUNC       memchr
+43  0x00400f38 GLOBAL FUNC       strncasecmp
+47  0x00400f48 GLOBAL FUNC       freeifaddrs
+49  0x00400f58 GLOBAL FUNC       sendto
+50  0x00400f68 GLOBAL FUNC       getnameinfo
+51  0x00400f78 GLOBAL FUNC       htonl
+52  0x00400f88 GLOBAL FUNC       ntohs
+55  0x00400f98 GLOBAL FUNC       getsockname
+56  0x00400fa8 GLOBAL FUNC       atoi
+58  0x00400fb8 GLOBAL FUNC       socket
+60  0x00000000 WEAK   NOTYPE     _ITM_registerTMCloneTable
+61  0x00400fc8 GLOBAL FUNC       strncmp
+62  0x00400fd8 GLOBAL FUNC       close
+63  0x00000000 WEAK   FUNC       __gmon_start__
+

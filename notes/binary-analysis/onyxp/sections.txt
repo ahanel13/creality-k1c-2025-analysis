@@ -1,0 +1,45 @@
+There are 36 section headers, starting at offset 0x1db9c:
+
+Section Headers:
+  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al
+  [ 0]                   NULL            00000000 000000 000000 00      0   0  0
+  [ 1] .interp           PROGBITS        00400154 000154 00001a 00   A  0   0  1
+  [ 2] .note.ABI-tag     NOTE            00400170 000170 000020 00   A  0   0  4
+  [ 3] .MIPS.abiflags    MIPS_ABIFLAGS   00400190 000190 000018 18   A  0   0  8
+  [ 4] .reginfo          MIPS_REGINFO    004001a8 0001a8 000018 18   A  0   0  4
+  [ 5] .dynamic          DYNAMIC         004001c0 0001c0 0001a0 08   A  8   0  4
+  [ 6] .hash             HASH            00400360 000360 000724 04   A  7   0  4
+  [ 7] .dynsym           DYNSYM          00400a84 000a84 001020 10   A  8   1  4
+  [ 8] .dynstr           STRTAB          00401aa4 001aa4 000fd9 00   A  0   0  1
+  [ 9] .gnu.version      VERSYM          00402a7e 002a7e 000204 02   A  7   0  2
+  [10] .gnu.version_r    VERNEED         00402c84 002c84 000110 00   A  8   5  4
+  [11] .rel.dyn          REL             00402d94 002d94 000020 08   A  7   0  4
+  [12] .rel.plt          REL             00402db4 002db4 000790 08  AI  7  18  4
+  [13] .init             PROGBITS        00403544 003544 00003c 00  AX  0   0  4
+  [14] .text             PROGBITS        00403580 003580 00efc0 00  AX  0   0 16
+  [15] .fini             PROGBITS        00412540 012540 000024 00  AX  0   0  4
+  [16] .rodata           PROGBITS        00412570 012570 003b20 00   A  0   0 16
+  [17] .eh_frame         PROGBITS        00416090 016090 000004 00   A  0   0  4
+  [18] .plt              PROGBITS        004160a0 0160a0 000f40 00  AX  0   0 32
+  [19] .init_array       INIT_ARRAY      00427000 017000 000004 04  WA  0   0  4
+  [20] .fini_array       FINI_ARRAY      00427004 017004 000004 04  WA  0   0  4
+  [21] .got.plt          PROGBITS        00427008 017008 0003d0 00  WA  0   0  4
+  [22] .data             PROGBITS        004273e0 0173e0 000180 00  WA  0   0 16
+  [23] .rld_map          PROGBITS        00427560 017560 000004 00  WA  0   0  4
+  [24] .got              PROGBITS        00427570 017570 000018 04 WAp  0   0 16
+  [25] .sdata            PROGBITS        00427588 017588 000004 00 WAp  0   0  4
+  [26] .sbss             NOBITS          0042758c 01758c 000004 00 WAp  0   0  4
+  [27] .bss              NOBITS          00427590 01758c 007d20 00  WA  0   0 16
+  [28] .comment          PROGBITS        00000000 01758c 000071 01  MS  0   0  1
+  [29] .pdr              PROGBITS        00000000 017600 0015e0 00      0   0  4
+  [30] .debug_frame      MIPS_DWARF      00000000 018be0 000050 00      0   0  4
+  [31] .gnu.attributes   GNU_ATTRIBUTES  00000000 018c30 000010 00      0   0  1
+  [32] .mdebug.abi32     PROGBITS        00000000 018c40 000000 00      0   0  1
+  [33] .shstrtab         STRTAB          00000000 01da62 00013a 00      0   0  1
+  [34] .symtab           SYMTAB          00000000 018c40 0023d0 10     35 151  4
+  [35] .strtab           STRTAB          00000000 01b010 002a52 00      0   0  1
+Key to Flags:
+  W (write), A (alloc), X (execute), M (merge), S (strings), I (info),
+  L (link order), O (extra OS processing required), G (group), T (TLS),
+  C (compressed), x (unknown), o (OS specific), E (exclude),
+  D (mbind), p (processor specific)

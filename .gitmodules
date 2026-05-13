@@ -1,0 +1,9 @@
+[submodule "tools/Creality-K1C-Tools"]
+	path = tools/Creality-K1C-Tools
+	url = git@github.com:ahanel13/Creality-K1C-Tools.git
+[submodule "tools/ingenic-usbboot"]
+	path = tools/ingenic-usbboot
+	url = https://github.com/ballaswag/ingenic-usbboot
+[submodule "tools/reccon"]
+	path = tools/reccon
+	url = https://github.com/ma5ter/reccon

@@ -1,0 +1,21 @@
+[Linked libraries]
+libpthread.so.0
+libcurl.so.4
+libfreetype.so.6
+libwebsockets.so.19
+libpaho-mqtt3a.so.1
+libssl.so.1.1
+libcrypto.so.1.1
+liboss_c_sdk.so
+libapr-1.so.0
+libaprutil-1.so.0
+libmxml.so.1
+libvod_sdk.so
+libjsoncpp.so.23
+libuuid.so.1
+libstdc++.so.6
+libm.so.6
+libgcc_s.so.1
+libc.so.6
+
+18 libraries

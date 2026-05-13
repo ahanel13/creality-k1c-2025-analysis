@@ -1,0 +1,1734 @@
+
+Symbol table '.dynsym' contains 234 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.2 (2)
+     2: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_int
+     3: 00000000     0 FUNC    GLOBAL DEFAULT  UND waitpid@GLIBC_2.0 (3)
+     4: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@OPENSSL_1_1_0 (4)
+     5: 00000000     0 FUNC    GLOBAL DEFAULT  UND open@GLIBC_2.0 (3)
+     6: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+     7: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+     8: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+     9: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcat@GLIBC_2.0 (6)
+    10: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_discard
+    11: 00000000     0 FUNC    GLOBAL DEFAULT  UND fread@GLIBC_2.0 (6)
+    12: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+    13: 00000000     0 FUNC    GLOBAL DEFAULT  UND fileno@GLIBC_2.0 (6)
+    14: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_set_file_com[...]
+    15: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseeko@GLIBC_2.2 (7)
+    16: 00000000     0 FUNC    GLOBAL DEFAULT  UND fork@GLIBC_2.0 (6)
+    17: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_int
+    18: 00000000     0 FUNC    GLOBAL DEFAULT  UND socket@GLIBC_2.0 (6)
+    19: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+    20: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (6)
+    21: 00000000     0 FUNC    GLOBAL DEFAULT  UND access@GLIBC_2.0 (6)
+    22: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.2 (8)
+    23: 00000000     0 FUNC    GLOBAL DEFAULT  UND mkdir@GLIBC_2.0 (6)
+    24: 004b1cc8     0 NOTYPE  GLOBAL DEFAULT   28 _edata
+    25: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_double
+    26: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.2 (8)
+    27: 00000000     0 FUNC    GLOBAL DEFAULT  UND strstr@GLIBC_2.0 (6)
+    28: 00000000     0 FUNC    GLOBAL DEFAULT  UND se[...]@GLIBC_2.0 (6)
+    29: 00000000     0 FUNC    GLOBAL DEFAULT  UND fopen@GLIBC_2.2 (7)
+    30: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_source_free
+    31: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+    32: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_type
+    33: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_source_file
+    34: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+    35: 00000000     0 FUNC    GLOBAL DEFAULT  UND p[...]@GLIBC_2.12 (9)
+    36: 0048f4b0     4 OBJECT  GLOBAL DEFAULT   18 _IO_stdin_used
+    37: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+    38: 00000000     0 FUNC    GLOBAL DEFAULT  UND select@GLIBC_2.0 (6)
+    39: 004a0a20     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND strdup@GLIBC_2.0 (6)
+    40: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_reset
+    41: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+    42: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (6)
+    43: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (6)
+    44: 00000000     0 FUNC    GLOBAL DEFAULT  UND sleep@GLIBC_2.0 (6)
+    45: 00000000     0 FUNC    GLOBAL DEFAULT  UND t[...]@GLIBC_2.2 (10)
+    46: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_null
+    47: 00000000     0 FUNC    GLOBAL DEFAULT  UND connect@GLIBC_2.0 (3)
+    48: 00000000     0 FUNC    GLOBAL DEFAULT  UND calloc@GLIBC_2.0 (6)
+    49: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtof@GLIBC_2.0 (6)
+    50: 00000000     0 FUNC    GLOBAL DEFAULT  UND c[...]@GLIBC_2.2 (10)
+    51: 00000000     0 FUNC    GLOBAL DEFAULT  UND i[...]@GLIBC_2.4 (11)
+    52: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpid@GLIBC_2.0 (6)
+    53: 00000000     0 FUNC    GLOBAL DEFAULT  UND getuid@GLIBC_2.0 (6)
+    54: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.2 (12)
+    55: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncat@GLIBC_2.0 (6)
+    56: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputc@GLIBC_2.0 (6)
+    57: 00000000     0 FUNC    GLOBAL DEFAULT  UND fgets@GLIBC_2.0 (6)
+    58: 004a0b50     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND longjmp@GLIBC_2.0 (6)
+    59: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_close
+    60: 00000000     0 FUNC    GLOBAL DEFAULT  UND fwrite@GLIBC_2.0 (6)
+    61: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@GLIBC_2.0 (6)
+    62: 00000000     0 FUNC    GLOBAL DEFAULT  UND i[...]@GLIBC_2.4 (11)
+    63: 00000000     0 FUNC    GLOBAL DEFAULT  UND write@GLIBC_2.0 (3)
+    64: 004a0bb0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND malloc@GLIBC_2.0 (6)
+    65: 00000000     0 FUNC    GLOBAL DEFAULT  UND p[...]@GLIBC_2.12 (9)
+    66: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_last_ins[...]
+    67: 004b1cc8     0 NOTYPE  GLOBAL DEFAULT   29 _fbss
+    68: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@GLIBC_2.0 (6)
+    69: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+    70: 00000000     0 FUNC    GLOBAL DEFAULT  UND usleep@GLIBC_2.0 (6)
+    71: 00000000     0 FUNC    GLOBAL DEFAULT  UND fprintf@GLIBC_2.0 (6)
+    72: 00000000     0 FUNC    GLOBAL DEFAULT  UND accept@GLIBC_2.0 (3)
+    73: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+    74: 00000000     0 FUNC    GLOBAL DEFAULT  UND round@GLIBC_2.2 (13)
+    75: 00000000     0 FUNC    GLOBAL DEFAULT  UND atof@GLIBC_2.0 (6)
+    76: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.2 (8)
+    77: 00000000     0 FUNC    GLOBAL DEFAULT  UND readdir@GLIBC_2.0 (6)
+    78: 00000000     0 FUNC    GLOBAL DEFAULT  UND sprintf@GLIBC_2.0 (6)
+    79: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.2 (8)
+    80: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_name
+    81: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+    82: 004b1cd0     4 OBJECT  GLOBAL DEFAULT   29 stdout@GLIBC_2.0 (6)
+    83: 00000000     0 FUNC    GLOBAL DEFAULT  UND _exit@GLIBC_2.0 (6)
+    84: 004a0cd0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND strcmp@GLIBC_2.0 (6)
+    85: 00000000     0 FUNC    GLOBAL DEFAULT  UND time@GLIBC_2.0 (6)
+    86: 00000000     0 FUNC    GLOBAL DEFAULT  UND memchr@GLIBC_2.0 (6)
+    87: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+    88: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (6)
+    89: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_double
+    90: 00000000     0 FUNC    GLOBAL DEFAULT  UND tolower@GLIBC_2.0 (6)
+    91: 00000000     0 FUNC    GLOBAL DEFAULT  UND fsync@GLIBC_2.0 (3)
+    92: 00000000     0 FUNC    GLOBAL DEFAULT  UND pclose@GLIBC_2.2 (7)
+    93: 00000000     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.0 (3)
+    94: 00000000     0 FUNC    GLOBAL DEFAULT  UND fclose@GLIBC_2.2 (7)
+    95: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncpy@GLIBC_2.0 (6)
+    96: 00000000     0 FUNC    GLOBAL DEFAULT  UND send@GLIBC_2.0 (3)
+    97: 00000000     0 FUNC    GLOBAL DEFAULT  UND uu[...]@UUID_1.0 (14)
+    98: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush@GLIBC_2.0 (6)
+    99: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+   100: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@GLIBC_2.0 (6)
+   101: 00000000     0 FUNC    GLOBAL DEFAULT  UND _setjmp@GLIBC_2.0 (6)
+   102: 00000000     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.0 (6)
+   103: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_text
+   104: 00000000     0 FUNC    GLOBAL DEFAULT  UND fcntl@GLIBC_2.28 (15)
+   105: 00000000     0 FUNC    GLOBAL DEFAULT  UND strrchr@GLIBC_2.0 (6)
+   106: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_file_add
+   107: 004b18c0     0 NOTYPE  GLOBAL DEFAULT   25 _fdata
+   108: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (6)
+   109: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_text
+   110: 00000000     0 FUNC    GLOBAL DEFAULT  UND getline@GLIBC_2.0 (6)
+   111: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseek@GLIBC_2.0 (6)
+   112: 00000000     0 FUNC    GLOBAL DEFAULT  UND getenv@GLIBC_2.0 (6)
+   113: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputs@GLIBC_2.0 (6)
+   114: 00000000     0 FUNC    GLOBAL DEFAULT  UND statvfs@GLIBC_2.2 (7)
+   115: 00000000     0 FUNC    GLOBAL DEFAULT  UND strchr@GLIBC_2.0 (6)
+   116: 00000000     0 FUNC    GLOBAL DEFAULT  UND rename@GLIBC_2.0 (6)
+   117: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+   118: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_prepare_v2
+   119: 004a0ef0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND __[...]@GLIBC_2.0 (6)
+   120: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_errmsg
+   121: 00000000     0 FUNC    GLOBAL DEFAULT  UND _[...]@GLIBC_2.7 (16)
+   122: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+   123: 00000000     0 FUNC    GLOBAL DEFAULT  UND pipe@GLIBC_2.0 (6)
+   124: 00000000     0 FUNC    GLOBAL DEFAULT  UND vs[...]@GLIBC_2.0 (6)
+   125: 00402ea0     0 NOTYPE  GLOBAL DEFAULT   14 _ftext
+   126: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+   127: 00000000     0 FUNC    GLOBAL DEFAULT  UND signal@GLIBC_2.0 (6)
+   128: 004b1c90     0 OBJECT  GLOBAL DEFAULT   26 __RLD_MAP
+   129: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_busy_timeout
+   130: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (6)
+   131: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_changes
+   132: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+   133: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+   134: 00000001     0 SECTION GLOBAL DEFAULT  ABS _DYNAMIC_LINKING
+   135: 00000000     0 FUNC    GLOBAL DEFAULT  UND _[...]@GLIBC_2.3 (17)
+   136: 00000000     0 FUNC    GLOBAL DEFAULT  UND rand@GLIBC_2.0 (6)
+   137: 00000000     0 FUNC    GLOBAL DEFAULT  UND re[...]@GLIBC_2.0 (3)
+   138: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+   139: 00000000     0 FUNC    GLOBAL DEFAULT  UND sync@GLIBC_2.0 (6)
+   140: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtol@GLIBC_2.0 (6)
+   141: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.2 (2)
+   142: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.2 (8)
+   143: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.4 (18)
+   144: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_free
+   145: 004a1060     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND free@GLIBC_2.0 (6)
+   146: 00000000     0 FUNC    GLOBAL DEFAULT  UND clock@GLIBC_2.0 (6)
+   147: 00000000     0 FUNC    GLOBAL DEFAULT  UND e[...]@GLIBC_2.9 (19)
+   148: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp@GLIBC_2.0 (6)
+   149: 00000000     0 FUNC    GLOBAL DEFAULT  UND qsort@GLIBC_2.0 (6)
+   150: 00000000     0 FUNC    GLOBAL DEFAULT  UND regcomp@GLIBC_2.0 (6)
+   151: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_exec
+   152: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (6)
+   153: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.2 (12)
+   154: 004b3eec     0 NOTYPE  GLOBAL DEFAULT   29 _end
+   155: 004b1cd8     4 OBJECT  GLOBAL DEFAULT   29 optind@GLIBC_2.0 (6)
+   156: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcspn@GLIBC_2.0 (6)
+   157: 00000000     0 FUNC    GLOBAL DEFAULT  UND opendir@GLIBC_2.0 (6)
+   158: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_step
+   159: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+   160: 00000000     0 FUNC    GLOBAL DEFAULT  UND cl[...]@GLIBC_2.0 (6)
+   161: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+   162: 00000000     0 FUNC    GLOBAL DEFAULT  UND t[...]@GLIBC_2.2 (10)
+   163: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@OPENSSL_1_1_0 (4)
+   164: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@GLIBC_2.0 (6)
+   165: 00000000     0 FUNC    GLOBAL DEFAULT  UND dirname@GLIBC_2.0 (6)
+   166: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (6)
+   167: 00000000     0 FUNC    GLOBAL DEFAULT  UND uname@GLIBC_2.0 (6)
+   168: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_close
+   169: 004b1cc8     0 NOTYPE  GLOBAL DEFAULT   29 __bss_start
+   170: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.2 (2)
+   171: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (6)
+   172: 00000000     0 FUNC    GLOBAL DEFAULT  UND regfree@GLIBC_2.0 (6)
+   173: 00000000     0 FUNC    GLOBAL DEFAULT  UND feof@GLIBC_2.0 (6)
+   174: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtok@GLIBC_2.0 (6)
+   175: 00000000     0 FUNC    GLOBAL DEFAULT  UND puts@GLIBC_2.0 (6)
+   176: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtoll@GLIBC_2.0 (6)
+   177: 00000000     0 FUNC    GLOBAL DEFAULT  UND execl@GLIBC_2.0 (6)
+   178: 00000000     0 FUNC    GLOBAL DEFAULT  UND ge[...]@GLIBC_2.0 (6)
+   179: 00000000     0 FUNC    GLOBAL DEFAULT  UND atoi@GLIBC_2.0 (6)
+   180: 00000000     0 FUNC    GLOBAL DEFAULT  UND sendto@GLIBC_2.0 (3)
+   181: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.2 (8)
+   182: 00000000     0 FUNC    GLOBAL DEFAULT  UND t[...]@GLIBC_2.2 (10)
+   183: 00000000     0 FUNC    GLOBAL DEFAULT  UND popen@GLIBC_2.2 (7)
+   184: 00000000     0 FUNC    GLOBAL DEFAULT  UND di[...]@GLIBC_2.0 (6)
+   185: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+   186: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@GLIBC_2.0 (6)
+   187: 00000000     0 FUNC    GLOBAL DEFAULT  UND putchar@GLIBC_2.0 (6)
+   188: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_open
+   189: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (6)
+   190: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_finalize
+   191: 00000000     0 FUNC    GLOBAL DEFAULT  UND q[...]@GLIBC_2.8 (20)
+   192: 00000000     0 FUNC    GLOBAL DEFAULT  UND st[...]@GLIBC_2.0 (6)
+   193: 00000000     0 FUNC    GLOBAL DEFAULT  UND recv@GLIBC_2.0 (3)
+   194: 00000000     0 FUNC    GLOBAL DEFAULT  UND remove@GLIBC_2.0 (6)
+   195: 00000000     0 FUNC    GLOBAL DEFAULT  UND listen@GLIBC_2.0 (6)
+   196: 00000000     0 FUNC    GLOBAL DEFAULT  UND sn[...]@GLIBC_2.0 (6)
+   197: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+   198: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@OPENSSL_1_1_0 (4)
+   199: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@GLIBC_2.0 (3)
+   200: 00000000     0 FUNC    GLOBAL DEFAULT  UND dup2@GLIBC_2.0 (6)
+   201: 00000000     0 FUNC    GLOBAL DEFAULT  UND read@GLIBC_2.0 (3)
+   202: 004b1ce0     4 OBJECT  GLOBAL DEFAULT   29 optarg@GLIBC_2.0 (6)
+   203: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_config
+   204: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_open
+   205: 00000000     0 FUNC    GLOBAL DEFAULT  UND abort@GLIBC_2.0 (6)
+   206: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+   207: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterT[...]
+   208: 00000000     0 FUNC    GLOBAL DEFAULT  UND vf[...]@GLIBC_2.0 (6)
+   209: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_count
+   210: 00000000     0 FUNC    GLOBAL DEFAULT  UND i[...]@GLIBC_2.4 (11)
+   211: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@GLIBC_2.0 (6)
+   212: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.2 (8)
+   213: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_dir_add
+   214: 00000000     0 FUNC    GLOBAL DEFAULT  UND rmdir@GLIBC_2.0 (6)
+   215: 00000000     0 FUNC    GLOBAL DEFAULT  UND unlink@GLIBC_2.0 (6)
+   216: 00000000     0 FUNC    GLOBAL DEFAULT  UND kill@GLIBC_2.0 (6)
+   217: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+   218: 00000000     0 FUNC    GLOBAL DEFAULT  UND system@GLIBC_2.0 (6)
+   219: 00000000     0 FUNC    GLOBAL DEFAULT  UND pt[...]@GLIBC_2.0 (3)
+   220: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@GLIBC_2.0 (6)
+   221: 00000000     0 FUNC    GLOBAL DEFAULT  UND lo[...]@GLIBC_2.0 (6)
+   222: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMC[...]
+   223: 00000000     0 FUNC    GLOBAL DEFAULT  UND [...]@GLIBC_2.3.2 (2)
+   224: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtod@GLIBC_2.0 (6)
+   225: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_[...]@PNG16_0 (5)
+   226: 004a1510     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND realloc@GLIBC_2.0 (6)
+   227: 00000000     0 FUNC    GLOBAL DEFAULT  UND bind@GLIBC_2.0 (6)
+   228: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftell@GLIBC_2.0 (6)
+   229: 00000000     0 FUNC    GLOBAL DEFAULT  UND t[...]@GLIBC_2.2 (10)
+   230: 00000000     0 FUNC    WEAK   DEFAULT  UND __gmon_start__
+   231: 0048f440     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.0 (6)
+   232: 0048f430     0 FUNC    GLOBAL DEFAULT  UND __xstat@GLIBC_2.0 (6)
+   233: 0048f420     0 FUNC    GLOBAL DEFAULT  UND __[...]@GLIBC_2.0 (6)
+
+Symbol table '.symtab' contains 1494 entries:
+   Num:    Value  Size Type    Bind   Vis      Ndx Name
+     0: 00000000     0 NOTYPE  LOCAL  DEFAULT  UND 
+     1: 00400174     0 SECTION LOCAL  DEFAULT    1 .interp
+     2: 00400190     0 SECTION LOCAL  DEFAULT    2 .note.ABI-tag
+     3: 004001b0     0 SECTION LOCAL  DEFAULT    3 .MIPS.abiflags
+     4: 004001c8     0 SECTION LOCAL  DEFAULT    4 .reginfo
+     5: 004001e0     0 SECTION LOCAL  DEFAULT    5 .dynamic
+     6: 00400360     0 SECTION LOCAL  DEFAULT    6 .hash
+     7: 00400a24     0 SECTION LOCAL  DEFAULT    7 .dynsym
+     8: 004018c4     0 SECTION LOCAL  DEFAULT    8 .dynstr
+     9: 0040240c     0 SECTION LOCAL  DEFAULT    9 .gnu.version
+    10: 004025e0     0 SECTION LOCAL  DEFAULT   10 .gnu.version_r
+    11: 00402780     0 SECTION LOCAL  DEFAULT   11 .rel.dyn
+    12: 004027a0     0 SECTION LOCAL  DEFAULT   12 .rel.plt
+    13: 00402e58     0 SECTION LOCAL  DEFAULT   13 .init
+    14: 00402ea0     0 SECTION LOCAL  DEFAULT   14 .text
+    15: 0048f420     0 SECTION LOCAL  DEFAULT   15 .MIPS.stubs
+    16: 0048f460     0 SECTION LOCAL  DEFAULT   16 .iram
+    17: 0048f484     0 SECTION LOCAL  DEFAULT   17 .fini
+    18: 0048f4b0     0 SECTION LOCAL  DEFAULT   18 .rodata
+    19: 004a0710     0 SECTION LOCAL  DEFAULT   19 .eh_frame_hdr
+    20: 004a073c     0 SECTION LOCAL  DEFAULT   20 .eh_frame
+    21: 004a07c0     0 SECTION LOCAL  DEFAULT   21 .plt
+    22: 004b1550     0 SECTION LOCAL  DEFAULT   22 .init_array
+    23: 004b1554     0 SECTION LOCAL  DEFAULT   23 .fini_array
+    24: 004b1558     0 SECTION LOCAL  DEFAULT   24 .got.plt
+    25: 004b18c0     0 SECTION LOCAL  DEFAULT   25 .data
+    26: 004b1c90     0 SECTION LOCAL  DEFAULT   26 .rld_map
+    27: 004b1ca0     0 SECTION LOCAL  DEFAULT   27 .got
+    28: 004b1cc4     0 SECTION LOCAL  DEFAULT   28 .sdata
+    29: 004b1cd0     0 SECTION LOCAL  DEFAULT   29 .bss
+    30: 00000000     0 SECTION LOCAL  DEFAULT   30 .comment
+    31: 00000000     0 SECTION LOCAL  DEFAULT   31 .pdr
+    32: 00000000     0 SECTION LOCAL  DEFAULT   32 .debug_aranges
+    33: 00000000     0 SECTION LOCAL  DEFAULT   33 .debug_info
+    34: 00000000     0 SECTION LOCAL  DEFAULT   34 .debug_abbrev
+    35: 00000000     0 SECTION LOCAL  DEFAULT   35 .debug_line
+    36: 00000000     0 SECTION LOCAL  DEFAULT   36 .debug_frame
+    37: 00000000     0 SECTION LOCAL  DEFAULT   37 .debug_str
+    38: 00000000     0 SECTION LOCAL  DEFAULT   38 .debug_loc
+    39: 00000000     0 SECTION LOCAL  DEFAULT   39 .debug_ranges
+    40: 00000000     0 SECTION LOCAL  DEFAULT   40 .debug_macro
+    41: 00000000     0 SECTION LOCAL  DEFAULT   41 .gnu.attributes
+    42: 00000000     0 SECTION LOCAL  DEFAULT   42 .mdebug.abi32
+    43: 00000000     0 FILE    LOCAL  DEFAULT  ABS /project/Mips-To[...]
+    44: 00402ef4     0 NOTYPE  LOCAL  DEFAULT   14 hlt
+    45: 00000000     0 FILE    LOCAL  DEFAULT  ABS init.c
+    46: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+    47: 00402f00     0 FUNC    LOCAL  DEFAULT   14 deregister_tm_clones
+    48: 00402f34     0 FUNC    LOCAL  DEFAULT   14 register_tm_clones
+    49: 00402f80     0 FUNC    LOCAL  DEFAULT   14 __do_global_dtors_aux
+    50: 004b1cf0     1 OBJECT  LOCAL  DEFAULT   29 completed.6546
+    51: 004b1554     0 OBJECT  LOCAL  DEFAULT   23 __do_global_dtor[...]
+    52: 00402fb8     0 FUNC    LOCAL  DEFAULT   14 frame_dummy
+    53: 004b1550     0 OBJECT  LOCAL  DEFAULT   22 __frame_dummy_in[...]
+    54: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+    55: 00403fac   748 FUNC    LOCAL  DEFAULT   14 server_handle_request
+    56: 00403678   276 FUNC    LOCAL  DEFAULT   14 is_valid_endpoint
+    57: 0040378c   908 FUNC    LOCAL  DEFAULT   14 methods_from_endpoint
+    58: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+    59: 00404480   356 FUNC    LOCAL  DEFAULT   14 _parse_config_se[...]
+    60: 004045e4  1468 FUNC    LOCAL  DEFAULT   14 _parse_config_section
+    61: 00404ba0  1464 FUNC    LOCAL  DEFAULT   14 _parse_config_files
+    62: 00405158    96 FUNC    LOCAL  DEFAULT   14 _section_dict_fr[...]
+    63: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+    64: 004b1d00    24 OBJECT  LOCAL  DEFAULT   29 mutex_log
+    65: 004b1d18     4 OBJECT  LOCAL  DEFAULT   29 log_file_path
+    66: 004b18d0     4 OBJECT  LOCAL  DEFAULT   25 log_level
+    67: 004b1d1c     4 OBJECT  LOCAL  DEFAULT   29 log_fp
+    68: 00406b10   156 FUNC    LOCAL  DEFAULT   14 log_lock
+    69: 00406e48   792 FUNC    LOCAL  DEFAULT   14 log_delete_old_b[...]
+    70: 004071e8   508 FUNC    LOCAL  DEFAULT   14 log_backup_file
+    71: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+    72: 004b1d20    84 OBJECT  LOCAL  DEFAULT   29 server
+    73: 004b1d74     4 OBJECT  LOCAL  DEFAULT   29 s_signo
+    74: 004074a0   116 FUNC    LOCAL  DEFAULT   14 signal_handler
+    75: 00407adc  3108 FUNC    LOCAL  DEFAULT   14 parse_argv
+    76: 004b18e0   128 OBJECT  LOCAL  DEFAULT   25 long_options.10559
+    77: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+    78: 0040ac14   180 FUNC    LOCAL  DEFAULT   14 server_parse_config
+    79: 0040acc8  1456 FUNC    LOCAL  DEFAULT   14 _handle_info_request
+    80: 0040b278   372 FUNC    LOCAL  DEFAULT   14 _handle_config_r[...]
+    81: 0040b3ec   188 FUNC    LOCAL  DEFAULT   14 _handle_restart_[...]
+    82: 0040bd5c   100 FUNC    LOCAL  DEFAULT   14 _handle_umount_r[...]
+    83: 0040b4a8  1292 FUNC    LOCAL  DEFAULT   14 _handle_identify[...]
+    84: 0040bdc0   248 FUNC    LOCAL  DEFAULT   14 _handle_debug_request
+    85: 0040beb8   408 FUNC    LOCAL  DEFAULT   14 _handle_debug_st[...]
+    86: 0040a330    96 FUNC    LOCAL  DEFAULT   14 event_handler_li[...]
+    87: 0040a390   524 FUNC    LOCAL  DEFAULT   14 server_notify_clients
+    88: 0040b9b4   836 FUNC    LOCAL  DEFAULT   14 _handle_umount_task
+    89: 0040bcf8   100 FUNC    LOCAL  DEFAULT   14 _handle_umount_thread
+    90: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+    91: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+    92: 0040c20c   124 FUNC    LOCAL  DEFAULT   14 _handle_info
+    93: 0040c288   124 FUNC    LOCAL  DEFAULT   14 _handle_user
+    94: 0040c304   124 FUNC    LOCAL  DEFAULT   14 _handle_api_key
+    95: 0040c380   124 FUNC    LOCAL  DEFAULT   14 _handle_users_list
+    96: 0040c3fc   124 FUNC    LOCAL  DEFAULT   14 _handle_oneshot_token
+    97: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+    98: 0040daec  4796 FUNC    LOCAL  DEFAULT   14 _init_sensors
+    99: 0040d988   356 FUNC    LOCAL  DEFAULT   14 _store_gcode_response
+   100: 0040d6c0   712 FUNC    LOCAL  DEFAULT   14 _store_gcode_command
+   101: 0040c908  1380 FUNC    LOCAL  DEFAULT   14 _handle_temp_store
+   102: 0040ce6c   944 FUNC    LOCAL  DEFAULT   14 _handle_gcode_store
+   103: 0040edf8    80 FUNC    LOCAL  DEFAULT   14 sensor_dict_free
+   104: 0040d21c  1188 FUNC    LOCAL  DEFAULT   14 _update_temp_store
+   105: 0040eda8    80 FUNC    LOCAL  DEFAULT   14 sensor_value_que[...]
+   106: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   107: 00411a6c   156 FUNC    LOCAL  DEFAULT   14 database_handle_list
+   108: 004108c4  4520 FUNC    LOCAL  DEFAULT   14 database_handle_item
+   109: 00411b08   156 FUNC    LOCAL  DEFAULT   14 database_handle_[...]
+   110: 00411ba4   156 FUNC    LOCAL  DEFAULT   14 database_handle_[...]
+   111: 00411c40   156 FUNC    LOCAL  DEFAULT   14 database_handle_[...]
+   112: 00411cdc   156 FUNC    LOCAL  DEFAULT   14 database_debug_h[...]
+   113: 00411d78   156 FUNC    LOCAL  DEFAULT   14 database_debug_h[...]
+   114: 00411e14   156 FUNC    LOCAL  DEFAULT   14 database_debug_h[...]
+   115: 0040fe18   396 FUNC    LOCAL  DEFAULT   14 create_parent_dirs
+   116: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   117: 004b1dc0    60 OBJECT  LOCAL  DEFAULT   29 gstFilePriDat
+   118: 00411eb0   188 FUNC    LOCAL  DEFAULT   14 hex_char_to_int
+   119: 00413998   192 FUNC    LOCAL  DEFAULT   14 is_directory
+   120: 004140c0   456 FUNC    LOCAL  DEFAULT   14 server_get_file_path
+   121: 00414288   768 FUNC    LOCAL  DEFAULT   14 server_get_path_[...]
+   122: 00415670  1100 FUNC    LOCAL  DEFAULT   14 copy_file
+   123: 00416d60   632 FUNC    LOCAL  DEFAULT   14 add_file_to_zip
+   124: 00416fd8  1080 FUNC    LOCAL  DEFAULT   14 add_directory_co[...]
+   125: 00419f24   264 FUNC    LOCAL  DEFAULT   14 uploads_stutas_init
+   126: 0041a02c   268 FUNC    LOCAL  DEFAULT   14 uploads_stutas_clean
+   127: 0041a138   152 FUNC    LOCAL  DEFAULT   14 upload_close_tmp_file
+   128: 0041a734   788 FUNC    LOCAL  DEFAULT   14 upload_start_print
+   129: 0041ad80  4264 FUNC    LOCAL  DEFAULT   14 uploads_deal
+   130: 00496138    24 OBJECT  LOCAL  DEFAULT   18 __FUNCTION__.20195
+   131: 0041c104   308 FUNC    LOCAL  DEFAULT   14 uploads_form_copy
+   132: 0041c238  4172 FUNC    LOCAL  DEFAULT   14 uploads_pack_rx
+   133: 00496150    21 OBJECT  LOCAL  DEFAULT   18 __FUNCTION__.20256
+   134: 0041f3fc   292 FUNC    LOCAL  DEFAULT   14 scan_udisk_node
+   135: 0041f520   940 FUNC    LOCAL  DEFAULT   14 scan_node
+   136: 0041f8cc  1664 FUNC    LOCAL  DEFAULT   14 server_files_list
+   137: 0041ff4c   808 FUNC    LOCAL  DEFAULT   14 server_files_roots
+   138: 00420274  1764 FUNC    LOCAL  DEFAULT   14 server_files_met[...]
+   139: 00420958   100 FUNC    LOCAL  DEFAULT   14 server_files_met[...]
+   140: 004209bc   100 FUNC    LOCAL  DEFAULT   14 server_files_metadata
+   141: 00420a20  1748 FUNC    LOCAL  DEFAULT   14 server_files_metascan
+   142: 004210f4  1736 FUNC    LOCAL  DEFAULT   14 server_files_thu[...]
+   143: 004217bc  4676 FUNC    LOCAL  DEFAULT   14 server_files_get[...]
+   144: 00422a00   100 FUNC    LOCAL  DEFAULT   14 server_files_get[...]
+   145: 00422a64   100 FUNC    LOCAL  DEFAULT   14 server_files_get[...]
+   146: 00422ac8  1800 FUNC    LOCAL  DEFAULT   14 server_files_pos[...]
+   147: 004231d0  2796 FUNC    LOCAL  DEFAULT   14 server_files_del[...]
+   148: 00423cbc   100 FUNC    LOCAL  DEFAULT   14 server_files_del[...]
+   149: 00423d20   100 FUNC    LOCAL  DEFAULT   14 server_files_del[...]
+   150: 00423d84  4228 FUNC    LOCAL  DEFAULT   14 server_files_mov[...]
+   151: 00424e08   100 FUNC    LOCAL  DEFAULT   14 server_files_mov[...]
+   152: 00424e6c   100 FUNC    LOCAL  DEFAULT   14 server_files_move
+   153: 00424ed0  4260 FUNC    LOCAL  DEFAULT   14 server_files_cop[...]
+   154: 00425f74   100 FUNC    LOCAL  DEFAULT   14 server_files_cop[...]
+   155: 00425fd8   100 FUNC    LOCAL  DEFAULT   14 server_files_copy
+   156: 0042603c  6144 FUNC    LOCAL  DEFAULT   14 create_zip_archi[...]
+   157: 0042783c   100 FUNC    LOCAL  DEFAULT   14 create_zip_task
+   158: 004278a0   100 FUNC    LOCAL  DEFAULT   14 create_zip_archive
+   159: 00427904  2196 FUNC    LOCAL  DEFAULT   14 server_files_del[...]
+   160: 00428198  5328 FUNC    LOCAL  DEFAULT   14 server_files_get[...]
+   161: 00429668   100 FUNC    LOCAL  DEFAULT   14 server_files_get[...]
+   162: 004296cc   100 FUNC    LOCAL  DEFAULT   14 server_files_get[...]
+   163: 00429730   896 FUNC    LOCAL  DEFAULT   14 server_files_htt[...]
+   164: 00429ab0   272 FUNC    LOCAL  DEFAULT   14 server_files_htt[...]
+   165: 00429bc0  1504 FUNC    LOCAL  DEFAULT   14 server_files_htt[...]
+   166: 0042bd1c   284 FUNC    LOCAL  DEFAULT   14 handle_mounts_task
+   167: 004b1dfc  4096 OBJECT  LOCAL  DEFAULT   29 source_item.20925
+   168: 004b2dfc  4096 OBJECT  LOCAL  DEFAULT   29 source_item.20941
+   169: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   170: 004310a8   688 FUNC    LOCAL  DEFAULT   14 history_create_tables
+   171: 00431358  1500 FUNC    LOCAL  DEFAULT   14 history_load_tot[...]
+   172: 00432058  1344 FUNC    LOCAL  DEFAULT   14 history_check_in[...]
+   173: 004357f0   392 FUNC    LOCAL  DEFAULT   14 _on_klippy_disco[...]
+   174: 00435668   392 FUNC    LOCAL  DEFAULT   14 _on_klippy_shutdown
+   175: 004350f8  1180 FUNC    LOCAL  DEFAULT   14 _on_job_state_changed
+   176: 00435594   212 FUNC    LOCAL  DEFAULT   14 _on_job_requested
+   177: 00435978   392 FUNC    LOCAL  DEFAULT   14 _on_server_exit
+   178: 00435b00  1704 FUNC    LOCAL  DEFAULT   14 _handle_job_request
+   179: 004361a8   288 FUNC    LOCAL  DEFAULT   14 _handle_jobs_count
+   180: 004362c8  1768 FUNC    LOCAL  DEFAULT   14 _handle_jobs_list
+   181: 004369b0   380 FUNC    LOCAL  DEFAULT   14 _handle_job_totals
+   182: 00436b2c   248 FUNC    LOCAL  DEFAULT   14 _handle_job_tota[...]
+   183: 00436c24  3912 FUNC    LOCAL  DEFAULT   14 _handle_debug_jo[...]
+   184: 00430a74   116 FUNC    LOCAL  DEFAULT   14 printer_job_free
+   185: 00430ae8   388 FUNC    LOCAL  DEFAULT   14 printer_job_finish
+   186: 00434b84   512 FUNC    LOCAL  DEFAULT   14 _accumulate_total
+   187: 00434d84   408 FUNC    LOCAL  DEFAULT   14 _maximize_total
+   188: 00431934  1828 FUNC    LOCAL  DEFAULT   14 history_save_tot[...]
+   189: 00430c6c   364 FUNC    LOCAL  DEFAULT   14 printer_job_upda[...]
+   190: 00430dd8   720 FUNC    LOCAL  DEFAULT   14 printer_job_set_[...]
+   191: 00432598   596 FUNC    LOCAL  DEFAULT   14 history_count_jobs
+   192: 004327ec  2440 FUNC    LOCAL  DEFAULT   14 history_list_jobs
+   193: 00433174  1384 FUNC    LOCAL  DEFAULT   14 history_cleanup
+   194: 004336dc  1668 FUNC    LOCAL  DEFAULT   14 history_get_job
+   195: 00433d60   924 FUNC    LOCAL  DEFAULT   14 history_del_job
+   196: 004340fc  1436 FUNC    LOCAL  DEFAULT   14 history_del_all_jobs
+   197: 00434698  1260 FUNC    LOCAL  DEFAULT   14 history_reset_total
+   198: 00434f1c   476 FUNC    LOCAL  DEFAULT   14 job_totals_to_json
+   199: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   200: 00439834   388 FUNC    LOCAL  DEFAULT   14 _on_klippy_ready
+   201: 004399b8   164 FUNC    LOCAL  DEFAULT   14 _on_klippy_shutdown
+   202: 00439a5c   636 FUNC    LOCAL  DEFAULT   14 _on_job_state_changed
+   203: 00439cd8   456 FUNC    LOCAL  DEFAULT   14 start_queue
+   204: 00439ea0   264 FUNC    LOCAL  DEFAULT   14 pause_queue
+   205: 0043a0d4  1800 FUNC    LOCAL  DEFAULT   14 _handle_queue_job
+   206: 0043a7dc   192 FUNC    LOCAL  DEFAULT   14 _handle_queue_start
+   207: 0043a89c   192 FUNC    LOCAL  DEFAULT   14 _handle_queue_pause
+   208: 0043a95c   148 FUNC    LOCAL  DEFAULT   14 _handle_queue_status
+   209: 0043a9f0   932 FUNC    LOCAL  DEFAULT   14 _handle_queue_jump
+   210: 004392c8   104 FUNC    LOCAL  DEFAULT   14 _check_job_file
+   211: 00438e24   520 FUNC    LOCAL  DEFAULT   14 _send_queue_event
+   212: 0043902c   140 FUNC    LOCAL  DEFAULT   14 _set_queue_state
+   213: 00438b90   660 FUNC    LOCAL  DEFAULT   14 _job_map_to_list
+   214: 004390b8   528 FUNC    LOCAL  DEFAULT   14 _check_can_print
+   215: 00439330  1004 FUNC    LOCAL  DEFAULT   14 pop_job_thread
+   216: 0043971c   152 FUNC    LOCAL  DEFAULT   14 _pop_job
+   217: 004397b4    64 FUNC    LOCAL  DEFAULT   14 _pop_job_not_tra[...]
+   218: 004397f4    64 FUNC    LOCAL  DEFAULT   14 _pop_job_transition
+   219: 00439fa8   300 FUNC    LOCAL  DEFAULT   14 _get_queue_state
+   220: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   221: 0043b6f8  1076 FUNC    LOCAL  DEFAULT   14 _on_klippy_started
+   222: 0043bb2c   276 FUNC    LOCAL  DEFAULT   14 _on_klippy_disconnect
+   223: 0043b3ac   312 FUNC    LOCAL  DEFAULT   14 job_event_from_string
+   224: 0043b4e4   532 FUNC    LOCAL  DEFAULT   14 _check_resumed
+   225: 0043bc40  2476 FUNC    LOCAL  DEFAULT   14 _status_update
+   226: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   227: 004b1970     4 OBJECT  LOCAL  DEFAULT   25 CACHE_EXCLUSIONS[...]
+   228: 004b1974    16 OBJECT  LOCAL  DEFAULT   25 RESERVED_ENDPOINTS
+   229: 00440b84   392 FUNC    LOCAL  DEFAULT   14 websocket_close_[...]
+   230: 00441b54   256 FUNC    LOCAL  DEFAULT   14 klippy_request_free
+   231: 0044051c    52 FUNC    LOCAL  DEFAULT   14 klippy_send_callback
+   232: 0043f1a0   352 FUNC    LOCAL  DEFAULT   14 _process_gcode_r[...]
+   233: 0043f300  3196 FUNC    LOCAL  DEFAULT   14 _process_status_[...]
+   234: 00440550   164 FUNC    LOCAL  DEFAULT   14 klippy_connect_c[...]
+   235: 004b3e30     4 OBJECT  LOCAL  DEFAULT   29 conn_attempts.12500
+   236: 0043ff7c  1440 FUNC    LOCAL  DEFAULT   14 klippy_recv_callback
+   237: 004405f4   720 FUNC    LOCAL  DEFAULT   14 klippy_disconnec[...]
+   238: 00440d0c  3656 FUNC    LOCAL  DEFAULT   14 klippy_request_create
+   239: 00443354   368 FUNC    LOCAL  DEFAULT   14 klippy_request_send
+   240: 004434c4   588 FUNC    LOCAL  DEFAULT   14 klippy_request_wait
+   241: 0043ddf0   760 FUNC    LOCAL  DEFAULT   14 klippy_save_path_info
+   242: 0043e0e8   912 FUNC    LOCAL  DEFAULT   14 klippy_request_e[...]
+   243: 004408c4   704 FUNC    LOCAL  DEFAULT   14 _handle_klippy_r[...]
+   244: 0043e478   612 FUNC    LOCAL  DEFAULT   14 klippy_request_i[...]
+   245: 0043e6dc  2392 FUNC    LOCAL  DEFAULT   14 klippy_check_ready
+   246: 0043f034   364 FUNC    LOCAL  DEFAULT   14 klippy_init_conn[...]
+   247: 00441c54  5532 FUNC    LOCAL  DEFAULT   14 klippy_request_s[...]
+   248: 004431f0   356 FUNC    LOCAL  DEFAULT   14 klippy_request_s[...]
+   249: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   250: 00445100   408 FUNC    LOCAL  DEFAULT   14 klippy_gcode_start
+   251: 00445298   284 FUNC    LOCAL  DEFAULT   14 klippy_gcode_pause
+   252: 004453b4   284 FUNC    LOCAL  DEFAULT   14 klippy_gcode_resume
+   253: 004454d0   284 FUNC    LOCAL  DEFAULT   14 klippy_gcode_cancel
+   254: 004455ec   200 FUNC    LOCAL  DEFAULT   14 klippy_gcode_restart
+   255: 004456b4   200 FUNC    LOCAL  DEFAULT   14 klippy_gcode_fir[...]
+   256: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   257: 004462dc   916 FUNC    LOCAL  DEFAULT   14 _init_allowed_se[...]
+   258: 0044868c   484 FUNC    LOCAL  DEFAULT   14 machine_update_s[...]
+   259: 00448870   588 FUNC    LOCAL  DEFAULT   14 _handle_machine_[...]
+   260: 00448abc  1140 FUNC    LOCAL  DEFAULT   14 _handle_service_[...]
+   261: 00448f30   712 FUNC    LOCAL  DEFAULT   14 _handle_sysinfo_[...]
+   262: 00446fb8    72 FUNC    LOCAL  DEFAULT   14 _parse_network_i[...]
+   263: 00446f70    72 FUNC    LOCAL  DEFAULT   14 _parse_network_i[...]
+   264: 00446670  2304 FUNC    LOCAL  DEFAULT   14 _parse_network_i[...]
+   265: 00447000   212 FUNC    LOCAL  DEFAULT   14 get_manufacturer
+   266: 004470d4  1072 FUNC    LOCAL  DEFAULT   14 machine_get_cpu_info
+   267: 00447504  2148 FUNC    LOCAL  DEFAULT   14 machine_get_sdca[...]
+   268: 00447d68  1108 FUNC    LOCAL  DEFAULT   14 machine_get_dist_info
+   269: 004481bc  1232 FUNC    LOCAL  DEFAULT   14 machine_get_virt[...]
+   270: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   271: 004b3e40    36 OBJECT  LOCAL  DEFAULT   29 gstMetaPriDat
+   272: 00449778    76 FUNC    LOCAL  DEFAULT   14 free_gcode_meta_[...]
+   273: 0044aa2c   428 FUNC    LOCAL  DEFAULT   14 parse_gcode_regex
+   274: 0044c408   648 FUNC    LOCAL  DEFAULT   14 base_parse_gcode[...]
+   275: 0044c690   888 FUNC    LOCAL  DEFAULT   14 base_parse_gcode[...]
+   276: 0044da44  5852 FUNC    LOCAL  DEFAULT   14 base_parse_thumbnails
+   277: 0044fbc8   864 FUNC    LOCAL  DEFAULT   14 cura_check_identity
+   278: 0044ff28   404 FUNC    LOCAL  DEFAULT   14 cura_parse_layer[...]
+   279: 004500bc   480 FUNC    LOCAL  DEFAULT   14 cura_parse_objec[...]
+   280: 0045029c   480 FUNC    LOCAL  DEFAULT   14 cura_parse_estim[...]
+   281: 0045047c   480 FUNC    LOCAL  DEFAULT   14 cura_parse_nozzl[...]
+   282: 0045065c   480 FUNC    LOCAL  DEFAULT   14 cura_parse_layer[...]
+   283: 0045083c   480 FUNC    LOCAL  DEFAULT   14 cura_parse_first[...]
+   284: 00450a1c   480 FUNC    LOCAL  DEFAULT   14 cura_parse_first[...]
+   285: 00450bfc   480 FUNC    LOCAL  DEFAULT   14 cura_parse_first[...]
+   286: 00450ddc   480 FUNC    LOCAL  DEFAULT   14 cura_parse_chamb[...]
+   287: 00450fbc   632 FUNC    LOCAL  DEFAULT   14 cura_parse_filam[...]
+   288: 00451234   632 FUNC    LOCAL  DEFAULT   14 cura_parse_filam[...]
+   289: 004514ac   520 FUNC    LOCAL  DEFAULT   14 cura_parse_filam[...]
+   290: 004516b4   480 FUNC    LOCAL  DEFAULT   14 cura_parse_filam[...]
+   291: 0049bda4   136 OBJECT  LOCAL  DEFAULT   18 cura_func_table
+   292: 00451894   200 FUNC    LOCAL  DEFAULT   14 unknownSlicer_ch[...]
+   293: 0045195c   480 FUNC    LOCAL  DEFAULT   14 unknownSlicer_pa[...]
+   294: 00451b3c   480 FUNC    LOCAL  DEFAULT   14 unknownSlicer_pa[...]
+   295: 00451d1c   480 FUNC    LOCAL  DEFAULT   14 unknownSlicer_pa[...]
+   296: 00451efc   480 FUNC    LOCAL  DEFAULT   14 unknownSlicer_pa[...]
+   297: 004520dc   480 FUNC    LOCAL  DEFAULT   14 unknownSlicer_pa[...]
+   298: 004522bc   256 FUNC    LOCAL  DEFAULT   14 unknownSlicera_p[...]
+   299: 0049be40    72 OBJECT  LOCAL  DEFAULT   18 unknownSlicer_fu[...]
+   300: 004523bc   908 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_chec[...]
+   301: 00452748   404 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   302: 004528dc   820 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   303: 00452c10  1036 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   304: 0045301c   480 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   305: 004531fc   480 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   306: 004533dc   480 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   307: 004535bc   480 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   308: 0045379c   480 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   309: 0045397c   480 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   310: 00453b5c   632 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   311: 00453dd4   648 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   312: 0045405c   648 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   313: 004542e4  1748 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   314: 004549b8  1040 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   315: 00454dc8   984 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   316: 004551a0   984 FUNC    LOCAL  DEFAULT   14 PrusaSlicer_pars[...]
+   317: 0049c2e8   160 OBJECT  LOCAL  DEFAULT   18 PrusaSlicer_func[...]
+   318: 00455578   968 FUNC    LOCAL  DEFAULT   14 creality_check_i[...]
+   319: 00455940   448 FUNC    LOCAL  DEFAULT   14 creality_parse_l[...]
+   320: 00455b00   524 FUNC    LOCAL  DEFAULT   14 creality_parse_o[...]
+   321: 00455d0c  1356 FUNC    LOCAL  DEFAULT   14 creality_parse_e[...]
+   322: 00456258   480 FUNC    LOCAL  DEFAULT   14 creality_parse_n[...]
+   323: 00456438   524 FUNC    LOCAL  DEFAULT   14 creality_parse_l[...]
+   324: 00456644   480 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   325: 00456824   524 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   326: 00456a30   524 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   327: 00456c3c   480 FUNC    LOCAL  DEFAULT   14 creality_parse_c[...]
+   328: 00456e1c   680 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   329: 004570c4  1136 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   330: 00457534   648 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   331: 004577bc   696 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   332: 00457a74  1844 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   333: 004581a8  1080 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   334: 004585e0  1032 FUNC    LOCAL  DEFAULT   14 creality_parse_f[...]
+   335: 0049c624   160 OBJECT  LOCAL  DEFAULT   18 creality_func_table
+   336: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   337: 00459a40   212 FUNC    LOCAL  DEFAULT   14 _handle_stat_request
+   338: 00459b14   272 FUNC    LOCAL  DEFAULT   14 _handle_stat_update
+   339: 0045a098   564 FUNC    LOCAL  DEFAULT   14 proc_stats_get_m[...]
+   340: 0045a2cc   216 FUNC    LOCAL  DEFAULT   14 proc_stats_get_t[...]
+   341: 0045a3a4   392 FUNC    LOCAL  DEFAULT   14 proc_stats_get_c[...]
+   342: 0045a52c   276 FUNC    LOCAL  DEFAULT   14 proc_stats_get_s[...]
+   343: 0045aa40  1896 FUNC    LOCAL  DEFAULT   14 proc_stats_updat[...]
+   344: 0045b1a8   520 FUNC    LOCAL  DEFAULT   14 proc_stats_updat[...]
+   345: 0045b3b0  2116 FUNC    LOCAL  DEFAULT   14 proc_stats_updat[...]
+   346: 0045bbf4   756 FUNC    LOCAL  DEFAULT   14 proc_stats_updat[...]
+   347: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   348: 0045c2c0   188 FUNC    LOCAL  DEFAULT   14 exec_sudo_command
+   349: 0045c37c   176 FUNC    LOCAL  DEFAULT   14 base_provider_do[...]
+   350: 0045c42c    36 FUNC    LOCAL  DEFAULT   14 base_provider_in[...]
+   351: 0045c450    96 FUNC    LOCAL  DEFAULT   14 base_provider_de[...]
+   352: 0045c4b0   284 FUNC    LOCAL  DEFAULT   14 base_provider_sh[...]
+   353: 0045c5cc   176 FUNC    LOCAL  DEFAULT   14 base_provider_reboot
+   354: 0045c67c    84 FUNC    LOCAL  DEFAULT   14 base_provider_ch[...]
+   355: 0045c6d0    88 FUNC    LOCAL  DEFAULT   14 base_provider_ge[...]
+   356: 0045c728   308 FUNC    LOCAL  DEFAULT   14 base_provider_ge[...]
+   357: 0045c85c    96 FUNC    LOCAL  DEFAULT   14 base_provider_ge[...]
+   358: 0045c8bc   228 FUNC    LOCAL  DEFAULT   14 base_provider_is[...]
+   359: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   360: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   361: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   362: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   363: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   364: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   365: 0045f650   192 FUNC    LOCAL  DEFAULT   14 hash
+   366: 004605e4   228 FUNC    LOCAL  DEFAULT   14 calculate_json_size
+   367: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   368: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   369: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   370: 00461fec   296 FUNC    LOCAL  DEFAULT   14 exec_command_thread
+   371: 00000000     0 FILE    LOCAL  DEFAULT  ABS /var/jenkins_hom[...]
+   372: 00464b14  4260 FUNC    LOCAL  DEFAULT   14 parse_http_params
+   373: 00465bb8   276 FUNC    LOCAL  DEFAULT   14 send_error_response
+   374: 00465ccc   708 FUNC    LOCAL  DEFAULT   14 build_response_json
+   375: 00000000     0 FILE    LOCAL  DEFAULT  ABS log.c
+   376: 004b19c0    76 OBJECT  LOCAL  DEFAULT   25 L
+   377: 004b1a0c    24 OBJECT  LOCAL  DEFAULT   25 level_strings
+   378: 004b1a24    24 OBJECT  LOCAL  DEFAULT   25 level_colors
+   379: 00465f90   380 FUNC    LOCAL  DEFAULT   14 stdout_callback
+   380: 0046610c   320 FUNC    LOCAL  DEFAULT   14 file_callback
+   381: 0046624c   104 FUNC    LOCAL  DEFAULT   14 lock
+   382: 004662b4   104 FUNC    LOCAL  DEFAULT   14 unlock
+   383: 004665d8    88 FUNC    LOCAL  DEFAULT   14 init_event
+   384: 00000000     0 FILE    LOCAL  DEFAULT  ABS mongoose.c
+   385: 00466820   164 FUNC    LOCAL  DEFAULT   14 mg_base64_encode[...]
+   386: 004668c4   268 FUNC    LOCAL  DEFAULT   14 mg_base64_decode[...]
+   387: 004671f8   128 FUNC    LOCAL  DEFAULT   14 mg_dns_free
+   388: 00467310   724 FUNC    LOCAL  DEFAULT   14 mg_dns_parse_nam[...]
+   389: 004675e4    96 FUNC    LOCAL  DEFAULT   14 mg_dns_parse_name
+   390: 00467bd4   776 FUNC    LOCAL  DEFAULT   14 dns_cb
+   391: 00467edc   524 FUNC    LOCAL  DEFAULT   14 mg_dns_send
+   392: 004680e8   616 FUNC    LOCAL  DEFAULT   14 mg_sendnsreq
+   393: 0046858c    92 FUNC    LOCAL  DEFAULT   14 is_digit
+   394: 004685e8   460 FUNC    LOCAL  DEFAULT   14 addexp
+   395: 004687b4   152 FUNC    LOCAL  DEFAULT   14 xisinf
+   396: 0046884c   148 FUNC    LOCAL  DEFAULT   14 xisnan
+   397: 004688e0  2712 FUNC    LOCAL  DEFAULT   14 mg_dtoa
+   398: 00469378   708 FUNC    LOCAL  DEFAULT   14 mg_lld
+   399: 0046963c   164 FUNC    LOCAL  DEFAULT   14 scpy
+   400: 0046a868   176 FUNC    LOCAL  DEFAULT   14 mg_fs_ls_fn
+   401: 0046aa70   200 FUNC    LOCAL  DEFAULT   14 is_dir_prefix
+   402: 0046ab38   204 FUNC    LOCAL  DEFAULT   14 packed_stat
+   403: 0046ac04   400 FUNC    LOCAL  DEFAULT   14 packed_list
+   404: 0046ad94   196 FUNC    LOCAL  DEFAULT   14 packed_open
+   405: 0046ae58    72 FUNC    LOCAL  DEFAULT   14 packed_close
+   406: 0046aea0   188 FUNC    LOCAL  DEFAULT   14 packed_read
+   407: 0046af5c    48 FUNC    LOCAL  DEFAULT   14 packed_write
+   408: 0046af8c   112 FUNC    LOCAL  DEFAULT   14 packed_seek
+   409: 0046affc    44 FUNC    LOCAL  DEFAULT   14 packed_rename
+   410: 0046b028    40 FUNC    LOCAL  DEFAULT   14 packed_remove
+   411: 0046b050    40 FUNC    LOCAL  DEFAULT   14 packed_mkdir
+   412: 0046b078   180 FUNC    LOCAL  DEFAULT   14 p_stat
+   413: 0046b12c   252 FUNC    LOCAL  DEFAULT   14 p_list
+   414: 0046b228   108 FUNC    LOCAL  DEFAULT   14 p_open
+   415: 0046b294    60 FUNC    LOCAL  DEFAULT   14 p_close
+   416: 0046b2d0    76 FUNC    LOCAL  DEFAULT   14 p_read
+   417: 0046b31c    76 FUNC    LOCAL  DEFAULT   14 p_write
+   418: 0046b368    84 FUNC    LOCAL  DEFAULT   14 p_seek
+   419: 0046b3bc    72 FUNC    LOCAL  DEFAULT   14 p_rename
+   420: 0046b404    64 FUNC    LOCAL  DEFAULT   14 p_remove
+   421: 0046b444    68 FUNC    LOCAL  DEFAULT   14 p_mkdir
+   422: 0046b488   264 FUNC    LOCAL  DEFAULT   14 mg_ncasecmp
+   423: 0046c1c8   156 FUNC    LOCAL  DEFAULT   14 isx
+   424: 0046c4ac   128 FUNC    LOCAL  DEFAULT   14 isok
+   425: 0046c794    60 FUNC    LOCAL  DEFAULT   14 vcb
+   426: 0046c7d0   468 FUNC    LOCAL  DEFAULT   14 clen
+   427: 0046c9a4   348 FUNC    LOCAL  DEFAULT   14 skiptorn
+   428: 0046cb00   732 FUNC    LOCAL  DEFAULT   14 mg_http_parse_headers
+   429: 0046d338   308 FUNC    LOCAL  DEFAULT   14 mg_http_vprintf_chunk
+   430: 0046d560  1100 FUNC    LOCAL  DEFAULT   14 mg_http_status_c[...]
+   431: 0046dafc   108 FUNC    LOCAL  DEFAULT   14 restore_http_cb
+   432: 0047063c  1920 FUNC    LOCAL  DEFAULT   14 http_cb
+   433: 0046dbe8   452 FUNC    LOCAL  DEFAULT   14 static_cb
+   434: 004b1a90   488 OBJECT  LOCAL  DEFAULT   25 s_known_types
+   435: 0046ddac   604 FUNC    LOCAL  DEFAULT   14 guess_content_type
+   436: 0046e008   440 FUNC    LOCAL  DEFAULT   14 getrange
+   437: 0046e880   664 FUNC    LOCAL  DEFAULT   14 printdirentry
+   438: 0046eb18   664 FUNC    LOCAL  DEFAULT   14 listdir
+   439: 0046edb0  1256 FUNC    LOCAL  DEFAULT   14 uri_to_path2
+   440: 0046f298   624 FUNC    LOCAL  DEFAULT   14 uri_to_path
+   441: 0046f660   220 FUNC    LOCAL  DEFAULT   14 mg_is_url_safe
+   442: 0046fbb0   192 FUNC    LOCAL  DEFAULT   14 stripquotes
+   443: 00470340   156 FUNC    LOCAL  DEFAULT   14 is_hex_digit
+   444: 004703dc   608 FUNC    LOCAL  DEFAULT   14 skip_chunk
+   445: 00470dbc   468 FUNC    LOCAL  DEFAULT   14 mg_hfn
+   446: 00471130   108 FUNC    LOCAL  DEFAULT   14 roundup
+   447: 0047168c    72 FUNC    LOCAL  DEFAULT   14 escapeseq
+   448: 004716d4   200 FUNC    LOCAL  DEFAULT   14 json_esc
+   449: 0047179c   288 FUNC    LOCAL  DEFAULT   14 mg_pass_string
+   450: 004718bc  1408 FUNC    LOCAL  DEFAULT   14 mg_atod
+   451: 004b1c7c     4 OBJECT  LOCAL  DEFAULT   25 s_log_func
+   452: 004b3e70     4 OBJECT  LOCAL  DEFAULT   29 s_log_func_param
+   453: 00473a90    88 FUNC    LOCAL  DEFAULT   14 logc
+   454: 00473ae8   124 FUNC    LOCAL  DEFAULT   14 logs
+   455: 00473d34    92 FUNC    LOCAL  DEFAULT   14 nibble
+   456: 00474034   188 FUNC    LOCAL  DEFAULT   14 mg_byte_reverse
+   457: 00474168  6148 FUNC    LOCAL  DEFAULT   14 mg_md5_transform
+   458: 0049fcd0    54 OBJECT  LOCAL  DEFAULT   18 s_prop_map
+   459: 00475e58    80 FUNC    LOCAL  DEFAULT   14 mg_send_u16
+   460: 00475ea8    76 FUNC    LOCAL  DEFAULT   14 mg_send_u32
+   461: 00475ef4    80 FUNC    LOCAL  DEFAULT   14 varint_size
+   462: 00475f44   144 FUNC    LOCAL  DEFAULT   14 encode_varint
+   463: 00475fd4   220 FUNC    LOCAL  DEFAULT   14 decode_varint
+   464: 004760b0   164 FUNC    LOCAL  DEFAULT   14 mqtt_prop_type_by_id
+   465: 00476154   492 FUNC    LOCAL  DEFAULT   14 get_properties_length
+   466: 00476340   100 FUNC    LOCAL  DEFAULT   14 get_props_size
+   467: 004763a4  1088 FUNC    LOCAL  DEFAULT   14 mg_send_mqtt_pro[...]
+   468: 00477a38   848 FUNC    LOCAL  DEFAULT   14 mqtt_cb
+   469: 00478108   180 FUNC    LOCAL  DEFAULT   14 mg_atonl
+   470: 004781bc   112 FUNC    LOCAL  DEFAULT   14 mg_atone
+   471: 0047822c   500 FUNC    LOCAL  DEFAULT   14 mg_aton4
+   472: 00478420   488 FUNC    LOCAL  DEFAULT   14 mg_v4mapped
+   473: 00478608  1176 FUNC    LOCAL  DEFAULT   14 mg_aton6
+   474: 00479674   316 FUNC    LOCAL  DEFAULT   14 mg_pfn_iobuf_private
+   475: 004797b0    80 FUNC    LOCAL  DEFAULT   14 mg_putchar_iobuf[...]
+   476: 00479a5c   148 FUNC    LOCAL  DEFAULT   14 print_ip4
+   477: 00479af0   380 FUNC    LOCAL  DEFAULT   14 print_ip6
+   478: 00479f30   248 FUNC    LOCAL  DEFAULT   14 mg_esc
+   479: 0047a028    60 FUNC    LOCAL  DEFAULT   14 mg_escape
+   480: 0047a064   300 FUNC    LOCAL  DEFAULT   14 qcpy
+   481: 0047a190   596 FUNC    LOCAL  DEFAULT   14 bcpy
+   482: 0047a6a0   100 FUNC    LOCAL  DEFAULT   14 mg_queue_read_len
+   483: 0047a704   108 FUNC    LOCAL  DEFAULT   14 mg_queue_write_len
+   484: 0047abd8   280 FUNC    LOCAL  DEFAULT   14 mg_rpc_call
+   485: 0047b288   288 FUNC    LOCAL  DEFAULT   14 print_methods
+   486: 0047b400   180 FUNC    LOCAL  DEFAULT   14 blk0
+   487: 0047b4b4  9476 FUNC    LOCAL  DEFAULT   14 mg_sha1_transform
+   488: 0049fee8   256 OBJECT  LOCAL  DEFAULT   18 mg_sha256_k
+   489: 0047de68  1132 FUNC    LOCAL  DEFAULT   14 mg_sha256_chunk
+   490: 004b3e78     8 OBJECT  LOCAL  DEFAULT   29 s_boot_timestamp
+   491: 0047eaf8   352 FUNC    LOCAL  DEFAULT   14 gettimestamp
+   492: 0047eef4   512 FUNC    LOCAL  DEFAULT   14 sntp_cb
+   493: 0047f394   140 FUNC    LOCAL  DEFAULT   14 tousa
+   494: 0047f420   120 FUNC    LOCAL  DEFAULT   14 tomgaddr
+   495: 0047f498   136 FUNC    LOCAL  DEFAULT   14 setlocaddr
+   496: 0047f520   396 FUNC    LOCAL  DEFAULT   14 iolog
+   497: 0047f910   112 FUNC    LOCAL  DEFAULT   14 mg_set_non_block[...]
+   498: 0047fc44   440 FUNC    LOCAL  DEFAULT   14 recv_raw
+   499: 0047fdfc   208 FUNC    LOCAL  DEFAULT   14 ioalloc
+   500: 0047fecc   556 FUNC    LOCAL  DEFAULT   14 read_conn
+   501: 004800f8   168 FUNC    LOCAL  DEFAULT   14 write_conn
+   502: 004801a0   144 FUNC    LOCAL  DEFAULT   14 close_conn
+   503: 00480230   320 FUNC    LOCAL  DEFAULT   14 connect_conn
+   504: 00480370   152 FUNC    LOCAL  DEFAULT   14 setsockopts
+   505: 00480784   152 FUNC    LOCAL  DEFAULT   14 raccept
+   506: 0048081c   576 FUNC    LOCAL  DEFAULT   14 accept_conn
+   507: 00480a5c    56 FUNC    LOCAL  DEFAULT   14 can_read
+   508: 00480a94   116 FUNC    LOCAL  DEFAULT   14 can_write
+   509: 00480b08   184 FUNC    LOCAL  DEFAULT   14 skip_iotest
+   510: 00480bc0   860 FUNC    LOCAL  DEFAULT   14 mg_iotest
+   511: 00480f1c   748 FUNC    LOCAL  DEFAULT   14 mg_socketpair
+   512: 00481208   340 FUNC    LOCAL  DEFAULT   14 wufn
+   513: 0048196c    92 FUNC    LOCAL  DEFAULT   14 mg_tolc
+   514: 004831cc   208 FUNC    LOCAL  DEFAULT   14 umaal
+   515: 0048329c   168 FUNC    LOCAL  DEFAULT   14 adc
+   516: 00483344   124 FUNC    LOCAL  DEFAULT   14 adc0
+   517: 004833c0   236 FUNC    LOCAL  DEFAULT   14 propagate
+   518: 004834ac   212 FUNC    LOCAL  DEFAULT   14 add
+   519: 00483580   304 FUNC    LOCAL  DEFAULT   14 sub
+   520: 004836b0   528 FUNC    LOCAL  DEFAULT   14 mul
+   521: 004838c0    76 FUNC    LOCAL  DEFAULT   14 sqr
+   522: 0048390c    76 FUNC    LOCAL  DEFAULT   14 mul1
+   523: 00483958    64 FUNC    LOCAL  DEFAULT   14 sqr1
+   524: 00483998   240 FUNC    LOCAL  DEFAULT   14 condswap
+   525: 00483a88   468 FUNC    LOCAL  DEFAULT   14 canon
+   526: 004a008c     4 OBJECT  LOCAL  DEFAULT   18 a24
+   527: 00483c5c   348 FUNC    LOCAL  DEFAULT   14 ladder_part1
+   528: 00483db8   200 FUNC    LOCAL  DEFAULT   14 ladder_part2
+   529: 00483e80   680 FUNC    LOCAL  DEFAULT   14 x25519_core
+   530: 004a0320    39 OBJECT  LOCAL  DEFAULT   18 steps.8626
+   531: 00484494   576 FUNC    LOCAL  DEFAULT   14 urlparse
+   532: 004a0348    64 OBJECT  LOCAL  DEFAULT   18 crclut.8724
+   533: 00484f5c    80 FUNC    LOCAL  DEFAULT   14 isbyte
+   534: 00484fac   460 FUNC    LOCAL  DEFAULT   14 parse_net
+   535: 004855e8   384 FUNC    LOCAL  DEFAULT   14 ws_handshake
+   536: 00485768   108 FUNC    LOCAL  DEFAULT   14 be32
+   537: 004857d4   724 FUNC    LOCAL  DEFAULT   14 ws_process
+   538: 00485aa8   488 FUNC    LOCAL  DEFAULT   14 mkhdr
+   539: 00485c90   228 FUNC    LOCAL  DEFAULT   14 mg_ws_mask
+   540: 00485e64   396 FUNC    LOCAL  DEFAULT   14 mg_ws_client_han[...]
+   541: 00485ff0  1016 FUNC    LOCAL  DEFAULT   14 mg_ws_cb
+   542: 004867b4   292 FUNC    LOCAL  DEFAULT   14 mg_phy_id_to_str
+   543: 00000000     0 FILE    LOCAL  DEFAULT  ABS cJSON.c
+   544: 004b3e80     8 OBJECT  LOCAL  DEFAULT   29 global_error
+   545: 004b3e88    15 OBJECT  LOCAL  DEFAULT   29 version.3858
+   546: 004870a4   272 FUNC    LOCAL  DEFAULT   14 case_insensitive[...]
+   547: 004b1c80    12 OBJECT  LOCAL  DEFAULT   25 global_hooks
+   548: 004871b4   176 FUNC    LOCAL  DEFAULT   14 cJSON_strdup
+   549: 00487390   108 FUNC    LOCAL  DEFAULT   14 cJSON_New_Item
+   550: 0048754c    36 FUNC    LOCAL  DEFAULT   14 get_decimal_point
+   551: 00487570   752 FUNC    LOCAL  DEFAULT   14 parse_number
+   552: 00487b18   696 FUNC    LOCAL  DEFAULT   14 ensure
+   553: 00487dd0   152 FUNC    LOCAL  DEFAULT   14 update_offset
+   554: 00487e68   248 FUNC    LOCAL  DEFAULT   14 compare_double
+   555: 00487f60   904 FUNC    LOCAL  DEFAULT   14 print_number
+   556: 004882e8   428 FUNC    LOCAL  DEFAULT   14 parse_hex4
+   557: 00488494   868 FUNC    LOCAL  DEFAULT   14 utf16_literal_to_utf8
+   558: 004887f8  1144 FUNC    LOCAL  DEFAULT   14 parse_string
+   559: 00488c70  1092 FUNC    LOCAL  DEFAULT   14 print_string_ptr
+   560: 004890b4    72 FUNC    LOCAL  DEFAULT   14 print_string
+   561: 004890fc   272 FUNC    LOCAL  DEFAULT   14 buffer_skip_whit[...]
+   562: 0048920c   220 FUNC    LOCAL  DEFAULT   14 skip_utf8_bom
+   563: 00489b08   996 FUNC    LOCAL  DEFAULT   14 parse_value
+   564: 00489630   576 FUNC    LOCAL  DEFAULT   14 print
+   565: 004a06e0     4 OBJECT  LOCAL  DEFAULT   18 default_buffer_s[...]
+   566: 00489eec   760 FUNC    LOCAL  DEFAULT   14 print_value
+   567: 0048a1e4   844 FUNC    LOCAL  DEFAULT   14 parse_array
+   568: 0048a75c  1096 FUNC    LOCAL  DEFAULT   14 parse_object
+   569: 0048a530   556 FUNC    LOCAL  DEFAULT   14 print_array
+   570: 0048aba4  1192 FUNC    LOCAL  DEFAULT   14 print_object
+   571: 0048b0cc   140 FUNC    LOCAL  DEFAULT   14 get_array_item
+   572: 0048b1b4   304 FUNC    LOCAL  DEFAULT   14 get_object_item
+   573: 0048b3b4    68 FUNC    LOCAL  DEFAULT   14 suffix_object
+   574: 0048b3f8   192 FUNC    LOCAL  DEFAULT   14 create_reference
+   575: 0048b4b8   228 FUNC    LOCAL  DEFAULT   14 add_item_to_array
+   576: 0048b5dc    40 FUNC    LOCAL  DEFAULT   14 cast_away_const
+   577: 0048b604   352 FUNC    LOCAL  DEFAULT   14 add_item_to_object
+   578: 0048c41c   272 FUNC    LOCAL  DEFAULT   14 replace_item_in_[...]
+   579: 0048d4c8   156 FUNC    LOCAL  DEFAULT   14 skip_oneline_comment
+   580: 0048d564   184 FUNC    LOCAL  DEFAULT   14 skip_multiline_c[...]
+   581: 0048d61c   404 FUNC    LOCAL  DEFAULT   14 minify_string
+   582: 00000000     0 FILE    LOCAL  DEFAULT  ABS /project/Mips-To[...]
+   583: 00000000     0 FILE    LOCAL  DEFAULT  ABS /project/Mips-To[...]
+   584: 00000000     0 FILE    LOCAL  DEFAULT  ABS /project/Mips-To[...]
+   585: 00000000     0 FILE    LOCAL  DEFAULT  ABS /project/Mips-To[...]
+   586: 00000000     0 FILE    LOCAL  DEFAULT  ABS elf-init.c
+   587: 00000000     0 FILE    LOCAL  DEFAULT  ABS stat.c
+   588: 00000000     0 FILE    LOCAL  DEFAULT  ABS fstat.c
+   589: 00000000     0 FILE    LOCAL  DEFAULT  ABS lstat.c
+   590: 00000000     0 FILE    LOCAL  DEFAULT  ABS crtstuff.c
+   591: 004a07a0     0 OBJECT  LOCAL  DEFAULT   20 __FRAME_END__
+   592: 00000000     0 FILE    LOCAL  DEFAULT  ABS 
+   593: 004a0710     0 NOTYPE  LOCAL  DEFAULT   19 __GNU_EH_FRAME_HDR
+   594: 004a07c0     0 FUNC    LOCAL  DEFAULT   21 _PROCEDURE_LINKA[...]
+   595: 0048f3c8     8 FUNC    LOCAL  DEFAULT   14 .pic.fstat
+   596: 0048e638     8 FUNC    LOCAL  DEFAULT   14 .pic.__moddi3
+   597: 0048ea98     8 FUNC    LOCAL  DEFAULT   14 .pic.__udivdi3
+   598: 004b9c90     0 NOTYPE  LOCAL  DEFAULT   27 _gp
+   599: 00402e58     0 FUNC    LOCAL  DEFAULT   13 _init
+   600: 004001e0     0 OBJECT  LOCAL  DEFAULT    5 _DYNAMIC
+   601: 0048f3f8     8 FUNC    LOCAL  DEFAULT   14 .pic.lstat
+   602: 004b1554     0 NOTYPE  LOCAL  DEFAULT   22 __init_array_end
+   603: 0048eed8     8 FUNC    LOCAL  DEFAULT   14 .pic.__umoddi3
+   604: 004b1550     0 NOTYPE  LOCAL  DEFAULT   22 __init_array_start
+   605: 0048f420     0 FUNC    LOCAL  DEFAULT   15 _MIPS_STUBS_
+   606: 0048f398     8 FUNC    LOCAL  DEFAULT   14 .pic.stat
+   607: 0048e1a8     8 FUNC    LOCAL  DEFAULT   14 .pic.__divdi3
+   608: 00449c68   444 FUNC    GLOBAL DEFAULT   14 del_gcode_metada[...]
+   609: 0042bee8   392 FUNC    GLOBAL DEFAULT   14 start_timer
+   610: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_sig[...]
+   611: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_int
+   612: 00000000     0 FUNC    GLOBAL DEFAULT  UND waitpid@@GLIBC_2.0
+   613: 00000000     0 FUNC    GLOBAL DEFAULT  UND SHA256_Final@@OP[...]
+   614: 0048ca70   164 FUNC    GLOBAL DEFAULT   14 cJSON_CreateRaw
+   615: 00000000     0 FUNC    GLOBAL DEFAULT  UND open@@GLIBC_2.0
+   616: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_de[...]
+   617: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_get_bit_dept[...]
+   618: 004830f4    96 FUNC    GLOBAL DEFAULT   14 mg_tls_send
+   619: 00463d3c   204 FUNC    GLOBAL DEFAULT   14 web_request_get_[...]
+   620: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_write_image@[...]
+   621: 0045df64    84 FUNC    GLOBAL DEFAULT   14 result_ok
+   622: 004739ac   160 FUNC    GLOBAL DEFAULT   14 mg_json_get_long
+   623: 0048bfb4    84 FUNC    GLOBAL DEFAULT   14 cJSON_DetachItem[...]
+   624: 0047f2f0   164 FUNC    GLOBAL DEFAULT   14 mg_sntp_connect
+   625: 00479800    80 FUNC    GLOBAL DEFAULT   14 mg_pfn_iobuf
+   626: 0040c050    76 FUNC    GLOBAL DEFAULT   14 safe_free
+   627: 00479450    36 FUNC    GLOBAL DEFAULT   14 mg_ota_commit
+   628: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcat@@GLIBC_2.0
+   629: 0049c714     4 OBJECT  GLOBAL DEFAULT   18 slicer_class_fun[...]
+   630: 0042f9c4   168 FUNC    GLOBAL DEFAULT   14 history_reset_cu[...]
+   631: 00417dbc  1000 FUNC    GLOBAL DEFAULT   14 process_metadata[...]
+   632: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_discard
+   633: 00000000     0 FUNC    GLOBAL DEFAULT  UND fread@@GLIBC_2.0
+   634: 0048d9b8    84 FUNC    GLOBAL DEFAULT   14 cJSON_IsTrue
+   635: 0046d46c    92 FUNC    GLOBAL DEFAULT   14 mg_http_printf_chunk
+   636: 0045ff54   668 FUNC    GLOBAL DEFAULT   14 ordered_dict_del
+   637: 0042abb8   528 FUNC    GLOBAL DEFAULT   14 remove_watch
+   638: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_create_read_[...]
+   639: 00485404   232 FUNC    GLOBAL DEFAULT   14 mg_millis
+   640: 00430710   868 FUNC    GLOBAL DEFAULT   14 printer_job_new
+   641: 00000000     0 FUNC    GLOBAL DEFAULT  UND fileno@@GLIBC_2.0
+   642: 0042da94   676 FUNC    GLOBAL DEFAULT   14 file_list_thread_init
+   643: 00437b70   992 FUNC    GLOBAL DEFAULT   14 job_queue_init
+   644: 0046db68   128 FUNC    GLOBAL DEFAULT   14 mg_http_etag
+   645: 004735bc   300 FUNC    GLOBAL DEFAULT   14 mg_json_get_str
+   646: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_set_file_com[...]
+   647: 00466414   380 FUNC    GLOBAL DEFAULT   14 log_add_callback
+   648: 00466358    72 FUNC    GLOBAL DEFAULT   14 log_set_lock
+   649: 00477538  1280 FUNC    GLOBAL DEFAULT   14 mg_mqtt_parse
+   650: 0045fe08   332 FUNC    GLOBAL DEFAULT   14 ordered_dict_get
+   651: 0040a230   256 FUNC    GLOBAL DEFAULT   14 server_unregiste[...]
+   652: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseeko@@GLIBC_2.2
+   653: 0046d9ac   336 FUNC    GLOBAL DEFAULT   14 mg_http_reply
+   654: 0045f2e0    24 FUNC    GLOBAL DEFAULT   14 trigger_coredump
+   655: 00000000     0 FUNC    GLOBAL DEFAULT  UND fork@@GLIBC_2.0
+   656: 00482c74   492 FUNC    GLOBAL DEFAULT   14 mg_timer_expired
+   657: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_int
+   658: 004b3ea0    76 OBJECT  GLOBAL DEFAULT   29 LogManagemnt
+   659: 0048c914   116 FUNC    GLOBAL DEFAULT   14 cJSON_CreateStri[...]
+   660: 0045d670   268 FUNC    GLOBAL DEFAULT   14 array_destroy
+   661: 00460b50   476 FUNC    GLOBAL DEFAULT   14 ringbuf_push
+   662: 00419b84   172 FUNC    GLOBAL DEFAULT   14 del_upload_dat_f[...]
+   663: 00000000     0 FUNC    GLOBAL DEFAULT  UND socket@@GLIBC_2.0
+   664: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_get_rowbytes[...]
+   665: 00459ea4   500 FUNC    GLOBAL DEFAULT   14 proc_stats_free
+   666: 00460fd4   112 FUNC    GLOBAL DEFAULT   14 ringbuf_destroy
+   667: 00466630   488 FUNC    GLOBAL DEFAULT   14 log_log
+   668: 0048bc50   136 FUNC    GLOBAL DEFAULT   14 cJSON_AddRawToObject
+   669: 004713ac   344 FUNC    GLOBAL DEFAULT   14 mg_iobuf_add
+   670: 00413a58   172 FUNC    GLOBAL DEFAULT   14 is_path_exists
+   671: 00409380  2016 FUNC    GLOBAL DEFAULT   14 server_load_comp[...]
+   672: 00000000     0 FUNC    GLOBAL DEFAULT  UND strerror_r@@GLIBC_2.0
+   673: 004b1a68    40 OBJECT  GLOBAL DEFAULT   25 mg_fs_posix
+   674: 0045d77c   216 FUNC    GLOBAL DEFAULT   14 array_print
+   675: 00000000     0 FUNC    GLOBAL DEFAULT  UND access@@GLIBC_2.0
+   676: 0048b158    92 FUNC    GLOBAL DEFAULT   14 cJSON_GetArrayItem
+   677: 004b1c78     4 OBJECT  GLOBAL DEFAULT   25 mg_log_level
+   678: 0047a508   132 FUNC    GLOBAL DEFAULT   14 mg_print_base64
+   679: 0048da0c    80 FUNC    GLOBAL DEFAULT   14 cJSON_IsBool
+   680: 004199d8    76 FUNC    GLOBAL DEFAULT   14 upload_clear_dat
+   681: 004b3e00    48 OBJECT  GLOBAL DEFAULT   29 BASE_TOTALS
+   682: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_rwlock_i[...]
+   683: 00462464   100 FUNC    GLOBAL DEFAULT   14 trim_spaces
+   684: 0048b98c   128 FUNC    GLOBAL DEFAULT   14 cJSON_AddTrueToObject
+   685: 0048d7b0   356 FUNC    GLOBAL DEFAULT   14 cJSON_Minify
+   686: 0048f3a0    32 FUNC    GLOBAL HIDDEN    14 __stat
+   687: 0043d114  1260 FUNC    GLOBAL DEFAULT   14 klippy_start
+   688: 0045cdac   244 FUNC    GLOBAL DEFAULT   14 supervisord_cli_[...]
+   689: 0046c52c   348 FUNC    GLOBAL DEFAULT   14 mg_http_get_requ[...]
+   690: 00000000     0 FUNC    GLOBAL DEFAULT  UND mkdir@@GLIBC_2.0
+   691: 004b1cc8     0 NOTYPE  GLOBAL DEFAULT   28 _edata
+   692: 0041aa48   824 FUNC    GLOBAL DEFAULT   14 finish_gcode_upload
+   693: 0040557c   448 FUNC    GLOBAL DEFAULT   14 config_get_option
+   694: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_double
+   695: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_rwlock_r[...]
+   696: 0040f248   220 FUNC    GLOBAL DEFAULT   14 database_free
+   697: 0042e590   972 FUNC    GLOBAL DEFAULT   14 history_init
+   698: 00410114    96 FUNC    GLOBAL DEFAULT   14 safe_sqlite_open
+   699: 004696e0   104 FUNC    GLOBAL DEFAULT   14 mg_xprintf
+   700: 00000000     0 FUNC    GLOBAL DEFAULT  UND strstr@@GLIBC_2.0
+   701: 0045ee84   332 FUNC    GLOBAL DEFAULT   14 linked_list_remove
+   702: 0046b810  1272 FUNC    GLOBAL DEFAULT   14 mg_http_next_mul[...]
+   703: 004497c4   668 FUNC    GLOBAL DEFAULT   14 write_gcode_meta[...]
+   704: 0041d61c  1672 FUNC    GLOBAL DEFAULT   14 uploads_rx_init
+   705: 0041a1d0  1380 FUNC    GLOBAL DEFAULT   14 process_uploaded_file
+   706: 00473140   320 FUNC    GLOBAL DEFAULT   14 mg_json_get_num
+   707: 004612a0   196 FUNC    GLOBAL DEFAULT   14 contains
+   708: 00446030   552 FUNC    GLOBAL DEFAULT   14 machine_componen[...]
+   709: 00000000     0 FUNC    GLOBAL DEFAULT  UND setsockopt@@GLIBC_2.0
+   710: 0042be38   176 FUNC    GLOBAL DEFAULT   14 timer_callback
+   711: 00473a4c    68 FUNC    GLOBAL DEFAULT   14 mg_log_set_fn
+   712: 00000000     0 FUNC    GLOBAL DEFAULT  UND fopen@@GLIBC_2.2
+   713: 0048317c    40 FUNC    GLOBAL DEFAULT   14 mg_tls_ctx_init
+   714: 00483094    96 FUNC    GLOBAL DEFAULT   14 mg_tls_recv
+   715: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_source_free
+   716: 0044d730   788 FUNC    GLOBAL DEFAULT   14 get_gcode_thumbs_max
+   717: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_read_image@@[...]
+   718: 00478c14   320 FUNC    GLOBAL DEFAULT   14 mg_close_conn
+   719: 00417cd8   228 FUNC    GLOBAL DEFAULT   14 run_extract_metadata
+   720: 004b18c0     0 OBJECT  WEAK   DEFAULT   25 data_start
+   721: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_type
+   722: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_source_file
+   723: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_attr_des[...]
+   724: 0043b240   256 FUNC    GLOBAL DEFAULT   14 job_state_init
+   725: 0046e1c0  1728 FUNC    GLOBAL DEFAULT   14 mg_http_serve_file
+   726: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_setname_[...]
+   727: 0048f4b0     4 OBJECT  GLOBAL DEFAULT   18 _IO_stdin_used
+   728: 004854ec   148 FUNC    GLOBAL DEFAULT   14 mg_ws_vprintf
+   729: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_create_write[...]
+   730: 00000000     0 FUNC    GLOBAL DEFAULT  UND select@@GLIBC_2.0
+   731: 004a0a20     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND strdup@@GLIBC_2.0
+   732: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_reset
+   733: 004868d8   720 FUNC    GLOBAL DEFAULT   14 mg_phy_init
+   734: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cancel@@[...]
+   735: 00000000     0 FUNC    GLOBAL DEFAULT  UND getopt_long@@GLI[...]
+   736: 00000000     0 FUNC    GLOBAL DEFAULT  UND get_nprocs@@GLIBC_2.0
+   737: 00000000     0 FUNC    GLOBAL DEFAULT  UND sleep@@GLIBC_2.0
+   738: 004670cc    36 FUNC    GLOBAL DEFAULT   14 mg_flash_bank
+   739: 0041bffc   264 FUNC    GLOBAL DEFAULT   14 upload_deal_thre[...]
+   740: 00000000     0 FUNC    GLOBAL DEFAULT  UND timer_gettime@@G[...]
+   741: 00463a68   320 FUNC    GLOBAL DEFAULT   14 web_request_get_[...]
+   742: 004449e8   364 FUNC    GLOBAL DEFAULT   14 klippy_api_run_gcode
+   743: 0048b7b8    88 FUNC    GLOBAL DEFAULT   14 cJSON_AddItemToO[...]
+   744: 00486f58    84 FUNC    GLOBAL DEFAULT   14 cJSON_GetStringValue
+   745: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_null
+   746: 0044bb54  1020 FUNC    GLOBAL DEFAULT   14 regex_find_min_float
+   747: 00417920   952 FUNC    GLOBAL DEFAULT   14 has_valid_data
+   748: 0042cf20   496 FUNC    GLOBAL DEFAULT   14 merge_event
+   749: 0048e640  1096 FUNC    GLOBAL HIDDEN    14 __moddi3
+   750: 00000000     0 FUNC    GLOBAL DEFAULT  UND connect@@GLIBC_2.0
+   751: 0042a86c   292 FUNC    GLOBAL DEFAULT   14 init_inotify
+   752: 0044b914   576 FUNC    GLOBAL DEFAULT   14 regex_find_string
+   753: 0047a8e8   204 FUNC    GLOBAL DEFAULT   14 mg_queue_next
+   754: 0040a10c   292 FUNC    GLOBAL DEFAULT   14 server_register_timer
+   755: 00445780  1464 FUNC    GLOBAL DEFAULT   14 machine_init
+   756: 004818a0   120 FUNC    GLOBAL DEFAULT   14 mg_str_s
+   757: 00479510    40 FUNC    GLOBAL DEFAULT   14 mg_ota_size
+   758: 0042b74c   244 FUNC    GLOBAL DEFAULT   14 get_watch_path
+   759: 0045e1c4   348 FUNC    GLOBAL DEFAULT   14 result_err_fmt
+   760: 0044f400  1464 FUNC    GLOBAL DEFAULT   14 filter_non_zero_[...]
+   761: 00000000     0 FUNC    GLOBAL DEFAULT  UND calloc@@GLIBC_2.0
+   762: 0048e108    68 FUNC    GLOBAL DEFAULT   14 cJSON_malloc
+   763: 004439b0   192 FUNC    GLOBAL DEFAULT   14 klippy_api_emerg[...]
+   764: 0044cd90  2464 FUNC    GLOBAL DEFAULT   14 resize_png_to_target
+   765: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtof@@GLIBC_2.0
+   766: 00410458   400 FUNC    GLOBAL DEFAULT   14 cjson_insert_nes[...]
+   767: 00481a70   208 FUNC    GLOBAL DEFAULT   14 mg_strdup
+   768: 0041d284   920 FUNC    GLOBAL DEFAULT   14 uploads_rx
+   769: 0045905c   396 FUNC    GLOBAL DEFAULT   14 get_slicer_func_table
+   770: 00000000     0 FUNC    GLOBAL DEFAULT  UND clock_gettime@@G[...]
+   771: 00413f48   376 FUNC    GLOBAL DEFAULT   14 get_stat_Info
+   772: 0046b590   640 FUNC    GLOBAL DEFAULT   14 mg_to_size_t
+   773: 0048bbc8   136 FUNC    GLOBAL DEFAULT   14 cJSON_AddStringT[...]
+   774: 00419a24   192 FUNC    GLOBAL DEFAULT   14 set_upload_dat_t[...]
+   775: 004873fc   336 FUNC    GLOBAL DEFAULT   14 cJSON_Delete
+   776: 0045ccb8   244 FUNC    GLOBAL DEFAULT   14 systemd_dbus_pro[...]
+   777: 00459680   372 FUNC    GLOBAL DEFAULT   14 metadata_udisk_clear
+   778: 0048cb6c    88 FUNC    GLOBAL DEFAULT   14 cJSON_CreateObject
+   779: 0042b1a0   348 FUNC    GLOBAL DEFAULT   14 clean_all_inotify
+   780: 00000000     0 FUNC    GLOBAL DEFAULT  UND inotify_rm_watch[...]
+   781: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpid@@GLIBC_2.0
+   782: 0040a6dc   340 FUNC    GLOBAL DEFAULT   14 server_register_[...]
+   783: 00444ccc   532 FUNC    GLOBAL DEFAULT   14 klippy_api_start[...]
+   784: 0046a918   128 FUNC    GLOBAL DEFAULT   14 mg_fs_ls
+   785: 00414c08   652 FUNC    GLOBAL DEFAULT   14 file_check_file_[...]
+   786: 00000000     0 FUNC    GLOBAL DEFAULT  UND getuid@@GLIBC_2.0
+   787: 0045e610   132 FUNC    GLOBAL DEFAULT   14 linked_list_create
+   788: 00484e78   228 FUNC    GLOBAL DEFAULT   14 mg_crc32
+   789: 00419ae4   160 FUNC    GLOBAL DEFAULT   14 get_upload_dat_f[...]
+   790: 00000000     0 FUNC    GLOBAL DEFAULT  UND epoll_wait@@GLIB[...]
+   791: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncat@@GLIBC_2.0
+   792: 00407514   696 FUNC    GLOBAL DEFAULT   14 main
+   793: 00413c14   236 FUNC    GLOBAL DEFAULT   14 is_full_access_roots
+   794: 0048dbac    84 FUNC    GLOBAL DEFAULT   14 cJSON_IsObject
+   795: 0048f420     0 FUNC    GLOBAL DEFAULT  UND __fxstat@@GLIBC_2.0
+   796: 004799b8    92 FUNC    GLOBAL DEFAULT   14 mg_mprintf
+   797: 0042fc38   756 FUNC    GLOBAL DEFAULT   14 history_update_m[...]
+   798: 00413e44   260 FUNC    GLOBAL DEFAULT   14 get_sub_string
+   799: 0049c6d8    60 OBJECT  GLOBAL DEFAULT   18 slicer_class_fun[...]
+   800: 00484128   624 FUNC    GLOBAL DEFAULT   14 mg_tls_x25519
+   801: 00467278   152 FUNC    GLOBAL DEFAULT   14 mg_resolve_cancel
+   802: 0048d050   344 FUNC    GLOBAL DEFAULT   14 cJSON_CreateStri[...]
+   803: 0044b3c8   944 FUNC    GLOBAL DEFAULT   14 regex_find_ints
+   804: 0045ece8   412 FUNC    GLOBAL DEFAULT   14 linked_list_pop
+   805: 00408700  1552 FUNC    GLOBAL DEFAULT   14 server_init
+   806: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputc@@GLIBC_2.0
+   807: 00000000     0 FUNC    GLOBAL DEFAULT  UND fgets@@GLIBC_2.0
+   808: 0047119c   416 FUNC    GLOBAL DEFAULT   14 mg_iobuf_resize
+   809: 00470300    64 FUNC    GLOBAL DEFAULT   14 mg_http_status
+   810: 0045cf6c   244 FUNC    GLOBAL DEFAULT   14 array_resize
+   811: 004a0b50     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND longjmp@@GLIBC_2.0
+   812: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_close
+   813: 0045e710   288 FUNC    GLOBAL DEFAULT   14 linked_list_prepend
+   814: 00000000     0 FUNC    GLOBAL DEFAULT  UND fwrite@@GLIBC_2.0
+   815: 0043b0a4   404 FUNC    GLOBAL DEFAULT   14 queued_job_to_json
+   816: 004606c8   528 FUNC    GLOBAL DEFAULT   14 ordered_dict_to_json
+   817: 0045e4f4   272 FUNC    GLOBAL DEFAULT   14 merge_cjson_object
+   818: 004105e8   364 FUNC    GLOBAL DEFAULT   14 cjson_delete_nes[...]
+   819: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcpy@@GLIBC_2.0
+   820: 00473280   224 FUNC    GLOBAL DEFAULT   14 mg_json_get_bool
+   821: 00409138   584 FUNC    GLOBAL DEFAULT   14 server_free
+   822: 0048f3d0    32 FUNC    GLOBAL HIDDEN    14 __fstat
+   823: 0048b2e4    68 FUNC    GLOBAL DEFAULT   14 cJSON_GetObjectItem
+   824: 00000000     0 FUNC    GLOBAL DEFAULT  UND inotify_add_watc[...]
+   825: 00463e08   984 FUNC    GLOBAL DEFAULT   14 web_request_get_list
+   826: 004794e8    40 FUNC    GLOBAL DEFAULT   14 mg_ota_timestamp
+   827: 00460f08   204 FUNC    GLOBAL DEFAULT   14 ringbuf_init
+   828: 00469748  3308 FUNC    GLOBAL DEFAULT   14 mg_vxprintf
+   829: 004b1dbc     4 OBJECT  GLOBAL DEFAULT   29 g_timer
+   830: 0047f980   708 FUNC    GLOBAL DEFAULT   14 mg_open_listener
+   831: 00000000     0 FUNC    GLOBAL DEFAULT  UND write@@GLIBC_2.0
+   832: 00486694   288 FUNC    GLOBAL DEFAULT   14 mg_ws_wrap
+   833: 004a0bb0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND malloc@@GLIBC_2.0
+   834: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_getname_[...]
+   835: 00479dcc   144 FUNC    GLOBAL DEFAULT   14 mg_print_ip_port
+   836: 00486f20    56 FUNC    GLOBAL DEFAULT   14 cJSON_GetErrorPtr
+   837: 00479e5c   212 FUNC    GLOBAL DEFAULT   14 mg_print_mac
+   838: 004b1964     4 OBJECT  GLOBAL DEFAULT   25 DEFAULT_SERVER_PORT
+   839: 004b1cc4     0 OBJECT  GLOBAL HIDDEN    28 __dso_handle
+   840: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_last_ins[...]
+   841: 004b1cc8     0 NOTYPE  GLOBAL DEFAULT   29 _fbss
+   842: 004670a8    36 FUNC    GLOBAL DEFAULT   14 mg_flash_write_align
+   843: 0046713c    48 FUNC    GLOBAL DEFAULT   14 mg_flash_write
+   844: 0045e830   288 FUNC    GLOBAL DEFAULT   14 linked_list_append
+   845: 00415abc   164 FUNC    GLOBAL DEFAULT   14 qsort_compare
+   846: 00000000     0 FUNC    GLOBAL DEFAULT  UND strlen@@GLIBC_2.0
+   847: 0042ec10  1704 FUNC    GLOBAL DEFAULT   14 history_save_job
+   848: 0048eaa0  1060 FUNC    GLOBAL HIDDEN    14 __udivdi3
+   849: 0043ce68   456 FUNC    GLOBAL DEFAULT   14 klippy_connect
+   850: 0042a1a0   988 FUNC    GLOBAL DEFAULT   14 file_server_http_deal
+   851: 004123e0   324 FUNC    GLOBAL DEFAULT   14 calc_directory_size
+   852: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_destroy_read[...]
+   853: 004831a4    40 FUNC    GLOBAL DEFAULT   14 mg_tls_ctx_free
+   854: 00000000     0 FUNC    GLOBAL DEFAULT  UND usleep@@GLIBC_2.0
+   855: 00000000     0 FUNC    GLOBAL DEFAULT  UND fprintf@@GLIBC_2.0
+   856: 00415214  1116 FUNC    GLOBAL DEFAULT   14 is_flie_operatio[...]
+   857: 00000000     0 FUNC    GLOBAL DEFAULT  UND accept@@GLIBC_2.0
+   858: 004624c8   168 FUNC    GLOBAL DEFAULT   14 print_hex
+   859: 0047f0f4   508 FUNC    GLOBAL DEFAULT   14 mg_sntp_request
+   860: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_write_info@@[...]
+   861: 00000000     0 FUNC    GLOBAL DEFAULT  UND round@@GLIBC_2.2
+   862: 0049c6d4     4 OBJECT  GLOBAL DEFAULT   18 slicer_table_size
+   863: 0045d358   284 FUNC    GLOBAL DEFAULT   14 array_set
+   864: 00438740  1104 FUNC    GLOBAL DEFAULT   14 job_queue_delete_job
+   865: 004495b4   452 FUNC    GLOBAL DEFAULT   14 del_gcode_metada[...]
+   866: 0048c6cc   116 FUNC    GLOBAL DEFAULT   14 cJSON_CreateBool
+   867: 00000000     0 FUNC    GLOBAL DEFAULT  UND atof@@GLIBC_2.0
+   868: 00403b18   804 FUNC    GLOBAL DEFAULT   14 server_reg_org_e[...]
+   869: 0048b36c    72 FUNC    GLOBAL DEFAULT   14 cJSON_HasObjectItem
+   870: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_rwlock_w[...]
+   871: 004b1960     4 OBJECT  GLOBAL DEFAULT   25 DEFAULT_SERVER_HOST
+   872: 00000000     0 FUNC    GLOBAL DEFAULT  UND readdir@@GLIBC_2.0
+   873: 00000000     0 FUNC    GLOBAL DEFAULT  UND sprintf@@GLIBC_2.0
+   874: 0040a058   180 FUNC    GLOBAL DEFAULT   14 server_lookup_co[...]
+   875: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_rwlock_d[...]
+   876: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_name
+   877: 0048c228   384 FUNC    GLOBAL DEFAULT   14 cJSON_ReplaceIte[...]
+   878: 00412cb0   924 FUNC    GLOBAL DEFAULT   14 directory_recurs[...]
+   879: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_get_image_wi[...]
+   880: 0048c008    84 FUNC    GLOBAL DEFAULT   14 cJSON_DetachItem[...]
+   881: 004b1cd0     4 OBJECT  GLOBAL DEFAULT   29 stdout@@GLIBC_2.0
+   882: 004618bc   216 FUNC    GLOBAL DEFAULT   14 update
+   883: 0045bee8   792 FUNC    GLOBAL DEFAULT   14 proc_stats_updat[...]
+   884: 00405aac   552 FUNC    GLOBAL DEFAULT   14 config_get_optio[...]
+   885: 004447b8   192 FUNC    GLOBAL DEFAULT   14 klippy_api_subsc[...]
+   886: 00467118    36 FUNC    GLOBAL DEFAULT   14 mg_flash_swap_bank
+   887: 0048f430     0 FUNC    GLOBAL DEFAULT  UND __xstat@@GLIBC_2.0
+   888: 0048bef8   108 FUNC    GLOBAL DEFAULT   14 cJSON_DetachItem[...]
+   889: 00449ec4   148 FUNC    GLOBAL DEFAULT   14 get_gcode_metadata
+   890: 00000000     0 FUNC    GLOBAL DEFAULT  UND _exit@@GLIBC_2.0
+   891: 0045d954   328 FUNC    GLOBAL DEFAULT   14 circular_queue_free
+   892: 0048f440     0 FUNC    GLOBAL DEFAULT  UND __lxstat@@GLIBC_2.0
+   893: 00461590   488 FUNC    GLOBAL DEFAULT   14 remove_element
+   894: 00412624   504 FUNC    GLOBAL DEFAULT   14 compare_files
+   895: 00484db8   104 FUNC    GLOBAL DEFAULT   14 mg_ntohl
+   896: 0042dd38   484 FUNC    GLOBAL DEFAULT   14 file_list_thread_free
+   897: 004793d8    40 FUNC    GLOBAL DEFAULT   14 mg_ota_begin
+   898: 0042d1d4  2240 FUNC    GLOBAL DEFAULT   14 file_list_thread_task
+   899: 0047942c    36 FUNC    GLOBAL DEFAULT   14 mg_ota_end
+   900: 0040ee50  1016 FUNC    GLOBAL DEFAULT   14 database_init
+   901: 00482174   388 FUNC    GLOBAL DEFAULT   14 mg_span
+   902: 00461778   324 FUNC    GLOBAL DEFAULT   14 print_set
+   903: 004678c8   780 FUNC    GLOBAL DEFAULT   14 mg_dns_parse
+   904: 0048db58    84 FUNC    GLOBAL DEFAULT   14 cJSON_IsArray
+   905: 00479174   176 FUNC    GLOBAL DEFAULT   14 mg_io_recv
+   906: 0048f484     0 FUNC    GLOBAL HIDDEN    17 _fini
+   907: 004a0cd0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND strcmp@@GLIBC_2.0
+   908: 0042b2fc   268 FUNC    GLOBAL DEFAULT   14 is_path_watched
+   909: 00484398   252 FUNC    GLOBAL DEFAULT   14 mg_url_is_ssl
+   910: 00403ea4   108 FUNC    GLOBAL DEFAULT   14 server_reg_remot[...]
+   911: 0048c0ac    80 FUNC    GLOBAL DEFAULT   14 cJSON_DeleteItem[...]
+   912: 0042ff2c   728 FUNC    GLOBAL DEFAULT   14 history_update_j[...]
+   913: 0046703c    36 FUNC    GLOBAL DEFAULT   14 mg_flash_start
+   914: 004710bc   116 FUNC    GLOBAL DEFAULT   14 mg_http_listen
+   915: 0048bb14   180 FUNC    GLOBAL DEFAULT   14 cJSON_AddNumberT[...]
+   916: 00409b60  1272 FUNC    GLOBAL DEFAULT   14 server_unload_co[...]
+   917: 0044ca08   312 FUNC    GLOBAL DEFAULT   14 base64_decode
+   918: 004601f0   296 FUNC    GLOBAL DEFAULT   14 ordered_dict_free
+   919: 00000000     0 FUNC    GLOBAL DEFAULT  UND time@@GLIBC_2.0
+   920: 00000000     0 FUNC    GLOBAL DEFAULT  UND memchr@@GLIBC_2.0
+   921: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_destroy_writ[...]
+   922: 00445e6c   452 FUNC    GLOBAL DEFAULT   14 machine_exec_sud[...]
+   923: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtok_r@@GLIBC_2.0
+   924: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_double
+   925: 0046a7d4   148 FUNC    GLOBAL DEFAULT   14 mg_file_printf
+   926: 00484c94   292 FUNC    GLOBAL DEFAULT   14 mg_random_str
+   927: 00467060    36 FUNC    GLOBAL DEFAULT   14 mg_flash_size
+   928: 00000000     0 FUNC    GLOBAL DEFAULT  UND tolower@@GLIBC_2.0
+   929: 00479d34   152 FUNC    GLOBAL DEFAULT   14 mg_print_ip
+   930: 00000000     0 FUNC    GLOBAL DEFAULT  UND fsync@@GLIBC_2.0
+   931: 00000000     0 FUNC    GLOBAL DEFAULT  UND pclose@@GLIBC_2.2
+   932: 004181a4   284 FUNC    GLOBAL DEFAULT   14 parse_metadata
+   933: 0047737c   444 FUNC    GLOBAL DEFAULT   14 mg_mqtt_sub
+   934: 00000000     0 FUNC    GLOBAL DEFAULT  UND __errno_location[...]
+   935: 00000000     0 FUNC    GLOBAL DEFAULT  UND fclose@@GLIBC_2.2
+   936: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncpy@@GLIBC_2.0
+   937: 00000000     0 FUNC    GLOBAL DEFAULT  UND send@@GLIBC_2.0
+   938: 00000000     0 FUNC    GLOBAL DEFAULT  UND uuid_generate@@U[...]
+   939: 00000000     0 FUNC    GLOBAL DEFAULT  UND fflush@@GLIBC_2.0
+   940: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_read_info@@P[...]
+   941: 00464470   484 FUNC    GLOBAL DEFAULT   14 web_request_get_bool
+   942: 00000000     0 FUNC    GLOBAL DEFAULT  UND memcmp@@GLIBC_2.0
+   943: 0048c9fc   116 FUNC    GLOBAL DEFAULT   14 cJSON_CreateArra[...]
+   944: 00446258   132 FUNC    GLOBAL DEFAULT   14 machine_get_unit_name
+   945: 0046f508   344 FUNC    GLOBAL DEFAULT   14 mg_http_serve_dir
+   946: 00000000     0 FUNC    GLOBAL DEFAULT  UND _setjmp@@GLIBC_2.0
+   947: 004182c0   960 FUNC    GLOBAL DEFAULT   14 parse_gcode_metadata
+   948: 00482b48   164 FUNC    GLOBAL DEFAULT   14 mg_timer_init
+   949: 00405338   196 FUNC    GLOBAL DEFAULT   14 config_helper_free
+   950: 00418928   684 FUNC    GLOBAL DEFAULT   14 get_parse_metadata
+   951: 0046a4e0   108 FUNC    GLOBAL DEFAULT   14 mg_fs_close
+   952: 00462114   312 FUNC    GLOBAL DEFAULT   14 exec_command_async
+   953: 00437ffc   192 FUNC    GLOBAL DEFAULT   14 job_queue_get_state
+   954: 0045e11c   168 FUNC    GLOBAL DEFAULT   14 result_err
+   955: 004898f8   308 FUNC    GLOBAL DEFAULT   14 cJSON_PrintBuffered
+   956: 004061e8  1460 FUNC    GLOBAL DEFAULT   14 config_get_origi[...]
+   957: 0047afec    92 FUNC    GLOBAL DEFAULT   14 mg_rpc_ok
+   958: 00470f90   184 FUNC    GLOBAL DEFAULT   14 mg_hello
+   959: 00466c80   296 FUNC    GLOBAL DEFAULT   14 mg_base64_encode
+   960: 00000000     0 FUNC    GLOBAL DEFAULT  UND __xpg_basename@@[...]
+   961: 004b1a40    40 OBJECT  GLOBAL DEFAULT   25 mg_fs_packed
+   962: 004780a4   100 FUNC    GLOBAL DEFAULT   14 mg_printf
+   963: 0045ddc0   232 FUNC    GLOBAL DEFAULT   14 klippy_state_fro[...]
+   964: 0041dff8   284 FUNC    GLOBAL DEFAULT   14 upload_init
+   965: 0047f854   188 FUNC    GLOBAL DEFAULT   14 mg_send
+   966: 0045da9c   324 FUNC    GLOBAL DEFAULT   14 circular_queue_e[...]
+   967: 00462570   948 FUNC    GLOBAL DEFAULT   14 web_request_crea[...]
+   968: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_text
+   969: 0041be28   468 FUNC    GLOBAL DEFAULT   14 upload_deal_thre[...]
+   970: 00000000     0 FUNC    GLOBAL DEFAULT  UND fcntl@@GLIBC_2.28
+   971: 00000000     0 FUNC    GLOBAL DEFAULT  UND strrchr@@GLIBC_2.0
+   972: 004863e8   384 FUNC    GLOBAL DEFAULT   14 mg_ws_connect
+   973: 0042a57c   752 FUNC    GLOBAL DEFAULT   14 scan_gcode_file
+   974: 0042df1c   220 FUNC    GLOBAL DEFAULT   14 file_gcode_node_[...]
+   975: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_file_add
+   976: 00410174   224 FUNC    GLOBAL DEFAULT   14 parse_primary_key
+   977: 0047a3e4   292 FUNC    GLOBAL DEFAULT   14 mg_print_hex
+   978: 004b18c0     0 NOTYPE  GLOBAL DEFAULT   25 _fdata
+   979: 00000000     0 FUNC    GLOBAL DEFAULT  UND getsockname@@GLI[...]
+   980: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_bind_text
+   981: 0047ec58   668 FUNC    GLOBAL DEFAULT   14 mg_sntp_parse
+   982: 00464348   296 FUNC    GLOBAL DEFAULT   14 web_request_get_str
+   983: 00000000     0 FUNC    GLOBAL DEFAULT  UND getline@@GLIBC_2.0
+   984: 00471504   328 FUNC    GLOBAL DEFAULT   14 mg_iobuf_del
+   985: 00000000     0 FUNC    GLOBAL DEFAULT  UND fseek@@GLIBC_2.0
+   986: 0045d184   268 FUNC    GLOBAL DEFAULT   14 array_contains
+   987: 00478e80   328 FUNC    GLOBAL DEFAULT   14 mg_listen
+   988: 00460318   372 FUNC    GLOBAL DEFAULT   14 ordered_dict_clear
+   989: 0041dea8   336 FUNC    GLOBAL DEFAULT   14 uploads_rx_free
+   990: 00000000     0 FUNC    GLOBAL DEFAULT  UND getenv@@GLIBC_2.0
+   991: 00000000     0 FUNC    GLOBAL DEFAULT  UND fputs@@GLIBC_2.0
+   992: 004b1d90    44 OBJECT  GLOBAL DEFAULT   29 inotify
+   993: 00464654   524 FUNC    GLOBAL DEFAULT   14 web_request_get_long
+   994: 0044c34c   188 FUNC    GLOBAL DEFAULT   14 regex_find_int
+   995: 0048d964    84 FUNC    GLOBAL DEFAULT   14 cJSON_IsFalse
+   996: 00479c6c   100 FUNC    GLOBAL DEFAULT   14 mg_print_ip4
+   997: 0048ced0   384 FUNC    GLOBAL DEFAULT   14 cJSON_CreateDoub[...]
+   998: 0047164c    64 FUNC    GLOBAL DEFAULT   14 mg_iobuf_free
+   999: 0045e398   180 FUNC    GLOBAL DEFAULT   14 result_safe_free
+  1000: 004042e0   404 FUNC    GLOBAL DEFAULT   14 test_application
+  1001: 00462924  1796 FUNC    GLOBAL DEFAULT   14 web_request_create_ws
+  1002: 00487860   264 FUNC    GLOBAL DEFAULT   14 cJSON_SetNumberHelper
+  1003: 0048c578    76 FUNC    GLOBAL DEFAULT   14 cJSON_ReplaceIte[...]
+  1004: 00406d70   128 FUNC    GLOBAL DEFAULT   14 log_free
+  1005: 00473360   604 FUNC    GLOBAL DEFAULT   14 mg_json_unescape
+  1006: 0045e320   120 FUNC    GLOBAL DEFAULT   14 result_free
+  1007: 00000000     0 FUNC    GLOBAL DEFAULT  UND statvfs@@GLIBC_2.2
+  1008: 0048b87c   144 FUNC    GLOBAL DEFAULT   14 cJSON_AddItemRef[...]
+  1009: 00445d38   308 FUNC    GLOBAL DEFAULT   14 machine_free
+  1010: 00000000     0 FUNC    GLOBAL DEFAULT  UND strchr@@GLIBC_2.0
+  1011: 0046631c    60 FUNC    GLOBAL DEFAULT   14 log_level_string
+  1012: 00000000     0 FUNC    GLOBAL DEFAULT  UND rename@@GLIBC_2.0
+  1013: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_detach@@[...]
+  1014: 0044f9b8   528 FUNC    GLOBAL DEFAULT   14 kisslicer_parse_[...]
+  1015: 0045f2f8   232 FUNC    GLOBAL DEFAULT   14 get_memory_usage
+  1016: 00484e20    88 FUNC    GLOBAL DEFAULT   14 mg_ntohs
+  1017: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_prepare_v2
+  1018: 004736e8   276 FUNC    GLOBAL DEFAULT   14 mg_json_get_b64
+  1019: 004591e8   136 FUNC    GLOBAL DEFAULT   14 extract_ufp
+  1020: 0046716c    36 FUNC    GLOBAL DEFAULT   14 mg_device_reset
+  1021: 00484b3c   100 FUNC    GLOBAL DEFAULT   14 mg_bzero
+  1022: 0042e470   284 FUNC    GLOBAL DEFAULT   14 check_and_create[...]
+  1023: 004a0ef0     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND __libc_start_mai[...]
+  1024: 00444b54   376 FUNC    GLOBAL DEFAULT   14 klippy_api_run_g[...]
+  1025: 004663a0    56 FUNC    GLOBAL DEFAULT   14 log_set_level
+  1026: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_errmsg
+  1027: 0044a4dc   176 FUNC    GLOBAL DEFAULT   14 meta_mprintf
+  1028: 00404298    72 FUNC    GLOBAL DEFAULT   14 test_callback
+  1029: 00000000     0 FUNC    GLOBAL DEFAULT  UND __isoc99_sscanf@[...]
+  1030: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_un[...]
+  1031: 00000000     0 FUNC    GLOBAL DEFAULT  UND pipe@@GLIBC_2.0
+  1032: 0043c5f0  1180 FUNC    GLOBAL DEFAULT   14 klippy_init
+  1033: 00443c68   632 FUNC    GLOBAL DEFAULT   14 klippy_api_query[...]
+  1034: 00000000     0 FUNC    GLOBAL DEFAULT  UND vsnprintf@@GLIBC_2.0
+  1035: 00479850   156 FUNC    GLOBAL DEFAULT   14 mg_vsnprintf
+  1036: 0045f710   272 FUNC    GLOBAL DEFAULT   14 ordered_dict_create
+  1037: 0048c988   116 FUNC    GLOBAL DEFAULT   14 cJSON_CreateObje[...]
+  1038: 004493bc   504 FUNC    GLOBAL DEFAULT   14 get_gcode_metada[...]
+  1039: 0048306c    40 FUNC    GLOBAL DEFAULT   14 mg_tls_free
+  1040: 00402ea0     0 NOTYPE  GLOBAL DEFAULT   14 _ftext
+  1041: 0046116c   308 FUNC    GLOBAL DEFAULT   14 free_set
+  1042: 004819c8   168 FUNC    GLOBAL DEFAULT   14 mg_casecmp
+  1043: 0048dc00    84 FUNC    GLOBAL DEFAULT   14 cJSON_IsRaw
+  1044: 0041e1b8   208 FUNC    GLOBAL DEFAULT   14 upload_free
+  1045: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_write_end@@P[...]
+  1046: 00471e3c  1400 FUNC    GLOBAL DEFAULT   14 mg_json_next
+  1047: 00000000     0 FUNC    GLOBAL DEFAULT  UND signal@@GLIBC_2.0
+  1048: 00413b04   272 FUNC    GLOBAL DEFAULT   14 is_roots_name_exists
+  1049: 004b1c90     0 OBJECT  GLOBAL DEFAULT   26 __RLD_MAP
+  1050: 0046f73c   392 FUNC    GLOBAL DEFAULT   14 mg_url_encode
+  1051: 0046048c   344 FUNC    GLOBAL DEFAULT   14 ordered_dict_print
+  1052: 0047ab20   184 FUNC    GLOBAL DEFAULT   14 mg_rpc_del
+  1053: 0048cbc4   392 FUNC    GLOBAL DEFAULT   14 cJSON_CreateIntArray
+  1054: 0045e950   384 FUNC    GLOBAL DEFAULT   14 linked_list_extend
+  1055: 00484960   260 FUNC    GLOBAL DEFAULT   14 mg_url_user
+  1056: 0045d290   200 FUNC    GLOBAL DEFAULT   14 array_get
+  1057: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_busy_timeout
+  1058: 00411f6c  1140 FUNC    GLOBAL DEFAULT   14 decode_unicode_e[...]
+  1059: 00410254   244 FUNC    GLOBAL DEFAULT   14 get_next_key
+  1060: 00000000     0 FUNC    GLOBAL DEFAULT  UND gettimeofday@@GL[...]
+  1061: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_changes
+  1062: 00489a2c   220 FUNC    GLOBAL DEFAULT   14 cJSON_PrintPreal[...]
+  1063: 00449e24   160 FUNC    GLOBAL DEFAULT   14 write_gcode_metadata
+  1064: 00443ba8   192 FUNC    GLOBAL DEFAULT   14 klippy_api_get_o[...]
+  1065: 0043ca8c   648 FUNC    GLOBAL DEFAULT   14 klippy_free
+  1066: 00402ea0     0 FUNC    GLOBAL DEFAULT   14 __start
+  1067: 00459270  1040 FUNC    GLOBAL DEFAULT   14 extract_metadata
+  1068: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_in[...]
+  1069: 0044464c   364 FUNC    GLOBAL DEFAULT   14 klippy_api_subsc[...]
+  1070: 004053fc   156 FUNC    GLOBAL DEFAULT   14 config_has_section
+  1071: 0042e3a0   208 FUNC    GLOBAL DEFAULT   14 file_api_free
+  1072: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_set_longjmp_[...]
+  1073: 00000001     0 SECTION GLOBAL DEFAULT  ABS _DYNAMIC_LINKING
+  1074: 00000000     0 FUNC    GLOBAL DEFAULT  UND __ctype_b_loc@@G[...]
+  1075: 004380bc  1668 FUNC    GLOBAL DEFAULT   14 job_queue_queue_job
+  1076: 004073e4   188 FUNC    GLOBAL DEFAULT   14 log_checker
+  1077: 0040a59c   320 FUNC    GLOBAL DEFAULT   14 server_send_event
+  1078: 00000000     0 FUNC    GLOBAL DEFAULT  UND rand@@GLIBC_2.0
+  1079: 004723b4  3296 FUNC    GLOBAL DEFAULT   14 mg_json_get
+  1080: 00416410   848 FUNC    GLOBAL DEFAULT   14 delete_directory[...]
+  1081: 004798ec   100 FUNC    GLOBAL DEFAULT   14 mg_snprintf
+  1082: 00481918    84 FUNC    GLOBAL DEFAULT   14 mg_str_n
+  1083: 004892e8   120 FUNC    GLOBAL DEFAULT   14 cJSON_ParseWithOpts
+  1084: 0044a58c   572 FUNC    GLOBAL DEFAULT   14 escape_quotes
+  1085: 00461364   556 FUNC    GLOBAL DEFAULT   14 add
+  1086: 0047aa5c   196 FUNC    GLOBAL DEFAULT   14 mg_rpc_add
+  1087: 00412524   256 FUNC    GLOBAL DEFAULT   14 get_cfg_dir_list_num
+  1088: 0048e14c    80 FUNC    GLOBAL DEFAULT   14 cJSON_free
+  1089: 00000000     0 FUNC    GLOBAL DEFAULT  UND recvfrom@@GLIBC_2.0
+  1090: 004197a4   564 FUNC    GLOBAL DEFAULT   14 get_mime_type
+  1091: 00405cd4  1300 FUNC    GLOBAL DEFAULT   14 config_get_parse[...]
+  1092: 004b1c94     0 OBJECT  GLOBAL HIDDEN    26 __TMC_END__
+  1093: 004670f0    40 FUNC    GLOBAL DEFAULT   14 mg_flash_erase
+  1094: 0047dbf8   428 FUNC    GLOBAL DEFAULT   14 mg_sha1_final
+  1095: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_lo[...]
+  1096: 00000000     0 FUNC    GLOBAL DEFAULT  UND sync@@GLIBC_2.0
+  1097: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtol@@GLIBC_2.0
+  1098: 0048bf64    80 FUNC    GLOBAL DEFAULT   14 cJSON_DeleteItem[...]
+  1099: 0048c0fc   300 FUNC    GLOBAL DEFAULT   14 cJSON_InsertItem[...]
+  1100: 0045cea0   204 FUNC    GLOBAL DEFAULT   14 array_create
+  1101: 0044f120   736 FUNC    GLOBAL DEFAULT   14 str_to_float_array
+  1102: 00406df0    88 FUNC    GLOBAL DEFAULT   14 compareByName
+  1103: 004304a8   616 FUNC    GLOBAL DEFAULT   14 history_prep_req[...]
+  1104: 0041927c   660 FUNC    GLOBAL DEFAULT   14 add_parse_metada[...]
+  1105: 0044cb40   592 FUNC    GLOBAL DEFAULT   14 find_thumbnails
+  1106: 0046d4c8   152 FUNC    GLOBAL DEFAULT   14 mg_http_write_chunk
+  1107: 00473cb0   132 FUNC    GLOBAL DEFAULT   14 mg_log
+  1108: 0046fc70   648 FUNC    GLOBAL DEFAULT   14 mg_http_get_head[...]
+  1109: 00407160   136 FUNC    GLOBAL DEFAULT   14 compress_file
+  1110: 0046f8c4   748 FUNC    GLOBAL DEFAULT   14 mg_http_creds
+  1111: 004895e8    72 FUNC    GLOBAL DEFAULT   14 cJSON_ParseWithLength
+  1112: 004608d8   292 FUNC    GLOBAL DEFAULT   14 ordered_dict_copy
+  1113: 0048ba0c   128 FUNC    GLOBAL DEFAULT   14 cJSON_AddFalseTo[...]
+  1114: 0045f3e0   404 FUNC    GLOBAL DEFAULT   14 memory_monitor
+  1115: 00403e3c   104 FUNC    GLOBAL DEFAULT   14 server_reg_endpoint
+  1116: 0048d1a8    68 FUNC    GLOBAL DEFAULT   14 cJSON_Duplicate
+  1117: 0040679c   872 FUNC    GLOBAL DEFAULT   14 config_get_files[...]
+  1118: 00484ba0   244 FUNC    GLOBAL DEFAULT   14 mg_random
+  1119: 0048e1b0  1144 FUNC    GLOBAL HIDDEN    14 __divdi3
+  1120: 0046a54c   324 FUNC    GLOBAL DEFAULT   14 mg_file_read
+  1121: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_ini[...]
+  1122: 0046aa00   112 FUNC    GLOBAL DEFAULT   14 mg_unpacked
+  1123: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_create@@[...]
+  1124: 00484a64   216 FUNC    GLOBAL DEFAULT   14 mg_url_pass
+  1125: 00430204   676 FUNC    GLOBAL DEFAULT   14 history_send_his[...]
+  1126: 004684fc   144 FUNC    GLOBAL DEFAULT   14 mg_error
+  1127: 0046bf54   288 FUNC    GLOBAL DEFAULT   14 mg_http_var
+  1128: 00483044    40 FUNC    GLOBAL DEFAULT   14 mg_tls_handshake
+  1129: 00000000     0 FUNC    GLOBAL DEFAULT  UND regexec@@GLIBC_2.3.4
+  1130: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_free
+  1131: 004619a0   108 FUNC    GLOBAL DEFAULT   14 check_file_exist
+  1132: 00467644   644 FUNC    GLOBAL DEFAULT   14 mg_dns_parse_rr
+  1133: 00414588   440 FUNC    GLOBAL DEFAULT   14 construction_path_st
+  1134: 0042d110   196 FUNC    GLOBAL DEFAULT   14 process_merged_events
+  1135: 00481b40   284 FUNC    GLOBAL DEFAULT   14 mg_strcmp
+  1136: 004a1060     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND free@@GLIBC_2.0
+  1137: 0046a998    64 FUNC    GLOBAL DEFAULT   14 mg_unpack
+  1138: 0048135c   288 FUNC    GLOBAL DEFAULT   14 mg_wakeup_init
+  1139: 004794c0    40 FUNC    GLOBAL DEFAULT   14 mg_ota_crc32
+  1140: 0045d860   244 FUNC    GLOBAL DEFAULT   14 circular_queue_create
+  1141: 0045efd0   260 FUNC    GLOBAL DEFAULT   14 list_contains
+  1142: 0047b048   480 FUNC    GLOBAL DEFAULT   14 mg_rpc_verr
+  1143: 0042b544   520 FUNC    GLOBAL DEFAULT   14 setup_initial_watches
+  1144: 0048bd58   128 FUNC    GLOBAL DEFAULT   14 cJSON_AddArrayTo[...]
+  1145: 0047ae9c   336 FUNC    GLOBAL DEFAULT   14 mg_rpc_vok
+  1146: 0048f400    32 FUNC    WEAK   HIDDEN    14 lstat
+  1147: 004663d8    60 FUNC    GLOBAL DEFAULT   14 log_set_quiet
+  1148: 004740f0   120 FUNC    GLOBAL DEFAULT   14 mg_md5_init
+  1149: 0045c9a0   548 FUNC    GLOBAL DEFAULT   14 base_provider_init
+  1150: 00473094   172 FUNC    GLOBAL DEFAULT   14 mg_json_get_tok
+  1151: 0048f3d0    32 FUNC    WEAK   HIDDEN    14 fstat
+  1152: 0045cbc4   244 FUNC    GLOBAL DEFAULT   14 systemd_cli_prov[...]
+  1153: 004847a8   104 FUNC    GLOBAL DEFAULT   14 mg_url_uri
+  1154: 00479538   220 FUNC    GLOBAL DEFAULT   14 mg_queue_vprintf
+  1155: 0048f460    36 FUNC    GLOBAL DEFAULT   16 mg_ota_boot
+  1156: 0048c740   304 FUNC    GLOBAL DEFAULT   14 cJSON_CreateNumber
+  1157: 00485178   368 FUNC    GLOBAL DEFAULT   14 mg_check_ip_acl
+  1158: 00405498   228 FUNC    GLOBAL DEFAULT   14 config_has_option
+  1159: 004671c4    52 FUNC    GLOBAL DEFAULT   14 mg_flash_load
+  1160: 0044abd8   568 FUNC    GLOBAL DEFAULT   14 replace_pattern_[...]
+  1161: 0040c7b4   340 FUNC    GLOBAL DEFAULT   14 data_store_free
+  1162: 004609fc   208 FUNC    GLOBAL DEFAULT   14 ordered_dict_iterate
+  1163: 0048c61c    88 FUNC    GLOBAL DEFAULT   14 cJSON_CreateTrue
+  1164: 00463308    88 FUNC    GLOBAL DEFAULT   14 web_request_send[...]
+  1165: 00000000     0 FUNC    GLOBAL DEFAULT  UND clock@@GLIBC_2.0
+  1166: 00466590    72 FUNC    GLOBAL DEFAULT   14 log_add_fp
+  1167: 00489870    68 FUNC    GLOBAL DEFAULT   14 cJSON_Print
+  1168: 00000000     0 FUNC    GLOBAL DEFAULT  UND epoll_create1@@G[...]
+  1169: 0048bdd8   288 FUNC    GLOBAL DEFAULT   14 cJSON_DetachItem[...]
+  1170: 0048cd4c   388 FUNC    GLOBAL DEFAULT   14 cJSON_CreateFloa[...]
+  1171: 0043dd10   112 FUNC    GLOBAL DEFAULT   14 klippy_send_requ[...]
+  1172: 0047133c   112 FUNC    GLOBAL DEFAULT   14 mg_iobuf_init
+  1173: 00000000     0 FUNC    GLOBAL DEFAULT  UND strncmp@@GLIBC_2.0
+  1174: 0048c5c4    88 FUNC    GLOBAL DEFAULT   14 cJSON_CreateNull
+  1175: 00000000     0 FUNC    GLOBAL DEFAULT  UND qsort@@GLIBC_2.0
+  1176: 0048c870   164 FUNC    GLOBAL DEFAULT   14 cJSON_CreateString
+  1177: 0047a770   376 FUNC    GLOBAL DEFAULT   14 mg_queue_book
+  1178: 004669d0   488 FUNC    GLOBAL DEFAULT   14 mg_base64_update
+  1179: 00000000     0 FUNC    GLOBAL DEFAULT  UND regcomp@@GLIBC_2.0
+  1180: 004852e8   284 FUNC    GLOBAL DEFAULT   14 mg_path_is_sane
+  1181: 0048da5c    84 FUNC    GLOBAL DEFAULT   14 cJSON_IsNull
+  1182: 00484810   336 FUNC    GLOBAL DEFAULT   14 mg_url_port
+  1183: 0045e44c   168 FUNC    GLOBAL DEFAULT   14 start_thread
+  1184: 0043d968   936 FUNC    GLOBAL DEFAULT   14 klippy_send_request
+  1185: 004770f8   644 FUNC    GLOBAL DEFAULT   14 mg_mqtt_pub
+  1186: 00463360  1800 FUNC    GLOBAL DEFAULT   14 conn_send_iobuf
+  1187: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_exec
+  1188: 00460d2c   476 FUNC    GLOBAL DEFAULT   14 ringbuf_pop
+  1189: 00479950   104 FUNC    GLOBAL DEFAULT   14 mg_vmprintf
+  1190: 00410754   368 FUNC    GLOBAL DEFAULT   14 cjson_get_type_string
+  1191: 0040a830   360 FUNC    GLOBAL DEFAULT   14 server_unregiste[...]
+  1192: 0047f6ac   424 FUNC    GLOBAL DEFAULT   14 mg_io_send
+  1193: 0048eee0  1020 FUNC    GLOBAL HIDDEN    14 __umoddi3
+  1194: 00444ee0   544 FUNC    GLOBAL DEFAULT   14 klippy_api_start[...]
+  1195: 0048c3a8   116 FUNC    GLOBAL DEFAULT   14 cJSON_ReplaceIte[...]
+  1196: 00467084    36 FUNC    GLOBAL DEFAULT   14 mg_flash_sector_size
+  1197: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcasecmp@@GLIBC_2.0
+  1198: 0048c05c    80 FUNC    GLOBAL DEFAULT   14 cJSON_DeleteItem[...]
+  1199: 0044b778   412 FUNC    GLOBAL DEFAULT   14 regex_find_float
+  1200: 004b18c0     0 OBJECT  GLOBAL DEFAULT   25 __data_start
+  1201: 0047aa14    72 FUNC    GLOBAL DEFAULT   14 mg_queue_del
+  1202: 00000000     0 FUNC    GLOBAL DEFAULT  UND epoll_ctl@@GLIBC[...]
+  1203: 004895a8    64 FUNC    GLOBAL DEFAULT   14 cJSON_Parse
+  1204: 004b3eec     0 NOTYPE  GLOBAL DEFAULT   29 _end
+  1205: 00479614    96 FUNC    GLOBAL DEFAULT   14 mg_queue_printf
+  1206: 004058e4   456 FUNC    GLOBAL DEFAULT   14 config_get_option_int
+  1207: 00417410  1296 FUNC    GLOBAL DEFAULT   14 add_zip_archive
+  1208: 00403f10   156 FUNC    GLOBAL DEFAULT   14 server_free_endpoints
+  1209: 00464860   692 FUNC    GLOBAL DEFAULT   14 web_request_get_[...]
+  1210: 0042b840   248 FUNC    GLOBAL DEFAULT   14 should_ignore
+  1211: 00489360   584 FUNC    GLOBAL DEFAULT   14 cJSON_ParseWithL[...]
+  1212: 0048bcd8   128 FUNC    GLOBAL DEFAULT   14 cJSON_AddObjectT[...]
+  1213: 004b1cd8     4 OBJECT  GLOBAL DEFAULT   29 optind@@GLIBC_2.0
+  1214: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcspn@@GLIBC_2.0
+  1215: 0042af90   528 FUNC    GLOBAL DEFAULT   14 remove_watch_rec[...]
+  1216: 00000000     0 FUNC    GLOBAL DEFAULT  UND opendir@@GLIBC_2.0
+  1217: 00415b60  1824 FUNC    GLOBAL DEFAULT   14 get_directory_in[...]
+  1218: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_step
+  1219: 0040ab70   164 FUNC    GLOBAL DEFAULT   14 server_get_webso[...]
+  1220: 00463028   184 FUNC    GLOBAL DEFAULT   14 web_request_free
+  1221: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_join@@GL[...]
+  1222: 004589e8  1652 FUNC    GLOBAL DEFAULT   14 get_slicer
+  1223: 00480408   892 FUNC    GLOBAL DEFAULT   14 mg_connect_resolved
+  1224: 00479cd0   100 FUNC    GLOBAL DEFAULT   14 mg_print_ip6
+  1225: 00479498    40 FUNC    GLOBAL DEFAULT   14 mg_ota_status
+  1226: 0046cddc  1372 FUNC    GLOBAL DEFAULT   14 mg_http_parse
+  1227: 00408d10   960 FUNC    GLOBAL DEFAULT   14 server_run
+  1228: 00000000     0 FUNC    GLOBAL DEFAULT  UND closedir@@GLIBC_2.0
+  1229: 00477e18   224 FUNC    GLOBAL DEFAULT   14 mg_mqtt_disconnect
+  1230: 004622c8   412 FUNC    GLOBAL DEFAULT   14 trim_character
+  1231: 0041ef50  1196 FUNC    GLOBAL DEFAULT   14 udisk_node_dir_call
+  1232: 004641e0   360 FUNC    GLOBAL DEFAULT   14 web_request_get_val
+  1233: 0045d060   292 FUNC    GLOBAL DEFAULT   14 array_append
+  1234: 0040a998   472 FUNC    GLOBAL DEFAULT   14 server_add_warning
+  1235: 0048db04    84 FUNC    GLOBAL DEFAULT   14 cJSON_IsString
+  1236: 0045f574   216 FUNC    GLOBAL DEFAULT   14 start_memory_monitor
+  1237: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_get_color_ty[...]
+  1238: 0044af0c  1212 FUNC    GLOBAL DEFAULT   14 regex_find_floats
+  1239: 0043b340   108 FUNC    GLOBAL DEFAULT   14 job_state_free
+  1240: 00000000     0 FUNC    GLOBAL DEFAULT  UND timer_create@@GL[...]
+  1241: 0043dd80   112 FUNC    GLOBAL DEFAULT   14 klippy_send_requ[...]
+  1242: 00000000     0 FUNC    GLOBAL DEFAULT  UND SHA256_Update@@O[...]
+  1243: 0045fa4c   956 FUNC    GLOBAL DEFAULT   14 ordered_dict_add
+  1244: 00000000     0 FUNC    GLOBAL DEFAULT  UND printf@@GLIBC_2.0
+  1245: 0041dca4   516 FUNC    GLOBAL DEFAULT   14 uploads_rx_free_task
+  1246: 0042c7b0  1904 FUNC    GLOBAL DEFAULT   14 handle_file_event
+  1247: 0048f400    32 FUNC    GLOBAL HIDDEN    14 __lstat
+  1248: 00000000     0 FUNC    GLOBAL DEFAULT  UND dirname@@GLIBC_2.0
+  1249: 00000000     0 FUNC    GLOBAL DEFAULT  UND strerror@@GLIBC_2.0
+  1250: 0048c674    88 FUNC    GLOBAL DEFAULT   14 cJSON_CreateFalse
+  1251: 00416760   584 FUNC    GLOBAL DEFAULT   14 create_directory[...]
+  1252: 0044a058  1156 FUNC    GLOBAL DEFAULT   14 init_gcode_metad[...]
+  1253: 0040c480   820 FUNC    GLOBAL DEFAULT   14 data_store_init
+  1254: 00471048   116 FUNC    GLOBAL DEFAULT   14 mg_http_connect
+  1255: 0042f5d0  1012 FUNC    GLOBAL DEFAULT   14 history_finish_job
+  1256: 00476be4  1300 FUNC    GLOBAL DEFAULT   14 mg_mqtt_login
+  1257: 00477fb0   128 FUNC    GLOBAL DEFAULT   14 mg_mqtt_listen
+  1258: 0046c074   340 FUNC    GLOBAL DEFAULT   14 mg_http_get_var
+  1259: 00000000     0 FUNC    GLOBAL DEFAULT  UND uname@@GLIBC_2.0
+  1260: 0048b59c    64 FUNC    GLOBAL DEFAULT   14 cJSON_AddItemToArray
+  1261: 00416280   400 FUNC    GLOBAL DEFAULT   14 free_directory_i[...]
+  1262: 004169a8   952 FUNC    GLOBAL DEFAULT   14 copy_folder_recursive
+  1263: 0048b764    84 FUNC    GLOBAL DEFAULT   14 cJSON_AddItemToObject
+  1264: 00475d40   280 FUNC    GLOBAL DEFAULT   14 mg_mqtt_send_header
+  1265: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_close
+  1266: 004b1cc8     0 NOTYPE  GLOBAL DEFAULT   29 __bss_start
+  1267: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_tim[...]
+  1268: 0047a58c   184 FUNC    GLOBAL DEFAULT   14 mg_print_esc
+  1269: 00461050   284 FUNC    GLOBAL DEFAULT   14 create_set
+  1270: 0044a7c8   204 FUNC    GLOBAL DEFAULT   14 reverse_string
+  1271: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpeername@@GLI[...]
+  1272: 0048d914    80 FUNC    GLOBAL DEFAULT   14 cJSON_IsInvalid
+  1273: 00000000     0 FUNC    GLOBAL DEFAULT  UND regfree@@GLIBC_2.0
+  1274: 00000000     0 FUNC    GLOBAL DEFAULT  UND feof@@GLIBC_2.0
+  1275: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtok@@GLIBC_2.0
+  1276: 00000000     0 FUNC    GLOBAL DEFAULT  UND puts@@GLIBC_2.0
+  1277: 0040fb0c   780 FUNC    GLOBAL DEFAULT   14 database_delete_item
+  1278: 0045ec84   100 FUNC    GLOBAL DEFAULT   14 linked_list_destroy
+  1279: 00481d98   988 FUNC    GLOBAL DEFAULT   14 mg_match
+  1280: 00483154    40 FUNC    GLOBAL DEFAULT   14 mg_tls_pending
+  1281: 00449a60   520 FUNC    GLOBAL DEFAULT   14 get_gcode_metada[...]
+  1282: 0046bd08   588 FUNC    GLOBAL DEFAULT   14 mg_http_bauth
+  1283: 0048f2e0   164 FUNC    GLOBAL DEFAULT   14 __libc_csu_init
+  1284: 004815c0   652 FUNC    GLOBAL DEFAULT   14 mg_mgr_poll
+  1285: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtoll@@GLIBC_2.0
+  1286: 00449200   444 FUNC    GLOBAL DEFAULT   14 write_gcode_meta[...]
+  1287: 004737fc   432 FUNC    GLOBAL DEFAULT   14 mg_json_get_hex
+  1288: 0046a690   324 FUNC    GLOBAL DEFAULT   14 mg_file_write
+  1289: 004846d4   212 FUNC    GLOBAL DEFAULT   14 mg_url_host
+  1290: 0042b938   996 FUNC    GLOBAL DEFAULT   14 handle_mounts_event
+  1291: 00000000     0 FUNC    GLOBAL DEFAULT  UND execl@@GLIBC_2.0
+  1292: 00000000     0 FUNC    GLOBAL DEFAULT  UND getpwuid@@GLIBC_2.0
+  1293: 00000000     0 FUNC    GLOBAL DEFAULT  UND atoi@@GLIBC_2.0
+  1294: 0042e95c   220 FUNC    GLOBAL DEFAULT   14 history_free
+  1295: 0044ae10   252 FUNC    GLOBAL DEFAULT   14 merger_pattern_str
+  1296: 00468464   152 FUNC    GLOBAL DEFAULT   14 mg_call
+  1297: 00000000     0 FUNC    GLOBAL DEFAULT  UND sendto@@GLIBC_2.0
+  1298: 00482ffc    72 FUNC    GLOBAL DEFAULT   14 mg_tls_init
+  1299: 0043d030   228 FUNC    GLOBAL DEFAULT   14 klippy_wait_started
+  1300: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_rwlock_u[...]
+  1301: 0048ba8c   136 FUNC    GLOBAL DEFAULT   14 cJSON_AddBoolToObject
+  1302: 00485580   104 FUNC    GLOBAL DEFAULT   14 mg_ws_printf
+  1303: 00473b64   332 FUNC    GLOBAL DEFAULT   14 mg_log_prefix
+  1304: 00414e94   896 FUNC    GLOBAL DEFAULT   14 get_relative_path
+  1305: 0042ea38   472 FUNC    GLOBAL DEFAULT   14 history_add_job
+  1306: 00000000     0 FUNC    GLOBAL DEFAULT  UND timer_settime@@G[...]
+  1307: 00479328   176 FUNC    GLOBAL DEFAULT   14 mg_mgr_init
+  1308: 004822f8  2128 FUNC    GLOBAL DEFAULT   14 mg_str_to_num
+  1309: 00000000     0 FUNC    GLOBAL DEFAULT  UND popen@@GLIBC_2.2
+  1310: 0048b328    68 FUNC    GLOBAL DEFAULT   14 cJSON_GetObjectI[...]
+  1311: 0045dbe0   224 FUNC    GLOBAL DEFAULT   14 circular_queue_d[...]
+  1312: 0047e854   588 FUNC    GLOBAL DEFAULT   14 mg_hmac_sha256
+  1313: 0048704c    88 FUNC    GLOBAL DEFAULT   14 cJSON_Version
+  1314: 00479a14    72 FUNC    GLOBAL DEFAULT   14 mg_pfn_stdout
+  1315: 00486568   300 FUNC    GLOBAL DEFAULT   14 mg_ws_upgrade
+  1316: 0043ad94   556 FUNC    GLOBAL DEFAULT   14 queued_job_create
+  1317: 00444878   368 FUNC    GLOBAL DEFAULT   14 klippy_api_regis[...]
+  1318: 0045a640  1024 FUNC    GLOBAL DEFAULT   14 proc_stats_get_status
+  1319: 00000000     0 FUNC    GLOBAL DEFAULT  UND difftime@@GLIBC_2.0
+  1320: 004a006c    32 OBJECT  GLOBAL DEFAULT   18 X25519_BASE_POINT
+  1321: 0042adc8   456 FUNC    GLOBAL DEFAULT   14 add_watch_resursive
+  1322: 0047dda4   196 FUNC    GLOBAL DEFAULT   14 mg_sha256_init
+  1323: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_set_IHDR@@PNG16_0
+  1324: 00000000     0 FUNC    GLOBAL DEFAULT  UND memset@@GLIBC_2.0
+  1325: 00000000     0 FUNC    GLOBAL DEFAULT  UND putchar@@GLIBC_2.0
+  1326: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_open
+  1327: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_self@@GL[...]
+  1328: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_finalize
+  1329: 0048b04c   128 FUNC    GLOBAL DEFAULT   14 cJSON_GetArraySize
+  1330: 0040c1cc    64 FUNC    GLOBAL DEFAULT   14 authorization_free
+  1331: 00443ee0  1900 FUNC    GLOBAL DEFAULT   14 klippy_api_subsc[...]
+  1332: 00477dd0    72 FUNC    GLOBAL DEFAULT   14 mg_mqtt_pong
+  1333: 00478d54   300 FUNC    GLOBAL DEFAULT   14 mg_connect
+  1334: 0046fef8  1032 FUNC    GLOBAL DEFAULT   14 mg_http_upload
+  1335: 0044a894   408 FUNC    GLOBAL DEFAULT   14 get_uuid
+  1336: 004790c8   172 FUNC    GLOBAL DEFAULT   14 mg_timer_add
+  1337: 00412938   888 FUNC    GLOBAL DEFAULT   14 calculate_sha256_file
+  1338: 0048f3a0    32 FUNC    WEAK   HIDDEN    14 stat
+  1339: 0041304c  2120 FUNC    GLOBAL DEFAULT   14 get_sort_path_item
+  1340: 004077cc   136 FUNC    GLOBAL DEFAULT   14 print_help
+  1341: 0045dea8   188 FUNC    GLOBAL DEFAULT   14 klippy_state_to_[...]
+  1342: 00000000     0 FUNC    GLOBAL DEFAULT  UND qsort_r@@GLIBC_2.8
+  1343: 0048b810   108 FUNC    GLOBAL DEFAULT   14 cJSON_AddItemRef[...]
+  1344: 00000000     0 FUNC    GLOBAL DEFAULT  UND strftime@@GLIBC_2.0
+  1345: 00000000     0 FUNC    GLOBAL DEFAULT  UND recv@@GLIBC_2.0
+  1346: 00487968   432 FUNC    GLOBAL DEFAULT   14 cJSON_SetValuestring
+  1347: 00000000     0 FUNC    GLOBAL DEFAULT  UND remove@@GLIBC_2.0
+  1348: 004051b8   384 FUNC    GLOBAL DEFAULT   14 config_helper_init
+  1349: 0041e288  3272 FUNC    GLOBAL DEFAULT   14 download_files
+  1350: 00479474    36 FUNC    GLOBAL DEFAULT   14 mg_ota_rollback
+  1351: 004898b4    68 FUNC    GLOBAL DEFAULT   14 cJSON_PrintUnfor[...]
+  1352: 0048147c   324 FUNC    GLOBAL DEFAULT   14 mg_wakeup
+  1353: 0046c264   584 FUNC    GLOBAL DEFAULT   14 mg_url_decode
+  1354: 0047b3a8    88 FUNC    GLOBAL DEFAULT   14 mg_rpc_list
+  1355: 0047596c   532 FUNC    GLOBAL DEFAULT   14 mg_md5_update
+  1356: 0040f7b8   852 FUNC    GLOBAL DEFAULT   14 database_post_item
+  1357: 0045eb94   240 FUNC    GLOBAL DEFAULT   14 linked_list_clear
+  1358: 00449f58   256 FUNC    GLOBAL DEFAULT   14 del_gcode_metadata
+  1359: 00418bd4  1704 FUNC    GLOBAL DEFAULT   14 del_parse_metadata
+  1360: 00406bac   452 FUNC    GLOBAL DEFAULT   14 log_init
+  1361: 004148b0   380 FUNC    GLOBAL DEFAULT   14 m_construction_path
+  1362: 0048dc54  1204 FUNC    GLOBAL DEFAULT   14 cJSON_Compare
+  1363: 004630e0   552 FUNC    GLOBAL DEFAULT   14 web_request_send[...]
+  1364: 004767e4  1024 FUNC    GLOBAL DEFAULT   14 mg_mqtt_next_prop
+  1365: 0047e2d4   248 FUNC    GLOBAL DEFAULT   14 mg_sha256_update
+  1366: 00000000     0 FUNC    GLOBAL DEFAULT  UND listen@@GLIBC_2.0
+  1367: 00437f50   172 FUNC    GLOBAL DEFAULT   14 job_queue_free
+  1368: 00000000     0 FUNC    GLOBAL DEFAULT  UND snprintf@@GLIBC_2.0
+  1369: 00477ef8   184 FUNC    GLOBAL DEFAULT   14 mg_mqtt_connect
+  1370: 0041281c   284 FUNC    GLOBAL DEFAULT   14 stristr
+  1371: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_mutex_tr[...]
+  1372: 00419c30   756 FUNC    GLOBAL DEFAULT   14 upload_clear_for[...]
+  1373: 00479224   260 FUNC    GLOBAL DEFAULT   14 mg_mgr_free
+  1374: 00478030   116 FUNC    GLOBAL DEFAULT   14 mg_vprintf
+  1375: 00000000     0 FUNC    GLOBAL DEFAULT  UND SHA256_Init@@OPE[...]
+  1376: 00000000     0 FUNC    GLOBAL DEFAULT  UND close@@GLIBC_2.0
+  1377: 0045dfb8   356 FUNC    GLOBAL DEFAULT   14 result_ok_fmt
+  1378: 00000000     0 FUNC    GLOBAL DEFAULT  UND dup2@@GLIBC_2.0
+  1379: 0045e694   124 FUNC    GLOBAL DEFAULT   14 linked_list_count
+  1380: 00477d88    72 FUNC    GLOBAL DEFAULT   14 mg_mqtt_ping
+  1381: 0046c688   268 FUNC    GLOBAL DEFAULT   14 mg_http_get_header
+  1382: 0047eaa0    88 FUNC    GLOBAL DEFAULT   14 mg_now
+  1383: 00000000     0 FUNC    GLOBAL DEFAULT  UND read@@GLIBC_2.0
+  1384: 0046224c   124 FUNC    GLOBAL DEFAULT   14 compare_double
+  1385: 00466da8   660 FUNC    GLOBAL DEFAULT   14 mg_base64_decode
+  1386: 004b1ce0     4 OBJECT  GLOBAL DEFAULT   29 optarg@@GLIBC_2.0
+  1387: 00402fc0  1720 FUNC    GLOBAL DEFAULT   14 app_cb
+  1388: 00486fac   160 FUNC    GLOBAL DEFAULT   14 cJSON_GetNumberValue
+  1389: 00459988   176 FUNC    GLOBAL DEFAULT   14 metadata_free
+  1390: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_config
+  1391: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_open
+  1392: 00000000     0 FUNC    GLOBAL DEFAULT  UND abort@@GLIBC_2.0
+  1393: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_create_info_[...]
+  1394: 00482e60   412 FUNC    GLOBAL DEFAULT   14 mg_timer_poll
+  1395: 0040ffa4   368 FUNC    GLOBAL DEFAULT   14 create_table
+  1396: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_deregisterT[...]
+  1397: 004b1d80     1 OBJECT  GLOBAL DEFAULT   29 is_memory_monitoring
+  1398: 00467190    52 FUNC    GLOBAL DEFAULT   14 mg_flash_save
+  1399: 0048cb14    88 FUNC    GLOBAL DEFAULT   14 cJSON_CreateArray
+  1400: 00000000     0 FUNC    GLOBAL DEFAULT  UND vfprintf@@GLIBC_2.0
+  1401: 00463ba8   404 FUNC    GLOBAL DEFAULT   14 web_request_get_[...]
+  1402: 00443a70   312 FUNC    GLOBAL DEFAULT   14 klippy_api_get_k[...]
+  1403: 00487264   300 FUNC    GLOBAL DEFAULT   14 cJSON_InitHooks
+  1404: 00000000     0 FUNC    GLOBAL DEFAULT  UND sqlite3_column_count
+  1405: 0044bf50  1020 FUNC    GLOBAL DEFAULT   14 regex_find_max_float
+  1406: 0042c070  1856 FUNC    GLOBAL DEFAULT   14 handle_directory[...]
+  1407: 0046a434   172 FUNC    GLOBAL DEFAULT   14 mg_fs_open
+  1408: 0046a9d8    40 FUNC    GLOBAL DEFAULT   14 mg_unlist
+  1409: 00475b80   448 FUNC    GLOBAL DEFAULT   14 mg_md5_final
+  1410: 0048f384     8 FUNC    GLOBAL DEFAULT   14 __libc_csu_fini
+  1411: 00000000     0 FUNC    GLOBAL DEFAULT  UND inotify_init@@GL[...]
+  1412: 00478fc8   256 FUNC    GLOBAL DEFAULT   14 mg_wrapfd
+  1413: 0042f2b8   792 FUNC    GLOBAL DEFAULT   14 history_delete_job
+  1414: 00485d74   240 FUNC    GLOBAL DEFAULT   14 mg_ws_send
+  1415: 0045f820   556 FUNC    GLOBAL DEFAULT   14 ordered_dict_resize
+  1416: 00000000     0 FUNC    GLOBAL DEFAULT  UND memmove@@GLIBC_2.0
+  1417: 0040f324  1172 FUNC    GLOBAL DEFAULT   14 database_get_item
+  1418: 00410348   272 FUNC    GLOBAL DEFAULT   14 cjson_get_nested[...]
+  1419: 004597f4   404 FUNC    GLOBAL DEFAULT   14 metadata_init
+  1420: 00478b5c   184 FUNC    GLOBAL DEFAULT   14 mg_alloc_conn
+  1421: 0043d858   272 FUNC    GLOBAL DEFAULT   14 klippy_unregiste[...]
+  1422: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_attr_ini[...]
+  1423: 00000000     0 FUNC    GLOBAL DEFAULT  UND zip_dir_add
+  1424: 00000000     0 FUNC    GLOBAL DEFAULT  UND rmdir@@GLIBC_2.0
+  1425: 004090d0   104 FUNC    GLOBAL DEFAULT   14 server_stop
+  1426: 0047e3cc  1160 FUNC    GLOBAL DEFAULT   14 mg_sha256_final
+  1427: 004438f0   192 FUNC    GLOBAL DEFAULT   14 klippy_api_list_[...]
+  1428: 0040c0a0   300 FUNC    GLOBAL DEFAULT   14 authorization_init
+  1429: 0048dab0    84 FUNC    GLOBAL DEFAULT   14 cJSON_IsNumber
+  1430: 00000000     0 FUNC    GLOBAL DEFAULT  UND unlink@@GLIBC_2.0
+  1431: 004b1990    40 OBJECT  GLOBAL DEFAULT   25 slicer_table
+  1432: 00413d00   136 FUNC    GLOBAL DEFAULT   14 is_directory_empty
+  1433: 00482bec   136 FUNC    GLOBAL DEFAULT   14 mg_timer_free
+  1434: 00000000     0 FUNC    GLOBAL DEFAULT  UND kill@@GLIBC_2.0
+  1435: 004b1ca0     0 OBJECT  GLOBAL HIDDEN    27 _GLOBAL_OFFSET_TABLE_
+  1436: 00461a0c  1504 FUNC    GLOBAL DEFAULT   14 exec_command_sync
+  1437: 0043afc0   228 FUNC    GLOBAL DEFAULT   14 queued_job_free
+  1438: 0045ead0   196 FUNC    GLOBAL DEFAULT   14 linked_list_foreach
+  1439: 0045f198   320 FUNC    GLOBAL DEFAULT   14 list_sort
+  1440: 0045c200   192 FUNC    GLOBAL DEFAULT   14 pstats_register_[...]
+  1441: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_init_io@@PNG16_0
+  1442: 0047b228    96 FUNC    GLOBAL DEFAULT   14 mg_rpc_err
+  1443: 00000000     0 FUNC    GLOBAL DEFAULT  UND system@@GLIBC_2.0
+  1444: 00479400    44 FUNC    GLOBAL DEFAULT   14 mg_ota_write
+  1445: 0044386c   132 FUNC    GLOBAL DEFAULT   14 klippy_api_free
+  1446: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_attr_set[...]
+  1447: 00000000     0 FUNC    WEAK   DEFAULT  UND __gmon_start__
+  1448: 00468350   276 FUNC    GLOBAL DEFAULT   14 mg_resolve
+  1449: 00000000     0 FUNC    GLOBAL DEFAULT  UND strcpy@@GLIBC_2.0
+  1450: 0040573c   424 FUNC    GLOBAL DEFAULT   14 config_get_optio[...]
+  1451: 00460acc   124 FUNC    GLOBAL DEFAULT   14 ordered_dict_count
+  1452: 0042a990   552 FUNC    GLOBAL DEFAULT   14 add_watch
+  1453: 00466bb8   200 FUNC    GLOBAL DEFAULT   14 mg_base64_final
+  1454: 00459c24   640 FUNC    GLOBAL DEFAULT   14 proc_stats_init
+  1455: 00478aa0   188 FUNC    GLOBAL DEFAULT   14 mg_aton
+  1456: 00000000     0 FUNC    GLOBAL DEFAULT  UND localtime@@GLIBC_2.0
+  1457: 00000000     0 NOTYPE  WEAK   DEFAULT  UND _ITM_registerTMC[...]
+  1458: 0047acf0   428 FUNC    GLOBAL DEFAULT   14 mg_rpc_process
+  1459: 00486ba8   876 FUNC    GLOBAL DEFAULT   14 mg_phy_up
+  1460: 00413d88   188 FUNC    GLOBAL DEFAULT   14 get_parent_dir
+  1461: 0041e114   164 FUNC    GLOBAL DEFAULT   14 upd_dict_Iterate[...]
+  1462: 0048184c    84 FUNC    GLOBAL DEFAULT   14 mg_http_serve_ssi
+  1463: 0048c52c    76 FUNC    GLOBAL DEFAULT   14 cJSON_ReplaceIte[...]
+  1464: 00414a2c   476 FUNC    GLOBAL DEFAULT   14 file_check_file_[...]
+  1465: 00000000     0 FUNC    GLOBAL DEFAULT  UND pthread_cond_des[...]
+  1466: 00407854   648 FUNC    GLOBAL DEFAULT   14 check_uuid_file
+  1467: 0047da48   432 FUNC    GLOBAL DEFAULT   14 mg_sha1_update
+  1468: 00419510   660 FUNC    GLOBAL DEFAULT   14 del_parse_metada[...]
+  1469: 00481c5c   316 FUNC    GLOBAL DEFAULT   14 mg_strcasecmp
+  1470: 00414740   368 FUNC    GLOBAL DEFAULT   14 construction_path
+  1471: 0045f0d4   196 FUNC    GLOBAL DEFAULT   14 list_print
+  1472: 0042fa6c   460 FUNC    GLOBAL DEFAULT   14 history_grab_job[...]
+  1473: 0043cd14   340 FUNC    GLOBAL DEFAULT   14 klippy_send
+  1474: 0047d9b8   144 FUNC    GLOBAL DEFAULT   14 mg_sha1_init
+  1475: 0042dff8   936 FUNC    GLOBAL DEFAULT   14 file_api_init
+  1476: 0043d600   600 FUNC    GLOBAL DEFAULT   14 klippy_register_[...]
+  1477: 00413894   260 FUNC    GLOBAL DEFAULT   14 is_gcode_file
+  1478: 00000000     0 FUNC    GLOBAL DEFAULT  UND strtod@@GLIBC_2.0
+  1479: 0045d474   508 FUNC    GLOBAL DEFAULT   14 array_remove
+  1480: 00473d90   676 FUNC    GLOBAL DEFAULT   14 mg_hexdump
+  1481: 00443710   348 FUNC    GLOBAL DEFAULT   14 klippy_api_init
+  1482: 0045dcc0   256 FUNC    GLOBAL DEFAULT   14 circular_queue_t[...]
+  1483: 0047a644    92 FUNC    GLOBAL DEFAULT   14 mg_queue_init
+  1484: 0047a9b4    96 FUNC    GLOBAL DEFAULT   14 mg_queue_add
+  1485: 0042b408   316 FUNC    GLOBAL DEFAULT   14 is_udisk_mounted
+  1486: 00418680   680 FUNC    GLOBAL DEFAULT   14 add_parse_metadata
+  1487: 00000000     0 FUNC    GLOBAL DEFAULT  UND png_get_image_he[...]
+  1488: 004a1510     0 FUNC    GLOBAL DEFAULT [MIPS PLT]   UND realloc@@GLIBC_2.0
+  1489: 0048d1ec   732 FUNC    GLOBAL DEFAULT   14 cJSON_Duplicate_rec
+  1490: 00000000     0 FUNC    GLOBAL DEFAULT  UND bind@@GLIBC_2.0
+  1491: 00000000     0 FUNC    GLOBAL DEFAULT  UND ftell@@GLIBC_2.0
+  1492: 00000000     0 FUNC    GLOBAL DEFAULT  UND timer_delete@@GL[...]
+  1493: 0048b90c   128 FUNC    GLOBAL DEFAULT   14 cJSON_AddNullToObject

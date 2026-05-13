@@ -1,0 +1,559 @@
+[Strings]
+nth paddr      vaddr      len size section type    string
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+0   0x0005d614 0x0045d614 41  42   .rodata ascii   basic_string::_M_construct null not valid
+1   0x0005d640 0x0045d640 14  15   .rodata ascii   cleanup start.
+2   0x0005d650 0x0045d650 12  13   .rodata ascii   cleanup end.
+3   0x0005d660 0x0045d660 286 287  .rodata ascii   {help h|| solusp }{systemPath s || systemPath eg. --systemPath=/etc/appetc/solusp/ }{usrPath u || usrPath eg. --usrPath=/usr/data/creality/solusp/ }{logPath l || logPath eg. --logPath=/usr/data/printer_data/logs/solusp.log }{klipper_ip k || klipper_ip eg. --klipper_ip=/tmp/klippy_uds }
+4   0x0005d780 0x0045d780 4   5    .rodata ascii   help
+5   0x0005d788 0x0045d788 10  11   .rodata ascii   systemPath
+6   0x0005d794 0x0045d794 7   8    .rodata ascii   usrPath
+7   0x0005d79c 0x0045d79c 7   8    .rodata ascii   logPath
+8   0x0005d7a4 0x0045d7a4 10  11   .rodata ascii   klipper_ip
+9   0x0005d7b0 0x0045d7b0 20  21   .rodata ascii   basic_string::append
+10  0x0005d7c8 0x0045d7c8 24  25   .rodata ascii   config/cx_ai_engine.json
+11  0x0005d7e4 0x0045d7e4 13  14   .rodata ascii   System Path: 
+12  0x0005d7f4 0x0045d7f4 11  12   .rodata ascii   User Path: 
+13  0x0005d800 0x0045d800 10  11   .rodata ascii   Log Path: 
+14  0x0005d80c 0x0045d80c 10  11   .rodata ascii   main start
+15  0x0005d818 0x0045d818 24  25   .rodata ascii   ai_engine_.init() failed
+16  0x0005d834 0x0045d834 7   8    .rodata ascii   /ai_shm
+17  0x0005d83c 0x0045d83c 7   8    .rodata ascii   /ai_sem
+18  0x0005d8f7 0x0045d8f7 21  22   .rodata ascii   ?why have more sps %d
+19  0x0005d910 0x0045d910 107 108  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/captureImg/hs_ai_get_video.cpp
+20  0x0005d97c 0x0045d97c 20  21   .rodata ascii   why have more pps %d
+21  0x0005d994 0x0045d994 27  28   .rodata ascii   idr = %d, sps = %d, pps= %d
+22  0x0005d9b0 0x0045d9b0 24  25   .rodata ascii   invalid input parameters
+23  0x0005d9cc 0x0045d9cc 21  22   .rodata ascii   check_nalu_buf failed
+24  0x0005d9e4 0x0045d9e4 11  12   .rodata ascii   /dev/video2
+25  0x0005d9f0 0x0045d9f0 19  20   .rodata ascii   open decoder failed
+26  0x0005da04 0x0045da04 18  19   .rodata ascii   decode work failed
+27  0x0005da18 0x0045da18 37  38   .rodata ascii   v4l2_h264_decoder_work_release failed
+28  0x0005da40 0x0045da40 14  15   .rodata ascii   scaling failed
+29  0x0005da50 0x0045da50 23  24   .rodata ascii   /sys/class/video4linux/
+30  0x0005da68 0x0045da68 5   6    .rodata ascii   /name
+31  0x0005da70 0x0045da70 10  11   .rodata ascii   felix-vdec
+32  0x0005da7c 0x0045da7c 7   8    .rodata ascii   /dev/%s
+33  0x0005da84 0x0045da84 24  25   .rodata ascii   getDecoderDevName failed
+34  0x0005daa0 0x0045daa0 20  21   .rodata ascii   open decoder_ failed
+35  0x0005dab8 0x0045dab8 33  34   .rodata ascii   Hostserver close AI detection! %s
+36  0x0005dadc 0x0045dadc 30  31   .rodata ascii   report_result success. type:%d
+37  0x0005dafc 0x0045dafc 24  25   .rodata ascii   report_result failed! %s
+38  0x0005db18 0x0045db18 38  39   .rodata ascii   report_status success. stage:%d sta:%d
+39  0x0005db40 0x0045db40 24  25   .rodata ascii   report_status failed! %s
+40  0x0005db5c 0x0045db5c 130 131  .rodata ascii   get_ai_ctrl success. ai_det:%d,isShareData_:%d, sensitivity_:%d, isPrintingFlag_:%d, isFlowPA_:%d, isFlowRatio_:%d, printGcode_:%s
+41  0x0005dbe0 0x0045dbe0 22  23   .rodata ascii   get_ai_ctrl failed! %s
+42  0x0005dbf8 0x0045dbf8 71  72   .rodata ascii   Waiting for new shared memory to be created and AI detection switch ...
+43  0x0005dc40 0x0045dc40 19  20   .rodata ascii   AI detection is on.
+44  0x0005dc54 0x0045dc54 28  29   .rodata ascii   remap_shared_memory fail %s.
+45  0x0005dc74 0x0045dc74 30  31   .rodata ascii   openStreaming success. type:%d
+46  0x0005dc94 0x0045dc94 24  25   .rodata ascii   openStreaming failed! %s
+47  0x0005dcb0 0x0045dcb0 24  25   .rodata ascii   exitStreaming failed! %s
+48  0x0005dccc 0x0045dccc 14  15   .rodata ascii   getNozzleImage
+49  0x0005dcdc 0x0045dcdc 27  28   .rodata ascii   captureImg: frame is empty!
+50  0x0005dcf8 0x0045dcf8 30  31   .rodata ascii   captureImg: frame is empty! %s
+51  0x0005dd18 0x0045dd18 33  34   .rodata ascii   openStreaming failed! retry... %s
+52  0x0005dd3c 0x0045dd3c 18  19   .rodata ascii   HS_AI_CMD_T_PWL...
+53  0x0005dd50 0x0045dd50 33  34   .rodata ascii   mem->cmd = %d , mem->cmd_ste = %d
+54  0x0005dd74 0x0045dd74 33  34   .rodata ascii   Failed to get video streaming! %s
+55  0x0005dd98 0x0045dd98 7   8    .rodata ascii   map::at
+56  0x0005ddcc 0x0045ddcc 14  15   .rodata ascii   exitAllThreads
+57  0x0005dddc 0x0045dddc 13  14   .rodata ascii   exitStreaming
+58  0x0005ddec 0x0045ddec 13  14   .rodata ascii   report_status
+59  0x0005de0e 0x0045de0e 15  16   .rodata ascii   Y@sem_timedwait
+60  0x0005de20 0x0045de20 20  21   .rodata ascii   appRunning_ = false.
+61  0x0005de38 0x0045de38 108 109  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/ai_engine_app/ai_engine_app.cpp
+62  0x0005dea8 0x0045dea8 26  27   .rodata ascii   ai_klipper sendCode failed
+63  0x0005dec4 0x0045dec4 10  11   .rodata ascii   SystemPath
+64  0x0005ded0 0x0045ded0 8   9    .rodata ascii   UserPath
+65  0x0005dedc 0x0045dedc 9   10   .rodata ascii   ai_engine
+66  0x0005dee8 0x0045dee8 8   9    .rodata ascii   FileName
+67  0x0005def4 0x0045def4 5   6    .rodata ascii   AILog
+68  0x0005defc 0x0045defc 10  11   .rodata ascii   ai_images/
+69  0x0005df08 0x0045df08 30  31   .rodata ascii   /usr/data/printer_data/gcodes/
+70  0x0005df28 0x0045df28 23  24   .rodata ascii   gcode/Auto_flowPA.gcode
+71  0x0005df40 0x0045df40 23  24   .rodata ascii   updateFlowPAFile failed
+72  0x0005df58 0x0045df58 23  24   .rodata ascii   gcode/Auto_flowEm.gcode
+73  0x0005df70 0x0045df70 23  24   .rodata ascii   updateFlowEmFile failed
+74  0x0005df88 0x0045df88 5   6    .rodata ascii   ready
+75  0x0005df90 0x0045df90 8   9    .rodata ascii   printing
+76  0x0005df9c 0x0045df9c 6   7    .rodata ascii   paused
+77  0x0005dfa4 0x0045dfa4 83  84   .rodata ascii   currentSubState_: webhook_state:%s, print_state:%s, current_layer:%d, report error.
+78  0x0005e000 0x0045e000 7   8    .rodata ascii   G28 x y
+79  0x0005e008 0x0045e008 5   6    .rodata ascii   G28 z
+80  0x0005e010 0x0045e010 32  33   .rodata ascii   ai_klipper sendCode G28 z failed
+81  0x0005e034 0x0045e034 9   10   .rodata ascii   cancelled
+82  0x0005e040 0x0045e040 10  11   .rodata ascii   cancelling
+83  0x0005e04c 0x0045e04c 8   9    .rodata ascii   complete
+84  0x0005e058 0x0045e058 7   8    .rodata ascii   standby
+85  0x0005e060 0x0045e060 5   6    .rodata ascii   error
+86  0x0005e068 0x0045e068 22  23   .rodata ascii   init gcodeParam failed
+87  0x0005e080 0x0045e080 24  25   .rodata ascii   get flow pa param failed
+88  0x0005e09c 0x0045e09c 20  21   .rodata ascii   get gcode pos failed
+89  0x0005e0b4 0x0045e0b4 66  67   .rodata ascii   pa overlap, model area: xMin:%.2f, xMax:%.2f, yMin:%.2f, yMax:%.2f
+90  0x0005e0f8 0x0045e0f8 24  25   .rodata ascii   get flow em param failed
+91  0x0005e114 0x0045e114 47  48   .rodata ascii   em pos exceed print area: xMin=%.2f, yMin=%.2f.
+92  0x0005e144 0x0045e144 9   10   .rodata ascii   M104 S140
+93  0x0005e150 0x0045e150 8   9    .rodata ascii   M140 S50
+94  0x0005e15c 0x0045e15c 54  55   .rodata ascii   Nozzle camera is abnormal, disable related algorithms.
+95  0x0005e194 0x0045e194 33  34   .rodata ascii   appRunning_ = false, send cancel.
+96  0x0005e1b8 0x0045e1b8 6   7    .rodata ascii   cancel
+97  0x0005e1c0 0x0045e1c0 7   8    .rodata ascii   M104 S0
+98  0x0005e1c8 0x0045e1c8 7   8    .rodata ascii   M140 S0
+99  0x0005e1d0 0x0045e1d0 39  40   .rodata ascii    no platform and foreign matter, pause.
+100 0x0005e1f8 0x0045e1f8 20  21   .rodata ascii    no platform, pause.
+101 0x0005e210 0x0045e210 18  19   .rodata ascii    normal, continue.
+102 0x0005e224 0x0045e224 15  16   .rodata ascii    detect normal.
+103 0x0005e234 0x0045e234 17  18   .rodata ascii    detect error: %d
+104 0x0005e248 0x0045e248 67  68   .rodata ascii   AIPrintingDet completed, and the target is detected, score = %0.2f\n
+105 0x0005e28c 0x0045e28c 34  35   .rodata ascii   print can be paused and reported.\n
+106 0x0005e2b0 0x0045e2b0 38  39   .rodata ascii   print can continue without reporting.\n
+107 0x0005e2d8 0x0045e2d8 17  18   .rodata ascii   printing normal.\n
+108 0x0005e2ec 0x0045e2ec 36  37   .rodata ascii   detect abnormality, please check:%d\n
+109 0x0005e314 0x0045e314 31  32   .rodata ascii   detect completed, and PA=%0.4f\n
+110 0x0005e334 0x0045e334 24  25   .rodata ascii   detect success, continue
+111 0x0005e350 0x0045e350 37  38   .rodata ascii   detect abnormality, please check: %d\n
+112 0x0005e378 0x0045e378 34  35   .rodata ascii   detect completed, flowRatio=%0.4f\n
+113 0x0005e39c 0x0045e39c 44  45   .rodata ascii   completed, print can be paused and reported.
+114 0x0005e3cc 0x0045e3cc 43  44   .rodata ascii   ai_engine_app::printingDet, state not found
+115 0x0005e3f8 0x0045e3f8 18  19   .rodata ascii   detect thread end.
+116 0x0005e40c 0x0045e40c 10  11   .rodata ascii   qrCode.jpg
+117 0x0005e418 0x0045e418 19  20   .rodata ascii   appRunning_ = false
+118 0x0005e42c 0x0045e42c 23  24   .rodata ascii   platform_foreign_frame_
+119 0x0005e444 0x0045e444 4   5    .rodata ascii   .jpg
+120 0x0005e44c 0x0045e44c 31  32   .rodata ascii   platformForeignRun, frame empty
+121 0x0005e46c 0x0045e46c 54  55   .rodata ascii   platformForeignRun, frame empty > 10, report error, %s
+122 0x0005e4a4 0x0045e4a4 31  32   .rodata ascii   frame empty > %d, report error.
+123 0x0005e4c4 0x0045e4c4 12  13   .rodata ascii   Fault detect
+124 0x0005e4d4 0x0045e4d4 15  16   .rodata ascii   fault_frame.jpg
+125 0x0005e4e4 0x0045e4e4 11  12   .rodata ascii   Warp detect
+126 0x0005e4f0 0x0045e4f0 14  15   .rodata ascii   warp_frame.jpg
+127 0x0005e504 0x0045e504 4   5    .rodata ascii   G1 x
+128 0x0005e510 0x0045e510 6   7    .rodata ascii    F8000
+129 0x0005e518 0x0045e518 29  30   .rodata ascii   ai_klipper sendCode %s failed
+130 0x0005e538 0x0045e538 13  14   .rodata ascii   nozzleCamDirt
+131 0x0005e548 0x0045e548 7   8    .rodata ascii    F10000
+132 0x0005e550 0x0045e550 17  18   .rodata ascii   cavityCamDirt.jpg
+133 0x0005e564 0x0045e564 21  22   .rodata ascii   Open file failed: %s.
+134 0x0005e57c 0x0045e57c 22  23   .rodata ascii   ; Flow Detection End y
+135 0x0005e594 0x0045e594 20  21   .rodata ascii   basic_string::substr
+136 0x0005e5ac 0x0045e5ac 54  55   .rodata ascii   %s: __pos (which is %zu) > this->size() (which is %zu)
+137 0x0005e5e4 0x0045e5e4 25  26   .rodata ascii   ; Flow Detection interval
+138 0x0005e600 0x0045e600 30  31   .rodata ascii   ; Flow Detection Photo Start x
+139 0x0005e620 0x0045e620 30  31   .rodata ascii   ; Flow Detection Photo Start y
+140 0x0005e640 0x0045e640 6   7    .rodata ascii   M190 S
+141 0x0005e648 0x0045e648 24  25   .rodata ascii   M190 S%d sendCode failed
+142 0x0005e664 0x0045e664 12  13   .rodata ascii   NOZZLE_CLEAR
+143 0x0005e674 0x0045e674 28  29   .rodata ascii   NOZZLE_CLEAR sendCode failed
+144 0x0005e694 0x0045e694 26  27   .rodata ascii   update flow pa file failed
+145 0x0005e6b0 0x0045e6b0 38  39   .rodata ascii   BED_MESH_CALIBRATE ADAPTIVE=1 MAX_POS=
+146 0x0005e6dc 0x0045e6dc 9   10   .rodata ascii    MIN_POS=
+147 0x0005e6e8 0x0045e6e8 6   7    .rodata ascii   M109 S
+148 0x0005e6f0 0x0045e6f0 24  25   .rodata ascii   M109 S%d sendCode failed
+149 0x0005e70c 0x0045e70c 23  24   .rodata ascii   %s sendGcodeFile failed
+150 0x0005e724 0x0045e724 22  23   .rodata ascii   get photo point failed
+151 0x0005e73c 0x0045e73c 14  15   .rodata ascii   photo point x:
+152 0x0005e754 0x0045e754 26  27   .rodata ascii   move to photo point failed
+153 0x0005e770 0x0045e770 16  17   .rodata ascii   get frame failed
+154 0x0005e784 0x0045e784 7   8    .rodata ascii   flowPA/
+155 0x0005e78c 0x0045e78c 14  15   .rodata ascii   ./FlowIrImage_
+156 0x0005e79c 0x0045e79c 19  20   .rodata ascii   flowCalibDet failed
+157 0x0005e7b0 0x0045e7b0 11  12   .rodata ascii   pa_value:%f
+158 0x0005e7c0 0x0045e7c0 29  30   .rodata ascii   SET_PRESSURE_ADVANCE ADVANCE=
+159 0x0005e7e0 0x0045e7e0 25  26   .rodata ascii   klipperMoveMonitor failed
+160 0x0005e7fc 0x0045e7fc 26  27   .rodata ascii   update flow em file failed
+161 0x0005e818 0x0045e818 7   8    .rodata ascii   flowEM/
+162 0x0005e820 0x0045e820 14  15   .rodata ascii   ./FlowEmImage_
+163 0x0005e830 0x0045e830 19  20   .rodata ascii   flowRatioDet failed
+164 0x0005e844 0x0045e844 6   7    .rodata ascii   M221 S
+165 0x0005e850 0x0045e850 4   5    .rodata ascii   stoi
+166 0x0005e858 0x0045e858 32  33   .rodata ascii   sensorDetRun sensorData is empty
+167 0x0005e87c 0x0045e87c 18  19   .rodata ascii   SensorDet airPaint
+168 0x0005e890 0x0045e890 16  17   .rodata ascii   SensorDet scrape
+169 0x0005e8a4 0x0045e8a4 16  17   .rodata ascii   SensorDet tangle
+170 0x0005e8b8 0x0045e8b8 12  13   .rodata ascii   SensorDetRun
+171 0x0005e8c8 0x0045e8c8 20  21   .rodata ascii   CavityCamDirt detect
+172 0x0005e8e0 0x0045e8e0 22  23   .rodata ascii   PlatformForeign detect
+173 0x0005e8f8 0x0045e8f8 20  21   .rodata ascii   NozzleCamDirt detect
+174 0x0005e910 0x0045e910 13  14   .rodata ascii   FlowPA detect
+175 0x0005e920 0x0045e920 12  13   .rodata ascii   G1 Z10 F5000
+176 0x0005e934 0x0045e934 13  14   .rodata ascii   FlowEM detect
+177 0x0005e944 0x0045e944 45  46   .rodata ascii   isAIDeterctOn_ false, set AIDetectState::None
+178 0x0005e974 0x0045e974 13  14   .rodata ascii   QrCode detect
+179 0x0005e984 0x0045e984 19  20   .rodata ascii   AIDetectState::None
+180 0x0005e998 0x0045e998 25  26   .rodata ascii   config/ai_app_config.json
+181 0x0005e9b4 0x0045e9b4 36  37   .rodata ascii   read json file failed, file path: %s
+182 0x0005e9dc 0x0045e9dc 13  14   .rodata ascii   CavityCamDirt
+183 0x0005e9ec 0x0045e9ec 6   7    .rodata ascii   Enable
+184 0x0005e9f4 0x0045e9f4 7   8    .rodata ascii   movePos
+185 0x0005e9fc 0x0045e9fc 16  17   .rodata ascii   ForeignPlateform
+186 0x0005ea10 0x0045ea10 13  14   .rodata ascii   NozzleCamDirt
+187 0x0005ea28 0x0045ea28 6   7    .rodata ascii   FlowPA
+188 0x0005ea30 0x0045ea30 6   7    .rodata ascii   FlowEM
+189 0x0005ea38 0x0045ea38 5   6    .rodata ascii   Fault
+190 0x0005ea40 0x0045ea40 4   5    .rodata ascii   Warp
+191 0x0005ea48 0x0045ea48 5   6    .rodata ascii   Waste
+192 0x0005ea50 0x0045ea50 7   8    .rodata ascii   Foreign
+193 0x0005ea58 0x0045ea58 9   10   .rodata ascii   Plateform
+194 0x0005ea64 0x0045ea64 6   7    .rodata ascii   QrCode
+195 0x0005ea6c 0x0045ea6c 30  31   .rodata ascii   nozzle: %d, %d, %d, %d, %d, %d
+196 0x0005ea8c 0x0045ea8c 37  38   .rodata ascii   Invalid string format for Point3i: %s
+197 0x0005eab4 0x0045eab4 19  20   .rodata ascii   bedSize: %d, %d, %d
+198 0x0005eac8 0x0045eac8 40  41   .rodata ascii   ai_engine_app.init() already initialized
+199 0x0005eaf4 0x0045eaf4 23  24   .rodata ascii   get_sn_mac.sh model_str
+200 0x0005eb0c 0x0045eb0c 31  32   .rodata ascii   GET_SYS_DEVICE_MODEL_STR failed
+201 0x0005eb2c 0x0045eb2c 14  15   .rodata ascii   device_str: %s
+202 0x0005eb3c 0x0045eb3c 49  50   .rodata ascii   ai_engine_app.init() success, Library version: %s
+203 0x0005eb70 0x0045eb70 21  22   .rodata ascii   get_sn_mac.sh bedsize
+204 0x0005eb88 0x0045eb88 19  20   .rodata ascii   GET_BED_SIZE failed
+205 0x0005eb9c 0x0045eb9c 17  18   .rodata ascii   1.0.12.1.20250826
+206 0x0005ebb0 0x0045ebb0 37  38   .rodata ascii   CX_AI_APPlication Project Version: %s
+207 0x0005ebd8 0x0045ebd8 28  29   .rodata ascii   Type mismatch: expected Bool
+208 0x0005ebf8 0x0045ebf8 44  45   .rodata ascii   JsonAccessor::getValue: failed to get value.
+209 0x0005ec28 0x0045ec28 31  32   .rodata ascii   Type mismatch: expected Integer
+210 0x0005ec48 0x0045ec48 29  30   .rodata ascii   Type mismatch: expected Array
+211 0x0005ec68 0x0045ec68 15  16   .rodata ascii   vector::reserve
+212 0x0005ecc0 0x0045ecc0 9   10   .rodata ascii   flowEMRun
+213 0x0005eccc 0x0045eccc 21  22   .rodata ascii   AI_DetectStateManager
+214 0x0005ece4 0x0045ece4 13  14   .rodata ascii   stopAppThread
+215 0x0005ecf4 0x0045ecf4 21  22   .rodata ascii   platformForeignThread
+216 0x0005ed20 0x0045ed20 9   10   .rodata ascii   8Observer
+217 0x0005ed34 0x0045ed34 15  16   .rodata ascii   13ai_engine_app
+218 0x0005ed50 0x0045ed50 92  93   .rodata ascii   NSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvRSt6atomicIbEEPS3_S6_EEEEEE
+219 0x0005edbc 0x0045edbc 77  78   .rodata ascii   NSt6thread11_State_implINS_8_InvokerISt5tupleIJM13ai_engine_appFvvEPS3_EEEEEE
+220 0x0005eeb7 0x0045eeb7 17  18   .rodata ascii   B33s?setitimer %s
+221 0x0005eecc 0x0045eecc 103 104  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/cpu_memory/cpu_monitor.cpp
+222 0x0005ef34 0x0045ef34 35  36   .rodata ascii   current_cpu:%ld - current_total:%ld
+223 0x0005ef58 0x0045ef58 30  31   .rodata ascii   cpu_diff:%ld -- total_diff:%ld
+224 0x0005ef78 0x0045ef78 30  31   .rodata ascii   CPU overload: %.2f%% > %.2f%%\n
+225 0x0005ef98 0x0045ef98 28  29   .rodata ascii   cpu monitor has been stopped
+226 0x0005efc7 0x0045efc7 18  19   .rodata ascii   A/proc/self/status
+227 0x0005efdc 0x0045efdc 12  13   .rodata ascii   VmRSS: %u kB
+228 0x0005efec 0x0045efec 24  25   .rodata ascii   Memory threshold is NULL
+229 0x0005f008 0x0045f008 106 107  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/cpu_memory/memory_monitor.cpp
+230 0x0005f074 0x0045f074 14  15   .rodata ascii   memory_monitor
+231 0x0005f084 0x0045f084 43  44   .rodata ascii   memory consumption:%lu KB--threshold:%lu KB
+232 0x0005f0b0 0x0045f0b0 33  34   .rodata ascii   Memory overflow: %lu KB > %lu KB\n
+233 0x0005f0d4 0x0045f0d4 24  25   .rodata ascii   Memory allocation failed
+234 0x0005f0f0 0x0045f0f0 29  30   .rodata ascii   Input memory threshold:%lu MB
+235 0x0005f110 0x0045f110 31  32   .rodata ascii   Memory monitor has been stopped
+236 0x0005f130 0x0045f130 33  34   .rodata ascii   parse fail, get unknown param: %s
+237 0x0005f154 0x0045f154 103 104  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/gcode_param/gcodeParam.cpp
+238 0x0005f1bc 0x0045f1bc 4   5    .rodata ascii   stof
+239 0x0005f1c4 0x0045f1c4 4   5    .rodata ascii   stod
+240 0x0005f1cc 0x0045f1cc 31  32   .rodata ascii   open file %s failed, errno = %d
+241 0x0005f1ec 0x0045f1ec 23  24   .rodata ascii   mmap failed, errno = %d
+242 0x0005f20c 0x0045f20c 27  28   .rodata ascii   )((\d+\.?\d+)(,\d+\.?\d+)*)
+243 0x0005f22c 0x0045f22c 22  23   .rodata ascii   (BED_TEMP=)(\d+\.?\d+)
+244 0x0005f244 0x0045f244 14  15   .rodata ascii   %s can't find.
+245 0x0005f258 0x0045f258 12  13   .rodata ascii   )(\d+\.?\d+)
+246 0x0005f284 0x0045f284 5   6    .rodata ascii   alert
+247 0x0005f28c 0x0045f28c 9   10   .rodata ascii   backspace
+248 0x0005f29c 0x0045f29c 7   8    .rodata ascii   newline
+249 0x0005f2a4 0x0045f2a4 12  13   .rodata ascii   vertical-tab
+250 0x0005f2b4 0x0045f2b4 9   10   .rodata ascii   form-feed
+251 0x0005f2c0 0x0045f2c0 15  16   .rodata ascii   carriage-return
+252 0x0005f314 0x0045f314 16  17   .rodata ascii   exclamation-mark
+253 0x0005f328 0x0045f328 14  15   .rodata ascii   quotation-mark
+254 0x0005f338 0x0045f338 11  12   .rodata ascii   number-sign
+255 0x0005f344 0x0045f344 11  12   .rodata ascii   dollar-sign
+256 0x0005f350 0x0045f350 12  13   .rodata ascii   percent-sign
+257 0x0005f360 0x0045f360 9   10   .rodata ascii   ampersand
+258 0x0005f36c 0x0045f36c 10  11   .rodata ascii   apostrophe
+259 0x0005f378 0x0045f378 16  17   .rodata ascii   left-parenthesis
+260 0x0005f38c 0x0045f38c 17  18   .rodata ascii   right-parenthesis
+261 0x0005f3a0 0x0045f3a0 8   9    .rodata ascii   asterisk
+262 0x0005f3ac 0x0045f3ac 9   10   .rodata ascii   plus-sign
+263 0x0005f3b8 0x0045f3b8 5   6    .rodata ascii   comma
+264 0x0005f3c0 0x0045f3c0 6   7    .rodata ascii   hyphen
+265 0x0005f3c8 0x0045f3c8 6   7    .rodata ascii   period
+266 0x0005f3d0 0x0045f3d0 4   5    .rodata ascii   zero
+267 0x0005f3dc 0x0045f3dc 5   6    .rodata ascii   three
+268 0x0005f3e4 0x0045f3e4 4   5    .rodata ascii   four
+269 0x0005f3ec 0x0045f3ec 4   5    .rodata ascii   five
+270 0x0005f3f8 0x0045f3f8 5   6    .rodata ascii   seven
+271 0x0005f400 0x0045f400 5   6    .rodata ascii   eight
+272 0x0005f408 0x0045f408 4   5    .rodata ascii   nine
+273 0x0005f410 0x0045f410 9   10   .rodata ascii   semicolon
+274 0x0005f41c 0x0045f41c 14  15   .rodata ascii   less-than-sign
+275 0x0005f42c 0x0045f42c 11  12   .rodata ascii   equals-sign
+276 0x0005f438 0x0045f438 17  18   .rodata ascii   greater-than-sign
+277 0x0005f44c 0x0045f44c 13  14   .rodata ascii   question-mark
+278 0x0005f45c 0x0045f45c 13  14   .rodata ascii   commercial-at
+279 0x0005f46c 0x0045f46c 18  76   .rodata utf32le ACDFHIJKLPQTUVWXYZ
+280 0x0005f4b8 0x0045f4b8 15  16   .rodata ascii   -square-bracket
+281 0x0005f4c8 0x0045f4c8 9   10   .rodata ascii   backslash
+282 0x0005f4d4 0x0045f4d4 20  21   .rodata ascii   right-square-bracket
+283 0x0005f4ec 0x0045f4ec 10  11   .rodata ascii   circumflex
+284 0x0005f4f8 0x0045f4f8 10  11   .rodata ascii   underscore
+285 0x0005f504 0x0045f504 12  13   .rodata ascii   grave-accent
+286 0x0005f514 0x0045f514 10  44   .rodata utf32le bcfijopquw
+287 0x0005f540 0x0045f540 14  15   .rodata ascii   -curly-bracket
+288 0x0005f550 0x0045f550 13  14   .rodata ascii   vertical-line
+289 0x0005f560 0x0045f560 19  20   .rodata ascii   right-curly-bracket
+290 0x0005f574 0x0045f574 5   6    .rodata ascii   tilde
+291 0x0005f580 0x0045f580 5   6    .rodata ascii   alnum
+292 0x0005f588 0x0045f588 5   6    .rodata ascii   alpha
+293 0x0005f590 0x0045f590 5   6    .rodata ascii   blank
+294 0x0005f598 0x0045f598 5   6    .rodata ascii   cntrl
+295 0x0005f5a0 0x0045f5a0 5   6    .rodata ascii   digit
+296 0x0005f5a8 0x0045f5a8 5   6    .rodata ascii   graph
+297 0x0005f5b0 0x0045f5b0 5   6    .rodata ascii   lower
+298 0x0005f5b8 0x0045f5b8 5   6    .rodata ascii   print
+299 0x0005f5c0 0x0045f5c0 5   6    .rodata ascii   punct
+300 0x0005f5c8 0x0045f5c8 5   6    .rodata ascii   upper
+301 0x0005f5d0 0x0045f5d0 6   7    .rodata ascii   xdigit
+302 0x0005f5d8 0x0045f5d8 7   8    .rodata ascii   MINX = 
+303 0x0005f5e0 0x0045f5e0 5   6    .rodata ascii   MINX:
+304 0x0005f5e8 0x0045f5e8 7   8    .rodata ascii   MINY = 
+305 0x0005f5f0 0x0045f5f0 5   6    .rodata ascii   MINY:
+306 0x0005f5f8 0x0045f5f8 7   8    .rodata ascii   MAXX = 
+307 0x0005f600 0x0045f600 5   6    .rodata ascii   MAXX:
+308 0x0005f608 0x0045f608 7   8    .rodata ascii   MAXY = 
+309 0x0005f610 0x0045f610 5   6    .rodata ascii   MAXY:
+310 0x0005f618 0x0045f618 24  25   .rodata ascii   ; filament_flow_ratio = 
+311 0x0005f634 0x0045f634 26  27   .rodata ascii   START_PRINT EXTRUDER_TEMP=
+312 0x0005f650 0x0045f650 6   7    .rodata ascii   M104 S
+313 0x0005f658 0x0045f658 10  11   .rodata ascii    BED_TEMP=
+314 0x0005f664 0x0045f664 6   7    .rodata ascii   M140 S
+315 0x0005f66c 0x0045f66c 18  19   .rodata ascii   ;Outer Wall Speed:
+316 0x0005f680 0x0045f680 21  22   .rodata ascii   ; outer_wall_speed = 
+317 0x0005f698 0x0045f698 29  30   .rodata ascii   ; external_perimeter_speed = 
+318 0x0005f6b8 0x0045f6b8 25  26   .rodata ascii   ;Outer Wall Acceleration:
+319 0x0005f6d4 0x0045f6d4 28  29   .rodata ascii   ; outer_wall_acceleration = 
+320 0x0005f6f4 0x0045f6f4 36  37   .rodata ascii   ; external_perimeter_acceleration = 
+321 0x0005f71c 0x0045f71c 28  29   .rodata ascii   ;Acceleration to decelerate:
+322 0x0005f73c 0x0045f73c 26  27   .rodata ascii   ; accel_to_decel_factor = 
+323 0x0005f758 0x0045f758 17  18   .rodata ascii   ; layer_height = 
+324 0x0005f76c 0x0045f76c 14  15   .rodata ascii   ;Layer Height:
+325 0x0005f77c 0x0045f77c 26  27   .rodata ascii   ; outer_wall_line_width = 
+326 0x0005f798 0x0045f798 21  22   .rodata ascii   ;Out Wall Line Width:
+327 0x0005f7b0 0x0045f7b0 39  40   .rodata ascii   ; external_perimeter_extrusion_width = 
+328 0x0005f7d8 0x0045f7d8 34  35   .rodata ascii   ; filament_max_volumetric_speed = 
+329 0x0005f7fc 0x0045f7fc 22  23   .rodata ascii   ;Max volumetric speed:
+330 0x0005f814 0x0045f814 25  26   .rodata ascii   ; max_volumetric_speed = 
+331 0x0005f830 0x0045f830 38  39   .rodata ascii   Unexpected end of regex when escaping.
+332 0x0005f858 0x0045f858 50  51   .rodata ascii   Unexpected end of regex when reading control code.
+333 0x0005f88c 0x0045f88c 45  46   .rodata ascii   Unexpected end of regex when ascii character.
+334 0x0005f8bc 0x0045f8bc 25  26   .rodata ascii   vector::_M_default_append
+335 0x0005f8d8 0x0045f8d8 28  29   .rodata ascii   Unexpected escape character.
+336 0x0005f8f8 0x0045f8f8 52  53   .rodata ascii   Unexpected end of regex when in an open parenthesis.
+337 0x0005f930 0x0045f930 33  34   .rodata ascii   Invalid special open parenthesis.
+338 0x0005f954 0x0045f954 49  50   .rodata ascii   Unexpected end of regex when in brace expression.
+339 0x0005f988 0x0045f988 41  42   .rodata ascii   Unexpected character in brace expression.
+340 0x0005f9b4 0x0045f9b4 34  35   .rodata ascii   Unexpected end of character class.
+341 0x0005f9d8 0x0045f9d8 51  52   .rodata ascii   Unexpected end of regex when in bracket expression.
+342 0x0005fa0c 0x0045fa0c 40  41   .rodata ascii   Unexpected character class open bracket.
+343 0x0005fa38 0x0045fa38 38  39   .rodata ascii   Nothing to repeat before a quantifier.
+344 0x0005fac8 0x0045fac8 144 145  .rodata ascii   Number of NFA states exceeds limit. Please use shorter regex string, or use smaller brace expression, or make _GLIBCXX_REGEX_STATE_LIMIT larger.
+345 0x0005fb5c 0x0045fb5c 45  46   .rodata ascii   Unexpected back-reference in polynomial mode.
+346 0x0005fb8c 0x0045fb8c 58  59   .rodata ascii   Back-reference index exceeds current sub-expression count.
+347 0x0005fbc8 0x0045fbc8 52  53   .rodata ascii   Back-reference referred to an opened sub-expression.
+348 0x0005fc00 0x0045fc00 25  26   .rodata ascii   vector::_M_realloc_insert
+349 0x0005fc1c 0x0045fc1c 37  38   .rodata ascii   Unexpected token in brace expression.
+350 0x0005fc44 0x0045fc44 35  36   .rodata ascii   Unexpected end of brace expression.
+351 0x0005fc68 0x0045fc68 34  35   .rodata ascii   Invalid range in brace expression.
+352 0x0005fc8c 0x0045fc8c 24  25   .rodata ascii   Invalid collate element.
+353 0x0005fca8 0x0045fca8 26  27   .rodata ascii   Invalid equivalence class.
+354 0x0005fcc4 0x0045fcc4 24  25   .rodata ascii   Invalid character class.
+355 0x0005fce0 0x0045fce0 125 126  .rodata ascii   Unexpected dash in bracket expression. For POSIX syntax, a dash is not treated literally only when it is at beginning or end.
+356 0x0005fd60 0x0045fd60 36  37   .rodata ascii   Invalid range in bracket expression.
+357 0x0005fd88 0x0045fd88 35  36   .rodata ascii   Character is expected after a dash.
+358 0x0005fdac 0x0045fdac 43  44   .rodata ascii   Unexpected character in bracket expression.
+359 0x0005fdd8 0x0045fdd8 26  27   .rodata ascii   Parenthesis is not closed.
+360 0x0005fdf4 0x0045fdf4 14  15   .rodata ascii   ^$\.*+?()[]{}|
+361 0x0005fe04 0x0045fe04 6   7    .rodata ascii   .[\*^$
+362 0x0005fe0c 0x0045fe0c 12  13   .rodata ascii   .[\()*+?{|^$
+363 0x0005fe1c 0x0045fe1c 7   8    .rodata ascii   .[\*^$\n
+364 0x0005fe24 0x0045fe24 13  14   .rodata ascii   .[\()*+?{|^$\n
+365 0x0005fe90 0x0045fe90 46  47   .rodata ascii   St11_Mutex_baseILN9__gnu_cxx12_Lock_policyE2EE
+366 0x0005fec8 0x0045fec8 51  52   .rodata ascii   St16_Sp_counted_baseILN9__gnu_cxx12_Lock_policyE2EE
+367 0x0005ff08 0x0045ff08 23  24   .rodata ascii   St19_Sp_make_shared_tag
+368 0x0005ff28 0x0045ff28 114 115  .rodata ascii   St23_Sp_counted_ptr_inplaceINSt8__detail4_NFAINSt7__cxx1112regex_traitsIcEEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+369 0x0005ffa8 0x0045ffa8 69  70   .rodata ascii   NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb0EEE
+370 0x0005fff8 0x0045fff8 69  70   .rodata ascii   NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0ELb1EEE
+371 0x00060048 0x00460048 69  70   .rodata ascii   NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1ELb0EEE
+372 0x000600e8 0x004600e8 69  70   .rodata ascii   NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0ELb0EEE
+373 0x00060188 0x00460188 69  70   .rodata ascii   NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb0EEE
+374 0x000601d8 0x004601d8 69  70   .rodata ascii   NSt8__detail11_AnyMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1ELb1EEE
+375 0x00060228 0x00460228 66  67   .rodata ascii   NSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+376 0x00060274 0x00460274 66  67   .rodata ascii   NSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+377 0x000602c0 0x004602c0 66  67   .rodata ascii   NSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+378 0x0006030c 0x0046030c 66  67   .rodata ascii   NSt8__detail12_CharMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+379 0x00060358 0x00460358 69  70   .rodata ascii   NSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb0EEE
+380 0x000603a8 0x004603a8 69  70   .rodata ascii   NSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb0ELb1EEE
+381 0x000603f8 0x004603f8 69  70   .rodata ascii   NSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb0EEE
+382 0x00060448 0x00460448 69  70   .rodata ascii   NSt8__detail15_BracketMatcherINSt7__cxx1112regex_traitsIcEELb1ELb1EEE
+383 0x00060538 0x00460538 9   10   .rodata ascii   127.0.0.1
+384 0x00060544 0x00460544 10  11   .rodata ascii   /websocket
+385 0x00060550 0x00460550 23  24   .rodata ascii   dumb-increment-protocol
+386 0x00060568 0x00460568 27  28   .rodata ascii   task queue not initialized\n
+387 0x00060584 0x00460584 100 101  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/wsKlipper/wsKlipper.cpp
+388 0x000605ec 0x004605ec 27  28   .rodata ascii   no free element, dropping!\n
+389 0x00060608 0x00460608 14  15   .rodata ascii   OOM: dropping\n
+390 0x00060618 0x00460618 23  24   .rodata ascii   insert fail, dropping!\n
+391 0x00060630 0x00460630 22  23   .rodata ascii   LWS minimal ws client\n
+392 0x00060648 0x00460648 16  17   .rodata ascii   lws init failed\n
+393 0x00060660 0x00460660 6   7    .rodata ascii   method
+394 0x00060668 0x00460668 20  21   .rodata ascii   notify_status_update
+395 0x00060680 0x00460680 21  22   .rodata ascii   notify_gcode_response
+396 0x00060698 0x00460698 21  22   .rodata ascii   JSON logic error: %s\n
+397 0x000606b0 0x004606b0 13  14   .rodata ascii   logic error: 
+398 0x000606c0 0x004606c0 23  24   .rodata ascii   JSON runtime error: %s\n
+399 0x000606d8 0x004606d8 21  22   .rodata ascii   Unexpected error: %s\n
+400 0x000606f0 0x004606f0 11  12   .rodata ascii   print_stats
+401 0x000606fc 0x004606fc 5   6    .rodata ascii   state
+402 0x00060704 0x00460704 14  15   .rodata ascii   virtual_sdcard
+403 0x00060714 0x00460714 5   6    .rodata ascii   layer
+404 0x0006071c 0x0046071c 8   9    .rodata ascii   webhooks
+405 0x00060728 0x00460728 8   9    .rodata ascii   toolhead
+406 0x00060734 0x00460734 10  11   .rodata ascii   homed_axes
+407 0x00060740 0x00460740 10  11   .rodata ascii   heater_bed
+408 0x0006074c 0x0046074c 11  12   .rodata ascii   temperature
+409 0x00060758 0x00460758 8   9    .rodata ascii   extruder
+410 0x00060764 0x00460764 6   7    .rodata ascii   result
+411 0x0006076c 0x0046076c 6   7    .rodata ascii   status
+412 0x00060774 0x00460774 6   7    .rodata ascii   params
+413 0x0006077c 0x0046077c 105 106  .rodata ascii   print_state: %s webhook_state: %s homed_axes: %s current_layer: %d bed_curtemp: %f extruder_curtemp: %f \n
+414 0x000607e8 0x004607e8 21  22   .rodata ascii   \n    {\n        "id": 
+415 0x00060800 0x00460800 138 139  .rodata ascii   ,\n        "jsonrpc": "2.0",\n        "method": "printer.gcode.script",\n        "params": {\n            "script":"READ_PRES"\n        }\n    }
+416 0x0006088c 0x0046088c 17  18   .rodata ascii   send code failed\n
+417 0x000608a0 0x004608a0 33  34   .rodata ascii   demand sensor press data timeout\n
+418 0x000608c4 0x004608c4 273 274  .rodata ascii   ,\n        "jsonrpc": "2.0",\n        "method": "printer.objects.query",\n        "params": {\n            "objects": {\n                "heater_bed": ["temperature"],\n                "extruder": ["temperature"]\n            },\n            "response_template": {}\n        }\n    }
+419 0x000609d8 0x004609d8 22  23   .rodata ascii   PRES_DATA_CH0_FTR_WAVE
+420 0x000609f4 0x004609f4 7   8    .rodata ascii   jsonrpc
+421 0x00060a00 0x00460a00 20  21   .rodata ascii   printer.gcode.script
+422 0x00060a18 0x00460a18 6   7    .rodata ascii   script
+423 0x00060a20 0x00460a20 5   6    .rodata ascii   \nM400
+424 0x00060a28 0x00460a28 14  15   .rodata ascii   send code: %s\n
+425 0x00060a38 0x00460a38 53  54   .rodata ascii   Timeout %d seconds waiting for response from Klipper.
+426 0x00060a70 0x00460a70 33  34   .rodata ascii   responseJson is not an object.%s\n
+427 0x00060a98 0x00460a98 18  19   .rodata ascii   send code success\n
+428 0x00060aac 0x00460aac 7   8    .rodata ascii   message
+429 0x00060ab4 0x00460ab4 10  11   .rodata ascii   error: %s\n
+430 0x00060ac0 0x00460ac0 4   5    .rodata ascii   G1 X
+431 0x00060ad0 0x00460ad0 6   7    .rodata ascii    F5000
+432 0x00060ad8 0x00460ad8 7   8    .rodata ascii   G28 y z
+433 0x00060ae0 0x00460ae0 7   8    .rodata ascii   G28 x z
+434 0x00060aec 0x00460aec 5   6    .rodata ascii   G28 y
+435 0x00060af8 0x00460af8 5   6    .rodata ascii   G28 x
+436 0x00060b00 0x00460b00 20  21   .rodata ascii   open file failed: %s
+437 0x00060b18 0x00460b18 5   6    .rodata ascii    \t\r\f\v
+438 0x00060b20 0x00460b20 19  20   .rodata ascii   basic_string::erase
+439 0x00060b38 0x00460b38 23  24   .rodata ascii   send gcode file failed\n
+440 0x00060b50 0x00460b50 20  21   .rodata ascii   JSON parse error: %s
+441 0x00060b68 0x00460b68 20  21   .rodata ascii   Exception caught: %s
+442 0x00060b80 0x00460b80 17  18   .rodata ascii    %d response: %s\n
+443 0x00060b94 0x00460b94 24  25   .rodata ascii   temp query response: %s\n
+444 0x00060bb0 0x00460bb0 37  38   .rodata ascii   \n            {\n                "id": 
+445 0x00060bd8 0x00460bd8 451 452  .rodata ascii   ,\n                "jsonrpc": "2.0",\n                "method": "printer.objects.subscribe",\n                "params": {\n                    "objects": {\n                        "virtual_sdcard": ["layer"],\n                        "print_stats": ["state"],\n                        "webhooks": ["state"],\n                        "toolhead": ["homed_axes"]\n                    },\n                    "response_template": {}\n                }\n            }
+446 0x00060d9c 0x00460d9c 18  19   .rodata ascii   ring create error\n
+447 0x00060db0 0x00460db0 30  31   .rodata ascii   ERROR %d writing to ws socket\n
+448 0x00060dd0 0x00460dd0 27  28   .rodata ascii   WebSocket connection error\n
+449 0x00060dec 0x00460dec 28  29   .rodata ascii   WebSocket connection closed\n
+450 0x00060e0c 0x00460e0c 35  36   .rodata ascii   WebSocket connection wait cancelled
+451 0x00060e30 0x00460e30 21  22   .rodata ascii   JSON parse error: %s\n
+452 0x00060e48 0x00460e48 18  19   .rodata ascii   lws-minimal-client
+453 0x00060f90 0x00460f90 10  11   .rodata ascii   disconnect
+454 0x00061000 0x00461000 21  22   .rodata ascii   N4Json12RuntimeErrorE
+455 0x00061024 0x00461024 19  20   .rodata ascii   N4Json10LogicErrorE
+456 0x00061044 0x00461044 72  73   .rodata ascii   NSt6thread11_State_implINS_8_InvokerISt5tupleIJM9wsKlipperFvvEPS3_EEEEEE
+457 0x0006109c 0x0046109c 117 118  .rodata ascii   St23_Sp_counted_ptr_inplaceINSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESaIS5_ELN9__gnu_cxx12_Lock_policyE2EE
+458 0x00061150 0x00461150 20  21   .rodata ascii   Setup Serial fail 1!
+459 0x00061168 0x00461168 104 105  .rodata ascii   /var/jenkins_home/workspace/IngenicX2600-security-build/solus_prime/creality/obbrecLidar/obbrecLidar.cpp
+460 0x000611d4 0x004611d4 22  23   .rodata ascii   Unsupported data size.
+461 0x000611ec 0x004611ec 19  20   .rodata ascii   Unsupported parity.
+462 0x00061200 0x00461200 22  23   .rodata ascii   Unsupported stop bits.
+463 0x00061218 0x00461218 20  21   .rodata ascii   Setup Serial fail 2!
+464 0x00061230 0x00461230 15  16   .rodata ascii   send frame: %s 
+465 0x00061240 0x00461240 15  16   .rodata ascii   UNKNOWN_COMMAND
+466 0x00061250 0x00461250 21  22   .rodata ascii   Failed to create udev
+467 0x0006126c 0x0046126c 10  11   .rodata ascii   usb_device
+468 0x0006127c 0x0046127c 8   9    .rodata ascii   idVendor
+469 0x00061288 0x00461288 9   10   .rodata ascii   idProduct
+470 0x00061294 0x00461294 28  29   .rodata ascii   Serial device already opened
+471 0x000612b4 0x004612b4 4   5    .rodata ascii   1a86
+472 0x000612bc 0x004612bc 4   5    .rodata ascii   55d3
+473 0x000612c4 0x004612c4 23  24   .rodata ascii   Serial device not found
+474 0x000612dc 0x004612dc 27  28   .rodata ascii   device open fail, name = %s
+475 0x000612f8 0x004612f8 22  23   .rodata ascii   fcntl failed! fcntl=%d
+476 0x00061310 0x00461310 40  41   .rodata ascii   standard input is not a terminal device.
+477 0x0006133c 0x0046133c 13  14   .rodata ascii   Set opt Error
+478 0x0006134c 0x0046134c 28  29   .rodata ascii   Serial Port %s Init success!
+479 0x0006136c 0x0046136c 54  55   .rodata ascii   get_authorize_key failed, receive data size is not 17.
+480 0x000613a4 0x004613a4 37  38   .rodata ascii   The device cannot be used, name = %s\n
+481 0x000613cc 0x004613cc 27  28   .rodata ascii   Read timeout on serial port
+482 0x000613e8 0x004613e8 25  26   .rodata ascii   Read error on serial port
+483 0x00061404 0x00461404 27  28   .rodata ascii   Select error on serial port
+484 0x00061420 0x00461420 36  37   .rodata ascii   The device cannot be used, name = %s
+485 0x00061448 0x00461448 23  24   .rodata ascii   Failed to send command.
+486 0x00061460 0x00461460 20  21   .rodata ascii   receiveFrame failed.
+487 0x00061478 0x00461478 16  17   .rodata ascii   reveive frame: (
+488 0x0006148c 0x0046148c 9   10   .rodata ascii    bytes): 
+489 0x0006149c 0x0046149c 34  35   .rodata ascii   Command failed with status: 0x%02X
+490 0x000614c0 0x004614c0 37  38   .rodata ascii   Failed to send CMD_GET_MODULE_STATUS.
+491 0x000614e8 0x004614e8 28  29   .rodata ascii   Failed to get authorize key.
+492 0x00061508 0x00461508 38  39   .rodata ascii   Failed to send CMD_SET_AUTHORIZE_CODE.
+493 0x00061530 0x00461530 25  26   .rodata ascii   Declassification success!
+494 0x0006154c 0x0046154c 32  33   .rodata ascii   Exposure set successfully to %d\n
+495 0x00061570 0x00461570 23  24   .rodata ascii   Failed to open capture.
+496 0x00061588 0x00461588 21  22   .rodata ascii   CMD_GET_MODULE_STATUS
+497 0x000615a0 0x004615a0 15  16   .rodata ascii   CMD_OPEN_STREAM
+498 0x000615b0 0x004615b0 16  17   .rodata ascii   CMD_CLOSE_STREAM
+499 0x000615c4 0x004615c4 24  25   .rodata ascii   CMD_GET_SOFTWARE_VERSION
+500 0x000615e0 0x004615e0 19  20   .rodata ascii   CMD_GET_CLOUD_FRAME
+501 0x000615f4 0x004615f4 27  28   .rodata ascii   CMD_LIGHT_PLANE_CALIBRATION
+502 0x00061610 0x00461610 18  19   .rodata ascii   CMD_SET_CLOUD_MODE
+503 0x00061624 0x00461624 18  19   .rodata ascii   CMD_GET_CLOUD_MODE
+504 0x00061638 0x00461638 25  26   .rodata ascii   CMD_SET_CLOUD_SPARSE_GEAR
+505 0x00061654 0x00461654 25  26   .rodata ascii   CMD_GET_CLOUD_SPARSE_GEAR
+506 0x00061670 0x00461670 16  17   .rodata ascii   CMD_SET_ROI_AREA
+507 0x00061684 0x00461684 16  17   .rodata ascii   CMD_GET_ROI_AREA
+508 0x00061698 0x00461698 19  20   .rodata ascii   CMD_SET_STREAM_MODE
+509 0x000616ac 0x004616ac 19  20   .rodata ascii   CMD_GET_STREAM_MODE
+510 0x000616c0 0x004616c0 33  34   .rodata ascii   CMD_SET_CURRENT_COORDINATE_SYSTEM
+511 0x000616e4 0x004616e4 32  33   .rodata ascii   CMD_GET_COORDINATE_SYSTEM_CONFIG
+512 0x00061708 0x00461708 26  27   .rodata ascii   CMD_ENTER_OTA_UPGRADE_MODE
+513 0x00061724 0x00461724 16  17   .rodata ascii   CMD_RESET_MODULE
+514 0x00061738 0x00461738 20  21   .rodata ascii   CMD_ONE_KEY_RECOVERY
+515 0x00061750 0x00461750 16  17   .rodata ascii   CMD_LASER_SWITCH
+516 0x00061764 0x00461764 14  15   .rodata ascii   CMD_LED_SWITCH
+517 0x00061774 0x00461774 23  24   .rodata ascii   CMD_SET_EXPOSURE_PARAMS
+518 0x0006178c 0x0046178c 23  24   .rodata ascii   CMD_GET_EXPOSURE_PARAMS
+519 0x000617a4 0x004617a4 19  20   .rodata ascii   CMD_SET_GAIN_PARAMS
+520 0x000617b8 0x004617b8 19  20   .rodata ascii   CMD_GET_GAIN_PARAMS
+521 0x000617cc 0x004617cc 21  22   .rodata ascii   CMD_SET_OTA_FILE_INFO
+522 0x000617e4 0x004617e4 21  22   .rodata ascii   CMD_TRANSFER_OTA_FILE
+523 0x000617fc 0x004617fc 29  30   .rodata ascii   CMD_POINT_CLOUD_SERIAL_CONFIG
+524 0x0006181c 0x0046181c 22  23   .rodata ascii   CMD_GET_IR_SENSOR_TEMP
+525 0x00061834 0x00461834 17  18   .rodata ascii   CMD_GET_MODULE_SN
+526 0x00061848 0x00461848 33  34   .rodata ascii   CMD_GET_MODULE_CALIBRATION_PARAMS
+527 0x0006186c 0x0046186c 26  27   .rodata ascii   CMD_VUQI_SYSTEM_LOG_SWITCH
+528 0x00061888 0x00461888 20  21   .rodata ascii   CMD_MODULE_SELF_TEST
+529 0x000618a0 0x004618a0 32  33   .rodata ascii   CMD_GET_CLOUD_FRAME_SUBPACKAGING
+530 0x000618c4 0x004618c4 17  18   .rodata ascii   CMD_SNAP_IR_IMAGE
+531 0x000618d8 0x004618d8 16  17   .rodata ascii   CMD_GET_IR_IMAGE
+532 0x000618ec 0x004618ec 22  23   .rodata ascii   CMD_GET_AUTHORIZE_CODE
+533 0x00061904 0x00461904 22  23   .rodata ascii   CMD_SET_AUTHORIZE_CODE
+534 0x000619d0 0x004619d0 23  24   .rodata ascii   vector::_M_range_insert
+535 0x00061df0 0x00461df0 16  33   .rodata utf16le ^^^^^^^^^^^^^^^^
+536 0x00061e11 0x00461e11 31  32   .rodata ascii   \v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v
+537 0x00061e31 0x00461e31 63  128  .rodata utf16le xxxxxxxxxxxxxxx쁸쀿쀿쀿쀿쀿쀿쀿쀿쀿쀿쀿쀿쀿쀿쀿‿               砀砀砀砀砀砀砀砀砀砀砀砀砀砀砀砀 blocks=Basic Latin,Hangul Syllables,General Punctuation,CJK Unified Ideographs
+538 0x00061eb1 0x00461eb1 31  32   .rodata ascii   %\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%
+539 0x00061ed1 0x00461ed1 15  31   .rodata utf16le ^^^^^^^^^^^^^^^
+540 0x00061f10 0x00461f10 32  65   .rodata utf16le                 kkkkkkkkkkkkkkkk
+541 0x00061f51 0x00461f51 31  32   .rodata ascii   \f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f
+542 0x00061f90 0x00461f90 33  34   .rodata ascii   ;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;Jx
+543 0x00061ff0 0x00461ff0 32  33   .rodata ascii   \f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*
+544 0x00062011 0x00462011 15  31   .rodata utf16le kkkkkkkkkkkkkkk
+545 0x00062030 0x00462030 33  34   .rodata ascii   ;J;J;J;J;J;J;J;J;J;J;J;J;J;J;J;Jx
+546 0x00062070 0x00462070 16  33   .rodata utf16le eeeeeeeeeeeeeeee
+547 0x000620af 0x004620af 16  33   .rodata utf16le \fwwwwwwwwwwwwwww
+548 0x000620f0 0x004620f0 32  65   .rodata utf16le                 wwwwwwwwwwwwwwww
+549 0x00062210 0x00462210 33  34   .rodata ascii   5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
+550 0x0006228f 0x0046228f 80  162  .rodata utf16le "sssssssssssssss㕳㕊㕊㕊㕊㕊㕊㕊㕊㕊㕊㕊㕊㕊㕊㕊硊磻磻磻磻磻磻磻磻磻磻磻磻磻磻磻嫻娀娀娀娀娀娀娀娀娀娀娀娀娀娀娀⸀⸖⸖⸖⸖⸖⸖⸖⸖⸖⸖⸖⸖⸖⸖⸖ blocks=Basic Latin,CJK Unified Ideographs Extension A,CJK Unified Ideographs,Supplemental Punctuation
+551 0x00062331 0x00462331 15  31   .rodata utf16le qqqqqqqqqqqqqqq
+552 0x00062370 0x00462370 32  65   .rodata utf16le                 qqqqqqqqqqqqqqqq
+553 0x00062490 0x00462490 33  34   .rodata ascii   5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
+554 0x0006250f 0x0046250f 16  33   .rodata utf16le 4fffffffffffffff
+555 0x00062530 0x00462530 33  34   .rodata ascii   5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx

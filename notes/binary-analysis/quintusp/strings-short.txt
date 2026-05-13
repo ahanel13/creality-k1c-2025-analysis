@@ -1,0 +1,1551 @@
+/lib/ld-linux-mipsn8.so.1
+__gmon_start__
+libcjson.so.1
+_DYNAMIC_LINKING
+__RLD_MAP
+_ITM_registerTMCloneTable
+_ITM_deregisterTMCloneTable
+librt.so.1
+cJSON_IsArray
+cJSON_IsObject
+cJSON_IsNumber
+cJSON_IsString
+cJSON_Parse
+cJSON_Delete
+clock_gettime
+cJSON_IsBool
+cJSON_IsTrue
+cJSON_IsNull
+shm_open
+shm_unlink
+cJSON_GetArraySize
+cJSON_GetArrayItem
+libpthread.so.0
+sem_wait
+pthread_mutex_lock
+sem_post
+sem_open
+accept
+recv
+pthread_mutex_unlock
+pthread_mutex_destroy
+sigaction
+pthread_create
+sem_timedwait
+sem_trywait
+read
+pthread_attr_init
+pthread_attr_setstacksize
+pthread_attr_destroy
+pthread_mutex_init
+lseek
+pthread_attr_setdetachstate
+sem_close
+connect
+sem_unlink
+send
+__errno_location
+libc.so.6
+opendir
+vsprintf
+setitimer
+listen
+ioctl
+symlink
+remove
+_exit
+timerfd_create
+gettimeofday
+access
+realpath
+snprintf
+signal
+getrusage
+getpid
+strcmp
+readdir
+fopen
+memset
+memmove
+strcat
+fflush
+strncmp
+system
+strcpy
+closedir
+sleep
+popen
+timerfd_settime
+strstr
+epoll_wait
+ftok
+rename
+munmap
+strtok_r
+fcntl
+strchr
+chmod
+__isoc99_sscanf
+bind
+__isoc99_fscanf
+localtime_r
+fwrite
+__libc_start_main
+strncpy
+sigemptyset
+fprintf
+fgets
+__xstat
+strncat
+socket
+epoll_ctl
+umask
+msgctl
+pclose
+msgget
+getsockopt
+prctl
+epoll_create1
+setsockopt
+fclose
+mkdir
+msgrcv
+ftruncate
+strftime
+__lxstat
+puts
+strerror
+msgsnd
+fileno
+memcpy
+strlen
+strtol
+mmap
+getopt_long
+free
+stdout
+calloc
+optarg
+malloc
+_IO_stdin_used
+stderr
+_ftext
+_fdata
+_edata
+__bss_start
+_fbss
+_end
+GLIBC_2.2
+GLIBC_2.3.3
+GLIBC_2.0
+GLIBC_2.9
+GLIBC_2.28
+GLIBC_2.3
+GLIBC_2.8
+GLIBC_2.3.2
+GLIBC_2.7
+$ [p
+< [d
+< [d
+< [d
+< [d
+$ [d
+< [d
+< [d
+& [b
+$ [b
+<%0@
+<%0@
+T9'	
+ZE$#(
+<p"B$
+P&% 
+$%(`
+&B$@
+<%8@
+B$%(
+'% @
+&% @
+$%0 
+B$lU
+<%8@
+$%0 
+$%0 
+@R&X
+<`%B$
+<%8@
+T$% `
+T$% `
+< 5c$(
+<H5c$,
+<p5c$0
+:B$T
+'86B$^
+$%  
+<%0@
+<%0@
+<%8@
+<%8@
+<%8@
+$%0@
+<%0@
+7B$@
+<%8@
+<06B$ 
+<%8@
+e&% 
+s&%0
+'%(`
+'%0@
+< [D
+D$ [
+D$ [
+D$ [
+<%8@
+GB$@
+ c$!
+<0[P
+<%8@
+<@[C
+'%0 
+<%8@
+<%8@
+<@[C
+<%8@
+<%8@
+'%0@
+D&@[b
+<%8@
+<%8@
+<%8@
+<@[B
+<@[B
+<@[P
+<@["
+&@[ 
+'%8 
+<P[B
+<p"R&
+$% @
+2&% 
+p"R&
+$% @
+2&% 
+p"R&
+$% @
+<P[B
+<%0 
+<P[B
+<%0 
+<P[B
+<%0 
+$%(@
+<P[P
+<%0@
+<%8@
+<%0@
+<%0@
+<@Bc$
+$%  
+$%(@
+$%( 
+<`[B
+'`[B
+'%(`
+<`[P
+<%8@
+<%0@
+<`[C
+<p[B
+<%8@
+<%8@
+<p["
+<%8@
+<%8@
+&&%(
+<p[C
+'%0@
+$p[B
+<%8@
+<%8@
+<%8@
+<%8@
+<p[b
+$p[d
+<p[B
+<p[P
+<((B$ 
+<@(B$(
+4(d$(
+H(d$%
+W08U
+<%8 
+$%0@
+<%8 
+'%8 
+<%8@
+$%(@
+<H)R&L)s&A
+P$%(@
+<%8@
+<%8@
+<%8@
+$%(@
+`*s&% 
+*s&%  
++c$!
+$%  
+<%  
+<%8@
+<%(@
+<%0`
+<%(@
+<%0`
++c$!
+<%0 
+,B$%
+P$%(@
+'% @
+,c$!
+<%8@
+<%8@
+^$H)%&PT
+L)e&PT
+CE$(
+-E$dT
+-d$PT
+<%8@
+<%8@
+H)"&
+L)b&
+<\-B$
+<%8@
+<%8@
+^$% 
+<%8@
+.c$!
+<%8@
+D4G&%0 
+<D4G&
+<%8@
+D4F&8/
+<%8@
+D4F&
+<%8@
+B$<T
+<%8@
+<%8@
+<%8@
+<%8@
+<01d
+'01c$!
+<%8@
+<%8@
+<%8@
+<%8@
+<%8@
+Ve&$
+<%8@
+<%8@
+$%( 
+<%8@
+<%8@
+\2s&L
+B$%0`
+'%(`
+B$%(
+<%8@
+<%8@
+<%0@
+<%0@
+4B$!
+4B$!
+<D9d
+'D9c$!
+<%8@
+<%0@
+<%8@
+2&8U
+3&8U
+$%(`
+<%0@
+3&8U
+$%(@
+<% `
+$%  
+B$o;
+%&A=
+'p=B$
+;s&%(
+1&%0
+<% @
+<% @
+<% @
+<% @
+<%8@
+<%0 
+<l?R&
+x?s&DT
+<,>B$,
+C%&,
+>e$TU
+<! b
+'! b
+=B$A
+'! b
+'! b
+<%8@
+-tB$l
+<%8@
+$%(@
+<%8@
+Cc$!
+&% @
+T$% 
+&%(@
+<%  
+<MJB$\
+B$64
+h&H2c$<
+Cc$!
+<%8@
+<%8@
+<%8@
+<%8@
+B$%(
+<lDD
+lDB$0
+DB$/
+%&XT
+1&%  
+<H2B$
+&%( 
+c$%(@
+<%8@
+<%8@
+<%8@
+ED&A
+lDd&*
+EE&(U
+xED&A
+$%( 
+<%8@
+xEF&
+xED&
+<lDf&
+EF&(E
+<%8@
+EF&8E
+<%8@
+xEF&
+EF&PE
+<xEF&
+$% `
+'%(@
+$%  
+4%  
+<%0@
+<8Ge
+'8Gc$!
+<%8@
+<%8 
+<HGG&xG
+<%  
+HGG&
+EB$A
+Hc$!
+<%8@
+<%8@
+<%8@
+<%8@
+<%8@
+E$&,
+xEd&
+xEd&% @
+$%(@
+E&&lU
+<%8@
+xEf&
+xEd&
+1&%  
+<H2B$(
+&%( 
+c$%(@
+<`Jb$`Jg
+$%  
+c$% @
+B$%0`
+&% @
+<%8@
+<%8@
+<%8@
+<%8@
+B$%0
+<%8@
+<%8@
+<%8@
+<%8@
+<%8@
+<H2B$
+c$%(@
+Mc$!
+<%0@
+<%0@
+<%0@
+<%8@
+<%8@
+0Os&
+MR&(
+<%  
+<%0 
+NB$%0
+Nc$!
+MB$8U
+Nc$!
+<%0@
+<%8@
+<%0@
+<%0@
+<%0@
+<%0@
+<%8@
+<@BB$
+<@BB$
+<%0@
+'%( 
+PP1&
+$%0 
+Init Ui %s init entity fail
+hs_ui_init
+Vectorp Timer
+Add timer fail '%s' (%s)
+Get msgsnd %x fail '%s' (%s)
+Get msgrcv %x fail '%s' (%s)
+UI vectorp ipcmsg init succ (s:(%d <- %u), r:(%d <- %u))
+Recv ipcmsg %u
+Pull msg fail '%s' (%s)
+Push msgid %d fail '%s' (%s)
+Send ipcmsg %u
+Calloc memory fail '%s' (%s)
+hs_ui_vectorp_task_handle
+hs_ui_vectorp_init
+hs_ui_init_entity
+Send command camera ste:(c:%d,n:%d) (cmd:%d)
+OTA state:%d unknown
+Send command OTA ste:%d (cmd:%d)
+AI to UI result type (0x%x) unknow
+Send command AI result:(t:%d,r:%d) (cmd:%d)
+Send command AI status:(t:%d,s:%d) (cmd:%d)
+AI to UI status stage(0x%x) 
+AI to UI msg type (0x%x) unknow
+Send command video info (cmd:%d)
+      Printid: %d (%s <%s>)
+Recv command livestream ste:%d (cmd:%d)
+Recv command Lcd set ste:%d <%d> (cmd:%d)
+Recv command LED set ste:%d <type:%d> (cmd:%d)
+Recv command AI set ste:%d <se:%d,fl:%d,fr:%d,ag:%d> (cmd:%d)
+Recv command Factory set <l:%d,g:%d,v:%d,p:%d> (cmd:%d)
+Recv command Elapse set ste:%d (cmd:%d)
+Recv command Ota (cmd:%d)
+Recv command Camera get (cmd:%d)
+Print: ste:%d, id:%u, ts:%u, pid:%s, gcode:%s(%s) 
+Recv command Print set ste:%d (cmd:%d)
+Unknown command (%x)
+printer
+Config not find "printer":
+Klipper Act
+Socket not connect klippy (%s)
+Socket wait connect successful
+Socket fail '%s' (%s)
+fcntl F_GETFL failed '%s' (%s)
+fcntl F_SETFL failed '%s' (%s)
+Klipper socket connect not set or too long
+Socket connect wait(%s)
+Socket connect to [%s] fail '%s' (%s)
+Socket connect klippy successful
+Printer klipper Socket disconnect(%s)
+Printer klipper Socket I/O fail (%s)
+Klipper Timer
+klipper
+Config not find "klipper":
+connet_path
+Config not find "klipper": {"connet_path":}
+Config "klipper": {"connet_path":} too long (> %d)
+hs_printer_klipper_connet
+hs_printer_klipper_init
+hs_printer_init_entity
+print_stats
+state
+standby
+printing
+paused
+cancelled
+complete
+error
+Not find field:'state'
+virtual_sdcard
+layer
+Not find field:'layer'
+Recv KL: %s
+{"id": %d,  "method": "pause_resume/cancel"}
+%s%s
+{"id": 123,                            "method": "objects/subscribe",                            "params":{"objects":{"virtual_sdcard": ["layer"],                            "print_stats":["state"],                            "webhooks": ["state"]},                            "response_template":{}}}
+Usage: %s -c file -l file ...
+  example: -c xx.conf -l xx.log -V
+  -c --conf       host server config file path
+  -d --dir        home dir (default: none)
+  -l --log        log output file name (default: none)
+  -V --view       show run info (default: none)
+  -h --help       show help
+<-------- Show hostserver info start -------->
+05:47:57
+Aug 26 2025
+Build (%s %s)
+Debug mode is %s
+### Station
+### Activate
+### Timer
+### Hardware
+### Woerker
+<-------- Show hostserver info end -------->
+Set debug flag %s 
+Calloc memory fail (%s)
+c:l:Vh
+disassemble package dest path too loog (>= %d)
+Config file not set
+Init Log fail
+2025-08-26 05:47:56
+===> Build by '%s' on [ %s ] <===
+93181af25b63f0cd237e9a9b5b06deaca8f443de
+===> Git Hash '%s' <===
+Epoll create1 fail (%s)
+Init Config fail
+Init Activate fail
+Init Timer fail
+Init Hal fail
+Init Printer fail
+Init UI fail
+Init Worker fail
+Init UI task fail
+Init Printer task fail
+Epoll fd %d not match (events:%x)
+Epoll ctl del fail '%s' (%s)
+conf
+View
+help
+main_loop
+Station suspend timer fail '%s'
+Push msg to list fail '%s'
+Station resume timer fail '%s'
+Station msg num: (%u:%u)
+Init Msg fail
+Station Timer
+Hostserver station init succ
+hs_station_init
+hs_station_handle
+hs_station_msg_push
+Activate modify invalid %d (%s)
+Epoll ctl modify fail '%s' (%s)
+Activate remove invalid %d (%s)
+Activate insert invalid '%s' (%s)
+Epoll ctl add fail '%s' (%s)
+Act task num: %d
+Act name: '%s', fd: %d, evs:%x
+hs_activate_insert
+hs_activate_remove
+hs_activate_modify
+true
+false
+"%s": 
+null
+Unknown type
+Config no find "%s"
+Config not find "%s"
+Config file not set !
+Config file (%s) ls nonexistent or unreadable
+Open config %s fail (%s)
+Mmap file fail (%s)
+Config file %s not find json root
+%Y-%m-%d %H:%M:%S
+%s.%04d
+[ERROR]
+[DEBUG]
+[ INFO]
+[OTHER]
+%s %s %s
+Open %s fail (%s)
+Timer settime fail '%s' (%s)
+Timer Epoll ctl fail '%s' (%s)
+Timer '%s' unknown origin
+Timer create fail '%s' (%s)
+Timer task %s (fd:%d) awaken timeout (%llu) !!!
+Timer task num: %d
+Timer task %02d name: %s, sta: %x
+hs_timer_add
+hs_timer_suspend
+hs_timer_resume
+hardware
+Config not find "hardware":
+HAL Camera init fail
+HAL LCD init fail
+HAL LED init fail
+HAL UVC init fail
+HAL Uevent init fail
+/dev/jz_adc_wtg_seq1
+HAL powerloss init fail
+Null
+Camera chassis: sta:%d, name:'%s' (%s) 
+Camera nozzle: sta:%d, name:'%s' (%s)
+Video chassis camera: '%s  (%d*%d)'
+Video chassis: ref:%d, act_ref:%d, bugle_num:%d, dqnum:%llu
+Video nozzle camera: '%s  (%d*%d)'
+Video nozzle: ref:%d, act_ref:%d, bugle_num:%d, dqnum:%llu
+LCD info ste:%d, brightness:%d
+LED info ste:%d, (en:%d, gpio:%s)
+chassis_cam[%d]	(%d*%d)	'%s'
+nozzle_cam[%d]	(%d*%d)	'%s'
+get camera info list error, invalid parameter
+'%s' list is empty
+size(%d) too large, max support %d 
+get camera info error, invalid parameter
+productname
+productid
+vendorid
+width
+height
+Config in "cam_chassis" the "productname" value too long
+'hs_hal_cam_get_info' failed, %s[%d]
+cam_chassis
+cam_nozzle
+cmd_gpio get_value %s
+cmd_gpio set_func %s output%d &
+echo %d > %s &
+Cmd '%s' fail (%s)
+lcd_en
+/sys/class/backlight
+%s/%s
+Slink %s to real path fail
+LCD backlight pwd '%s'
+LCD backlight path no find
+%s/max_brightness
+Open %s fail '%s' (%s)
+Read %s is null '%s' (%s)
+%s/brightness
+hs_hal_lcd_get_info
+chassis_led
+Just Powershake, will restore it
+Power shake do open gpio '%s'
+Wait for the power to turn off completely !!!
+Powerloss uevent %x error '%s' (%s)
+Powerloss happened !!!
+Power loss do close gpio '%s'
+Powerloss Timer
+powerloss
+Not find 'powerloss'
+status
+okay
+Powerloss status no enable '%s'
+Offlist
+Powerloss off list is null or nothing
+Power loss off list : %d:%s
+Power loss list has member not a string
+Powerloss act
+Activate add video fail '%s'
+hs_hal_powerloss_task
+hs_hal_powerloss_event_handle
+hs_hal_powerloss_init
+ACTION=
+remove
+change
+DEVPATH=
+SUBSYSTEM=
+video4linux
+get socket fail '%s' (%s)
+bind socket fail '%s' (%s)
+Uevent Act
+hs_hal_uevent_init
+HAL uvc do update
+/sys/bus/usb/drivers/uvcvideo
+%s/video4linux
+%s/interface
+%s/uevent
+fopen %s fail (%s)
+DEVTYPE
+DRIVER
+PRODUCT
+%127[^=]=%127s
+usb_interface
+uvcvideo
+Chassis: '%s' vid:'%x' pid:'%x'
+Nozzle: '%s' vid:'%x' pid:'%x'
+Not match camera '%s' ('%s' '%s' vid:'%x' pid:'%x')
+/dev/video%d
+Camera match succ %s (%s)
+Uvc Timer
+hs_hal_uvc_scan_symlink
+hs_hal_uvc_init
+Video uevent %x error '%s' (%s)
+Video stream stop (Uevent:%x)
+Video VIDIOC_QBUF fail '%s' (%s)
+Video VIDIOC_DQBUF fail '%s' (%s)
+Video error count too >= %d many '%s'
+Video resume VIDIOC_STREAMOFF fail '%s' (%s)
+Video '%s' already close 
+Video resume VIDIOC_STREAMON fail '%s' (%s)
+Video modify Epoll evevnt EPOLLIN fail
+EPOLL modify EPOLLIN
+Video suspend VIDIOC_STREAMOFF fail '%s' (%s)
+Video modify Epoll evevnt noEpollin fail
+Video %s not Open '%s'
+Video ioctl VIDIOC_REQBUFS fail '%s' (%s)
+Video ioctl VIDIOC_QUERYBUF fail '%s' (%s)
+Video buffer mmap fail '%s' (%s)
+Video act
+Video ioctl VIDIOC_STREAMON fail '%s' (%s)
+Video VIDIOC_G_PARM get fail '%s' (%s)
+Video VIDIOC_S_PARM get fail '%s' (%s)
+Video fmt set fail '%s' (%s)
+Video fmt get fail '%s' (%s)
+Video PIX set fail '%s' ('%c%c%c%c' != '%c%c%c%c')
+Video Pix %s (w:%u h:%u)
+Video Fmt: %s (%s)
+width: %d height: %d
+Video %s cannot suport fmt %s
+Video %s cannot suport frmsize %u*%u
+Video ioctl VIDIOC_QUERYCAY fail '%s' (%s)
+Video without capture, this video output device
+Video %s Driver Name: %s
+Video %s Card Name: %s
+Video camera status fail '%s'
+Video camera open fail '%s' (%s)
+Video Camera power ON fail (%s)
+Video Camera power OFF fail (%s)
+hs_hal_video_open
+hs_hal_video_check_iscap
+hs_hal_video_set_fmt
+hs_hal_video_set_streamparm
+hs_hal_video_entity_event
+hs_hal_video_entity_close
+hs_hal_video_start
+hs_hal_video_suspend
+hs_hal_video_resume
+AI status : %d (%u)
+     Config: en:%d, flow:%d, flow_r:%d, sen:%d
+     Gcode:%s
+     Current Video:%s
+     Chassis: ste:%d, snd: %u, lose:%u 
+     Nozzle: ste:%d, snd: %u, lose:%u 
+Print ui status: %d
+Print kl status: %d (ly:%d)
+VLapse status: %d (%d)
+     Config: en:%d, cond:%d
+     Printid: %s
+     Gcode: %s
+     H264 name:%s
+     Print frnum:%d
+Livestream status: %d (%d)
+     send:%d, lose:%d
+WebrtcLocal chassis status: %d
+     Chassis clients num: %d
+WebrtcLocal nozzle status: %d
+     Nozzle clients num: %d
+Video to MP4 count: (%d)
+Chassis Camera loss, do close time lapse video
+Chassis Camera loss, do close AI detect
+Chassis Camera loss, do close webrtc local
+Nozzle Camera loss, do close webrtc local
+Chassis Camera offline
+Chassis Camera online
+will restore AI
+will restore timelapse, act:%d, mp4info id:%d
+will restore chassis webrtc
+Power loss, do close timelapse
+Power loss, do close AI detect
+Power loss, do close chassis webrtc
+Power loss, do close nozzle webrtc
+Delay Close Camera Timer
+hs_worker_delay_close_camera
+Upgrade file not set '%s'
+UI cmd print do prepare printing <%s>
+UI cmd print do prepare paused
+UI cmd print do prepare terminated
+UI cmd print do printing
+UI cmd print do continue <%s>
+UI cmd print do complete or terminated
+UI cmd print do paused
+UI cmd print do resuming
+Time lapse video no find remnant
+/usr/data/videolapse
+Do reset !
+/usr/data/clean_list
+Reset clean add : '%s'
+/usr/data/creality/userdata/video_elapse
+/usr/data/printer_data/gcodes -d
+/usr/data/printer_data/database
+/usr/data/printer_data/logs
+reboot &
+/usr/data/core
+/usr/data/creality/gui
+/usr/data/creality/onyxp
+/usr/data/creality/quintusp
+/usr/data/creality/solusp
+/usr/data/printer_data/config
+/usr/data/printer_data/database/color_box
+/usr/data/printer_data/database/tn_data.json
+/usr/data/printer_data/database/tn_automatic_data.json
+/usr/data/printer_data/database/material_database.json
+/usr/data/upgrade
+/usr/data/wpa_supplicant.conf
+/usr/data/macaddr.txt
+hs_worker_ui_upgrade
+upgcheck.sh
+cfs_iap_upgrade.sh
+/bin/upgchck.sh
+%s %s &> /dev/null && echo "retcode($?)"
+/usr/apps/usr/bin/cfs_iap_upgchck.sh
+Popen '%s' fail (%s)
+device needs to be upgraded
+type=
+0x%x
+cfs_iap_upgcheck.sh : %s
+cfs_iap_upgcheck result: %s
+-t %x 
+/usr/apps/usr/bin/cfs_iap_upgrade.sh
+%s %s -i %s && echo "retcode($?)"
+%s -t %x -i %s -f %s && echo "retcode($?)"
+upgrade command: %s
+retcode(0)
+%s : %s
+%s{"type":%d, "num":%d}%s
+Package file '%s' ls nonexistent or unreadable (%s)
+Power On video fail '%s''
+Open video fail '%s''
+Video check nopass '%s'
+Video get fmt '%s'
+Video set fmt '%s'
+Video set streamparm '%s'
+Video start fail '%s'
+Video request bugle insert fail '%s'
+AI start '%s' successful 
+AI detect result type %x Unknow
+AI detect stage %x Unknow
+Video AI video stream epollhup!
+Video AI cmd chang (%d), stop send stream !
+Video AI Open AI (on:%d,det:%d,gn:%d,sha:%d,fl:%d,flr:%d,sen:%d,gcode:<%s>)
+is powerloss now, skip it
+err exceed max(%d), ai will exit
+====> open %s failed
+Video AI request chassis stream
+Video AI request nozzle stream
+Video AI recv result: Type:%x, res:%d
+Video AI recv status: Type:%x, sta:%d
+Video AI process status error, do ai exit
+AI process timeout ack, so close ai detect !
+Video AI exit (off:%d, pwl:%d)
+      Chassis video:(send:%u, lose:%u, err:%d)
+      Nozzle video:(send:%u, lose:%u, err:%d)
+/ai_shm
+Init shm memory fail '%s' (%s)
+/ai_sem
+Init sem fail '%s' (%s)
+VideoAI Timer
+Hostserver initiative off AI
+hs_worker_open_video_ai
+hs_worker_init_video_ai
+Write '%s' fail '%s' (%s)
+/usr/data/videolapse/lapse.h264
+Open '%s' fail '%s' (%s)
+/usr/data/videolapse/lapse.info
+timelap power loss now
+Failed to create directory: %s (%s)
+/usr/data/videolapse/ready.h264
+Rm old file %s
+Rm file %s fail (%s)
+Rename file %s, (h264file:%s) fail %s
+/usr/data/videolapse/ready.info
+Write video mp4 info to '%s'
+Write video mp4 info to '%s' fail (%s)
+Open video mp4 info to '%s' fail (%s)
+Lapse video no create '%s'
+hs_worker_timelapse_bugle
+hs_worker_init_timelapse_video
+hs_worker_start_timelapse_video
+Video to MP4 cmd (fd:%d) events 0x%x fail (%s)
+Popen cmd to mp4 fail '%s' (%s)
+Timelapse Video %s (frnum:%d, vs:%0.2fMB)
+TimeLapse video h264 to mp4 fail <%s>
+Mp4close Timer
+/usr/data/creality/userdata/video_elapse/video
+mkdir -p %s
+start timelapse video to mp4
+%s/%d.mp4
+/usr/bin/ffmpeg -y -r %d -i %s -c:v copy -an %s &> /dev/null && echo $?
+Popen cmd fileno '%s' failed (%s)
+Popen cmd Fcntl F_GETFL '%s' failed (%s)
+Popen fcntl F_SETFL '%s' failed (%s)
+Into timelapse video to mp4 'cmd_fd:%d'
+ToMp4 act
+Activate add Video2mp4 fail '%s'
+Read video mp4 info to '%s' fail (%s)
+hs_woker_video_tomp4_event
+hs_woker_init_video_tomp4
+P?[%s,%d]:Skip saving frame: not a keyframe
+lose one frame index=%d
+[%s:%d]: Open video failed '%s'
+Video capability check failed '%s'
+Video get format failed '%s'
+Video set format failed '%s'
+Video set stream parameters failed '%s'
+Video start failed '%s'
+/webrtc_shm
+Failed to allocate shared memory for video, name: %s (%s)
+/webrtc_sem
+Token:[%s]
+/tmp/uvc_fifo
+PL:[%s]
+hs_worker_handler_webrtc_cmd_start
+hs_worker_init_video_webrtc
+hostserver unlink %s fail: %s
+open fifo %s for writing fail: %s
+write to fifo %s fail: %s
+open fifo %s for reading fail: %s
+read from fifo %s fail: %s
+send to webrtc start cmd = 0x%02x
+write start cmd fail
+send to webrtc stop cmd = 0x%02x
+write stop cmd fail
+start fifo success
+fifo_stop: write_stop_cmd failed
+stop fifo success
+Webrtc local close video
+Socket accept fail (%s)
+New client connected '%s'
+Socket fcntl get fail (%s)
+Socket fcntl set fail (%s)
+Webrtclient act
+Activate add webetc client fail '%s'
+Webrtc remove client %d 
+Nothing clients connected Webrtc local
+Send video to fail '%s' (%s)
+Webrtc client %d error (%s)
+Webrtc client %d disconnect !
+/tmp/h264_uds_nozzle
+/tmp/h264_uds_chassis
+Socket call fail (%s)
+Socket bind fail (%s)
+Chmod %s fail (%s)
+Socket listen fail (%s)
+Server listening on %s
+Activate add webetc local fail '%s'
+Webrtcser nozzle act
+Webrtcser chassis act
+Do close video webrtc_local 
+Do stop video webrtc_local 
+hs_worker_webrtc_local_bugle
+hs_worker_start_webrtc_local_video
+hs_worker_connect_webrtc_client
+hs_worker_init_video_webrtc_local
+CPU overload: %.2f%% > %.2f%%
+setitimer %s
+/proc/self/status
+VmRSS: %u kB
+Memory threshold is NULL
+memory_monitor
+Memory overflow: %lu KB > %lu KB
+Memory allocation failed
+Input memory threshold:%lu MB
+%h"@
+GCC: (Ingenic Linux-Release5.1.8-Default_xburst2_glibc2.29 Optimize: jr base on 5.1.6 2023.07-18 08:46:58) 7.2.0
+/project/Mips-Toolchain/release_5.x.x-gcc7.2.0/obj/glibc-2017.11-32-mips-linux-gnu-i686-pc-linux-gnu/default/csu/start.o
+hs_main.c
+print_usage
+lopts.6766
+__func__.6786
+crtstuff.c
+deregister_tm_clones
+__do_global_dtors_aux
+completed.6546
+__do_global_dtors_aux_fini_array_entry
+frame_dummy
+__frame_dummy_init_array_entry
+hs_ui.c
+hs_ui_task_init
+hs_ui_task_destory
+hs_ui_msg_handle
+__func__.5439
+hs_ui_vectorp.c
+hs_ui_vectorp_msgpush
+hs_ui_vectorp_sendmsg_transition
+hs_ui_vectorp_init
+hs_ui_vectorp_task_handle
+__func__.5669
+__func__.5654
+__func__.5684
+hs_ui_vectorp_profession.c
+hs_printer.c
+hs_printer_task_init
+hs_printer_task_destory
+hs_printer_msg_handle
+hs_printer_klipper.c
+hs_printer_klipper_msgpush
+hs_printer_klipper_close
+hs_printer_klipper_destory
+hs_printer_klipper_activate
+hs_printer_klipper_event
+hs_printer_klipper_connet
+__func__.5993
+hs_printer_klipper_init
+__func__.6003
+__func__.6015
+hs_printer_klipper_profession.c
+hs_printer_klipper_json_search
+hs_printer_klipper_recv_route.isra.0
+hs_debug.c
+hs_station.c
+__func__.5670
+__func__.5660
+__func__.5678
+hs_activate.c
+pactivate
+__func__.3194
+__func__.3203
+__func__.3207
+hs_comm.c
+hs_conf.c
+hs_json_search
+pconf
+hs_ipcmsg.c
+hs_ipcsem.c
+hs_ipcshm.c
+hs_log.c
+plog
+hs_msg.c
+hs_timer.c
+hs_timer_remove
+__func__.3823
+__func__.3834
+__func__.3841
+hs_hal.c
+hs_hal_audio.c
+hs_hal_camera.c
+hs_hal_cam_get_info_list
+hs_hal_gpio.c
+hs_hal_lcd.c
+hs_hal_lcd_backlight
+hs_hal_lcd_get_info
+__func__.6098
+hs_hal_led.c
+hs_hal_led_ctrl
+hs_hal_powerloss.c
+hs_hal_powerloss_close
+hs_hal_powerloss_shutdown
+hs_hal_powerloss_event_handle
+__func__.5912
+__func__.5922
+__func__.5939
+hs_hal_uevent.c
+hs_hal_uvent_close
+hs_hal_uevent_handle
+__func__.6140
+hs_hal_uvc.c
+hs_hal_uvc_update
+hs_hal_uvc_scan
+__func__.6077
+__func__.6127
+hs_hal_video.c
+hs_hal_video_entity_event
+__func__.5968
+hs_hal_video_entity_close
+__func__.5954
+__func__.5995
+__func__.5999
+__func__.6004
+__func__.6024
+__func__.6032
+__func__.6050
+__func__.6054
+hs_worker.c
+hsworker
+hs_worker_hal.c
+__func__.5682
+hs_worker_print.c
+hs_worker_ui.c
+__func__.6503
+hs_worker_upgrade.c
+hs_worker_upgrade_handle
+hs_worker_video_ai.c
+hs_worker_ai_close
+hs_worker_open_video_ai
+__func__.6477
+hs_worker_ai_bugle
+hs_worker_ai_result_report.isra.5
+hs_worker_ai_status_report.isra.6
+hs_worker_ai_timer_task
+__func__.6497
+hs_worker_video_timelapse.c
+hs_worker_timelapse_close
+hs_worker_timelapse_bugle
+__func__.6071
+__func__.6079
+__func__.6086
+hs_worker_video_tpmp4.c
+hs_worker_video_tomp4_close_task
+hs_woker_video_tomp4_event
+__func__.6045
+__func__.6059
+hs_worker_video_webrtc.c
+hs_worker_webrtc_video_bugle
+__func__.6190
+__func__.6210
+hs_worker_video_webrtc_fifo.c
+hs_worker_video_webrtc_local.c
+hs_worker_webrtc_local_close
+hs_worker_connect_webrtc_client
+__func__.6229
+hs_worker_webrtc_local_bugle
+hs_worker_webrtc_client_event
+hs_worker_webrtc_client_close
+__func__.6264
+__func__.6222
+hs_worker_destory_webrtc_server
+__func__.6289
+cpu_monitor.c
+get_cpu_usage.part.0
+memory_monitor.c
+elf-init.c
+__FRAME_END__
+_PROCEDURE_LINKAGE_TABLE_
+__init_array_end
+_DYNAMIC
+__init_array_start
+setsockopt@@GLIBC_2.0
+__libc_csu_fini
+pthread_mutex_unlock@@GLIBC_2.0
+hs_worker_assign
+hs_worker_assign_to_printer
+setitimer@@GLIBC_2.0
+strstr@@GLIBC_2.0
+hs_printer_init_entity
+sem_wait@@GLIBC_2.2
+hs_activate_insert
+hs_hal_uevent_destory
+hs_worker_ui_ai
+cJSON_IsNull
+strcmp@@GLIBC_2.0
+hs_worker_assign_to_hal
+_DYNAMIC_LINKING
+sem_post@@GLIBC_2.2
+read@@GLIBC_2.0
+pthread_mutex_destroy@@GLIBC_2.0
+_ITM_deregisterTMCloneTable
+hs_station_msg_push
+__isoc99_fscanf@@GLIBC_2.7
+pthread_attr_destroy@@GLIBC_2.0
+hs_msg_init
+fflush@@GLIBC_2.0
+fopen@@GLIBC_2.2
+cJSON_IsNumber
+stderr@@GLIBC_2.0
+_exit@@GLIBC_2.0
+hs_worker_init_video_ai
+memmove@@GLIBC_2.0
+hs_hal_video_suspend
+fifo_write
+hs_ipcsem_get
+free@@GLIBC_2.0
+fifo_read
+hs_worker_close_video_ai
+memcpy@@GLIBC_2.0
+shm_open@@GLIBC_2.2
+hs_timer_add
+hs_worker_print_paused
+hs_worker_init_video_webrtc
+hs_worker_print_abnormal
+hs_msg_destory
+fgets@@GLIBC_2.0
+pthread_mutex_init@@GLIBC_2.0
+_edata
+hs_hal_video_set_fmt
+cJSON_Delete
+hs_printer_klipper_status_dispose
+hs_worker_init_video_webrtc_local
+start_cpu_monitor
+signal@@GLIBC_2.0
+lseek@@GLIBC_2.0
+hs_log_init
+gettimeofday@@GLIBC_2.0
+sleep@@GLIBC_2.0
+hs_timer_resume
+hs_timer_suspend
+hs_worker_view
+hs_hal_video_remove_bugle
+msgctl@@GLIBC_2.2
+sem_close@@GLIBC_2.2
+hs_ipcsem_init
+cJSON_Parse
+pthread_mutex_lock@@GLIBC_2.0
+unlink@@GLIBC_2.0
+hs_timer_handle
+hs_ipcmsg_push
+localtime_r@@GLIBC_2.0
+hs_worker_assign_from_ai
+hs_ipcsem_nowait
+signal_manage
+getsockopt@@GLIBC_2.0
+webrtc_fifo_stop
+hs_conf_destory
+get_total_time
+hs_station_destory
+hs_ipcmsg_get_key
+hs_worker_assign_from_ui
+ioctl@@GLIBC_2.0
+hs_hal_gpio_set
+hs_activate_init
+__xstat@@GLIBC_2.0
+accept@@GLIBC_2.0
+hs_worker_assign_from_printer
+cJSON_GetArraySize
+fwrite@@GLIBC_2.0
+msgrcv@@GLIBC_2.0
+strcat@@GLIBC_2.0
+hs_ui_vectorp_ipcmsg_send_dispose
+strcpy@@GLIBC_2.0
+hs_worker_close_video_webrtc_local
+epoll_ctl@@GLIBC_2.3.2
+getpid@@GLIBC_2.0
+hs_hal_video_set_streamparm
+hs_hal_video_close
+hs_station_handle
+pthread_create@@GLIBC_2.2
+hs_hal_video_resume
+prev_cpu_time
+strtok_r@@GLIBC_2.0
+hs_conf_search_value
+hs_printer_init
+hs_ui_init
+hs_log_destory
+hs_hal_video_open
+hs_ipcsem_del
+malloc@@GLIBC_2.0
+hs_worker_init_timelapse_video
+__data_start
+signal_handle
+hs_hal_gpio_get
+hs_msg_push
+puts@@GLIBC_2.0
+system@@GLIBC_2.0
+hs_woker_video_tomp4_check
+strerror@@GLIBC_2.0
+hs_conf_search_value1
+hs_ipcmsg_pull
+sem_trywait@@GLIBC_2.2
+__gmon_start__
+hs_conf_review
+timerfd_create@@GLIBC_2.8
+hs_printer_klipper_send_notify_subscribe
+__dso_handle
+hs_timer_init
+realpath@@GLIBC_2.3
+hs_worker_print_cancelled
+open@@GLIBC_2.0
+ptimer
+hs_hal_veiw
+_IO_stdin_used
+hs_worker_stop_webrtc
+hs_hal_video_check_iscap
+_fdata
+sem_timedwait@@GLIBC_2.2
+strftime@@GLIBC_2.0
+getopt_long@@GLIBC_2.0
+rename@@GLIBC_2.0
+hs_hal_destory
+hs_hal_camera_destory
+mmap@@GLIBC_2.0
+strchr@@GLIBC_2.0
+hs_timer_show
+hs_station_show
+cJSON_IsTrue
+strlen@@GLIBC_2.0
+hs_worker_ui_lcd
+__libc_start_main@@GLIBC_2.0
+pthread_attr_init@@GLIBC_2.2
+fprintf@@GLIBC_2.0
+hs_ipcmsg_get_max_size
+__RLD_MAP
+hs_printer_klipper_recv_dispose
+hs_worker_close_video_webrtc
+hs_worker_stop_video_webrtc_local
+cJSON_GetArrayItem
+hs_hal_video_get_fmt
+__libc_csu_init
+hs_worker_ui_print
+hs_worker_ui_lapse
+bind@@GLIBC_2.0
+hs_timer_destory
+hs_worker_ui_livestream
+__isoc99_sscanf@@GLIBC_2.7
+memset@@GLIBC_2.0
+hs_worker_print_complete
+fcntl@@GLIBC_2.28
+mkdir@@GLIBC_2.0
+snprintf@@GLIBC_2.0
+hs_worker_assign_to_ai
+hs_worker_close_timelapse_video
+hs_activate_remove
+hs_comm_create_thread_task
+hs_conf_search_attr
+ftruncate@@GLIBC_2.0
+hs_hal_uevent_init
+__errno_location@@GLIBC_2.0
+hs_worker_print_printing
+hs_worker_ui_camera
+strncpy@@GLIBC_2.0
+hs_hal_video_insert_bugle
+fileno@@GLIBC_2.0
+hs_ipcmsg_init
+hs_hal_video_power
+prctl@@GLIBC_2.0
+hs_worker_assign_from_hal
+hs_ipcshm_del
+hs_conf_init
+hs_hal_led_init
+access@@GLIBC_2.0
+stdout@@GLIBC_2.0
+sem_open@@GLIBC_2.2
+__bss_start
+hs_ipcshm_get
+vsprintf@@GLIBC_2.0
+pthread_attr_setstacksize@@GLIBC_2.3.3
+main
+webrtc_check_fifo_exists
+destroy_fifo
+webrtc_fifo_start
+__start
+write_start_cmd
+hs_hal_video_frame_type
+shm_unlink@@GLIBC_2.2
+epoll_wait@@GLIBC_2.3.2
+write_stop_cmd
+hs_worker_exist_camera
+hs_worker_upgrade_do
+hs_worker_start_timelapse_video
+munmap@@GLIBC_2.0
+cJSON_IsBool
+sigemptyset@@GLIBC_2.0
+hs_worker_ui_upgrade
+hs_ipcmsg_get_perm
+popen@@GLIBC_2.2
+readdir@@GLIBC_2.0
+hs_hal_video_start
+hs_ui_init_entity
+hs_hal_lcd_init
+hs_hal_camera_init
+listen@@GLIBC_2.0
+hs_worker_stop_timelapse_video
+hs_worker_start_webrtc
+hs_ui_vectorp_ipcmsg_recv_dispose
+hs_activate_handle
+_ftext
+hs_log_push
+get_cpu_usage
+hs_hal_init
+symlink@@GLIBC_2.0
+sem_unlink@@GLIBC_2.2
+hs_ipcmsg_get_num
+hs_ipcshm_init
+get_cpu_time_v1
+fclose@@GLIBC_2.2
+hs_worker_ui_led
+hs_ipcsem_wait
+ftok@@GLIBC_2.0
+hs_activate_modify
+catch_sig
+timerfd_settime@@GLIBC_2.8
+start_memory_monitor
+remove@@GLIBC_2.0
+hs_ipcsem_post
+get_memory_usage
+msgget@@GLIBC_2.0
+hs_ui_vectorp_destory
+hs_station_init
+cJSON_IsArray
+hs_worker_hal_msg_cam
+hs_hal_powerloss_init
+socket@@GLIBC_2.0
+hs_ipcmsg_get_available_size
+__TMC_END__
+_GLOBAL_OFFSET_TABLE_
+clock_gettime@@GLIBC_2.2
+pstation
+_fbss
+__lxstat@@GLIBC_2.0
+hs_hal_uvc_init
+sigaction@@GLIBC_2.0
+hs_activate_show
+cJSON_IsString
+_ITM_registerTMCloneTable
+cJSON_IsObject
+hs_worker_hal_msg_pwl
+strncmp@@GLIBC_2.0
+getrusage@@GLIBC_2.0
+hs_ipcmsg_del
+hs_worker_ui_reset
+chmod@@GLIBC_2.0
+pthread_attr_setdetachstate@@GLIBC_2.0
+msgsnd@@GLIBC_2.0
+umask@@GLIBC_2.0
+optarg@@GLIBC_2.0
+hs_msg_pull
+hs_printer_klipper_send_cancel_print
+strtol@@GLIBC_2.0
+connect@@GLIBC_2.0
+epoll_create1@@GLIBC_2.9
+recv@@GLIBC_2.0
+hs_activate_destory
+close@@GLIBC_2.0
+closedir@@GLIBC_2.0
+hs_worker_delay_close_camera
+opendir@@GLIBC_2.0
+hs_worker_print_standby
+hs_hal_powerloss_destory
+hs_woker_init_video_tomp4
+prev_total_time
+cpu_threshold
+pclose@@GLIBC_2.2
+send@@GLIBC_2.0
+calloc@@GLIBC_2.0
+hs_ipcsem_timewait
+strncat@@GLIBC_2.0
+.symtab
+.strtab
+.shstrtab
+.interp
+.note.ABI-tag
+.MIPS.abiflags
+.reginfo
+.dynamic
+.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rel.dyn
+.rel.plt
+.init
+.text
+.fini
+.rodata
+.eh_frame
+.init_array
+.fini_array
+.got.plt
+.data
+.rld_map
+.got
+.sdata
+.bss
+.comment
+.pdr
+.debug_frame
+.gnu.attributes
+.mdebug.abi32

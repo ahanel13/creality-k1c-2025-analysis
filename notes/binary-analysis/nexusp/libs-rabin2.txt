@@ -1,0 +1,13 @@
+[Linked libraries]
+libm.so.6
+libuuid.so.1
+libsqlite3.so.0
+libzip.so.5
+libpng16.so.16
+libpthread.so.0
+librt.so.1
+libssl.so.1.1
+libcrypto.so.1.1
+libc.so.6
+
+10 libraries

@@ -1,0 +1,4 @@
+[Linked libraries]
+libc.so.6
+
+1 library
