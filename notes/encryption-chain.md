@@ -60,12 +60,14 @@ run_creality_service()       ← /etc/appetc/init.d/CS??* (runs as creality user
 
 - **What:** Squashfs containing `/usr/deplibs` (main rootfs, signed by Creality)
 - **Where:** `mmcblk0p7`
-- **How verified:** Full `SC_CMD_VERIFY` pipeline:
+- **How verified:** Full `SC_CMD_VERIFY` pipeline (input buffer = 2048 bytes from mmcblk0p1):
   1. eFuse bits 21/22/23 must be burned (production enforcement)
-  2. Magic header `SCBT` at offset 0x000
-  3. AES decrypt of body (offsets 0x200–0x5fc fed to hardware AES engine)
-  4. RSA-2048 signature check (software bignum; modulus at offset 0x3900 is **caller-supplied**)
+  2. Magic header `SCBT` at input[0x000]
+  3. AES DMA: `input[0x200]` = physical RAM address of firmware image; AES engine reads from that address
+  4. RSA-2048: modulus at `input[0x300]` (→ MMIO+0x3900), signature at `input[0x500]` (→ MMIO+0x3b00) — **both caller-supplied**
 - **Brick risk:** This runs at every boot. If verification fails → `halt`.
+- **Note:** The SCBT signature block lives on `mmcblk0p1`, not embedded in mmcblk0p7.
+  mmcblk0p7 is raw squashfs (`hsqs`); mmcblk0p1 starts with `SCBThsqs`.
 
 ### Layer 3 — Firmware Update Packages (same pipeline as Layer 2)
 
@@ -94,22 +96,35 @@ run_creality_service()       ← /etc/appetc/init.d/CS??* (runs as creality user
 
 ---
 
-## The RSA Design Flaw
+## The RSA Design Flaw — UPDATED 2026-05-13
 
-The RSA public key modulus is **supplied by the caller in the input buffer** at offset
-`0x3900`. The verifier performs `rsa_public_decrypt(sig, modulus_from_buf, ...)` —
-it does not compare the modulus against any burned-in hardware value.
+The RSA public key modulus is **supplied by the caller in the input buffer** at
+**input offset `0x300`** (which maps to MMIO+0x3900 via the AES copy loop).
+The verifier performs `rsa_public_decrypt(sig, modulus_from_mmio, ...)` using
+caller-supplied values — it does not compare the modulus against any hardware-burned value.
 
-Security therefore depends entirely on eFuse bits 21–23 being set (preventing
-verification from reaching the RSA step without a hardware-burned key commitment).
+Security depends on eFuse bits 21–23 being set on production units (which they are —
+confirmed by the fact that SC_CMD_VERIFY succeeds at every boot and our test showed
+no eFuse error). The eFuse check prevents unauthorized callers from reaching the RSA step.
 
-**Implication:** Once the eFuse check is bypassed (patched module), you can:
+**Confirmed:** eFuse bits ARE burned on this production printer (2026-05-13 test).
+The eFuse check passes in the unpatched original module.
+
+**RSA return value is discarded** (confirmed by disassembly at 0x1614):
+After `jalr $v0` (RSA call), the return value in `$v0` is immediately overwritten by
+`addiu $v0, $s0, 4`. The subsequent check at 0x1624 is a **userspace pointer validity
+check** on the output buffer `$s0`, NOT a check on the RSA result.
+
+**Implication for Option B (self-signing without module patch):**
+On a production printer with burned eFuse, the original unpatched module can be used
+to verify self-signed packages:
 1. Generate your own RSA-2048 keypair
-2. Sign any firmware image with your private key
-3. Embed your public modulus in the input buffer at offset 0x3900
-4. The patched verifier accepts it
+2. Load firmware image into a physical RAM buffer (physical address needed)
+3. Fill SCBT input buffer: modulus at input[0x300], signature at input[0x500], physical address at input[0x200]
+4. Call SC_CMD_VERIFY ioctl directly — RSA result is discarded, eFuse passes naturally
 
-No need to extract or replicate Creality's private signing key.
+The main open question is how to obtain/provide the physical RAM address for
+the DMA step. cmd_sc handles this internally via some pre-loading mechanism.
 
 ---
 

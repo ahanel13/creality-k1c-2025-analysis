@@ -38,6 +38,12 @@
 - **Persistence**: `S999persistence` deployed to `/usr/apps/etc/init.d/` (survives reboot)
 - **Requirements**: LAN access to printer, Python 3, `pip install websocket-client`
 
+**Post-root infrastructure (deployed 2026-05-13):**
+- `reccon` framebuffer recovery console (`/usr/apps/overlay/sbin/reccon`, init `S39console`) — USB keyboard at boot gives a shell before WiFi starts; WiFi-independent recovery path
+- WiFi watchdog (`/usr/data/wifi_watchdog.sh`, launched by `S999persistence`) — polls every 30s, runs `wpa_cli reassociate` + DHCP renewal on disconnect
+- `bssid=` removed from `/usr/data/wpa_supplicant.conf` — connects by SSID only, survives router BSSID changes
+- Persistent SSH host keys (`S49dropbear_keys` + Dropbear restart in `S999persistence`) — stable host fingerprint across reboots; also included in exploit script on `persistent-ssh-keys` branch
+
 ```bash
 python3 k1c-2025-exploit.py --host-ip <YOUR_IP> --printer-ip <PRINTER_IP> \
     --public-key ~/.ssh/id_ecdsa.pub
@@ -103,20 +109,38 @@ Lower priority since Attack 1 already gives root.
 
 ## Status Summary
 
-| Attack                         | Status                     | Dependency          |
-|-------------------------------|----------------------------|---------------------|
-| WebSocket RCE → root SSH      | **Ready to run**           | LAN access          |
-| soc_security.ko patch         | **Code already correct**   | Root SSH first      |
-| UART console                  | Not attempted              | Physical access     |
-| Permission file unlock        | Theoretical (cloud removed)| soc_security patch  |
-| AES key extraction            | Not attempted              | Root SSH first      |
-| Custom firmware flash         | Not attempted              | All above           |
+| Attack                         | Status                          | Dependency          |
+|-------------------------------|----------------------------------|---------------------|
+| WebSocket RCE → root SSH      | **Complete** (2026-04-30)        | LAN access          |
+| Post-root infrastructure      | **Complete** (2026-05-13)        | Root SSH            |
+| soc_security.ko patch         | **Blocked** — MODULE_FLAG_PERMANENT | Root SSH ✓       |
+| Option B: self-sign (no patch)| **Under investigation**          | Root SSH ✓          |
+| UART console                  | Not attempted                    | Physical access     |
+| Permission file unlock        | Theoretical (cloud removed)      | soc_security patch  |
+| AES key extraction            | Not attempted                    | Root SSH ✓          |
+| Custom firmware flash         | Not attempted                    | soc_security patch  |
 
 **Note on patcher bug (soc-security-analysis.md):** The notes say the B_NEXT_MIPS_LE bug needs fixing, but the CURRENT patcher code at `tools/patch_soc_security.py` already uses `NOP_MIPS_LE` for eFuse patches (line 105). The notes are stale. Just regenerate `firmware/sc_patched.ko`:
 ```bash
 pip install pyelftools  # already installed
 python3 tools/patch_soc_security.py
 ```
+
+**New blocker found 2026-05-13 — MODULE_FLAG_PERMANENT:**
+`soc_security.ko` sets `MODULE_FLAG_PERMANENT` in its init code. `rmmod` returns
+`EBUSY` even with refcount=0. `rmmod -f` also blocked (permanent check is prior to
+force-unload path in kernel). Options to work around:
+1. Build a helper `.ko` that calls `find_module("soc_security")` and clears the flag
+2. Investigate Option B (self-sign using original module — eFuse passes on production)
+
+**New findings on SC_CMD_VERIFY input format (2026-05-13):**
+- Input buffer is 2048 bytes (not 15KB as previously believed)
+- RSA modulus is at input[0x300], NOT input[0x3900] (those were MMIO offsets)
+- RSA signature is at input[0x500], NOT input[0x3b00]
+- input[0x200] is a physical RAM address for AES DMA — must be valid or AES hangs
+- mmcblk0p1 is the SCBT signature partition (starts with `SCBThsqs`)
+- `/dev/sc` enforces exclusive single-opener via BSS flag; stuck ioctl requires reboot
+- eFuse bits ARE burned on this production unit (confirmed — eFuse check passes)
 
 **Note on permission file (from binary analysis):** vectorp's root UI is a stub — it sets a flag in JSON config but the cloud API endpoint for receiving the signed permission file was removed by Creality for the 2025 revision. The `check_login_permission()` logic in `seed.sh` still works but requires a forged permission file (needs soc_security.ko bypass). SSH key auth via S999persistence already bypasses this entirely.
 

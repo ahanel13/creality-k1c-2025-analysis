@@ -97,16 +97,60 @@ On every `/dev/sc` open, loads 24 bytes from `BSS+0x10cc` (= `info + 0xbc`) into
 
 ---
 
-## Input Buffer Layout (for SC_CMD_VERIFY)
+## Input Buffer Layout (for SC_CMD_VERIFY) — CORRECTED 2026-05-13
+
+**Previous layout was wrong.** The buffer is NOT 15 KB. Verified by reading mmcblk0p1
+and tracing the copy loop in sc_ioctl.
+
+The kernel copies exactly **0x800 bytes (2048 bytes)** from userspace via `copy_from_user`.
 
 ```
 offset 0x000 : magic "SCBT" (0x54424353)
-offset 0x200 : AES-encrypted image data (main body)
-offset 0x3900: RSA-2048 modulus (256 bytes = 64 × 4-byte words)
-offset 0x3a00: RSA exponent or padding
-offset 0x3b00: RSA signature ciphertext (256 bytes)
+offset 0x004 : first 0x1fc bytes of the signed data (e.g. squashfs header bytes)
+offset 0x200 : AES DMA physical address — RAM address where firmware image is loaded
+offset 0x204 : (zero in observed sample)
+offset 0x208 : AES DMA size (e.g. 0x800)
+offset 0x20c : (0x800 in observed sample)
+offset 0x210–0x2ff: remaining AES engine config words
+offset 0x300 : RSA-2048 public key modulus (256 bytes, 64 × 4-byte LE words) ← CALLER SUPPLIED
+offset 0x400–0x4fb: RSA exponent padding (zeros)
+offset 0x4fc : RSA public exponent e = 0x00010001 (65537)
+offset 0x500 : RSA signature ciphertext (256 bytes) ← CALLER SUPPLIED
+Total: 0x800 bytes (2048 bytes)
 ```
-Total input: ≥ 0x3c00 bytes (15 KB).
+
+**How input maps to AES MMIO:** The copy loop deposits input[0x200..0x5ff] into AES
+engine MMIO at `input_offset + 0x3600`. So:
+- `input[0x300]` → `MMIO+0x3900` (RSA modulus passed to rsa_public_decrypt)
+- `input[0x500]` → `MMIO+0x3b00` (RSA signature passed to rsa_public_decrypt)
+
+The offsets 0x3900/0x3b00 in the original notes were MMIO offsets, not input buffer offsets.
+
+**mmcblk0p1 is the SCBT signature block** for mmcblk0p7 (deplibs squashfs). The raw
+squashfs on mmcblk0p7 does NOT start with SCBT — it starts with `hsqs`. cmd_sc reads
+the signature from mmcblk0p1 and the physical address of the loaded image, then calls
+SC_CMD_VERIFY. The SCBT block on mmcblk0p1 starts with `SCBThsqs` (SCBT magic
+followed immediately by the squashfs header bytes).
+
+**AES DMA caveat:** `input[0x200]` must be a valid physical RAM address where the
+firmware image has been DMA-loaded. Providing zero or an invalid address causes the
+AES PDMA busy-wait loop to spin forever (uninterruptible D-state hang). Power cycle
+required to recover.
+
+**Observed real values from mmcblk0p1:**
+```
+input[0x000] = 0x54424353 ("SCBT")
+input[0x200] = 0x05ce1000  ← physical RAM address of loaded squashfs
+input[0x208] = 0x00000800  ← size
+input[0x300..0x3ff] = RSA-2048 modulus (Creality's public key)
+input[0x4fc] = 0x00010001  ← e = 65537
+input[0x500..0x5ff] = RSA signature
+```
+
+**sc_open exclusive lock:** `/dev/sc` enforces single-opener via BSS+0x1028 flag.
+sc_open returns -EPERM if already open. sc_release clears the flag. If a process
+hangs inside an ioctl (e.g. stuck AES DMA), the fd cannot be recovered without
+a reboot.
 
 ---
 
