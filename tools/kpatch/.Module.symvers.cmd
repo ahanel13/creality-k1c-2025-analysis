@@ -1,0 +1,1 @@
+cmd_/home/anthony/Documents/Hacking/Creality-K1c-Printer/tools/kpatch/Module.symvers := sed 's/ko$$/o/' /home/anthony/Documents/Hacking/Creality-K1c-Printer/tools/kpatch/modules.order | scripts/mod/modpost     -o /home/anthony/Documents/Hacking/Creality-K1c-Printer/tools/kpatch/Module.symvers -e    -T -

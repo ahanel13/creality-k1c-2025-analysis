@@ -399,3 +399,50 @@ The exploit's `S999persistence` script correctly targets `/etc/appetc/init.d/` w
 8. **Build custom rootfs** → sign with own RSA key → flash mmcblk0p7
    - Requires working eFuse bypass (step 5) and full backup (step 2)
    - See encryption-chain.md for self-signing workflow
+
+---
+
+## Kernel Module Loading — Ingenic-Specific Requirements (2026-05-13)
+
+Building a kernel module for the Ingenic X2600E (kernel 5.10.186) requires FOUR
+binary patches beyond the standard MIPS cross-compiled output:
+
+1. **Vermagic string** — must be exactly `5.10.186 SMP preempt mod_unload MIPS32_R5 32BIT`
+   (no trailing space). Binary-patch the auto-generated R1/R2 string in `.modinfo`.
+
+2. **ELF e_flags** (offset 0x24) — must be `0x70001001` (EF_MIPS_ARCH_32R2).
+   Standard mainline cross-compiler produces `0x50001001`. Binary-patch byte 0x27
+   from `0x50` to `0x70`.
+
+3. **`.note.Linux` section type** — must be `PROGBITS (0x01)`, NOT `NOTE (0x07)`.
+   Ingenic compiler emits it as PROGBITS; mainline GCC emits NOTE. The Ingenic
+   `load_module()` at offset +0xb68 hangs indefinitely if this section is NOTE type.
+   Binary-patch `sh_type` field in the section header.
+
+4. **`.MIPS.abiflags` ISA revision** (byte 3 of section content) — must be `0x05`
+   (MIPS32r5). Standard cross-compiler produces `0x01` (r1). Binary-patch
+   section content byte 3.
+
+**Without all four patches:** `load_module()` hangs at offset +0xb68, acquiring
+`module_mutex` permanently. All subsequent `cat /proc/modules`, `lsmod`, or
+`insmod` calls block indefinitely. `reboot()` syscall also fails to complete
+cleanly because D-state insmod processes cannot be killed. **Power cycle required
+to recover.**
+
+**Diagnostic chain discovered:**
+- insmod SIGSEGV (exit 139) = busybox insmod can't handle MIPS32r2 ELF e_flags
+  → use Python `libc.syscall(4128, ...)` to call init_module() directly
+- `load_module+0xb68` D-state = one of the four patches is wrong
+- Identifying stuck offset: `cat /proc/<pid>/stack` shows `load_module+0xb68/0x2764`
+- Ingenic `load_module()` is 0x2764 bytes (3× standard Linux) — has extra security checks
+
+**Build script** for correct module: `tools/kpatch/Makefile` with post-build
+Python patching. Module source: `tools/kpatch/sc_patch.c`. Load via:
+```python
+import ctypes
+data = open("/usr/data/sc_patch.ko","rb").read()
+libc = ctypes.CDLL("libc.so.6")
+buf = ctypes.create_string_buffer(data, len(data))
+base_str = open("/proc/modules").read()  # get soc_security base
+libc.syscall(4128, buf, ctypes.c_ulong(len(data)), b"base=0xc08a4000")
+```

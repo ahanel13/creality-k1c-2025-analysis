@@ -1,0 +1,1 @@
+cmd_/home/anthony/Documents/Hacking/Creality-K1c-Printer/tools/kpatch/modules.order := {   echo /home/anthony/Documents/Hacking/Creality-K1c-Printer/tools/kpatch/sc_patch.ko; :; } | awk '!x[$$0]++' - > /home/anthony/Documents/Hacking/Creality-K1c-Printer/tools/kpatch/modules.order
