@@ -148,11 +148,21 @@ Options: (a) build a helper `.ko` that clears the flag via `find_module()`, or
 - `/dev/sc` exclusive single-opener via BSS+0x1028. Stuck AES PDMA (tight R-state spin
   loop) survives kill -9. Reboot required to recover. Process shows R not D state.
 
-**Option B current status:** RSA bypass confirmed in principle (return discarded,
-modulus caller-supplied). Blocked on providing a valid live physical address + data
-for the AES DMA. Two unblocking paths:
-1. LD_PRELOAD intercept on cmd_sc at boot to capture live ioctl args
-2. Build helper .ko to clear MODULE_FLAG_PERMANENT → load sc_patched.ko → skip AES issue entirely
+**Option B current status — LD_PRELOAD results (2026-05-13):**
+LD_PRELOAD on cmd_sc confirmed working. Key finding: SC_CMD_VERIFY ALWAYS FAILS
+post-boot because cmd_sc's buffer physical address is not 16-byte aligned (kernel
+alignment check at text+0x1564 rejects it). cmd_sc calls SC_CMD_AES afterward and
+exits 0 regardless. Real verification is a BOOT-TIME ONLY path.
+
+To empirically confirm RSA bypass: need boot-time interception (LD_PRELOAD via init
+script at boot, or helper .ko approach). Helper .ko is faster path.
+
+**LD_PRELOAD library engineering notes:**
+- Required: EF_MIPS_NAN2008 flag (0x400) manually patched into ELF e_flags
+- Required: strip ld.so.1 NEEDED entry with patchelf
+- Required: -nostdlib, raw MIPS O32 syscalls (no libc due to version mismatch)
+- File creation (O_CREAT) blocked in cmd_sc's execution context; O_WRONLY on pre-existing files works
+- `sc_intercept.so` is in `tools/sc_intercept.c` (compiled, tested, working)
 
 See `notes/soc-security-analysis.md` for full details.
 

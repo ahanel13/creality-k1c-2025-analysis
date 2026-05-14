@@ -153,15 +153,36 @@ garbage — the memory was freed and repurposed after cmd_sc completed at boot.
 The physical address in the on-disk mmcblk0p1 is only valid at the moment cmd_sc
 populated it at that boot. It is **not reusable** from a later shell session.
 
+**SC_CMD_VERIFY always fails post-boot (CONFIRMED 2026-05-13):**
+LD_PRELOAD interceptor on cmd_sc captured the live ioctl input buffer post-boot:
+```
+input[0x200] (phys) = 0x?8c7006   ← NOT 16-byte aligned (lower nibble = 6)
+input[0x208] (size) = 0x7e1700    ← 8.26MB actual squashfs data size
+input[0x300] modulus[0] = 0x5c0086 ← Creality RSA public key
+SC_CMD_VERIFY return value = EPERM (-1)
+```
+SC_CMD_VERIFY fails immediately at the alignment check (text+0x1564: `bnez $v1, error`
+where $v1 = phys & 0xf = 6). Post-boot userspace malloc/mmap does NOT guarantee
+physically page-aligned addresses. The printer's boot-time allocation at 0x05ce1000
+was page-aligned; post-boot allocations are not.
+
+cmd_sc calls SC_CMD_AES after SC_CMD_VERIFY fails, which succeeds (ret=0), and
+cmd_sc exits 0 regardless of VERIFY failure. So:
+- SC_CMD_VERIFY is a boot-time-only verification path
+- SC_CMD_AES is the post-boot operational path (decrypts app binaries)
+- To empirically confirm RSA bypass: must intercept cmd_sc AT BOOT TIME
+
+**AES DMA physical address requirements:**
+- Must be non-zero
+- Must be 16-byte aligned (lower 4 bits = 0), ideally page-aligned (4KB)
+- Size of data at that address must match what the firmware encodes (8+ MB for deplibs)
+- AES transfer size comes from WITHIN the data, not from input[0x208]
+
 **AES DMA hang conditions:**
-- Providing zero or an invalid address → PDMA spins forever → D-state hang → reboot required
-- Providing a page-aligned address with wrong data (e.g. zeros or wrong-sized data) →
-  PDMA reads a size field from WITHIN the data at that address (from the squashfs header),
-  determines it needs to process ~90MB, and DMA-reads across dozens of physical pages
-  for minutes. Not a clean hang but effectively a timeout (eventually completes or hangs).
-- Providing a page-aligned address with real squashfs header data (4096 bytes) but the
-  squashfs header encodes `bytes_used` ≈ 97MB → PDMA attempts to read 97MB sequentially
-  from that physical address onward → reads through adjacent pages for minutes.
+- Zero or invalid address → PDMA spins forever → D-state hang → reboot required
+- Small page with real squashfs data → squashfs encodes large `bytes_used` → PDMA reads
+  8+MB sequentially through adjacent physical pages → takes minutes
+- Non-page-aligned address → alignment check fails immediately → EPERM (fast fail, no hang)
 
 **Conclusion:** `input[0x208] = 0x800` is NOT the AES transfer size. The AES engine
 reads the transfer size from within the data at `input[0x200]`. To call SC_CMD_VERIFY

@@ -132,14 +132,29 @@ Providing our own physical page with test data causes the AES PDMA to read the
 squashfs header's `bytes_used` field (~97MB) as the transfer size and spin for
 minutes reading adjacent physical memory.
 
-**To fully confirm Option B, need one of:**
-1. Intercept cmd_sc's live ioctl args (LD_PRELOAD on cmd_sc at boot) to see the
-   exact data at input[0x200] and test RSA key substitution there
-2. Build helper .ko to clear MODULE_FLAG_PERMANENT → load sc_patched.ko → test with
-   cmd_sc normally (bypasses the AES physical address problem entirely)
+**LD_PRELOAD intercept findings (2026-05-13):**
+LD_PRELOAD works on cmd_sc (dynamically linked, uses /lib/ld-linux-mipsn8.so.1).
+Library requirements: EF_MIPS_NAN2008 ELF flag (0x400) must be set, ld.so.1 NEEDED
+entry must be stripped (patchelf), nostdlib with raw MIPS O32 syscalls.
 
-Option 2 (helper .ko + sc_patched.ko) is probably the faster path since it avoids
-the AES physical address complexity altogether.
+Live capture of SC_CMD_VERIFY input buffer from cmd_sc post-boot:
+- physical address: 0x?8c7006 (lower nibble = 6, NOT 16-byte aligned)
+- size: 0x7e1700 (8.26MB — this is the REAL AES transfer size, NOT input[0x208]=0x800)
+- SC_CMD_VERIFY returned EPERM because of alignment check at text+0x1564
+
+**SC_CMD_VERIFY only runs successfully at BOOT TIME:**
+Post-boot userspace malloc/mmap does not guarantee physically page-aligned addresses.
+The kernel alignment check (input[0x200] & 0xf must be 0) always fails post-boot.
+cmd_sc calls SC_CMD_AES after VERIFY fails, succeeds there, and exits 0.
+
+**To confirm RSA bypass empirically, must intercept at boot time:**
+Options:
+1. LD_PRELOAD on cmd_sc via S999persistence / modified init script at boot
+2. Build helper .ko to clear MODULE_FLAG_PERMANENT → load sc_patched.ko (skips all
+   the AES physical address complexity — sc_patched.ko bypasses everything including
+   the alignment check)
+
+Option 2 remains the faster path. Option 1 requires boot-time interception.
 
 ---
 
