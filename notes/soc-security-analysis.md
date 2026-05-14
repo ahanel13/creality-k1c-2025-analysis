@@ -97,16 +97,126 @@ On every `/dev/sc` open, loads 24 bytes from `BSS+0x10cc` (= `info + 0xbc`) into
 
 ---
 
-## Input Buffer Layout (for SC_CMD_VERIFY)
+## Input Buffer Layout (for SC_CMD_VERIFY) — CORRECTED 2026-05-13
+
+**Previous layout was wrong.** The buffer is NOT 15 KB. Verified by reading mmcblk0p1
+and tracing the copy loop in sc_ioctl.
+
+The kernel copies exactly **0x800 bytes (2048 bytes)** from userspace via `copy_from_user`.
 
 ```
 offset 0x000 : magic "SCBT" (0x54424353)
-offset 0x200 : AES-encrypted image data (main body)
-offset 0x3900: RSA-2048 modulus (256 bytes = 64 × 4-byte words)
-offset 0x3a00: RSA exponent or padding
-offset 0x3b00: RSA signature ciphertext (256 bytes)
+offset 0x004 : first 0x1fc bytes of the signed data (e.g. squashfs header bytes)
+offset 0x200 : AES DMA physical address — RAM address where firmware image is loaded
+offset 0x204 : (zero in observed sample)
+offset 0x208 : AES DMA size (e.g. 0x800)
+offset 0x20c : (0x800 in observed sample)
+offset 0x210–0x2ff: remaining AES engine config words
+offset 0x300 : RSA-2048 public key modulus (256 bytes, 64 × 4-byte LE words) ← CALLER SUPPLIED
+offset 0x400–0x4fb: RSA exponent padding (zeros)
+offset 0x4fc : RSA public exponent e = 0x00010001 (65537)
+offset 0x500 : RSA signature ciphertext (256 bytes) ← CALLER SUPPLIED
+Total: 0x800 bytes (2048 bytes)
 ```
-Total input: ≥ 0x3c00 bytes (15 KB).
+
+**How input maps to AES MMIO:** The copy loop deposits input[0x200..0x5ff] into AES
+engine MMIO at `input_offset + 0x3600`. So:
+- `input[0x300]` → `MMIO+0x3900` (RSA modulus passed to rsa_public_decrypt)
+- `input[0x500]` → `MMIO+0x3b00` (RSA signature passed to rsa_public_decrypt)
+
+The offsets 0x3900/0x3b00 in the original notes were MMIO offsets, not input buffer offsets.
+
+**mmcblk0p1 is the SCBT signature block** for mmcblk0p7 (deplibs squashfs). The raw
+squashfs on mmcblk0p7 does NOT start with SCBT — it starts with `hsqs`. cmd_sc reads
+the signature from mmcblk0p1 and the physical address of the loaded image, then calls
+SC_CMD_VERIFY. The SCBT block on mmcblk0p1 starts with `SCBThsqs` (SCBT magic
+followed immediately by the squashfs header bytes).
+
+**AES DMA physical address lifecycle (CRITICAL — 2026-05-13):**
+
+`input[0x200]` is a **physical RAM address** pointing to the encrypted firmware image
+that the AES PDMA engine will process. This address is NOT static — it is the address
+of a temporary buffer that cmd_sc allocates, fills, and frees within a single run.
+
+Confirmed by direct `/dev/mem` read: after a fresh boot, physical `0x05ce1000` (the
+address stored in mmcblk0p1) no longer contains squashfs data. It contained `nhd\xff`
+garbage — the memory was freed and repurposed after cmd_sc completed at boot.
+
+**What cmd_sc does at boot:**
+1. Allocates a working buffer in kernel or userspace memory (physically contiguous)
+2. Reads mmcblk0p7 (encrypted squashfs) into that buffer
+3. Reads the SCBT header from mmcblk0p1
+4. Fills `input[0x200]` with the current physical address of the buffer
+5. Calls SC_CMD_VERIFY ioctl
+6. After ioctl returns, frees the buffer
+
+The physical address in the on-disk mmcblk0p1 is only valid at the moment cmd_sc
+populated it at that boot. It is **not reusable** from a later shell session.
+
+**SC_CMD_VERIFY always fails post-boot (CONFIRMED 2026-05-13):**
+LD_PRELOAD interceptor on cmd_sc captured the live ioctl input buffer post-boot:
+```
+input[0x200] (phys) = 0x?8c7006   ← NOT 16-byte aligned (lower nibble = 6)
+input[0x208] (size) = 0x7e1700    ← 8.26MB actual squashfs data size
+input[0x300] modulus[0] = 0x5c0086 ← Creality RSA public key
+SC_CMD_VERIFY return value = EPERM (-1)
+```
+SC_CMD_VERIFY fails immediately at the alignment check (text+0x1564: `bnez $v1, error`
+where $v1 = phys & 0xf = 6). Post-boot userspace malloc/mmap does NOT guarantee
+physically page-aligned addresses. The printer's boot-time allocation at 0x05ce1000
+was page-aligned; post-boot allocations are not.
+
+cmd_sc calls SC_CMD_AES after SC_CMD_VERIFY fails, which succeeds (ret=0), and
+cmd_sc exits 0 regardless of VERIFY failure. So:
+- SC_CMD_VERIFY is a boot-time-only verification path
+- SC_CMD_AES is the post-boot operational path (decrypts app binaries)
+- To empirically confirm RSA bypass: must intercept cmd_sc AT BOOT TIME
+
+**AES DMA physical address requirements:**
+- Must be non-zero
+- Must be 16-byte aligned (lower 4 bits = 0), ideally page-aligned (4KB)
+- Size of data at that address must match what the firmware encodes (8+ MB for deplibs)
+- AES transfer size comes from WITHIN the data, not from input[0x208]
+
+**AES DMA hang conditions:**
+- Zero or invalid address → PDMA spins forever → D-state hang → reboot required
+- Small page with real squashfs data → squashfs encodes large `bytes_used` → PDMA reads
+  8+MB sequentially through adjacent physical pages → takes minutes
+- Non-page-aligned address → alignment check fails immediately → EPERM (fast fail, no hang)
+
+**Conclusion:** `input[0x208] = 0x800` is NOT the AES transfer size. The AES engine
+reads the transfer size from within the data at `input[0x200]`. To call SC_CMD_VERIFY
+without hanging, you need either:
+1. The actual live buffer address that cmd_sc just set up (intercept mid-execution), OR
+2. Provide exactly the data that cmd_sc would provide (requires understanding the full
+   encryption chain including the hardware AES key)
+
+**Observed real values from mmcblk0p1:**
+```
+input[0x000] = 0x54424353 ("SCBT")
+input[0x004..0x1ff] = first 0x1fc bytes of squashfs (starts with "hsqs")
+input[0x200] = 0x05ce1000  ← physical RAM addr of loaded squashfs (BOOT-TIME ONLY)
+input[0x204] = 0x00000000
+input[0x208] = 0x00000800  ← NOT the AES transfer size (see above)
+input[0x20c] = 0x00000800
+input[0x210] = 0x00000000  ← AES DMA output dest (0 = internal MMIO buffer)
+input[0x300..0x3ff] = RSA-2048 modulus (Creality's public key) ← CALLER SUPPLIED
+input[0x4fc] = 0x00010001  ← RSA public exponent e = 65537
+input[0x500..0x5ff] = RSA signature ← CALLER SUPPLIED
+```
+
+**sc_open exclusive lock:**
+`/dev/sc` enforces single-opener via BSS+0x1028 flag (sc_open returns -EPERM if set).
+sc_release clears it. If a process hangs inside an ioctl (AES PDMA spin), it shows as
+R state (tight poll loop in kernel), NOT D state. kill -9 may not work. Reboot required.
+fuser/proc/fd listing may miss the open fd during the kernel spin (timing issue).
+
+**Two paths to unblock Option B:**
+1. **LD_PRELOAD intercept on cmd_sc** — wrap ioctl() to log the live input buffer
+   at the moment cmd_sc calls SC_CMD_VERIFY at boot. Captures the real physical address
+   and data in use. Requires cmd_sc to be dynamically linked (needs investigation).
+2. **Build helper .ko** — clear MODULE_FLAG_PERMANENT, load sc_patched.ko, test with
+   cmd_sc normally. See MODULE_FLAG_PERMANENT section below.
 
 ---
 
@@ -289,3 +399,50 @@ The exploit's `S999persistence` script correctly targets `/etc/appetc/init.d/` w
 8. **Build custom rootfs** → sign with own RSA key → flash mmcblk0p7
    - Requires working eFuse bypass (step 5) and full backup (step 2)
    - See encryption-chain.md for self-signing workflow
+
+---
+
+## Kernel Module Loading — Ingenic-Specific Requirements (2026-05-13)
+
+Building a kernel module for the Ingenic X2600E (kernel 5.10.186) requires FOUR
+binary patches beyond the standard MIPS cross-compiled output:
+
+1. **Vermagic string** — must be exactly `5.10.186 SMP preempt mod_unload MIPS32_R5 32BIT`
+   (no trailing space). Binary-patch the auto-generated R1/R2 string in `.modinfo`.
+
+2. **ELF e_flags** (offset 0x24) — must be `0x70001001` (EF_MIPS_ARCH_32R2).
+   Standard mainline cross-compiler produces `0x50001001`. Binary-patch byte 0x27
+   from `0x50` to `0x70`.
+
+3. **`.note.Linux` section type** — must be `PROGBITS (0x01)`, NOT `NOTE (0x07)`.
+   Ingenic compiler emits it as PROGBITS; mainline GCC emits NOTE. The Ingenic
+   `load_module()` at offset +0xb68 hangs indefinitely if this section is NOTE type.
+   Binary-patch `sh_type` field in the section header.
+
+4. **`.MIPS.abiflags` ISA revision** (byte 3 of section content) — must be `0x05`
+   (MIPS32r5). Standard cross-compiler produces `0x01` (r1). Binary-patch
+   section content byte 3.
+
+**Without all four patches:** `load_module()` hangs at offset +0xb68, acquiring
+`module_mutex` permanently. All subsequent `cat /proc/modules`, `lsmod`, or
+`insmod` calls block indefinitely. `reboot()` syscall also fails to complete
+cleanly because D-state insmod processes cannot be killed. **Power cycle required
+to recover.**
+
+**Diagnostic chain discovered:**
+- insmod SIGSEGV (exit 139) = busybox insmod can't handle MIPS32r2 ELF e_flags
+  → use Python `libc.syscall(4128, ...)` to call init_module() directly
+- `load_module+0xb68` D-state = one of the four patches is wrong
+- Identifying stuck offset: `cat /proc/<pid>/stack` shows `load_module+0xb68/0x2764`
+- Ingenic `load_module()` is 0x2764 bytes (3× standard Linux) — has extra security checks
+
+**Build script** for correct module: `tools/kpatch/Makefile` with post-build
+Python patching. Module source: `tools/kpatch/sc_patch.c`. Load via:
+```python
+import ctypes
+data = open("/usr/data/sc_patch.ko","rb").read()
+libc = ctypes.CDLL("libc.so.6")
+buf = ctypes.create_string_buffer(data, len(data))
+base_str = open("/proc/modules").read()  # get soc_security base
+libc.syscall(4128, buf, ctypes.c_ulong(len(data)), b"base=0xc08a4000")
+```

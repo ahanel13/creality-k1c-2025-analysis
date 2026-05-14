@@ -38,6 +38,12 @@
 - **Persistence**: `S999persistence` deployed to `/usr/apps/etc/init.d/` (survives reboot)
 - **Requirements**: LAN access to printer, Python 3, `pip install websocket-client`
 
+**Post-root infrastructure (deployed 2026-05-13):**
+- `reccon` framebuffer recovery console (`/usr/apps/overlay/sbin/reccon`, init `S39console`) — USB keyboard at boot gives a shell before WiFi starts; WiFi-independent recovery path
+- WiFi watchdog (`/usr/data/wifi_watchdog.sh`, launched by `S999persistence`) — polls every 30s, runs `wpa_cli reassociate` + DHCP renewal on disconnect
+- `bssid=` removed from `/usr/data/wpa_supplicant.conf` — connects by SSID only, survives router BSSID changes
+- Persistent SSH host keys (`S49dropbear_keys` + Dropbear restart in `S999persistence`) — stable host fingerprint across reboots; also included in exploit script on `persistent-ssh-keys` branch
+
 ```bash
 python3 k1c-2025-exploit.py --host-ip <YOUR_IP> --printer-ip <PRINTER_IP> \
     --public-key ~/.ssh/id_ecdsa.pub
@@ -103,20 +109,62 @@ Lower priority since Attack 1 already gives root.
 
 ## Status Summary
 
-| Attack                         | Status                     | Dependency          |
-|-------------------------------|----------------------------|---------------------|
-| WebSocket RCE → root SSH      | **Ready to run**           | LAN access          |
-| soc_security.ko patch         | **Code already correct**   | Root SSH first      |
-| UART console                  | Not attempted              | Physical access     |
-| Permission file unlock        | Theoretical (cloud removed)| soc_security patch  |
-| AES key extraction            | Not attempted              | Root SSH first      |
-| Custom firmware flash         | Not attempted              | All above           |
+| Attack                         | Status                          | Dependency          |
+|-------------------------------|----------------------------------|---------------------|
+| WebSocket RCE → root SSH      | **Complete** (2026-04-30)        | LAN access          |
+| Post-root infrastructure      | **Complete** (2026-05-13)        | Root SSH            |
+| soc_security.ko patch         | **Blocked** — MODULE_FLAG_PERMANENT | Root SSH ✓       |
+| Option B: self-sign (no patch)| **Under investigation**          | Root SSH ✓          |
+| UART console                  | Not attempted                    | Physical access     |
+| Permission file unlock        | Theoretical (cloud removed)      | soc_security patch  |
+| AES key extraction            | Not attempted                    | Root SSH ✓          |
+| Custom firmware flash         | Not attempted                    | soc_security patch  |
 
 **Note on patcher bug (soc-security-analysis.md):** The notes say the B_NEXT_MIPS_LE bug needs fixing, but the CURRENT patcher code at `tools/patch_soc_security.py` already uses `NOP_MIPS_LE` for eFuse patches (line 105). The notes are stale. Just regenerate `firmware/sc_patched.ko`:
 ```bash
 pip install pyelftools  # already installed
 python3 tools/patch_soc_security.py
 ```
+
+**MODULE_FLAG_PERMANENT blocker (2026-05-13):**
+`soc_security.ko` loads with `[permanent]` flag. `rmmod` and `rmmod -f` both return
+EBUSY. BSS is in vmalloc space — not reachable via `/dev/mem`. `/dev/kmem` absent.
+Options: (a) build a helper `.ko` that clears the flag via `find_module()`, or
+(b) use Option B (self-sign on original module). Neither attempted yet.
+
+**SC_CMD_VERIFY deep dive findings (2026-05-13):**
+- Input buffer: 2048 bytes (not 15KB). Kernel copies 0x800 bytes via copy_from_user.
+- RSA modulus at input[0x300] → MMIO+0x3900. RSA signature at input[0x500] → MMIO+0x3b00.
+- RSA return value is **discarded** at text+0x1614 (confirmed by disassembly).
+  Post-RSA check at text+0x1624 is a userspace pointer validity check, not RSA result check.
+- eFuse bits 21/22/23 ARE burned on this unit (eFuse check passes in original module).
+- input[0x200] = physical RAM address of the AES input data. This is a **transient**
+  boot-time address — cmd_sc allocates, fills, and frees this buffer per-run.
+  The address in on-disk mmcblk0p1 (0x05ce1000) is NOT valid after boot completes
+  (confirmed: `/dev/mem` read shows garbage, not squashfs data).
+- AES transfer size is read from WITHIN the data at input[0x200] (from the squashfs
+  header's `bytes_used` field ≈ 97MB), NOT from input[0x208]=0x800. Providing a small
+  page causes the PDMA to read adjacent physical pages for minutes.
+- `/dev/sc` exclusive single-opener via BSS+0x1028. Stuck AES PDMA (tight R-state spin
+  loop) survives kill -9. Reboot required to recover. Process shows R not D state.
+
+**Option B current status — LD_PRELOAD results (2026-05-13):**
+LD_PRELOAD on cmd_sc confirmed working. Key finding: SC_CMD_VERIFY ALWAYS FAILS
+post-boot because cmd_sc's buffer physical address is not 16-byte aligned (kernel
+alignment check at text+0x1564 rejects it). cmd_sc calls SC_CMD_AES afterward and
+exits 0 regardless. Real verification is a BOOT-TIME ONLY path.
+
+To empirically confirm RSA bypass: need boot-time interception (LD_PRELOAD via init
+script at boot, or helper .ko approach). Helper .ko is faster path.
+
+**LD_PRELOAD library engineering notes:**
+- Required: EF_MIPS_NAN2008 flag (0x400) manually patched into ELF e_flags
+- Required: strip ld.so.1 NEEDED entry with patchelf
+- Required: -nostdlib, raw MIPS O32 syscalls (no libc due to version mismatch)
+- File creation (O_CREAT) blocked in cmd_sc's execution context; O_WRONLY on pre-existing files works
+- `sc_intercept.so` is in `tools/sc_intercept.c` (compiled, tested, working)
+
+See `notes/soc-security-analysis.md` for full details.
 
 **Note on permission file (from binary analysis):** vectorp's root UI is a stub — it sets a flag in JSON config but the cloud API endpoint for receiving the signed permission file was removed by Creality for the 2025 revision. The `check_login_permission()` logic in `seed.sh` still works but requires a forged permission file (needs soc_security.ko bypass). SSH key auth via S999persistence already bypasses this entirely.
 
